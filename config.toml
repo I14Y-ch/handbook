@@ -1,0 +1,60 @@
+baseURL = 'http://example.org/'
+languageCode = 'de-CH'
+title = 'My New Hugo Site'
+
+# Language settings
+contentDir = "content/"
+defaultContentLanguage = "de"
+defaultContentLanguageInSubdir = true
+
+# Language configuration
+[languages]
+[languages.de]
+title = "Handbuch I14Y-Plattform"
+description = "Anleitungen und Informationen zur Interoperabilitätsplattform"
+languageName ="Deutsch"
+contentDir = "content/de"
+weight = 1
+
+[languages.fr]
+title = "Manual I14y.ch"
+description = ""
+languageName ="Français"
+contentDir = "content/fr"
+weight = 2
+
+[languages.it]
+title = "Manuale I14y.ch"
+description = ""
+languageName ="Italian"
+contentDir = "content/it"
+weight = 3
+
+[languages.rm]
+title = "Manuale I14Y"
+description = ""
+languageName ="Rätoromanisch"
+contentDir = "content/rm"
+weight = 4
+
+[languages.en]
+title = "Manual I14y.ch"
+description = "Manual and Information about the interoperability platform"
+languageName ="English"
+contentDir = "content/en"
+weight = 5
+
+[module]
+  proxy = "direct"
+  # uncomment line below for temporary local development of module
+  # replacements = "github.com/google/docsy -> ../../docsy"
+  [module.hugoVersion]
+    extended = true
+    min = "0.73.0"
+  [[module.imports]]
+    path = "github.com/google/docsy"
+    disable = false
+  [[module.imports]]
+    path = "github.com/google/docsy/dependencies"
+    disable = false
+
