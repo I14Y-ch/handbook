@@ -4,7 +4,6 @@
   "repository": "github:google/docsy",
   "scripts": {
     "_cd:docs": "cd userguide &&",
-    "build:dependencies": "npm install postcss-cli",
     "build:preview": "npm run cd:docs build:preview",
     "build:production": "npm run cd:docs build:production",
     "build": "npm run cd:docs build",
@@ -12,11 +11,10 @@
     "check-links:all": "npm run cd:docs check-links:all",
     "check-links": "npm run cd:docs check-links",
     "docs-install": "npm run _cd:docs -- npm install",
-    "get:submodule": "set -x && git submodule update --init ${DEPTH:- --depth 1}",
+    "get:submodule": "git submodule update --init --depth 1",
     "serve": "npm run cd:docs serve",
     "update:pkg:hugo": "npm install --save-exact -D hugo-extended@latest",
     "update:pkg:dep": "npm install --save-exact @fortawesome/fontawesome-free@6 bootstrap@4",
-    "get:submodule": "git submodule update --init --depth 1",
     "_prepare:docsy": "cd themes/docsy && npm install",
     "prepare": "npm run get:submodule && npm run _prepare:docsy"
   },
@@ -26,7 +24,8 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "6.2.0",
-    "bootstrap": "4.6.2"
+    "bootstrap": "4.6.2",
+    "postcss-cli": "^10.1.0"
   },
   "devDependencies": {
     "hugo-extended": "0.104.3"
