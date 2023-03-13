@@ -5,5 +5,5 @@ weight: 10
 type: docs
 ---
 
-Hallo Welt.
+Ein Platzhaltertext. Mit Verlängerung. Und noch mit einer zweiten. Und einer dritten.  
 
