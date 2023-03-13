@@ -5,5 +5,5 @@ weight: 10
 type: docs
 ---
 
-Ein Platzhaltertext.
+Ein Platzhaltertext. Mit Verlängerung. 
 
