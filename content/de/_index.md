@@ -5,5 +5,5 @@ weight: 10
 type: docs
 ---
 
-Hallo Welt.
+Ein Platzhaltertext.
 
