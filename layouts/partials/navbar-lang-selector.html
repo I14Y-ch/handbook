@@ -4,15 +4,15 @@
 	{{- range .Page.AllTranslations }}
 		{{ $translation := . }}
 		{{- range sort $siteLanguages "Weight" "asc" }}
+		{{- if eq $translation.Lang .Lang }}
 		<li>
-			{{- if eq $translation.Lang .Lang }}
-				{{ if eq $pageLang .Lang}}
-					<a class="active" href="{{ $translation.Permalink | relURL }}">{{ upper .Params.languageCode }}</a>
-				{{ else }}
-					<a href="{{ $translation.Permalink | relURL }}">{{ upper .Params.languageCode}}</a>
-				{{ end }}
-			{{- end }}
+			{{ if eq $pageLang .Lang}}
+			<a class="active" href="{{ $translation.Permalink | relURL }}">{{ upper .Params.languageCode }}</a>
+			{{ else }}
+			<a href="{{ $translation.Permalink | relURL }}">{{ upper .Params.languageCode}}</a>
+			{{ end }}
 		</li>
+		{{- end }}
 		{{- end }}
 	{{- end }}
 </ul>
