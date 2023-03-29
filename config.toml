@@ -12,35 +12,40 @@ defaultContentLanguageInSubdir = true
 [languages.de]
 title = "Handbuch I14Y-Plattform"
 description = "Anleitungen und Informationen zur Interoperabilitätsplattform"
-languageName ="Deutsch"
+languageName = "Deutsch"
+languageCode = "de"
 contentDir = "content/de"
 weight = 1
 
 [languages.fr]
 title = "Manual I14y.ch"
 description = ""
-languageName ="Français"
+languageName = "Français"
+languageCode = "fr"
 contentDir = "content/fr"
 weight = 2
 
 [languages.it]
 title = "Manuale I14y.ch"
 description = ""
-languageName ="Italian"
+languageName = "Italian"
+languageCode = "it"
 contentDir = "content/it"
 weight = 3
 
 [languages.rm]
 title = "Manuale I14Y"
 description = ""
-languageName ="Rätoromanisch"
+languageName = "Rätoromanisch"
+languageCode = "rm"
 contentDir = "content/rm"
 weight = 4
 
 [languages.en]
 title = "Manual I14y.ch"
 description = "Manual and Information about the interoperability platform"
-languageName ="English"
+languageName = "English"
+languageCode = "en"
 contentDir = "content/en"
 weight = 5
 

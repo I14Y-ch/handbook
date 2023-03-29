@@ -1,14 +1,13 @@
-.td-sidebar {
-    padding-top: 6em;
+body {
+    margin: 0;
+    word-break: break-word;
+    color: $ob-gray-800;
+    font-size: 1rem;
 }
 
-.td-navbar {
-	background: #FFFFFF;
-	min-height: 4rem;
-	margin: 0;
-    z-index: 32;
-    border-bottom: 5px solid #dc0018;
-    padding-top: 1em;
+
+.td-sidebar {
+    padding-top: 6.5em;
 }
 
 .td-search__input:not(:focus) {
@@ -16,7 +15,7 @@
     }
 
 main.col-12 {
-    padding-top: 7em;
+    padding-top: 7.5em;
 }
 
 aside.d-none {
@@ -64,7 +63,11 @@ summary {
 }
 
 a {
-    color: #dc0018;
+    color: $ob-primary-500;
+
+    &:hover, &:visited {
+        color: $ob-primary-700;
+    }
 }
 
 .table {
@@ -72,6 +75,149 @@ a {
     padding-right: 15%;
 }
 
-.navbar-nav {
-    color: black;
+header {
+    padding: $ob-spacing-default 0;
+}
+
+.navbar.td-navbar {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    background-color: $ob-white;
+    color: $gray-800;
+
+    .navbar-brand {
+        display: flex;
+        flex: auto;
+        flex-direction: row;
+        align-items: center;
+        min-width: 0;
+        padding: $ob-spacing-default;
+
+        .navbar-brand__logo {
+            width: 216px;
+            height: 55px;
+            margin-right: $ob-spacing-default;
+
+            svg {
+                margin: 0;
+            }
+        }
+    
+        .navbar-brand__name {
+            display: block;
+            flex: 1;
+            font-size: 1.65rem;
+            line-height: 34px;
+            font-weight: 300;
+            color: $ob-gray-500;
+            padding-left: $ob-spacing-default;
+            border-left: 1px solid #e5e5e5;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+    }
+
+    .header-controls {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        white-space: nowrap; 
+        padding: $ob-spacing-default;
+        
+        > ul {
+            display: inline-flex;
+            flex-direction: row;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+
+            > li > a {
+                padding: .375rem .75rem;
+                color: $ob-gray-800;
+                background-color: transparent;
+                border: none transparent;
+                border-radius: 0;
+                user-select: none;
+                transition: background-color .25s ease-in-out;
+
+                &.active, &:hover, &:focus {
+                    background-color: $ob-gray-200;
+                }
+            }
+        }
+    }
+
+    .break {
+        flex-basis: 100%;
+        height: 0;
+        border-bottom: 5px solid $ob-venetian-red;
+    }
+
+    .navigation {
+        width: 100%;
+        height: 100%;
+        padding: 0 $ob-spacing-default;
+        background-color: $ob-gray-100;
+        box-shadow: inset 0 -10px 10px -10px $ob-gray-300;
+
+        > nav > ul {
+            padding: 0;
+            margin: 0;
+
+            > li > a {
+                border-right: 1px solid $ob-gray-300;
+                background-color: transparent;
+                color: $ob-gray-800;
+                display: inline-flex;
+                padding: $ob-spacing-default;
+    
+                &.active {
+                    background-color: $ob-white;
+                    font-weight: 600;
+                }
+            }
+        } 
+    }
+}
+
+footer {
+    position: relative;
+    display: flex;
+    flex-flow: column wrap;
+    padding: $ob-spacing-xs $ob-spacing-default !important;
+    border-top: 1px solid $ob-gray-300;
+    background-color: $ob-gray-100;
+    color: $ob-gray-700;
+    font-size: 0.8rem;
+    min-height: unset;
+
+    .footer-item {
+        padding: $ob-spacing-xs 0;
+
+        &.footer-item-info {
+            margin-right: $ob-spacing-default;
+            flex: 1;
+        }
+
+        &.footer-item-links {
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding-left: 0;
+
+            > li {
+                display: list-item;
+
+                > a {
+                    font-weight: 700;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
 }
