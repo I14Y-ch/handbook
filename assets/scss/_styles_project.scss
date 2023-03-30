@@ -12,6 +12,8 @@ body {
 .viewport {
     height: 100vh;
     overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
 
     .layout-header {
         display: flex;
@@ -24,7 +26,6 @@ body {
             position: relative;
             width: 100%;
             background-color: inherit;
-            padding: $ob-spacing-default 0;
             border-bottom: 5px solid $ob-venetian-red;
 
             .header-title {
@@ -143,14 +144,14 @@ body {
                     }
                 }
             }
-
-            width: 100%;
-            padding: 0 $ob-spacing-default;
         }
     }
 
     .layout-wrapper {
-        
+        display: flex;
+        overflow: auto;
+        flex-direction: column;
+        flex: 1 1 auto;
 
         footer {
             position: relative;
