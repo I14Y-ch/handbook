@@ -156,8 +156,8 @@ body {
         footer {
             position: relative;
             display: flex;
-            flex-direction: row;
             flex-flow: column wrap;
+            flex-direction: row;
             padding: $ob-spacing-xs $ob-spacing-default !important;
             border-top: 1px solid $ob-gray-300;
             background-color: $ob-gray-100;
