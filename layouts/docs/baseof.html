@@ -5,10 +5,10 @@
   </head>
   <body class="td-{{ .Kind }}{{ with .Page.Params.body_class }} {{ . }}{{ end }}">
     <div class="viewport">
-      <header>
+      <header class="layout-header">
         {{ partial "navbar.html" . }}
       </header>
-      <div class="container-fluid td-outer">
+      <div class="layout-wrapper">
         <div class="td-main">
           <div class="row flex-xl-nowrap">
             <aside class="col-12 col-md-3 col-xl-2 td-sidebar d-print-none">
@@ -26,8 +26,8 @@
             </main>
           </div>
         </div>
+        {{ partial "footer.html" . }}
       </div>
-      {{ partial "footer.html" . }}
     </div>
     {{ partial "scripts.html" . }}
   </body>

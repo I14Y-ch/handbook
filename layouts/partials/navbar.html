@@ -3,32 +3,36 @@
     (not .Site.Params.ui.navbar_translucent_over_cover_disable)
 -}}
 
-<nav class="js-navbar-scroll navbar navbar-expand navbar-dark
-            {{- if $cover }} td-navbar-cover {{- end }} flex-column flex-md-row td-navbar">
-  <a class="navbar-brand" href="{{ .Site.Home.RelPermalink }}">
-    {{- /**/ -}}
-    <span class="navbar-brand__logo navbar-logo">
-      {{- if ne .Site.Params.ui.navbar_logo false -}}
-        {{ with resources.Get "icons/logo.svg" -}}
-          {{ ( . | minify).Content | safeHTML -}}
-        {{ end -}}
-      {{ end -}}
-    </span>
-    {{- /**/ -}}
-    <span class="navbar-brand__name">
-      {{- .Site.Title -}}
-    </span>
-    {{- /**/ -}}
-  </a>
+<div class="header-wrapper">
+  <div class="header-title">
+    <div class="layout-brand">
+      <a class="layout-logo" href="{{ .Site.Home.RelPermalink }}">
+        {{- /**/ -}}
+        <span class="navbar-brand__logo navbar-logo">
+          {{- if ne .Site.Params.ui.navbar_logo false -}}
+            {{ with resources.Get "icons/logo.svg" -}}
+              {{ ( . | minify).Content | safeHTML -}}
+            {{ end -}}
+          {{ end -}}
+        </span>
+      </a>
+      {{- /**/ -}}
+      <span class="layout-title">
+        <a class="layout-title-link" href="{{ .Site.Home.RelPermalink }}">
+          {{- .Site.Title -}}
+        </a>
+      </span>
+      {{- /**/ -}}
+    </div>
+  </div>
   <div class="header-controls">
     {{ partial "navbar-lang-selector.html" . -}}
   </div>
-  <div class="break"></div>
-  <div class="navigation">
-    <nav>
-      <ul>
-        <li><a class="active" href="{{ .Site.Home.RelPermalink }}">Home</a></li>
-      </ul>
-    </nav>
-  </div>
-</nav>
+</div>
+<div class="layout-navigation">
+  <nav>
+    <ul>
+      <li><a class="active" href="{{ .Site.Home.RelPermalink }}">Home</a></li>
+    </ul>
+  </nav>
+</div>
