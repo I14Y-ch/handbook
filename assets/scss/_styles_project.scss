@@ -153,6 +153,20 @@ body {
         flex-direction: column;
         flex: 1 1 auto;
 
+        .td-main {
+            margin-left: auto;
+            margin-right: auto;
+            padding: $ob-spacing-default $ob-spacing-lg;
+
+            .content-wrapper {
+                max-width: 1440px;
+
+                aside, main {
+                    padding-top: 0;
+                }
+            }
+        }
+
         footer {
             position: relative;
             display: flex;
@@ -201,10 +215,6 @@ body {
 .td-search__input:not(:focus) {
     background:#d5d5d5;
     }
-
-main.col-12 {
-    padding-top: 7.5em;
-}
 
 aside.d-none {
     padding-top: 2.5em;
