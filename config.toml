@@ -58,3 +58,7 @@ weight = 5
     path = "github.com/google/docsy/dependencies"
     disable = false
 
+# Konfiguration für den Diagramm-Generator Mermaid.
+[params.mermaid]
+enable = true
+theme = "base"

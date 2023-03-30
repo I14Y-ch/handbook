@@ -1,7 +1,7 @@
 ---
-title: Zweites Kapitel
-slug: 2-kapitel
-weight: 30
+title: Erstes Kapitel
+slug: 1-kapitel
+weight: 20
 type: docs
 ---
 
