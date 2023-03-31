@@ -1,15 +1,15 @@
 <ul class="language-switcher">
-	{{ $siteLanguages := site.Languages}}
-	{{ $pageLang := .Page.Lang}}
+	{{ $siteLanguages := site.Languages }}
+	{{ $pageLang := .Page.Lang }}
 	{{- range .Page.AllTranslations }}
 		{{ $translation := . }}
 		{{- range sort $siteLanguages "Weight" "asc" }}
 		{{- if eq $translation.Lang .Lang }}
 		<li>
-			{{ if eq $pageLang .Lang}}
+			{{ if eq $pageLang .Lang }}
 			<a class="active" href="{{ $translation.Permalink | relURL }}">{{ upper .Params.languageCode }}</a>
 			{{ else }}
-			<a href="{{ $translation.Permalink | relURL }}">{{ upper .Params.languageCode}}</a>
+			<a href="{{ $translation.Permalink | relURL }}">{{ upper .Params.languageCode }}</a>
 			{{ end }}
 		</li>
 		{{- end }}

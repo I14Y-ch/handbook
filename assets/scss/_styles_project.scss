@@ -102,6 +102,7 @@ body {
                         border-radius: 0;
                         user-select: none;
                         transition: background-color .25s ease-in-out;
+                        cursor: default;
         
                         &.active, &:hover, &:focus {
                             background-color: $ob-gray-200;
