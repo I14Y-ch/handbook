@@ -5,3 +5,9 @@ other = "Office fédéral de la statistique"
 other = "Droits d'usage"
 [legal_link]
 other = "https://www.bfs.admin.ch/bfs/fr/home/ofs/office-federal-statistique/informations-juridiques.html"
+[home_text]
+other = "Home"
+[i14y_text]
+other = "I14Y"
+[i14y_link]
+other = "https://www.i14y.admin.ch/fr/home"

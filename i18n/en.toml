@@ -5,3 +5,9 @@ other = "Federal Statistical Office"
 other = "Terms of use"
 [legal_link]
 other = "https://www.bfs.admin.ch/bfs/en/home/fso/swiss-federal-statistical-office/legal-framework.html"
+[home_text]
+other = "Home"
+[i14y_text]
+other = "I14Y"
+[i14y_link]
+other = "https://www.i14y.admin.ch/en/home"

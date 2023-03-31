@@ -5,3 +5,9 @@ other = "Bundesamt für Statistik"
 other = "Rechtliche Hinweise"
 [legal_link]
 other = "https://www.bfs.admin.ch/bfs/de/home/bfs/bundesamt-statistik/rechtliche-hinweise.html"
+[home_text]
+other = "Home"
+[i14y_text]
+other = "I14Y"
+[i14y_link]
+other = "https://www.i14y.admin.ch/de/home"
