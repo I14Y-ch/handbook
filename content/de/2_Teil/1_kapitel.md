@@ -33,3 +33,9 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 {{% blocks/feature icon="fa-brands fa-github" title="Contributions welcome!" url="https://github.com/gohugoio/hugo" %}}
 We do a [Pull Request](https://github.com/gohugoio/hugo/pulls) contributions workflow on **GitHub**. New users are always welcome!
 {{% /blocks/feature %}}
+
+{{% blocks/lead color="dark" %}}
+TechOS is the OS of the future.
+
+Runs on **bare metal** in the **cloud**!
+{{% /blocks/lead %}}
