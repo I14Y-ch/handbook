@@ -12,6 +12,6 @@ Hier steht Platzhaltertext. Nicht viel, da es sich um eine Übersichtsseite hand
 <details open>
   <summary>Titel</summary>
   Hier steht Text. Bzw. vorläufig ein Platzhatler. Hier steht Text. Bzw. vorläufig ein Platzhatler. Hier steht Text. Bzw. vorläufig ein Platzhatler. Hier steht Text. Bzw. vorläufig ein Platzhatler. Hier steht Text. Bzw. vorläufig ein Platzhatler. Hier steht Text. Bzw. vorläufig ein Platzhatler. Hier steht Text. Bzw. vorläufig ein Platzhatler. 
-  </dtails>
+  </details>
 
 Hier steht Platzhaltertext. Nicht viel, da es sich um eine Übersichtsseite handelt. Aber immerhin einige Absätze. Damit man schön sieht, ob alles wie gewünscht funktioniert. 
