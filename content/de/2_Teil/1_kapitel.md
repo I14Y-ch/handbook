@@ -35,7 +35,7 @@ We do a [Pull Request](https://github.com/gohugoio/hugo/pulls) contributions wor
 {{% /blocks/feature %}}
 
 {{% blocks/lead color="dark" %}}
-TechOS is the OS of the future.
+TechOS is the OS of the future. Sometimes.
 
 Runs on **bare metal** in the **cloud**!
 {{% /blocks/lead %}}
