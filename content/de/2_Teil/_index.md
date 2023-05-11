@@ -9,8 +9,11 @@ Hier steht _Platzhaltertext_. Nicht viel, da es sich um eine __Übersichtsseite_
 
 Hier steht Platzhaltertext. Nicht viel, da es sich um eine Übersichtsseite handelt. Aber immerhin einige Absätze. Damit man schön sieht, ob alles wie gewünscht funktioniert. Hier steht Platzhaltertext. Nicht viel, da es sich um eine Übersichtsseite handelt. Aber immerhin einige Absätze. Damit man schön sieht, ob alles wie gewünscht funktioniert. 
 
-```
+---
 Hier steht Text in einer Box. Bzw. vorläufig ein Platzhatler. Hier steht Text. Bzw. vorläufig ein Platzhatler. Hier steht Text. Bzw. vorläufig ein Platzhatler. Hier steht Text. Bzw. vorläufig ein Platzhatler. Hier steht Text. Bzw. vorläufig ein Platzhatler. Hier steht Text. Bzw. vorläufig ein Platzhatler. Hier steht Text. Bzw. vorläufig ein Platzhatler. 
-```
+---
 
+{{< alert title="Ein Titel" color="primary" >}}
+Hier steht Text in einer zweiten Form. Hier steht Text in einer zweiten Form. Hier steht Text in einer zweiten Form. Hier steht Text in einer zweiten Form. Hier steht Text in einer zweiten Form. Hier steht Text in einer zweiten Form. Hier steht Text in einer zweiten Form. Hier steht Text in einer zweiten Form. Hier steht Text in einer zweiten Form. Hier steht Text in einer zweiten Form. Hier steht Text in einer zweiten Form. Hier steht Text in einer zweiten Form. Hier steht Text in einer zweiten Form. 
+{{< /alert >}}
 Hier steht Platzhaltertext. Nicht viel, da es sich um eine Übersichtsseite handelt. Aber immerhin einige Absätze. Damit man schön sieht, ob alles wie gewünscht funktioniert. 
