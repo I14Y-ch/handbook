@@ -1,6 +1,6 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://handbook.i14y.admin.ch'
 languageCode = 'de-CH'
-title = 'My New Hugo Site'
+title = 'Handbuch I14Y-Interoperabilitätsplattform'
 
 # Language settings
 contentDir = "content/"
@@ -10,7 +10,7 @@ defaultContentLanguageInSubdir = true
 # Language configuration
 [languages]
 [languages.de]
-title = "Handbuch I14Y-Plattform"
+title = "Handbuch I14Y-Interoperabilitätsplattform"
 description = "Anleitungen und Informationen zur Interoperabilitätsplattform"
 languageName = "Deutsch"
 languageCode = "de"
@@ -18,7 +18,7 @@ contentDir = "content/de"
 weight = 1
 
 [languages.fr]
-title = "Manual I14y.ch"
+title = "Manuel I14Y plateforme d’interopérabilité"
 description = ""
 languageName = "Français"
 languageCode = "fr"
@@ -26,7 +26,7 @@ contentDir = "content/fr"
 weight = 2
 
 [languages.it]
-title = "Manuale I14y.ch"
+title = "Manuale I14Y piattaforma di interoperabilità"
 description = ""
 languageName = "Italian"
 languageCode = "it"
@@ -34,15 +34,15 @@ contentDir = "content/it"
 weight = 3
 
 [languages.rm]
-title = "Manuale I14Y"
+title = "Manual da plattafurma d'interoperabilitad I14Y"
 description = ""
-languageName = "Rätoromanisch"
+languageName = "Rumantsch"
 languageCode = "rm"
 contentDir = "content/rm"
 weight = 4
 
 [languages.en]
-title = "Manual I14y.ch"
+title = "Manual I14Y Interoperability Platform"
 description = "Manual and Information about the interoperability platform"
 languageName = "English"
 languageCode = "en"
