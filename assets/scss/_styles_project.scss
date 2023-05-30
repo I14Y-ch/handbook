@@ -343,6 +343,7 @@ nav.td-sidebar-nav {
       padding: 0;
 
       a {
+        font-weight: 400;
         color: $ob-gray-800 !important;
         padding: $ob-spacing-xs $ob-spacing-default !important;
         border-left: 5px solid transparent;
@@ -358,21 +359,23 @@ nav.td-sidebar-nav {
 
       &.active-path {
         a {
+          font-weight: 600;
           background-color: $ob-gray-300;
           border-left: 5px solid $ob-venetian-red;
         }
 
         ul {
           li:not(.active-path) a {
+            font-weight: inherit;
             background-color: inherit;
             border-left: inherit;
-          }
 
-          &:hover,
-          &:focus,
-          &:active {
-            background-color: $ob-gray-100;
-            border-left: 5px solid $ob-venetian-red;
+            &:hover,
+            &:focus,
+            &:active {
+              background-color: $ob-gray-100;
+              border-left: 5px solid $ob-venetian-red;
+            }
           }
         }
       }
