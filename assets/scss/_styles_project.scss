@@ -262,10 +262,11 @@ body {
 }
 
 .td-sidebar {
-  padding-top: 6.5em;
   background-color: $ob-white;
 
   .td-sidebar__inner {
+	top: 6.5rem !important;
+
 	.td-sidebar__search {
 		padding: 0 !important;
 	}
