@@ -343,7 +343,7 @@ nav.td-sidebar-nav {
       padding: 0;
 
       a {
-        margin: 0;
+        margin: 0 !important;
         padding: $ob-spacing-xs $ob-spacing-default !important;
         font-weight: 400;
         color: $ob-gray-800 !important;
