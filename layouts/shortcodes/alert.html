@@ -2,7 +2,7 @@
 {{ $color := .Get "color" | default "primary" }}
 <div class="alert alert-{{ $color }}" role="alert">
     <div class="alert-icon">
-        {{ with resources.Get "icons/{{ $color }}.svg" -}}
+        {{ with resources.Get "icons/" + $color + ".svg" -}}
             {{ ( . | minify).Content | safeHTML -}}
         {{ end -}}
     </div>
