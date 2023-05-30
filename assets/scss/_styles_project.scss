@@ -465,6 +465,10 @@ a {
 		padding: 16px;
 		flex-grow: 1;
 		font-weight: 400;
+
+		.alert-heading {
+			color: $ob-gray-800 !important;
+		}
 	}
 
 	&.alert- {
