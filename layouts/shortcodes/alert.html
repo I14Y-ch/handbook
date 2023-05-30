@@ -1,6 +1,5 @@
 {{ $_hugo_config := `{ "version": 1 }` }}
 {{ $color := .Get "color" | default "primary" }}
-{{ $icon := resources.Get (print icons/{{ $color }}.svg) }}
 <div class="alert alert-{{ $color }}" role="alert">
     <div class="alert-icon">
         {{ with resources.Get "icons/" $color ".svg" -}}
