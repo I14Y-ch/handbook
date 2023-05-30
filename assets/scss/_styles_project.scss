@@ -440,7 +440,7 @@ a {
 		&info {
 			background-color: #cce0eb;
 
-			::before {	
+			&::before {	
 				display: inline-block;			
 				font-size: 2em;
 				padding: 8px 8px 0;
@@ -454,7 +454,7 @@ a {
 		&success {
 			background-color: #c3e8cd;
 
-			::before {
+			&::before {
 				display: inline-block;			
 				font-size: 2em;
 				padding: 8px 8px 0;
@@ -468,7 +468,7 @@ a {
 		&warning {
 			background-color: #fee3b5;
 
-			::before {
+			&::before {
 				display: inline-block;			
 				font-size: 2em;
 				padding: 8px 8px 0;
@@ -482,7 +482,7 @@ a {
 		&error {
 			background-color: #fbcad2;
 
-			::before {
+			&::before {
 				display: inline-block;			
 				font-size: 2em;
 				padding: 8px 8px 0;
