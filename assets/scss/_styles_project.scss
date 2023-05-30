@@ -398,6 +398,7 @@ a {
 }
 
 .table {
+	margin: $ob-spacing-xl 0;
     display: table;
     max-width: 80%;
 	font-size: .875rem;
