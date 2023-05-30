@@ -2,31 +2,33 @@
 "primary" }}
 <div class="alert alert-{{ $color }}" role="alert">
   <div class="alert-icon">
-    {{ with (eq $color "primary") }} 
-        {{ with resources.Get "icons/info.svg" -}}
-            {{ ( . | minify).Content | safeHTML -}} 
+    <div class="icon-wrapper">
+        {{ with (eq $color "primary") }} 
+            {{ with resources.Get "icons/info.svg" -}}
+                {{ ( . | minify).Content | safeHTML -}} 
+            {{ end -}} 
         {{ end -}} 
-    {{ end -}} 
-    {{ with (eq $color "info") }} 
-        {{ with resources.Get "icons/info.svg" -}} 
-         {{ ( . |  minify).Content | safeHTML -}} 
+        {{ with (eq $color "info") }} 
+            {{ with resources.Get "icons/info.svg" -}} 
+             {{ ( . |  minify).Content | safeHTML -}} 
+            {{ end -}} 
         {{ end -}} 
-    {{ end -}} 
-    {{ with (eq $color  "success") }} 
-        {{ with resources.Get "icons/success.svg" -}} 
-            {{ ( . |  minify).Content | safeHTML -}} 
+        {{ with (eq $color  "success") }} 
+            {{ with resources.Get "icons/success.svg" -}} 
+                {{ ( . |  minify).Content | safeHTML -}} 
+            {{ end -}} 
         {{ end -}} 
-    {{ end -}} 
-    {{ with (eq $color  "warning") }} 
-        {{ with resources.Get "icons/warning.svg" -}} 
-           {{ ( . |  minify).Content | safeHTML -}} 
+        {{ with (eq $color  "warning") }} 
+            {{ with resources.Get "icons/warning.svg" -}} 
+               {{ ( . |  minify).Content | safeHTML -}} 
+            {{ end -}} 
         {{ end -}} 
-    {{ end -}} 
-    {{ with (eq $color  "error") }} 
-        {{ with resources.Get "icons/error.svg" -}} 
-            {{ ( . |  minify).Content | safeHTML -}} 
-        {{ end -}} 
-    {{ end -}}
+        {{ with (eq $color  "error") }} 
+            {{ with resources.Get "icons/error.svg" -}} 
+                {{ ( . |  minify).Content | safeHTML -}} 
+            {{ end -}} 
+        {{ end -}}
+    </div>
   </div>
   <div class="alert-content">
     {{ with .Get "title" }}

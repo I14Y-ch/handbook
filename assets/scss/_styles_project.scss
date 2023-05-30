@@ -433,7 +433,7 @@ a {
 
 .alert {
 	display: flex;
-	padding: $ob-spacing-default;
+	padding: 0 !important;
 	width: 100%;
 	border-radius: 0 !important;
     border: none !important;
@@ -443,6 +443,21 @@ a {
 		padding: 8px 8px 0;
 		text-align: center;
 		color: #fff;
+
+		.icon-wrapper {
+			-webkit-user-select: none;
+			user-select: none;
+			background-repeat: no-repeat;
+			display: inline-block;
+			fill: currentColor;
+			height: 1em;
+			width: 1em;
+			overflow: hidden;
+
+			svg {
+				display: block;
+			}
+		}
 	}
 
 	.alert-content {
