@@ -398,6 +398,35 @@ a {
 }
 
 .table {
-  padding-top: 1.5em;
-  padding-right: 15%;
+    display: table;
+    max-width: 80%;
+	font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.42857;
+    letter-spacing: .25px;
+
+	td th {
+		border-top: 1px solid #d5d5d5;
+		border-bottom: 1px solid $ob-gray-300;
+		padding: 8px 16px;
+		text-align: inherit;
+	}
+
+	th {
+		font-size: 1rem;
+	}
+
+	thead tr:first-child th {
+		border-top: none;
+	}
+
+	tbody {
+		tr:nth-child(odd) {
+			background-color: $ob-gray-100;
+		}
+
+		tr:hover, tr.ob-active {
+			background-color: #f2f7fa;
+		}
+	}
 }
