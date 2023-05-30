@@ -274,13 +274,14 @@ body {
 
     nav.td-sidebar-nav {
       top: 0;
+	  margin: 0;
       padding: 0;
 
       .ul-0,
       .ul-1,
       .ul-2 {
         margin: 0;
-        padding: 0;
+        padding: 0 !important;
 
         li {
           margin: 0;
