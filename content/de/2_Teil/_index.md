@@ -14,3 +14,19 @@ Hier steht Text in einer zweiten Form. Hier steht Text in einer zweiten Form. Hi
 {{< /alert >}}
 
 Hier steht Platzhaltertext. Nicht viel, da es sich um eine Übersichtsseite handelt. Aber immerhin einige Absätze. Damit man schön sieht, ob alles wie gewünscht funktioniert. 
+
+{{< alert title="Ein Titel" color="info" >}}
+Info Alert
+{{< /alert >}}
+
+{{< alert title="Ein Titel" color="success" >}}
+Success Alert
+{{< /alert >}}
+
+{{< alert title="Ein Titel" color="warning" >}}
+Warning Alert
+{{< /alert >}}
+
+{{< alert title="Ein Titel" color="error" >}}
+This is an alert of type: error
+{{< /alert >}}
