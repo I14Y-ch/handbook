@@ -264,6 +264,77 @@ body {
 .td-sidebar {
   padding-top: 6.5em;
   background-color: $ob-white;
+
+  .td-sidebar__inner {
+	.td-sidebar__search {
+		padding: 0;
+	}
+
+	nav.td-sidebar-nav {
+		top: 0;
+		padding: 0;
+	  
+		.ul-0,
+		.ul-1,
+		.ul-2 {
+		  margin: 0;
+		  padding: 0;
+	  
+		  li {
+			margin: 0;
+			padding: 0;
+	  
+			a {
+			  margin: 0;
+			  padding: $ob-spacing-xs $ob-spacing-default;
+			  font-weight: 400;
+			  color: $ob-gray-800;
+			  border-left: 5px solid transparent;
+			  border-bottom: 1px solid $ob-gray-200;
+	  
+			  &:hover,
+			  &:focus,
+			  &:active {
+				background-color: $ob-gray-100;
+				border-left: 5px solid $ob-venetian-red;
+			  }
+			}
+	  
+			&.active-path {
+			  a {
+				font-weight: 600;
+				background-color: $ob-gray-300;
+				border-left: 5px solid $ob-venetian-red;
+			  }
+	  
+			  ul {
+				li:not(.active-path) a {
+				  font-weight: 400;
+				  background-color: transparent;
+				  border-left: 5px solid transparent;
+	  
+				  &:hover,
+				  &:focus,
+				  &:active {
+					background-color: $ob-gray-100;
+					border-left: 5px solid $ob-venetian-red;
+				  }
+				}
+			  }
+			}
+		  }
+		}
+	  
+		.ul-2 {
+		  li {
+			a {
+			  padding-left: $ob-spacing-xl;
+			  font-size: 90%;
+			}
+		  }
+		}
+	  }
+  }
 }
 
 .td-search__input:not(:focus) {
@@ -326,69 +397,4 @@ a {
 .table {
   padding-top: 1.5em;
   padding-right: 15%;
-}
-
-nav.td-sidebar-nav {
-  top: 0;
-  padding: 0;
-
-  .ul-0,
-  .ul-1,
-  .ul-2 {
-    margin: 0;
-    padding: 0;
-
-    li {
-      margin: 0;
-      padding: 0;
-
-      a {
-        margin: 0 !important;
-        padding: $ob-spacing-xs $ob-spacing-default !important;
-        font-weight: 400;
-        color: $ob-gray-800 !important;
-        border-left: 5px solid transparent;
-        border-bottom: 1px solid $ob-gray-200 !important;
-
-        &:hover,
-        &:focus,
-        &:active {
-          background-color: $ob-gray-100;
-          border-left: 5px solid $ob-venetian-red;
-        }
-      }
-
-      &.active-path {
-        a {
-          font-weight: 600;
-          background-color: $ob-gray-300;
-          border-left: 5px solid $ob-venetian-red;
-        }
-
-        ul {
-          li:not(.active-path) a {
-            font-weight: 400;
-            background-color: transparent;
-            border-left: 5px solid transparent;
-
-            &:hover,
-            &:focus,
-            &:active {
-              background-color: $ob-gray-100;
-              border-left: 5px solid $ob-venetian-red;
-            }
-          }
-        }
-      }
-    }
-  }
-
-  .ul-2 {
-    li {
-      a {
-        padding-left: $ob-spacing-xl !important;
-        font-size: 90%;
-      }
-    }
-  }
 }
