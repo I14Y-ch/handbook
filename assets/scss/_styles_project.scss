@@ -7,6 +7,51 @@ body {
     word-break: break-word;
     color: $ob-gray-800;
     font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	letter-spacing: 0.5px;
+}
+
+h1 {
+	font-size: 3rem;
+	font-weight: 300;
+	line-height: 1.25;
+	letter-spacing: -0.5px;
+}
+
+h2 {
+    font-size: 2.5rem;
+	font-weight: 300;
+	line-height: 1.2;
+	letter-spacing: -0.5px;
+}
+
+h3 {
+    font-size: 2rem;
+	font-weight: 400;
+	line-height: 1.375;
+	letter-spacing: 0.18px;
+}
+
+h4 {
+    font-size: 1.75rem;
+	font-weight: 400;
+	line-height: 1.285715;
+	letter-spacing: 0.1px;
+}
+
+h5 {
+    font-size: 1.25rem;
+	font-weight: 500;
+	line-height: 1.4;
+	letter-spacing: 0.2px;
+}
+
+h6 {
+    font-size: 1.125rem;
+	font-weight: 500;
+	line-height: 1.333333;
+	letter-spacing: 0.2px;
 }
 
 .viewport {
@@ -143,6 +188,10 @@ body {
                             background-color: $ob-white;
                             font-weight: 600;
                         }
+
+                        &:hover, &:active {
+                            background-color: $ob-gray-300;
+                        }
                     }
                 }
             }
@@ -158,13 +207,12 @@ body {
         .td-main {
             margin-left: auto;
             margin-right: auto;
-            padding: $ob-spacing-default $ob-spacing-lg;
 
             .content-wrapper {
                 max-width: 1440px;
 
                 aside, main {
-                    padding-top: 0;
+                    padding: $ob-spacing-default 0;
                 }
             }
         }
@@ -243,7 +291,7 @@ details {
 }
 
 summary {
-    color: #dc0018;
+    color: $ob-venetian-red;
     font-weight: 700;
     font-size: 1.35rem;
     margin-bottom: 0.5rem;
@@ -273,5 +321,46 @@ a {
 .table {
     padding-top: 1.5em;
     padding-right: 15%;
+}
+
+nav.td-sidebar-nav {
+    top: 0;
+    padding: 0;
+
+    .ul-0, 
+    .ul-1, 
+    .ul-2 {
+        margin: 0;
+        padding: 0;
+
+        li {
+            margin: 0;
+            padding: 0;
+
+            a {
+                padding: 4px 16px;
+                border-left: 5px solid transparent;
+
+                &:hover, &:focus, &:active {
+                    background-color: $ob-gray-100;
+                    border-left: 5px solid $ob-venetian-red;
+                }
+            }
+
+            &.active-path a {
+                background-color: $ob-gray-300;
+                border-left: 5px solid $ob-venetian-red;                
+            }
+        }
+    }
+
+    .ul-2 {
+        li {
+            a {
+                padding-left: 32px;
+                font-size: 90%;
+            }
+        }
+    }
 }
 
