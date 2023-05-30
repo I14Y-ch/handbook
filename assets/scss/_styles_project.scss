@@ -432,66 +432,55 @@ a {
 }
 
 .alert {
+	display: flex;
 	padding: $ob-spacing-default;
 	width: 100%;
 	border-radius: 0 !important;
     border: none !important;
+
+	.alert-icon {
+		font-size: 2em;
+		padding: 8px 8px 0;
+		text-align: center;
+		color: #fff;
+	}
+
+	.alert-content {
+		padding: 16px;
+		flex-grow: 1;
+	}
 
 	&.alert- {
 		&primary,
 		&info {
 			background-color: #cce0eb;
 
-			&::before {	
-				display: inline-block;			
-				font-size: 2em;
-				padding: 8px 8px 0;
-				text-align: center;
+			.alert-icon {		
 				background-color: #006699;
-				color: #fff;
-				content: url(../icons/info.svg)
 			}
 		}
 
 		&success {
 			background-color: #c3e8cd;
 
-			&::before {
-				display: inline-block;			
-				font-size: 2em;
-				padding: 8px 8px 0;
-				text-align: center;
+			.alert-icon {
 				background-color: #00813a;
-				color: #fff;
-				content: url(../icons/success.svg)
 			}
 		}
 
 		&warning {
 			background-color: #fee3b5;
 
-			&::before {
-				display: inline-block;			
-				font-size: 2em;
-				padding: 8px 8px 0;
-				text-align: center;
+			.alert-icon {
 				background-color: #e75e00;
-				color: #fff;
-				content: url(../icons/warning.svg)
 			}
 		}
 
 		&error {
 			background-color: #fbcad2;
 
-			&::before {
-				display: inline-block;			
-				font-size: 2em;
-				padding: 8px 8px 0;
-				text-align: center;
+			.alert-icon {
 				background-color: #b00020;
-				color: #fff;
-				content: url(../icons/error.svg)
 			}
 		}
 	}
