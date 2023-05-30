@@ -343,9 +343,10 @@ nav.td-sidebar-nav {
       padding: 0;
 
       a {
+        margin: 0;
+        padding: $ob-spacing-xs $ob-spacing-default !important;
         font-weight: 400;
         color: $ob-gray-800 !important;
-        padding: $ob-spacing-xs $ob-spacing-default !important;
         border-left: 5px solid transparent;
         border-bottom: 1px solid $ob-gray-200 !important;
 
@@ -366,9 +367,9 @@ nav.td-sidebar-nav {
 
         ul {
           li:not(.active-path) a {
-            font-weight: inherit;
-            background-color: inherit;
-            border-left: inherit;
+            font-weight: 400;
+            background-color: transparent;
+            border-left: 5px solid transparent;
 
             &:hover,
             &:focus,
