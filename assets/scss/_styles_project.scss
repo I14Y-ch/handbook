@@ -267,7 +267,7 @@ body {
 
   .td-sidebar__inner {
 	.td-sidebar__search {
-		padding: 0;
+		padding: 0 !important;
 	}
 
 	nav.td-sidebar-nav {
@@ -285,12 +285,12 @@ body {
 			padding: 0;
 	  
 			a {
-			  margin: 0;
-			  padding: $ob-spacing-xs $ob-spacing-default;
+			  margin: 0 !important;
+			  padding: $ob-spacing-xs $ob-spacing-default !important;
 			  font-weight: 400;
-			  color: $ob-gray-800;
+			  color: $ob-gray-800 !important;
 			  border-left: 5px solid transparent;
-			  border-bottom: 1px solid $ob-gray-200;
+			  border-bottom: 1px solid $ob-gray-200 !important;
 	  
 			  &:hover,
 			  &:focus,
@@ -328,7 +328,7 @@ body {
 		.ul-2 {
 		  li {
 			a {
-			  padding-left: $ob-spacing-xl;
+			  padding-left: $ob-spacing-xl !important;
 			  font-size: 90%;
 			}
 		  }
