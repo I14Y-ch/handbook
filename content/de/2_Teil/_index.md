@@ -33,4 +33,4 @@ This is an alert of type: error
 
 Hier wird ein Bild eingebunden. Bloss testweise. 
 
-![Testbild](./img/i14y-film_160.png)
+![Testbild](/img/i14y-film_160.png)
