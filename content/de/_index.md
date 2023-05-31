@@ -20,3 +20,7 @@ Und hier folgt noch ein [Link](https://google.ch). Das bloss, um zu schauen, ob 
 In diesem Text gibt es selbstverständlich auch eine Überschrift. Und sogar ein Bild ist enthalten. 
 
 ![Logo](https://www.i14y.admin.ch/assets/images/home/NaDB-Interoper_Catalogue.svg)
+
+Und hier steht noch ein lokales Bild. 
+
+![Lokales Bild](/i14y-film_160.png)
