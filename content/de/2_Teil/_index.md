@@ -30,3 +30,7 @@ This is an alert of type: warning
 {{< alert color="error" >}}
 This is an alert of type: error
 {{< /alert >}}
+
+Hier wird ein Bild eingebunden. Bloss testweise. 
+
+![Testbild](/img/i14y-film_160.png)
