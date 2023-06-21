@@ -6,7 +6,7 @@ type: docs
 keywords: [I14Y, I14Y-IOP, I14Y-Interoperabilitätsplattform, Konzepte, Codeliste, Codelisten, Datenelemente, Mehrfachnutzung, Publikation, publizieren, veröffentlichen]
 ---
 
-![Symbolbild Konzepte pflegen](/img/i14y_konzepte.png)
+![Symbolbild Konzepte pflegen](/handbook/img/i14y_konzepte.png)
 
 Das Konzept beschreibt die im Datenelement enthaltenen Informationen eindeutig und vollständig. Bei einem Konzept kann es sich um eine Zahl, eine Zeichenkette, ein Datum oder um eine Codeliste mit vordefinierten Werten handeln (vergleiche auch Kapitel [Informationsmodell](/handbook/de/2_rollen_prozesse/informationsmodell)). 
 

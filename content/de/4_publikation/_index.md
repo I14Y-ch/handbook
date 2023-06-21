@@ -7,7 +7,7 @@ type: docs
 keywords: [I14Y-Interoperabilitätsplattform, I14Y-IOP, I14Y, Publikation, Veröffentlichung, Metadaten, Katalog, Konzepte]
 ---
 
-![Szene aus dem Erklärvideo zur I14Y-Interoperabilitätsplattform](/img/i14y-film_erfassen.png)
+![Szene aus dem Erklärvideo zur I14Y-Interoperabilitätsplattform](/handbook/img/i14y-film_erfassen.png)
 
 Die I14Y-Interoperabilitätsplattform lässt sich vielfältig einsetzen: Im Katalog-Bereich werden Datensammlungen, elektronische Schnittstellen und Behördenleistungen verzeichnet. Und unter "Konzepte" lassen sich einzelne Datenelemente beschreiben. Werden Konzepte öffentlich freigegeben, können sie von anderen Nutzerinnen und Nutzern wiederverwendet werden. 
 

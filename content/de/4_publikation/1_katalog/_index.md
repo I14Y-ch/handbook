@@ -6,7 +6,7 @@ type: docs
 keywords: [I14Y, I14Y-IOP, I14Y-Interoperabilitätsplattform, Katalog, Metadaten, erfassen]
 ---
 
-![Symbolbild Katalog pflegen](/img/i14y_katalog.png)
+![Symbolbild Katalog pflegen](/handbook/img/i14y_katalog.png)
 
 Sie möchten ein internes Inventar Ihrer Datenangebote erstellen? Sie möchten Ihre Daten öffentlich beschreiben? Oder Sie möchten eine Behördenleistung bekannt machen? In allen drei Fällen sind Sie auf der I14Y-Interoperabilitätsplattform am richtigen Ort. 
 

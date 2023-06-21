@@ -30,7 +30,7 @@ Falls Sie die internen Datenangebote Ihrer Organisation suchen, loggen Sie sich 
 
 Ein Klick auf einen gefunden Eintrag öffnet die Detailinformationen dazu. Handelt es sich beim betreffenden Datenangebot um eine __elektronische Schnittstelle (API)__, wird ausschliesslich die Beschreibung angezeigt. Diese beinhaltet unter anderem die Adresse des Endpunkts sowie einen Link zur ausführlichen technischen Dokumentation. Im Weiteren ist ersichtlich, wer die API anbietet und welches die gesetzlichen oder technischen Grundlagen fürs betreffende Angebot sind. Oben rechts wird der Status des Eintrags auf der I14Y-IOP eingeblendet. Mehr Informationen zur Status-Verwaltung sind im Teil [Rollen und Prozesse](/handbook/de/2_rollen_prozesse/arbeitsablauf) zu finden.  
 
-![Screenshots I14Y-IOP](/img/i14y_datensatz.png) 
+![Screenshots I14Y-IOP](/handbook/img/i14y_datensatz.png) 
 
 Bei einer __Datensammlung__ werden nebst den normalen Kataloginformationen allenfalls zusätzliche Register eingeblendet. Angezeigt werden lediglich jene Register, für die Herausgeberinnen und Herausgeber Informationen erfasst haben.
 

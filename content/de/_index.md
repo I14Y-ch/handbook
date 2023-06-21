@@ -7,7 +7,7 @@ weight: 0
 type: docs
 ---
 
-![Szene aus dem Erklärvideo zur I14Y-Interoperabilitätsplattform](/img/i14y-film_55.png)
+![Szene aus dem Erklärvideo zur I14Y-Interoperabilitätsplattform](/handbook/img/i14y-film_55.png)
 
 Welche Daten sind verfügbar? Und wie lassen sie sich abrufen? Die I14Y-Interoperabilitätsplattform -- kurz I14Y-IOP -- ist das zentrale Verzeichnis der Daten, elektronischen Schnittstellen und Behördenleistungen der öffentlichen Verwaltungen in der Schweiz. Die Plattform macht Daten auffindbar. Und sie zeigt auf, wie darauf zugegriffen werden kann.  
 
@@ -74,7 +74,7 @@ Unnötig viel tippen -- das läuft vielen Informatikern zuwider. Deshalb lieben 
 
 Auf der I14Y-Interoperabilitätsplattform wird zudem ein Verzeichnis von elektronischen Behördenleistungen wie Webapplikationen und Apps aufgebaut. Dieses gibt einen Überblick über das Angebot der öffentlichen Verwaltung. Und es erleichtert den Dialog zwischen den Betreiberinnen und Betreibern der jeweiligen Dienstleistung sowie den Nutzerinnen und Nutzern.
 
-<!-- ![Szene zum Behördenleistungsverzeichnis aus dem Erklärvideo zur I14Y-Interoperabilitätsplattform](/img/i14y-film_160.png) -->
+<!-- ![Szene zum Behördenleistungsverzeichnis aus dem Erklärvideo zur I14Y-Interoperabilitätsplattform](/handbook/img/i14y-film_160.png) -->
 
 Entwickelt und betrieben wird die Plattform von der Interoperabilitätsstelle (IOS) in der Abteilung Interoperabilität und Register (IOR) des [Bundesamts für Statistik](https://www.bfs.admin.ch). Gesetzlich geregelt wird der Betrieb der Plattform im Bundesgesetz über den Einsatz elektronischer Mittel zur Erfüllung von Behördenaufgaben (EMBAG).
 

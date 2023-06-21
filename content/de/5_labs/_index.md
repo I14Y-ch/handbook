@@ -7,7 +7,7 @@ type: docs
 keywords: [I14Y-Interoperabilitätsplattform, I14Y-IOP, I14Y, Labs, Lab, Labor, Experimente, Tests, Metadaten]
 ---
 
-![Logo I14Y-Labs](/img/i14y-labs.png)
+![Logo I14Y-Labs](/handbook/img/i14y-labs.png)
 
 Metadaten sind Informationen über Informationen. Sie zeigen auf, welche Inhalte in einer Datensammlung enthalten sind. Und sie liefern Angaben dazu, in welchem Kontext die betreffenden Daten erhoben wurden. Sie legen zudem dar, wie eine Datensammlung genutzt werden darf. Und sie machen Datensammlungen einfacher auffindbar und besser durchsuchbar. Metadaten zu Datensammlungen sind hilfreich, sobald die betreffenden Daten in einer Software genutzt werden sollen. Liegen klare Vorgaben dazu vor, wie die Inhalte eines Datenelements strukturiert sein sollten, können die eigentlichen Daten zudem automatisiert geprüft werden.  
 

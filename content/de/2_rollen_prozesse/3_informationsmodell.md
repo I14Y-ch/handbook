@@ -44,7 +44,7 @@ Auf der I14Y-Interoperabilitätsplattform können sowohl Datensammlungen, elektr
     style distribution stroke:black
 ```
 
-Die Grafik bietet eine vereinfachte Darstellung der einzelnen Teile der I14Y-Plattform. Eine ausführliche Zusammenstellung ist im [Informationsmodell der I14Y-IOP](/img/i14y_informationsmodell.png) zu finden.
+Die Grafik bietet eine vereinfachte Darstellung der einzelnen Teile der I14Y-Plattform. Eine ausführliche Zusammenstellung ist im [Informationsmodell der I14Y-IOP](/handbook/img/i14y_informationsmodell.png) zu finden.
 
 Um den unterschiedlichen Angeboten gerecht zu werden, bedient sich die Plattform verschiedener Informationsmodelle. So wird bei Datensammlungen und APIs etwa das _Data Catalog Vocabulary (DCAT)_ mit dem Schweizer Applikationsprofil eingesetzt. Im Bereich der Behördenleistungen kommt das _Core Public Service Vocabulary (CPSV)_ zum Einsatz. 
 
