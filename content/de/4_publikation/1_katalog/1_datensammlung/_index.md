@@ -1,0 +1,81 @@
+---
+title: Datensammlung
+slug: datensammlung
+weight: 20
+type: docs
+keywords: [I14Y, I14Y-Interoperabilitätsplattform, I14Y-IOP, Interoperabilität, Datensammlung, Datensammlung, Dataset, Datensatz, Erfassen, Erfassung, Inventar, Katalog]
+---
+
+```mermaid
+    flowchart TD
+        dataset1(Datensammlung)
+        structure1(Struktur)
+        dataelement1(Datenelement)
+        concept1(Konzept)
+        codelist(Codeliste)
+        numeric(Zahl)
+        string(Zeichenkette)
+        date(Datum)
+
+        dataset1---|hat eine|structure1
+        structure1---|beinhaltet ein|dataelement1
+        dataelement1---|hat ein|concept1
+        concept1---|ist eine|codelist
+        concept1---|ist eine|numeric
+        concept1---|ist eine|string
+        concept1---|ist ein|date
+
+    style dataset1 fill:#6CC8FF
+    style dataset1 stroke:black
+
+    style structure1 fill:#Bfe2ab
+    style structure1 stroke:black
+
+    style dataelement1 fill:#Fbb54e
+    style dataelement1 stroke:black
+
+    style concept1 fill:#Ff8076
+    style concept1 stroke:black
+
+    style codelist stroke:#Ff8076
+    style numeric stroke:#Ff8076
+    style string stroke:#Ff8076
+    style date stroke:#Ff8076
+```
+
+Auf der I14Y-Interoperabilitätsplattform können Datensammlungen beschrieben werden. Unter einer Datensammlung ist eine Zusammenstellung von Daten zu verstehen, die von einer einzigen Quelle veröffentlicht oder kuratiert werden und durch eine gemeinsame Idee oder ein gemeinsames Konzept verbunden sind. 
+
+Zusätzlich zu den Kataloginformationen lassen sich auf der I14Y-Interoperabilitätsplattform auch strukturelle Metadaten erfassen. Damit kann die "Anatomie der Datensammlung" detailliert beschrieben werden. Jede Datensammlung hat eine Struktur, die aus mindestens einem Datenelement besteht. Jedes dieser Datenelemente referenziert ein Konzept. Es kann sich dabei um eine Zeichenkette, um eine Zahl, um ein Datum oder um eine Codeliste handeln. Detailinformationen zu Datensammlungen sind im Abschnitt zum [Informationsmodell](/de/2_rollen_prozesse/informationsmodell) zu finden.
+
+Soll eine Datensammlung erfasst werden, sind mindestens die Kataloginformationen zu hinterlegen. Anschliessend besteht die Möglichkeit, die Struktur der Datensammlung zu beschreiben. Auch Metainformationen zu den einzelnen Datenelementen lassen sich erfassen. Schliesslich werden die eigentlichen Daten verknüpft. Und es können Angaben zur Qualität der Datensammlung gemacht werden. 
+
+```mermaid
+    flowchart LR
+        catalog(Kataloginformationen)
+        content(Inhalt)
+        structure(Struktur)
+        distribution(Distributionen)
+        qualityinformation(Qualitätsinformationen)
+
+        catalog---structure
+        catalog---content
+        catalog---distribution
+        catalog---qualityinformation
+
+
+    style catalog fill:#6CC8FF
+    style catalog stroke:black
+
+    style content fill:#Bfe2ab
+    style content stroke:black
+    style structure fill:#Bfe2ab
+    style structure stroke:black
+    style distribution fill:#Bfe2ab
+    style distribution stroke:black
+    style qualityinformation fill:#Bfe2ab
+    style qualityinformation stroke:black
+```
+
+Datensammlungen werden im organisationsinternen Bereich erfasst. Sollen sie öffentlich auf der I14Y-Interoperabilitätsplattform publiziert werden, müssen die Daten harmonisiert sein. Zudem bestehen höhere Anforderungen an die Metadaten. So müssen Beschreibungen zu Datensammlungen, die öffentlich gelistet werden sollen, etwa zwingend Qualitätsinformationen enthalten. Publizierte Metadaten können nicht mehr einfach angepasst werden. 
+
+Weitere Informationen zum Arbeitsablauf und zum Publikationsworkflow sind im Kapitel [Rollen und Prozesse](/de/2_rollen_prozesse/arbeitsablauf) zu finden. Das I14Y-Team berät Sie gerne bei Ihren Vorhaben zur Datenharmonisierung. 
