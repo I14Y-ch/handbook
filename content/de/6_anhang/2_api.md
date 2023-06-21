@@ -1,11 +1,11 @@
 ---
-title: "API-Dokumentation (Swagger)"
+title: "API-Dokumentation"
 type: "swagger"
 weight: 20
-description: "Reference for the I14Y-API"
+description: "Referenz für die I14Y-API"
 ---
 
-{{<swaggerui src="https://input.i14y.admin.ch/swagger/v1/swagger.json">}}
+<!-- {{<swaggerui src="">}} -->
 
 ### Konzept-API
 
