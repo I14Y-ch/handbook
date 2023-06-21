@@ -45,7 +45,7 @@ keywords: [I14Y, I14Y-Interoperabilitätsplattform, I14Y-IOP, Interoperabilität
 
 Auf der I14Y-Interoperabilitätsplattform können Datensammlungen beschrieben werden. Unter einer Datensammlung ist eine Zusammenstellung von Daten zu verstehen, die von einer einzigen Quelle veröffentlicht oder kuratiert werden und durch eine gemeinsame Idee oder ein gemeinsames Konzept verbunden sind. 
 
-Zusätzlich zu den Kataloginformationen lassen sich auf der I14Y-Interoperabilitätsplattform auch strukturelle Metadaten erfassen. Damit kann die "Anatomie der Datensammlung" detailliert beschrieben werden. Jede Datensammlung hat eine Struktur, die aus mindestens einem Datenelement besteht. Jedes dieser Datenelemente referenziert ein Konzept. Es kann sich dabei um eine Zeichenkette, um eine Zahl, um ein Datum oder um eine Codeliste handeln. Detailinformationen zu Datensammlungen sind im Abschnitt zum [Informationsmodell](/de/2_rollen_prozesse/informationsmodell) zu finden.
+Zusätzlich zu den Kataloginformationen lassen sich auf der I14Y-Interoperabilitätsplattform auch strukturelle Metadaten erfassen. Damit kann die "Anatomie der Datensammlung" detailliert beschrieben werden. Jede Datensammlung hat eine Struktur, die aus mindestens einem Datenelement besteht. Jedes dieser Datenelemente referenziert ein Konzept. Es kann sich dabei um eine Zeichenkette, um eine Zahl, um ein Datum oder um eine Codeliste handeln. Detailinformationen zu Datensammlungen sind im Abschnitt zum [Informationsmodell](/handbook/de/2_rollen_prozesse/informationsmodell) zu finden.
 
 Soll eine Datensammlung erfasst werden, sind mindestens die Kataloginformationen zu hinterlegen. Anschliessend besteht die Möglichkeit, die Struktur der Datensammlung zu beschreiben. Auch Metainformationen zu den einzelnen Datenelementen lassen sich erfassen. Schliesslich werden die eigentlichen Daten verknüpft. Und es können Angaben zur Qualität der Datensammlung gemacht werden. 
 
@@ -78,4 +78,4 @@ Soll eine Datensammlung erfasst werden, sind mindestens die Kataloginformationen
 
 Datensammlungen werden im organisationsinternen Bereich erfasst. Sollen sie öffentlich auf der I14Y-Interoperabilitätsplattform publiziert werden, müssen die Daten harmonisiert sein. Zudem bestehen höhere Anforderungen an die Metadaten. So müssen Beschreibungen zu Datensammlungen, die öffentlich gelistet werden sollen, etwa zwingend Qualitätsinformationen enthalten. Publizierte Metadaten können nicht mehr einfach angepasst werden. 
 
-Weitere Informationen zum Arbeitsablauf und zum Publikationsworkflow sind im Kapitel [Rollen und Prozesse](/de/2_rollen_prozesse/arbeitsablauf) zu finden. Das I14Y-Team berät Sie gerne bei Ihren Vorhaben zur Datenharmonisierung. 
+Weitere Informationen zum Arbeitsablauf und zum Publikationsworkflow sind im Kapitel [Rollen und Prozesse](/handbook/de/2_rollen_prozesse/arbeitsablauf) zu finden. Das I14Y-Team berät Sie gerne bei Ihren Vorhaben zur Datenharmonisierung. 

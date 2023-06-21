@@ -10,6 +10,6 @@ Die I14Y-Interoperabilitätsplattform bietet in Zukunft diverse elektronische Sc
 
 Die entsprechenden Schnittstellen existieren bereits. Allerdings kann nicht ausgeschlossen werden, dass sie im Zuge der weiteren Entwicklung der Plattform noch angepasst werden müssen. Zudem ist erst ein Teil der Schnittstellen von ausserhalb des Bundesnetzes erreichbar. Deshalb werden die Informationen zu den Schnittstellen vorläufig noch nicht öffentlich kommuniziert. Bitte nehmen Sie mit dem [I14Y-Team Kontakt auf](mailto:i14y@bfs.admin.ch), falls Sie sich bereits jetzt für die Nutzung der API interessieren. 
 
-Erste öffentliche elektronische Schnittstellen sollen im zweiten Semester 2023 zur Verfügung gestellt werden. Das Angebot wird anschliessend allmählich ausgebaut. Mittelfristig soll auch der automatisierte Zugriff auf die organisationsinternen Metadaten ermöglicht werden (siehe [Roadmap](/de/2_rollen_prozesse/roadmap)). 
+Erste öffentliche elektronische Schnittstellen sollen im zweiten Semester 2023 zur Verfügung gestellt werden. Das Angebot wird anschliessend allmählich ausgebaut. Mittelfristig soll auch der automatisierte Zugriff auf die organisationsinternen Metadaten ermöglicht werden (siehe [Roadmap](/handbook/de/2_rollen_prozesse/roadmap)). 
 
 Sobald die öffentlichen I14Y-APIs verfügbar sind, werden hier weitere Informationen publiziert. 

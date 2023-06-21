@@ -8,7 +8,7 @@ keywords: [I14Y, I14Y-Interoperabilitätsplattform, Nutzungskonto, Konto, Zugang
 
 Wer auf der I14Y-Interoperabilitätsplattform Daten erfassen will, benötigt ein Nutzungskonto. Genauso wie jene Personen, die (noch) nicht öffentlich publizierte Informationen der eigenen Organisation einsehen wollen. Der Zugriff wird mit dem _Enterprise Identity and Access Management (EIAM)_ gesteuert. Dieser Dienst wird vom Bundesamt für Informatik für die Eidgenossenschaft betrieben.  
 
-Um auf den internen Bereich der I14Y-Interoperabilitätsplattform zugreifen zu können, ist ein Konto bei einem Anbieter einer digitalen Identifikationslösung nötig. Die Mitarbeitenden der Bundesverwaltung nutzen ihr [Fedlogin](https://www.eiam.swiss). Daneben stehen diverse andere Möglichkeiten zur Auswahl, etwa das CH-Login, die elektronischen Identitäten von Switch oder jene von Kantonen wie Bern, Schaffhausen, Zug und Genf. Weitere Details sind in der [Tabelle Identifikationsmöglichkeiten](/de/6_anhang/eiam) im Anhang zu finden. 
+Um auf den internen Bereich der I14Y-Interoperabilitätsplattform zugreifen zu können, ist ein Konto bei einem Anbieter einer digitalen Identifikationslösung nötig. Die Mitarbeitenden der Bundesverwaltung nutzen ihr [Fedlogin](https://www.eiam.swiss). Daneben stehen diverse andere Möglichkeiten zur Auswahl, etwa das CH-Login, die elektronischen Identitäten von Switch oder jene von Kantonen wie Bern, Schaffhausen, Zug und Genf. Weitere Details sind in der [Tabelle Identifikationsmöglichkeiten](/handbook/de/6_anhang/eiam) im Anhang zu finden. 
 
 Gehen Sie folgendermassen vor:
 

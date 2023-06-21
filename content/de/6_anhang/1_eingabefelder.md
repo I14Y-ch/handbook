@@ -6,7 +6,7 @@ type: docs
 keywords: [I14Y-Interoperabilitätsplattform, I14Y-IOP, Glossar, Eingabefelder, Standard]
 ---
 
-In der folgenden Übersicht werden alle Eingabefelder der Interoperabilitätsplattform beschrieben. Abhängig von der Art des betreffenden Datenangebots (z.B. Datensammlung, elektronische Schnittstelle, Behördenleistung, Konzept) müssen nicht alle Felder ausgefüllt werden. Zwingend nötige Felder sind entsprechend gekennzeichnet. Die obligatorischen Felder entsprechen der Schweizer Version des [DCAT](/de/7_glossar/#dcat)-Standards für Datenbeschreibungen im Internet. Bei einigen der zusätzlichen Felder handelt es sich um plattformspezifische Eingabemöglichkeiten. 
+In der folgenden Übersicht werden alle Eingabefelder der Interoperabilitätsplattform beschrieben. Abhängig von der Art des betreffenden Datenangebots (z.B. Datensammlung, elektronische Schnittstelle, Behördenleistung, Konzept) müssen nicht alle Felder ausgefüllt werden. Zwingend nötige Felder sind entsprechend gekennzeichnet. Die obligatorischen Felder entsprechen der Schweizer Version des [DCAT](/handbook/de/7_glossar/#dcat)-Standards für Datenbeschreibungen im Internet. Bei einigen der zusätzlichen Felder handelt es sich um plattformspezifische Eingabemöglichkeiten. 
 
 ## Datensammlung
 
