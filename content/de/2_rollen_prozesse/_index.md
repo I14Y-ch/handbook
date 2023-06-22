@@ -5,7 +5,6 @@ description: "Welche Schritte sind nötig, um die Beschreibung einer Datensammlu
 weight: 20
 type: docs
 keywords: [I14Y, I14Y-Interoperablitätsplattform, I14-IOP, Rollen, Rollenmodell, Zugriffsrechte, Workflow, Prozesse, Datenmodell, Informationsmodell]
-check: [this, max, manuela]
 ---
 
 ![Szene aus dem Erklärvideo zur I14Y-Interoperabilitätsplattform](/handbook/img/i14y-film_rollen.png)
