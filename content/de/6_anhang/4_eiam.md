@@ -18,5 +18,6 @@ Die I14Y-Interoperabilitätsplattform verwendet das _Enterprise Identity and Acc
 | SH eID | |
 | eZug | |
 | ZG eID | |
+{.eiam}
 
 Es ist unter bestimmten Umständen möglich, weitere Anbieter aufzunehmen. Bitte kontaktieren Sie mit einem solchen Anliegen das [I14Y-Team](mailto:i14y@bfs.admin.ch).  

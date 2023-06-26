@@ -472,6 +472,34 @@ a {
 			max-width: 500px;
 		}
 	}
+
+	&.eiam {
+		tr > th:nth-child(2),
+		tr > td:nth-child(2) {
+			max-width: 600px;
+		}
+	}
+
+	&.weblink1 {
+		tr > th:nth-child(2),
+		tr > td:nth-child(2) {
+			max-width: 500px;
+		}
+	}
+
+	&.weblink2 {
+		tr > th:nth-child(2),
+		tr > td:nth-child(2) {
+			max-width: 400px;
+		}
+	}
+
+	&.partner {
+		tr > th:nth-child(4),
+		tr > td:nth-child(4) {
+			max-width: 300px;
+		}
+	}
 }
 
 .alert {
