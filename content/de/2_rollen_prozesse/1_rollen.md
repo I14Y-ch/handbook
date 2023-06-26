@@ -17,6 +17,7 @@ Wer auf der I14Y-Interoperabilitätsplattform ausschliesslich öffentliche Daten
 
 Welche Aufgaben in welcher Rolle angepackt werden können, ist aus der untenstehenden Tabelle ersichtlich. Unterschieden werden zwei Ebenen: diejenige der betreffenden Organisation -- also etwa einem Bundesamt, einem Kanton oder einer Gemeinde -- und die oberste nationale Ebene. In der Praxis ist es in kleineren Organisationen möglich, dass eine Person mehrere dieser Rollen einnimmt. In grossen Organisationen wiederum teilen sich oftmals mehrere Personen die entsprechenden Arbeiten. 
 
+{.rollen}
 | Rolle | Berechtigungen |
 | ----  | ---- |
 | _Data Consumer_ | Die I14Y-Interoperabilitätsplattform kann ohne Nutzungskonto besucht werden. Für nicht angemeldete Nutzerinnen und Nutzer sind ausschliesslich die öffentlich publizierten Metadaten sichtbar. Ohne Login lassen sich zudem keine Metadaten erfassen. Registrierte und eingeloggte Nutzerinnen und Nutzer sehen auf der I14Y-Interoperabilitätsplattform zusätzlich zu den öffentlich publizierten Metadaten auch die nicht öffentlichen Einträge der eigenen Organisation. Sie können diese ausschliesslich lesen, nicht aber editieren oder publizieren. |

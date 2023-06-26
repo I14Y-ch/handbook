@@ -417,6 +417,13 @@ a {
 			background-color: #f2f7fa;
 		}
 	}
+
+	&.rollen {
+		tr > th:nth-child(2),
+		tr > td:nth-child(2) {
+			max-width: 600px;
+		}
+	}
 }
 
 .alert {
