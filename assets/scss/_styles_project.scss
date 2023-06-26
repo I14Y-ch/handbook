@@ -342,7 +342,7 @@ body {
 	  .ul-3 {
 		li {
 			a {
-				padding-left: $ob-spacing-xl !important;
+				padding-left: $ob-spacing-xl + $ob-spacing-sm !important;
 				font-size: 90%;
 			}
 		}
@@ -351,7 +351,7 @@ body {
 	  .ul-4 {
 		li {
 			a {
-				padding-left: $ob-spacing-xl !important;
+				padding-left: $ob-spacing-xl + $ob-spacing-default !important;
 				font-size: 90%;
 			}
 		}
