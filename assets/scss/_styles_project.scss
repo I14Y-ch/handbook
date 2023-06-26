@@ -500,9 +500,19 @@ a {
 			max-width: 80px;
 		}
 
+		tr > th:nth-child(2),
+		tr > td:nth-child(2) {
+			max-width: 200px;
+		}
+
 		tr > th:nth-child(4),
 		tr > td:nth-child(4) {
 			max-width: 400px;
+		}
+
+		tr > th:nth-child(5),
+		tr > td:nth-child(5) {
+			max-width: 200px;
 		}
 	}
 }
