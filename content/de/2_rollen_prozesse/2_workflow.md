@@ -45,6 +45,7 @@ Weitere Informationen zur Statusverwaltung und zu den Zuständigkeiten sind in d
 | Empfohlener Standard | _Preferred Standard_ | In Einzelfällen kann es zu einem Thema mehrere Standards geben. Als _empfohlener Standard_ werden jene Konzepte gekennzeichnet, welche in der öffentlichen Verwaltung genutzt werden müssen, sofern keine wichtigen Punkte dagegen sprechen. Die Definition eines empfohlenen Standards obliegt dem _Swiss Data Steward_. | _Swiss Data Steward_ |
 | Abgelöst | _Superseded_ | Basiert das Angebot auf einem Standard, der mittlerweile durch einen anderen abgelöst worden ist, wird der Status auf _Abgelöst_ gesetzt. | _Local Datasteward_ bzw. Interoperabilitätsstelle |
 | Zurückgezogen | _Retired_ | In Einzelfällen kommt es vor, dass die Normierungsorganisation einen Standard widerruft. In einem solchen Fall wird der Status des betreffenden Angebots auf _Zurückgezogen_ gesetzt. | _Local Data Steward_ bzw. Interoperabilitätsstelle |
+{.workflow}
 
 ## Publikationskanal
 

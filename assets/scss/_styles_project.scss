@@ -279,7 +279,9 @@ body {
 
       .ul-0,
       .ul-1,
-      .ul-2 {
+      .ul-2,
+	  .ul-3,
+	  .ul-4 {
         margin: 0;
         padding: 0 !important;
 
@@ -336,6 +338,24 @@ body {
           }
         }
       }
+
+	  .ul-3 {
+		li {
+			a {
+				padding-left: $ob-spacing-xl !important;
+				font-size: 90%;
+			}
+		}
+	  }
+
+	  .ul-4 {
+		li {
+			a {
+				padding-left: $ob-spacing-xl !important;
+				font-size: 90%;
+			}
+		}
+	  }
     }
   }
 }
@@ -418,10 +438,38 @@ a {
 		}
 	}
 
-	&.rollen {
+	&.roles {
 		tr > th:nth-child(2),
 		tr > td:nth-child(2) {
 			max-width: 600px;
+		}
+	}
+
+	&.workflow {
+		tr > th:nth-child(2),
+		tr > td:nth-child(2) {
+			max-width: 500px;
+		}
+	}
+
+	&.gui {
+		tr > th:nth-child(2),
+		tr > td:nth-child(2) {
+			max-width: 400px;
+		}
+	}
+
+	&.entry-fields {
+		tr > th:nth-child(2),
+		tr > td:nth-child(2) {
+			max-width: 400px;
+		}
+	}
+	
+	&.swagger {
+		tr > th:nth-child(3),
+		tr > td:nth-child(3) {
+			max-width: 400px;
 		}
 	}
 }

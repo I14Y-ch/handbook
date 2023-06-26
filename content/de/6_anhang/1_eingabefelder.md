@@ -28,6 +28,7 @@ In der folgenden Übersicht werden alle Eingabefelder der Interoperabilitätspla
 | __Zeitliche Abdeckung__ | Dieses Feld beschreibt, welche Zeitspanne die Datensammlung abdeckt. Falls die Erhebung nicht abgeschlossen ist, wird das "Bis"-Feld leer gelassen. | [dct:temporal](https://www.dcat-ap.ch/releases/2.0/dcat-ap-ch.html#dataset-temporal-coverage) | erwünscht |
 | __Konform zu__ | In diesem Bereich werden allfällige gesetzliche Grundlagen zum betreffenden Datenangebot erfasst, also etwa Gesetze und Verordnungen. Setzen Sie dazu einen Link zum betreffenden Dokument auf [Fedlex](https://www.fedlex.admin.ch) oder auf die entsprechende Online-Ressource, die den betreffenden Text enthält. Setzen Sie zudem einen Link auf das entsprechende Dokument, wenn Ihr Datenangebot einem Standard entspricht. | [dct:conformsTo](https://www.dcat-ap.ch/releases/2.0/dcat-ap-ch.html#dataset-conforms-to) | optional |
 | __Dokumente__ | Tragen Sie hier weitere Dokumente ein, die einen direkten Zusammenhang mit ihrem Angebot haben, etwa ein wissenschaftlicher Artikel, eine Anleitung oder einen Hintergrundtext. | [dct:relation](https://www.dcat-ap.ch/releases/2.0/dcat-ap-ch.html#dataset-related-resource) | optional |
+{.entry-fields}
 
 ## Elektronische Schnittstelle 
 
@@ -45,6 +46,7 @@ In der folgenden Übersicht werden alle Eingabefelder der Interoperabilitätspla
 | __Landing page__ | Tragen Sie hier den Link zu jener Webseite bei Ihrer Organisation ein, auf welcher die API detailliert beschrieben wird. | [dcat:landingPage](https://www.dcat-ap.ch/releases/2.0/dcat-ap-ch.html#data-service-landing-page) | |
 | __Konform zu__ | In diesem Bereich werden allfällige gesetzliche Grundlagen zum betreffenden Datenangebot erfasst, also etwa Gesetze und Verordnungen. Setzen Sie dazu einen Link zum betreffenden Dokument auf [Fedlex](https://www.fedlex.admin.ch) oder auf die entsprechende Online-Ressource, die den betreffenden Text enthält. Setzen Sie zudem einen Link auf das entsprechende Dokument, wenn Ihr Datenangebot einem Standard entspricht. | [dct:conformsTo](https://www.dcat-ap.ch/releases/2.0/dcat-ap-ch.html#dataset-conforms-to) | |
 | __Dokumente__ | Tragen Sie hier weitere Dokumente ein, die einen direkten Zusammenhang mit ihrem Angebot haben, etwa eine Anleitung oder einen Hintergrundtext. | | optional |
+{.entry-fields}
 
 ## Behördenleistung
 
@@ -58,3 +60,4 @@ Die elektronischen Behördenleistungen werden anhand des [Core Public Service Vo
 | __Herausgeber__ | Wählen Sie Ihre Organisation aus der Liste aus. Bitte kontaktieren Sie das I14Y-Team, falls die betreffende Organisation nicht aufgeführt ist. | obligatorisch |
 | __Themen__ | Hier wird angegeben, aus welchen thematischen Bereichen Daten zur Verfügung gestellt werden. Die hier gemachten Angaben sind die Grundlage für die thematischen Filter beim Abrufen der Daten. Die zur Auswahl stehenden Optionen [stammen von der EU](https://publications.europa.eu/resource/authority/data-theme). | | 
 | __Schlüsselwörter__ | Schlüsselwörter präzisieren die Beschreibung der Behördenleistung. Schlüsselwörter sind wichtige Begriffe innerhalb der Dienstleistung. Ein Schlüsselwort kann mehrere öffentliche Dienstleistungen beschreiben, und eine öffentliche Dienstleistung kann durch mehrere SChlüsselwörter beschrieben werden. Damit der Eintrag auch gefunden wird, wenn etwa ein in der Beschreibung ein Synonym verwendet wird, lassen sich Schlüsselwörter hinterlegen. |  | |
+{.entry-fields}
