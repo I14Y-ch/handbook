@@ -67,3 +67,6 @@ weight = 5
 [params.mermaid]
 enable = true
 theme = "base"
+
+[markup.goldmark.parser.attribute]
+block = true
