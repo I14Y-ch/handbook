@@ -1,6 +1,6 @@
 ---
-title: "API-Dokumentation"
-slug: swagger
+title: API-Dokumentation
+slug: api
 weight: 20
 type: docs
 description: "Referenz für die I14Y-API"

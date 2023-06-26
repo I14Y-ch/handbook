@@ -1,6 +1,6 @@
 ---
 title: Weitere Suchmöglichkeiten
-slug: weiere-suchen
+slug: weitere-suchen
 weight: 30
 type: docs
 keywords: [I14Y, I14Y-Interoperabilitätsplattform, I14-IOP, Geocat, Opendata.swiss, Opendata, Metasuche, Suchfenster]
