@@ -494,6 +494,15 @@ a {
 		}
 	}
 
+	&.regex {
+		tr > th:nth-child(1),
+		tr > td:nth-child(1),
+		tr > th:nth-child(2),
+		tr > td:nth-child(2) {
+			max-width: 350px;
+		}
+	}
+
 	&.partner {
 		tr > th:nth-child(1),
 		tr > td:nth-child(1) {
