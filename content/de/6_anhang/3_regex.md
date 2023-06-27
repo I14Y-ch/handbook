@@ -18,3 +18,4 @@ Nachfolgend werden einige Beispiele für solche Ausdrücke aufgelistet.
 | `http[s]?:\/\/[\w+\.]?\w+\.\w+` | URL | https://i14y.admin.ch |
 | `\-?\d{1,2}\s\°C` | Temperaturangabe zwischen -99 und 99, inklusive der Masseinheit °C. | -12 °C |
 | `756\.\d{4}\.\d{4}\.\d{2}` | Schweizer [AHV-Nummer](https://www.bsv.admin.ch/bsv/de/home/sozialversicherungen/ahv/grundlagen-gesetze/ahv-nummer.html) | 756.1234.5678.97 |
+{.regex}
