@@ -20,6 +20,7 @@ type: docs
 | [geolion.zh.ch/](https://geolion.zh.ch/) | Katalog (Metadaten) für Geodaten im Kanton Zürich | Kanton Zürich |
 | [data.bs.ch/](https://data.bs.ch/) | Datenportal des Kantons Basel-Stadt | Kanton Basel-Stadt |
 | [geobasisdaten.ch](https://geobasisdaten.ch) | Geodatenportal Konferenz der kantonalen Geoinformations­- und Katasterstellen und von Swisstopo. | Schweiz |
+{.weblink1}
 
 # Weitere Weblinks
 | Weblink | Beschreibung | Kategorie | Land |
@@ -27,3 +28,4 @@ type: docs
 | [OGD-Strategie](https://fedlex.data.admin.ch/eli/fga/2019/125) | Strategie für offene Verwaltungsdaten in der Schweiz (OGD) auf der publikationsplattform des Bundesrechts (Fedlex).  | Strategie | Schweiz |
 | [Opendatacommons](https://opendatacomons.org) | Lizenzen für offene Daten  | Recht | Schweiz |
 | [Nationale Datenbewirtschaftung](https://www.bfs.admin.ch/bfs/de/home/nadb/nadb.html) | Beschreibung des Programms der Eidgenossenschaft | Schweiz |
+{.weblink2}

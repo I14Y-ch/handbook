@@ -279,7 +279,9 @@ body {
 
       .ul-0,
       .ul-1,
-      .ul-2 {
+      .ul-2,
+	  .ul-3,
+	  .ul-4 {
         margin: 0;
         padding: 0 !important;
 
@@ -336,6 +338,24 @@ body {
           }
         }
       }
+
+	  .ul-3 {
+		li {
+			a {
+				padding-left: $ob-spacing-xl + $ob-spacing-sm !important;
+				font-size: 90%;
+			}
+		}
+	  }
+
+	  .ul-4 {
+		li {
+			a {
+				padding-left: $ob-spacing-xl + $ob-spacing-default !important;
+				font-size: 90%;
+			}
+		}
+	  }
     }
   }
 }
@@ -415,6 +435,81 @@ a {
 
 		tr:hover, tr.ob-active {
 			background-color: #f2f7fa;
+		}
+	}
+
+	&.roles {
+		tr > th:nth-child(2),
+		tr > td:nth-child(2) {
+			max-width: 600px;
+		}
+	}
+
+	&.workflow {
+		tr > th:nth-child(3),
+		tr > td:nth-child(3) {
+			max-width: 500px;
+		}
+	}
+
+	&.gui {
+		tr > th:nth-child(2),
+		tr > td:nth-child(2) {
+			max-width: 400px;
+		}
+	}
+
+	&.entry-fields {
+		tr > th:nth-child(2),
+		tr > td:nth-child(2) {
+			max-width: 400px;
+		}
+	}
+	
+	&.swagger {
+		tr > th:nth-child(3),
+		tr > td:nth-child(3) {
+			max-width: 500px;
+		}
+	}
+
+	&.eiam {
+		tr > th:nth-child(2),
+		tr > td:nth-child(2) {
+			max-width: 600px;
+		}
+	}
+
+	&.weblink1 {
+		tr > th:nth-child(2),
+		tr > td:nth-child(2) {
+			max-width: 500px;
+		}
+	}
+
+	&.weblink2 {
+		tr > th:nth-child(2),
+		tr > td:nth-child(2) {
+			max-width: 400px;
+		}
+	}
+
+	&.partner {
+		tr > th:nth-child(1),
+		tr > td:nth-child(1) {
+			max-width: 65px;
+		}
+
+		tr > th:nth-child(4),
+		tr > td:nth-child(4) {
+			max-width: 400px;
+		}
+
+		tr > th:nth-child(2),
+		tr > td:nth-child(2),
+		tr > th:nth-child(5),
+		tr > td:nth-child(5) {
+			max-width: 180px;
 		}
 	}
 }

@@ -183,10 +183,10 @@ Am Beispiel: In der Datensammlung einer Tierklinik sind Informationen zu Hunden 
         dataelement21(Geschlecht)
         dataelement22(Gefiederfarbe)
         dataelement23(Vogelart)
-        concept1(Zeichenkette)
-        concept2(Codeliste)
-        concept3(Codeliste)
-        concept4(Zeichenkette)
+        concept1(Hunderasse \nZeichenkette)
+        concept2(Farbe \nCodeliste)
+        concept3(Geschlecht \nCodeliste)
+        concept4(Vogelart \nZeichenkette)
 
         dataset1---structure1
         structure1---dataelement11

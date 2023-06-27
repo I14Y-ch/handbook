@@ -24,5 +24,6 @@ Die I14Y-Interoperabilitätsplattform wird von zahlreichen staatlichen Organisat
 | ![Logo](/handbook/img/logos/logo_be.png) | Stadt Bern | | Die Stadt Bern nutzt die I14Y-IOP für das interne Inventar die Datensammlungen und Elektronische Schnittstellen. Die Metadaten zu den wichtigsten Datensammlungen und Schnittstellen werden zudem auf der Plattform öffentlich publiziert. Die Stadt gehört zu den ersten Städten, die die Plattform aktiv nutzen. |  |
 | ![Logo](/handbook/img/logos/logo_eoperations.png) | eOperations Schweiz | | | [Elektronische Schnittstellen](https://www.i14y.admin.ch/de/catalog/all?publisher=7913772d-b872-44d3-8c03-78a5e29aa613) |
 | ![Logo](/handbook/img/logos/logo_identitas.png) | Identitas | | Das Unternehmen Identitas betreibt im Auftrag des Bundes die Tierverkehrsdatenbank sowie der dazu gehörende Webdienst. | [Elektronische Schnittstelle](https://www.i14y.admin.ch/de/catalog/all?publisher=79e7a3ac-d379-4cb0-b959-2cc0d4cc838f) |
+{.partner}
 
 Fehlt Ihre Organisation? [Nehmen Sie mit uns Kontakt auf](mailto:i14y@bfs.admin.ch) oder ergänzen Sie die Informationen auf [Github](https://github.com/I14Y-ch/handbook).  
