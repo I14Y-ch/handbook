@@ -7,6 +7,12 @@ type: docs
 
 Die I14Y-Interoperabilitäsplattform wird aktiv weiterentwickelt. Mit jedem Release kommen neue Funktionen hinzu. Zudem werden Fehler behoben. Nachfolgend werden die wichtigsten Veränderungen kurz dokumentiert. Für detaillierte Informationen zur Weiterentwicklung der Plattform wenden Sie sich ans [I14Y-Team](mailto:i14y@bfs.admin.ch). 
 
+## Release 30. Juni 2023
+
+- __Handbuch:__ Das I14Y-Handbuch steht nun zur Verfügung. Eine entsprechende Kachel wurde auf der Startseite der Plattform ergänzt. 
+- __Chatbot:__ Im Bereich I14Y-Labs beantwortet ein Chatbot Fragen zur Nationalen Datenbewirtschaftung sowie zur Interoperabilitätsplattform.  
+- __Diverses:__ Einige Fehler aus der früheren Version wurden korrigiert. 
+
 ## Release 15. Juni 2023
 
 - Korrektur diverser Fehler
