@@ -19,7 +19,7 @@ weight = 1
 
 [languages.fr]
 title = "Manuel I14Y plateforme d’interopérabilité"
-description = ""
+description = "Instructions et informations sur la plate-forme d'interopérabilité"
 languageName = "Français"
 languageCode = "fr"
 contentDir = "content/fr"
@@ -27,7 +27,7 @@ weight = 2
 
 [languages.it]
 title = "Manuale I14Y piattaforma di interoperabilità"
-description = ""
+description = "Guida e informazioni sulla piattaforma di interoperabilità"
 languageName = "Italian"
 languageCode = "it"
 contentDir = "content/it"
