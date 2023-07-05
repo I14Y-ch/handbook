@@ -2,6 +2,9 @@
 languageCode = 'de-CH'
 title = 'Handbuch I14Y-Interoperabilitätsplattform'
 
+# Menu configuration
+ui.sidebar_menu_compact = true
+
 # Language settings
 contentDir = "content/"
 defaultContentLanguage = "de"
