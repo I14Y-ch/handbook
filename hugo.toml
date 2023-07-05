@@ -2,6 +2,12 @@
 languageCode = 'de-CH'
 title = 'Handbuch I14Y-Interoperabilitätsplattform'
 
+[markup]
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 2
+    
 # Language settings
 contentDir = "content/"
 defaultContentLanguage = "de"
