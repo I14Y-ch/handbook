@@ -70,3 +70,9 @@ theme = "base"
 
 [markup.goldmark.parser.attribute]
 block = true
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 4
+    ordered = false
+    startLevel = 2
