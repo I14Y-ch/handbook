@@ -2,9 +2,6 @@
 languageCode = 'de-CH'
 title = 'Handbuch I14Y-Interoperabilitätsplattform'
 
-# Menu configuration
-ui.sidebar_menu_compact = true
-
 # Language settings
 contentDir = "content/"
 defaultContentLanguage = "de"
@@ -65,6 +62,10 @@ weight = 5
   [[module.imports]]
     path = "github.com/google/docsy/dependencies"
     disable = false
+
+[params.ui]
+# Enable to show the side bar menu in its compact state.
+sidebar_menu_compact = true
 
 # Konfiguration für den Diagramm-Generator Mermaid.
 [params.mermaid]
