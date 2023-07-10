@@ -45,11 +45,23 @@ Systeme zum _Enterprise Identity Management (EIAM)_ werden verwendet, um Identit
 ## Internationale Organisation für Normung (ISO)
 Die Internationale Organisation für Normung (ISO) ist eine Vereinigung von Normierungsorganisationen. Sie erarbeitet internationale Normen in zahlreichen Bereichen -- mit Ausnahme der Elektrotechnik und der Kommunikationstechnologie. Bei der ISO handelt es sich um einen Verein nach schweizerischem Recht. Der Sitz ist in Genf. Nationale Standardisierungsvorhaben im Bereich eGovernment treibt meistens der [→ Verein eCH](#ech) voran.
 
+## Interoperabilität
+Interoperabilität ist die Fähigkeit unabhängiger, heterogener Systeme, möglichst nahtlos zusammenzuarbeiten, um Informationen auf effiziente Art und Weise auszutauschen, ohne dass dazu im Einzelfall gesonderte Absprachen nötig sind.
+
 ## Interoperabilitätsstelle (IOS)
 Die Interoperabilitätsstelle (IOS) des Bundesamts für Statistik stellt die Instrumente zur Harmonisierung, Standardisierung und Mehrfachverwendung von Daten bereit. Als technisches Werkzeug dazu entwickelt und betreut sie die I14Y-Interoperabilitätsplattform. Die Interoperabilitätsstelle koordiniert die Standardisierung und Harmonisierung von Daten innerhalb der einzelnen Themenbereiche (z.B. Energie, Gesundheit, Mobilität, Landwirtschaft). Das BFS nimmt dabei die Aufgaben des _Swiss Data Stewards_ wahr. 
 
 ## Linked Data 
 Linked Data sind Daten, die dank eines Identifikators (_Uniform Resource Identifier_) direkt miteinander verknüpft werden können. Sofern die Daten frei verfügbar sind, wird auch von _Linked Open Data_ gesprochen. Die Daten können verteilt sein. Sie lassen sich über normale Web-Transferprotokoll abrufen. Dank dem standardisierten Aufbau lassen sie wie eine einzige grosse Datenbank benutzen. Dazu wird die Abfragesprache _Sparql_ eingesetzt. Linked Open Data ist ein von Tim Berners-Lee, dem Erfinder des World Wide Webs, entwickeltes Konzept. Das Ziel ist der Aufbau eines semantischen Webs, bei dem dank strukturierten und verknüpfbaren Datenangeboten die maschinelle Kommunikation vereinfacht wird. Die Plattform Lindas ist die wichtigste Anbieterin von Linked Data im Bereich der öffentlichen Verwaltung in der Schweiz. Weitere Informationen sind im [Abschnitt zu Lindas](/handbook/de/2_rollen_prozesse/plattformen) zu finden.
+
+## Metadaten
+Metadaten beschreiben die Daten. Sie beinhalten etwa Informationen zur Semantik (zur Bedeutung, zum Inhalt und zur Qualität) einer Datensammlung. Zudem beschreiben sie die Syntax (also die Form und die Struktur) der verwendeten Attribute (Variablen). Zur Sicherstellung einer standardisierten und qualitätsgesicherten Datenerfassung und -verwendung werden oftmals Nomenklaturen und Register verwendet, etwa das Gemeindeverzeichnis, die Nomenklatur der Berufe (ISCO) oder der Wirtschaftszweige (NOGA). Auf der I14Y-Interoperabilitätsplattform können solche Metadaten verwaltet und publiziert werden.  
+
+## Nationale Datenbewirtschaftung (NaDB)
+Das Programm Nationale Datenbewirtschaftung hat es zum Ziel, die Datenbewirtschaftung der öffentlichen Hand durch die Mehrfachnutzung von Daten einfacher und effizienter zu gestalten. Es wurde vom Bundesrat initiiert und im Oktober 2019 gestartet. Beteiligt am Programm NaDB sind alle Departemente des Bundes, die Bundeskanzlei, alle Bereiche des Statistiksystems Schweiz, Vertreter von Kantonen, die Sozialpartner sowie private Organisationen und Verbände. Die Verantwortung für die Umsetzung des Programms NaDB liegt beim Bundesamt für Statistik. Technisches Kernstück ist die I14Y-Interoperabilitätsplattform. Weitere Informationen sind auf der [Website des Projekts](https://www.bfs.admin.ch/bfs/de/home/nadb/nadb.html) zu finden. 
+
+## Nomenklatur
+Eine Nomenklatur ist eine für bestimmte Bereiche verbindliche Sammlung von Benennungen aus einem bestimmten Themen- oder Anwendungsgebiet. Beispiele für Nomenklaturen sind ein Gemeindeverzeichnis oder ein Länderverzeichnis. Eine Nomenklatur erhält Codes und beschreibende Textteile, allenfalls in verschiedenen Sprachen.
 
 ## Once-Only-Prinzip 
 Ziel des _Once-Only_-Prinzips ist es, dass Bürgerinnen und Bürger sowie Unternehmen ihre Daten nur noch einmal der öffentlichen Verwaltung zur Verfügung stellen müssen. Die einzelnen Amtsstellen der unterschiedlichen Ebenen tauschen dann die Informationen selbstständig aus -- sofern dies explizit so vorgesehen und sinnvoll ist. Das _Once-Only_-Prinzip soll den Aufwand reduzieren, bei den Bürgerinnen und Bürgern, den Unternehmen wie auch innerhalb der Verwaltung. Die Umsetzung des _Once-Only-Prinzips ist ein zentrales Ziel des Programms für eine nationale Datenbewirtschaftung (siehe [Einleitung](/handbook/de/)).
@@ -57,8 +69,14 @@ Ziel des _Once-Only_-Prinzips ist es, dass Bürgerinnen und Bürger sowie Untern
 ## SDMX 
 Der _Statistical Data and Metadata EXchange (SDMX)_ ist eine Initiative zur Standardisierung des Datenaustauschs zwischen internationalen Organisationen und ihren Mitgliedsländern. Massgeblich entwickelt wurde er von der Weltbank und der Europäischen Union. _SDMX_ definiert sowohl einheitliche Datenformate als auch Metadatenstandards und Methoden zur Datenübertragung. Weitere Informationen: [sdmx.org](https://sdmx.org). Auf der I14Y-Interoperabilitätsplattform können etwa Codelisten im SDMX-Format eingelesen werden (siehe [Erfassen von Konzepten](/handbook/de/4_publikation/2_konzepte/)). 
 
+## Stammdaten
+Die Stammdaten sind grundlegende Informationen, die von der öffentlichen Verwaltung zwingend benötigt werden. Sie können Personen, Unternehmen, aber auch diverse Objekte wie etwa Gebäude oder Fahrzeuge beschreiben. Für jedes dieser Objekte muss ein abschliessender Katalog dieser Merkmale (Attribute) verfügbar sein. Die Stammdaten sind die zustandsorientierten Daten. Stammdaten bleiben im Zeitverlauf volumenmässig relativ konstant. Und sie ändern sich eher selten. Eine Sonderform von Stammdaten sind die so genannten Referenzdaten wie etwa Codes für Flughäfen oder Länder. Diese dienen der Klassifizierung von Stammdaten.
+
 ## Swagger
 [Swagger](https://swagger.io/) ist eine Kollektion frei verfügbarer Hilfsmittel zur Publikation und Nutzung von elektronischen Schnittstellen (APIs). Auf der I14Y-Interoperabilitätsplattform wird insbesondere die Dokumentationsmöglichkeiten genutzt: Dank der Swagger-Weboberfläche ist rasch ersichtlich, welche Möglichkeiten die I14Y-API bietet. Zudem können die Abfragemöglichkeiten bei sämtlichen Endpunkten direkt ausprobiert werden. Weitere Informationen sind unter [Metadaten abrufen](/handbook/de/3_metadaten_abrufen/api) zu finden.
 
 ## Verwaltungsdaten 
 Verwaltungsdaten sind Daten, die im Rahmen eines gesetzlichen Auftrags erhoben, erstellt, verwaltet, verarbeitet und gespeichert werden. Bei diesen kann es sich um strukturierte und unstrukturierte Daten handeln. Auf der I14Y-Interoperabilitätsplattform können die einzelnen Verwaltungsstellen Inventare ihrer Daten erstellen. Öffentlich publiziert lassen sich die harmonisierten oder standardisierten Datenangebote. 
+
+## Validierung
+Die Validierung ist ein Prozess, bei dem geprüft wird, ob ein Inhalt in ein System aufgenommen werden soll. Im Fall einer Datensammlung werden etwa das Datenformat kontrolliert, die Datenintegrität und die Wertebereiche und Nomenklaturen. Insbesondere wird geprüfgt, ob die Daten im Einklang sind mit den Metadaten und den Spezifikationen. Die Validierung basiert auf vordefinierten Validierungsregeln.
