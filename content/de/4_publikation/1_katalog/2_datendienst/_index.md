@@ -10,7 +10,7 @@ Elektronische Schnittstellen, in der Fachsprache als _Application programming in
 
 {{<alert title="Was ist eine API?" color="info">}}
 
-Ein so genanntes _Application Programming Interface (API)_ ist eine technische Schnittstelle. Dank dieser können Software-Anwendungen miteinander kommunizieren und Daten austauschen. Und dies, ohne dass sie direkt miteinander verknüpft werden müssen. Dank APIs können Entwickler etwa Kernfunktionen des Betriebssystems benutzt, ohne diese selber schreiben zu müssen. Webserver beziehen über solche Schnittstellen die Daten vom Backend oder sogar von fremden Systemen, die sie dann anzeigen. Und Fachanwendungen holen stets aktualisierte Auswahllisten. APIs sind in der modernen Software-Entwicklung unabdinglich. 
+Ein so genanntes _Application Programming Interface (API)_ ist eine technische Schnittstelle. Dank dieser können Software-Anwendungen miteinander kommunizieren und Daten austauschen. Und dies, ohne dass sie direkt miteinander verknüpft werden müssen. Dank APIs können Entwickler etwa Kernfunktionen des Betriebssystems benutzen, ohne diese selber schreiben zu müssen. Webserver beziehen über solche Schnittstellen die Daten vom Backend oder sogar von fremden Systemen, die sie dann anzeigen. Und Fachanwendungen holen stets aktualisierte Auswahllisten. APIs sind in der modernen Software-Entwicklung unabdinglich. 
 
 {{</alert>}}
 
