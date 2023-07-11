@@ -5,6 +5,8 @@ weight: 70
 type: docs
 ---
 
+{{ .TableOfContents }}
+ 
 ## Data Catalog Vocabulary (DCAT) 
 Das _Data Catalog Vocabulary (DCAT)_ ist eine normierte Art und Weise, wie Datensammlungen und -dienste beschrieben werden. Durch die vereinheitlichte Terminologie soll der Datenaustausch im Internet vereinfacht werden. Zudem können so beschriebene Datensammlungen einfacher aufgefunden, ausgelesen und archiviert werden. DCAT baut auf dem _Resource Description Framework (RDF)_ auf, das von der Normierungsbehörde _World Wide Web Consortium (W3C)_ gepflegt wird.   
 
