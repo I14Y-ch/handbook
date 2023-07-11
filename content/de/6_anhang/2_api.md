@@ -8,7 +8,7 @@ description: "Referenz für die I14Y-API"
 
 <!-- {{<swaggerui src="">}} -->
 
-### Konzept-API
+## Konzept-API
 
 | Attribut | Ausprägung | Beschreibung |
 | --- | --- | --- |
