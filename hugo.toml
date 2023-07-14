@@ -33,13 +33,13 @@ languageCode = "it"
 contentDir = "content/it"
 weight = 3
 
-[languages.rm]
-title = "Manual da plattafurma d'interoperabilitad I14Y"
-description = ""
-languageName = "Rumantsch"
-languageCode = "rm"
-contentDir = "content/rm"
-weight = 4
+# [languages.rm]
+# title = "Manual da plattafurma d'interoperabilitad I14Y"
+# description = ""
+# languageName = "Rumantsch"
+# languageCode = "rm"
+# contentDir = "content/rm"
+# weight = 4
 
 [languages.en]
 title = "Manual I14Y Interoperability Platform"

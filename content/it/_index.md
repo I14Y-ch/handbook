@@ -1,7 +1,6 @@
 ---
 title: Piattaforma di metadati per la Svizzera
 slug: Introduzione
-description: ''
 keywords: [I14Y, I14Y Interoperability Platform, IOP, Introduzione, Interoperabilità, Uso multiplo, Svizzera, Raccolta dati, Interfaccia elettronica, API, Principio Once-Only, Uso secondario dei dati, Armonizzazione, Standardizzazione]
 weight: 0
 type: docs
