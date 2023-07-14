@@ -1,8 +1,7 @@
 ---
-title: Metadatenplattform für die Schweiz
-slug: einleitung
-description: 'Die I14Y-Interoperabilitätsplattform ist das zentrale Verzeichnis der Daten, elektronischen Schnittstellen und Behördenleistungen in der Schweiz. Die Plattform stellt zudem Werkzeuge zur Verfügung, damit Daten mehrfach genutzt werden können. Dies entlastet Unternehmen, Bürgerinnen und Bürger sowie die Behörden.'
-keywords: [I14Y, I14Y-Interoperabilitätsplattform, IOP, Einleitung, Interoperabilität, Mehrfachnutzung, Schweiz, Datensammlung, elektronische Schnittstelle, Datensammlungen, elektronische Schnittstelle, API, Once-Only-Prinzip, Sekundärnutzung von Daten, Harmonisierung, Standardisierung]
+title: Plateforme de métadonnées pour la Suisse
+slug: introduction
+keywords: [I14Y, Plateforme d'interopérabilité I14Y, IOP, Introduction, Interopérabilité, Utilisation multiple, Suisse, Métadonnées, Interfaces électroniques, Jeux de données, Prestations des autorités, API, Principe du "Once-Only", Utilisation secondaire des données, Harmonisation, Standardisation]
 weight: 0
 type: docs
 ---
