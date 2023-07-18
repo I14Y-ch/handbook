@@ -123,9 +123,3 @@ Das I14Y-Handbuch ist in einer Auszeichnungssprache -- englisch: _Markup Languag
 4. Beschreiben Sie im Formular unter dem Text die Änderung kurz. Reichen Sie den Vorschlag anschliessend mit einem Klick auf den Knopf ein. Ihr Vorschlag wird zeitnah vom I14Y-Team geprüft und allenfalls ins Handbuch integriert.
 
 {{</alert>}}
-
-Haben Sie Fragen zur Datenharmonisierung oder zur I14Y-Interoperabilitätsplattform? Stellen Sie diese unserem Chatbot. Mehr Informationen zu diesem Experiment finden Sie im [Labor-Teil](/handbook/de/5_labs/) dieses Handbuchs. 
- 
-{{<iframe src="https://i14y-i14ychatbotlight.hf.space" style="border:0px #ffffff none;" name="Chatbot" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="85%">}}
-{{</iframe>}}
-

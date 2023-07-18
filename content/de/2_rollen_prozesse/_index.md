@@ -13,9 +13,8 @@ Daten sollen zuverlässig erhoben und regelmässig nachgeführt werden. Die Zust
 
 In einem ersten Kapitel wird das [Rollenmodell](/handbook/de/2_rollen_prozesse/rollen) detailliert beschrieben. In einem zweiten wird auf die genauen [Arbeitsabläufe](/handbook/de/2_rollen_prozesse/arbeitsablauf) eingegangen. Darauf folgen Detailinformationen zu den verwendeten [Informationsmodellen](/handbook/de/2_rollen_prozesse/informationsmodell) sowie zur Verwaltung der [Zugangskonten](/handbook/de/2_rollen_prozesse/kontenverwaltung). Schliesslich wird erklärt, was die I14Y-Interoperabilitätsplattform von [anderen Metadatenplattformen](/handbook/de/2_rollen_prozesse/plattformen) unterscheidet.
 
-{{<alert title="Sind die Daten auf der I14Y-IOP sicher?" color="info">}}
-Auf der I14Y-Interoperabilitätsplattform werden ausschliesslich Metadaten gespeichert. Die eigentlichen Daten verbleiben bei jener Stelle, die die Datensammlung verwaltet. Diese ist damit zuständig für die Sicherheit der Daten. 
+{{<alert title="Der I14Y-Chatbot beantwortet Fragen in verschiedenen Sprachen" color="success">}}
 
-Die I14Y-Interoperabilitätsplattform wird vom Bundesamt für Informatik im Auftrag der Interoperabilitätsstelle technisch betrieben. Die Bundesvorgaben zur Informatiksicherheit werden umgesetzt. Eine Schutzbedarfsanalyse wurde anfangs Februar 2021 abgeschlossen. Die Server, auf denen die Plattform läuft, werden vom Bundesamt für Informatik betrieben. Sie befinden sich in der Schweiz. Extern abgelegt ist einzig dieses Handbuch.
+Haben Sie Fragen zur Datenharmonisierung oder zur I14Y-Interoperabilitätsplattform? Stellen Sie diese unserem [Chatbot](https://www.i14y.admin.ch/de/labs/chatbot). Mehr Informationen zu diesem Experiment finden Sie im [Labor-Teil](/handbook/de/5_labs/) dieses Handbuchs. 
 
 {{</alert>}}

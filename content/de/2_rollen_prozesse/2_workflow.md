@@ -54,3 +54,10 @@ Auf der I14Y-Interoperabilitätsplattform existieren zwei Publikationskanäle: M
 In der Regel wird die öffentliche Publikation durch eine Person mit der Rolle _Local Data Steward_ vorgeschlagen. Die Interoperabilitätsstelle, das I14Y-Team, prüft daraufhin die Metadaten. Es schaltet den Eintrag am gemeinsam definierten Publikationstermin frei. 
 
 Abhängig vom Status im Publikations-Workflow sowie von der eigenen Rolle können die erfassten Metadaten nicht abgeändert werden. So können etwa als "Registriert" gekennzeichnete Einträge nicht mehr bearbeitet werden, ohne dass der Status zurückgestellt wird. In diesem Fall wird normalerweise eine neue Version angelegt.
+
+{{<alert title="Sind die Daten auf der I14Y-IOP sicher?" color="info">}}
+Auf der I14Y-Interoperabilitätsplattform werden ausschliesslich Metadaten gespeichert. Die eigentlichen Daten verbleiben bei jener Stelle, die die Datensammlung verwaltet. Diese ist damit zuständig für die Sicherheit der Daten. 
+
+Die I14Y-Interoperabilitätsplattform wird vom Bundesamt für Informatik im Auftrag der Interoperabilitätsstelle technisch betrieben. Die Bundesvorgaben zur Informatiksicherheit werden umgesetzt. Eine Schutzbedarfsanalyse wurde anfangs Februar 2021 abgeschlossen. Die Server, auf denen die Plattform läuft, werden vom Bundesamt für Informatik betrieben. Sie befinden sich in der Schweiz. Extern abgelegt ist einzig dieses Handbuch.
+
+{{</alert>}}
