@@ -7,7 +7,7 @@ type: docs
 keywords: [I14Y, I14Y-Interoperabilitätsplattform, I14Y-IOP, Metadaten, Katalog, Datenbezug, Daten beziehen, Daten abrufen]
 ---
 
-![Szene aus dem Erklärvideo zur I14Y-Interoperabilitätsplattform](/handbook/img/i14y-film_123.png)
+![Szene aus dem Erklärvideo zur I14Y-Interoperabilitätsplattform](/handbook/img/i14y-film_abrufen.png)
 
 Die I14Y-Interoperabilitätsplattform ist das zentrale Verzeichnis aller Behördendaten. Sie macht die verfügbaren Datensammlungen inklusive ihrer Struktur und der einzelnen Datenelemente sowie die elektronischen Schnittstellen und die Dienstleistungen der Schweizer Behörden sichtbar. Und sie beantwortet die wichtigsten Fragen dazu. Im Fall einer Datensammlung etwa: Wer erhebt und verwaltet die betreffenden Daten? Ist die Sammlung frei zugänglich oder kann sie ausschliesslich von Berechtigten genutzt werden? Wie ist die Datensammlung strukturiert? Welche Datenelemente werden verwendet? Entspricht die Datensammlung einem Standard? Welches sind ihre gesetzlichen Grundlagen? Und wie ist die Datenqualität einzuschätzen? 
 
