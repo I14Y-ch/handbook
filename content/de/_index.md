@@ -126,4 +126,4 @@ Das I14Y-Handbuch ist in einer Auszeichnungssprache -- englisch: _Markup Languag
 
 Haben Sie Fragen zur Datenharmonisierung oder zur I14Y-Interoperabilitätsplattform? Stellen Sie diese unserem Chatbot. Mehr Informationen zu diesem Experiment finden Sie im [Labor-Teil](/handbook/de/5_labs/) dieses Handbuchs. 
  
-<iframe src="https://i14y-i14ychatbotlight.hf.space" style="border:0px #ffffff none;" name="Chatbot" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="85%"></iframe>
+{{<iframe src="https://i14y-i14ychatbotlight.hf.space" style="border:0px #ffffff none;" name="Chatbot" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="85%"></iframe>}}
