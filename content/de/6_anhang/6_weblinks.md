@@ -5,8 +5,13 @@ weight: 60
 type: docs
 ---
 
-# Daten- und Metadatenportale
+## Grundlagen Nationale Datenbewirtschaftung und OGD
+| [Nationale Datenbewirtschaftung](https://www.bfs.admin.ch/bfs/de/home/nadb/nadb.html) | Beschreibung des Programms Nationale Datenbewirtschaftung der Eidgenossenschaft | Schweiz |
+| [Bundesgesetz über den Einsatz elektronischer Mittel zur Erfüllung von Behördenaufgaben](https://www.fedlex.admin.ch/eli/fga/2023/787/de) | Bundesgesetz über den Einsatz elektronischer Mittel zur Erfüllung von Behördenaufgaben (Embag) auf der Publikationsplattform des Bundesrechts (Fedlex) | Schweiz |
+| [OGD-Strategie](https://fedlex.data.admin.ch/eli/fga/2019/125) | Strategie für offene Verwaltungsdaten in der Schweiz (OGD) auf der Publikationsplattform des Bundesrechts (Fedlex).  | Schweiz |
+{.weblink1}
 
+## Daten- und Metadatenportale
 | Weblink | Beschreibung | Nation/ Union |
 | ----- | ----- | ----- | 
 | [data.europa.eu](https://data.europa.eu) | Auf dem offiziellen __Datenportal der Europäischen Union__ werden Metadaten von den nationalen, regionalen, lokalen und bereichsspezifischen Datenanbietern gesammelt. Zudem bietet das Portal Zugang zu mehr als einer Million offenen Datensammlungen aus 36 Ländern. | Europäische Union |
@@ -22,10 +27,8 @@ type: docs
 | [geobasisdaten.ch](https://geobasisdaten.ch) | Geodatenportal Konferenz der kantonalen Geoinformations­- und Katasterstellen und von Swisstopo. | Schweiz |
 {.weblink1}
 
-# Weitere Weblinks
-| Weblink | Beschreibung | Kategorie | Land |
+## Weitere Weblinks
+| Weblink | Beschreibung | Land |
 | ----- | ----- | ----- | ---- | --- |
-| [OGD-Strategie](https://fedlex.data.admin.ch/eli/fga/2019/125) | Strategie für offene Verwaltungsdaten in der Schweiz (OGD) auf der publikationsplattform des Bundesrechts (Fedlex).  | Strategie | Schweiz |
-| [Opendatacommons](https://opendatacomons.org) | Lizenzen für offene Daten  | Recht | Schweiz |
-| [Nationale Datenbewirtschaftung](https://www.bfs.admin.ch/bfs/de/home/nadb/nadb.html) | Beschreibung des Programms der Eidgenossenschaft | Schweiz |
-{.weblink2}
+| [Opendatacommons](https://opendatacomons.org) | Lizenzen für offene Daten  | Schweiz |
+{.weblink1}
