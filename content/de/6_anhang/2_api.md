@@ -3,7 +3,6 @@ title: API-Dokumentation
 slug: api
 weight: 20
 type: docs
-description: "Referenz für die I14Y-API"
 ---
 
 ## Konzept-API
@@ -47,4 +46,3 @@ description: "Referenz für die I14Y-API"
 | API_Agency | | |
 | identifier | string | Identifier of the agency |
 | name | multilanguagestring | Name of the agency |
-{.swagger}
