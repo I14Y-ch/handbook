@@ -6,6 +6,7 @@ type: docs
 ---
 
 ## Grundlagen Nationale Datenbewirtschaftung und OGD
+| Weblink | Beschreibung | Nation/ Union |
 | [Nationale Datenbewirtschaftung](https://www.bfs.admin.ch/bfs/de/home/nadb/nadb.html) | Beschreibung des Programms Nationale Datenbewirtschaftung der Eidgenossenschaft | Schweiz |
 | [Bundesgesetz über den Einsatz elektronischer Mittel zur Erfüllung von Behördenaufgaben](https://www.fedlex.admin.ch/eli/fga/2023/787/de) | Bundesgesetz über den Einsatz elektronischer Mittel zur Erfüllung von Behördenaufgaben (Embag) auf der Publikationsplattform des Bundesrechts (Fedlex) | Schweiz |
 | [OGD-Strategie](https://fedlex.data.admin.ch/eli/fga/2019/125) | Strategie für offene Verwaltungsdaten in der Schweiz (OGD) auf der Publikationsplattform des Bundesrechts (Fedlex).  | Schweiz |
