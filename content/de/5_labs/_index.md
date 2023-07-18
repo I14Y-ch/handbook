@@ -26,3 +26,11 @@ Klicken Sie auf ein Departement. Nun fokussiert der Graph darauf. Alternativ kö
 Wenn Sie sich für ein bestimmtes Vorhaben interessieren, klicken Sie darauf. Unter dem Graph wird nun ein Weblink zum betreffenden Eintrag bei Digital.swiss eingeblendet. 
 
 Ein Klick auf das Symbol mit dem Haus öffnet wieder die Einstiegsseite. Um dem I14Y-Team eine Rückmeldung zukommen zu lassen, benutzen Sie das Brief-Symbol. 
+
+## I14Y-Chatbot
+
+Der [I14Y-Chatbot](https://www.i14y.admin.ch/de/labs/chatbot) beantwortet Fragen zur Datenharmonisierung im Allgemeinen sowie zur Interoperabilitätsplattform im Speziellen. Die generative künstliche Intelligenz benutzt als Hauptquelle dieses Handbuch. In Zukunft wird der Chatbot auch einfache Fragen zu den auf der I14Y-Interoperabilitätsplattform publizierten Metadaten beantworten können. Obwohl der Chatbot vorerst mit deutschsprachigen Inhalten trainiert worden ist, kann er auch in anderen Sprachen Auskunft geben.
+
+Der I14Y-Chatbot baut auf dem aktuellen [Large Language Model](https://platform.openai.com/docs/models/gpt-4) der US-Firma OpenAI auf, die mit dem Chatroboter ChatGPT bekannt geworden ist. Dieses wird ergänzt mit eigenen Inhalten: aktuell dem I14Y-Handbuch sowie in Zukunft den Metadaten zu Datensammlungen, elektronischen Schnittstellen, Behördenleistungen und Konzepten. Dabei kommt das [LangChain-Framework](https://langchain.com/) zum Einsatz: Ausgewählte Daten werden in eine Vektordatenbank geladen, so dass ChatGPT in Kombination mit der vom Unternehmen Meta entwickelten [Ähnlichkeitssuche FAISS](https://ai.meta.com/tools/faiss/) Fragen rund um die I14Y-Interoperabilitätsplattform möglichst zuverlässig beantworten kann.
+
+Beim I14Y-Chatbot handelt es sich um ein Experiment, das im Rahmen eines Teamtags entwickelt worden ist. Es ist möglich, dass der Chatbot "halluziniert": Gelegentlich könnte er falsche Informationen liefern. Prüfen Sie deshalb alle Antworten genau. 
