@@ -6,7 +6,9 @@ type: docs
 keywords: [I14Y, I14Y-Interoperabilitätsplattform, Arbeitsablauf, Workflow, Status, Publikationskanal]
 ---
 
-Ein klar definierter Arbeitsablauf regelt, wie Metadaten auf der I14Y-Interoperabilitätsplattform publiziert werden. Abhängig davon, ob die Metadaten öffentlich oder ausschliesslich innerhalb der Organisation publiziert werden, ist der Arbeitsablauf zwei- beziehungsweise dreistufig. Der Workflow dient insbesondere der Qualitätssicherung. In einer ersten Stufe werden die Metadaten erfasst. In einer zweiten Stufe werden sie von _Local Data Stewards_ geprüft und freigeschaltet. In einer dritten Stufe werden sie, sofern gewünscht und sinnvoll, in Zusammenarbeit mit der Interoperabilitätsstelle geprüft, gegebenenfalls als standardkonform markiert und schliesslich öffentlich freigegeben.
+Ein klar definierter Arbeitsablauf regelt, wie Metadaten auf der I14Y-Interoperabilitätsplattform publiziert werden. Abhängig davon, ob die Metadaten öffentlich oder ausschliesslich innerhalb der Organisation publiziert werden, ist der Arbeitsablauf zwei- beziehungsweise dreistufig. Dieser _Workflow_ dient insbesondere der Qualitätssicherung. ¨
+
+In einer ersten Stufe werden die Metadaten erfasst. In einer zweiten Stufe werden sie von _Local Data Stewards_ validiert, also geprüft und freigeschaltet. In einer dritten Stufe werden sie, sofern gewünscht und sinnvoll, in Zusammenarbeit mit der Interoperabilitätsstelle geprüft, gegebenenfalls als standardkonform markiert und schliesslich öffentlich freigegeben.
 
 ```mermaid
 flowchart LR
@@ -58,6 +60,6 @@ Abhängig vom Status im Publikations-Workflow sowie von der eigenen Rolle könne
 {{<alert title="Sind die Daten auf der I14Y-IOP sicher?" color="info">}}
 Auf der I14Y-Interoperabilitätsplattform werden ausschliesslich Metadaten gespeichert. Die eigentlichen Daten verbleiben bei jener Stelle, die die Datensammlung verwaltet. Diese ist damit zuständig für die Sicherheit der Daten. 
 
-Die I14Y-Interoperabilitätsplattform wird vom Bundesamt für Informatik im Auftrag der Interoperabilitätsstelle technisch betrieben. Die Bundesvorgaben zur Informatiksicherheit werden umgesetzt. Eine Schutzbedarfsanalyse wurde anfangs Februar 2021 abgeschlossen. Die Server, auf denen die Plattform läuft, werden vom Bundesamt für Informatik betrieben. Sie befinden sich in der Schweiz. Extern abgelegt ist einzig dieses Handbuch.
+Die I14Y-Interoperabilitätsplattform wird vom Bundesamt für Informatik im Auftrag der Interoperabilitätsstelle technisch betrieben. Die Bundesvorgaben zur Informatiksicherheit werden umgesetzt. Eine Schutzbedarfsanalyse wurde anfangs Februar 2021 abgeschlossen. Die Server, auf denen die Plattform läuft, werden vom Bundesamt für Informatik betrieben. Sie befinden sich in der Schweiz. Extern betrieben werden einzig dieses Handbuch sowie der Chatbot. 
 
 {{</alert>}}
