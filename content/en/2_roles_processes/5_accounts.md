@@ -32,7 +32,7 @@ These set-up steps are necessary once only. If you want to change the details of
 account later, visit the [Account Management Area of
 EIAM](https://www.myaccount.eiam.admin.ch).
 
-{{<alert title=" How much does the account cost?” color="info" >}}
+{{<alert title="How much does the account cost?" color="info" >}}
 The I14Y-IOP is being developed and operated by the Confederation as part of the National Data Management programme. The development work as well as the operation are financed by the Confederation. In the medium term, the portal can be used free of charge -- including by content providers from cantonal and communal administrations and by state-related companies. Longer-term financing will be decided at a later stage.
 
 {{</alert>}}
