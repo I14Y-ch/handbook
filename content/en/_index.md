@@ -2,7 +2,7 @@
 title: Metadata platform for Switzerland 
 slug: introduction
 description: 'The I14Y interoperability platform is the central directory of data, electronic interfaces and government services in Switzerland. The platform also provides tools so that data can be used multiple times. This relieves the burden on companies, citizens and the authorities.'
-keywords: [I14Y, I14Y interoperability platform, IOP, introduction, interoperability, multiple use, Switzerland, data set, electronic interface, data sets, electronic interface, API, once-only principle, secondary use of data, harmonisation, standardisation]]
+keywords: [I14Y, I14Y interoperability platform, IOP, introduction, interoperability, multiple use, Switzerland, data set, electronic interface, data sets, electronic interface, API, once-only principle, secondary use of data, harmonisation, standardisation]
 weight: 0
 type: docs
 ---
