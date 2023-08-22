@@ -30,7 +30,7 @@ flowchart TD
     subgraph titel[" "]
         
     subgraph aktuell1[ ]
-            B(fa:fa-user Resident / \n Resident)
+            B(fa:fa-user Resident)
             B-->|reports|C(fa:fa-building \nOffice 1)
             B-->|reports |D(fa:fa-building \nOffice 2)
             B-->|reports|E(fa:fa-building \nOffice 3)
@@ -38,7 +38,7 @@ flowchart TD
         end
     
         subgraph ziel1[ ]
-            BB(fa:fa-user Resident/ \nResident)
+            BB(fa:fa-user Resident)
             BB-->|reports|CC(fa:fa-table \nAmt 1)
             CC-->DD(fa:fa-building \nOffice 2)
             CC-->EE(fa:fa-building \nOffice 3)
@@ -84,7 +84,7 @@ A directory of e-government services such as web applications and apps will also
 
 The platform is developed and operated by the Interoperability Office (IOS) in the Interoperability and Registers Division (IOR) of the [Federal Statistical Office](https://www.bfs.admin.ch). The operation of the platform is regulated by law in the Federal Act on the Use of Electronic Means to Conduct the Tasks of the Authorities (EMBAG).
 
-{{<card header="Statutory basis" title="__Art. 14 Interoperability Platform__" footer=" Federal Act on the Use of Electronic Means to Conduct the Tasks of the Authorities [(EMBAG)](https://www.fedlex.admin.ch/eli/fga/2023/787/de)">}}
+{{<card header="Statutory basis" title="__Art. 14 Interoperability Platform__" footer=" Federal Act on the Use of Electronic Means to Conduct the Tasks of the Authorities [(EMBAG)](https://www.fedlex.admin.ch/eli/fga/2023/787/)">}}
 
 1. The Federal Statistical Office shall operate a public platform on the internet whereby the following information is easily accessible in electronic form, either directly or by referencing:
 
