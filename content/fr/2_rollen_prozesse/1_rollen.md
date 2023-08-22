@@ -3,7 +3,7 @@ title: Rôles
 slug: roles
 weight: 10
 type: docs
-keywords: [I14Y, plateforme d’interopérabilité I14Y, interopérabilité, modèle de rôles, data steward, administrateur des données, data stewardship, administration des données, data owner, propriétaire des données, data consumer], utilisateur des données
+keywords: [I14Y, plateforme d’interopérabilité I14Y, interopérabilité, modèle de rôles, data steward, administrateur des données, data stewardship, administration des données, data owner, propriétaire des données, data consumer, utilisateur des données]
 ---
 
 Les utilisations de la plateforme d’interopérabilité I14Y sont multiples: certaines personnes souhaitent simplement consulter des entrées, d’autres sont chargées de saisir les métadonnées, d’autres encore ont pour mission de valider les informations avant leur publication. La définition des droits d’accès et des compétences se fonde sur le [modèle de rôles relatif à l’administration de données](https://www.bfs.admin.ch/bfs/fr/home/nadb/nadb.assetdetail.14965606.html) de la Confédération. Celui-ci distingue les rôles suivants:
