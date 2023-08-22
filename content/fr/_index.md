@@ -8,7 +8,7 @@ type: docs
 ---
 
 {{% pageinfo color="primary" %}}
-La traduction est en cours : Nous vous remercions pour votre intérêt à la version française du manuel I14Y. Les premières parties du texte sont actuellement en cours de traduction. N'hésitez pas à revenir plus tard. En attendant, vous pouvez consulter le [manuel en allemand](https://handbook.i14y.admin.ch) ou interroger notre [chatbot](https://www.i14y.admin.ch/de/labs/chatbot) en français. L'[équipe I14Y](mailto:i14y@bfs.admin.ch) se tient à votre disposition pour répondre à vos questions. 
+La traduction est en cours : Nous vous remercions de l'intérêt que vous portez à la version française du manuel I14Y. Les premiers chapitres ont été traduits. Les autres parties sont encore en cours de traduction. N'hésitez pas à revenir plus tard. En attendant, vous pouvez consulter le [manuel en allemand](https://handbook.i14y.admin.ch) ou interroger notre [chatbot](https://www.i14y.admin.ch/de/labs/chatbot) en français. L'[équipe I14Y](mailto:i14y@bfs.admin.ch) se tient à votre disposition pour répondre à vos questions. 
 {{% /pageinfo %}}
 
 ![Scène de la vidéo explicative sur la plateforme d’interopérabilité I14Y](/handbook/img/i14y-film_55.png)
@@ -78,8 +78,6 @@ Les informaticiens n’aiment pas les saisies trop longues. C’est pourquoi ils
 
 L’IOP I14Y intègre également un répertoire des prestations électroniques des autorités (applications Web et mobiles, notamment) qui donne un aperçu de l’offre de l’administration publique. Ce répertoire facilite les échanges entre les exploitants des prestations et les utilisateurs.
 
-![Scène de la vidéo explicative sur la plateforme d’interopérabilité I14Y](/handbook/img/i14y-film_160.png)
-
 L’IOP I14Y a été développée et est exploitée par le service d’interopérabilité (IOS) de la division Interopérabilité et registres (IOR) de l’[Office fédéral de la statistique](https://www.bfs.admin.ch). Son exploitation est régie par la loi fédérale sur l’utilisation des moyens électroniques pour l’exécution des tâches des autorités (LMETA).
 
 {{<card header="Base légale" title="__Art. 14 Plateforme d’interopérabilité__" footer="Loi fédérale sur l’utilisation des moyens électroniques pour l’exécution des tâches des autorités [(LMETA)](https://www.fedlex.admin.ch/eli/fga/2023/787/fr)">}}
@@ -113,9 +111,9 @@ Le présent manuel décrit les principales fonctions de la plateforme d’intero
 Le premier chapitre décrit les rôles et les processus](/handbook/de/2_rollen_prozesse) en lien avec l’administration des données. Le chapitre [Recherche de métadonnées](/handbook/de/3_metadaten_abrufen) indique comment rechercher des informations sur la plateforme. Le chapitre [Publication de métadonnées](/handbook/de/4_publikation) explique comment les descriptions des jeux de données, des interfaces électroniques et des éléments de données sont publiées sur la plateforme, et comment compléter le répertoire des prestations administratives. 
 
 <!--Später ergänzen: Le manuel intègre également quelques tutoriels vidéo. --> 
-Le manuel comprend par ailleurs un [glossaire](/handbook/de/7_glossar) , une [liste de liens](/handbook/de/6_anhang/weblinks), une vue d’ensemble des [organisations partenaires](/handbook/de/8_partner) et un [journal (log)(/handbook/de/6_anhang/changelog) indiquant les principaux changements apportés à la plateforme.
+Le manuel comprend par ailleurs un [glossaire](/handbook/de/7_glossar), une [liste de liens](/handbook/de/6_anhang/weblinks), une vue d’ensemble des [organisations partenaires](/handbook/de/8_partner) et un [journal (log)(/handbook/de/6_anhang/changelog) indiquant les principaux changements apportés à la plateforme.
 
-Les fonctionnalités de la plateforme d’interopérabilité I14Y continuant d’être perfectionnées, ce manuel est régulièrement mis à jour. Si vous souhaitez proposer des améliorations ou partager votre expérience de l’utilisation de ce manuel ou de la plateforme, [écrivez-nous](mailto:i14y@bfs.admin.ch). Ce manuel est aussi hébergé sur la [plateforme de gestion de versions Github](https://github.com/I14Y-ch/handbook/). Vous pouvez y formuler une requête avec vos propositions de modifications.
+Les fonctionnalités de la plateforme d’interopérabilité I14Y continuant d’être perfectionnées, ce manuel est régulièrement mis à jour. Si vous souhaitez proposer des améliorations ou partager votre expérience de l’utilisation de ce manuel ou de la plateforme, [écrivez-nous](mailto:i14y@bfs.admin.ch). Ce manuel est aussi hébergé sur la [plateforme de gestion de versions Github](https://github.com/I14Y-ch/handbook/). Vous pouvez y formuler une requête avec vos propositions de modifications..
 
 {{<alert title="Comment envoyer une requête?" color="success">}}
 
