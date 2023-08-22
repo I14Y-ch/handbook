@@ -36,8 +36,7 @@ La qualité devrait également être analysée pour les éléments de données, 
 Le code de programmation de la plateforme d’interopérabilité I14Y doit être publié sous une [licence libre](https://www.gnu.org/licenses), conformément aux dispositions de la loi fédérale
 sur l’utilisation de moyens électroniques pour l’exécution des tâches des autorités (LMETA). En vertu de l’article 9 de la loi, les autorités fédérales doivent dans la mesure du possible mettre leur code source gracieusement à disposition. 
 
-{{<card header="Base légale" title="__Art. 9 Logiciels à code source ouvert__" footer="Loi fédérale
-sur l’utilisation de moyens électroniques pour l’exécution des tâches des autorités [(LMETA)](https://www.fedlex.admin.ch/eli/fga/2023/787/fr#art_9)">}}
+{{<card header="Base légale" title="__Art. 9 Logiciels à code source ouvert__" footer="Loi fédérale sur l’utilisation de moyens électroniques pour l’exécution des tâches des autorités [(LMETA)](https://www.fedlex.admin.ch/eli/fga/2023/787/fr#art_9)">}}
 
 Les autorités fédérales soumises à la présente loi publient le code source des logiciels qu’elles développent ou font développer pour l’exécution de leurs tâches, sous réserve que les droits de tiers ou des raisons importantes en matière de sécurité excluent ou limitent cette possibilité. Elles autorisent toute personne à utiliser, à développer et à partager ces logiciels sans avoir à payer de redevances de licence.
 
