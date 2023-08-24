@@ -11,3 +11,5 @@ other = "Home"
 other = "I14Y"
 [i14y_link]
 other = "https://www.i14y.admin.ch/de/home"
+[labs]
+other = "I14Y-Labs"
