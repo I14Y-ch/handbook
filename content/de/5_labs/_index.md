@@ -19,7 +19,7 @@ Die Eidgenossenschaft treibt zahlreiche Digitalisierungsvorhaben voran. Der [I14
 
 Der Sviz-Graph ist ein experimentelles Instrument, mit welchem sich auch grosse Netzwerke darstellen lassen. Die für diese Visualisierung verwendete Liste mit den Digitalisierungsvorhaben wurde von [Digital.swiss](https://digital.swiss/de/aktionsplan/) zusammengestellt. Der I14Y-SVIZ-Graph erhebt keinen Anspruch auf inhaltliche Vollständigkeit.
 
-Klicken Sie auf die Kachel {{i18n "labs"}} und anschliessend auf "I14Y-Sviz-Graph 2023". In einer ersten Übersicht sehen Sie die einzelnen Departemente der Eidgenossenschaft. Die Linienstärke gibt einen Anhaltspunkt dazu, wie viele gemeinsame Digitalisierungsvorhaben zwischen den betreffenden Departementen bestehen. 
+Klicken Sie auf die Kachel {{ i18n "labs" }} und anschliessend auf "I14Y-Sviz-Graph 2023". In einer ersten Übersicht sehen Sie die einzelnen Departemente der Eidgenossenschaft. Die Linienstärke gibt einen Anhaltspunkt dazu, wie viele gemeinsame Digitalisierungsvorhaben zwischen den betreffenden Departementen bestehen. 
 
 Klicken Sie auf ein Departement. Nun fokussiert der Graph darauf. Alternativ können Sie die Filter oberhalb des Graph nutzen. Die nun eingeblendete Übersicht zeigt, welche Ämter des Departements Digitalisierungsvorhaben vorantreiben. Informationen zu den einzelnen Vorhaben erhalten Sie, wenn Sie ein Amt anwählen. 
 
