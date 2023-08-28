@@ -1,6 +1,6 @@
 ---
 title: Administration des comptes utilisateurs
-slug: kontenverwaltung
+slug: administration-comptes
 weight: 50
 type: docs
 keywords: [I14Y, plateforme d'interopérabilité I14Y, compte utilisateur, compte, accès, EIAM, login, connexion]
