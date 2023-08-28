@@ -115,7 +115,7 @@ Die Funktionalitäten der I14Y-Interoperabilitätsplattform werden laufend ausge
 
 {{<alert title="So reichen Sie einen Pull-Request ein" color="success">}}
 
-Das I14Y-Handbuch ist in einer Auszeichnungssprache -- englisch: _Markup Language_ -- verfasst. Die Software [Hugo](https://gohugo.io) wandelt die Textdaten in eine Website um. Die Inhalte dieses Handbuchs werden auf der Codeverwaltungsplattform Github gepflegt. Dort lassen sich Änderungsvorschläge erfassen und einreichen. Das funktioniert mit dem normalen Git-Workflow. Oder aber: direkt im Webbrowser.  
+Das I14Y-Handbuch ist in einer Auszeichnungssprache -- englisch: _Markup Language_ -- verfasst. Die Software [Hugo](https://gohugo.io) wandelt die Textdaten in eine Website um. Die Inhalte dieses Handbuchs werden auf der Codeverwaltungsplattform GitHub gepflegt. Dort lassen sich Änderungsvorschläge erfassen und einreichen. Das funktioniert mit dem normalen Git-Workflow. Oder aber: direkt im Webbrowser.  
 
 1. Erstellen Sie ein Konto auf der Codeverwaltungsplattform Github. Loggen Sie sich ein. 
 2. Öffnen Sie das [Repository mit dem Handbuch](https://github.com/I14Y-ch/handbook/). Die Textinhalte befinden sich im Verzeichnis _content_, unterteilt nach Sprache, Kapitel und Unterkapitel. Dateien mit der Endung _.md_ enthalten die eigentlichen Textinhalte sowie die Grafiken. Suchen Sie den anzupassenden Textteil. Lassen Sie sich den Rohtext anzeigen. 

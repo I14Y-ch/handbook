@@ -281,7 +281,7 @@ A step-by-step guide on how to create electronic interfaces is given in the chap
 
 E-government services can also be described on the I14Y interoperability platform. The web or mobile applications that simplify certain tasks are thus documented. Information is also documented on how the app in question can be accessed and which organisation is responsible for it. Thanks to the central directory, e-government services should be easier to find.
 
-The _Core Public Service Vocabulary_ defined by the European Union is used to describe public services. The structure and the entire vocabulary are available on the European Commission’s Interoperability Platform 
+The _Core Public Service Vocabulary_ defined by the European Union is used to describe public services. The structure and the entire vocabulary are available on the European Commission's Interoperability Platform 
 [Join up](https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/core-public-service-vocabulary/releases). The reusable and expandable vocabulary specifies certain fields that must be filled in. Each government service can be assigned to a channel -- an internet address, for example, or a telephone number.
 
 On the I14Y-IOP, the chapter [publication](/handbook/de/4_publikation/1_katalog/3_publicservice/) describes in detail how a government service is documented.

@@ -88,11 +88,11 @@ The platform is developed and operated by the Interoperability Office (IOS) in t
 
 1. The Federal Statistical Office shall operate a public platform on the internet whereby the following information is easily accessible in electronic form, either directly or by referencing:
 
-    a. the metadata of the Federal Administration’s structured electronic data files, including the metadata of Open Government Data in accordance with Article 10;
+    a. the metadata of the Federal Administration's structured electronic data files, including the metadata of Open Government Data in accordance with Article 10;
 
     b. a directory of the interfaces in accordance with Article 13 and the information necessary for their use, provided that information security is not threatened;
 
-    c. an overview of the authorities’ services that are electronically available.
+    c. an overview of the authorities' services that are electronically available.
 
 2. The Federal Council shall regulate which metadata are to be published. It may authorise the Federal Statistical Office to regulate the form of the metadata in agreement with the Federal Chancellery.
 

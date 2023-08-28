@@ -44,6 +44,13 @@ Systeme zum _Enterprise Identity Management (EIAM)_ werden verwendet, um Identit
 ## FAIR-Prinzipien
 Die FAIR-Prinzipen postulieren, dass Daten einfach auffindbar _(**F**indable)_, zugänglich _(**A**ccessible)_, interoperabel _(**I**nteroperable)_ und mehrfachverwendbar _(**R**eusable)_ sein sollen. Die Daten sollen sowohl von Menschen als auch von Computersystemen einfach auffindbar sein. Sie sollen über ein offenes, freies und universell implementierbares Standard-Kommunikationsprotokoll zugänglich sein. Dank einer eindeutigen Lizenz ist ersichtlich, wie die Daten genutzt werden dürfen. Die Interoperabilität ist sowohl semantisch als auch syntaktisch gewährleistet. Sie setzt die Verwendung präziser kontextbezogener Metadaten voraus, hält sich in Bezug auf Inhalt und Format an die grossen internationalen Standards und verwendet möglichst standardisierte Vokabulare. Die freie, bedingte oder kostenpflichtige Mehrfachverwendung der Daten wird durch gemeinsame Standards vereinfacht. Grundlegende Informationen zu den FAIR-Prinzipien sind in diesem [Nature-Artikel](https://www.nature.com/articles/sdata201618) zu finden. 
 
+## Geodaten
+Geodaten sind raumbezogene Daten. Sie beschreiben die Ausdehnung und Eigenschaften bestimmter Räume und Objekte: etwa die Lage, die Beschaffenheit, die Nutzung und die Rechtsverhältnisse. Beispiele für Geodaten, die breit genutzt werden, sind die digitalen Strassenkarten und Routenplaner.
+
+## Geobasisdaten
+Geobasisdaten sind Geodaten, die auf einem Recht setzenden Erlass des Bundes, eines Kantons oder einer Gemeinde beruhen:
+z.B. die Amtliche Vermessung, der Bauzonenplan oder das Hochmoor-Inventar.
+
 ## Geocat 
 [Geocat](https://geocat.ch) ist ein Katalog für Metadaten für Geoinformationen in der Schweiz und im Fürstentum Liechtenstein. Darin erfassen Bundesämter, Kantone, Gemeinden, Forschungsinstutute und Unternehmen Informationen zu ihren Geodaten, also von Datensätzen mit starkem geografischem Bezug, von Karten wie auch Luftbildern. Betrieben wird der Dienst vom Bundesamt für Landestopografie swisstopo. Weitere Informationen sind im Abschnitt zu den [verschiedenen Plattformen](/handbook/de/2_rollen_prozesse/plattformen) zu finden.  
 

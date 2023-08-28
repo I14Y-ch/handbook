@@ -6,7 +6,7 @@ type: docs
 keywords: [I14Y, I14Y interoperability platform, system architecture, technology, database]
 ---
 
-The I14Y Interoperability Platform is developed on the Confederation’s behalf by the Interoperability Office (IOS) in collaboration with the Federal Office of Information Technology, Systems and Telecommunication (FOITT). The range of functions is constantly being expanded.
+The I14Y Interoperability Platform is developed on the Confederation's behalf by the Interoperability Office (IOS) in collaboration with the Federal Office of Information Technology, Systems and Telecommunication (FOITT). The range of functions is constantly being expanded.
 
 The IOS is prioritising the following functionalities in the coming months. The areas of focus may change at short notice. Please contact the IOS if you need detailed information on the further development of the platform or if you have requests for specific functions.
 
