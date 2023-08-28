@@ -37,7 +37,7 @@ flowchart TD
     
         subgraph ziel1[ ]
             BB(fa:fa-user Cittadina/ \nCittadino)
-            BB-->|riferisce a|CC(fa:fa-table \nAmt 1)
+            BB-->|riferisce a|CC(fa:fa-table \nufficio 1)
             CC-->DD(fa:fa-building \nufficio 2)
             CC-->EE(fa:fa-building \nufficio 3)
             CC-->FF(fa:fa-building \nufficio 4)
@@ -82,7 +82,7 @@ Sulla piattaforma di interoperabilità I14Y si sta attualmente implementando un 
 
 La piattaforma viene sviluppata e gestita dal servizio di interoperabilità (IOS) della divisione Interoperabilità e registri (IOR) dell'[Ufficio federale di statistica](https://www.bfs.admin.ch). Il funzionamento della piattaforma è disciplinato dalla legge federale concernente l'impiego di mezzi elettronici per l'adempimento dei compiti delle autorità (LMeCA).
 
-{{<card header="Base legale" title="__Art. 14 Piattaforma di interoperabilità__" footer="legge federale concernente l'impiego di mezzi elettronici per l'adempimento dei compiti delle autorità [(LMeCA)](https://www.fedlex.admin.ch/eli/fga/2023/787/de)">}}
+{{<card header="Base legale" title="__Art. 14 Piattaforma di interoperabilità__" footer="Legge federale concernente l'impiego di mezzi elettronici per l'adempimento dei compiti delle autorità [(LMeCA)](https://www.fedlex.admin.ch/eli/fga/2023/787/it)">}}
 
 1. L'Ufficio federale di statistica gestisce in Internet una piattaforma pubblica su cui sono facilmente accessibili in forma elettronica, direttamente o attraverso l'indicazione di riferimenti, in particolare le seguenti informazioni:
 

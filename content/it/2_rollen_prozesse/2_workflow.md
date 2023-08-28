@@ -1,6 +1,6 @@
 ---
 title: Processi di lavoro
-slug: arbeitsablauf
+slug: processi-di-lavoro
 weight: 20
 type: docs
 keywords: [I14Y, piattaforma di interoperabilità, interoperabilità, Processi di lavoro, workflow, stato, canale di pubblicazione]

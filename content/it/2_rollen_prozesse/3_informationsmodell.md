@@ -50,7 +50,7 @@ Per rendere giustizia alle diverse offerte, la piattaforma si avvale di diversi 
 
 ## Collezioni di dati
 
-Le collezioni di dati sono gruppi di elementi di dati con contenuti correlati organizzati in una struttura uniforme. Possono avere un'ampia gamma di forme e formati: possono ad esempio presentarsi come file CSV, banche dati o essere stati salvati in un sistema distribuito ( ad es. una blockchain). 
+Le collezioni di dati sono gruppi di elementi di dati con contenuti correlati organizzati in una struttura uniforme. Possono avere un'ampia gamma di forme e formati: possono ad esempio presentarsi come file CSV, banche dati o essere stati salvati in un sistema distribuito (ad es. una blockchain). 
 
 Le collezioni di dati possono essere esportate in diversi formati, ovvero contenere le cosiddette _distribuzioni_. Le distribuzioni non devono necessariamente contenere i dati completi. Le collezioni di dati possono anche costituire la base per un'interfaccia elettronica (API) attraverso la quale è possibile lanciare la ricerca di informazioni individuali mirate.
 
