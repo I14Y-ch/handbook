@@ -27,6 +27,27 @@ flowchart LR
     D-.->E
     E-.->F
     E-.->G
+
+    style A fill:#6CC8FF
+    style A stroke:black
+
+    style B fill:#6CC8FF
+    style B stroke:black
+
+    style C fill:#Bfe2ab
+    style C stroke:black
+
+    style D fill:#Bfe2ab
+    style D stroke:black
+
+    style E fill:#Fbb54e
+    style E stroke:black
+
+    style F fill:#Ff8076
+    style F stroke:black
+
+    style G fill:#Ff8076
+    style G stroke:black
 ```
 
 Neu erfasste Metadaten erhalten vorerst den Status _Initial_. Sobald die Erfassungsarbeiten abgeschlossen sind, wird der Status _Kandidat_ vorgeschlagen. Diese Statusänderung muss von einer Person aus der eigenen Organisation, die über _Local Data Steward_-Rechte verfügt, bestätigt werden. Sind alle Kontrollen erfolgreich, kann der Eintrag auf _Registriert_ umgestellt werden. Um die Metadaten stabil und persistent zu halten, können Einträge in diesem Status nicht mehr modifiziert werden. Soll ein Konzept weiter verändert werden, muss eine neue Version angelegt werden. 
