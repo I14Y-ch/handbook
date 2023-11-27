@@ -184,7 +184,7 @@ Prenons l'exemple d'une clinique vétérinaire. Son jeu de données contient des
         dataelement22(Couleur du plumage)
         dataelement23(Famille d'oiseaux)
         concept1(Race de chien \nChaîne de caractères)
-        concept2(Couleur \nlListe de codes)
+        concept2(Couleur \nListe de codes)
         concept3(Sexe \nListe de codes)
         concept4(Famille d'oiseaux \nChaîne de caractères)
 
