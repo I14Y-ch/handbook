@@ -173,8 +173,8 @@ Di seguito ecco un esempio di collezione di dati. La collezione di dati di una c
 ```mermaid
     flowchart TD
         dataset1(Collezione di dati \nclinica veterinaria 1)
-        dataset2(Collezione di dati \nclinica veterinaria 2))
-        dataset3(Collezione di dati \nclinica veterinaria 3))
+        dataset2(Collezione di dati \nclinica veterinaria 2)
+        dataset3(Collezione di dati \nclinica veterinaria 3)
         structure1(Modulo accettazione cane)
         structure2(Modulo accettazione uccello)
         dataelement11(Razza del cane)
