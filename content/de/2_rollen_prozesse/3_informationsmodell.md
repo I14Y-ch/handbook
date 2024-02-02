@@ -175,7 +175,7 @@ Am Beispiel: In der Datensammlung einer Tierklinik sind Informationen zu Hunden 
         dataset1(Datensammlung \nTierarztpraxis 1)
         dataset2(Datensammlung \nTierarztpraxis 2)
         dataset3(Datensammlung \nTierarztpraxis 3)
-        structure1(Aufnahmeforumlar Hund)
+        structure1(Aufnahmeformular Hund)
         structure2(Aufnahmeformular Vogel)
         dataelement11(Hunderasse)
         dataelement12(Fellfarbe)
