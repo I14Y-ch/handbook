@@ -49,12 +49,24 @@ The I14Y interoperability platform is under active development. New features are
 - Optimised the user information popup. An issue with the login status display has been fixed. And the organisation name is now displayed in the default language. 
 - Bug fixes
 
-## Release 15 June, 2023
+## Release 29 September 2023
+- Additional fields for describing data collections have been introduced. These correspond to the DCAT-AP-CH standard in version 2. The following fields are now available: frequency, image, is referenced by, qualified attribution, qualified relation, related resource, licence, availability, checksum, coverage, identifier, image, media type, packaging format, temporal resolution.
+- Revision of the I14Y Homepage: Adjusted structure with headings and revised texts, contact information added.
+- IdP Kanton Bern can be used for the I14Y input area.
+- Various bugfixes and UX improvements
+
+## Release 30 Juin 2023
+- I14Y Handbook: The comprehensive documentation of the I14Y functionality can now be accessed via the tile on the homepage and the main navigation.
+- I14Y Chatbot: A chatbot is now available in the lab section that can answer questions about the I14Y interoperability platform and data harmonisation in Switzerland.
+- A problem concerning the import of code list entries via the API has been fixed.
+- First public endpoint to retrieve concepts is available.
+
+## Release 15 June 2023
 - Concepts can now be displayed and searched on the public page 
 - The registration status and publication level can be set via the graphical user interface
 - Versioning for concepts 
 - Bugfixes
 
-## Release 15 January, 2023
+## Release 15 January 2023
 - Conversion of authentication to eIAM. The accounts of existing users must be migrated. 
 - Bugfixes
