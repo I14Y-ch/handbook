@@ -276,7 +276,8 @@ Eine Schritt-für-Schritt-Anleitung dazu, wie elektronische Schnittstellen erfas
 [Publikation](/handbook/de/4_publikation/1_katalog/5_api) zu finden. 
 
 ```mermaid
-    classDiagram LR
+classDiagram
+direction LR
         Catalog --> Dataset : dcat#58;dataset
         Catalog --> DataService : dcat#58;service
         DataService --> Dataset : dcat#58;servesDataset
