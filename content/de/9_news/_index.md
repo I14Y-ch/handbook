@@ -6,8 +6,6 @@ type: docs
 keywords: [I14Y, I14Y-Interoperabilitätsplattform, IOP, Nachrichten, News, Neuigkeiten]
 ---
 
-![Logo News-Sektion](https://www.i14y.admin.ch/assets/images/home/NaDB-Interoper_News.svg)
-
 ## Neue Eingabefelder für den Datenschutz
 *20.02.2024*
 
