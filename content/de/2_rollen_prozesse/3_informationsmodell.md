@@ -246,7 +246,7 @@ Am Beispiel: In der Datensammlung einer Tierklinik sind Informationen zu Hunden 
 
 Datensammlungen werden bei der I14Y-Interoperabilitätsplattform mit dem [Datenkatalog-Vokabular (DCAT)](/handbook/de/7_glossar) beschrieben. DCAT ist ein standardisiertes Modell zur Beschreibung von Datenkatalogen, das vom Internet-Standardisierungsgremium [W3C](https://www.w3.org/) gepflegt wird. Auf der Plattform wird weitgehend das Applikationsprofil für die Schweiz verwendet ([DCAT-AP CH 2](https://www.dcat-ap.ch/)). DCAT gibt vor, welche Informationen zwingend erfasst werden müssen. Zudem schlägt das Vokabular weitere Möglichkeiten zur Beschreibung der Datensammlung vor.     
 
-Um Informationen zu einer Datensammlung auf der I14Y-Interoperabilitätsplattform speichern zu können, müssen die Minimalanforderungen erfüllt sein, die der DCAT-Standard vorgibt. Die I14Y-IOP bietet einige zusätzliche Felder an, die über den aktuellen DCAT-Standard hinausgehen. Welche Felder beim Erfassen von Datensammlungen mit welchen Informationen befüllt werden, wird im Kapitel [Publikation](/handbook/de/4_publikation/1_katalog/1_datensammlung) aufgeführt. 
+Um Informationen zu einer Datensammlung auf der I14Y-Interoperabilitätsplattform speichern zu können, müssen die Minimalanforderungen erfüllt sein, die der DCAT-Standard vorgibt. Die I14Y-IOP bietet einige zusätzliche Felder an, die über den aktuellen DCAT-Standard hinausgehen. Welche Felder beim Erfassen von Datensammlungen mit welchen Informationen befüllt werden, wird im Kapitel [Publikation](/handbook/de/4_publikation/1_katalog/1_datensammlung) aufgeführt.
 
 ### Struktur
 
@@ -274,6 +274,93 @@ Auch APIs werden auf der I14Y-Interoperabilitätsplattform weitgehend mittels de
 
 Eine Schritt-für-Schritt-Anleitung dazu, wie elektronische Schnittstellen erfasst werden, ist im Kapitel 
 [Publikation](/handbook/de/4_publikation/1_katalog/5_api) zu finden. 
+
+```mermaid
+_    classDiagram
+    direction LR
+            Catalog --> Dataset : dcat#58;dataset
+            Catalog --> DataService : dcat#58;service
+            DataService --> Dataset : dcat#58;servesDataset
+            Dataset --> Distribution : dcat#58;distribution
+            Distribution --> DataService : dcat#58;accessService
+            class Catalog {
+            Mandatory:
+            - dct:publisher
+            - dct:title
+            - dcat:themeTaxonomy
+            Recommended:
+            }
+            class DataService {
+            Mandatory:
+            - dct:title
+            - dct:publisher
+            Recommended:
+            - dct:description
+            - dct:endpointDescription
+            - dct:accessRights
+            - dcat:endpointURL
+            - dcat:contactPoint
+            - dct:license
+            - dcat:keyword
+            - dcat:landingPage
+            - dct:conformsTo
+            - Dokumente
+            - Version
+            - Versionshinweise
+            }
+            class Dataset {
+            Mandatory:
+            - dct:title
+            - dct:description
+            - dct:identifier
+            - dct:publisher
+            - dct:accessRights
+            Recommended:
+            - dct:issued
+            - dct:modified
+            - dcat:contactPoint
+            - dct:language
+            - dcat:theme
+            - Confidentiality
+            - Retention period
+            - Retention period complement
+            - dct:keyword
+            - dcat:landingPage
+            - dct:spatial
+            - dct:temporal
+            - dct:conformsTo
+            - dct:relation
+            - dct:isReferencedBy
+            - prov:qualifiedAttribution
+            - Qualified attribution complement
+            - dcat:qualifiedRelation
+            - dct:relation
+            - schema:image
+            }
+            class Distribution {
+            Mandatory:
+            - dct:title
+            Recommended:
+            - dct:description
+            - dct:identifier
+            - dct:issued
+            - dct:modified
+            - dct:language
+            - dcat:accessURL
+            - dct:byteSize
+            - dcat:mediaType
+            - dcat:packageFormat
+            - Checksum algorithm
+            - spdx:checksum
+            - dct:licence
+            - dcatap:availability
+            - dct:coverage
+            - dcat:temporalResolution
+            - dct:conformsTo
+            - Dokumente
+            - schema:image
+            }
+```
 
 ## Elektronische Behördenleistung
 
