@@ -276,90 +276,89 @@ Eine Schritt-für-Schritt-Anleitung dazu, wie elektronische Schnittstellen erfas
 [Publikation](/handbook/de/4_publikation/1_katalog/5_api) zu finden. 
 
 ```mermaid
-_    classDiagram
-    direction LR
-            Catalog --> Dataset : dcat#58;dataset
-            Catalog --> DataService : dcat#58;service
-            DataService --> Dataset : dcat#58;servesDataset
-            Dataset --> Distribution : dcat#58;distribution
-            Distribution --> DataService : dcat#58;accessService
-            class Catalog {
-            Mandatory:
-            - dct:publisher
-            - dct:title
-            - dcat:themeTaxonomy
-            Recommended:
-            }
-            class DataService {
-            Mandatory:
-            - dct:title
-            - dct:publisher
-            Recommended:
-            - dct:description
-            - dct:endpointDescription
-            - dct:accessRights
-            - dcat:endpointURL
-            - dcat:contactPoint
-            - dct:license
-            - dcat:keyword
-            - dcat:landingPage
-            - dct:conformsTo
-            - Dokumente
-            - Version
-            - Versionshinweise
-            }
-            class Dataset {
-            Mandatory:
-            - dct:title
-            - dct:description
-            - dct:identifier
-            - dct:publisher
-            - dct:accessRights
-            Recommended:
-            - dct:issued
-            - dct:modified
-            - dcat:contactPoint
-            - dct:language
-            - dcat:theme
-            - Confidentiality
-            - Retention period
-            - Retention period complement
-            - dct:keyword
-            - dcat:landingPage
-            - dct:spatial
-            - dct:temporal
-            - dct:conformsTo
-            - dct:relation
-            - dct:isReferencedBy
-            - prov:qualifiedAttribution
-            - Qualified attribution complement
-            - dcat:qualifiedRelation
-            - dct:relation
-            - schema:image
-            }
-            class Distribution {
-            Mandatory:
-            - dct:title
-            Recommended:
-            - dct:description
-            - dct:identifier
-            - dct:issued
-            - dct:modified
-            - dct:language
-            - dcat:accessURL
-            - dct:byteSize
-            - dcat:mediaType
-            - dcat:packageFormat
-            - Checksum algorithm
-            - spdx:checksum
-            - dct:licence
-            - dcatap:availability
-            - dct:coverage
-            - dcat:temporalResolution
-            - dct:conformsTo
-            - Dokumente
-            - schema:image
-            }
+    classDiagram LR
+        Catalog --> Dataset : dcat#58;dataset
+        Catalog --> DataService : dcat#58;service
+        DataService --> Dataset : dcat#58;servesDataset
+        Dataset --> Distribution : dcat#58;distribution
+        Distribution --> DataService : dcat#58;accessService
+        class Catalog {
+        Mandatory:
+        - dct:publisher
+        - dct:title
+        - dcat:themeTaxonomy
+        Recommended:
+        }
+        class DataService {
+        Mandatory:
+        - dct:title
+        - dct:publisher
+        Recommended:
+        - dct:description
+        - dct:endpointDescription
+        - dct:accessRights
+        - dcat:endpointURL
+        - dcat:contactPoint
+        - dct:license
+        - dcat:keyword
+        - dcat:landingPage
+        - dct:conformsTo
+        - Dokumente
+        - Version
+        - Versionshinweise
+        }
+        class Dataset {
+        Mandatory:
+        - dct:title
+        - dct:description
+        - dct:identifier
+        - dct:publisher
+        - dct:accessRights
+        Recommended:
+        - dct:issued
+        - dct:modified
+        - dcat:contactPoint
+        - dct:language
+        - dcat:theme
+        - Confidentiality
+        - Retention period
+        - Retention period complement
+        - dct:keyword
+        - dcat:landingPage
+        - dct:spatial
+        - dct:temporal
+        - dct:conformsTo
+        - dct:relation
+        - dct:isReferencedBy
+        - prov:qualifiedAttribution
+        - Qualified attribution complement
+        - dcat:qualifiedRelation
+        - dct:relation
+        - schema:image
+        }
+        class Distribution {
+        Mandatory:
+        - dct:title
+        Recommended:
+        - dct:description
+        - dct:identifier
+        - dct:issued
+        - dct:modified
+        - dct:language
+        - dcat:accessURL
+        - dct:byteSize
+        - dcat:mediaType
+        - dcat:packageFormat
+        - Checksum algorithm
+        - spdx:checksum
+        - dct:licence
+        - dcatap:availability
+        - dct:coverage
+        - dcat:temporalResolution
+        - dct:conformsTo
+        - Dokumente
+        - schema:image
+        }
 ```
 
 ## Elektronische Behördenleistung
