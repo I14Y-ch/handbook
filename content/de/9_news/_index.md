@@ -5,7 +5,7 @@ weight: 90
 type: docs
 ---
 
-{{ <img src="https://www.i14y.admin.ch/assets/images/home/NaDB-Interoper_News.svg" alt="Logo News-Sektion" style="float:right;width:150px;"> }}
+{{<img src="https://www.i14y.admin.ch/assets/images/home/NaDB-Interoper_News.svg" alt="Logo News-Sektion" style="float:right;width:150px;">}}
 
 ## Neue Eingabefelder für den Datenschutz
 *20.02.2024*
@@ -34,7 +34,7 @@ Die I14Y-IOP wird kontinuierlich weiterentwickelt. Mit jedem Release kommen neue
 ## Das I14Y-Team nimmt am GovTech Hackathon 2024 teil
 *20.02.2024*
 
-{{ <img src="https://opendata.ch/wordpress/files/2022/12/GoVTech_Hackthon_NL_2048x1150-1024x575.jpg" alt="Logo GovTech Hackathon" style="float:right;width:150px;"> }}
+{{<img src="https://opendata.ch/wordpress/files/2022/12/GoVTech_Hackthon_NL_2048x1150-1024x575.jpg" alt="Logo GovTech Hackathon" style="float:right;width:150px;">}}
 Der [GovTech Hackathon](https://opendata.ch/events/govtech-hackathon-2024/) geht in die zweite Runde. Am 15. und 16. März 2024 treffen sich Entwicklerinnen und Entwickler, Expertinnen und Experten sowie Interessierte aus Verwaltung, Wirtschaft und Zivilgesellschaft in Zollikofen, um zusammen an konkreten Fragestellengen zu arbeiten. Gesucht sind Lösungen die digitale Behördenleistungen einfach nutzbar, interoperabel und nachhaltig zu machen. Das I14Y-Team ist mit einem Challenge dabei. Was am Hackathon entsteht, wird auf der [OpenData.ch-Website](https://opendata.ch/projects/) publiziert.
 
 ## Sicherer Zugang für alle – mit einem Klick
