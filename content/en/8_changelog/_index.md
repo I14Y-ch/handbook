@@ -6,13 +6,11 @@ type: docs
 ---
 {{<alert title="Language" color="warning">}}
 __DE:__ Diese Seite liegt ausschliesslich in englischer Sprache vor. 
-
 __FR:__ Cette page est uniquement disponible en anglais.
-
 __IT:__ Questa pagina è disponibile solo in inglese.
 {{</alert>}}
 
-The I14Y interoperability platform is under active development. New features are added with each release. Bugs are also fixed. The most important changes are briefly documented below. For detailed information on the development of the platform, please contact the [I14Y team] (mailto:i14y@bfs.admin.ch). 
+The I14Y interoperability platform is under active development. New features are added with each release. Bugs are also fixed. The most important changes are briefly documented below. For detailed information on the development of the platform, please contact the [I14Y team](mailto:i14y@bfs.admin.ch). 
 
 ## Release 5 February 2024
 - The channels of a public service are now displayed directly on the overview page. Previously, they could be found in a separate tab. This change allows users to access the public service with fewer clicks. 
