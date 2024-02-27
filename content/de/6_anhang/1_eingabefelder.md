@@ -45,7 +45,19 @@ In der folgenden Übersicht werden die Eingabefelder der I14Y-Interoperabilität
 | __Versionshinweise__ | Erfassen Sie hier zusätzliche Informationen zur betreffenden Version. | | optional |
 {.entry-fields}
 
+#### Geplante zusätzliche Felder
+Die I14Y-Interoperabilitätsplattform wird laufend weiterentwickelt. Dabei werden auch zusätzliche Felder eingeführt. In Zukunft sollen sich folgende Informationen erfassen lassen. Der genaue Zeitplan für die Einführung steht nicht fest. 
+
+| Feld | Beschreibung | DCAT | Kardinalität | Anmerkung |
+| ----| ---- | ---- | ---- | 
+| __Data Owner__ | Erfasst wird der Name der für die Datensammlung verantwortlichen Person. Dank dieser Angabe kann bei einer Frage zur Datensammlung die verantwortliche Person einfacher kontaktiert werden. Auswählen lassen sich alle Personen, die sich mindestens einmal auf der I14Y-Interoperabilitätsplattform eingeloggt haben. Der Name wird auf der öffentlichen Seite nicht angezeigt. Sehen können ihn alle Mitglieder der eigenen Organisation sowie -- im Falle einer öffentlichen Publikation der betreffenden Beschreibung -- alle eingeloggten Personen im internen Bereich der Plattform. | - | 0..1 | optional |
+| __Responsible Person__ | Erfasst wird der Name der Person, die die Datensammlung operativ betreut. Dank dieser Angabe kann bei einer Frage zur Datensammlung die richtige Person rasch kontaktiert werden. Auswählen lassen sich alle Personen, die sich mindestens einmal auf der I14Y-Interoperabilitätsplattform eingeloggt haben. Der Name wird auf der öffentlichen Seite nicht angezeigt. Sehen können ihn alle Mitglieder der eigenen Organisation sowie -- im Falle einer öffentlichen Publikation der betreffenden Beschreibung -- alle eingeloggten Personen im internen Bereich der Plattform. | - |  0..1 | optional |
+| __Responsible Person Deputy__ | Erfasst wird der Name der Stellvertretung der operativ für die Datensammlung verantwortlichen Person. Dank dieser Angabe kann bei einer Frage zur Datensammlung die richtige Person rasch kontaktiert werden. Auswählen lassen sich alle Personen, die sich mindestens einmal auf der I14Y-Interoperabilitätsplattform eingeloggt haben. Der Personenname wird auf der öffentlichen Seite nicht angezeigt. Sehen können ihn alle Mitglieder der eigenen Organisation sowie -- im Falle einer öffentlichen Publikation der betreffenden Beschreibung -- alle eingeloggten Personen im internen Bereich der Plattform. | - |  0..1 | optional |
+| __GeoIV ID__ | Beinhaltet eine Datensammlung Teile einer Datensammlung aus den Geobasisdaten, kann hier der betreffende Identifikator ausgewählt werden. Hinterlegt sind sämtliche Datensammlungen, die auf [Geobasisdaten.ch](https://geobasisdaten.ch) aufgelistet werden. | - |  0..n | optional | 
+| __Process ID__ | Wird eine Datensammlung in einem Geschäftsprozess verwendet oder durch diesen generiert, kann in diesem Feld ein Identifikator für den betreffenden Prozess hinterlegt werden. | - |  0..1 | optional |
+
 ### Distribution
+
 | Feld | Beschreibung | DCAT | Anmerkung |
 | ---- | ---- | ---- | ---- | 
 | __Titel__ | Der Titel ist kurz, macht aber klar, was in der betreffenden Distribution enthalten ist. Der Titel besteht aus einer Zeichenkette, darf also Buchstaben, Sonderzeichen, Zahlen oder auch ein Datum enthalten. Möglich ist eine Eingabe in deutscher, französischer, italienischer und englischer Sprache. Das Feld muss in mindestens einer Sprache ausgefüllt werden. In DCAT-AP-CH ist das Feld nicht obligatorisch, auf der I14Y-Interoperabilitätsplattform aber schon. | [dct:title](https://www.dcat-ap.ch/releases/2.0/dcat-ap-ch.html#distribution-title) | obligatorisch |
