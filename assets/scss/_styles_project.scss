@@ -465,6 +465,14 @@ a {
 			max-width: 400px;
 		}
 	}
+
+  &.entry-fields-planned {
+		tr > th:nth-child(2),
+		tr > td:nth-child(2) {
+			max-width: 400px;
+		};
+    background-color: #f2f7fa;
+  }
 	
 	&.swagger {
 		tr > th:nth-child(3),
