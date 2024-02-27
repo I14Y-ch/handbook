@@ -3,6 +3,7 @@ title: Changelog
 slug: changelog
 weight: 80
 type: docs
+keywords: [I14Y, I14Y-Interoperabilitätsplattform, IOP, Changelog, Releases, Versionen, Software-Entwicklung]
 ---
 {{<alert title="Language" color="warning">}}
 __DE:__ Diese Seite liegt ausschliesslich in englischer Sprache vor. 
@@ -11,6 +12,10 @@ __IT:__ Questa pagina è disponibile solo in inglese.
 {{</alert>}}
 
 The I14Y interoperability platform is under active development. New features are added with each release. Bugs are also fixed. The most important changes are briefly documented below. For detailed information on the development of the platform, please contact the [I14Y team](mailto:i14y@bfs.admin.ch). 
+
+## Release 27 February 2024
+- The description of a dataset (fields according to DCAT-AP CH) can now be assigned to several catalogues. This allows it to use the description both in the I14Y catalogue and in the catalogue for Opendata.swiss. The interoperability service can open additional catalogues upon request. 
+- Bugfixes
 
 ## Release 5 February 2024
 - The channels of a public service are now displayed directly on the overview page. Previously, they could be found in a separate tab. This change allows users to access the public service with fewer clicks. 
