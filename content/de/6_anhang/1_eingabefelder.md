@@ -6,7 +6,14 @@ type: docs
 keywords: [I14Y-Interoperabilitätsplattform, I14Y-IOP, Glossar, Eingabefelder, Standard]
 ---
 
-{{<table_of_contents>}}
+## Inhalt 
+- [Datensammlung](#datensammlung)
+    - [Geplante zusätzliche Felder](#geplante-zusätzliche-felder)
+    - [Distribution](#distribution)
+- [Elektronische Schnittstelle (API)](#elektronische-schnittstelle-api)
+- [Behördenleistung](#behördenleistung)
+    - [Kanal](#kanal)
+- [Konzept](#konzept)
 
 In der folgenden Übersicht werden die Eingabefelder der I14Y-Interoperabilitätsplattform beschrieben. Abhängig von der Art des zu beschreibenden Datenangebots (z.B. Datensammlung, elektronische Schnittstelle, Behördenleistung, Konzept) sind andere Informationen nötig. Nicht alle Felder müssen ausgefüllt werden; zwingend nötige Felder sind entsprechend gekennzeichnet. Die obligatorischen Felder entsprechen der Schweizer Version des [DCAT](/handbook/de/7_glossar/#dcat)-Standards für Datenbeschreibungen im Internet. Bei einzelnen Feldern handelt es sich um plattformspezifische Eingabemöglichkeiten. Diese sind stets optional.  
 
@@ -154,7 +161,7 @@ Die elektronischen Behördenleistungen werden anhand des [Core Public Service Vo
 | __Gültig von__ | Hier wird das Datum ausgewählt, ab dem ein Datenkonzept gültig ist. | 1 | obligatorisch |
 | __Gültig bis__ | Optional kann bestimmt werden, bis wann ein Datenkonzept gültig ist. | 0..1 | optional |
 | __Name__ | Der Name beschreibt das Datenkonzept kurz und prägnant. Er erlaubt es Fachleuten das Konzept rasch zu finden, ist gleichzeitig aber auch für Nicht-Fachpersonen verständlich. Er darf Buchstaben, Sonderzeichen, Zahlen oder ein Datum enthalten. Der Name kann in den Sprachen Deutsch, Französisch, Italienisch und Englisch hinterlegt werden; zwingend nötig ist eine Sprachversion. | 1 | obligatorisch |
-| __Beschreibung__ | In diesem Feld wird das Datenkonzept in Freitext beschrieben. Die Beschreibung ist ausführlicher als der Name und beinhaltet alle zum Verständnis des Konzepts nötigen Informationen. Die Beschreibung kann in den Sprachen Deutsch, Französisch, Italienisch und Englisch hinterlegt werden. Es ist anzustreben, dass die Beschreibung in mehreren Sprachen vorliegt; Angaben in mindestens einer Sprache sind obligatorisch. | [Description](https://semiceu.github.io/CPSV-AP/releases/3.1.1/#Channel%3Adescription) | 1 | optional |
+| __Beschreibung__ | In diesem Feld wird das Datenkonzept in Freitext beschrieben. Die Beschreibung ist ausführlicher als der Name und beinhaltet alle zum Verständnis des Konzepts nötigen Informationen. Die Beschreibung kann in den Sprachen Deutsch, Französisch, Italienisch und Englisch hinterlegt werden. Es ist anzustreben, dass die Beschreibung in mehreren Sprachen vorliegt; Angaben in mindestens einer Sprache sind obligatorisch. | 1 | optional |
 | __Themen__ | In diesem Feld wird angegeben, welchen thematischen Bereichen das Datenkonzept zuzuordnen ist. Die hier gemachten Angaben bilden die Grundlage für einige Filtermöglichkeiten auf der I14Y-Interoperabilitätsplattform. Hinterlegt ist eine Themenliste, die auch als [Konzept auf der I14Y-Interoperabilitätsplattform](https://www.i14y.admin.ch/de/concepts/08da58dc-4dc8-f9cb-b6f2-7d16b3fa0cde/description) verfügbar ist. Die Liste wurde vom Normierungsgremium eCH entwickelt und im Dokument zu den Grundlagen für die E-Government-Architektur der Schweiz publiziert ([eCH-0122](https://www.ech.ch/de/ech/ech-0122/1.0)). Die Interoperabilitätsstelle hat die Liste leicht erweitert. Die zusätzlichen Begriffe sollen in die nächste Version des eCH-Dokuments aufgenommen werden. | 0..n | erwünscht | 
 | __Schlüsselwörter__ | Damit der Eintrag einfach auffindbar wird, lassen sich Schlüsselwörter hinterlegen. Sinnvoll ist, wenn Synonyme oder allgemeine Begriffe hinterlegt werden, sowie die relevanten Fachbegriffe. Das Feld sollte insbesondere für jene Begriffe genutzt werden, die in der [Termdat-Datenbank](https://termdat.admin.ch) des Bundes verzeichnet sind. | 0..n | erwünscht |
 | __Konform zu__ | In diesem Feld werden Links zu den Standards (etwa bei eCH) oder Informationen zu den Rechtsgrundlagen erfasst. | 0..n | optional |
