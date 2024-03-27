@@ -30,13 +30,12 @@ Die I14Y-Plattform entwickelt sich zum nationalen Metadatenkatalog der Schweiz. 
 
 Die I14Y-IOP wird kontinuierlich weiterentwickelt. Mit jedem Release kommen neue Funktionen hinzu und werden Fehler behoben. Die wichtigsten Änderungen, Verbesserungen sowie Bugfixes werden neu im [Changelog im I14Y-Handbuch](https://i14y-ch.github.io/handbook/de/8_changelog/) beschrieben.	 	 
 
-## Das I14Y-Team nimmt am GovTech Hackathon 2024 teil
+## Das I14Y-Team nimmt am GovTech Hackathon teil
 *20.02.2024*
 
-<img src="https://opendata.ch/wordpress/files/2022/12/GoVTech_Hackthon_NL_2048x1150-1024x575.jpg" alt="Logo GovTech-Hackathon" 
-     style="margin: 0px 5px 5px 0px; float: left; width:250px; height: auto; border:0" />
+{{< figure src="https://opendata.ch/wordpress/files/2022/12/GoVTech_Hackthon_NL_2048x1150-1024x575.jpg" alt="Logo GovTech-Hackathon" width="250px" class="float-left" >}}
 
-Der [GovTech Hackathon](https://opendata.ch/events/govtech-hackathon-2024/) geht in die zweite Runde. Am 15. und 16. März 2024 treffen sich Entwicklerinnen und Entwickler, Expertinnen und Experten sowie Interessierte aus Verwaltung, Wirtschaft und Zivilgesellschaft in Zollikofen, um zusammen an konkreten Fragestellengen zu arbeiten. Gesucht sind Lösungen die digitale Behördenleistungen einfach nutzbar, interoperabel und nachhaltig zu machen. Das I14Y-Team ist mit einem Challenge dabei. Was am Hackathon entsteht, wird auf der [OpenData.ch-Website](https://opendata.ch/projects/) publiziert.
+Der [GovTech Hackathon](https://opendata.ch/events/govtech-hackathon-2024) geht in die zweite Runde. Am 15. und 16. März 2024 treffen sich Entwicklerinnen und Entwickler, Expertinnen und Experten sowie Interessierte aus Verwaltung, Wirtschaft und Zivilgesellschaft in Zollikofen, um zusammen an konkreten Fragestellengen zu arbeiten. Gesucht sind Lösungen die digitale Behördenleistungen einfach nutzbar, interoperabel und nachhaltig zu machen. Das I14Y-Team ist mit einem Challenge dabei. Was am Hackathon entsteht, wird auf der [OpenData.ch-Website publiziert](https://opendata.ch/projects/).
 
 ## Sicherer Zugang für alle – mit einem Klick
 *06.12.2023*
