@@ -9,7 +9,7 @@ keywords: [I14Y, I14Y-Interoperabilitätsplattform, IOP, Nachrichten, News, Neui
 ## Neue Eingabefelder für den Datenschutz
 *20.02.2024*
 
-{{< figure src="/img/news/datenschutz.jpg" alt="Symbolbild Datenschutz" width="250px" class="float-left img-news-thumb" >}}
+{{< figure src="/handbook/img/news/datenschutz.jpg" alt="Symbolbild Datenschutz" width="250px" class="float-left img-news-thumb" >}}
 
 Enthält eine auf der I14Y-Plattform beschriebene Datensammlung personenbezogene Daten? Und falls ja: Beinhalten die eigentlichen Fachdaten schützenswerte Informationen – etwa über die politische Einstellung, den Gesundheitszustand oder die religiöse Orientierung einer Person? Auf der I14Y-IOP kann dies neu im Feld «Vertraulichkeit» dokumentiert werden. 
 
@@ -42,7 +42,7 @@ Der [GovTech Hackathon](https://opendata.ch/events/govtech-hackathon-2024) geht 
 ## Sicherer Zugang für alle – mit einem Klick
 *06.12.2023*
 
-{{< figure src="/img/news/kachel_bern.png" alt="eIAM-Kachel für den Kanton Bern" width="250px" class="float-left img-padding-right" >}}
+{{< figure src="/handbook/img/news/kachel_bern.png" alt="eIAM-Kachel für den Kanton Bern" width="250px" class="float-left img-padding-right" >}}
 
 Der Kanton Bern möchte die I14Y-IOP nutzen, um ein internes Dateninventar zu pflegen und innerhalb des Kantons Codelisten auszutauschen. Voraussetzung ist, dass alle Kantonsangestellten auf einfache Weise auf den kantonsinternen Bereich der Plattform zugreifen können. Zudem darf dem Kanton kein grosser administrativer Mehraufwand entstehen: Neue Mitarbeiterinnen und Mitarbeiter sollen automatisiert erfasst und die Konten von austretenden Personen gelöscht werden.
 
@@ -53,7 +53,7 @@ Diese Lösung könnte auch von anderen Kantonen genutzt werden, die ihren Verwal
 ## Wir lieben Konzepte
 *06.12.2023*
 
-{{< figure src="/img/news/konzepte.png" alt="I14Y-Symbol für Konzepte" width="250px" class="float-left img-news-thumb" >}}
+{{< figure src="/handbook/img/news/konzepte.png" alt="I14Y-Symbol für Konzepte" width="250px" class="float-left img-news-thumb" >}}
 
 Ein Konzept auf der I14Y-IOP beschreibt ein Datenelement eindeutig und vollständig. Es kann in Form einer Zahl, einer Zeichenkette oder um eine Codeliste mit vordefinierten Werten vorliegen. Seit diesem Frühling können unsere Nutzerinnen und Nutzer Konzepte auf der I14Y-IOP erfassen. Diese Möglichkeit wird zunehmend genutzt. Inzwischen wurden etwa 170 harmonisierte Konzepte veröffentlicht -- meist in Form von Codelisten. Die Zeiten, in denen jede Organisation ihre eigenen Codelisten pflegen musste, neigen sich dem Ende zu. Fortan lassen sich die von der zuständigen Stelle gepflegten Codelisten einfach über eine elektronische Schnittstelle beziehen.
 
