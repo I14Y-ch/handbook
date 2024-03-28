@@ -9,7 +9,8 @@ keywords: [I14Y, I14Y-Interoperabilitätsplattform, IOP, Nachrichten, News, Neui
 ## Neue Eingabefelder für den Datenschutz
 *20.02.2024*
 
-{{< figure src="/img/news/datenschutz.jpg" alt="Symbolbild Datenschutz" width="250px" class="float-left" >}}
+{{< figure src="/img/news/datenschutz.jpg" alt="Symbolbild Datenschutz" width="250px" class="float-left img-news-thumb" >}}
+
 Enthält eine auf der I14Y-Plattform beschriebene Datensammlung personenbezogene Daten? Und falls ja: Beinhalten die eigentlichen Fachdaten schützenswerte Informationen – etwa über die politische Einstellung, den Gesundheitszustand oder die religiöse Orientierung einer Person? Auf der I14Y-IOP kann dies neu im Feld «Vertraulichkeit» dokumentiert werden. 
 
 Auch die gesetzliche Aufbewahrungsfrist einer Datensammlung kann nun erfasst werden. Bei einmalig erhobenen Daten wird das genaue Datum angegeben, an dem sie gelöscht werden muss. Bei einer periodisch aktualisierten Datensammlung wird in einem Freitextfeld beschrieben, in welchem Intervall die Daten vom Datenbesitzer gelöscht werden, z.B. «fünf Jahre nach Ablauf des jeweiligen Kalenderjahres». 
@@ -34,12 +35,14 @@ Die I14Y-IOP wird kontinuierlich weiterentwickelt. Mit jedem Release kommen neue
 ## Das I14Y-Team nimmt am GovTech Hackathon teil
 *20.02.2024*
 
-{{< figure src="https://opendata.ch/wordpress/files/2022/12/GoVTech_Hackthon_NL_2048x1150-1024x575.jpg" alt="Logo GovTech-Hackathon" width="250px" class="float-left" >}}
+{{< figure src="https://opendata.ch/wordpress/files/2022/12/GoVTech_Hackthon_NL_2048x1150-1024x575.jpg" alt="Logo GovTech-Hackathon" width="250px" class="float-left img-news-thumb" >}}
 
 Der [GovTech Hackathon](https://opendata.ch/events/govtech-hackathon-2024) geht in die zweite Runde. Am 15. und 16. März 2024 treffen sich Entwicklerinnen und Entwickler, Expertinnen und Experten sowie Interessierte aus Verwaltung, Wirtschaft und Zivilgesellschaft in Zollikofen, um zusammen an konkreten Fragestellengen zu arbeiten. Gesucht sind Lösungen die digitale Behördenleistungen einfach nutzbar, interoperabel und nachhaltig zu machen. Das I14Y-Team ist mit einem Challenge dabei. Was am Hackathon entsteht, wird auf der [OpenData.ch-Website publiziert](https://opendata.ch/projects/).
 
 ## Sicherer Zugang für alle – mit einem Klick
 *06.12.2023*
+
+{{< figure src="/img/news/kachel_bern.png" alt="eIAM-Kachel für den Kanton Bern" width="250px" class="float-left img-padding-right" >}}
 
 Der Kanton Bern möchte die I14Y-IOP nutzen, um ein internes Dateninventar zu pflegen und innerhalb des Kantons Codelisten auszutauschen. Voraussetzung ist, dass alle Kantonsangestellten auf einfache Weise auf den kantonsinternen Bereich der Plattform zugreifen können. Zudem darf dem Kanton kein grosser administrativer Mehraufwand entstehen: Neue Mitarbeiterinnen und Mitarbeiter sollen automatisiert erfasst und die Konten von austretenden Personen gelöscht werden.
 
@@ -50,6 +53,8 @@ Diese Lösung könnte auch von anderen Kantonen genutzt werden, die ihren Verwal
 ## Wir lieben Konzepte
 *06.12.2023*
 
+{{< figure src="/img/news/konzepte.png" alt="I14Y-Symbol für Konzepte" width="250px" class="float-left img-news-thumb" >}}
+
 Ein Konzept auf der I14Y-IOP beschreibt ein Datenelement eindeutig und vollständig. Es kann in Form einer Zahl, einer Zeichenkette oder um eine Codeliste mit vordefinierten Werten vorliegen. Seit diesem Frühling können unsere Nutzerinnen und Nutzer Konzepte auf der I14Y-IOP erfassen. Diese Möglichkeit wird zunehmend genutzt. Inzwischen wurden etwa 170 harmonisierte Konzepte veröffentlicht -- meist in Form von Codelisten. Die Zeiten, in denen jede Organisation ihre eigenen Codelisten pflegen musste, neigen sich dem Ende zu. Fortan lassen sich die von der zuständigen Stelle gepflegten Codelisten einfach über eine elektronische Schnittstelle beziehen.
 
 ## Grosse Ehre für die I14Y-IOP
@@ -57,9 +62,10 @@ Ein Konzept auf der I14Y-IOP beschreibt ein Datenelement eindeutig und vollstän
 
 Die I14Y-IOP des BFS hat im Finale des internationalen 22. eGovernment-Wettbewerbs in der Kategorie [Bestes Digitalisierungsprojekt](https://www.egovernment-wettbewerb.de/gewinner/gewinner-2023.html) den 2. Platz gewonnen. Rund 80 Projekte zur Modernisierung und Digitalisierung der Verwaltung hatten Behörden und öffentliche Organisationen aus Deutschland, Österreich und der Schweiz 2023 eingereicht. Mathias Born und Max Zurkinden von der Interoperabilitätsstelle haben die Auszeichnung in Berlin entgegengenommen; das ganze I14Y-IOP-Team freut sich sehr über die Auszeichnung.
 
-## Die I14Y-Plattform und die Datenharmonisierung der Schweiz
+## Erklärvideo zur Datenharmonisierung in der Schweiz
 *18.04.2023*
 
 Wie funktionieren das Once-Only-Prinzip und die I14Y-Interoperabilitätsplattform? Wie hängt beides zusammen? Das 3-minütige Video «Mit der I14Y in die digitale Zukunft der Schweiz» erklärt es auf leicht verständliche Art und Weise.
 
-{{< youtube U0CpW1bNIdU >}}
+{{< youtube_custom U0CpW1bNIdU >}}
+
