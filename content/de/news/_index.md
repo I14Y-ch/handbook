@@ -17,7 +17,7 @@ Auch die gesetzliche Aufbewahrungsfrist einer Datensammlung kann nun erfasst wer
 
 Die neuen Felder «Vertraulichkeit» und «Aufbewahrungsfrist» sind im DCAT-Standard nicht vorgesehen, sondern werden zusätzlich angeboten. Sie müssen daher nicht zwingend ausgefüllt werden. Eine detaillierte Übersicht aller Eingabefelder der I14Y-Interoperabilitätsplattform finden Sie hier.
 
-## Bundesexterne Nutzerinnen und Nutzer besser integriert
+## Bundesexterne Nutzerinnen und Nutzer gut integriert
 *20.02.2024*
 
 Mit dem Release vom 4. Dezember 2023 wurde die I14Y-Interoperabilitätsplattform an [eIAM](https://www.eiam.swiss/) angebunden (zugänglich via CH-LOGIN oder IdP), damit die Nutzerprofile zusätzlich zum Verzeichnis der Bundesangestellten AdminDir auch dort beschrieben werden können. Bundesexterne Nutzerinnen und Nutzer können so als Konzeptverantwortliche angemeldet werden und aktiv an der Bewirtschaftung der Metadaten mitwirken. Diese Funktion verbessert die Zusammenarbeit zwischen bundesinternen und -externen Nutzenden auf der Interoperabilitätsplattform und vereinheitlicht die verschiedenen Anmeldemöglichkeiten.
@@ -37,7 +37,7 @@ Die I14Y-IOP wird kontinuierlich weiterentwickelt. Mit jedem Release kommen neue
 
 {{< figure src="https://opendata.ch/wordpress/files/2022/12/GoVTech_Hackthon_NL_2048x1150-1024x575.jpg" alt="Logo GovTech-Hackathon" width="250px" class="float-left img-news-thumb" >}}
 
-Der [GovTech Hackathon](https://opendata.ch/events/govtech-hackathon-2024) geht in die zweite Runde. Am 15. und 16. März 2024 treffen sich Entwicklerinnen und Entwickler, Expertinnen und Experten sowie Interessierte aus Verwaltung, Wirtschaft und Zivilgesellschaft in Zollikofen, um zusammen an konkreten Fragestellengen zu arbeiten. Gesucht sind Lösungen die digitale Behördenleistungen einfach nutzbar, interoperabel und nachhaltig zu machen. Das I14Y-Team ist mit einem Challenge dabei. Was am Hackathon entsteht, wird auf der [OpenData.ch-Website publiziert](https://opendata.ch/projects/).
+Der [GovTech Hackathon](https://opendata.ch/events/govtech-hackathon-2024) geht in die zweite Runde. Am 15. und 16. März 2024 treffen sich Entwicklerinnen und Entwickler, Expertinnen und Experten sowie Interessierte aus Verwaltung, Wirtschaft und der Zivilgesellschaft in Zollikofen, um zusammen an konkreten Fragestellengen zu arbeiten. Gesucht sind Lösungen, um die digitalen Behördenleistungen einfach nutzbar, interoperabel und nachhaltig zu machen. Das I14Y-Team ist mit einem Challenge mit dabei. Was am Hackathon entsteht, wird auf der [OpenData.ch-Website publiziert](https://opendata.ch/projects/).
 
 ## Sicherer Zugang für alle – mit einem Klick
 *06.12.2023*
@@ -60,7 +60,7 @@ Ein Konzept auf der I14Y-IOP beschreibt ein Datenelement eindeutig und vollstän
 ## Grosse Ehre für die I14Y-IOP
 *06.12.2023*
 
-{{< figure src="/handbook/img/news/egov_pokale.jpg" alt="Pokale des eGovernment-Wettbewerbs" width="250px" class="float-left img-news-thumb" >}}
+{{< figure src="/handbook/img/news/egov-pokale.jpg" alt="Pokale des eGovernment-Wettbewerbs" width="250px" class="float-left img-news-thumb" >}}
 
 Die I14Y-IOP des BFS hat im Finale des internationalen 22. eGovernment-Wettbewerbs in der Kategorie [Bestes Digitalisierungsprojekt](https://www.egovernment-wettbewerb.de/gewinner/gewinner-2023.html) den 2. Platz gewonnen. Rund 80 Projekte zur Modernisierung und Digitalisierung der Verwaltung hatten Behörden und öffentliche Organisationen aus Deutschland, Österreich und der Schweiz 2023 eingereicht. Mathias Born und Max Zurkinden von der Interoperabilitätsstelle haben die Auszeichnung in Berlin entgegengenommen; das ganze I14Y-IOP-Team freut sich sehr über die Auszeichnung.
 
