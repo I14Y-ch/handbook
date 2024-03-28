@@ -60,6 +60,8 @@ Ein Konzept auf der I14Y-IOP beschreibt ein Datenelement eindeutig und vollstän
 ## Grosse Ehre für die I14Y-IOP
 *06.12.2023*
 
+{{< figure src="/handbook/img/news/egov_pokale.jpg" alt="Pokale des eGovernment-Wettbewerbs" width="250px" class="float-left img-news-thumb" >}}
+
 Die I14Y-IOP des BFS hat im Finale des internationalen 22. eGovernment-Wettbewerbs in der Kategorie [Bestes Digitalisierungsprojekt](https://www.egovernment-wettbewerb.de/gewinner/gewinner-2023.html) den 2. Platz gewonnen. Rund 80 Projekte zur Modernisierung und Digitalisierung der Verwaltung hatten Behörden und öffentliche Organisationen aus Deutschland, Österreich und der Schweiz 2023 eingereicht. Mathias Born und Max Zurkinden von der Interoperabilitätsstelle haben die Auszeichnung in Berlin entgegengenommen; das ganze I14Y-IOP-Team freut sich sehr über die Auszeichnung.
 
 ## Erklärvideo zur Datenharmonisierung in der Schweiz
@@ -68,4 +70,33 @@ Die I14Y-IOP des BFS hat im Finale des internationalen 22. eGovernment-Wettbewer
 Wie funktionieren das Once-Only-Prinzip und die I14Y-Interoperabilitätsplattform? Wie hängt beides zusammen? Das 3-minütige Video «Mit der I14Y in die digitale Zukunft der Schweiz» erklärt es auf leicht verständliche Art und Weise.
 
 {{< youtube_custom U0CpW1bNIdU >}}
+
+## Das Handbuch zur Plattform ist online 
+*03.2023*
+
+{{< figure src="/handbook/img/news/handbuch.png" alt="I14Y-Symbol Handbuch" width="250px" class="float-left img-news-thumb" >}}
+
+Wie kam die I14Y-Interoperabiliätsplattform zu ihrem kryptischen Namen? Wer kann auf welche Metadaten zugreifen? Und wie muss ein bestimmtes Feld befüllt werden? Antworten auf Fragen wie diese finden Sie im neu publizierten I14Y-Handbuch. In einem ersten Teil der Online-Publikation wird erklärt, wie die Plattform dazu beiträgt, die administrativen Daten zu harmonisieren. In einem zweiten Teil sind die einzelnen Arbeitsabläufe Schritt für Schritt dokumentiert. Das Handbuch steht unter [handbook.i14y.admin.ch](https://handbook.i14y.admin.ch) zur Verfügung. Es wird laufend ergänzt. Gerne können auch Sie Textpassagen beisteuern. Wie das genau funktioniert, steht im Handbuch. 
+
+## Neu auf der I14Y-IOP: Konzepte
+*03.2023*
+
+{{< figure src="/handbook/img/news/konzepte.png" alt="I14Y-Symbol Konzepte" width="250px" class="float-left img-news-thumb" >}}
+
+Auf der I14Y-IOP gibt es eine neue Kachel: [I14Y-Konzepte](https://www.i14y.admin.ch/de/concepts). In diesem Bereich stehen Ihnen beispielsweise Codelisten zur Verfügung -- inklusive einer detaillierten Beschreibung. Das Konzept beschreibt die in einem Datenelement enthaltenen Informationen eindeutig und vollständig. Es kann sich dabei um eine Zahl, eine Zeichenkette, ein Datum oder eine Codeliste handeln. Dank der Suchfunktion lässt sich das rasch wachsende Angebot an Konzepten einfach durchsuchen. Verwenden Sie in Ihren Datensammlungen – wenn immer möglich – bestehende Konzepte.
+
+## I14Y-Chatbot
+*03.2023*
+
+{{< figure src="/handbook/img/news/chatbot.png" alt="I14Y-Symbol für den Chatbot" width="250px" class="float-left img-news-thumb" >}}
+
+Unser [I14Y-Chatbot](https://www.i14y.admin.ch/de/labs/chatbot) beantwortet Fragen zur Datenharmonisierung im Allgemeinen sowie zur Interoperabilitätsplattform im Speziellen. Die generative künstliche Intelligenz benutzt als Hauptquelle das I14Y-Handbuch. In Zukunft wird der Chatbot auch einfache Fragen zu den auf der I14Y-IOP publizierten Metadaten beantworten können. Obwohl der Chatbot vorerst mit deutschsprachigen Inhalten trainiert worden ist, kann er auch in anderen Sprachen Auskunft geben.
+
+Beim I14Y-Chatbot handelt es sich um ein Experiment, das im Rahmen eines Teamtags entwickelt worden ist. Es ist möglich, dass der Chatbot «halluziniert»: Gelegentlich könnte er falsche Informationen liefern. Prüfen Sie deshalb alle Antworten genau.	 
+
+## Die I14Y-IOP ist im Finale des 22. eGovernment-Wettbewerbs
+*03.2023*
+
+Dieses Jahr stehen 18 Behördenteams mit ihren Projekten zur Digitalisierung und Transformation der öffentlichen Verwaltung im Finale. Die Jury hat bereits gewählt – nun kann für den Publikumspreis abgestimmt werden. Nehmen Sie am [Online-Voting](https://www.egovernment-wettbewerb.de/online-voting/online-voting.html) teil und helfen Sie der I14Y-IOP, den Publikumspreis zu gewinnen!
+	 
 
