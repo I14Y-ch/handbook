@@ -21,3 +21,25 @@ Les nouveaux champs «Confidentialité» et «Délai de conservation» ne sont p
 *20.02.2024*
 
 Avec la release du 4 décembre 2023, la plateforme I14Y est connectée à [eIAM](https://www.eiam.swiss/)  (accessible via CH-LOGIN ou par IdP) pour décrire le profil de ses utilisateurs en plus de l'AdminDir (registre des employés de la Confédération). Cette nouvelle possibilité permet aux utilisateurs externes à la Confédération d'être inscrits comme responsables de concepts et de s'engager dans la maintenance active des métadonnées. Cette fonctionnalité améliore la collaboration entre les utilisateurs internes et externes à la Confédération sur la plateforme d'interopérabilité et uniformise les traitements entre les différentes manières de se connecter.
+
+## Renforcer la collaboration avec les cantons et les communes
+*20.02.2024*
+
+La plateforme I14Y est en passe de devenir le catalogue national de métadonnées de la Suisse. De plus en plus de cantons, et même une commune, souhaitent utiliser la plateforme pour inventorier leurs bases de données. Le canton de Bâle-Ville a déposé le Projekt Basel+ auprès de l’Administration numérique suisse [Digitalen Verwaltung Schweiz](https://www.digitale-verwaltung-schweiz.ch/), qui enregistre les besoins et les exigences des cantons et des communes en matière d’I14Y-IOP. La collaboration avec les cantons et les communes permet d’identifier les besoins communs en rapport avec un catalogue national de données. À l’initiative de ce projet, le canton de Bâle-Ville a été rejoint par les cantons d’Argovie, de Bâle-Campagne, de Thurgovie, de Berne et de Zurich ainsi que la ville de Berne. 
+
+## Changelog – notes de mise à jour 
+*20.02.2024*
+
+L’IOP I14Y fait l’objet d’un développement continu. Chaque version apporte de nouvelles fonctionnalités et corrige des erreurs [Changelog im I14Y-Handbuch](https://i14y-ch.github.io/handbook/de/8_changelog/). Le manuel I14Y consigne l’essentiel des modifications, des améliorations et des corrections de bugs [Changelog im I14Y-Handbuch](https://i14y-ch.github.io/handbook/de/8_changelog/) .
+
+## Le service d’interopérabilité (IOS) au GovTech Hackathon 2024
+*20.02.2024*
+
+{{< figure src="https://opendata.ch/wordpress/files/2022/12/GoVTech_Hackthon_NL_2048x1150-1024x575.jpg" alt="Logo GovTech-Hackathon" width="250px" class="float-left img-news-thumb" >}}
+
+La deuxième édition du [GovTech Hackathon](https://opendata.ch/events/govtech-hackathon-2024) aura lieu les 14 et 15 mars 2024 à Zollikofen. Cet événement réunit des développeurs, des experts et d’autres personnes issus de l’administration, de l’économie et de la société civile pour travailler ensemble à la résolution de questions concrètes. Les participants chercheront des solutions qui rendront les services publics numériques utilisables, interopérables et durables. L’équipe I14Y a prévu deux challenges. Les résultats du Hackathon seront publiés sur le site [OpenData.ch-Website publiziert](https://opendata.ch/projects/). 
+
+## Sicherer Zugang für alle – mit einem Klick
+*06.12.2023*
+
+
