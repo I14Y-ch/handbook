@@ -99,4 +99,3 @@ Beim I14Y-Chatbot handelt es sich um ein Experiment, das im Rahmen eines Teamtag
 
 Dieses Jahr stehen 18 Behördenteams mit ihren Projekten zur Digitalisierung und Transformation der öffentlichen Verwaltung im Finale. Die Jury hat bereits gewählt – nun kann für den Publikumspreis abgestimmt werden. Nehmen Sie am [Online-Voting](https://www.egovernment-wettbewerb.de/online-voting/online-voting.html) teil und helfen Sie der I14Y-IOP, den Publikumspreis zu gewinnen!
 	 
-lgg
