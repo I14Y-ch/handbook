@@ -462,14 +462,16 @@ a {
 	&.entry-fields {
 		tr > th:nth-child(2),
 		tr > td:nth-child(2) {
-			max-width: 380px;
+			max-width: 400px;
+      min-width: 150px;
 		}
 	}
 
   &.entry-fields-planned {
 		tr > th:nth-child(2),
 		tr > td:nth-child(2) {
-			max-width: 380px;
+			max-width: 400px;
+      min-width: 150px;
 		};
     background-color: #f2f7fa;
   }
