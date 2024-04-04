@@ -459,20 +459,22 @@ a {
 		}
 	}
 
-	&.entry-fields {
-		tr > th:nth-child(2),
-		tr > td:nth-child(2) {
-			max-width: 400px;
-      min-width: 150px;
-		}
-	}
+  &.entry-fields {
+    tr > th:nth-child(2),
+    tr > td:nth-child(2) {
+        min-width: 120px;
+        max-width: 400px;
+        width: auto;
+    }
+  }
 
   &.entry-fields-planned {
 		tr > th:nth-child(2),
 		tr > td:nth-child(2) {
-			max-width: 400px;
-      min-width: 150px;
-		};
+      min-width: 120px;
+      max-width: 400px;
+      width: auto;
+    };
     background-color: #f2f7fa;
   }
 	
