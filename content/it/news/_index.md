@@ -95,8 +95,6 @@ Il chatbot I14Y è un esperimento che è stato sviluppato in occasione di una gi
 ## La piattaforma I14Y è in finale al 22° concorso eGovernment
 *03.2023*
 
-Quest’anno, in finale sono arrivati 18 team composti da dipendenti delle autorità pubbliche con i loro progetti sulla digitalizzazione e sulla trasformazione della pubblica amministrazione. La giuria ha già votato e ora sta a voi votare per il premio del pubblico.
-
-Partecipate alla votazione online e aiutateci a far vincere il premio del pubblico alla piattaforma I14Y! [Online-Voting](https://www.egovernment-wettbewerb.de/online-voting/online-voting.html)!
+Quest’anno, in finale sono arrivati 18 team composti da dipendenti delle autorità pubbliche con i loro progetti sulla digitalizzazione e sulla trasformazione della pubblica amministrazione. La giuria ha già votato e ora sta a voi votare per il premio del pubblico. Partecipate alla votazione online e aiutateci a far vincere il premio del pubblico alla piattaforma I14Y! [Online-Voting](https://www.egovernment-wettbewerb.de/online-voting/online-voting.html)!
 
 
