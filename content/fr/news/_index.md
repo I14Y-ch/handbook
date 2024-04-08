@@ -15,8 +15,6 @@ Un jeu de données décrit sur la plateforme I14Y contient-il des données perso
 
 Les nouveaux champs «Confidentialité» et «Délai de conservation» ne sont pas prévus dans la norme DCAT. Ils sont proposés en plus, leur saisie n’est pas obligatoire. Pour un aperçu détaillé de tous les champs de saisie proposé par la plateforme d’interopérabilité I14Y, [cliquez ici](https://i14y-ch.github.io/handbook/de/6_anhang/eingabefelder/) (Page actuelle disponible en allemand).
 
-Les nouveaux champs «Confidentialité» et «Délai de conservation» ne sont pas prévus dans la norme DCAT. Ils sont proposés en plus, leur saisie n’est pas obligatoire. Pour un aperçu détaillé de tous les champs de saisie proposé par la plateforme d’interopérabilité I14Y, cliquez ici (Page actuelle disponible en allemand). 
-
 ## Utilisateurs externes à la Confédération mieux intégrés
 *20.02.2024*
 
