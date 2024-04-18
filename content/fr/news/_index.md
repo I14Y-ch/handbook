@@ -15,8 +15,6 @@ Un jeu de données décrit sur la plateforme I14Y contient-il des données perso
 
 Les nouveaux champs «Confidentialité» et «Délai de conservation» ne sont pas prévus dans la norme DCAT. Ils sont proposés en plus, leur saisie n’est pas obligatoire. Pour un aperçu détaillé de tous les champs de saisie proposé par la plateforme d’interopérabilité I14Y, [cliquez ici](https://i14y-ch.github.io/handbook/de/6_anhang/eingabefelder/) (Page actuelle disponible en allemand).
 
-Les nouveaux champs «Confidentialité» et «Délai de conservation» ne sont pas prévus dans la norme DCAT. Ils sont proposés en plus, leur saisie n’est pas obligatoire. Pour un aperçu détaillé de tous les champs de saisie proposé par la plateforme d’interopérabilité I14Y, cliquez ici (Page actuelle disponible en allemand). 
-
 ## Utilisateurs externes à la Confédération mieux intégrés
 *20.02.2024*
 
@@ -39,6 +37,66 @@ L’IOP I14Y fait l’objet d’un développement continu. Chaque version apport
 
 La deuxième édition du [GovTech Hackathon](https://opendata.ch/events/govtech-hackathon-2024) aura lieu les 14 et 15 mars 2024 à Zollikofen. Cet événement réunit des développeurs, des experts et d’autres personnes issus de l’administration, de l’économie et de la société civile pour travailler ensemble à la résolution de questions concrètes. Les participants chercheront des solutions qui rendront les services publics numériques utilisables, interopérables et durables. L’équipe I14Y a prévu deux challenges. Les résultats du Hackathon seront publiés sur le site [OpenData.ch-Website publiziert](https://opendata.ch/projects/). 
 
+## Un accès sécurisé pour tous - en un seul clic
+*06.12.2023*
+
+{{< figure src="/handbook/img/news/kachel_bern.png" alt="eIAM-Kachel für den Kanton Bern" width="250px" class="float-left img-padding-right" >}}
+
+Le canton de Berne souhaite utiliser l’I14Y-IOP pour constituer un inventaire interne de données et partager des listes de codes au sein du canton. La condition préalable est que l’ensemble du personnel du canton puisse accéder de manière simple au domaine du canton sur la plateforme. L’objectif est également d’éviter toute charge de travail administratif inutile pour le canton. L’idée est que les nouveaux collaborateurs et les nouvelles collaboratrices soient enregistrés automatiquement. Même chose côté départs: les comptes des personnes qui quittent le canton doivent être supprimés automatiquement. 
+
+L’équipe I14Y a implémenté une solution efficace en étroite collaboration avec le fournisseur de logiciels Bedag, l’Office d’informatique et d’organisation du canton de Berne et l’Office fédéral de l’informatique et de la télécommunication (OFIT): le fournisseur d’identité cantonal (IdP) est dorénavant relié au système d’accès et d’autorisation de l’administration fédérale (eIAM) par une interface électronique. Le canton peut ainsi autoriser ou bloquer l’accès à la plateforme directement à partir de son propre système d’administration des utilisateurs. Les utilisateurs se connectent à l’I14Y-IOP en cliquant sur la tuile ad hoc. 
+
+Cette solution pourrait aussi être appliquée par les autres cantons qui souhaitent permettre à leur personnel administratif d’accéder à la plateforme d’interopérabilité. À l’avenir, elle pourrait également servir à faire le lien entre les infrastructures informatiques cantonales et d’autres plates-formes fédérales. 
+
+## L’avantage des concepts
+*06.12.2023*
+
+{{< figure src="/handbook/img/news/konzepte.png" alt="I14Y-Symbol für Konzepte" width="250px" class="float-left img-news-thumb" >}}
+
+Sur la plateforme I14Y-IOP, un concept décrit un élément de données de manière exhaustive et univoque. Il peut se présenter sous la forme d’un nombre, d’une chaîne de caractères ou d’une liste de codes avec des valeurs prédéfinies. Depuis le printemps dernier, les utilisateurs de l’I14Y-IOP peuvent saisir des concepts sur la plateforme. Ils sont d’ailleurs de plus en plus nombreux à le faire. Quelque 170 concepts harmonisés ont été publiés jusqu’ici, le plus souvent sous la forme de listes de codes. L’époque où chaque organisation devait créer ses propres listes de codes est donc bientôt révolue! Désormais, les listes de codes gérées par un service sont accessibles aisément via une interface électronique. 
+
+## Consécration pour l’I14Y-IOP
+*06.12.2023*
+
+{{< figure src="/handbook/img/news/egov-pokale.jpg" alt="Pokale des eGovernment-Wettbewerbs" width="250px" class="float-left img-news-thumb" >}}
+
+L’I14Y-IOP de l’OFS s’est hissée à la seconde place du 22e concours international eGovernment dans la catégorie «Meilleur projet de numérisation». Environ 80 projets de modernisation et de numérisation de l’administration ont été soumis pour l’édition 2023 par des autorités et des organisations publiques d’Allemagne, d’Autriche et de Suisse. Le prix a été remis à Berlin à Mathias Born et à Max Zurkinden, du centre d’interopérabilité. Toute l’équipe I14Y-IOP s’en réjouit. 
+
+## La vidéo sur l'harmonisation des données en Suisse
+*18.04.2023*
+
+Comment fonctionnent le principe once-only et la plateforme d’interopérabilité I14Y? Comment les deux sont-ils liés? La vidéo de trois minutes vous explique les tenants et les aboutissants de manière simple et compréhensible.
+
+{{< youtube_custom U0CpW1bNIdU >}}
+
+## Le manuel de la plateforme est en ligne 
+*03.2023*
+
+{{< figure src="/handbook/img/news/handbuch.png" alt="I14Y-Symbol Handbuch" width="250px" class="float-left img-news-thumb" >}}
+
+Comment la plateforme d’interopérabilité I14Y a-t-elle hérité de son nom énigmatique? Qui peut accéder à quelles métadonnées? Comment remplir correctement un champ donné? Vous trouvez les réponses à ces questions et à bien d’autres encore dans le manuel I14Y qui vient d’être publié. La première partie de cette publication en ligne explique comment la plateforme contribue à l’harmonisation des données administratives. La deuxième partie décrit pas à pas les différents processus. Le manuel est accessible à l’adresse [handbook.i14y.admin.ch](https://handbook.i14y.admin.ch). Il sera complété en continu et votre contribution à son élaboration (textes ou propositions) sera la bienvenue. La manière de procéder est décrite dans le manuel. 
+
+## Nouveau sur l’IOP I14Y: les concepts
+*03.2023*
+
+{{< figure src="/handbook/img/news/konzepte.png" alt="I14Y-Symbol Konzepte" width="250px" class="float-left img-news-thumb" >}}
+
+Il y a une nouvelle tuile sur l’IOP I14Y: [I14Y-Konzepte](https://www.i14y.admin.ch/de/concepts). Cette rubrique présente notamment des listes de codes, avec leur description détaillée. Les informations contenues dans un élément de données y sont décrites de manière univoque et complète. Un tel élément peut être un chiffre, une chaîne de caractères, une date ou une liste de codes. Une fonction de recherche vous permet de retrouver rapidement ce que vous cherchez parmi les concepts dont le nombre ne cesse de croître. Dans la mesure du possible, utilisez des concepts existants dans vos fichiers. 
+
+## Agent conversationnel I14Y
+*03.2023*
+
+{{< figure src="/handbook/img/news/chatbot.png" alt="I14Y-Symbol für den Chatbot" width="250px" class="float-left img-news-thumb" >}}
+
+Notre agent conversationnel [I14Y-Chatbot](https://www.i14y.admin.ch/de/labs/chatbot) répond aux questions sur l’harmonisation des données en général et sur la plateforme d’interopérabilité en particulier. L’intelligence artificielle générative utilise le manuel I14Y comme principale source d’information. L’agent conversationnel pourra à l’avenir répondre également à des questions simples concernant les métadonnées publiées sur l’IOP I14Y. Dans un premier temps, il a été entraîné avec des contenus en allemand, mais peut néanmoins fournir des renseignements dans d’autres langues. 
+
+Cet agent résulte d’une idée lancée lors d’une sortie d’équipe. Il n’est pas impossible qu’il «hallucine» une fois ou l’autre, c’est-à-dire qu’il fournisse des informations erronées. Vérifiez donc soigneusement ses réponses.
+
+## L’IOP I14Y se trouve en finale de la 22e édition du concours «eGovernment-Wettbewerb»
+*03.2023*
+
+Cette année, dix-huit équipes de l’administration se sont qualifiées pour la finale avec des projets de numérisation et de transformation de l’administration publique. Le jury a déjà fait son choix, mais il reste possible de voter pour le prix du public.
+Participez à ce vote en ligne et aidez ainsi le projet IOP I14Y à remporter le prix du public [Online-Voting](https://www.egovernment-wettbewerb.de/online-voting/online-voting.html)!
 
 
 
