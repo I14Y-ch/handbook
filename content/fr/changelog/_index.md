@@ -5,13 +5,19 @@ weight: 80
 type: docs
 keywords: [I14Y, I14Y-Interoperabilitätsplattform, IOP, Changelog, Releases, Versionen, Software-Entwicklung]
 ---
+
 {{<alert title="Language" color="warning">}}
 __DE:__ Diese Seite liegt ausschliesslich in englischer Sprache vor. 
 __FR:__ Cette page est uniquement disponible en anglais.
 __IT:__ Questa pagina è disponibile solo in inglese.
 {{</alert>}}
 
-The I14Y interoperability platform is under active development. New features are added with each release. Bugs are also fixed. The most important changes are briefly documented below. For detailed information on the development of the platform, please contact the [I14Y team](mailto:i14y@bfs.admin.ch). 
+The I14Y interoperability platform is under continuous development. New features are added with each release. Bugs are also fixed. The most important changes are briefly documented below. For detailed information on the development of the platform, please contact the [I14Y team](mailto:i14y@bfs.admin.ch). 
+
+## Release 22 April 2024
+- With the new release, it will be possible to delete distributions with just a few clicks via the web interface. Previously, this had to be done via the electronic interface. 
+- The news page has been revised: it can now be updated more quickly. 
+- Bugfixes
 
 ## Release 8 April 2024
 - The interoperability service introduces new entry fields. They allow for more detailed description of records on the I14Y interoperability platform. The fields in detail: The name of the data owner can now be entered. It is also possible to add the name of the person who is operationally responsible for the data and the name of the deputy. For data collections that are official geodata under federal law according to the [Geoinformation Ordinance](https://www.fedlex.admin.ch/eli/cc/2008/389/de), the corresponding number can now be selected.    
@@ -21,7 +27,7 @@ The I14Y interoperability platform is under active development. New features are
 - Bugfixes
 
 ## Release 12 March 2024
-- Concepts can be reused in different datasets. This ensures that the same definitions, the same characteristics and the same coding methods are used. The description of the individual concepts now shows which datasets use this particular concept. An indication of the number of reuses is also displayed. Only data collections that have been publicly described on the platform are counted. 
+- Concepts can be reused in various datasets. This ensures that the same definitions, the same characteristics and the same coding methods are used. The description of the individual concepts now shows which datasets use this particular concept. An indication of the number of reuses is also displayed. Only data collections that have been publicly described on the platform are counted. 
 - Bugfixes
 
 ## Release 27 February 2024
