@@ -102,8 +102,6 @@ Dieses Jahr stehen 18 Behördenteams mit ihren Projekten zur Digitalisierung und
 ## Dank eIAM einfacher Zugriff auf die I14Y-Interoperabilitätsplattform
 *16.02.2023*
 
-![02_eiam](https://github.com/I14Y-ch/handbook/assets/165909367/a65c2822-b28d-40f0-82e4-70260583bbf1)
-
 Dank eIAM ist die I14Y-Interoperabilitätsplattform (I14Y-IOP) nun für die Nutzerinnen und Nutzer aus Gemeinden, Kantonen, Institutionen und der Bundesverwaltung noch besser zugänglich. Einmal eingeloggt können sie auf der Administrationsoberfläche das Datenangebot ihrer Organisation einpflegen und bearbeiten.
 eIAM ist das zentrale Zugriffs- und Berechtigungssystem der Bundesverwaltung für Webapplikationen und native Mobile Apps. Alle Nutzerinnen und Nutzer, die über ein eIAM-Konto oder ein CH-Login verfügen, können sich nun ganz einfach auf der I14Y-IOP einloggen. Dank dieser Anbindung werden Kosten gespart und die Sicherheit erhöht.
 
@@ -112,16 +110,12 @@ Nutzerinnen und Nutzer aus der Bundesverwaltung können sich weiterhin mit ihrer
 ## Neu auf der I14Y-IOP: Gebäude- und Wohnungsstammdaten 
 *16.02.2023*
 
-![03_ewg](https://github.com/I14Y-ch/handbook/assets/165909367/0df1f832-5fd9-4a28-b5a3-19f018440408)
-
 Die Stammdaten zu den Gebäuden und Wohnungen sind im I14Y-Metadatenkatalog beschrieben und stehen zur Wiederverwendung bereit. Die detaillierten Beschreibungen zur Datenstruktur vervollständigen die umfassende Liste der im Register verfügbaren Daten, tragen zu deren Transparenz bei und fördern die Wiederverwendung offizieller Standards.
 Die bei der Bereitstellung der Daten (MADD) im Register verwendete API ist im API-Verzeichnis der I14Y-IOP verfügbar. 
 Möchten auch Sie Ihre Metadaten oder APIs auf der I14Y-Interoperabilitätsplattform publizieren? Dann kontaktieren Sie uns i14y@bfs.admin.ch.
 
 ## Das BFS nimmt am GovTech Hackathon teil  
 *16.02.2023*
-
-![01-i14y](https://github.com/I14Y-ch/handbook/assets/165909367/baf71d2a-282a-4386-a569-33fe0f4e1ded)
 
 Der Bereich DTI der Bundeskanzlei führt am 23. und 24. März 2023 einen GovTech Hackathon in Zollikofen durch. Entwicklerinnen und Entwickler, Expertinnen und Experten sowie Interessierte aus Verwaltung, Wirtschaft und Zivilgesellschaft arbeiten zusammen an konkreten Problemen (Challenges) mit dem Ziel, digitale Behördenleistungen einfach nutzbar, interoperabel und nachhaltig zu gestalten. Das I14Y-Team ist natürlich dabei. 
 	 
