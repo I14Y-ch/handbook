@@ -86,9 +86,6 @@ body {
 
         .layout-brand {
           display: flex;
-          @media (max-width: 767.99px) {
-            flex-direction: column;
-          }
           flex: auto;
           flex-direction: row;
           align-items: center;
@@ -117,10 +114,6 @@ body {
             overflow: hidden;
             text-overflow: ellipsis;
             white-space: nowrap;
-            
-            @media (max-width: 767.99px) {
-              border-left: 0px;
-            }
 
             .layout-title-link {
               color: $ob-gray-500;
@@ -162,11 +155,6 @@ body {
               background-color: $ob-gray-200;
             }
           }
-        }
-      }
-      @media (max-width: 991.99px) {
-        .header-controls .language-switcher {
-          display: none;
         }
       }
     }
@@ -220,8 +208,8 @@ body {
     flex: 1 1 auto;
 
     .td-main {
-      margin-left: 3px;
-      margin-right: 3px;
+      margin-left: auto;
+      margin-right: auto;
 
       .content-wrapper {
         max-width: 1440px;
