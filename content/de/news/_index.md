@@ -114,16 +114,12 @@ Nutzerinnen und Nutzer aus der Bundesverwaltung können sich weiterhin mit ihrer
 
 {{< figure src="/handbook/img/news/03_ewg.png" alt="I14Y-Symbol Konzepte" width="250px" class="float-left img-news-thumb" >}}
 
-Die Stammdaten zu den Gebäuden und Wohnungen sind im I14Y-Metadatenkatalog beschrieben und stehen zur Wiederverwendung bereit. Die detaillierten Beschreibungen zur Datenstruktur vervollständigen die umfassende Liste der im Register verfügbaren Daten, tragen zu deren Transparenz bei und fördern die Wiederverwendung offizieller Standards.
-Die bei der Bereitstellung der Daten (MADD) im Register verwendete API ist im API-Verzeichnis der I14Y-IOP verfügbar. 
-Möchten auch Sie Ihre Metadaten oder APIs auf der I14Y-Interoperabilitätsplattform publizieren? Dann kontaktieren Sie uns i14y@bfs.admin.ch.
+Die Stammdaten zu den Gebäuden und Wohnungen sind im I14Y-Metadatenkatalog beschrieben und stehen zur Wiederverwendung bereit. Die detaillierten Beschreibungen zur Datenstruktur vervollständigen die umfassende Liste der im Register verfügbaren Daten, tragen zu deren Transparenz bei und fördern die Wiederverwendung offizieller Standards. Die bei der Bereitstellung der Daten (MADD) im Register verwendete API ist im API-Verzeichnis der I14Y-IOP verfügbar. Möchten auch Sie Ihre Metadaten oder APIs auf der I14Y-Interoperabilitätsplattform publizieren? Dann kontaktieren Sie uns i14y@bfs.admin.ch.
 
 ## Das BFS nimmt am GovTech Hackathon teil  
 *16.02.2023*
 
 {{< figure src="/handbook/img/news/01-i14y.png" alt="I14Y-Symbol Konzepte" width="250px" class="float-left img-news-thumb" >}}
-
-
 
 Der Bereich DTI der Bundeskanzlei führt am 23. und 24. März 2023 einen GovTech Hackathon in Zollikofen durch. Entwicklerinnen und Entwickler, Expertinnen und Experten sowie Interessierte aus Verwaltung, Wirtschaft und Zivilgesellschaft arbeiten zusammen an konkreten Problemen (Challenges) mit dem Ziel, digitale Behördenleistungen einfach nutzbar, interoperabel und nachhaltig zu gestalten. Das I14Y-Team ist natürlich dabei. 
 	 
