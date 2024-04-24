@@ -105,9 +105,7 @@ Dieses Jahr stehen 18 Behördenteams mit ihren Projekten zur Digitalisierung und
 {{< figure src="/handbook/img/news/02_eiam.jpg" alt="I14Y-Symbol Konzepte" width="250px" class="float-left img-news-thumb" >}}
 
 Dank eIAM ist die I14Y-Interoperabilitätsplattform (I14Y-IOP) nun für die Nutzerinnen und Nutzer aus Gemeinden, Kantonen, Institutionen und der Bundesverwaltung noch besser zugänglich. Einmal eingeloggt können sie auf der Administrationsoberfläche das Datenangebot ihrer Organisation einpflegen und bearbeiten.
-eIAM ist das zentrale Zugriffs- und Berechtigungssystem der Bundesverwaltung für Webapplikationen und native Mobile Apps. Alle Nutzerinnen und Nutzer, die über ein eIAM-Konto oder ein CH-Login verfügen, können sich nun ganz einfach auf der I14Y-IOP einloggen. Dank dieser Anbindung werden Kosten gespart und die Sicherheit erhöht.
-
-Nutzerinnen und Nutzer aus der Bundesverwaltung können sich weiterhin mit ihrer Smartcard anmelden.
+eIAM ist das zentrale Zugriffs- und Berechtigungssystem der Bundesverwaltung für Webapplikationen und native Mobile Apps. Alle Nutzerinnen und Nutzer, die über ein eIAM-Konto oder ein CH-Login verfügen, können sich nun ganz einfach auf der I14Y-IOP einloggen. Dank dieser Anbindung werden Kosten gespart und die Sicherheit erhöht. Nutzerinnen und Nutzer aus der Bundesverwaltung können sich weiterhin mit ihrer Smartcard anmelden.
 
 ## Neu auf der I14Y-IOP: Gebäude- und Wohnungsstammdaten 
 *16.02.2023*
