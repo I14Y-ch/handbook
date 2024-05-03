@@ -13,6 +13,13 @@ type: docs
 | [OGD-Strategie](https://fedlex.data.admin.ch/eli/fga/2019/125) | Strategie für offene Verwaltungsdaten in der Schweiz (OGD) auf der Publikationsplattform des Bundesrechts (Fedlex).  | Schweiz |
 {.weblink1}
 
+## Zentrale Referenzquellen beim Erfassen von Metadaten
+| Weblink | Beschreibung | Nation/ Union |
+| --- | --- | --- |
+| [Fedlex](https://www.fedlex.admin.ch) | Fedlex ist die neue Publikations­plattform für das Bundesrecht. Darauf sind insbesondere die Gesetze und Verordnungen zu finden. | Schweiz |
+| [Termdat](https://www.termdat.bk.admin.ch) | TERMDAT ist die mehrsprachige Terminologiedatenbank des Bundes, die sich als vielseitige Kommunikations-, Redaktions- und Übersetzungshilfe anbietet. In TERMDAT finden Sie die schweizerische Rechts- und Verwaltungsterminologie sowie die Terminologie der öffentlichen Verwaltung und ihrer vielfältigen Tätigkeitsfelder. Sie enthält vorwiegend Einträge in den vier Landessprachen der Schweiz sowie in Englisch. | Schweiz |
+{.weblink1}
+
 ## Daten- und Metadatenportale
 | Weblink | Beschreibung | Nation/ Union |
 | ----- | ----- | ----- | 
