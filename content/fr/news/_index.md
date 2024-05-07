@@ -70,21 +70,21 @@ Comment fonctionnent le principe once-only et la plateforme d’interopérabilit
 {{< youtube_custom U0CpW1bNIdU >}}
 
 ## Le manuel de la plateforme est en ligne 
-*03.2023*
+*07.08.2023*
 
 {{< figure src="/handbook/img/news/handbuch.png" alt="I14Y-Symbol Handbuch" width="250px" class="float-left img-news-thumb" >}}
 
 Comment la plateforme d’interopérabilité I14Y a-t-elle hérité de son nom énigmatique? Qui peut accéder à quelles métadonnées? Comment remplir correctement un champ donné? Vous trouvez les réponses à ces questions et à bien d’autres encore dans le manuel I14Y qui vient d’être publié. La première partie de cette publication en ligne explique comment la plateforme contribue à l’harmonisation des données administratives. La deuxième partie décrit pas à pas les différents processus. Le manuel est accessible à l’adresse [handbook.i14y.admin.ch](https://handbook.i14y.admin.ch). Il sera complété en continu et votre contribution à son élaboration (textes ou propositions) sera la bienvenue. La manière de procéder est décrite dans le manuel. 
 
 ## Nouveau sur l’IOP I14Y: les concepts
-*03.2023*
+*07.08.2023*
 
 {{< figure src="/handbook/img/news/konzepte.png" alt="I14Y-Symbol Konzepte" width="250px" class="float-left img-news-thumb" >}}
 
 Il y a une nouvelle tuile sur l’IOP I14Y: [I14Y-Konzepte](https://www.i14y.admin.ch/de/concepts). Cette rubrique présente notamment des listes de codes, avec leur description détaillée. Les informations contenues dans un élément de données y sont décrites de manière univoque et complète. Un tel élément peut être un chiffre, une chaîne de caractères, une date ou une liste de codes. Une fonction de recherche vous permet de retrouver rapidement ce que vous cherchez parmi les concepts dont le nombre ne cesse de croître. Dans la mesure du possible, utilisez des concepts existants dans vos fichiers. 
 
 ## Agent conversationnel I14Y
-*03.2023*
+*07.08.2023*
 
 {{< figure src="/handbook/img/news/chatbot.png" alt="I14Y-Symbol für den Chatbot" width="250px" class="float-left img-news-thumb" >}}
 
@@ -93,10 +93,39 @@ Notre agent conversationnel [I14Y-Chatbot](https://www.i14y.admin.ch/de/labs/cha
 Cet agent résulte d’une idée lancée lors d’une sortie d’équipe. Il n’est pas impossible qu’il «hallucine» une fois ou l’autre, c’est-à-dire qu’il fournisse des informations erronées. Vérifiez donc soigneusement ses réponses.
 
 ## L’IOP I14Y se trouve en finale de la 22e édition du concours «eGovernment-Wettbewerb»
-*03.2023*
+*07.08.2023*
 
 Cette année, dix-huit équipes de l’administration se sont qualifiées pour la finale avec des projets de numérisation et de transformation de l’administration publique. Le jury a déjà fait son choix, mais il reste possible de voter pour le prix du public.
 Participez à ce vote en ligne et aidez ainsi le projet IOP I14Y à remporter le prix du public [Online-Voting](https://www.egovernment-wettbewerb.de/online-voting/online-voting.html)!
+
+## Accès aisé à la plateforme interopérabilité I14Y via eIAM 
+*16.02.2023*
+
+{{< figure src="/handbook/img/news/02_eiam.jpg" alt="I14Y-Symbol Konzepte" width="250px" class="float-left img-news-thumb" >}}
+
+Grâce à eIAM, la plateforme interopérabilité I14Y (I14Y-IOP) est maintenant encore plus facilement accessible pour les utilisateurs des communes, des cantons, des institutions et de la Confédération. Une fois connectés à l’interface d’administration, ils peuvent saisir et traiter l’offre de données de leur organisation.
+eIAM est le système central d’accès et d’autorisation de l’administration fédérale pour les applications web et les applications mobiles natives. Tous les utilisateurs disposant d’un compte eIAM ou CH-Login peuvent désormais se connecter en toute simplicité à la I14Y-IOP. Cette connexion permet de réaliser des économies tout en renforçant la sécurité.
+
+Les utilisateurs issus de l’administration fédérale peuvent bien sûr continuer à se connecter avec leur Smartcard.
+
+## Neu auf der I14Y-IOP: Gebäude- und Wohnungsstammdaten 
+*16.02.2023*
+
+{{< figure src="/handbook/img/news/03_ewg.png" alt="I14Y-Symbol Konzepte" width="250px" class="float-left img-news-thumb" >}}
+
+Décrites dans le catalogue de métadonnées I14Y, les données de référence des bâtiments et des logements sont maintenant à la disposition des utilisateurs. Les descriptions détaillées de la structure des données dressent la liste exhaustive des données disponibles dans le registre et contribuent à leur transparence tout en favorisant la réutilisation des standards officiels.
+L’API utilisée dans la mise à disposition des données (MADD) du registre est disponible dans le répertoire des API d’I14Y. 
+Souhaitez-vous publier vos métadonnées ou vos API sur la plateforme d’interopérabilité I14Y? N’hésitez pas à prendre contact avec nous en écrivant à i14y@bfs.admin.ch.
+
+## L'OFS participe au hackathon GovTech
+*16.02.2023*
+
+{{< figure src="/handbook/img/news/01-i14y.png" alt="I14Y-Symbol Konzepte" width="250px" class="float-left img-news-thumb" >}}
+
+Le secteur TNI de la Chancellerie fédérale organise le hackathon GovTech les 23 et 24 mars 2023 à Zollikofen. Ce sera l’occasion de rencontrer des développeurs, des experts et d’autres acteurs issus de l’administration, de l’économie et de la société civile et de travailler ensemble sur des défis concrets afin de rendre les services publics numériques aussi conviviaux, interopérables et durables que possible.  
+
+
+
 
 
 
