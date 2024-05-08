@@ -108,7 +108,7 @@ eIAM est le système central d’accès et d’autorisation de l’administratio
 
 Les utilisateurs issus de l’administration fédérale peuvent bien sûr continuer à se connecter avec leur Smartcard.
 
-## Neu auf der I14Y-IOP: Gebäude- und Wohnungsstammdaten 
+## Les données de références des bâtiments et des logements sont désormais accessibles sur la I14Y-IOP 
 *16.02.2023*
 
 {{< figure src="/handbook/img/news/03_ewg.png" alt="I14Y-Symbol Konzepte" width="250px" class="float-left img-news-thumb" >}}
