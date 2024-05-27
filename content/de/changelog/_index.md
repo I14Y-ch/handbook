@@ -13,6 +13,12 @@ __IT:__ Questa pagina è disponibile solo in inglese.
 
 The I14Y interoperability platform is under continuous development. New features are added with each release. Bugs are also fixed. The most important changes are briefly documented below. For detailed information on the development of the platform, please contact the [I14Y team](mailto:i14y@bfs.admin.ch). 
 
+## Release 26 Mai 2024
+- The system now automatically checks for correct URL syntax when entering metadata. If the entry is incorrect, an error message is displayed.
+- Spaces are not allowed in identifiers to ensure compatibility with different systems. When entering metadata, the system now automatically checks for spaces in the identifier. If spaces are detected, an error message is displayed. 
+- Improved display speed for frequently used concepts, such as the AHV number.
+- Bugfixes
+
 ## Release 22 April 2024
 - With the new release, it will be possible to delete distributions with just a few clicks via the web interface. Previously, this had to be done via the electronic interface. 
 - The news page has been revised: it can now be updated more quickly. 
