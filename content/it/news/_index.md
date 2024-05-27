@@ -72,21 +72,21 @@ Come funzionano il principio «once-only» e la piattaforma di interoperabilità
 {{< youtube_custom U0CpW1bNIdU >}}
 
 ## Il manuale della piattaforma I14Y è online
-*03.2023*
+*07.08.2023*
 
 {{< figure src="/handbook/img/news/handbuch.png" alt="I14Y-Symbol Handbuch" width="250px" class="float-left img-news-thumb" >}}
 
 Come è nato il criptico nome della piattaforma di interoperabilità I14Y? Chi può accedere a quali metadati? E come deve essere compilato un determinato campo? Troverete le risposte a queste e ad altre domande nel nuovo manuale I14Y appena pubblicato. Nella prima parte della pubblicazione online viene spiegato come la piattaforma contribuisca ad armonizzare i dati amministrativi. Nella seconda parte sono poi illustrate le singole procedure passo per passo. Il manuale è disponibile al link seguente: [handbook.i14y.admin.ch](https://handbook.i14y.admin.ch)  ed è in costante aggiornamento. Chi lo desidera può inoltre contribuire con passaggi di testo. Per sapere come, basta consultare il manuale (attualmente disponibile solo in tedesco, la traduzione seguirà a breve). 
 
 ## Novità sulla piattaforma I14Y: scheda «Concetti»
-*03.2023*
+*07.08.2023*
 
 {{< figure src="/handbook/img/news/konzepte.png" alt="I14Y-Symbol Konzepte" width="250px" class="float-left img-news-thumb" >}}
 
 Sulla piattaforma I14Y è da ora disponibile una nuova scheda intitolata [I14Y-Konzepte](https://www.i14y.admin.ch/de/concepts). A questa voce sono disponibili ad esempio liste di codici completate da descrizioni dettagliate. Il concetto descrive le informazioni contenute in un elemento dati in modo chiaro e completo. L’elemento dati può essere un numero, una stringa, una data o una lista di codici. Grazie alla funzione di ricerca, è semplice effettuare ricerche all’interno di questa offerta di concetti in rapida crescita. Per quanto possibile, nelle proprie collezioni di dati vi consigliamo di utilizzare concetti esistenti.
 
 ## Chatbot I14Y
-*03.2023*
+*07.08.2023*
 
 {{< figure src="/handbook/img/news/chatbot.png" alt="I14Y-Symbol für den Chatbot" width="250px" class="float-left img-news-thumb" >}}
 
@@ -95,8 +95,38 @@ Il nostro [I14Y-Chatbot](https://www.i14y.admin.ch/de/labs/chatbot) risponde a d
 Il chatbot I14Y è un esperimento che è stato sviluppato in occasione di una giornata di gruppo. Può capitare che il chatbot abbia delle «allucinazioni» e occasionalmente può fornire informazioni false. Pertanto, vi raccomandiamo di verificare attentamente tutte le risposte.
 
 ## La piattaforma I14Y è in finale al 22° concorso eGovernment
-*03.2023*
+*07.08.2023*
 
 Quest’anno, in finale sono arrivati 18 team composti da dipendenti delle autorità pubbliche con i loro progetti sulla digitalizzazione e sulla trasformazione della pubblica amministrazione. La giuria ha già votato e ora sta a voi votare per il premio del pubblico. Partecipate alla votazione online e aiutateci a far vincere il premio del pubblico alla piattaforma I14Y! [Online-Voting](https://www.egovernment-wettbewerb.de/online-voting/online-voting.html)!
+
+## Accesso facilitato alla piattaforma di interoperabilità I14Y grazie a eIAM
+*16.02.2023*
+
+{{< figure src="/handbook/img/news/02_eiam.jpg" alt="I14Y-Symbol Konzepte" width="250px" class="float-left img-news-thumb" >}}
+
+Accesso facilitato alla piattaforma di interoperabilità I14Y grazie a eIAM
+Grazie a eIAM, ora la piattaforma di interoperabilità I14Y (I14Y-IOP) è accessibile ancora più facilmente per gli utenti dei Comuni, dei Cantoni, delle istituzioni e della Confederazione. Una volta effettuato l’accesso, tramite l'interfaccia dell’Amministrazione è possibile pubblicare i metadati della propria organizzazione.
+eIAM è il sistema centrale di accesso e di autorizzazione dell’Amministrazione federale per le applicazioni web e per quelle mobili native. Tutti gli utenti che dispongono di un account eIAM o CH-Login possono ora accedere facilmente all’I14Y-IOP. Questa modalità di connessione consente non solo di risparmiare, ma anche di incrementare il livello di sicurezza.
+
+Gli utenti dell’Amministrazione federale possono continuare ad accedere con la smartcard.
+
+## Novità sull’I14Y-IOP: Dati di base degli edifici e delle abitazioni 
+*16.02.2023*
+
+{{< figure src="/handbook/img/news/03_ewg.png" alt="I14Y-Symbol Konzepte" width="250px" class="float-left img-news-thumb" >}}
+
+I dati di base di edifici e abitazioni sono descritti nel catalogo di metadati I14Y e sono pronti per essere riutilizzati. Le descrizioni dettagliate della struttura dei dati forniscono un elenco completo dei dati disponibili nel registro, contribuiscono alla trasparenza dei dati disponibili e promuovono il riutilizzo degli standard ufficiali.
+L’API utilizzata per mettere a disposizione i dati (MADD) del registro è stata pubblicata nel repository API di I14Y. 
+Volete che anche i vostri metadati o le vostre API siano pubblicati sulla piattaforma di interoperabilità I14Y? Allora contattateci scrivendo all’indirizzo i14y@bfs.admin.ch.
+
+## L'UST partecipa al GovTech Hackathon
+*16.02.2023*
+
+{{< figure src="/handbook/img/news/01-i14y.png" alt="I14Y-Symbol Konzepte" width="250px" class="float-left img-news-thumb" >}}
+
+Il 23 e 24 marzo 2023 il settore TDT della Cancelleria federale organizza un GovTech Hackathon a Zollikofen. Sviluppatori, esperti e altre persone interessate provenienti dall’amministrazione, dall’economia e dalla società civile lavorano insieme su problemi concreti (challenges) con l’obiettivo di rendere i servizi digitali delle autorità facili da usare, interoperabili e sostenibili. Naturalmente parteciperà anche il team I14Y. Chi desidera prendere parte all’evento può iscriversi entro il 15 marzo. 
+
+
+
 
 
