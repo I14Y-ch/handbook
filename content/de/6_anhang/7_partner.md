@@ -4,6 +4,7 @@ slug: partner
 weight: 70
 type: docs
 keywords: [I14Y, I14Y-Interoperabilitätsplattform, I14Y-IOP, Interoperabilität, Departement, Amt, Partner, Partnerorganisation, Nutzer]
+draft: True
 ---
 
 Die I14Y-Interoperabilitätsplattform wird von zahlreichen staatlichen Organisationen zur Verwaltung der Metadaten ihrer Datensammlungen, Elektronische Schnittstellen und Datenelementen genutzt. Zudem dient sie als Verzeichnis für öffentliche Dienstleistungen. Eine Übersicht. 
