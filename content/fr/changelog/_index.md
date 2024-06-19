@@ -14,6 +14,17 @@ __IT:__ Questa pagina è disponibile solo in inglese.
 
 The I14Y interoperability platform is under continuous development. New features are added with each release. Bugs are also fixed. The most important changes are briefly documented below. For detailed information on the development of the platform, please contact the [I14Y team](mailto:i14y@bfs.admin.ch). 
 
+## Release 19 June 2024
+- Hierarchical code lists are now displayed in a tree view. This improves the visibility of the hierarchy. 
+- The code lists can now be downloaded in JSON and CSV format from the public front-end.
+- When describing a distribution, usage rights information can now be entered. 
+- It is no longer necessary to specify the format for distributions. This information can still be entered as an option. 
+- Descriptions of electronic interfaces now also list which data collections are linked. 
+- Descriptions of distributions refer to the appropriate electronic interface. 
+- The versions of a data element concept are now displayed on the overview page. 
+- Several improvements have been made to the graphical interface. 
+- Bugfixes
+
 ## Release 26 Mai 2024
 - The system now automatically checks for correct URL syntax when entering metadata. If the entry is incorrect, an error message is displayed.
 - Spaces are not allowed in identifiers to ensure compatibility with different systems. When entering metadata, the system now automatically checks for spaces in the identifier. If spaces are detected, an error message is displayed. 
