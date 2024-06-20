@@ -15,11 +15,11 @@ The I14Y interoperability platform is under continuous development. New features
 
 ## Release 19 June 2024
 - Hierarchical code lists are now displayed in a tree view. This improves the visibility of the hierarchy. 
-- The code lists can now be downloaded in JSON and CSV format from the public front-end.
+- The code lists can be downloaded in JSON and CSV format from the public front-end.
 - When describing a distribution, usage rights information can now be entered. 
 - It is no longer necessary to specify the format for distributions. This information can still be entered as an option. 
-- Descriptions of electronic interfaces now also list which data collections are linked. 
-- Descriptions of distributions refer to the appropriate electronic interface. 
+- Descriptions of dataservices also list which datasets are linked. 
+- Descriptions of distributions refer to the appropriate dataservice. 
 - The versions of a data element concept are now displayed on the overview page. 
 - Several improvements have been made to the graphical interface. 
 - Bugfixes
