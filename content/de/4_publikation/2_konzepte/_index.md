@@ -31,11 +31,11 @@ Bei Bedarf können abgespeicherte Konzepte wieder geladen und editiert werden --
 
 ### Ergänzen einer Codeliste
 
-Suchen Sie das betreffende Konzept in der Übersicht. Klicken Sie auf das Symbol für "Anzeigen" und anschliessend auf jenes für "Bearbeiten". Nun können Sie der Codeliste Einträge hinzufügen.  
+Codelisten sind zentral für die Datenharmonisierung: Die öffentlich auf der I14Y publizierten Codelisten können von anderen Organisationen genutzt werden -- etwa indem sie direkt in eine Fachanwendung geladen werden. Erfassen Sie deshalb, wenn immer möglich, Ihre Codelisten. Das Vorgehen ist einfach: Suchen Sie das betreffende Konzept in der Übersicht. Klicken Sie auf das Symbol für "Anzeigen" und anschliessend auf jenes für "Bearbeiten". Nun können Sie der Codeliste Einträge hinzufügen.  
 
-__Manuelle Eingabe:__ Die Werte der Codeliste lassen sich über die Eingabemaske manuell erfassen. Dazu klickt man aufs Plus-Zeichen. Nun wird der __Wert__ eingetragen. Handelt es sich um eine hierarchische Codeliste, wird auch der __Übergeordnete Code__ erfasst. Zudem werden die entsprechenden Namen in allen relevanten Sprachen eingetragen. Mindestens eine Sprache (DE, FR, IT, EN, RM) muss eingegeben werden. Optional kann zusätzlich eine Beschreibung hinterlegt werden. Sobald die Eingaben erfasst sind, werden die Angaben mit einem Klick auf das Gutzeichen gespeichert. Anschliessend wird der nächste Wert der Codeliste eingetragen.
+__Manuelle Eingabe:__ Die Werte der Codeliste lassen sich über die Eingabemaske manuell erfassen. Dazu klicken Sie aufs Plus-Zeichen. Nun wird der __Wert__ eingetragen. Handelt es sich um eine hierarchische Codeliste, wird auch der __Übergeordnete Code__ erfasst. Zudem werden die entsprechenden Namen in allen relevanten Sprachen eingetragen. Die Angaben müssen mindestens in einer Sprache (DE, FR, IT, EN, RM) eingegeben werden. Optional können zusätzlich eine Beschreibung sowie Annotationen hinterlegt werden. Sobald die Eingaben erfasst sind, werden die Angaben mit einem Klick auf das Gutzeichen gespeichert. Anschliessend wird der nächste Wert der Codeliste eingetragen.
 
-__Import einer Codeliste:__ Bei umfangreichen Codelisten ist ein Import der Werte effizienter. Die Daten müssen entweder im CSV-Format oder als JSON-Datei vorliegen. Soll eine CSV-Datei hochgeladen werden, müssen die Inhalte kommagetrennt mit UTF-8 kodiert sein. Zu verwenden sind die Spaltennamen, wie sie in diesem Beispiel eingesetzt werden.   
+__Import einer Codeliste:__ Bei umfangreichen Codelisten ist ein Import der Werte effizienter. Die Daten müssen entweder im CSV-Format oder als JSON-Datei vorliegen. Soll eine CSV-Datei hochgeladen werden, müssen die Inhalte kommagetrennt sein. Die Datei ist in UTF-8 kodiert. Im Minimum müssen in der CSV-Datei die Informationen zum "Code" sowie der Name in einer Sprache enthalten sein. Zu verwenden sind die Spaltennamen, wie sie in diesem Beispiel eingesetzt werden. 
 
 ```
 
@@ -48,11 +48,17 @@ Code,ParentCode,Name_de,Name_fr,Name_it,Name_rm,Name_en,Description_de,Descripti
 
 ```
 
-Im Minimum müssen in der CSV-Datei die Informationen zum "Code" sowie der Name in einer Sprache enthalten sein. Die Daten können auch mehrere Annotationen enthalten. Entsprechend muss die Tabelle durch weitere Spalten verlängert werden. Bei den Annotationen kann der Typ frei gesetzt werden.
+Die Daten können auch mehrere Annotationen enthalten. Entsprechend muss die Tabelle durch weitere Spalten verlängert werden. Bei den Annotationen kann der Typ frei gesetzt werden.
 
 Alternativ kann die Codeliste auch in der Form einer JSON-Datei hochgeladen werden. Die Inhalte sind analog zu diesem Beispiel zu strukturieren. 
 
 ```
+<details>
+  <summary>
+
+    **Beispiel: Import einer Codeliste im JSON-Format**
+
+  </summary>
 
 {
   "codeListEntries": [
@@ -180,5 +186,7 @@ Alternativ kann die Codeliste auch in der Form einer JSON-Datei hochgeladen werd
 }
 
 ```
+
+</details>
 
 Wenn der Import funktioniert hat, wird rechts eine entsprechende Meldung angezeigt. Die importierte Codeliste wird allenfalls erst nach dem erneuten Öffnen des Konzepts angezeigt. 
