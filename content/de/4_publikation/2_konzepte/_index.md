@@ -53,13 +53,6 @@ Die Daten können auch mehrere Annotationen enthalten. Entsprechend muss die Tab
 Alternativ kann die Codeliste auch in der Form einer JSON-Datei hochgeladen werden. Die Inhalte sind analog zu diesem Beispiel zu strukturieren. 
 
 ```
-<details>
-  <summary>
-
-    **Beispiel: Import einer Codeliste im JSON-Format**
-
-  </summary>
-
 {
   "codeListEntries": [
     {
@@ -186,7 +179,5 @@ Alternativ kann die Codeliste auch in der Form einer JSON-Datei hochgeladen werd
 }
 
 ```
-
-</details>
 
 Wenn der Import funktioniert hat, wird rechts eine entsprechende Meldung angezeigt. Die importierte Codeliste wird allenfalls erst nach dem erneuten Öffnen des Konzepts angezeigt. 
