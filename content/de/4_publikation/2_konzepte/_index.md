@@ -38,8 +38,7 @@ __Manuelle Eingabe:__ Die Werte der Codeliste lassen sich über die Eingabemaske
 __Import einer Codeliste:__ Bei umfangreichen Codelisten ist ein Import der Werte effizienter. Die Daten müssen entweder im CSV-Format oder als JSON-Datei vorliegen. Soll eine CSV-Datei hochgeladen werden, müssen die Inhalte kommagetrennt sein. Die Datei ist in UTF-8 kodiert. Im Minimum müssen in der CSV-Datei die Informationen zum "Code" sowie der Name in einer Sprache enthalten sein. Zu verwenden sind die Spaltennamen, wie sie in diesem Beispiel eingesetzt werden. 
 
 ```
-
-Code,ParentCode,Name_de,Name_fr,Name_it,Name_rm,Name_en,Description_de,Description_fr,Description_it,Description_rm,Description_en,Annotation_1_Type,Annotation_1_Title,Annotation_1_URI,Annotation_1_Identifier,Annotation_1_Text_de,Annotation_media_Text_fr,Annotation_1_Text_it,Annotation_1_Text_rm,Annotation_1_Text_en
+Code,ParentCode,Name_de,Name_fr,Name_it,Name_rm,Name_en,Description_de,Description_fr,Description_it,Description_rm,Description_en,Annotation_media_Type,Annotation_media_Title,Annotation_media_URI,Annotation_media_Identifier,Annotation_media_Text_de,Annotation_media_Text_fr,Annotation_media_Text_it,Annotation_media_Text_rm,Annotation_media_Text_en
 "10","","Frühgeschichte","Préhistoire","Preistoria","","Prehistory","Die Frühgeschichte umfasst die Zeit von ca. 2,5 Millionen v. Chr. bis 500 v. Chr.","","La Préhistoire couvre la période d'environ 2,5 millions av. J.-C. à 500 av. J.-C.","","Preistoria comprende il periodo da circa 2,5 milioni a.C. al 500 a.C.","","","","","","","","",""
 "11","10","Steinzeit","Période de la pierre","Età della pietra","","Temp da la peira","Stone Age","Die Steinzeit umfasst die Zeit von ca. 2,5 Millionen v. Chr. bis 10.000 v. Chr.","","La période de la pierre couvre la période d'environ 2,5 millions av. J.-C. à 10 000 av. J.-C.","","media","Wikimedia Commons","https://commons.wikimedia.org/wiki/Category:Stone_Age,wikimedia_commons","wikimedia_stone_age","Bilder und Grafiken auf Wikimedia Commons","Images et graphiques sur Wikimedia Commons","Immagini e grafica su Wikimedia Commons","","Images and graphics on Wikimedia Commons"
 "12","10","Bronzezeit","Période du bronze","Età del bronzo","Temp dal bronza","","Bronze Age","Die Bronzezeit erstreckt sich von ca. 3000 v. Chr. bis 2200 v. Chr.","","La période du bronze s'étend d'environ 3000 av. J.-C. à 2200 av. J.-C.","","media","Wikimedia Commons","https://commons.wikimedia.org/wiki/Category:Bronze_Age","wikimedia_bronze_age","Bilder und Grafiken auf Wikimedia Commons","Images et graphiques sur Wikimedia Commons","Immagini e grafica su Wikimedia Commons","","Images and graphics on Wikimedia Commons"
@@ -48,7 +47,7 @@ Code,ParentCode,Name_de,Name_fr,Name_it,Name_rm,Name_en,Description_de,Descripti
 
 ```
 
-Die Daten können auch mehrere Annotationen enthalten. Entsprechend muss die Tabelle durch weitere Spalten verlängert werden. Bei den Annotationen kann der Typ frei gesetzt werden.
+Dieses Beispiel enthält eine Annotation. Für jede zusätzliche Annotation fügen sie weitere Spalten an. Dabei wählen Sie dieselben Spaltennamen wie bei der ersten Annotation, ersetzen aber "media" durch einen anderen Begriff.
 
 Alternativ kann die Codeliste auch in der Form einer JSON-Datei hochgeladen werden. Die Inhalte sind analog zu diesem Beispiel zu strukturieren. 
 
@@ -60,8 +59,9 @@ Alternativ kann die Codeliste auch in der Form einer JSON-Datei hochgeladen werd
       "code": "10",
       "description": {
         "de": "Die Frühgeschichte umfasst die Zeit von ca. 2,5 Millionen v. Chr. bis 500 v. Chr.",
-        "en": "Preistoria comprende il periodo da circa 2,5 milioni a.C. al 500 a.C.",
-        "it": "La Préhistoire couvre la période d'environ 2,5 millions av. J.-C. à 500 av. J.-C."
+        "en": "Early history covers the period from around 2.5 million BC to 500 BC.",
+        "fr": "La Préhistoire couvre la période d'environ 2,5 millions av. J.-C. à 500 av. J.-C.",
+        "it": "Preistoria comprende il periodo da circa 2,5 milioni a.C. al 500 a.C."
       },
       "name": {
         "de": "Frühgeschichte",
@@ -78,9 +78,7 @@ Alternativ kann die Codeliste auch in der Form einer JSON-Datei hochgeladen werd
             "de": "Bilder und Grafiken auf Wikimedia Commons",
             "en": "Images and graphics on Wikimedia Commons",
             "fr": "Images et graphiques sur Wikimedia Commons",
-            "it": "Immagini e grafica su Wikimedia Commons",
-            "rm": ""
-          },
+            "it": "Immagini e grafica su Wikimedia Commons",          },
           "title": "Wikimedia Commons",
           "type": "media",
           "uri": "https://commons.wikimedia.org/wiki/Category:Stone_Age,wikimedia_commons"
@@ -88,9 +86,10 @@ Alternativ kann die Codeliste auch in der Form einer JSON-Datei hochgeladen werd
       ],
       "code": "11",
       "description": {
-        "de": "Stone Age",
-        "fr": "Die Steinzeit umfasst die Zeit von ca. 2,5 Millionen v. Chr. bis 10.000 v. Chr.",
-        "rm": "La période de la pierre couvre la période d'environ 2,5 millions av. J.-C. à 10 000 av. J.-C."
+        "de": "Die Steinzeit umfasst die Zeit von ca. 2,5 Millionen v. Chr. bis 10.000 v. Chr.",
+        "en": "The Stone Age covers the period from around 2.5 million BC to 10,000 BC.",
+        "fr": "La période de la pierre couvre la période d'environ 2,5 millions av. J.-C. à 10 000 av. J.-C.",
+        "it": "L'età della pietra copre il periodo che va da circa 2,5 milioni a.C. al 10.000 a.C."
       },
       "name": {
         "de": "Steinzeit",
@@ -108,8 +107,7 @@ Alternativ kann die Codeliste auch in der Form einer JSON-Datei hochgeladen werd
             "de": "Bilder und Grafiken auf Wikimedia Commons",
             "en": "Images and graphics on Wikimedia Commons",
             "fr": "Images et graphiques sur Wikimedia Commons",
-            "it": "Immagini e grafica su Wikimedia Commons",
-            "rm": ""
+            "it": "Immagini e grafica su Wikimedia Commons"
           },
           "title": "Wikimedia Commons",
           "type": "media",
@@ -118,16 +116,16 @@ Alternativ kann die Codeliste auch in der Form einer JSON-Datei hochgeladen werd
       ],
       "code": "12",
       "description": {
-        "de": "Bronze Age",
-        "fr": "Die Bronzezeit erstreckt sich von ca. 3000 v. Chr. bis 2200 v. Chr.",
-        "rm": "La période du bronze s'étend d'environ 3000 av. J.-C. à 2200 av. J.-C."
+        "de": "Die Bronzezeit erstreckt sich von ca. 3000 v. Chr. bis 2200 v. Chr.",
+        "en": "The Bronze Age extends from around 3000 BC to 2200 BC.",
+        "fr": "La période du bronze s'étend d'environ 3000 av. J.-C. à 2200 av. J.-C.",
+        "it": "L'età del bronzo si estende dal 3000 a.C. al 2200 a.C. circa."
       },
       "name": {
         "de": "Bronzezeit",
         "fr": "Période du bronze",
-        "it": "Età del bronzo",
-        "rm": "Temp dal bronza"
-      },
+        "it": "Età del bronzo"
+        },
       "parentCode": "10"
     },
     {
@@ -138,8 +136,7 @@ Alternativ kann die Codeliste auch in der Form einer JSON-Datei hochgeladen werd
             "de": "Bilder und Grafiken auf Wikimedia Commons",
             "en": "Images and graphics on Wikimedia Commons",
             "fr": "Images et graphiques sur Wikimedia Commons",
-            "it": "Immagini e grafica su Wikimedia Commons",
-            "rm": ""
+            "it": "Immagini e grafica su Wikimedia Commons"
           },
           "title": "Wikimedia Commons",
           "type": "media",
@@ -148,25 +145,40 @@ Alternativ kann die Codeliste auch in der Form einer JSON-Datei hochgeladen werd
       ],
       "code": "13",
       "description": {
-        "de": "Iron Age",
-        "fr": "Die Eisenzeit umfasst die Zeit von ca. 1200 v. Chr. bis 500 v. Chr.",
-        "rm": "La période du fer s'étend d'environ 1200 av. J.-C. à 500 av. J.-C."
+        "de": "Die Eisenzeit umfasst die Zeit von ca. 1200 v. Chr. bis 500 v. Chr.",
+        "en": "The Iron Age covers the period from around 1200 BC to 500 BC.",
+        "fr": "La période du fer s'étend d'environ 1200 av. J.-C. à 500 av. J.-C.",
+        "it": "L'età del ferro copre il periodo che va dal 1200 a.C. al 500 a.C. circa."
       },
       "name": {
         "de": "Eisenzeit",
+        "en": "Iron Age",
         "fr": "Période du fer",
-        "it": "Età del ferro",
-        "rm": "Temp dal ferd"
+        "it": "Età del ferro"
       },
       "parentCode": "10"
     },
     {
-      "annotations": [],
+      "annotations": [
+        {
+          "identifier": "wikimedia_antiquity",
+          "text": {
+            "de": "Bilder und Grafiken auf Wikimedia Commons",
+            "en": "Images and graphics on Wikimedia Commons",
+            "fr": "Images et graphiques sur Wikimedia Commons",
+            "it": "Immagini e grafica su Wikimedia Commons"
+          },
+          "title": "Wikimedia Commons",
+          "type": "media",
+          "uri": "https://commons.wikimedia.org/wiki/Category:Classical_antiquity"
+        }
+      ],
       "code": "20",
       "description": {
         "de": "Die Antike erstreckt sich von ca. 500 v. Chr. bis 500 n. Chr.",
-        "en": "L'Antichità va da circa 500 a.C. al 500 d.C.",
-        "it": "L'Antiquité s'étend d'environ 500 av. J.-C. à 500 ap. J.-C."
+        "en": "Antiquity extends from around 500 BC to 500 AD.",
+        "fr": "L'Antiquité s'étend d'environ 500 av. J.-C. à 500 ap. J.-C.",
+        "it": "L'Antichità va da circa 500 a.C. al 500 d.C.",
       },
       "name": {
         "de": "Antike",
@@ -180,4 +192,10 @@ Alternativ kann die Codeliste auch in der Form einer JSON-Datei hochgeladen werd
 
 ```
 
-Wenn der Import funktioniert hat, wird rechts eine entsprechende Meldung angezeigt. Die importierte Codeliste wird allenfalls erst nach dem erneuten Öffnen des Konzepts angezeigt. 
+Wenn der Import funktioniert hat, wird rechts eine entsprechende Meldung angezeigt. Die importierte Codeliste wird allenfalls erst nach dem erneuten Öffnen des Konzepts angezeigt. Klicken Sie also auf "Schliessen". Aktualisieren Sie nun die Ansicht via den Knopf in der Browserleiste oder mit der Taste F5.  
+
+{{<alert title="Konzept oder Datensammlung" color="success">}}
+
+Die Anzahl der Annotationen ist technisch nicht limitiert. Die Interoperabilitätsstelle rät aber zur zurückhaltenden Nutzung dieser Möglichkeit. Wenn zahlreiche Annotationen nötig sind, prüfen Sie bitte: Sollte der betreffende Inhalt besser als Datensammlung mit Struktur und hinterlegen Datenelementen sowie einer verlinkten Distribution beschrieben werden? 
+
+{{</alert>}}
