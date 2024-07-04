@@ -13,6 +13,12 @@ __IT:__ Questa pagina è disponibile solo in inglese.
 
 The I14Y interoperability platform is under continuous development. New features are added with each release. Bugs are also fixed. The most important changes are briefly documented below. For detailed information on the development of the platform, please contact the [I14Y team](mailto:i14y@bfs.admin.ch). 
 
+## Release July 3 2024
+- The catalogue search functionality in the input section of the platform has been visually improved.
+- The buttons to create or edit an object are now disabled if the action is not allowed. 
+- Several minor improvements
+- Bug fixes
+
 ## Release 19 June 2024
 - Hierarchical code lists are now displayed in a tree view. This improves the visibility of the hierarchy. 
 - The code lists can be downloaded in JSON and CSV format from the public front-end.
