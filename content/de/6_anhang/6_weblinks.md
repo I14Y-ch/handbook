@@ -8,9 +8,16 @@ type: docs
 ## Grundlagen NaDB und OGD
 | Weblink | Beschreibung | Nation/ Union |
 | --- | --- | --- |
-| [Bundesgesetz über den Einsatz elektronischer Mittel zur Erfüllung von Behördenaufgaben](https://www.fedlex.admin.ch/eli/fga/2023/787/de) | Bundesgesetz über den Einsatz elektronischer Mittel zur Erfüllung von Behördenaufgaben (Embag) auf der Publikationsplattform des Bundesrechts (Fedlex) | Schweiz |
+| [Bundesgesetz über den Einsatz elektronischer Mittel zur Erfüllung von Behördenaufgaben](https://www.fedlex.admin.ch/eli/fga/2023/787) | Bundesgesetz über den Einsatz elektronischer Mittel zur Erfüllung von Behördenaufgaben (EMBAG) auf der Publikationsplattform des Bundesrechts (Fedlex) | Schweiz |
+| [Verordnung zum Bundesgesetz über den Einsatz elektronischer Mittel zur Erfüllung von Behördenaufgaben](https://www.fedlex.admin.ch/eli/cc/2023/754) | Die Verordnung zum Bundesgesetz über den Einsatz elektronischer Mittel zur Erfüllung von Behördenaufgaben (EMBAV) auf der Publikationsplattform des Bundesrechts (Fedlex) | Schweiz |
 | [Nationale Datenbewirtschaftung](https://www.bfs.admin.ch/bfs/de/home/nadb/nadb.html) | Beschreibung des Programms Nationale Datenbewirtschaftung der Eidgenossenschaft | Schweiz |
 | [OGD-Strategie](https://fedlex.data.admin.ch/eli/fga/2019/125) | Strategie für offene Verwaltungsdaten in der Schweiz (OGD) auf der Publikationsplattform des Bundesrechts (Fedlex).  | Schweiz |
+{.weblink1}
+
+## Kanäle auf sozialen Medien
+| Weblink | Beschreibung | Nation/ Union |
+| --- | --- | --- |
+| [I14Y auf LinkedIn](https://www.linkedin.com/showcase/103890166) | Die I14Y publiziert auf dem sozialen Netzwerk LinkedIn regelmässig Informationen -- etwa zu neu entwickelten Funktionen sowie zu neu publizierten Metadaten. | Schweiz |
 {.weblink1}
 
 ## Zentrale Referenzquellen beim Erfassen von Metadaten
