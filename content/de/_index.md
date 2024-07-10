@@ -74,8 +74,6 @@ Unnötig viel tippen -- das läuft vielen Informatikern zuwider. Deshalb lieben 
 
 Auf der I14Y-Interoperabilitätsplattform wird zudem ein Verzeichnis von elektronischen Behördenleistungen wie Webapplikationen und Apps aufgebaut. Dieses gibt einen Überblick über das Angebot der öffentlichen Verwaltung. Und es erleichtert den Dialog zwischen den Betreiberinnen und Betreibern der jeweiligen Dienstleistung sowie den Nutzerinnen und Nutzern.
 
-<!-- ![Szene zum Behördenleistungsverzeichnis aus dem Erklärvideo zur I14Y-Interoperabilitätsplattform](/handbook/img/i14y-film_160.png) -->
-
 Entwickelt und betrieben wird die Plattform von der Interoperabilitätsstelle (IOS) in der Abteilung Interoperabilität und Register (IOR) des [Bundesamts für Statistik](https://www.bfs.admin.ch). Gesetzlich geregelt wird der Betrieb der Plattform im Bundesgesetz über den Einsatz elektronischer Mittel zur Erfüllung von Behördenaufgaben (EMBAG).
 
 {{<card header="Gesetzesgrundlage" title="__Art. 14 Interoperabilitätsplattform__" footer="Bundesgesetz über den Einsatz elektronischer Mittel zur Erfüllung von Behördenaufgaben [(EMBAG)](https://www.fedlex.admin.ch/eli/fga/2023/787/de)">}}
@@ -98,7 +96,13 @@ Die I14Y-Interoperabilitätsplattform steht seit Sommer 2021 zur Verfügung und 
 
 {{<alert title="Bleiben Sie stets auf dem Laufenden" color="success" >}}
 
-Möchten Sie über neue Funktionen und Angebote auf der I14Y-Interoperabilitätsplattform informiert werden? Dann abonnieren Sie das Newsmail. Drei bis viermal pro Jahr erhalten Sie per E-Mail eine Zusammenstellung der neusten Entwicklungen bei der I14Y-IOP. Um das Newsmail kostenlos zu abonnieren, besuchen Sie den [Abodienst des Bundesamts für Statistik](https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/kontakt/newsmail-abonnement.html) und wählen Sie "I14Y-Interoperabilitätsplattform" aus. 
+Möchten Sie über neue Funktionen und Angebote auf der I14Y-Interoperabilitätsplattform informiert werden? Dann folgen Sie der I14Y auf dem sozialen Netzwerk [LinkedIn](https://www.linkedin.com/showcase/103890166/). Gerne können Sie auch das Newsmail abonnieren. Drei bis viermal pro Jahr erhalten Sie per E-Mail eine Zusammenstellung der neusten Entwicklungen bei der I14Y-IOP. Um das Newsmail kostenlos zu abonnieren, besuchen Sie den [Abodienst des Bundesamts für Statistik](https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/kontakt/newsmail-abonnement.html) und wählen Sie "I14Y-Interoperabilitätsplattform" aus. 
+
+{{</alert>}}
+
+{{<alert title="Flugblatt mit den wichtigsten Fakten" color="success" >}}
+
+Die wichtigsten Fakten zur I14Y sind auf einem doppelseitigen Flugblatt zusammengefasst ([DE](static/files/Factsheet_I14Y_de.pdf), [FR](static/files/Factsheet_I14Y_fr.pdf), [IT](static/files/Factsheet_I14Y_it.pdf), [EN](static/files/Factsheet_I14Y_en.pdf)). Falls Sie das Flugblatt in gedruckter Form benötigen -- etwa um es an einem Stand an einer Konferenz zu verteilen --, nehmen Sie mit der Interoperabilitätsstelle Kontakt auf.  
 
 {{</alert>}}
 
