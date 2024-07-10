@@ -14,6 +14,12 @@ __IT:__ Questa pagina è disponibile solo in inglese.
 
 The I14Y interoperability platform is under continuous development. New features are added with each release. Bugs are also fixed. The most important changes are briefly documented below. For detailed information on the development of the platform, please contact the [I14Y team](mailto:i14y@bfs.admin.ch). 
 
+## Release July 10 2024
+- The I14Y improves the categorisation of public services: When entering the description of a public service, it is now possible to select the life or business situation in which a particular e-government service can be useful. This makes it easier for both citizens and entrepreneurs to find the right public service. 
+- Improved and enhanced filtering for description of datasets, data services and public services.
+- The Labs tile has been removed to make the GUI clearer. Experimental work can be found in the [I14Y Github](https://github.com/I14Y-ch/) area. 
+- Bug fixes
+
 ## Release July 3 2024
 - The catalogue search functionality in the input section of the platform has been visually improved.
 - The buttons to create or edit an object are now disabled if the action is not allowed. 
