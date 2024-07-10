@@ -102,7 +102,7 @@ Möchten Sie über neue Funktionen und Angebote auf der I14Y-Interoperabilitäts
 
 {{<alert title="Flugblatt mit den wichtigsten Fakten" color="success" >}}
 
-Die wichtigsten Fakten zur I14Y sind auf einem doppelseitigen Flugblatt zusammengefasst ([DE](static/files/Factsheet_I14Y_de.pdf), [FR](static/files/Factsheet_I14Y_fr.pdf), [IT](static/files/Factsheet_I14Y_it.pdf), [EN](static/files/Factsheet_I14Y_en.pdf)). Falls Sie das Flugblatt in gedruckter Form benötigen -- etwa um es an einem Stand an einer Konferenz zu verteilen --, nehmen Sie mit der Interoperabilitätsstelle Kontakt auf.  
+Die wichtigsten Fakten zur I14Y sind auf einem doppelseitigen Flugblatt zusammengefasst ([DE](/files/Factsheet_I14Y_de.pdf), [FR](/files/Factsheet_I14Y_fr.pdf), [IT](/files/Factsheet_I14Y_it.pdf), [EN](/files/Factsheet_I14Y_en.pdf)). Falls Sie das Flugblatt in gedruckter Form benötigen -- etwa um es an einem Stand an einer Konferenz zu verteilen --, nehmen Sie mit der Interoperabilitätsstelle Kontakt auf.  
 
 {{</alert>}}
 
