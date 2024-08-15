@@ -8,6 +8,16 @@ keywords: [I14Y, I14Y-Interoperabilitätsplattform, IOP, Changelog, Releases, Ve
 
 The I14Y interoperability platform is under continuous development. New features are added with each release. Bugs are also fixed. The most important changes are briefly documented below. For detailed information on the development of the platform, please contact the [I14Y team](mailto:i14y@bfs.admin.ch). 
 
+## Release August 14 2024
+- Data concepts (input area): Until now, entries for a code list were inserted directly on the page. The new release introduces a pop-up. This provides a clearer display and makes it easier to add entries to a code list.  
+- Data concepts (input area): The "Versions" section in the input area for data concepts is now positioned above the "Connections" section. In this way, the order corresponds to that on the public side of the I14Y. 
+- Data concepts (input area): The entries in a code list can now be filtered. This makes it easier to check and adapt longer code lists.
+- Data concepts: Previously, data concepts that were integrated into a data collection via a structure could be edited directly from the display screen in the catalogue section. The corresponding "Edit" button has now been removed. Concepts are consistently edited in the concept section of the platform.  
+- Public services (input area): The input screen for public services has been slightly adapted: The fields for the identifier and the publisher are now on one row. Previously, they were arranged one below the other. The input screen is now harmonised with the screen for entering datasets.   
+- Input area: The new "View publication" button allows you to check an entry you have just entered directly on the publicly accessible website. 
+- Input area: The "My data" mini-dashboard has been improved. It gives users an overview of their tasks and of their metadata.  
+- Bug fixes
+
 ## Release July 17 2024
 - Since the last release, public services can be better categorised using Life and Business events. It is now also possible to filter the search results according to specific life or business events. 
 - The display of codelists has been improved. 
