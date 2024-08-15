@@ -6,6 +6,56 @@ type: docs
 keywords: [I14Y, I14Y-Interoperabilitätsplattform, IOP, Nachrichten, News, Neuigkeiten]
 ---
 
+## Visualisierung der Mehrfachnutzung von Konzepten
+*21.06.2024*
+
+{{< figure src="/handbook/img/news/konzepte.png" alt="Symbolbild Datenkonzepte" width="250px" class="float-left img-news-thumb" >}}
+
+Datensammlungen werden auf der I14Y detailliert beschrieben: Neben dem Titel und der herausgebenden Organisation, können auch Informationen zur Struktur erfasst werden. Eine Struktur besteht in der Regel aus mehreren Datenelementen. Und jedes Datenelement basiert auf einem Konzept – zuweilen auch (definierte) Variable oder Attribut genannt.
+
+Ein Konzept auf der I14Y beschreibt klar und eindeutig die grundlegende Bedeutung und die Eigenschaften eines Datenelements, unabhängig vom Kontext, in dem es verwendet wird.
+
+Auf der I14Y ist es neu möglich, auf einen Blick zu erkennen, wie oft ein bestimmtes Konzept in verschiedenen Datenelementen wiederverwendet wird. Wenn die Datenelemente Teil einer öffentlichen Datensammlung sind, wird diese genannt und verlinkt. Beispielsweise wird das [Konzept der Schweizer Kantone](https://www.i14y.admin.ch/de/concepts/08d94b89-bf4d-a423-8add-dde94d0cd1f4/description) derzeit in 122 Datenelementen verwendet. Beim Konzept der Schweizer Kantone handelt es sich um eine Codeliste.    
+
+Mehr Informationen zu Datenelementen und Konzepten finden sich im Handbuch der I14Y: [Informationsmodell](https://i14y-ch.github.io/handbook/de/2_rollen_prozesse/informationsmodell/#datenelement).
+
+
+## Ein API-Gateway für die sichere Verwaltung von Metadaten 
+*21.06.2024*
+
+{{< figure src="/handbook/img/news/grafik_api.png" alt="Symbolbild API" width="250px" class="float-left img-news-thumb" >}}
+
+Die Entwicklung unseres API-Gateways ist nahezu fertig. Auf dem [API-Gateway](https://input.i14y.admin.ch/console/partner/v1/index.html) werden die elektronischen Schnittstellen der I14Y zur Verfügung gestellt, die über längere Zeit stabil bleiben werden. Das Angebot an Endpunkten wird in den nächsten Monaten stark ausgebaut. Der Gateway kann genutzt werden, um Metadaten zu beziehen, zu editieren oder auch zu veröffentlichen. Eine Authentifizierungsfunktion stellt sicher, dass nur berechtigte Benutzerinnen und Benutzer auf die Metadaten zugreifen und diese anpassen können. Mit dem API-Gateway soll in Zukunft auf Wunsch auch ein automatisierter Zugriff auf organisationsinterne Bereiche von Maschine zu Maschine ermöglicht werden. 
+
+## Umfragen noch einfacher erstellen
+*21.06.2024*
+
+{{< figure src="/handbook/img/news/symbolbild_hackathon_2024.jpg" alt="Code-Editor mit Programmcode" width="250px" class="float-left img-news-thumb" >}}
+
+Wer eine Online-Befragung durchführen möchte, benötigt ein entsprechendes Tool wie zum Beispiel [Limesurvey](https://community.limesurvey.org/). Mit der frei verfügbaren, webbasierten Software lassen sich auch komplizierte Umfragen zusammenstellen. Selbstverständlich ist es möglich, bei den einzelnen Fragen Auswahlmöglichkeiten zu hinterlegen. Soll eine lange Liste eingepflegt werden, ist aber oftmals viel Handarbeit nötig. 
+
+Dank der I14Y soll es einfacher gehen: Beim [GovTech-Hackathon](https://hack.opendata.ch/event/68) von Mitte März haben fünf findige Entwickler die [Challenge der Interoperabilitätsstelle](https://hack.opendata.ch/project/1088) angenommen und in eineinhalb Tagen ein Plugin für die beliebte Umfragesoftware entwickelt. Dieses ruft die harmonisierten Codelisten von der I14Y ab, so dass sie mit wenigen Klicks Fragen zugeordnet werden können. Das Plugin vereinfacht und beschleunigt die Arbeit derjenigen, die eine Umfrage durchführen. Gleichzeitig stellt es sicher, dass weniger Fehler gemacht und die Werte einheitlich kodiert werden. Dadurch lassen sich die Daten später einfacher mit anderen Datensätzen kombinieren. 
+
+Der Prototyp des Plugins ist im [Github-Bereich der Interoperabilitätsstelle](https://github.com/I14Y-ch/iSurvey) zu finden. Dort kann er ausprobiert und weiterentwickelt werden.
+
+## Die Interoperabilitätsstelle hat einen neuen Chef
+*21.06.2024*
+
+{{< figure src="/handbook/img/news/i14y_fabrice_gouzi.png" alt="Porträt Fabrice Gouzi" width="250px" class="float-left img-news-thumb" >}}
+
+Fabrice Gouzi, diplomierter Wirtschaftsinformatiker mit einem Executive Master of Business Administration, ist seit Beginn der Entwicklung der I14Y dabei. Am 1. April 2024 hat er die Leitung der Interoperabilitätsstelle übernommen. Drei Fragen.
+
+*Fabrice, kannst Du uns in die Zeit zurückversetzen, als Du zum ersten Mal von der Idee einer Interoperabilitätsplattform gehört hast?* 
+
+Gerne! Um ehrlich zu sein, war das Konzept einer solchen Plattform für mich abstrakt, aber ich war mir der Notwendigkeit und des Nutzens einer Datenharmonisierung sehr bewusst und wollte Teil der spannenden Entwicklung einer solchen Plattform sein.   
+
+*Was sind die Prioritäten für die Interoperabilitätsplattform in den kommenden Jahren?*
+
+Auf technischer Ebene entwickeln wir die notwendigen Funktionalitäten, damit die Nutzer auf Bundes-, Kantons- und Gemeindeebene von der Plattform profitieren können. Mit unseren Partnern in Kantonen und Bund pflegen wir diesbezüglich einen sehr guten Austausch. Inhaltlich müssen wir nun die Konzepte bereitstellen, die auf nationaler Ebene weitgehend wiederverwendet werden. Das ist eine langwierige, aber unerlässliche Arbeit. 
+
+*Welche Funktion der I14Y ist zentral für die Standardisierung von Verwaltungsdaten?*
+Es ist wichtig, dass die Konzepte der Datenelemente einfach beschrieben werden können und ihre Wiederverwendung erleichtert wird, insbesondere durch maschinenlesbare Formate. Die Benutzerinnen und Benutzer der Plattform müssen unsere Roadmap kennen und ihre Bedürfnisse über ein Steuerungsausschuss, das wir derzeit einrichten, einbringen können. Persönlich weiss ich, dass das gesamte IOS-Team sehr kompetent ist. Und alle sind überzeugt vom Mehrwert, den die Interoperabilitätsplattform für die Förderung der Digitalisierung in der Schweiz und die Mehrfachnutzung von Verwaltungsdaten bringen wird.
+
 ## Neue Eingabefelder für den Datenschutz
 *20.02.2024*
 
