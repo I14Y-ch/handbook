@@ -41,7 +41,7 @@ Der Prototyp des Plugins ist im [Github-Bereich der Interoperabilitätsstelle](h
 ## Die Interoperabilitätsstelle hat einen neuen Chef
 *21.06.2024*
 
-{{< figure src="/handbook/img/news/i14y_fabrice_gouzi.png" alt="Porträt Fabrice Gouzi" width="250px" class="float-left img-news-thumb" >}}
+{{< figure src="/handbook/img/news/i14y_fabrice_gouzi.png" alt="Porträt Fabrice Gouzi" width="125px" class="float-left img-news-thumb" >}}
 
 Fabrice Gouzi, diplomierter Wirtschaftsinformatiker mit einem Executive Master of Business Administration, ist seit Beginn der Entwicklung der I14Y dabei. Am 1. April 2024 hat er die Leitung der Interoperabilitätsstelle übernommen. Drei Fragen.
 
