@@ -13,6 +13,14 @@ __IT:__ Questa pagina è disponibile solo in inglese.
 
 The I14Y interoperability platform is under continuous development. New features are added with each release. Bugs are also fixed. The most important changes are briefly documented below. For detailed information on the development of the platform, please contact the [I14Y team](mailto:i14y@bfs.admin.ch). 
 
+## Release September 4 2024
+- How fast is the number of metadata entries on the I14Y growing? And how often are data concepts reused? The I14Y dashboard, which is available in a beta version, is now accessible via the homepage. 
+- Web links can now be opened with a right click. 
+- Additional filtering options have been added to the data concepts overview. The list can now be filtered by status.  
+- The "My data" section on the I14Y homepage now also lists data concepts that need the attention of the logged-in user. 
+- The button to link an additional catalogue on the data collection input screen is greyed out if the logged-in user has only submitter rights. 
+- Information about government services can now be retrieved via the I14Y Partner API.
+
 ## Release August 14 2024
 - Data concepts (input area): Until now, entries for a code list were inserted directly on the page. The new release introduces a pop-up. This provides a clearer display and makes it easier to add entries to a code list.  
 - Data concepts (input area): The "Versions" section in the input area for data concepts is now positioned above the "Connections" section. In this way, the order corresponds to that on the public side of the I14Y. 
