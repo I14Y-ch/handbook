@@ -15,6 +15,6 @@ In einem ersten Kapitel wird das [Rollenmodell](/handbook/de/2_rollen_prozesse/r
 
 {{<alert title="Der I14Y-Chatbot beantwortet Fragen in verschiedenen Sprachen" color="success">}}
 
-Haben Sie Fragen zur Datenharmonisierung oder zur I14Y-Interoperabilitätsplattform? Stellen Sie diese unserem [Chatbot](https://www.i14y.admin.ch/de/labs/chatbot). Mehr Informationen zu diesem Experiment finden Sie im [Labor-Teil](/handbook/de/5_labs/) dieses Handbuchs. 
+Haben Sie Fragen zur Datenharmonisierung oder zur I14Y-Interoperabilitätsplattform? Stellen Sie diese unserem [Chatbot](https://www.i14y.admin.ch/de/labs/chatbot). Mehr Informationen zu diesem Experiment finden Sie im [Labor-Teil](/handbook/de/5_labs/) des Handbuchs. 
 
 {{</alert>}}
