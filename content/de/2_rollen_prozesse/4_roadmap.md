@@ -3,37 +3,54 @@ title: Roadmap
 slug: roadmap
 weight: 40
 type: docs
-keywords: [I14Y, I14Y-Interoperabilitätsplattform, Systemarchitektur, Technik, Datenbank]
+keywords: [I14Y, I14Y-Interoperabilitätsplattform, Systemarchitektur, Technik, Datenbank, Entwicklung, Roadmap, Agile Release Train (ART)]
+draft: true
 ---
 
-Die I14Y-Interoperabilitätsplattform wird im Auftrag des Bundes von der Interoperabilitätsstelle in Zusammenarbeit mit dem Bundesamt für Informatik entwickelt. Der Funktionsumfang wird laufend erweitert. 
+Die I14Y wird im Auftrag des Bundes von der Interoperabilitätsstelle in Zusammenarbeit mit dem Bundesamt für Informatik entwickelt. Die Projektphase läuft bis Ende 2026. Anschliessend übernimmt das Bundesamt für Statistik den Betrieb der I14Y als Daueraufgabe. 
 
-Die Interoperabilitätsstelle priorisiert in den nächsten Monaten die folgenden Funktionalitäten. Die Schwerpunkte können sich kurzfristig ändern. Bitte kontaktieren Sie die Interoperabilitätsstelle, falls Sie detaillierte Angaben zur Weiterentwicklung der Plattform benötigen oder falls Sie Wünsche für bestimmte Funktionalitäten haben.
+Während der Projektphase, also bis Ende 2026, wird der Funktionsumfang der I14Y laufend erweitert. Wünsche für neue Funktionen können bei der Interoperabilitätsstelle eingereicht werden. Diese spezifiziert die Funktionen. Sie priorisiert sie in Zusammenarbeit mit dem Steuerungsausschuss sowie dem Ausschuss Nationale Datenbewirtschaftung (NaDB). Und sie koordiniert die Entwicklungs- und Implementierungsarbeiten. 
 
 {{<alert title="Ihre Anregungen sind willkommen" color="success">}}
-Sollten Sie eine Verbesserungsmöglichkeit oder einen Fehler auf der I14Y-Interoperabilitätsplattform entdecken, ist das Entwicklungsteam dankbar um einen Hinweis. Sie erreichen uns am besten per [E-Mail](mailto:i14y@bfs.admin.ch). In einer späteren Phase werden weitere Kanäle für Rückmeldungen angeboten. 
+Sollten Sie eine Verbesserungsmöglichkeit oder einen Fehler auf der I14Y-Interoperabilitätsplattform entdecken, ist die Interoperabilitätsstelle dankbar um einen Hinweis. Sie erreichen das Team per [E-Mail](mailto:i14y@bfs.admin.ch). Bitte beschreiben Sie die gewünschte Funktion möglichst genau. In einer späteren Phase werden weitere Kanäle für Rückmeldungen angeboten. 
 
 {{</alert>}}
 
-## Elektronische Schnittstellen (APIs)
-Die I14Y-IOP bietet bereits heute elektronische Schnittstellen (APIs) zum Abrufen, Erfassen und Bearbeiten der Metadaten auf der Plattform an. Allerdings können sich diese noch ändern. Deshalb wurden sie bislang nicht öffentlich kommuniziert. Zudem sind viele der Schnittstellen ausschliesslich aus dem Bundesnetz erreichbar. Bitte nehmen Sie mit der [Interoperabilitätsstelle](mailto:i14y@bfs.admin.ch) Kontakt auf, falls Sie jetzt bereits auf die Schnittstellen angewiesen sind.  
+Die I14Y wird in einem so genannten Agile Release Train (ART) entwickelt. Entsprechend werden die Funktionen laufend spezifiziert, entwickelt und implementiert. Welche Funktionen für welchem Abschnitt der Entwicklung vorgesehen sind, ist in der untenstehenden Roadmap dokumentiert; für Detailangaben zu einzelnen Funktionalitäten kontaktieren Sie die Interoperabilitätsstelle. Die Schwerpunkte können sich ändern -- etwa wenn andere Anforderungen hoch priorisiert werden. Die Roadmap wird jeweils vor dem Beginn einer neuen Entwicklungsperiode (*Program Increment*, kurz PI) aktualisiert. 
 
-In den nächsten Monaten sollen stabile elektronische Schnittstellen zur Verfügung gestellt werden. Diese werden unter [api.i14y.admin.ch](https://api.i14y.admin.ch) erreichbar sein. Dort wird auch eine ausführliche Dokumentation zur Verfügung gestellt. Das Angebot wird allmählich ausgebaut. 
-
-Über diese Schnittstellen können öffentlich publizierte Metadaten abgerufen werden. Zudem wird es möglich, ohne manuelle Eingriffe auch interne Metadaten der eigenen Organisation beziehen zu können. Dazu wird ein so genannter API-Gateway ans System angebunden. 
-
-### Ergänzen weiterer Felder
-Die I14Y-IOP plant im Katalogteil weitere Felder einzuführen, damit Datensammlungen und elektronische Schnittstellen noch detaillierter beschrieben werden können. Zudem soll damit die Interoperabilität zu anderen Datenportalen sichergestellt werden. Einige der Felder werden ausschliesslich im internen Bereich zur Verfügung stehen, andere werden das öffentliche Angebot ergänzen. 
-
-In einem zweiten Schritt wird die Möglichkeit geschaffen, dass die einzelnen Organisationen eigene Felder definieren können, um ihre Datensammlungen und Schnittstellen für den internen Gebrauch und die Anbindung an Fachapplikationen akurater beschreiben zu können.
-
-### Qualitätsinformationen
-Die I14Y-IOP sammelt Einschätzungen zur Qualität der einzelnen Datensammlungen. Diese Angaben sollen in Zukunft auch automatisiert über eine elektronische Schnittstelle bezogen werden können. 
-
-Später wird die Möglichkeit geschaffen auch bei den einzelnen Datenelementen Informationen zur Qualität zu hinterlegen. So könnte etwa dokumentiert werden, wie der Befüllungsgrad eines Datenelements ist. Auch diese Informationen sollen sich dereinst über die API abrufen lassen. 
+```mermaid
+timeline
+    section 2024
+        PI 22<br>29.08. – 06.11.2024
+            : [Eine <b>globale Suche</b> für Kataloginhalte, Konzepte, OGD und Geocat wird geschaffen. Neu lassen sich auch die Einträge von Codelisten durchsuchen.] 
+            : Codelisten können optional offen gelassen werden. Damit wird es möglich publizierten Codelisten neue Einträge anzufügen, ohne dass eine neue Version erstellt werden muss.
+            : Grafische Verbesserungen durch Migration auf die Version 11 des Designsystems Oblique. Links zu Github und LinkedIn werden ergänzt. 
+            : Codelisten sollen sich auch als Excel-Datei exportieren lassen.
+            : Auf dem API-Gateway für I14Y-Partner werden zusätzliche Endpunkte fürs Erfassen und Beziehen von Beschreibungen von Datensammlungen zur Verfügung gestellt.
+        PI 23<br>07.11. – 15.01.2025
+            : Automatisches Onboarding für Mitarbeitende der Bundesverwaltung wird ermöglicht.
+            : Auf dem API-Gateway stehen alle relevanten Endpunkte für den Bezug und die Publikation von Metadaten zur Verfügung.
+            : Die Änderungen an Beschreibungen von Datensammlungen und -konzepten werden aufgezeichnet.
+            : Optimierungen Backend im Bereich Konzepte und Prozesse
+            : Filtermöglichkeiten für Codelisten werden ausgebaut.
+            : Im I14Y-Dashboard werden zusätzliche Auswertungsmöglichkeiten geschaffen.
+    section 2025
+        PIs 24 – 28
+            : Die Unterschiede zwischen Datensammlungen lassen sich mittels Mappingtabellen dokumentieren. 
+            : Eine Funktion zum Abonnieren von Datensammlungen und -konzepten wird geschaffen.
+            : Die Möglichkeiten zum Reporting werden verbessert.
+            : Zusätzliche Möglichkeiten zur Dokumentation des Datenflusses werden geschaffen (Data Lineage).
+            : Sämtliche öffentlich publizierten Inhalte stehen als Linked-Data zur Verfügung.
+    section 2026      
+        PIs 29 – 33
+            : Eine Vorschau auf die eigentlichen Daten wird eingebunden.
+            : Die Verbindungsmöglichkeiten zu anderen Tools werden erweitert.
+            : Der komplette Programmcode wird freigegeben (Open Source).
+            : Die Projektphase wird abgeschlossen. 
+```
 
 ### Open Source
-Der Programmcode der I14Y-Interoperabilitätsplattform soll unter einer [freien Lizenz](https://www.gnu.org/licenses) Lizenz veröffentlichst werden. Dies geschieht im Einklang mit dem zukünftigen Bundesgesetz über den Einsatz elektronischer Mittel zur Erfüllung von Behördenaufgaben (EMBAG). Laut Artikel 9 sollen die Bundesbehörden ihre Quellcodes -- sofern möglich -- frei zur Verfügung stellen. 
+Der Programmcode der I14Y-Interoperabilitätsplattform soll unter einer [freien Lizenz](https://www.gnu.org/licenses) Lizenz veröffentlichst werden. Die Interoperabilitätsstelle publiziert den Quellcode bis spätestens Ende der Projektphase, also Ende des Jahres 2026. Dies geschieht im Einklang mit dem zukünftigen Bundesgesetz über den Einsatz elektronischer Mittel zur Erfüllung von Behördenaufgaben ([EMBAG](https://www.fedlex.admin.ch/eli/fga/2023/787/de#art_9)). Laut Artikel 9 sollen die Bundesbehörden ihre Quellcodes -- sofern möglich -- frei zur Verfügung stellen. 
 
 {{<card header="Gesetzesgrundlage" title="__Art. 9 Open Source Software__" footer="Bundesgesetz über den Einsatz elektronischer Mittel zur Erfüllung von Behördenaufgaben [(EMBAG)](https://www.fedlex.admin.ch/eli/fga/2023/787/de#art_9)">}}
 
@@ -41,4 +58,4 @@ Die diesem Gesetz unterstehenden Bundesbehörden legen, wenn es möglich und sin
 
 {{</card>}}
 
-Die I14Y-IOP publiziert Quellcodes und Skripte unter dem Namen i14y-ch auf der [Plattform Github](https://github.com/i14y-ch). Bereits verfügbar ist dieses Handbuch sowie der Prototyp einer API, die am GovTech-Hackathon 2023 entwickelt wurde. Auf der Plattform sollen auch Beispielskripte zum Datenbezug veröffentlicht werden. Die ersten Module der I14Y-IOP werden voraussichtlich im 4. Quartal 2023 verfügbar sein. Detailinformationen zu den Nutzungsmöglichkeiten und zum weiteren Vorgehen werden zu diesem Zeitpunkt in diesem Handbuch nachgetragen.
+Die I14Y-IOP publiziert Quellcodes und Skripte unter dem Namen i14y-ch auf der [Plattform Github](https://github.com/i14y-ch). Bereits verfügbar ist dieses Handbuch sowie Prototypen, die an den GovTech-Hackathon 2023 und 2024 entwickelt wurden. Auf der Plattform sollen auch Beispielskripte zum Datenbezug veröffentlicht werden. 
