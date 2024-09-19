@@ -4,7 +4,7 @@ slug: roadmap
 weight: 40
 type: docs
 keywords: [I14Y, I14Y-Interoperabilitätsplattform, Systemarchitektur, Technik, Datenbank, Entwicklung, Roadmap, Agile Release Train (ART)]
-draft: false
+draft: true
 ---
 
 Die I14Y wird im Auftrag des Bundes von der Interoperabilitätsstelle in Zusammenarbeit mit dem Bundesamt für Informatik entwickelt. Die Projektphase läuft bis Ende 2026. Anschliessend übernimmt das Bundesamt für Statistik den Betrieb der I14Y als Daueraufgabe. 
