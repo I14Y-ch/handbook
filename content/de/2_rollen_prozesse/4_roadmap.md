@@ -4,12 +4,12 @@ slug: roadmap
 weight: 40
 type: docs
 keywords: [I14Y, I14Y-Interoperabilitätsplattform, Systemarchitektur, Technik, Datenbank, Entwicklung, Roadmap, Agile Release Train (ART)]
-draft: true
+draft: false
 ---
 
 Die I14Y wird im Auftrag des Bundes von der Interoperabilitätsstelle in Zusammenarbeit mit dem Bundesamt für Informatik entwickelt. Die Projektphase läuft bis Ende 2026. Anschliessend übernimmt das Bundesamt für Statistik den Betrieb der I14Y als Daueraufgabe. 
 
-Während der Projektphase, also bis Ende 2026, wird der Funktionsumfang der I14Y laufend erweitert. Wünsche für neue Funktionen können bei der Interoperabilitätsstelle eingereicht werden. Diese spezifiziert die Funktionen. Sie priorisiert sie in Zusammenarbeit mit dem Steuerungsausschuss sowie dem Ausschuss Nationale Datenbewirtschaftung (NaDB). Und sie koordiniert die Entwicklungs- und Implementierungsarbeiten. 
+Während der Projektphase, also bis Ende 2026, wird der Funktionsumfang der I14Y laufend erweitert. Wünsche für neue Funktionen können bei der Interoperabilitätsstelle eingereicht werden. Die Interoperabilitätsstelle erarbeitet die Detail-Spezifikation. Sie priorisiert sie in Zusammenarbeit mit dem Steuerungsausschuss sowie dem Ausschuss Nationale Datenbewirtschaftung (NaDB). Und sie koordiniert die Entwicklungs- und Implementierungsarbeiten. 
 
 {{<alert title="Ihre Anregungen sind willkommen" color="success">}}
 Sollten Sie eine Verbesserungsmöglichkeit oder einen Fehler auf der I14Y-Interoperabilitätsplattform entdecken, ist die Interoperabilitätsstelle dankbar um einen Hinweis. Sie erreichen das Team per [E-Mail](mailto:i14y@bfs.admin.ch). Bitte beschreiben Sie die gewünschte Funktion möglichst genau. In einer späteren Phase werden weitere Kanäle für Rückmeldungen angeboten. 
@@ -22,21 +22,21 @@ Die I14Y wird in einem so genannten Agile Release Train (ART) entwickelt. Entspr
 timeline
     section 2024
         PI 22<br>29.08. – 06.11.2024
-            : [Eine <b>globale Suche</b> für Kataloginhalte, Konzepte, OGD und Geocat wird geschaffen. Neu lassen sich auch die Einträge von Codelisten durchsuchen.] 
+            : Eine globale Suche für Katalog-Inhalte und Datenkonzepte wird geschaffen. Neu lassen sich auch die Einträge von Codelisten durchsuchen. 
             : Codelisten können optional offen gelassen werden. Damit wird es möglich publizierten Codelisten neue Einträge anzufügen, ohne dass eine neue Version erstellt werden muss.
-            : Grafische Verbesserungen durch Migration auf die Version 11 des Designsystems Oblique. Links zu Github und LinkedIn werden ergänzt. 
+            : Grafische Verbesserungen durch die Migration auf die Version 11 des Designsystems Oblique. Links zu Github und LinkedIn werden ergänzt. 
             : Codelisten sollen sich auch als Excel-Datei exportieren lassen.
             : Auf dem API-Gateway für I14Y-Partner werden zusätzliche Endpunkte fürs Erfassen und Beziehen von Beschreibungen von Datensammlungen zur Verfügung gestellt.
         PI 23<br>07.11. – 15.01.2025
-            : Automatisches Onboarding für Mitarbeitende der Bundesverwaltung wird ermöglicht.
-            : Auf dem API-Gateway stehen alle relevanten Endpunkte für den Bezug und die Publikation von Metadaten zur Verfügung.
-            : Die Änderungen an Beschreibungen von Datensammlungen und -konzepten werden aufgezeichnet.
+            : Die Änderungen an Beschreibungen von Datensammlungen und -konzepten werden aufgezeichnet (Audit Trail).
             : Optimierungen Backend im Bereich Konzepte und Prozesse
             : Filtermöglichkeiten für Codelisten werden ausgebaut.
             : Im I14Y-Dashboard werden zusätzliche Auswertungsmöglichkeiten geschaffen.
+            : Auf dem API-Gateway für I14Y-Partner werden zusätzliche Endpunkte zur Verfügung gestellt.
     section 2025
         PIs 24 – 28
-            : Die Unterschiede zwischen Datensammlungen lassen sich mittels Mappingtabellen dokumentieren. 
+            : Automatisches Onboarding für Mitarbeitende der Bundesverwaltung wird ermöglicht.
+            : Die Unterschiede zwischen Datensammlungen lassen sich mittels Mapping-Tabellen dokumentieren. 
             : Eine Funktion zum Abonnieren von Datensammlungen und -konzepten wird geschaffen.
             : Die Möglichkeiten zum Reporting werden verbessert.
             : Zusätzliche Möglichkeiten zur Dokumentation des Datenflusses werden geschaffen (Data Lineage).
