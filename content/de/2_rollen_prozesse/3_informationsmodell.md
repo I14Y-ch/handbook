@@ -288,23 +288,26 @@ direction LR
         - dct:publisher
         - dct:title
         - dcat:themeTaxonomy
-        Recommended:
+        - dct:description
         }
         class DataService {
         Mandatory:
         - dct:title
-        - dct:publisher
-        Recommended:
+        - dct:publisher  
         - dct:description
-        - dct:endpointDescription
         - dct:accessRights
         - dcat:endpointURL
+        Recommended:
+        - dct:endpointDescription
         - dcat:contactPoint
         - dct:license
         - dcat:keyword
+        - dcat:servesDataset
+        Optional:
+        - dcat:theme 
         - dcat:landingPage
         - dct:conformsTo
-        - Dokumente
+        - foaf:page
         - Version
         - Versionshinweise
         }
@@ -318,47 +321,59 @@ direction LR
         Recommended:
         - dct:issued
         - dct:modified
-        - dcat:contactPoint
-        - dct:language
         - dcat:theme
-        - Confidentiality
-        - Retention period
-        - Retention period complement
         - dct:keyword
         - dcat:landingPage
         - dct:spatial
         - dct:temporal
+        - dcat:contactPoint
+        Optional:
+        - Confidentiality
+        - Retention period
+        - Retention period complement
+        - dct:language
         - dct:conformsTo
-        - dct:relation
+        - dct:accuralPeriodicity 
         - dct:isReferencedBy
         - prov:qualifiedAttribution
         - Qualified attribution complement
         - dcat:qualifiedRelation
         - dct:relation
         - schema:image
+        - Data Owner
+        - Responsible Person
+        - Responsible person Deputy
+        - foaf:page
+        - Version
+        - Versionshinweise
+        - Process ID
         }
         class Distribution {
         Mandatory:
         - dct:title
-        Recommended:
         - dct:description
         - dct:identifier
-        - dct:issued
+        - dcat:accessURL  
+        - dct:license
+        - dct:format
+        Recommended:
         - dct:modified
+        Optional: 
+        - dct:issued
         - dct:language
-        - dcat:accessURL
         - dct:byteSize
         - dcat:mediaType
         - dcat:packageFormat
-        - Checksum algorithm
+        - spdx:checksumValue
+        - spdx:algorithm
         - spdx:checksum
-        - dct:licence
         - dcatap:availability
         - dct:coverage
         - dcat:temporalResolution
         - dct:conformsTo
-        - Dokumente
+        - foaf:page
         - schema:image
+        - dcat:downloadURL
         }
 ```
 
