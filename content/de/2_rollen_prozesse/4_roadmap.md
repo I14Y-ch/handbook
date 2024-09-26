@@ -23,24 +23,28 @@ timeline
     section 2024
         PI 22<br>29.08. – 06.11.2024
             : Eine globale Suche für Katalog-Inhalte und Datenkonzepte wird geschaffen. Neu lassen sich bei Codelisten auch die einzelnen Einträge durchsuchen. 
-            : Codelisten können optional offen gelassen werden. Damit wird es möglich publizierten Codelisten neue Einträge anzufügen, ohne dass eine neue Version erstellt werden muss.
+            : Konzepte, unter anderem vom Typ Codelisten, können optional offen gelassen werden. Damit wird es möglich publizierten Codelisten neue Einträge anzufügen, ohne dass eine neue Version erstellt werden muss.
             : Grafische Verbesserungen durch die Migration auf die Version 11 des Designsystems Oblique. Links zu Github und LinkedIn werden ergänzt. 
             : Codelisten sollen sich auch als Excel-Datei exportieren lassen.
             : Auf dem API-Gateway für I14Y-Partner werden zusätzliche Endpunkte fürs Erfassen und Beziehen von Beschreibungen von Datensammlungen zur Verfügung gestellt.
-        PI 23<br>07.11. – 15.01.2025
-            : Die Änderungen an Beschreibungen von Datensammlungen und -konzepten werden aufgezeichnet (Audit Trail).
             : Backend-Optimierungen im Bereich Konzepte und Prozesse.
-            : Filtermöglichkeiten für Codelisten werden ausgebaut.
+        PI 23<br>07.11. – 15.01.2025
+            : Bereinigung der Microservices, grundlegende Überarbeitung des Backend-Systems.
             : Im I14Y-Dashboard werden zusätzliche Auswertungsmöglichkeiten geschaffen.
-            : Auf dem API-Gateway für I14Y-Partner werden zusätzliche Endpunkte zur Verfügung gestellt.
+            : Datenstrukturen werden neu definiert mit der Möglichkeit, Datenmodelle darzustellen.
+            : Behördenleistungen und Agenten können einer föderalen Ebene (Bund, Kanton, Bezirk oder Gemeinde) zugeordnet werden.
+            : Auf dem API-Gateway für I14Y-Partner werden zusätzliche Endpunkte für die Änderung und das Löschen von Datensammlungen und -konzepten zur Verfügung gestellt.
+            : Die globale Suche wird verbessert.
     section 2025
         PIs 24 – 28
+            : Die Änderungen an Beschreibungen von Datensammlungen und -konzepten werden aufgezeichnet (Audit Trail).
             : Automatisches Onboarding für Mitarbeitende der Bundesverwaltung wird ermöglicht.
-            : Bereinigung der Microservices, grundlegende Überarbeitung des Backend-Systems.
-            : Die Unterschiede zwischen Datensammlungen lassen sich mittels Mapping-Tabellen dokumentieren. 
+            : Die Unterschiede zwischen Objekten lassen sich mittels Mapping-Tabellen dokumentieren. 
             : Eine Funktion zum Abonnieren von Datensammlungen und -konzepten wird geschaffen.
             : Die Möglichkeiten zum Reporting werden verbessert.
             : Sämtliche öffentlich publizierten Inhalte stehen als Linked-Data zur Verfügung.
+            : Filtermöglichkeiten für Codelisten werden ausgebaut.
+            : Auf dem API-Gateway für I14Y-Partner werden zusätzliche Endpunkte zur Verfügung gestellt.
     section 2026      
         PIs 29 – 33
             : Eine Vorschau auf die eigentlichen Daten wird eingebunden.
