@@ -31,7 +31,7 @@ timeline
         PI 23<br>07.11. – 15.01.2025
             : Bereinigung der Microservices, grundlegende Überarbeitung des Backend-Systems.
             : Im I14Y-Dashboard werden zusätzliche Auswertungsmöglichkeiten geschaffen.
-            : Datenstrukturen werden neu definiert mit der Möglichkeit, Datenmodelle darzustellen.
+            : Datenstrukturen werden neu definiert mit der Möglichkeit Datenmodelle darzustellen.
             : Behördenleistungen und Agenten können einer föderalen Ebene (Bund, Kanton, Bezirk oder Gemeinde) zugeordnet werden.
             : Auf dem API-Gateway für I14Y-Partner werden zusätzliche Endpunkte für die Änderung und das Löschen von Datensammlungen und -konzepten zur Verfügung gestellt.
             : Die globale Suche wird verbessert.
