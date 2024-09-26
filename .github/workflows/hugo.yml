@@ -33,7 +33,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.111.2
+      HUGO_VERSION: 0.134.3 #0.111.2 
     steps:
       - name: Install Hugo CLI
         run: |
@@ -51,6 +51,8 @@ jobs:
         uses: actions/configure-pages@v3
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+      - name: Install Mermaid
+        run: npm install -g @mermaid-js/mermaid-cli  # Install Mermaid
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
