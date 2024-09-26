@@ -1,6 +1,7 @@
 #baseURL = 'https://i14y-ch.github.io/handbook/'
 languageCode = 'de-CH'
 title = 'Handbuch I14Y-Interoperabilitätsplattform'
+googleAnalytics = ""
 
 # Language settings
 contentDir = "content/"
