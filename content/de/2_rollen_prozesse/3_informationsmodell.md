@@ -275,105 +275,140 @@ Auch APIs werden auf der I14Y-Interoperabilitätsplattform weitgehend mittels de
 Eine Schritt-für-Schritt-Anleitung dazu, wie elektronische Schnittstellen erfasst werden, ist im Kapitel 
 [Publikation](/handbook/de/4_publikation/1_katalog/5_api) zu finden. 
 
+Das untenstehende Diagramm zeigt die Beziehungen zwischen den verschiedenen Klassen, die in I14Y basierend auf dem DCAT-Standard (Katalog, Datensammlung, Datenservice, Distribution) verwendet werden. Es bietet auch einen Überblick über alle Eigenschaften, die mit jeder dieser Klassen verbunden sind. Eigenschaften, die mit einem Sternchen (*) gekennzeichnet sind, wurden speziell für I14Y entwickelt. Weitere Informationen zu diesen Eigenschaften finden Sie [hier](https://i14y-ch.github.io/handbook/de/6_anhang/eingabefelder/).
+
 ```mermaid
 classDiagram
 direction LR
-        Catalog --> Dataset : dcat#58;dataset
-        Catalog --> DataService : dcat#58;service
-        DataService --> Dataset : dcat#58;servesDataset
-        Dataset --> Distribution : dcat#58;distribution
-        Distribution --> DataService : dcat#58;accessService
+
+        Catalog --> Agent : «mandatory» dct#58;publisher [1..1]
+        Dataset --> Agent: «mandatory» dct#58;publisher [1..1]
+        DataService --> Agent : «mandatory» dct#58;publisher [1..1] 
+        Catalog --> Dataset : «recommended» dcat#58;dataset [0..*]
+        DataService -->  Dataset : «recommended» dcat#58;servesDataset [0..*]
+        Dataset -->  Distribution : «recommended» dcat#58;distribution [0..*]
+        Distribution -->  DataService : «optional» dcat#58;accessService [0..*]
+        Catalog --> Catalog : «optional» dcat#58;catalog [0..*]
+        Dataset -->  Dataset : «optional» dcat#58;previousVersion [0..1]
+        Dataset -->  Dataset : «optional» dct#58;hasVersion [0..*]
+        
+
         class Catalog {
-        Mandatory:
-        - dct:publisher
-        - dct:title
-        - dcat:themeTaxonomy
-        - dct:description
+        «mandatory»
+    
+        dct:title: rdfs:Literal [1..*]
+        dct:description: rdfs:Literal [1..*]
+      
+        «recommended»  
+       
+        dcat:themeTaxonomy: skos:ConceptScheme [1..*]
         }
+
         class DataService {
-        Mandatory:
-        - dct:title
-        - dct:publisher  
-        - dct:description
-        - dct:accessRights
-        - dcat:endpointURL
-        Recommended:
-        - dct:endpointDescription
-        - dcat:contactPoint
-        - dct:license
-        - dcat:keyword
-        - dcat:servesDataset
-        Optional:
-        - dcat:theme 
-        - dcat:landingPage
-        - dct:conformsTo
-        - foaf:page
-        - Version
-        - Versionshinweise
+        «mandatory»
+        
+        dct:title: rdfs:Literal [1..1]
+        dct:description: rdfs:Literal [1..*]
+        dct:accessRights: dct:RightsStatement [0..1]
+        dcat:endpointURL: rdfs:Resource [1..*]
+       
+        «recommended»  
+       
+        dct:endpointDescription: rdfs:Resource [0..*]
+        dcat:contactPoint: vcard:Kind [0..*]
+        dct:license: dct:LicenseDocument [0..1]
+        dcat:keyword: rdfs:Literal [0..*]
+        
+        «optional»
+       
+        dcat:theme: skos:Concept [0..*]
+        dcat:landingPage: foaf:Document [0..*]
+        dct:conformsTo: dcterms:Standard [0..*]
+        foaf:page: foaf:Document [0..*]
+        adms:versionNotes: rdfs:Literal [0..*]
+        dcat:version: rdfs:Literal [0..1]
         }
+        class Agent {
+        «mandatory»
+        foaf:name: rdfs:Literal [1..*]
+        dct:identifier: rdfs:Literal [1..1]
+        }
+
+
         class Dataset {
-        Mandatory:
-        - dct:title
-        - dct:description
-        - dct:identifier
-        - dct:publisher
-        - dct:accessRights
-        Recommended:
-        - dct:issued
-        - dct:modified
-        - dcat:theme
-        - dct:keyword
-        - dcat:landingPage
-        - dct:spatial
-        - dct:temporal
-        - dcat:contactPoint
-        Optional:
-        - Confidentiality
-        - Retention period
-        - Retention period complement
-        - dct:language
-        - dct:conformsTo
-        - dct:accuralPeriodicity 
-        - dct:isReferencedBy
-        - prov:qualifiedAttribution
-        - Qualified attribution complement
-        - dcat:qualifiedRelation
-        - dct:relation
-        - schema:image
-        - Data Owner
-        - Responsible Person
-        - Responsible person Deputy
-        - foaf:page
-        - Version
-        - Versionshinweise
-        - Process ID
+        «mandatory»
+       
+        dct:title: rdfs:Literal [1..*]
+        dct:description: rdfs:Literal [1..*]
+        dct:identifier: rdfs:Literal [1..1]
+        dct:accessRights: dct:RightsStatement [1..1]
+        
+        «recommended»
+       
+        dct:issued: rdfs:Literal typed as xsd:date, xsd:dateTime [0..1]
+        dct:modified: rdfs:Literal typed as xsd:date, xsd:dateTime [0..1]
+        dcat:theme: skos:Concept [0..*]
+        dct:keyword: rdfs:Literal [0..*]
+        dcat:landingPage: foaf:Document [0..*]
+        dct:spatial:  dct:Location [0..*]
+        dct:temporal: dct:PeriodOfTime [0..*]
+        dcat:contactPoint: vcard:Kind [0..*]
+      
+        «optional»
+        
+        dct:language: dct:LinguisticSystem [0..*]
+        dct:conformsTo: dct:Standard [0..*]
+        dct:accuralPeriodicity: dct:Frequency [0..1]
+        dct:isReferencedBy: rdfs:Resource [0..*]
+        prov:qualifiedAttribution: prov:Attribution [0..*]
+        dcat:qualifiedRelation: dcat:Relationship [0..*]
+        dct:relation: rdfs:Resource [0..*]
+        schema:image: schema:url [0..3]
+        foaf:page: foaf:Document [0..*]
+        adms:versionNotes: rdfs:Literal [0..*]
+        dcat:version: rdfs:Literal [0..1]
+        * Data Owner: Person [0..1]
+        * Responsible Person: Person [0..1]
+        * Responsible person Deputy: Person [0..1]
+        * Process ID: rdfs:Literal [0..1]
+        * Confidentiality: confidentility level [0..1]
+        * Retention period: xsd:date [0..1]
+        * Retention period complement: rdfs:Literal [0..1]
+        * Qualified attribution complement: rdfs:Literal [0..1]
+        * GeoIV ID: External Vocabulary [0..*]
         }
+
+
         class Distribution {
-        Mandatory:
-        - dct:title
-        - dct:description
-        - dct:identifier
-        - dcat:accessURL  
-        - dct:license
-        - dct:format
-        Recommended:
-        - dct:modified
-        Optional: 
-        - dct:issued
-        - dct:language
-        - dct:byteSize
-        - dcat:mediaType
-        - dcat:packageFormat
-        - spdx:checksumValue
-        - spdx:algorithm
-        - spdx:checksum
-        - dcatap:availability
-        - dct:coverage
-        - dcat:temporalResolution
-        - dct:conformsTo
-        - foaf:page
-        - schema:image
-        - dcat:downloadURL
+        «mandatory»
+        dct:title: rdfs:Literal [0..*]
+        dct:description: rdfs:Literal [0..*]
+        dct:identifier: rdfs:Literal [0..1]
+        dcat:accessURL: rdfs:Resource [1..1]  
+        dct:license: dct:LicenseDocument [1..1]
+        dct:format: dct:MediaTypeOrExtent [0..1]
+    
+        «recommended»
+        
+        dct:modified: rdfs:Literal typed as xsd:date, xsd:dateTime [0..1]
+      
+        «optional»
+       
+        dct:issued: rdfs:Literal typed as xsd:date, xsd:dateTime [0..1]
+        dct:language: dct:LinguisticSystem [0..*]
+        dct:byteSize: rdfs:Literal typed as xsd:decimal [0..1]
+        dcat:mediaType: dct:MediaType [0..1]
+        dcat:packageFormat: dct:MediaType [0..1]
+        spdx:checksumValue: spdx:checksumValue [0..1]
+        spdx:algorithm: spdx:ChecksumAlgorithm [0..1]
+        spdx:checksum: spdx:Checksum [0..1]
+        dcatap:availability: skos:Concept [0..1]
+        dct:coverage: dct:PeriodOfTime [0..*]
+        dcat:temporalResolution: xsd:duration [0..1]
+        dct:conformsTo: dct:Standard [0..*]
+        foaf:page: foaf:Document [0..*]
+        schema:image: schema:url [0..3]
+        dcat:downloadURL: rdfs:Resource[0..*]
         }
 ```
 
