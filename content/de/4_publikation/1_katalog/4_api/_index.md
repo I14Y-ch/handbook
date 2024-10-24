@@ -4,12 +4,20 @@ slug: i14y-api
 weight: 50
 type: docs
 keywords: [I14Y, I14Y-Interoperabilitätsplattform, I14Y-IOP, Interoperabilität, API, elektronische Schnittstelle, automatisiert, Endpunkte, Swagger, Schweiz]
+draft: True
 ---
 
-Die I14Y-Interoperabilitätsplattform bietet in Zukunft diverse elektronische Schnittstellen (APIs) an -- für die Datenpublikation wie auch fürs Abrufen der Metadaten. Damit können etwa Webapplikationen und Fachanwendungen direkt von der Plattform Codelisten beziehen. Und damit wird es möglich, grössere oder regelmässige Importe von Metadaten auf die I14Y-IOP durchzuführen. 
+Die I14Y-Interoperabilitätsplattform bietet jetzt verschiedene elektronische Schnittstellen (APIs) für die Datenpublikation und den Abruf von Metadaten an. Diese APIs ermöglichen es Webanwendungen und spezialisierten Anwendungen, Codelisten direkt von der Plattform zu beziehen, wodurch größere oder regelmäßige Importe von Metadaten in die I14Y-IOP erleichtert werden.
 
-Die entsprechenden Schnittstellen existieren bereits. Allerdings kann nicht ausgeschlossen werden, dass sie im Zuge der weiteren Entwicklung der Plattform noch angepasst werden müssen. Zudem ist erst ein Teil der Schnittstellen von ausserhalb des Bundesnetzes erreichbar. Deshalb werden die Informationen zu den Schnittstellen vorläufig noch nicht öffentlich kommuniziert. Bitte nehmen Sie mit dem [I14Y-Team Kontakt auf](mailto:i14y@bfs.admin.ch), falls Sie sich bereits jetzt für die Nutzung der API interessieren. 
+## Verfügbare APIs
+Es gibt jetzt öffentlich zugängliche APIs, die über die folgenden Swagger-Dokumentationsseiten aufgerufen werden können:
+- Abnahme-Version: [Swagger-Dokumentation](https://iop-partner-a.app.cfap02.atlantica.admin.ch/api/index.html)
+- Produktions-Version: [Swagger-Dokumentation](https://iop-partner.app.cfap02.atlantica.admin.ch/api/index.html)
 
-Erste öffentliche elektronische Schnittstellen sollen im zweiten Semester 2023 zur Verfügung gestellt werden. Das Angebot wird anschliessend allmählich ausgebaut. Mittelfristig soll auch der automatisierte Zugriff auf die organisationsinternen Metadaten ermöglicht werden (siehe [Roadmap](/handbook/de/2_rollen_prozesse/roadmap)). 
+Die verfügbaren APIs sind in drei Kategorien unterteilt: Kataloge, Konzepte und Öffentliche Dienste. 
 
-Sobald die öffentlichen I14Y-APIs verfügbar sind, werden hier weitere Informationen publiziert. 
+Außerdem steht eine Jupyter-Notebook-Dokumentation zur Verfügung, die zeigt, wie man die API mit der Python-Bibliothek requests verwendet. Diese Dokumentation ist im GitHub-Repository [Tutorials](https://github.com/I14Y-ch/tutorials) verfügbar. Das Notebook zeigt, wie man mit der Abnahme-Testumgebung der API interagiert, was es ermöglicht, alle Funktionalitäten zu testen, ohne die Produktionsumgebung zu beeinträchtigen. Die Funktionen der API und deren Funktionsweise in der Abnahme-Umgebung sind identisch mit denen in der Produktionsumgebung. Der einzige Unterschied besteht in der Umgebung selbst (Test vs. Produktion).
+
+Bitte beachten Sie, dass einige APIs noch nicht öffentlich zugänglich sind. Für Informationen über diese Schnittstellen oder wenn Sie andere nicht öffentlich verfügbare APIs nutzen möchten, kontaktieren Sie bitte das [I14Y-Team](mailto:i14y@bfs.admin.ch). 
+
+Das Angebot wird schrittweise erweitert, und weitere Informationen werden hier veröffentlicht, sobald neue I14Y-APIs verfügbar sind.

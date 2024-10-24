@@ -279,7 +279,7 @@ Das untenstehende Diagramm zeigt die Beziehungen zwischen den verschiedenen Klas
 
 ```mermaid
 classDiagram
-direction LR
+direction TB
 
         Catalog --> Agent : «mandatory» dct#58;publisher [1..1]
         Dataset --> Agent: «mandatory» dct#58;publisher [1..1]
