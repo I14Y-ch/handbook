@@ -4,6 +4,7 @@ slug: i14y-api
 weight: 50
 type: docs
 keywords: [I14Y, I14Y-Interoperabilitätsplattform, I14Y-IOP, Interoperabilität, API, elektronische Schnittstelle, automatisiert, Endpunkte, Swagger, Schweiz]
+draft: True
 ---
 
 Die I14Y-Interoperabilitätsplattform bietet jetzt verschiedene elektronische Schnittstellen (APIs) für die Datenpublikation und den Abruf von Metadaten an. Diese APIs ermöglichen es Webanwendungen und spezialisierten Anwendungen, Codelisten direkt von der Plattform zu beziehen, wodurch größere oder regelmäßige Importe von Metadaten in die I14Y-IOP erleichtert werden.
