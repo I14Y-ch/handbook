@@ -4,7 +4,6 @@ slug: roadmap
 weight: 40
 type: docs
 keywords: [I14Y, I14Y-Interoperabilitätsplattform, Systemarchitektur, Technik, Datenbank, Entwicklung, Roadmap, Agile Release Train (ART)]
-draft: true
 ---
 
 Die I14Y wird im Auftrag des Bundes von der Interoperabilitätsstelle in Zusammenarbeit mit dem Bundesamt für Informatik entwickelt. Die Projektphase läuft bis Ende 2026. Anschliessend übernimmt das Bundesamt für Statistik den Betrieb der I14Y als Daueraufgabe. 
@@ -18,37 +17,7 @@ Sollten Sie eine Verbesserungsmöglichkeit oder einen Fehler auf der I14Y-Intero
 
 Die I14Y wird in einem so genannten Agile Release Train (ART) entwickelt. Die Funktionen werden laufend spezifiziert, entwickelt und implementiert. Welche Funktionen für welchem Abschnitt der Entwicklung vorgesehen sind, ist in der untenstehenden Roadmap dokumentiert; für Detailangaben zu einzelnen Funktionalitäten kontaktieren Sie die Interoperabilitätsstelle. Die Schwerpunkte können sich ändern -- etwa wenn andere Anforderungen hoch priorisiert werden. Die Roadmap wird jeweils vor dem Beginn einer neuen Entwicklungsperiode (*Program Increment*, kurz PI) aktualisiert. Die nächsten Abschnitte werden detailliert beschrieben, für spätere Phasen werden allgemeinere Ziele angegeben.  
 
-```mermaid
-timeline
-    section 2024
-        PI 22<br>29.08. – 06.11.2024
-            : Eine globale Suche für Katalog-Inhalte und Datenkonzepte wird geschaffen. Neu lassen sich bei Codelisten auch die einzelnen Einträge durchsuchen. 
-            : Codelisten können optional offen gelassen werden. Damit wird es möglich publizierten Codelisten neue Einträge anzufügen, ohne dass eine neue Version erstellt werden muss.
-            : Grafische Verbesserungen durch die Migration auf die Version 11 des Designsystems Oblique. Links zu Github und LinkedIn werden ergänzt. 
-            : Codelisten sollen sich auch als Excel-Datei exportieren lassen.
-            : Auf dem API-Gateway für I14Y-Partner werden zusätzliche Endpunkte fürs Erfassen und Beziehen von Beschreibungen von Datensammlungen zur Verfügung gestellt.
-        PI 23<br>07.11. – 15.01.2025
-            : Die Änderungen an Beschreibungen von Datensammlungen und -konzepten werden aufgezeichnet (Audit Trail).
-            : Backend-Optimierungen im Bereich Konzepte und Prozesse.
-            : Filtermöglichkeiten für Codelisten werden ausgebaut.
-            : Im I14Y-Dashboard werden zusätzliche Auswertungsmöglichkeiten geschaffen.
-            : Auf dem API-Gateway für I14Y-Partner werden zusätzliche Endpunkte zur Verfügung gestellt.
-    section 2025
-        PIs 24 – 28
-            : Automatisches Onboarding für Mitarbeitende der Bundesverwaltung wird ermöglicht.
-            : Bereinigung der Microservices, grundlegende Überarbeitung des Backend-Systems.
-            : Die Unterschiede zwischen Datensammlungen lassen sich mittels Mapping-Tabellen dokumentieren. 
-            : Eine Funktion zum Abonnieren von Datensammlungen und -konzepten wird geschaffen.
-            : Die Möglichkeiten zum Reporting werden verbessert.
-            : Sämtliche öffentlich publizierten Inhalte stehen als Linked-Data zur Verfügung.
-    section 2026      
-        PIs 29 – 33
-            : Eine Vorschau auf die eigentlichen Daten wird eingebunden.
-            : Zusätzliche Möglichkeiten zur Dokumentation des Datenflusses werden geschaffen (Data Lineage).
-            : Die Verbindungsmöglichkeiten zu anderen Tools werden erweitert.
-            : Der komplette Programmcode wird freigegeben (Open Source).
-            : Die Projektphase wird abgeschlossen. 
-```
+![Bild Roadmap I14Y](/handbook/img/roadmap.svg)
 
 ### Open Source
 Der Programmcode der I14Y-Interoperabilitätsplattform soll unter einer [freien Lizenz](https://www.gnu.org/licenses) Lizenz veröffentlichst werden. Die Interoperabilitätsstelle publiziert den Quellcode bis spätestens Ende der Projektphase, also Ende des Jahres 2026. Dies geschieht im Einklang mit dem zukünftigen Bundesgesetz über den Einsatz elektronischer Mittel zur Erfüllung von Behördenaufgaben ([EMBAG](https://www.fedlex.admin.ch/eli/fga/2023/787/de#art_9)). Laut Artikel 9 sollen die Bundesbehörden ihre Quellcodes -- sofern möglich -- frei zur Verfügung stellen. 
