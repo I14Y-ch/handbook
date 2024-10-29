@@ -11,7 +11,7 @@ Die I14Y wird im Auftrag des Bundes von der Interoperabilitätsstelle in Zusamme
 Während der Projektphase wird der Funktionsumfang der I14Y laufend erweitert. Wünsche für neue Funktionen können bei der Interoperabilitätsstelle eingereicht werden. Diese erarbeitet dann die Detail-Spezifikation. Sie priorisiert die Entwicklungswünsche in Zusammenarbeit mit dem Steuerungsausschuss sowie dem Ausschuss Nationale Datenbewirtschaftung (NaDB). Und sie koordiniert die Entwicklungs- und Implementierungsarbeiten. 
 
 {{<alert title="Ihre Anregungen sind willkommen" color="success">}}
-Sollten Sie eine Verbesserungsmöglichkeit oder einen Fehler auf der I14Y-Interoperabilitätsplattform entdecken, ist die Interoperabilitätsstelle dankbar um einen Hinweis. Sie erreichen das Team per [E-Mail](mailto:i14y@bfs.admin.ch). Bitte beschreiben Sie die gewünschte Funktion in Ihrer E-Mail möglichst genau. In einer späteren Phase werden andere Kanäle für Rückmeldungen angeboten. 
+Sollten Sie eine Verbesserungsmöglichkeit oder einen Fehler auf der I14Y-Interoperabilitätsplattform entdecken, ist die Interoperabilitätsstelle dankbar um einen Hinweis. Vorschläge für neue Funktionen können Sie entweder im [Repository Feature Requests](https://github.com/I14Y-ch/feature-requests) auf Github einreichen. Oder Sie kontaktieren das I14Y-Team per [E-Mail](mailto:i14y@bfs.admin.ch). Bitte beschreiben Sie in beiden Fällen die gewünschte Funktion möglichst genau. Auf Github lassen sich die Vorschläge für gewünschte Funktionen auch kommentieren.   
 
 {{</alert>}}
 
