@@ -391,7 +391,8 @@ direction TB
         «recommended»
         
         dct:modified: rdfs:Literal typed as xsd:date, xsd:dateTime [0..1]
-      
+        dct:rights: dct:RightsStatement[0..1]
+        
         «optional»
        
         dct:issued: rdfs:Literal typed as xsd:date, xsd:dateTime [0..1]
