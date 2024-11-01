@@ -1,12 +1,15 @@
 ---
 title: Événements
 slug: evenements
+description: "Découvrez l'I14Y et discutez des possibilités d'harmonisation des données : le service d'interopérabilité organise régulièrement des événements sur la plate-forme et l'harmonisation des données. Nous serions heureux que vous y participiez."
 keywords: [I14Y, Plateforme d'interopérabilité I14Y, IOP, événement, manifestation, information, formation, échange]
 weight: 100
 type: docs
 ---
 
 ## Découvrez les possibilités offertes par la plateforme d'interopérabilité I14Y
+
+{{< figure src="/handbook/img/events/event4.png" alt="Image symbolique Date" width="250px" class="float-left img-news-thumb" >}}
 
 Le Service d'interopérabilité a le plaisir de vous inviter à une présentation de la [plateforme d'interopérabilité I14Y](https://i14y.admin.ch). La manifestation aura lieu le __4 décembre de 14 h à 17 h__ à Neuchâtel et sera inaugurée par le directeur de l'OFS, Georges-Simon Ulrich, qui introduira le thème de l'interopérabilité et de l'échange efficace des données.
 

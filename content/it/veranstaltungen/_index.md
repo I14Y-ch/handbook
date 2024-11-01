@@ -2,11 +2,14 @@
 title: Eventi
 slug: eventi
 keywords: [I14Y, piattaforma di interoperabilità I14Y, IOP, evento, informazione, formazione, scambio]
+description: "Conoscere l'I14Y e discutere le possibilità di armonizzazione dei dati: l'Unità Interoperabilità organizza regolarmente eventi sulla piattaforma e sull'armonizzazione dei dati. Saremo lieti della vostra partecipazione."
 weight: 100
 type: docs
 ---
 
 ## Scopra le possibilità della piattaforma di interoperabilità I14Y
+
+{{< figure src="/handbook/img/events/event4.png" alt="Simbolo data immagine" width="250px" class="float-left img-news-thumb" >}}
 
 Il Servizio di Interoperabilità ha il piacere di invitarvi cordialmente alla presentazione della [piattaforma di interoperabilità I14Y](https://i14y.admin.ch). L'evento si terrà il __4 dicembre, dalle ore 14:00 alle 17:00__, a Neuchâtel, e sarà inaugurato dal Direttore dell'Ufficio federale di statistica (UST), Georges-Simon Ulrich, con un'introduzione sul tema dell'interoperabilità e dello scambio efficiente di dati.
 

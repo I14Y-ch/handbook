@@ -1,12 +1,16 @@
 ---
 title: Veranstaltungen
 slug: veranstaltungen
+description: "Lernen Sie die I14Y kennen und diskutieren Sie Möglichkeiten zur Datenharmonisierung: Die Interoperabilitätsstelle organisiert regelmässig Veranstaltungen zur Plattform und zur Datenharmonisierung. Wir freuen uns, wenn Sie daran teilnehmen."
 keywords: [I14Y, I14Y-Interoperabilitätsplattform, IOP, Event, Veranstaltung, Information, Ausbildung, Austausch]
 weight: 100
 type: docs
 ---
 
 ## Entdecken Sie die Möglichkeiten der I14Y Interoperabilitätsplattform
+
+{{< figure src="/handbook/img/events/event4.png" alt="Symbolbild Datum" width="250px" class="float-left img-news-thumb" >}}
+
 Die Interoperabilitätsstelle lädt zur Präsentation der Interoperabilitätsplattform I14Y ein. Die Veranstaltung findet am __4. Dezember von 14.00 bis 17.00 Uhr__ in Neuchâtel statt. Sie wird vom Direktor des BFS, Georges-Simon Ulrich, mit einer Einführung in das Thema Interoperabilität und effizienten Datenaustausch eröffnet.
 
 Die Interoperabilitätsplattform I14Y hat zum Ziel, die Mehrfachnutzung von Daten zu fördern und die Datensammlungen der Verwaltung sichtbar und leicht auffindbar zu machen. Sie steht dem Bund, den Kantonen und den Städten zur Verfügung. 
