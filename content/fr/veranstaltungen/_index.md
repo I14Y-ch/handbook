@@ -6,7 +6,7 @@ weight: 100
 type: docs
 ---
 
-# Découvrez les possibilités offertes par la plateforme d'interopérabilité I14Y
+## Découvrez les possibilités offertes par la plateforme d'interopérabilité I14Y
 
 Le Service d'interopérabilité a le plaisir de vous inviter à une présentation de la [plateforme d'interopérabilité I14Y](https://i14y.admin.ch). La manifestation aura lieu le __4 décembre de 14 h à 17 h__ à Neuchâtel et sera inaugurée par le directeur de l'OFS, Georges-Simon Ulrich, qui introduira le thème de l'interopérabilité et de l'échange efficace des données.
 

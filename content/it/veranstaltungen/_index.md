@@ -6,7 +6,7 @@ weight: 100
 type: docs
 ---
 
-# Scopra le possibilità della piattaforma di interoperabilità I14Y
+## Scopra le possibilità della piattaforma di interoperabilità I14Y
 
 Il Servizio di Interoperabilità ha il piacere di invitarvi cordialmente alla presentazione della [piattaforma di interoperabilità I14Y](https://i14y.admin.ch). L'evento si terrà il __4 dicembre, dalle ore 14:00 alle 17:00__, a Neuchâtel, e sarà inaugurato dal Direttore dell'Ufficio federale di statistica (UST), Georges-Simon Ulrich, con un'introduzione sul tema dell'interoperabilità e dello scambio efficiente di dati.
 
