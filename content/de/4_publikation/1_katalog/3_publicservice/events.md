@@ -7,40 +7,32 @@ keywords: [I14Y, I14Y-Interoperabilitätsplattform, I14Y-IOP, Interoperabilität
 draft: true
 ---
 
-Auf I14Y können Sie jeder Behördenleistung Situationen zuordnen, in denen die betreffenden Leistungen im Geschäftsalltag oder im Privatleben in Anspruch genommen werden könnte. Die Nutzerinnen und Nutzer finden dank diesen Angaben die richtige Behördenleistung schneller und einfacher. 
+Auf I14Y ist es möglich, digitale Behördendienste nach der Situation zu kategorisieren, in der sie im beruflichen oder privaten Alltag in Anspruch genommen werden. Durch diese Kategorisierung finden die Nutzerinnen und Nutzer schneller und einfacher die richtige Behördenleistung. 
 
 {{<alert title="Was sind Geschäftssituationen und Lebenslagen?" color="info">}}
  
-Business- und Life-Events -- auf Deutsch Geschäftssituationen und Lebenslagen -- sind ein Konzept aus der Kundenorientierung: Solche Events stehen am Anfang eines "Customer Journey". Leistungsanbieter -- egal ob kommerziell oder Behörden -- sollen möglichst vollständige "End-To-End Customer Journeys" anbieten (One Stop Shop). Aus Sicht der Kunden ist es so einfacher, alle relevanten Angebote zu finden.
+Business- und Life-Events -- zu Deutsch Geschäftssituationen und Lebenslagen -- sind ein Konzept aus der Kundenorientierung: Solche Events stehen am Anfang einer "Kundenreise"(Customer Journey). Anbieter von Dienstleistungen -- egal ob kommerziell oder behördlich – sollen möglichst vollständige "End-To-End Customer Journeys" anbieten (One Stop Shop). Aus Kundensicht ermöglicht dies einen Überblick über alle relevanten Angebote in einer bestimmten Lebenssituation.
 
 {{</alert>}}
 
-## Was wollen wir mit den Events erreichen?
+## Was wollen wir mit der Kategorisierung erreichen?
 
-Jede Behördenleistung kann und soll die Business- und/oder Life-Events nennen, die Auslöser der Behördenleistung sind. Mit dieser Zuordnung verfolgen wir zwei Ziele: 
+Jede Behördenleistung kann und soll den Business- und/oder Life-Events zugeordnet werden, die Auslöser für die Behördenleistung sind. Mit dieser Kategorisierung werden zwei Ziele verfolgt: 
 
-- Die Events sollen Behördenleistungen markieren, die möglicherweise zu derselben Customer-Journey gehören. Die Anbieter/Eigentümer dieser Behördenleistungen können sich so einfacher darüber verständigen, ob eine übergreifende Customer-Journey gestaltet und gebaut werden sollte. 
-- Aus Kundensicht zusammengehörende Behördenleistungen für die Kunden auch als Bündel anbieten (Unterstützung von Navigation und Suche).
+1. Die Events gruppieren einzelne Behördenleistungen, die möglicherweise zur selben Customer Journey gehören. Die verschiedenen Anbieter/Eigentümer dieser Behördenleistungen können sich so leichter darüber verständigen, ob eine übergreifende Customer Journey gestaltet und aufgebaut werden soll.
 
+2. Aus Kundensicht können zusammengehörige Behördenleistungen als Bündel angezeigt werden (Navigations- und Suchunterstützung).
 Beispiel: 
-Der Business-Event "eine ausländische Person einstellen" ist aus Sicht des Unternehmens ein einziges Auslöseereignis. Das Ereignis löst aber den Bezug mehrerer Behördenleistungen aus:
+Aus Sicht eines Unternehmens ist der Business-Event "Eine ausländische Person einstellen" ein Auslöseereignis. Das Ereignis erfordert jedoch den Bezug mehrerer Behördenleistungen:
 - EU-Freizügigkeitskontingent buchen
 - AHV und ALV anmelden
 - Meldung an die SUVA (oder evtl. n eine andere Versicherung)
 - Anmeldung für die Quellensteuer.
 
+
 ## Events zuordnen
 
-Die [Geschäftssituationen](https://www.i14y.admin.ch/de/catalog/concepts/08dc74b4-30d4-be8d-ba53-91a1201ac86b/description) und [Lebenslagen](https://www.i14y.admin.ch/de/catalog/concepts/08dc65d1-652a-3546-9100-faffbaf7c6fd/description) sind als Wertelisten auf I14Y verfügbar. Wir unterscheiden zwischen Business-Events (Leistungen für Unternehmen) und Life-Events (Leistungen für natürliche Personen). ___Wählen Sie den am besten zur Behördenleistung passenden Event aus___. Die meisten Behördenleistungen wenden sich entweder an Unternehmen oder an Personen. Erfassen Sie für solche Leistungen entweder einen Business-Event oder einen Life-Event. Es ist auch möglich zu einer Behördenleistung mehrere Events zu erfassen. 
-
-Wenn Sie in den Wertelisten keinen plausiblen Eintrag finden, erfassen Sie bitte keinen Event. Behördenleistungen, die keinem Event zugeordnet sind, signalisieren für den Bereich Digitale Transformation und IKT-Lenkung (DTI) der Bundeskanzlei, der diese Wertelisten pflegt, dass Ergänzungen nötig sind.
-
-## Events zu bereits von DTI erfassten Behördenleistungen
-
-DTI hat bereits eine Anzahl Behördenleistungen im Verzeichnis erfasst und zu diesen Leistungen auch Events zugeordnet. Bitte prüfen Sie diese Zuordnungen und korrigieren Sie wo nötig! 
-
+Die BK-DTI hat eine Anzahl Behördenleistungen in zwei separaten Listen erfasst und diesen Leistungen Events zugeordnet. [Geschäftssituationen](https://www.i14y.admin.ch/de/catalog/concepts/08dc74b4-30d4-be8d-ba53-91a1201ac86b/description) und [Lebenslagen](https://www.i14y.admin.ch/de/catalog/concepts/08dc65d1-652a-3546-9100-faffbaf7c6fd/description) sind als Listen auf I14Y verfügbar. Es wird zwischen Business-Events (Leistungen für Unternehmen) und Life-Events (Leistungen für natürliche Personen) unterscheiden. ___Wählen Sie aus den Listen das Ereignis aus, das am besten auf die Behördenleistung zutrifft___. Erfassen Sie für solche Leistungen entweder einen Business-Event oder einen Life-Event. Es ist auch möglich, mehrere Events für eine Behördenleistung zu erfassen. 
+Wenn Sie in den Listen keinen passenden Eintrag finden, erfassen Sie bitte keinen Event. Behördenleistungen, die keinem Event zugeordnet sind, signalisieren dem Bereich Digitale Transformation und IKT-Lenkung (DTI) der Bundeskanzlei, der diese Wertelisten pflegen, dass Ergänzungen nötig sind: Sie werden die Listen entsprechend ergänzen. Sie können Ihre Änderungswünsche und Ergänzungen auch per Mail and die folgende Adresse senden [alexander.kaempfer@bk.admin.ch](mailto:alexander.kaempfer@bk.admin.ch). 
 ## Work in Progress!
-
-Die heute verfügbaren Wertelisten sind ein erster Entwurf. DTI geht davon aus, dass Ergänzungen und Änderungen nötig sein werden.
-
-Wenn Behördenleistungen ohne Bezug zu einem Event auftauchen, wird DTI die Event-Listen ergänzen. Sie können aber auch konkrete Änderungen oder Ergänzungen vorschlagen. Senden Sie Vorschläge an [alexander.kaempfer@bk.admin.ch](mailto:alexander.kaempfer@bk.admin.ch). 
+Die heute verfügbaren Listen sind ein erster Entwurf. Die BK-DTI geht davon aus, dass Ergänzungen und Änderungen notwendig sein werden.
