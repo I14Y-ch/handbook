@@ -6,12 +6,31 @@ type: docs
 keywords: [I14Y, I14Y-Interoperabilitätsplattform, IOP, Changelog, Releases, Versionen, Software-Entwicklung]
 ---
 {{<alert title="Language" color="warning">}}
-__DE:__ Diese Seite liegt ausschliesslich in englischer Sprache vor. 
-__FR:__ Cette page est uniquement disponible en anglais.
-__IT:__ Questa pagina è disponibile solo in inglese.
+__DE:__ Diese Seite liegt nur in englischer Sprache vor. Einzig Beschreibungen zu grossen Releases werden auf Deutsch publiziert.
 {{</alert>}}
 
 The I14Y interoperability platform is under continuous development. New features are added with each release. Bugs are also fixed. The most important changes are briefly documented below. For detailed information on the development of the platform, please contact the [I14Y team](mailto:i14y@bfs.admin.ch). 
+
+## Grosser Release vom 13. November
+
+Die Benutzungsoberfläche von I14Y wird mit dem Release vom 13 November einfacher und die Bedienung intuitiver: Die bisherige Trennung zwischen Katalog und Konzepten auf der grafischen Oberfläche wird aufgehoben. Neu gibt es eine globale Suche. Das Erscheinungsbild wird modernisiert. Zudem wird die Statusverwaltung überarbeitet und ein neuer API-Endpunkt wird eingeführt. Die Änderungen im Detail.
+
+### Öffentlicher Bereich des Portals
+
+- Mit dem neuen Release erfolgt das Update auf die neue Version des Designsystems Oblique der Bundesverwaltung. Damit wird das Erscheinungsbild modernisiert.
+- Die grafische Trennung zwischen Katalog und Konzept wird aufgehoben; Datenkonzepte werden nun dem Katalog zugeordnet und die Kacheln entfernt. Das Menü umfasst nur noch die Punkte Startseite, Katalog, News und Handbuch.
+- Neu ist ein prominent platziertes Suchfeld verfügbar, das Metadaten unabhängig vom Typ durchsuchbar macht. Die Ergebnisse werden in Registerkarten dargestellt (Datensammlungen, Behördenleistungen, APIs, Konzepte). Auch die Treffer der Metadatenportale von Opendata und Geocat werden angezeigt.
+- Die Fusszeile wird um einen Link zur [GitHub-Ablage der I14Y](https://github.com/I14Y-ch/) (mit Skripten und Tutorials) ergänzt. Auch wird der Link zum [LinkedIn-Konto der I14Y](https://www.linkedin.com/showcase/i14y/) hinzugefügt.
+
+### Änderungen im Organisationsinternen Bereich der Website
+
+- In "Meine Aufgaben", "Hängige Vorschläge" und "Daten meiner Organisation" werden nun auch Datenelementkonzepte berücksichtigt.
+- Datenelementkonzepte können neu offen gelassen oder gesperrt werden. Offen gelassen können die Konzepte sowie die Codelisten editiert werden, ohne dass eine neue Version erstellt werden muss. Wenn die Konzepte gesperrt sind, können sie nicht editiert, sondern müssen versioniert werden.
+- Alle Einträge einer Codeliste lassen sich neu in einem Durchgang löschen.
+
+### Elektronische Schnittstellen (APIs)
+
+- Mit dem neuen Release steht auf dem [API-Gateway](https://input.i14y.admin.ch/console/partner/v1/index.html) für Partnerorganisationen ein Endpunkt bereit, über den Beschreibungen von Datensammlungen veröffentlicht werden können.
 
 ## Release September 4 2024
 - How fast is the number of metadata entries on the I14Y growing? And how often are data concepts reused? The I14Y dashboard, which is available in a beta version, is now accessible via the homepage. 

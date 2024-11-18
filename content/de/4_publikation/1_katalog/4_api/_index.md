@@ -6,17 +6,15 @@ type: docs
 keywords: [I14Y, I14Y-Interoperabilitätsplattform, I14Y-IOP, Interoperabilität, API, elektronische Schnittstelle, automatisiert, Endpunkte, Swagger, Schweiz]
 ---
 
-Die I14Y-Interoperabilitätsplattform bietet jetzt verschiedene elektronische Schnittstellen (APIs) für die Datenpublikation und den Abruf von Metadaten an. Diese APIs ermöglichen es Webanwendungen und spezialisierten Anwendungen, Codelisten direkt von der Plattform zu beziehen, wodurch größere oder regelmäßige Importe von Metadaten in die I14Y-IOP erleichtert werden.
+Die I14Y-Interoperabilitätsplattform bietet elektronische Schnittstellen (APIs) an. Über diese lassen sich Metadaten abrufen und publizieren. Dank den APIs können grössere In- und Exporte einfach durchgeführt werden. Die Verwaltung der Metadaten lässt sich automatisieren. Zudem können Webseiten und Anwendungen direkt an die I14Y angebunden werden. 
 
-## Verfügbare APIs
-Es gibt jetzt öffentlich zugängliche APIs, die über die folgenden Swagger-Dokumentationsseiten aufgerufen werden können:
-- Public-Version, die ohne Authentifizierung zugänglich ist, um öffentliche Daten von I14Y abzurufen: [Swagger-Dokumentation](https://apiconsole.i14y.admin.ch/public/v1/index.html)
-- Partner-Version, die nur mit Authentifizierung verwendet werden kann: [Swagger-Dokumentation](https://apiconsole.i14y.admin.ch/partner/v1/index.html)
+Zur Verfügung stehen erste Endpunkte; weitere werden in den nächsten Monaten aufgeschaltet. Weitere Informationen werden hier veröffentlicht, sobald neue Endpunkte verfügbar sind. 
 
-Die verfügbaren APIs sind in vier Kategorien unterteilt: Kataloge, Konzepte, Datensammlung und Öffentliche Dienste. 
+Die technische Dokumentation für die Endpunkte ist unter [I14Y-Swagger (öffentlich)](https://apiconsole.i14y.admin.ch/publéic/v1/index.html) und [I14Y-Swagger (Partner)](https://apiconsole.i14y.admin.ch/partner/v1/index.html)zu finden. Die öffentlichen APIs ermöglichen es anonymen Benutzern, öffentliche Daten von I14Y abzurufen, ohne dass ein Authentifizierungstoken erforderlich ist. Die Partner-APIs, die für die Verwendung durch lokale Datenverwalter konzipiert sind, erfordern für den Zugriff ein Authentifizierungstoken. Um die Partner-API nutzen zu können, gehen Sie wie folgt vor: Loggen Sie sich im internen Bereich der Plattform ein. Kopieren Sie anschliessend über das Personensymbol oben rechts das technische Token. Geben Sie dieses ihren Anfragen an die API mit. Falls Sie den Bezug der Metadaten oder die Publikation von Metadaten komplett automatisieren möchten, nehmen Sie mit dem I14Y-Team Kontakt auf.  
 
-Im [Github-Repository](https://github.com/I14Y-ch/tutorials) stehen zwei Schritt-für-Schritt-Anleitungen in Jupyter-Notizbüchern zur Verfügung, die dokumentieren, wie die Partner- und öffentlichen APIs mit Python und der Requests-Bibliothek genutzt werden. 
+{{<alert title="Tutorials zur Nutzung der I14Y-API" color="success" >}}
 
-Bitte beachten Sie, dass einige APIs noch nicht öffentlich zugänglich sind. Für Informationen über diese Schnittstellen oder wenn Sie andere nicht öffentlich verfügbare APIs nutzen möchten, kontaktieren Sie bitte das [I14Y-Team](mailto:i14y@bfs.admin.ch). 
+Möchten Sie die I14Y-API nutzen? Wie Sie dabei vorgehen können, wird in frei verfügbaren Tutorials dokumentiert. Im [Github-Repository](https://github.com/I14Y-ch/tutorials) stehen zwei Schritt-für-Schritt-Anleitungen in Jupyter-Notizbüchern zur Verfügung, die dokumentieren, wie die Partner- und öffentlichen APIs mit Python und der Requests-Bibliothek genutzt werden.
+{{</alert>}} 
 
-Das Angebot wird schrittweise erweitert, und weitere Informationen werden hier veröffentlicht, sobald neue I14Y-APIs verfügbar sind.
+Genügen die aktuell zur Verfügung stehenden Schnittstellen nicht, damit Sie Ihre Arbeiten erledigen können? In diesem Fall kontaktieren Sie das [I14Y-Team](mailto:i14y@bfs.admin.ch). Dieses hat Zugang zu zahlreichen weiteren Endpunkten. Da sich diese jederzeit noch ändern können, werden sie noch nicht öffentlich publiziert. 

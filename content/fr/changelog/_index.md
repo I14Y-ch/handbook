@@ -7,20 +7,27 @@ keywords: [I14Y, I14Y-Interoperabilitätsplattform, IOP, Changelog, Releases, Ve
 ---
 
 {{<alert title="Language" color="warning">}}
-__DE:__ Diese Seite liegt ausschliesslich in englischer Sprache vor. 
-__FR:__ Cette page est uniquement disponible en anglais.
-__IT:__ Questa pagina è disponibile solo in inglese.
+__FR:__ Ce site est en anglais. Seules les descriptions des grandes releases sont publiées en français.
 {{</alert>}}
 
 The I14Y interoperability platform is under continuous development. New features are added with each release. Bugs are also fixed. The most important changes are briefly documented below. For detailed information on the development of the platform, please contact the [I14Y team](mailto:i14y@bfs.admin.ch). 
 
-## Release September 4 2024
-- How fast is the number of metadata entries on the I14Y growing? And how often are data concepts reused? The I14Y dashboard, which is available in a beta version, is now accessible via the homepage. 
-- Web links can now be opened with a right click. 
-- Additional filtering options have been added to the data concepts overview. The list can now be filtered by status.  
-- The "My data" section on the I14Y homepage now also lists data concepts that need the attention of the logged-in user. 
-- The button to link an additional catalogue on the data collection input screen is greyed out if the logged-in user has only submitter rights. 
-- Information about government services can now be retrieved via the I14Y Partner API.
+## Grande Release du 13 novembre
+
+Avec la grande release du 13 novembre, l'interface utilisateur de I14Y devient plus simple et son utilisation plus intuitive: la séparation actuelle entre le catalogue et les concepts au niveau de l'interface graphique est supprimée. Il y a désormais une recherche globale. En outre, les éléments graphiques sont modernisés. Les nouveautés en détail:
+
+### Changements sur le site web public
+- Le design est aligné sur la nouvelle version du système de design Oblique de l'administration fédérale. L'apparence est ainsi modernisée.
+- La séparation graphique entre le catalogue et les concepts est supprimée ; les concepts de données sont désormais associés au catalogue. Les tuiles sont supprimées. Le menu comprend uniquement les points Page d'accueil, Catalogue, News et Manuel.
+- Un champ de recherche bien en vue est désormais disponible, ce qui permet d'effectuer des recherches dans les métadonnées, quel que soit leur type. Les résultats sont présentés dans des onglets (par exemple, datasets, services publics, APIs, concepts). Les résultats des portails de métadonnées d'Opendata.swiss et de Geocat sont également affichés.Le pied de page est complété par un lien vers le dépôt [GitHub d'I14Y](https://github.com/I14Y-ch/) (avec des scripts et des tutoriels). Un lien vers le compte [LinkedIn d'I14Y](https://www.linkedin.com/showcase/i14y/) est également ajouté.
+
+### Changements dans la section interne de l'organisation du site web
+- Les concepts d'éléments de données sont désormais pris en compte dans "Mes tâches", "Propositions en suspens" et "Données de mon organisation".
+- Les concepts d'éléments de données peuvent désormais être laissés ouverts ou verrouillés. S'ils sont laissés ouverts, les concepts et les listes de codes peuvent être édités sans qu'il soit nécessaire de créer une nouvelle version. Si les concepts sont verrouillés, ils ne peuvent pas être édités, mais doivent être versionnés.
+- Toutes les entrées d'une liste de codes peuvent désormais être supprimées en une seule fois.
+
+### Interfaces électroniques (API)
+- Avec la nouvelle version, un endpoint est disponible sur la [API-Gateway](https://input.i14y.admin.ch/console/partner/v1/index.html) pour les organisations partenaires, permettant de publier des descriptions de datasets.
 
 ## Release August 14 2024
 - Data concepts (input area): Until now, entries for a code list were inserted directly on the page. The new release introduces a pop-up. This provides a clearer display and makes it easier to add entries to a code list.  

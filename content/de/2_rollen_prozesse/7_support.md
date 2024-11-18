@@ -4,18 +4,16 @@ slug: support
 weight: 70
 type: docs
 keywords: [I14Y, I14Y-Interoperabilitätsplattform, Metadaten-Katalog, Software as a Service, SaaS, Support, technische Hilfe, Probleme, Bug]
-draft: true
+draft: false
 ---
-
-[Send Feature Request](mailto:bornthis@gmail.com?subject=Feature%20Request&body=Userstory%3A%20As%20a%20user...%0ARequest%20sent%20by%3A)
 
 Manchmal läuft nicht alles nach Plan. Sollten Probleme auftreten, wenn Sie mit der I14Y arbeiten, gehen Sie wie folgt vor: 
 
 __Konsultieren Sie das Handbuch:__ Das Handbuch dokumentiert die wichtigsten Funktionen der Plattform. Und es beinhaltet Antworten auf die meisten gängigen Fragen. Falls Informationen fehlen, ist die Interoperabilitätsstelle dankbar um einen Hinweis. Gerne können Sie die betreffenden Abschnitte auch selber ergänzen und [auf Github](https://github.com/I14Y-ch/handbook) einen _Pull Request_ einreichen. 
 
-__Support Stufe 1:__ Kann das Problem mithilfe des Handbuchs nicht gelöst werden, wenden Sie sich an den I14Y-Support Ihrer eigenen Organisation. In der Regel stellen die I14Y-Partnerorganisationen eine eigene Support-Organisation. Diese kann einfachere Probleme lösen. Falls Sie einer Organisation mit eigenem I14Y-Support angehören, müssen Probleme zuerst der organisationsionternen Support-Abteilung gemeldet werden.
+__Support Stufe 1:__ Kann das Problem mithilfe des Handbuchs nicht gelöst werden, wenden Sie sich an den I14Y-Support Ihrer eigenen Organisation. In der Regel stellen die I14Y-Partner eine eigene Support-Organisation. Diese kann einfachere Probleme lösen. Falls Sie einer Organisation mit eigenem I14Y-Support angehören, müssen Probleme zuerst der internen Support-Abteilung gemeldet werden.
 
-__Support Stufe 2:__ Zweite Anlaufstelle ist die Interoperabilitätsstelle. Sie ist an Arbeitstagen per E-Mail an [i14y@bfs.admin.ch](mailto:i14y@bfs.admin.ch) erreichbar. Telefonisch kontaktieren Sie die Interoperabilitätsstelle via die Zentrale unter der Nummer [+41 58 463 60 11](tel:0041584636011). Aktuell wird eine Meldung per E-Mail bevorzugt; in einer späteren Phase soll ein Ticketingsystem implementiert werden. Anfragen, die nicht zeitkritisch sind, bearbeitet die Interoperabilitätsstelle nach bestem Bemühen im Rahmen der ihr zur Verfügung stehenden organisatorischen, finanziellen, personellen und technischen Ressourcen bearbeitet (*best effort*). Zeitkritische Anfragen werden unter dem Punkt «Prozess bei gravierenden technischen Störungen» geregelt.
+__Support Stufe 2:__ Zweite Anlaufstelle ist die Interoperabilitätsstelle. Sie ist an Arbeitstagen per E-Mail an [i14y@bfs.admin.ch](mailto:i14y@bfs.admin.ch) erreichbar; in einer späteren Phase soll ein Ticketingsystem implementiert werden. Anfragen, die nicht zeitkritisch sind, bearbeitet die Interoperabilitätsstelle nach bestem Bemühen im Rahmen der ihr zur Verfügung stehenden organisatorischen, finanziellen, personellen und technischen Ressourcen (_best effort_). Zeitkritische Anfragen werden unter dem Punkt [Prozess bei gravierenden technischen Störungen](#prozess-bei-gravierenden-technischen-störungen) geregelt.
 
 __Support Stufe 3:__ Anfragen und Probleme mit technischem Fokus, die nicht durch die Interoperabilitätsstelle beantwortet oder gelöst werden können, werden an das Bundesamt für Informatik (BIT) gesendet. Diese Meldungen müssen zwingend von der Interoperabilitätsstelle gemacht werden. Die Interoperabilitätsstelle koordiniert die nötigen Arbeiten zur Wiederherstellung des ordentlichen Betriebs.
 
