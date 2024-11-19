@@ -1,7 +1,7 @@
 ---
 title: Die richtige Plattform für jede Anwendung
 slug: plattformen
-weight: 20
+weight: 30
 type: docs
 keywords: [I14Y, I14Y-Interoperabilitätsplattform, Metadaten, Metadaten-Katalog, Lindas, Opendata, Opendata.swiss, Geocat]
 ---
