@@ -1,7 +1,7 @@
 ---
 title: Support
 slug: support
-weight: 70
+weight: 20
 type: docs
 keywords: [I14Y, I14Y-Interoperabilitätsplattform, Metadaten-Katalog, Software as a Service, SaaS, Support, technische Hilfe, Probleme, Bug]
 draft: false

@@ -1,7 +1,7 @@
 ---
 title: Kontenverwaltung
 slug: kontenverwaltung
-weight: 50
+weight: 10
 type: docs
 keywords: [I14Y, I14Y-Interoperabilitätsplattform, Nutzungskonto, Konto, Zugang, EIAM, Login]
 ---

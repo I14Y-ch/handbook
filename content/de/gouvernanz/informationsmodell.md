@@ -385,10 +385,11 @@ direction TB
         dct:description: rdfs:Literal [0..*]
         dct:identifier: rdfs:Literal [0..1]
         dcat:accessURL: rdfs:Resource [1..1]  
+        dct:license: dct:LicenseDocument [1..1]
         dct:format: dct:MediaTypeOrExtent [0..1]
     
         «recommended»
-        dct:license: dct:LicenseDocument [1..1]
+        
         dct:modified: rdfs:Literal typed as xsd:date, xsd:dateTime [0..1]
         dct:rights: dct:RightsStatement[0..1]
         

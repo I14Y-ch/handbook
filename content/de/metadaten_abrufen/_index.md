@@ -1,7 +1,7 @@
 ---
-title: Betrieb und Weiterentwicklung der I14Y
-slug: plattform
-description: "Die Interoperabilitätsplattform I14Y wird aktiv entwickelt. "
+title: Metadaten abrufen
+slug: metadaten-abrufen
+description: "Benötigen Sie eine bestimmte Codeliste? In diesem Kapitel wird gezeigt, wie sich die auf der I14Y-Interoperabilitätsplattform publizierten Informationen abrufen lassen -- über die grafische Oberfläche wie auch über die elektronische Schnittstelle."
 weight: 30
 type: docs
 keywords: [I14Y, I14Y-Interoperabilitätsplattform, I14Y-IOP, Metadaten, Katalog, Datenbezug, Daten beziehen, Daten abrufen]

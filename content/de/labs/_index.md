@@ -5,6 +5,7 @@ description: "Wie können Metadaten genutzt werden? In den I14Y-Labs werden expe
 weight: 50
 type: docs
 keywords: [I14Y-Interoperabilitätsplattform, I14Y-IOP, I14Y, Labs, Lab, Labor, Experimente, Tests, Metadaten]
+draft: True
 ---
 
 ![Logo I14Y-Labs](/handbook/img/i14y-labs.png)
