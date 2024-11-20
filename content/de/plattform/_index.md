@@ -4,15 +4,9 @@ slug: plattform
 description: "Die Interoperabilitätsplattform I14Y wird aktiv entwickelt. "
 weight: 30
 type: docs
-keywords: [I14Y, I14Y-Interoperabilitätsplattform, I14Y-IOP, Metadaten, Katalog, Datenbezug, Daten beziehen, Daten abrufen]
+keywords: [I14Y, I14Y-Interoperabilitätsplattform, I14Y-IOP, Metadaten, Katalog, Support, Hilfe, Probleme, Nutzerverwaltung, Kontenverwaltung, Zugangsverwaltung, Zugang]
 ---
 
-![Szene aus dem Erklärvideo zur I14Y-Interoperabilitätsplattform](/handbook/img/i14y-film_abrufen.png)
+Die I14Y kann von Behörden aller föderalen Ebenen genutzt werden. Damit Metadaten erfasst und publiziert werden können, muss für jede Organisation ein eigener Bereich geschaffen werden. Und die Lese- und Schreibrechte müssen vergeben werden. Dies wird in der Regel von einer Person in der betreffenden Organisation erledigt. In einem ersten Abschnitt wird gezeigt, wie die [Zugänge verwaltet werden](/handbook/de/plattform/kontenverwaltung). 
 
-Die I14Y-Interoperabilitätsplattform ist das zentrale Verzeichnis aller Behördendaten. Sie macht die verfügbaren Datensammlungen inklusive ihrer Strukturen und der einzelnen Datenelemente sowie die elektronischen Schnittstellen und die Dienstleistungen der Schweizer Behörden sichtbar. Und sie beantwortet die wichtigsten Fragen dazu. 
-
-Im Fall einer Datensammlung etwa: Wer erhebt und verwaltet die betreffenden Daten? Ist die Sammlung frei zugänglich oder kann sie ausschliesslich von Berechtigten genutzt werden? Wie ist die Datensammlung strukturiert? Welche Datenelemente werden verwendet? Entspricht die Datensammlung einem Standard? Welches sind ihre gesetzlichen Grundlagen? Und wie ist die Datenqualität einzuschätzen? 
-
-In diesem Kapitel wird beschrieben, wie Sie die auf der I14Y-Interoperabilitätsplattform publizierten Metadaten abrufen können -- über die Website wie auch über die elektronische Schnittstelle. 
-
-Nachdem in Pilotprojekten ausgewählte Datensammlungen und elektronische Schnittstellen auf der I14Y-IOP dokumentiert worden sind, werden nun prioritär Datensammlungen und Konzepte aus sechs Themenbereichen erschlossen, die vom [Nationalen Koordinationsgremium Datenmanagement](https://www.digitale-verwaltung-schweiz.ch/ueber-uns/arbeitsgruppen) ausgewählt worden sind. Zudem arbeitet das I14Y-Team eng mit weiteren Interessierten zusammen. Regelmässig kommen neue Metadaten hinzu.
+Die I14Y wird in der Projektphase bis Ende 2026 aktiv weiterentwickelte. In der [Roadmap](/handbook/de/plattform/roadmap), dem zweiten Abschnitt dieses Kapitels, wird dargelegt, zu welchem Zeitpunkt welche Funktion verfügbar sein soll und wie Vorschläge für neue Funktionen eingereicht werden. Der Abschnitt [Support](/handbook/de/plattform/support) zeigt, welches die Ansprechpartnerinnen und -partner im Falle von Problemen sind.

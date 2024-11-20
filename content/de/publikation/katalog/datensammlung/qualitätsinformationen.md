@@ -21,4 +21,4 @@ Um die Fragen zur Qualität der Datensammlung zu beantworten, klicken Sie auf di
 
 Unter __Dokumente / Links__ können Sie weiterführende Dokumente zur Qualität Ihres Datenangebots hinterlegen -- etwa einen Prüfbericht oder ein Qualitätskonzept.
 
-Sobald alle nötigen Metadaten erfasst sind, können Sie vorschlagen, dass der Status des Eintrags von "Inital" auf "Kandidat" umgestellt wird. Eine Person in der Rolle des _Local Data Steward_ wird den Eintrag anschliessend prüfen und freigeben (siehe [Workflow](/handbook/de/2_rollen_prozesse/arbeitsablauf)).
+Sobald alle nötigen Metadaten erfasst sind, können Sie vorschlagen, dass der Status des Eintrags von "Inital" auf "Kandidat" umgestellt wird. Eine Person in der Rolle des _Local Data Steward_ wird den Eintrag anschliessend prüfen und freigeben (siehe [Workflow](/handbook/de/gouvernanz/arbeitsablauf)).

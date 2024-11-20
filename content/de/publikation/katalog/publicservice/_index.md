@@ -8,7 +8,7 @@ keywords: [I14Y, I14Y-Interoperabilitätsplattform, I14Y-IOP, Interoperabilität
 
 Digitale Angebote wie Apps und Webportale vereinfachen viele Interaktionen zwischen den Behörden sowie den Bürgerinnen und Bürgern beziehungsweise den Unternehmen. Das Verzeichnis der elektronischen Behördenleistungen auf der I14Y-Interoperabilitätsplattform hilft dabei diese Angebote einfach auffindbar und sichtbar zu machen. 
 
-Im Folgenden wird erklärt, wie Informationen zu Behördenleistungen erfasst werden können. Die I14Y-Interoperabilitätsplattform setzt zum Beschreiben von Behördenleistungen das [_Core Public Service Vocabulary_](https://github.com/SEMICeu/CPSV-AP) der Europäischen Union ein (siehe auch [Informationsmodell](/handbook/de/2_rollen_prozesse/informationsmodell)). Die einzelnen Eingabefelder sind im [Anhang](/handbook/de/6_anhang/eingabefelder) detailliert beschrieben. 
+Im Folgenden wird erklärt, wie Informationen zu Behördenleistungen erfasst werden können. Die I14Y-Interoperabilitätsplattform setzt zum Beschreiben von Behördenleistungen das [_Core Public Service Vocabulary_](https://github.com/SEMICeu/CPSV-AP) der Europäischen Union ein (siehe auch [Informationsmodell](/handbook/de/gouvernanz/informationsmodell)). Die einzelnen Eingabefelder sind im [Anhang](/handbook/de/anhang/eingabefelder) detailliert beschrieben. 
 
 {{<alert title="Was ist eine Behördenleistung?" color="info">}}
  

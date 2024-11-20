@@ -17,7 +17,7 @@ Ein Konzept auf der I14Y beschreibt klar und eindeutig die grundlegende Bedeutun
 
 Auf der I14Y ist es neu möglich, auf einen Blick zu erkennen, wie oft ein bestimmtes Konzept in verschiedenen Datenelementen wiederverwendet wird. Wenn die Datenelemente Teil einer öffentlichen Datensammlung sind, wird diese genannt und verlinkt. Beispielsweise wird das [Konzept der Schweizer Kantone](https://www.i14y.admin.ch/de/concepts/08d94b89-bf4d-a423-8add-dde94d0cd1f4/description) derzeit in 122 Datenelementen verwendet. Beim Konzept der Schweizer Kantone handelt es sich um eine Codeliste.    
 
-Mehr Informationen zu Datenelementen und Konzepten finden sich im Handbuch der I14Y: [Informationsmodell](https://i14y-ch.github.io/handbook/de/2_rollen_prozesse/informationsmodell/#datenelement).
+Mehr Informationen zu Datenelementen und Konzepten finden sich im Handbuch der I14Y: [Informationsmodell](https://i14y-ch.github.io/handbook/de/gouvernanz/informationsmodell/#datenelement).
 
 
 ## Ein API-Gateway für die sichere Verwaltung von Metadaten 

@@ -42,7 +42,7 @@ Wählen Sie unter **Zugriffsrechte**  die Option «Öffentlich» für die OGD-Da
 
 Die folgenden Felder **Data Owner**, **Responsible Person** und **Responsible Person Deputy** werden auf opendata.swiss nicht angezeigt, sind jedoch für das interne Datenmanagement wichtig.
 
-Informationen zu den **Rollen** finden Sie im [Abschnitt zu den Prozessen und Rollen](https://i14y-ch.github.io/handbook/de/2_rollen_prozesse/rollen/). 
+Informationen zu den **Rollen** finden Sie im [Abschnitt zu den Prozessen und Rollen](https://i14y-ch.github.io/handbook/de/gouvernanz/rollen/). 
 
 Das Feld **Publikationsdatum** muss ausgefüllt werden. Es handelt sich um das Datum der ersten Publikation im Quellsystem dieser Datensammlung. Ist dieses nicht bekannt, ist das Datum der geplanten Erstpublikation auf I14Y oder opendata.swiss zu verwenden.
 
@@ -64,7 +64,7 @@ Die Themenvokabulare von I14Y und opendata.swiss unterscheiden sich in einigen P
    
 Ihre Datensammlung ist jetzt mit Ihrem Opendata-Katalog verknüpft. Die Plattform opendata.swiss wird die Metadaten in regelmässigen Abständen auslesen (Harvesting). 
 
-Die Felder im Bereich **Schutzbedarf** sind für die Publikation auf I14Y relevant. Informationen zum Ausfüllen dieser Felder finden Sie im entsprechenden [Abschnitt dieses Handbuchs](https://i14y-ch.github.io/handbook/de/6_anhang/eingabefelder/). 
+Die Felder im Bereich **Schutzbedarf** sind für die Publikation auf I14Y relevant. Informationen zum Ausfüllen dieser Felder finden Sie im entsprechenden [Abschnitt dieses Handbuchs](https://i14y-ch.github.io/handbook/de/anhang/eingabefelder/). 
 
 Geben Sie nun **Schlüsselwörter** in die entsprechenden Sprachfelder ein und klicken Sie anschliessend auf das Symbol mit dem Häkchen. Fügen Sie weitere Schlüsselwörter hinzu, indem Sie auf das Plus-Symbol klicken. Der Schlüsselwort-Eintrag wird dadurch direkt gespeichert; ein Klick auf den Speichern-Knopf unten ist nicht nötig. Um Schlüsselwörter zu löschen, wählen Sie das Papierkorb—Symbol. Vergessen Sie nicht, die entsprechende Zeile zu markieren.   
 
@@ -76,7 +76,7 @@ Tragen Sie unter **Landing Page** den Link zu der Webseite Ihrer Organisation ei
 
 Das Feld **Räumliche Abdeckung** beschreibt das geographische Gebiet, das von den Daten abgedeckt wird. Einige Beispiele: Schweiz, Kanton Solothurn, Aarau. Zurzeit kann Freitext eingegeben werden. Für Gebiete, die in den folgenden Vokabularen enthalten sind, müssen die entsprechenden Begriffe verwendet werden: [VOCAB-EU-CONTINENT](http://publications.europa.eu/resource/authority/continent), [VOCAB-EU-COUNTRY](https://publications.europa.eu/resource/authority/country), [VOCAB-EU-PLACE](https://publications.europa.eu/resource/authority/place), [GEONAMES](http://sws.geonames.org/).
 
-Das Feld **GeoIV ID** wird nicht auf opendata.swiss angezeigt. Informationen zu diesem Feld finden Sie im [Überblick über die Eingabefelder](https://i14y-ch.github.io/handbook/de/6_anhang/eingabefelder) in diesem Handbuch.
+Das Feld **GeoIV ID** wird nicht auf opendata.swiss angezeigt. Informationen zu diesem Feld finden Sie im [Überblick über die Eingabefelder](https://i14y-ch.github.io/handbook/de/anhang/eingabefelder) in diesem Handbuch.
 
 Im Feld **Zeitliche Abdeckung** können Sie den Zeitraum angeben, den der Datensammlung umfasst. Wählen Sie dazu im Kalender das Datum «Von» und «Bis». Im Feld **Frequenz** können Sie aus der Dropdown-Liste die Häufigkeit auswählen, mit der der Datensammlung aktualisiert wird. 
 

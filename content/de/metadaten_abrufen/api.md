@@ -12,7 +12,7 @@ Erste stabile Schnittstellen sind im [Swagger der API](https://input.i14y.admin.
 
 Das Angebot an Endpunkten wird allmählich ausgebaut. Die Interoperabilitätsstelle steht Ihnen bei Fragen und Wünschen zu den Endpunkten gerne zur Verfügung. Sie kann auch Zugang zu weiteren Endpunkten verschaffen, die noch nicht stabil sind. 
 
-Alternativ können Sie Codelisten als Download via einen stabilen Link beziehen (siehe Register [API](/handbook/de/3_metadaten_abrufen/gui#anzeigen-der-metadaten)). 
+Alternativ können Sie Codelisten als Download via einen stabilen Link beziehen (siehe Register [API](/handbook/de/metadaten_abrufen/gui#anzeigen-der-metadaten)). 
 
 
 <!-- Nutzungseinschränkungen ergänzen gemäss dem Vertrag. 
