@@ -7,7 +7,19 @@ weight: 100
 type: docs
 ---
 
-## Découvrez les possibilités offertes par la plateforme d'interopérabilité I14Y
+## Prochains événements
+
+### 9 décembre 2024: Comité de pilotage
+
+Le comité de pilotage de la plateforme d'interopérabilité I14Y se réunira pour la deuxième fois le lundi 9 décembre 2025. Le comité de pilotage aide à prioriser les tâches de développement et conseille l'équipe I14Y sur les décisions stratégiques. Les organisations qui utilisent activement l'I14Y peuvent participer au comité de pilotage. Si vous êtes intéressés, contactez le centre d'interopérabilité à l'adresse [i14y@bfs.admin.ch](mailto:i14y@bfs.admin.ch).
+
+### 16 janvier 2025: Réunion des Local Data Stewards
+
+Vous travaillez comme Local Data Steward à la Confédération, dans un canton ou une commune ? Vous souhaitez échanger des idées sur l'utilisation de la plate-forme d'interopérabilité I14Y avec d'autres Local Data Stewards ? Le 16 janvier, un échange d'idées informel des Local Data Stewards aura lieu à Köniz. Si vous souhaitez y participer, contactez le centre d'interopérabilité à [i14y@bfs.admin.ch](mailto:i14y@bfs.admin.ch). 
+
+## Evénements passés
+
+### 4 décembre 2024: Découvrez les possibilités offertes par la plateforme d'interopérabilité I14Y
 
 {{< figure src="/handbook/img/events/event4.png" alt="Image symbolique Date" width="250px" class="float-left img-news-thumb" >}}
 
