@@ -1,6 +1,7 @@
 ---
 title: Ruoli
 slug: ruoli
+translationKey: roles
 weight: 10
 type: docs
 keywords: [I14Y, piattaforma di interoperabilità, interoperabilità, Modello dei ruoli, amministratori dei dati, gestione dei dati, detentori dei dati, utente dei dati]

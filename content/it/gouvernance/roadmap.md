@@ -1,6 +1,7 @@
 ---
 title: Roadmap
 slug: roadmap
+translationKey: roadmap
 weight: 40
 type: docs
 keywords: [I14Y, piattaforma di interoperabilità, Architettura di sistema, tecnologia, banca dati]

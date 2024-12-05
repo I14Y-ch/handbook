@@ -1,6 +1,7 @@
 ---
 title: Processi di lavoro
 slug: processi-di-lavoro
+translationKey: workflow
 weight: 20
 type: docs
 keywords: [I14Y, piattaforma di interoperabilità, interoperabilità, Processi di lavoro, workflow, stato, canale di pubblicazione]

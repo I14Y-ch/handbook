@@ -1,6 +1,7 @@
 ---
 title: Gestione degli account
 slug: gestione-degli-account
+translationKey: accounts
 weight: 50
 type: docs
 keywords: [I14Y, piattaforma di interoperabilità, accessi, account utente, EIAM, CH-Login, Login]

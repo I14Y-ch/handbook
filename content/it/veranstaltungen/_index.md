@@ -1,10 +1,12 @@
 ---
 title: Eventi
 slug: eventi
+translationKey: events
 keywords: [I14Y, piattaforma di interoperabilità I14Y, IOP, evento, informazione, formazione, scambio]
 description: "Conoscere l'I14Y e discutere le possibilità di armonizzazione dei dati: l'Unità Interoperabilità organizza regolarmente eventi sulla piattaforma e sull'armonizzazione dei dati. Saremo lieti della vostra partecipazione."
 weight: 100
 type: docs
+draft: true
 ---
 
 ## Scopra le possibilità della piattaforma di interoperabilità I14Y
