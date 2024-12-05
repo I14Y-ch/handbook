@@ -1,6 +1,7 @@
 ---
 title: Betrieb und Weiterentwicklung der I14Y
 slug: plattform
+translationKey: platform
 description: "Die Interoperabilitätsplattform I14Y wird aktiv entwickelt. "
 weight: 30
 type: docs
