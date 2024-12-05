@@ -1,6 +1,7 @@
 ---
 title: Modèle d'information
 slug: modele-information
+translationKey: informationmodel
 weight: 30
 type: docs
 keywords: [I14Y, plateforme d'interopérabilité I14Y, modèle de données, modèle d'information, catalogue, CATD, structure, concept]

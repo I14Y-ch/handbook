@@ -1,6 +1,7 @@
 ---
 title: Rôles et processus
 slug: roles-processus
+translationKey: gouvernance
 description: "Quelles sont les étapes à franchir pour publier la description d'un jeu de données? Qui peut consulter les métadonnées? Ce chapitre présente les différents rôles et processus sur la plateforme d'interopérabilité I14Y, ainsi que le modèle d'information sous-jacent."
 weight: 20
 type: docs

@@ -1,6 +1,7 @@
 ---
 title: La plateforme idéale pour chaque application
 slug: plateformes
+translationKey: platforms
 weight: 60
 type: docs
 keywords: [I14Y, plateforme d'interopérabilité I14Y, métadonnées, catalogue de métadonnées, Lindas, Opendata, Opendata.swiss, Geocat]
@@ -8,7 +9,7 @@ keywords: [I14Y, plateforme d'interopérabilité I14Y, métadonnées, catalogue 
 
 Plusieurs catalogues de métadonnées présentant des fonctions et des domaines d'application différents existent en Suisse. Les exploitants des plateformes s'efforcent de coordonner leurs travaux de développement.
 
-##Plateforme d'interopérabilité I14Y
+## Plateforme d'interopérabilité I14Y
 La [plateforme d'interopérabilité I14Y](https://i14y.admin.ch) décrit les offres de données publiques qui se prêtent à une utilisation multiple. Elle peut par ailleurs être utilisée pour effectuer un inventaire des jeux de données et des éléments de données en interne. Tous les concepts accessibles publiquement sur l'IOP I14Y peuvent être réutilisés, que les données en elles-mêmes soient ou non disponibles en libre accès. Les contenus peuvent en outre être recherchés de façon automatisée, ce qui fait de la plateforme un outil centralisé intéressant pour l'harmonisation et la standardisation des données. L'IOP I14Y est exploitée par le service d'interopérabilité de l'Office fédéral de la statistique, sur mandat de la Confédération. 
 
 ## Opendata.swiss

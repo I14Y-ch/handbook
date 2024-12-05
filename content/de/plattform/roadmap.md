@@ -1,6 +1,7 @@
 ---
 title: Roadmap
 slug: roadmap
+translationKey: roadmap
 weight: 30
 type: docs
 keywords: [I14Y, I14Y-Interoperabilitätsplattform, Systemarchitektur, Technik, Datenbank, Entwicklung, Roadmap, Agile Release Train (ART)]

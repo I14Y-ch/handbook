@@ -1,6 +1,7 @@
 ---
 title: Gouvernanz und Rollen
 slug: gouvernanz
+translationKey: gouvernance
 description: "Welche Schritte sind nötig, um die Beschreibung einer Datensammlung zu veröffentlichen? Und wer sieht welche Metadaten? Dieses Kapitel gibt einen Überblick über die Rollen auf der I14Y-Interoperabilitätsplattform, die Arbeitsabläufe und das Informationsmodell."
 weight: 20
 type: docs

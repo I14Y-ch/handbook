@@ -1,6 +1,7 @@
 ---
 title: Processus
 slug: processus
+translationKey: workflow
 weight: 20
 type: docs
 keywords: [I14Y, plateforme d'interopérabilité I14Y, processus de travail, workflow, flux de travail, statut, canal de publication]

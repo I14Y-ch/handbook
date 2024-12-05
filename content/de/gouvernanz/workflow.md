@@ -1,6 +1,7 @@
 ---
 title: Arbeitsablauf
 slug: arbeitsablauf
+translationKey: workflow
 weight: 20
 type: docs
 keywords: [I14Y, I14Y-Interoperabilitätsplattform, Arbeitsablauf, Workflow, Status, Publikationskanal]

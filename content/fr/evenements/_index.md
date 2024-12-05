@@ -1,6 +1,7 @@
 ---
 title: Événements
 slug: evenements
+translationKey: introduction
 description: "Découvrez l'I14Y et discutez des possibilités d'harmonisation des données : le service d'interopérabilité organise régulièrement des événements sur la plate-forme et l'harmonisation des données. Nous serions heureux que vous y participiez."
 keywords: [I14Y, Plateforme d'interopérabilité I14Y, IOP, événement, manifestation, information, formation, échange]
 weight: 100

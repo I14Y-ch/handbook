@@ -1,6 +1,7 @@
 ---
 title: Manuel
 slug: manuel
+translationKey: introduction
 description: 
 keywords: [I14Y, plateforme d’interopérabilité I14Y, IOP, introduction, interopérabilité, utilisation multiple, Suisse, jeu de données, interface électronique, jeux de données, manuel, Github]
 weight: 20

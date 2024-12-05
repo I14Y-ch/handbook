@@ -1,6 +1,7 @@
 ---
 title: Roadmap
 slug: roadmap
+translationKey: roadmap
 weight: 40
 type: docs
 keywords: [I14Y, plateforme d'interopérabilité I14Y, architecture système, technique, base de données, banque de données]
@@ -14,6 +15,8 @@ Au cours des mois à venir, le service d'interopérabilité se concentrera en pr
 Vous avez une proposition d'amélioration ou souhaitez signaler une erreur sur la plateforme d'interopérabilité I14Y? N'hésitez-pas à nous en faire part par [e-mail](mailto:i14y@bfs.admin.ch). D'autres canaux seront proposés prochainement pour ces retours. 
 
 {{</alert>}}
+
+![Bild Roadmap I14Y](/handbook/img/roadmap_fr.svg)
 
 ## Interfaces électroniques (API)
 La plateforme d'interopérabilité I14Y propose d'ores et déjà des interfaces électroniques (API) permettant de rechercher, de saisir et de traiter les métadonnées sur la plateforme. Ces API n'étant pas encore totalement finalisées, il n'y a guère eu d'informations à leur sujet. Nombre d'entre elles sont par ailleurs accessibles uniquement depuis le réseau de la Confédération. Si vous devez déjà utiliser ces interfaces, veuillez contacter le [service d'interopérabilité](mailto:i14y@bfs.admin.ch).  

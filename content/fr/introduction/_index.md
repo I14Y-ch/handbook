@@ -1,6 +1,7 @@
 ---
 title: Introduction
 slug: introduction
+translationKey: introduction
 description:
 keywords: [I14Y, plateforme d’interopérabilité I14Y, IOP, introduction, interopérabilité, utilisation multiple, Suisse, jeu de données, interface électronique, jeux de données, interfaces électroniques, API, principe once-only, utilisation secondaire de données, harmonisation, standardisation]
 weight: 10

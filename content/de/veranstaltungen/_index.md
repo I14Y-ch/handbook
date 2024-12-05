@@ -1,6 +1,7 @@
 ---
 title: Veranstaltungen
 slug: veranstaltungen
+translationKey: events
 description: "Lernen Sie die I14Y kennen und diskutieren Sie Möglichkeiten zur Datenharmonisierung: Die Interoperabilitätsstelle organisiert regelmässig Veranstaltungen zur Plattform und zur Datenharmonisierung. Wir freuen uns, wenn Sie daran teilnehmen."
 keywords: [I14Y, I14Y-Interoperabilitätsplattform, IOP, Event, Veranstaltung, Information, Ausbildung, Austausch]
 weight: 100

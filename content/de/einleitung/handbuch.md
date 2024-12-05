@@ -1,6 +1,7 @@
 ---
 title: Handbuch
 slug: handbuch
+translationKey: handbook
 description: 
 keywords: [I14Y, I14Y-Interoperabilitätsplattform, IOP, Einleitung, Interoperabilität, Mehrfachnutzung, Schweiz, Handbuch, Dokumentation, Github]
 weight: 20
