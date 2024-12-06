@@ -1,6 +1,6 @@
 ---
 title: Gestione degli account
-slug: gestione-degli-account
+slug: accounts
 translationKey: accounts
 weight: 50
 type: docs

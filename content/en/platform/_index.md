@@ -1,11 +1,11 @@
 ---
-title: Betrieb und Weiterentwicklung der I14Y
-slug: plattform
+title: Operation and development of I14Y
+slug: platform
 translationKey: platform
-description: "Die Interoperabilitätsplattform I14Y wird aktiv entwickelt. "
+description: 'The I14Y interoperability platform is under active development.'
 weight: 30
 type: docs
-keywords: [I14Y, I14Y-Interoperabilitätsplattform, I14Y-IOP, Metadaten, Katalog, Support, Hilfe, Probleme, Nutzerverwaltung, Kontenverwaltung, Zugangsverwaltung, Zugang]
+keywords: [I14Y, I14Y interoperability platform, I14Y-IOP, metadata, catalogue, support, help, problems, user management, account management, access management, access]
 ---
 
 I14Y can be used by authorities at all federal levels. In order for metadata to be entered and published, a separate area must be created for each organisation. And read and write permissions must be assigned. This is usually done by one person in the organisation concerned. The first section shows how [access is managed](/handbook/en/platform/accounts).

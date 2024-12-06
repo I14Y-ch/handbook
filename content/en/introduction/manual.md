@@ -1,6 +1,6 @@
 ---
 title: Handbook
-slug: handbuch
+slug: handbook
 translationKey: handbook
 description: 
 keywords: [I14Y, I14Y interoperability platform, IOP, introduction, interoperability, multiple use, Switzerland, user manual, manual, handbook]
