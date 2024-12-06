@@ -1,82 +1,64 @@
 ---
-title: Changelog
-slug: changelog
-translationKey: changelog
-weight: 80
+title: Piattaforma di metadati per la Svizzera
+slug: benvenuto
+translationKey: welcome
+description: "La piattaforma di interoperabilità I14Y è il registro centrale di dati, interfacce elettroniche e servizi offerti dalle autorità in Svizzera. La piattaforma fornisce inoltre strumenti che consentono di utilizzare i dati più volte. Questo alleggerisce l'onere di imprese, cittadini e autorità."
+keywords: [I14Y, piattaforma di interoperabilità I14Y, IOP, introduzione, interoperabilità, utilizzo multiplo, Svizzera, raccolta di dati, interfaccia elettronica, collezioni di dati, API, principio «once-only», utilizzo secondario di dati, armonizzazione, standardizzazione]
+weight: 0
 type: docs
-keywords: [I14Y, I14Y-Interoperabilitätsplattform, IOP, Changelog, Releases, Versionen, Software-Entwicklung]
 ---
-{{<alert title="Language" color="warning">}}
-__DE:__ Diese Seite liegt ausschliesslich in englischer Sprache vor. 
-__FR:__ Cette page est uniquement disponible en anglais.
-__IT:__ Questa pagina è disponibile solo in inglese.
+
+{{% pageinfo color="primary" %}}
+La traduzione è in corso: Grazie per il vostro interesse nella versione italiana del manuale I14Y. Attualmente sono in corso di traduzione. Si prega di consultare il sito più tardi. In alternativa, leggere il [manuale in tedesco](https://handbook.i14y.admin.ch), potete chiedere al nostro [robot di testo sperimentale](https://www.i14y.admin.ch/de/labs/chatbot) in italiano. Oppure potete [contattare il team di I14Y](mailto:i14y@bfs.admin.ch). 
+{{% /pageinfo %}}
+
+![Scena dal video esplicativo sulla piattaforma di interoperabilità I14Y](/handbook/img/i14y-film_55.png)
+
+Quali dati sono disponibili? E come fare per reperirli? La piattaforma di interoperabilità I14Y (IOP I14Y) è il registro centrale di dati, interfacce elettroniche e servizi offerti dalle autorità delle amministrazioni pubbliche in Svizzera. La piattaforma rende i dati reperibili e mostra come si fa ad accedervi.  
+
+L'IOP I14Y riporta se i dati in questione sono accessibili liberamente o con restrizioni, se sono conformi a uno standard, chi è responsabile della collezione di dati, quanto spesso vengono aggiornati e come viene valutata la loro qualità. La piattaforma aiuta quindi a capire il contesto di una collezione di dati. L'IOP I14Y contiene esclusivamente metadati; i dati effettivi restano presso le autorità competenti. L'IOP I14Y promuove lo scambio efficiente dei dati all'interno delle amministrazioni pubbliche e tra le autorità, le imprese e la popolazione. 
+
+Le autorità e le imprese parastatali possono utilizzare la piattaforma come strumento per realizzare un inventario delle loro collezioni di dati. Al contempo, l'IOP I14Y funge da strumento di armonizzazione dei dati, in modo che possano essere utilizzati più volte. Ciò permette di evitare la raccolta di dati ridondanti, in linea con il _principio «once-only»_ promosso dalla Confederazione. 
+
+{{<alert title="Che cos'è il <i>principio «once-only»?</i>?" color="info">}}
+
+Finora la popolazione e le imprese erano spesso obbligate a comunicare più volte le loro informazioni allo Stato. Con il [programma Gestione dei dati a livello nazionale](https://www.bfs.admin.ch/bfs/it/home/nadb/nadb.html), la Confederazione si è posta l'obiettivo di evitare doppie rilevazioni. Ciò permetter di alleggerire l'onere delle imprese e della popolazione. E lo Stato può fornire le sue prestazioni in modo più efficiente. 
+
+```mermaid
+flowchart TD
+    subgraph titel[" "]
+        
+    subgraph aktuell1[ ]
+            B(fa:fa-user Cittadina/ \nCittadino)
+            B-->|riferisce a|C(fa:fa-building \nufficio 1)
+            B-->|riferisce a|D(fa:fa-building \ufficio 2)
+            B-->|riferisce a|E(fa:fa-building \nufficio 3)
+            B-->|riferisce a|F(fa:fa-building \nufficio 4)
+        end
+    
+        subgraph ziel1[ ]
+            BB(fa:fa-user Cittadina/ \nCittadino)
+            BB-->|riferisce a|CC(fa:fa-table \nAmt 1)
+            CC-->DD(fa:fa-building \nufficio 2)
+            CC-->EE(fa:fa-building \nufficio 3)
+            CC-->FF(fa:fa-building \nufficio 4)
+            CC-->GG(fa:fa-building \nufficio ...)
+        end
+    end
+    
+    style B fill: #Bfe2ab
+    style BB fill: #Bfe2ab
+    style C fill: #Ff987a
+    style CC fill: #Ff987a
+    style D fill: #Ff987a
+    style DD fill: #Ff987a
+    style E fill: #Ff987a
+    style EE fill: #Ff987a
+    style F fill: #Ff987a
+    style FF fill: #Ff987a
+    style GG fill: #Ff987a
+```
+
+Affinché il _principio «once-only»_ diventi realtà, le diverse unità amministrative devono essere in grado di scambiarsi i dati direttamente. Perché ciò avvenga i presupposti sono che esista una base giuridica e che lo scambio sia consentito, in particolare dal punto di vista della protezione dei dati. Inoltre, occorre chiarire se e per quanto tempo i dati possono essere conservati per un eventuale utilizzo multiplo. Alcuni Cantoni hanno già sancito per legge l'utilizzo multiplo dei dati.  
+
 {{</alert>}}
-
-The I14Y interoperability platform is under active development. New features are added with each release. Bugs are also fixed. The most important changes are briefly documented below. For detailed information on the development of the platform, please contact the [I14Y team](mailto:i14y@bfs.admin.ch). 
-
-## Release 12 March 2024
-- Concepts can be reused in different datasets. This ensures that the same definitions, the same characteristics and the same coding methods are used. The description of the individual concepts now shows which datasets use this particular concept. An indication of the number of reuses is also displayed. Only data collections that have been publicly described on the platform are counted. 
-- Bugfixes
-
-## Release 27 February 2024
-- The description of a dataset (fields according to DCAT-AP CH) can now be assigned to several catalogues. This allows it to use the description both in the I14Y catalogue and in the catalogue for Opendata.swiss. The interoperability service can open additional catalogues upon request. 
-- Bugfixes
-
-## Release 5 February 2024
-- The channels of a public service are now displayed directly on the overview page. Previously, they could be found in a separate tab. This change allows users to access the public service with fewer clicks. 
-- Records can now be assigned to multiple catalogues. For example, a record can be part of both the I14Y and Opendata catalogues. The keywords, which may differ from catalogue to catalogue, can be set for each catalogue. 
-
-## Release 25 January 2024
-- Introduction of new fields to document the protection status of the da dataset: Thanks to the news fields, it is possible to enter information about whether a record contains personal data or even particularly sensitive personal data. Information about the retention period of the data can also be recorded.
-- First implementation of the Catalog class. In the future, several catalogues can be managed on the I14Y. Records can be assigned to one or more catalogues. 
-- Provision of a machine-readable security information file (security.txt) according to the National Cyber Security Centre (NCSC) specification.
-- Bug fixes
-
-## Release 04 December 2023
-- Change in user management: Only people who have logged in to the I14Y input can be found and entered as responsible person and responsible deputy for concepts and structures.
-- The filters "Publisher" and "Topics" are now available on the concept search page.
-- The "Delete" action is now available on the concept view page.
-- Bug fixes
-
-## Release 20 November 2023
-- Filters for publication level, publisher and themes are now available on the concept page.
-- Bug fixes
-
-## Relase 3 November 2023
-- Demo endpoint: Retrieve catalogue as RDF-XML and RDF-Turtle
-- Bug fixes
-
-## Relase 24 October 2023
-- Concept search fix: Terms are now found regardless of capitalisation and default language. 
-- The Qualified Attribution and Qualified Relation properties can now be edited from the user interface.
-- The submitter role is now displayed in the user info box. 
-- Bug fixes
-
-## Release 10 October 2023
-- Concept search now works with hyphens and underscores. This makes it possible to find concepts with titles such as "EXAMPLE_CONCEPT-2023-10-04". 
-- The concept detail page now displays the additional properties Themes, Keywords, and ConformsTo.
-- The concept JSON endpoint now returns the additional themes, keywords and conformsTo fields.
-- Optimised the user information popup. An issue with the login status display has been fixed. And the organisation name is now displayed in the default language. 
-- Bug fixes
-
-## Release 29 September 2023
-- Additional fields for describing data collections have been introduced. These correspond to the DCAT-AP-CH standard in version 2. The following fields are now available: frequency, image, is referenced by, qualified attribution, qualified relation, related resource, licence, availability, checksum, coverage, identifier, image, media type, packaging format, temporal resolution.
-- Revision of the I14Y Homepage: Adjusted structure with headings and revised texts, contact information added.
-- IdP Kanton Bern can be used for the I14Y input area.
-- Various bugfixes and UX improvements
-
-## Release 30 Juin 2023
-- I14Y Handbook: The comprehensive documentation of the I14Y functionality can now be accessed via the tile on the homepage and the main navigation.
-- I14Y Chatbot: A chatbot is now available in the lab section that can answer questions about the I14Y interoperability platform and data harmonisation in Switzerland.
-- A problem concerning the import of code list entries via the API has been fixed.
-- First public endpoint to retrieve concepts is available.
-
-## Release 15 June 2023
-- Concepts can now be displayed and searched on the public page 
-- The registration status and publication level can be set via the graphical user interface
-- Versioning for concepts 
-- Bugfixes
-
-## Release 15 January 2023
-- Conversion of authentication to eIAM. The accounts of existing users must be migrated. 
-- Bugfixes
