@@ -4,7 +4,7 @@ slug: introduzione
 translationKey: introduction
 description: "La piattaforma di interoperabilità I14Y è il registro centrale di dati, interfacce elettroniche e servizi offerti dalle autorità in Svizzera. La piattaforma fornisce inoltre strumenti che consentono di utilizzare i dati più volte. Questo alleggerisce l'onere di imprese, cittadini e autorità."
 keywords: [I14Y, piattaforma di interoperabilità I14Y, IOP, introduzione, interoperabilità, utilizzo multiplo, Svizzera, raccolta di dati, interfaccia elettronica, collezioni di dati, API, principio «once-only», utilizzo secondario di dati, armonizzazione, standardizzazione]
-weight: 0
+weight: 10
 type: docs
 ---
 
