@@ -1,7 +1,8 @@
 ---
-title: Account stewardship
+title: Accounts to access I14Y
 slug: accounts
-weight: 50
+translationKey: accounts
+weight: 10
 type: docs
 keywords: [I14Y, I14Y interoperability platform, user account, account, connection, EIAM, Login]
 ---

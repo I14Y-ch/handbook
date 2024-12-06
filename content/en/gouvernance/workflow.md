@@ -1,6 +1,7 @@
 ---
 title: Work process
-slug: workprocess
+slug: workflow
+tranlationKey: workflow
 weight: 20
 type: docs
 keywords: [I14Y, I14Y interoperability platform, work process, workflow, status, publication channel]

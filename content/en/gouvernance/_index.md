@@ -1,8 +1,8 @@
 ---
-title: Roles and Processes
-slug: roles-processes
+title: Gouvernance and Roles
+slug: gouvernance
+translationKey: gouvernance
 description: "What are the steps required to publish a data set description? Who sees which metadata? This chapter gives an overview of the roles on the I14Y interoperability platform, the work processes and the information model."
-
 weight: 20
 type: docs
 keywords: [I14Y, I14Y interoperability platform, I14-IOP, roles, role-based model, access rights, workflow, processes, data model, information model]

@@ -1,6 +1,7 @@
 ---
 title: Information model
 slug: informationmodel
+translationKey: informationmodel
 weight: 30
 type: docs
 keywords: [I14Y, I14Y interoperability platform, Data model, information model, catalogue, DCAT, structure, concept]

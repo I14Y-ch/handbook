@@ -1,7 +1,8 @@
 ---
 title: Road map
 slug: roadmap
-weight: 40
+translationKey: roadmap
+weight: 30
 type: docs
 keywords: [I14Y, I14Y interoperability platform, system architecture, technology, database]
 ---
@@ -10,10 +11,12 @@ The I14Y Interoperability Platform is developed on the Confederation's behalf by
 
 The IOS is prioritising the following functionalities in the coming months. The areas of focus may change at short notice. Please contact the IOS if you need detailed information on the further development of the platform or if you have requests for specific functions.
 
-{{<alert title=" Your suggestions are welcome " color="success">}}
+{{<alert title="Your suggestions are welcome" color="success">}}
 If you find an opportunity for improvement or a bug on the I14Y-IOP, the development team would be grateful to hear your suggestions. The best way to reach us is via [email](mailto:i14y@bfs.admin.ch). Other feedback channels will be offered at a later date.
 
 {{</alert>}}
+
+![Bild Roadmap I14Y](/handbook/img/roadmap_en.svg)
 
 ## Electronic interfaces (APIs)
 The I14Y-IOP already offers electronic interfaces (APIs) for retrieving, saving and editing metadata on the platform. However, they are still subject to change. Therefore, they have not been communicated publicly yet. In addition, many of the interfaces can only be accessed from the federal network. Please contact the [Interoperability Office](mailto:i14y@bfs.admin.ch) if you already rely on the interfaces now.

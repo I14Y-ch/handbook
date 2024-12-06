@@ -1,6 +1,7 @@
 ---
 title: The right platform for every application
 slug: platforms
+translationKey: platforms
 weight: 60
 type: docs
 keywords: [I14Y, I14Y Interoperability Platform, Meta data, Meta data catalog, Lindas, Opendata, Opendata.swiss, Geocat]

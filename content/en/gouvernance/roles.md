@@ -1,6 +1,7 @@
 ---
 title: Roles
 slug: roles
+translationKey: roles
 weight: 10
 type: docs
 keywords: [I14Y, I14Y interoperability platform, interoperability, role-based model, Data Steward, Data Stewardship, Data Owner, Data Consumer]

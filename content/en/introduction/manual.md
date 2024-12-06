@@ -1,5 +1,5 @@
 ---
-title: Handbuch
+title: Handbook
 slug: handbuch
 translationKey: handbook
 description: 
@@ -10,7 +10,7 @@ type: docs
 
 This manual explains the main features of the I14Y interoperability platform. It contains numerous step-by-step instructions. It also provides technical details and background information on data harmonisation and standardisation.
 
-The first chapter highlights the [Roles and Processes](/handbook/de/2_rollen_prozesse) in data management. The chapter [Retrieve Metadata
+The first chapter highlights the [Roles and Processes](/handbook/en/gouvernance) in data management. The chapter [Retrieve Metadata
 ](/handbook/de/3_metadaten_abrufen) describes how to obtain information from the I14Y interoperability platform. The following chapter [Publishing metadata](/handbook/de/4_publikation) explains how to publish descriptions of data sets, electronic interfaces and data elements on the platform. It also shows how the directory of government services is compiled.
 
 <!--Später ergänzen: Nebst den schriftlichen Anleitungen enthält dieses Handbuch auch einige Videotutorials.--> 
