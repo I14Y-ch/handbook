@@ -404,6 +404,10 @@ a {
   }
 }
 
+.lang-link {
+  color: $ob-gray-800; // Setzen Sie die gewünschte Farbe hier
+}
+
 .table {
 	margin: $ob-spacing-xl 0;
     display: table;
@@ -630,6 +634,3 @@ a {
   text-align: right;
 }
 
-.language-switcher {
-  color: black
-}

@@ -7,9 +7,9 @@
 		{{- if eq $translation.Lang .Lang }}
 		<li>
 			{{ if eq $pageLang .Lang }}
-			<a class="active" href="{{ $translation.Permalink | relURL }}">{{ upper .Params.languageCode }}</a>
+			<a class="active lang-link" href="{{ $translation.Permalink | relURL }}">{{ upper .Params.languageCode }}</a>
 			{{ else }}
-			<a href="{{ $translation.Permalink | relURL }}">{{ upper .Params.languageCode }}</a>
+			<a class="lang-link" href="{{ $translation.Permalink | relURL }}">{{ upper .Params.languageCode }}</a>
 			{{ end }}
 		</li>
 		{{- end }}
