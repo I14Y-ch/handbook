@@ -44,12 +44,6 @@ Entwickelt und betrieben wird die Plattform von der Interoperabilitätsstelle (I
 
 Die I14Y-Interoperabilitätsplattform steht seit Sommer 2021 zur Verfügung und wird kontinuierlich weiterentwickelt. Sie richtet sich in erster Linie an Bund, Kantone und Gemeinden sowie an die Forschung. Da Verwaltung und Unternehmen eng zusammenarbeiten, steht sie auch Unternehmen offen. Öffentlich publizierte Inhalte können auch von Unternehmen und den Bürgerinnen und Bürgern eingesehen und genutzt werden.
 
-{{<alert title="Bleiben Sie stets auf dem Laufenden" color="success" >}}
-
-Möchten Sie über neue Funktionen und Angebote auf der I14Y-Interoperabilitätsplattform informiert werden? Dann folgen Sie der I14Y auf dem sozialen Netzwerk [LinkedIn](https://www.linkedin.com/showcase/103890166/). Gerne können Sie auch das Newsmail abonnieren. Drei bis viermal pro Jahr erhalten Sie per E-Mail eine Zusammenstellung der neusten Entwicklungen bei der I14Y-IOP. Um das Newsmail kostenlos zu abonnieren, besuchen Sie den [Abodienst des Bundesamts für Statistik](https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/kontakt/newsmail-abonnement.html) und wählen Sie "I14Y-Interoperabilitätsplattform" aus. 
-
-{{</alert>}}
-
 {{<alert title="Flugblatt mit den wichtigsten Fakten" color="success" >}}
 
 Die wichtigsten Fakten zur I14Y sind auf einem doppelseitigen Flugblatt zusammengefasst ([DE](/handbook/files/Factsheet_I14Y_de.pdf), [FR](/handbook/files/Factsheet_I14Y_fr.pdf), [IT](/handbook/files/Factsheet_I14Y_it.pdf), [EN](/handbook/files/Factsheet_I14Y_en.pdf)). Falls Sie das Flugblatt in gedruckter Form benötigen -- etwa um es an einem Stand an einer Konferenz zu verteilen --, nehmen Sie mit der Interoperabilitätsstelle Kontakt auf.  
