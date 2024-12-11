@@ -55,7 +55,7 @@ weight = 5
   # replacements = "github.com/google/docsy -> ../../docsy"
   [module.hugoVersion]
     extended = true
-    min = "0.73.0"
+    min = "0.118.2"
   [[module.imports]]
     path = "github.com/google/docsy"
     disable = false
