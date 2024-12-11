@@ -7,6 +7,62 @@ type: docs
 keywords: [I14Y, Piattaforma di metadati, IOP, Novità, Attualità, News]
 ---
 
+{{<alert title="Per rimanere sempre aggiornati" color="success" >}}
+
+Desiderate essere informati sulle nuove funzionalità e offerte della piattaforma di interoperabilità I14Y? Allora abbonatevi subito alla Newsmail! Facendolo, tre o quattro volte all'anno riceverete via mail un riepilogo degli ultimi sviluppi riguardanti l'IOP I14Y. Per abbonarvi gratuitamente alla Newsmail, andate sul sito del [servizio di abbonamento Newsmail dell'Ufficio federale di statistica](https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/kontakt/newsmail-abonnement.html) e selezionate Piattaforma di interoperabilità I14Y. 
+
+{{</alert>}}
+
+## Bilancio dell'anno
+*11.12.2024*
+
+Il 2024 volge al termine e guardando indietro possiamo dire che è stato un anno produttivo. Siamo riusciti ad attuare alcuni progetti ambiziosi, ad esempio la creazione di un area di input sulla piattaforma I14Y per metadati OGD registrati manualmente, grazie alla quale i dati possono essere pubblicati con un clic sulle piattaforme [opendata.swiss](https://opendata.swiss) e [I14y.ch](https://i14y.admin.ch).
+
+In novembre abbiamo reso l’interfaccia utente di I14Y più moderna e il suo utilizzo più intuitivo. La separazione tra «Catalogo» e «Concetti», precedentemente presente sulla homepage per motivi tecnici, è stata rimossa. La nuova ricerca globale consente di cercare tutti i metadati, indipendentemente dal tipo. I risultati vengono restituiti esaustivamente in registri (Set di dati, Servizi pubblici, APIs, Concetti). Vengono visualizzati anche i risultati trovati nei portali di metadati Opendata e Geocat. Inoltre, nella versione rilasciata in novembre mettiamo a disposizione delle organizzazioni partner un endpoint sul gateway API, attraverso il quale sarà possibile pubblicare le descrizioni delle collezioni di dati. Dall’inizio di quest’anno tutte le novità sono state documentate nel [Changelog](https://i14y-ch.github.io/handbook/it/changelog/) del manuale.
+
+Il team I14Y lavora con grande impegno al costante sviluppo della piattaforma, e lo fa in stretto dialogo con i suoi utenti. Le esigenze specifiche dei nostri utenti vengono raccolte in occasione di hackathon, di incontri informali con gli amministratori dei dati a livello locale o del progetto Basel+. Nel comitato direttivo recentemente istituito vengono discussi e organizzati per priorità i nuovi requisiti. Al momento lo sviluppo della piattaforma I14Y è determinato in modo rilevante in funzione dei requisiti della legge federale concernente l’impiego di mezzi elettronici per l’adempimento dei compiti delle autorità ([LMeCA](https://www.fedlex.admin.ch/eli/cc/2023/682/it)). Le soluzioni e migliorie che ne scaturiscono vanno però a vantaggio di tutti gli utenti.
+
+Tutte queste pietre miliari sono già state raggiunte grazie all’ampliamento del nostro team; altre sono nel mirino. Nei prossimi mesi venturi godremo del sostegno di Lien Beroggi per la durata del suo tirocinio universitario. Al termine della presente newsletter troverete una panoramica delle sue mansioni.
+
+## Chiarita la direzione in cui si sviluppa la piattaforma I14Y
+*11.12.2024*
+
+{{< figure src="/handbook/img/news/roadmap.png" alt="Logo Roadmap" width="125px" class="float-left img-news-thumb" >}}
+
+Sulla [roadmap](https://i14y-ch.github.io/handbook/it/piattaforma/roadmap/) pubblicata sul sito è possibile da subito seguire le novità alle quali stanno lavorando gli sviluppatori di software. Viene aggiornata trimestralmente, con una descrizione particolarmente dettagliata del periodo immediatamente seguente. Lavoriamo in modo agile. Siccome la roadmap può cambiare, vale la pena consultarla regolarmente (lattualmente disponibile unicamente in tedesco).
+
+## Partecipare all’ulteriore sviluppo della piattaforma I14Y
+*11.12.2024*
+
+Da subito nel Repository [Feature Request](https://github.com/I14Y-ch/feature-requests/issues) su GitHub possono essere inoltrate e discusse proposte per nuove funzioni. Il servizio di interoperabilità, il comitato per la gestione dei dati a livello nazionale e il comitato direttivo assegnano un ordine di priorità alle proposte. Non vediamo l’ora di ricevere le vostre!
+
+## Nuove console pubbliche per l'API di I14Y
+*11.12.2024*
+
+{{< figure src="/handbook/img/news/api.png" alt="Logo API" width="125px" class="float-left img-news-thumb" >}}
+
+I14Y offre ora due console OpenAPI (Swagger) per facilitare l'accesso degli utenti all'API di I14Y. Le console sono disponibili in modo permanente e documentano chiaramente le funzioni dell'API.
+
+- [URL della console](https://apiconsole.i14y.admin.ch/partner/v1/index.html) per i metadati interni all'organizzazione. Funzione: serve per gestire i metadati interni all'organizzazione. Utilizzo: è richiesta l'autenticazione. Gli oggetti di metadati possono essere creati e modificati tramite questa API.
+- [URL della console](https://apiconsole.i14y.admin.ch/public/v1/index.html) per i metadati pubblici. Funzione: fornisce accesso in sola lettura ai metadati pubblici.
+Uso: non è richiesto il login, accesso libero. Le console vengono continuamente aggiornate. Verranno aggiunti nuovi endpoint, in modo che in futuro la gestione dei metadati sarà interamente possibile tramite l'API.
+
+## Novità nel team
+*11.12.2024*
+
+{{< figure src="/handbook/img/news/lien.jpg" alt="Ritratto Lien Beroggi" width="250px" class="float-left img-news-thumb" caption="UFS" >}}
+
+Lien Beroggi ci supporterà per un anno con le sue conoscenze universitarie appena acquisite. Web semantico, RDF e linked data rientrano tra le tematiche su cui si focalizzerà il suo lavoro. Seguono alcune domande poste alla nostra tirocinante.
+
+_L’interoperabilità è stato un argomento importante durante gli studi universitari?_ 
+Durante i miei studi in informatica di gestione mi sono occupata di vari aspetti della gestione efficiente delle informazioni e dell’integrazione dei sistemi, tra cui lo scambio di dati tra sistemi diversi e l’importanza degli standard per una comunicazione ottimale. Ho anche frequentato corsi speciali sui dati semistrutturati, grazie ai quali ho imparato le basi dei concetti di web semantico e linked data. Ora, nella mia posizione presso il team della piattaforma I14Y, posso applicare queste conoscenze in un contesto reale in cui l’interoperabilità svolge un ruolo cruciale.
+
+_Quali sono gli aspetti della piattaforma I14Y che ti appassionano?_ 
+Gli aspetti che rendono questo tirocinio particolarmente interessante sono due. Anzitutto la possibilità di lavorare con un team dinamico a una piattaforma in continua evoluzione è molto stimolante e arricchente. Questo mi consente di apprendere attraverso l’esperienza pratica, trovando soluzioni innovative insieme ai colleghi. Il secondo aspetto interessante è l’impatto della piattaforma I14Y sulla società: interoperabilità e accessibilità dei dati sono determinanti per migliorare e semplificare le prestazioni di servizio per cittadinanza, imprese e istituzioni. I linked data, in particolare, offrono un enorme potenziale per collegare informazioni finora isolate e renderle più accessibili e utilizzabili.
+
+_Quale obiettivo ti sei posta per i prossimi mesi?_
+Nei prossimi mesi desidero approfondire la conoscenza sui linked data e l’interoperabilità, per poter fornire un contributo concreto allo sviluppo della piattaforma I14Y. Il mio obiettivo è di dare il mio apporto all’ottimizzazione dell’integrazione dei dati, in particolare per facilitare lo scambio di informazioni con altre piattaforme. Facendo progressi in questi ambiti, spero che il mio lavoro contribuisca a sviluppare ulteriormente l’efficienza e la qualità delle funzioni offerte dalla piattaforma I14Y.
+
 ## Nuovi campi di inserimento per la protezione dei dati 
 *20.02.2024*
 

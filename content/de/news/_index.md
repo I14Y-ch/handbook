@@ -26,7 +26,7 @@ All diese Meilensteine konnten dank der Verstärkung unseres Teams erreicht werd
 ## Die Entwicklungsrichtung von I14Y transparent gemacht
 *11.12.2024*
 
-{{< figure src="/handbook/img/news/roadmap.png" alt="Symbolbild Roadmap" width="250px" class="float-left img-news-thumb" >}}
+{{< figure src="/handbook/img/news/roadmap.png" alt="Symbolbild Roadmap" width="125px" class="float-left img-news-thumb" >}}
 
 An welchen Neuerungen die Softwareentwicklerin und die Entwickler arbeiten, kann ab sofort auf der öffentlich publizierten [Roadmap](https://i14y-ch.github.io/handbook/de/plattform/roadmap/) verfolgt werden. Sie wird quartalsweise aktualisiert, wobei der unmittelbar bevorstehende Zeitraum besonders detailliert dargestellt wird. Wir arbeiten agil. Die Roadmap kann sich ändern. Es lohnt sich also, regelmässig vorbeizuschauen.
 
@@ -38,7 +38,7 @@ Vorschläge für neue Funktionen können neu im Repository [Feature Request](htt
 ## Neue öffentliche API-Konsolen für die I14Y-API
 *11.12.2024*
 
-{{< figure src="/handbook/img/news/api.png" alt="Symbolbild API" width="250px" class="float-left img-news-thumb" >}}
+{{< figure src="/handbook/img/news/api.png" alt="Symbolbild API" width="125px" class="float-left img-news-thumb" >}}
 
 I14Y bietet neu zwei OpenAPI-Konsolen (Swagger) an, die den Nutzerinnen und Nutzern den Zugang zur I14Y-API erleichtern. Die Konsolen sind dauerhaft verfügbar und dokumentieren die API-Funktionen übersichtlich.
 

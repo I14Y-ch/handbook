@@ -42,9 +42,3 @@ L’IOP I14Y a été développée et est exploitée par le service d’interopé
 {{</card>}}
 
 En service depuis l’été 2021, la plateforme d’interopérabilité I14Y continue d’être développée. Elle s’adresse en premier lieu à la Confédération, aux cantons et aux communes, ainsi qu’aux acteurs de la recherche. L’administration travaillant étroitement avec le secteur privé, la plateforme est également accessible aux entreprises. Les contenus publiés en libre accès peuvent être consultés et utilisés par les entreprises et les citoyens.
-
-{{<alert title="Tenez-vous informés!" color="success" >}}
-
-Vous souhaitez être informés des nouvelles fonctions et des offres de la plateforme d’interopérabilité I14Y? Abonnez-vous aux NewsMails. Un courriel résumant les derniers développements de la plateforme vous sera envoyé trois ou quatre fois par an. Pour vous abonner, il vous suffit de vous rendre sur la page du [service d’abonnement de l’Office fédéral de la statistique](https://www.bfs.admin.ch/bfs/fr/home/services/contact/abonnement-newsmail.html) et de cocher l’option «I14Y Plateforme d’interopérabilité». 
-
-{{</alert>}}
