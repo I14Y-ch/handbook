@@ -17,40 +17,40 @@ Il team di sviluppo sarà molto grato della segnalazione di chiunque dovesse sco
 {{</alert>}}
 
 ```mermaid
-    timeline
-        title Roadmap I14Y
-        section 2024
-        PI 23<br>(07.11.2024 - 15.01.2025) 
-            : Migrazione del database. Questo velocizza la ricerca globale. 
-            : Nuovi endpoint API per i partner di I14Y (recupero e pubblicazione delle descrizioni delle raccolte di dati).
-            : La ricerca in elenchi di codici diventa possibile.
-            : La forma giuridica e il settore di attività di ciascuna organizzazione possono essere recuperati tramite l'API. 
-            : I data steward locali possono pubblicare le descrizioni in modo indipendente.
-        section 2025
-        PI 24<br>(16.01.2025 - 04.03.2025)
-            : Nuovi endpoint API per i partner I14Y (raccolta dati e area concetti).
-            : Le modifiche alle raccolte di dati sono registrate (audit trail). 
-            : Le strutture delle raccolte di dati possono essere registrate più facilmente.
-            : Gli elenchi di codici possono essere filtrati. 
-            : Analisi aggiuntive del cruscotto.
-            : Le organizzazioni possono essere create e gestite più facilmente.
-        PI 25<br>(27.03.2025 - 04.06.2025)
-            : Nuovi endpoint API per i partner I14Y (area servizi dati)
-            : Ottimizzazione e ampliamento delle opzioni di log (audit trail).
-            : Miglioramento della funzione di ricerca. 
-        PI 26 - 28<br>(05.06.2025 - 04.01.2026)
-            : Onboarding automatico dell'amministrazione federale. 
-            : Introduzione di tabelle di mappatura per la documentazione. 
-            : Possibilità di sottoscrivere notifiche di modifiche ai metadati. 
-            : Ulteriori opzioni di esportazione.
-            : I contenuti pubblicati pubblicamente sono resi disponibili come dati collegati.
-        section 2026
-        PIs 29 - 33<br>(05.01.2026 - 31.12.2026)
-            : Anteprima dei dati incorporata. 
-            : Possibilità di documentare i flussi di dati (data lineage). 
-            : Estensione delle opzioni di connessione agli strumenti. 
-            : Rilascio del codice del programma (open source). 
-            : Completamento della fase di progetto.
+timeline
+    title Roadmap I14Y
+    section 2024
+    PI 23<br>(07.11.2024 - 15.01.2025) 
+        : Migrazione del database. Questo velocizza la ricerca globale. 
+        : Nuovi endpoint API per i partner di I14Y (recupero e pubblicazione delle descrizioni delle raccolte di dati).
+        : La ricerca in elenchi di codici diventa possibile.
+        : La forma giuridica e il settore di attività di ciascuna organizzazione possono essere recuperati tramite l'API. 
+        : I data steward locali possono pubblicare le descrizioni in modo indipendente.
+    section 2025
+    PI 24<br>(16.01.2025 - 04.03.2025)
+        : Nuovi endpoint API per i partner I14Y (raccolta dati e area concetti).
+        : Le modifiche alle raccolte di dati sono registrate (audit trail). 
+        : Le strutture delle raccolte di dati possono essere registrate più facilmente.
+        : Gli elenchi di codici possono essere filtrati. 
+        : Analisi aggiuntive del cruscotto.
+        : Le organizzazioni possono essere create e gestite più facilmente.
+    PI 25<br>(27.03.2025 - 04.06.2025)
+        : Nuovi endpoint API per i partner I14Y (area servizi dati)
+        : Ottimizzazione e ampliamento delle opzioni di log (audit trail).
+        : Miglioramento della funzione di ricerca. 
+    PI 26 - 28<br>(05.06.2025 - 04.01.2026)
+        : Onboarding automatico dell'amministrazione federale. 
+        : Introduzione di tabelle di mappatura per la documentazione. 
+        : Possibilità di sottoscrivere notifiche di modifiche ai metadati. 
+        : Ulteriori opzioni di esportazione.
+        : I contenuti pubblicati pubblicamente sono resi disponibili come dati collegati.
+    section 2026
+    PIs 29 - 33<br>(05.01.2026 - 31.12.2026)
+        : Anteprima dei dati incorporata. 
+        : Possibilità di documentare i flussi di dati (data lineage). 
+        : Estensione delle opzioni di connessione agli strumenti. 
+        : Rilascio del codice del programma (open source). 
+        : Completamento della fase di progetto.
 ```
 
 ## Interfacce elettroniche (API)
