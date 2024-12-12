@@ -70,7 +70,8 @@ sidebar_menu_compact = true
 # Konfiguration für den Diagramm-Generator Mermaid.
 [params.mermaid]
 enable = true
-theme = "base"
+theme = "default"
+version = "11.4.1"
 
 [markup.goldmark.parser.attribute]
 block = true
