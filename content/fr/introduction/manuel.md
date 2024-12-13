@@ -10,7 +10,7 @@ type: docs
 
 Le présent manuel décrit les principales fonctions de la plateforme d’interopérabilité I14Y. Vous y trouverez des instructions pas à pas, ainsi que des données techniques et des informations de fond relatives à l’harmonisation et à la standardisation des données.
 
-Le premier chapitre décrit les rôles et les processus](/handbook/de/2_rollen_prozesse) en lien avec l’administration des données. Le chapitre [Recherche de métadonnées](/handbook/de/3_metadaten_abrufen) indique comment rechercher des informations sur la plateforme. Le chapitre [Publication de métadonnées](/handbook/de/4_publikation) explique comment les descriptions des jeux de données, des interfaces électroniques et des éléments de données sont publiées sur la plateforme, et comment compléter le répertoire des prestations administratives. 
+Le premier chapitre décrit les rôles et les processus](/handbook/fr/2_rollen_prozesse) en lien avec l’administration des données. Le chapitre [Recherche de métadonnées](/handbook/de/3_metadaten_abrufen) indique comment rechercher des informations sur la plateforme. Le chapitre [Publication de métadonnées](/handbook/de/4_publikation) explique comment les descriptions des jeux de données, des interfaces électroniques et des éléments de données sont publiées sur la plateforme, et comment compléter le répertoire des prestations administratives. 
 
 <!--Später ergänzen: Le manuel intègre également quelques tutoriels vidéo. --> 
 Le manuel comprend par ailleurs un [glossaire](/handbook/de/7_glossar), une [liste de liens](/handbook/de/6_anhang/weblinks), une vue d’ensemble des [organisations partenaires](/handbook/de/8_partner) et un [journal (log)(/handbook/de/6_anhang/changelog) indiquant les principaux changements apportés à la plateforme.
