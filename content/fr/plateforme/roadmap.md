@@ -16,7 +16,7 @@ Vous avez une proposition d'amélioration ou souhaitez signaler une erreur sur l
 
 {{</alert>}}
 
-![Bild Roadmap I14Y](/handbook/img/roadmap_fr.svg)
+![Roadmap I14Y](/handbook/img/roadmap_fr.svg)
 
 ## Interfaces électroniques (API)
 La plateforme d'interopérabilité I14Y propose d'ores et déjà des interfaces électroniques (API) permettant de rechercher, de saisir et de traiter les métadonnées sur la plateforme. Ces API n'étant pas encore totalement finalisées, il n'y a guère eu d'informations à leur sujet. Nombre d'entre elles sont par ailleurs accessibles uniquement depuis le réseau de la Confédération. Si vous devez déjà utiliser ces interfaces, veuillez contacter le [service d'interopérabilité](mailto:i14y@bfs.admin.ch).  

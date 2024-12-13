@@ -16,6 +16,8 @@ Il team di sviluppo sarà molto grato della segnalazione di chiunque dovesse sco
 
 {{</alert>}}
 
+![Bild Roadmap I14Y](/handbook/img/roadmap_it.svg)
+
 ```mermaid
     timeline
         title Roadmap I14Y
