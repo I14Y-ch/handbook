@@ -5,7 +5,6 @@ on:
     branches:
       - main
 
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
@@ -28,7 +27,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: "HEAD"  # Use latest development version
+      HUGO_VERSION: "0.121.1"  # Stabile Version statt HEAD
     steps:
       - name: Install Go
         uses: actions/setup-go@v4
@@ -37,8 +36,8 @@ jobs:
           
       - name: Install Hugo
         run: |
-          go install -v github.com/gohugoio/hugo@master
-          hugo version
+          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
+          && sudo dpkg -i ${{ runner.temp }}/hugo.deb
           
       - name: Install Dart Sass Embedded
         run: sudo snap install dart-sass-embedded
