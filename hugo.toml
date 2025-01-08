@@ -1,6 +1,6 @@
 #baseURL = 'https://i14y-ch.github.io/handbook/'
 languageCode = 'de-CH'
-title = 'Handbuch I14Y-Interoperabilitätsplattform'
+title = 'Handbuch Interoperabilitätsplattform I14Y'
 
 # Language settings
 contentDir = "content/"
@@ -10,7 +10,7 @@ defaultContentLanguageInSubdir = true
 # Language configuration
 [languages]
 [languages.de]
-title = "Handbuch I14Y-Interoperabilitätsplattform"
+title = "Handbuch Interoperabilitätsplattform I14Y"
 description = "Anleitungen und Informationen zur Interoperabilitätsplattform"
 languageName = "Deutsch"
 languageCode = "de"

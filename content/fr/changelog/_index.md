@@ -4,7 +4,7 @@ slug: changelog
 translationKey: changelog
 weight: 80
 type: docs
-keywords: [I14Y, I14Y-Interoperabilitätsplattform, IOP, Changelog, Releases, Versionen, Software-Entwicklung]
+keywords: [I14Y, Interoperabilitätsplattform I14Y, IOP, Changelog, Releases, Versionen, Software-Entwicklung]
 ---
 
 {{<alert title="Language" color="warning">}}

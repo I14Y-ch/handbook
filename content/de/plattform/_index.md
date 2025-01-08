@@ -5,7 +5,7 @@ translationKey: platform
 description: "Die Interoperabilitätsplattform I14Y wird aktiv entwickelt. "
 weight: 30
 type: docs
-keywords: [I14Y, I14Y-Interoperabilitätsplattform, I14Y-IOP, Metadaten, Katalog, Support, Hilfe, Probleme, Nutzerverwaltung, Kontenverwaltung, Zugangsverwaltung, Zugang]
+keywords: [I14Y, Interoperabilitätsplattform I14Y, I14Y-IOP, Metadaten, Katalog, Support, Hilfe, Probleme, Nutzerverwaltung, Kontenverwaltung, Zugangsverwaltung, Zugang]
 ---
 
 Die I14Y kann von Behörden aller föderalen Ebenen genutzt werden. Damit Metadaten erfasst und publiziert werden können, muss für jede Organisation ein eigener Bereich geschaffen werden. Und die Lese- und Schreibrechte müssen vergeben werden. Dies wird in der Regel von einer Person in der betreffenden Organisation erledigt. In einem ersten Abschnitt wird gezeigt, wie die [Zugänge verwaltet werden](/handbook/de/plattform/kontenverwaltung). 

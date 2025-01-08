@@ -1,19 +1,19 @@
 ---
 title: Metadaten publizieren
 slug: publizieren
-description: "Sie möchten Ihre Datensammlungen, elektronischen Schnittstellen, Behördenleistungen oder einzelne Datenelemente auf der I14Y-Interoperabilitätsplattform beschreiben? In diesem Teil wird aufgezeigt, wie solche Metadaten erfasst werden."
+description: "Sie möchten Ihre Datensammlungen, elektronischen Schnittstellen, Behördenleistungen oder einzelne Datenelemente auf der Interoperabilitätsplattform I14Y beschreiben? In diesem Teil wird aufgezeigt, wie solche Metadaten erfasst werden."
 weight: 30
 type: docs
-keywords: [I14Y-Interoperabilitätsplattform, I14Y-IOP, I14Y, Publikation, Veröffentlichung, Metadaten, Katalog, Konzepte]
+keywords: [Interoperabilitätsplattform I14Y, I14Y-IOP, I14Y, Publikation, Veröffentlichung, Metadaten, Katalog, Konzepte]
 ---
 
-![Szene aus dem Erklärvideo zur I14Y-Interoperabilitätsplattform](/handbook/img/i14y-film_erfassen.png)
+![Szene aus dem Erklärvideo zur Interoperabilitätsplattform I14Y](/handbook/img/i14y-film_erfassen.png)
 
-Die I14Y-Interoperabilitätsplattform lässt sich vielfältig einsetzen: Im Katalog-Bereich werden Datensammlungen, elektronische Schnittstellen und Behördenleistungen verzeichnet. Und unter "Konzepte" lassen sich einzelne Datenelemente beschreiben. Werden Konzepte öffentlich freigegeben, können sie von anderen Nutzerinnen und Nutzern wiederverwendet werden. 
+Die Interoperabilitätsplattform I14Y lässt sich vielfältig einsetzen: Im Katalog-Bereich werden Datensammlungen, elektronische Schnittstellen und Behördenleistungen verzeichnet. Und unter "Konzepte" lassen sich einzelne Datenelemente beschreiben. Werden Konzepte öffentlich freigegeben, können sie von anderen Nutzerinnen und Nutzern wiederverwendet werden. 
 
 ```mermaid
 flowchart LR
-    i14y(I14Y-Interoperabilitätsplattform)
+    i14y(Interoperabilitätsplattform I14Y)
     catalog(Katalog)
     dataset(Datensammlung)
     dataservice(Elektronische Schnittstelle)

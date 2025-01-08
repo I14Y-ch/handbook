@@ -4,10 +4,10 @@ slug: informationsmodell
 translationKey: informationmodel
 weight: 30
 type: docs
-keywords: [I14Y, I14Y-Interoperabilitätsplattform, I14Y-Interoperabilitätsplattform, Datenmodell, Informationsmodell, Katalog, DCAT, Struktur, Konzept]
+keywords: [I14Y, Interoperabilitätsplattform I14Y, Interoperabilitätsplattform I14Y, Datenmodell, Informationsmodell, Katalog, DCAT, Struktur, Konzept]
 ---
  
-Auf der I14Y-Interoperabilitätsplattform können sowohl Datensammlungen, elektronische Schnittstellen (APIs) und Datenelemente als auch Behördenleistungen beschrieben werden. Dabei gibt es zwei Einstiegspunkte: Im Katalog-Teil werden Datensammlungen, elektronische Schnittstellen (APIs) und Behördenleistungen verwaltet. Unter "Konzepte" sind die Beschreibungen einzelner Konzepte zu finden. 
+Auf der Interoperabilitätsplattform I14Y können sowohl Datensammlungen, elektronische Schnittstellen (APIs) und Datenelemente als auch Behördenleistungen beschrieben werden. Dabei gibt es zwei Einstiegspunkte: Im Katalog-Teil werden Datensammlungen, elektronische Schnittstellen (APIs) und Behördenleistungen verwaltet. Unter "Konzepte" sind die Beschreibungen einzelner Konzepte zu finden. 
 
 ```mermaid 
     flowchart TD
@@ -55,7 +55,7 @@ Eine Datensammlung ist eine Gruppe inhaltlich zusammenhängender Datenelemente i
 
 Die Datensammlung kann in mehreren Formaten exportiert werden, also sogenannte _Distributionen_ enthalten. Die Distributionen müssen nicht zwingend die vollen Daten beinhalten. Die Datensammlung kann zudem die Grundlage für eine elektronische Schnittstelle (API) bilden, über die sich gezielt Einzelinformationen abfragen lassen.
 
-Datensammlungen lassen sich auf der I14Y-Interoperabilitätsplattform detailliert beschreiben: Zusätzlich zum Katalogeintrag, der die grundlegenden Informationen wie den Titel, die Beschreibung und die herausgebende Organisation beinhaltet, können auch Informationen zur Struktur erfasst werden. Eine Struktur beinhaltet in der Regel mehrere Datenelemente. Und jedes Datenelement hat ein Konzept, das die Art des Inhalts beschreibt. Als Konzept wird also die kleinste Einheit einer Datensammlung bezeichnet, oft auch (definierte) Variable oder Attribut genannt. 
+Datensammlungen lassen sich auf der Interoperabilitätsplattform I14Y detailliert beschreiben: Zusätzlich zum Katalogeintrag, der die grundlegenden Informationen wie den Titel, die Beschreibung und die herausgebende Organisation beinhaltet, können auch Informationen zur Struktur erfasst werden. Eine Struktur beinhaltet in der Regel mehrere Datenelemente. Und jedes Datenelement hat ein Konzept, das die Art des Inhalts beschreibt. Als Konzept wird also die kleinste Einheit einer Datensammlung bezeichnet, oft auch (definierte) Variable oder Attribut genannt. 
 
 ```mermaid
     flowchart TD
@@ -245,9 +245,9 @@ Am Beispiel: In der Datensammlung einer Tierklinik sind Informationen zu Hunden 
 
 ```
 
-Datensammlungen werden bei der I14Y-Interoperabilitätsplattform mit dem [Datenkatalog-Vokabular (DCAT)](/handbook/de/glossar) beschrieben. DCAT ist ein standardisiertes Modell zur Beschreibung von Datenkatalogen, das vom Internet-Standardisierungsgremium [W3C](https://www.w3.org/) gepflegt wird. Auf der Plattform wird weitgehend das Applikationsprofil für die Schweiz verwendet ([DCAT-AP CH 2](https://www.dcat-ap.ch/)). DCAT gibt vor, welche Informationen zwingend erfasst werden müssen. Zudem schlägt das Vokabular weitere Möglichkeiten zur Beschreibung der Datensammlung vor.     
+Datensammlungen werden bei der Interoperabilitätsplattform I14Y mit dem [Datenkatalog-Vokabular (DCAT)](/handbook/de/glossar) beschrieben. DCAT ist ein standardisiertes Modell zur Beschreibung von Datenkatalogen, das vom Internet-Standardisierungsgremium [W3C](https://www.w3.org/) gepflegt wird. Auf der Plattform wird weitgehend das Applikationsprofil für die Schweiz verwendet ([DCAT-AP CH 2](https://www.dcat-ap.ch/)). DCAT gibt vor, welche Informationen zwingend erfasst werden müssen. Zudem schlägt das Vokabular weitere Möglichkeiten zur Beschreibung der Datensammlung vor.     
 
-Um Informationen zu einer Datensammlung auf der I14Y-Interoperabilitätsplattform speichern zu können, müssen die Minimalanforderungen erfüllt sein, die der DCAT-Standard vorgibt. Die I14Y-IOP bietet einige zusätzliche Felder an, die über den aktuellen DCAT-Standard hinausgehen. Welche Felder beim Erfassen von Datensammlungen mit welchen Informationen befüllt werden, wird im Kapitel [Publikation](/handbook/de/publikation/katalog/datensammlung) aufgeführt.
+Um Informationen zu einer Datensammlung auf der Interoperabilitätsplattform I14Y speichern zu können, müssen die Minimalanforderungen erfüllt sein, die der DCAT-Standard vorgibt. Die I14Y-IOP bietet einige zusätzliche Felder an, die über den aktuellen DCAT-Standard hinausgehen. Welche Felder beim Erfassen von Datensammlungen mit welchen Informationen befüllt werden, wird im Kapitel [Publikation](/handbook/de/publikation/katalog/datensammlung) aufgeführt.
 
 ### Struktur
 
@@ -263,7 +263,7 @@ Das Datenelement ist die kleineste Beschreibungseinheit einer Datensammlung. Oft
 
 Das Konzept beschreibt die im Datenelement enthaltenen Informationen eindeutig und vollständig. Bei einem Konzept kann es sich um eine Zahl, eine Zeichenkette, ein Datum oder um eine Codeliste mit vordefinierten Werten handeln. 
 
-Zur Beschreibung der Konzepte wird bei der I14Y-Interoperabilitätsplattform der Standard [ISO 11179-1:2023](https://www.iso.org/standard/78914.html) verwendet. Erfasst wird der Typ des Konzepts. Abhängig davon sind weitere Angaben wie etwa die Länge oder die möglichen Minimal- und Maximalwerte nötig. Eine Schritt-für-Schritt-Anleitung zur Erfassung eines Konzepts ist im Kapitel [Publikation](/handbook/de/publikation/konzepte) zu finden. 
+Zur Beschreibung der Konzepte wird bei der Interoperabilitätsplattform I14Y der Standard [ISO 11179-1:2023](https://www.iso.org/standard/78914.html) verwendet. Erfasst wird der Typ des Konzepts. Abhängig davon sind weitere Angaben wie etwa die Länge oder die möglichen Minimal- und Maximalwerte nötig. Eine Schritt-für-Schritt-Anleitung zur Erfassung eines Konzepts ist im Kapitel [Publikation](/handbook/de/publikation/konzepte) zu finden. 
 
 ## Elektronische Schnittstelle (API)
 
@@ -271,7 +271,7 @@ Eine elektronische Schnittstelle -- auf Englisch _Application Programm Interface
 
 Auf der I14Y-IOP muss zusätzlich etwa zum Titel und der Beschreibung ein sogenannter Endpunkt, von wo Daten bezogen werden können, oder ein Link zur Dokumentation angegeben werden. Wenn möglich wird auch auf die Datensammlung verwiesen, die der API zu Grunde liegt.
 
-Auch APIs werden auf der I14Y-Interoperabilitätsplattform weitgehend mittels des Datenkatalog-Vokabulars DCAT beschrieben. Einige Felder, die im Standard optional sind, müssen zwingend befüllt werden. So empfiehlt der DCAT-Standard lediglich, dass beim Katalogisieren einer API eine Beschreibung erfasst wird. Auf der I14Y-IOP hingegen ist diese Angabe obligatorisch. Alle Felder, die der Standard vorgibt, sind auch auf der Plattform zwingend auszufüllen. 
+Auch APIs werden auf der Interoperabilitätsplattform I14Y weitgehend mittels des Datenkatalog-Vokabulars DCAT beschrieben. Einige Felder, die im Standard optional sind, müssen zwingend befüllt werden. So empfiehlt der DCAT-Standard lediglich, dass beim Katalogisieren einer API eine Beschreibung erfasst wird. Auf der I14Y-IOP hingegen ist diese Angabe obligatorisch. Alle Felder, die der Standard vorgibt, sind auch auf der Plattform zwingend auszufüllen. 
 
 Eine Schritt-für-Schritt-Anleitung dazu, wie elektronische Schnittstellen erfasst werden, ist im Kapitel 
 [Publikation](/handbook/de/4_publikation/katalog/api) zu finden. 
@@ -416,8 +416,8 @@ direction TB
 
 ## Elektronische Behördenleistung
 
-Auf der I14Y-Interoperabilitätsplattform können ausserdem elektronische Behördenleistungen beschrieben werden. So lässt sich dokumentieren, welche Web- oder Mobilapplikationen bestimmte Aufgaben vereinfachen. Erfasst werden zudem Angaben dazu, wie auf die betreffende App zugegriffen werden kann und welche Organisation sie verantwortet. Dank des zentralen Verzeichnisses sollen die elektronischen Behördenleistungen einfacher auffindbar werden. 
+Auf der Interoperabilitätsplattform I14Y können ausserdem elektronische Behördenleistungen beschrieben werden. So lässt sich dokumentieren, welche Web- oder Mobilapplikationen bestimmte Aufgaben vereinfachen. Erfasst werden zudem Angaben dazu, wie auf die betreffende App zugegriffen werden kann und welche Organisation sie verantwortet. Dank des zentralen Verzeichnisses sollen die elektronischen Behördenleistungen einfacher auffindbar werden. 
 
 Um Behördenleistungen zu beschreiben, wird das _Core Public Service Vocabulary_ verwendet, das die Europäische Union definiert hat. Der Aufbau und das gesamte Vokabular sind auf der Interoperabilitätsplattform [Joinup](https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/core-public-service-vocabulary/releases) der Europäischen Kommission dokumentiert. Das wiederverwendbare und ausbaufähige Vokabular gibt bestimmte Felder vor, die zwingend ausgefüllt werden müssen. Jeder Behördenleistung können Kanäle zugeordnet werden -- eine Internet-Adresse etwa oder eine Telefonnummer.
 
-Wie bei der Erfassung einer Behördenleistung auf der I14Y-Interoperabilitätsplattform vorzugehen ist, wird im Kapitel [Publikation](/handbook/de/publikation/katalog/publicservice/) detailliert beschrieben.
+Wie bei der Erfassung einer Behördenleistung auf der Interoperabilitätsplattform I14Y vorzugehen ist, wird im Kapitel [Publikation](/handbook/de/publikation/katalog/publicservice/) detailliert beschrieben.

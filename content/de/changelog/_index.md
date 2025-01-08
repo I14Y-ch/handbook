@@ -3,7 +3,7 @@ title: Changelog
 slug: changelog
 weight: 80
 type: docs
-keywords: [I14Y, I14Y-Interoperabilitätsplattform, IOP, Changelog, Releases, Versionen, Software-Entwicklung]
+keywords: [I14Y, Interoperabilitätsplattform I14Y, IOP, Changelog, Releases, Versionen, Software-Entwicklung]
 ---
 {{<alert title="Language" color="warning">}}
 __DE:__ Diese Seite liegt nur in englischer Sprache vor. Einzig Beschreibungen zu grossen Releases werden auf Deutsch publiziert.

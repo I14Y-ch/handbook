@@ -3,18 +3,18 @@ title: Einleitung
 slug: einleitung
 translationKey: introduction
 description:
-keywords: [I14Y, I14Y-Interoperabilitätsplattform, IOP, Einleitung, Vorwort, Zusammenfassung, Interoperabilität, Mehrfachnutzung, Schweiz, Datensammlung, elektronische Schnittstelle, Datensammlungen, elektronische Schnittstelle, API, Once-Only-Prinzip, Sekundärnutzung von Daten, Harmonisierung, Standardisierung]
+keywords: [I14Y, Interoperabilitätsplattform I14Y, IOP, Einleitung, Vorwort, Zusammenfassung, Interoperabilität, Mehrfachnutzung, Schweiz, Datensammlung, elektronische Schnittstelle, Datensammlungen, elektronische Schnittstelle, API, Once-Only-Prinzip, Sekundärnutzung von Daten, Harmonisierung, Standardisierung]
 weight: 10
 type: docs
 ---
 
 Eine Mehrfachnutzung von Verwaltungsdaten ist dann möglich, wenn bekannt ist, wer über welche Datensammlungen verfügt. Zudem müssen die Daten harmonisiert sein: Alle Ämter sollten mit denselben Kategorien und Codelisten arbeiten -- also etwa dieselben Listen mit Gemeindenamen oder Berufsbezeichnungen verwenden. Eine gute Zusammenarbeit ist unabdingbar für eine erfolgreiche Harmonisierung: Es muss definiert werden, welche Organisation etwa eine Codeliste verantwortet. Alle anderen pflegen die entsprechende Liste nicht selber, sondern übernehmen sie von der zuständigen Stelle. 
 
-Genau dies ist mit der I14Y-Interoperabilitätsplattform möglich: Zusätzlich zu den beschreibenden Metadaten beinhaltet die Plattform strukturelle Metadaten. Diese beschreiben die einzelnen Elemente einer Datensammlung. Jedes Element basiert auf einem eindeutig definierten Konzept, zum Beispiel einer Codeliste. Die Konzepte brauchen nur einmalig von der zuständigen Stelle erfasst zu werden. Andere Organisationen verwenden sie zur Beschreibung ihrer strukturellen Metadaten wieder. 
+Genau dies ist mit der Interoperabilitätsplattform I14Y möglich: Zusätzlich zu den beschreibenden Metadaten beinhaltet die Plattform strukturelle Metadaten. Diese beschreiben die einzelnen Elemente einer Datensammlung. Jedes Element basiert auf einem eindeutig definierten Konzept, zum Beispiel einer Codeliste. Die Konzepte brauchen nur einmalig von der zuständigen Stelle erfasst zu werden. Andere Organisationen verwenden sie zur Beschreibung ihrer strukturellen Metadaten wieder. 
 
 Die einzelnen Behörden profitieren somit von der Arbeit der jeweils anderen. Möglich wird auch etwa, dass ein privates Umfrageinstitut dieselben Kategorien oder Ausprägungen verwendet, die eine staatliche Stelle einsetzt. Dadurch werden nachträgliche Harmonisierungsarbeiten überflüssig. Und in vielen Fällen wird die Datenqualität besser. 
 
-Auf diese Weise hilft die I14Y-Interoperabilitätsplattform dabei, das Schweizerische Datenökosystem semantisch zu harmonisieren. Die Metadaten -- insbesondere die Codelisten -- lassen sich automatisiert über elektronische Schnittstellen (APIs) abrufen. Dies ermöglicht es, die Plattform an beliebige Systeme und Applikationen anzubinden. 
+Auf diese Weise hilft die Interoperabilitätsplattform I14Y dabei, das Schweizerische Datenökosystem semantisch zu harmonisieren. Die Metadaten -- insbesondere die Codelisten -- lassen sich automatisiert über elektronische Schnittstellen (APIs) abrufen. Dies ermöglicht es, die Plattform an beliebige Systeme und Applikationen anzubinden. 
 
 {{<alert title="Was bedeutet I14Y?" color="info">}}
 
@@ -22,7 +22,7 @@ Unnötig viel tippen -- das läuft vielen Informatikern zuwider. Deshalb lieben 
 
 {{</alert>}}
 
-Auf der I14Y-Interoperabilitätsplattform wird zudem ein Verzeichnis von elektronischen Behördenleistungen wie Webapplikationen und Apps aufgebaut. Dieses gibt einen Überblick über das Angebot der öffentlichen Verwaltung. Und es erleichtert den Dialog zwischen den Betreiberinnen und Betreibern der jeweiligen Dienstleistung sowie den Nutzerinnen und Nutzern.
+Auf der Interoperabilitätsplattform I14Y wird zudem ein Verzeichnis von elektronischen Behördenleistungen wie Webapplikationen und Apps aufgebaut. Dieses gibt einen Überblick über das Angebot der öffentlichen Verwaltung. Und es erleichtert den Dialog zwischen den Betreiberinnen und Betreibern der jeweiligen Dienstleistung sowie den Nutzerinnen und Nutzern.
 
 Entwickelt und betrieben wird die Plattform von der Interoperabilitätsstelle (IOS) in der Abteilung Interoperabilität und Register (IOR) des [Bundesamts für Statistik](https://www.bfs.admin.ch). Gesetzlich geregelt wird der Betrieb der Plattform im Bundesgesetz über den Einsatz elektronischer Mittel zur Erfüllung von Behördenaufgaben (EMBAG).
 
@@ -42,7 +42,7 @@ Entwickelt und betrieben wird die Plattform von der Interoperabilitätsstelle (I
 
 {{</card>}}
 
-Die I14Y-Interoperabilitätsplattform steht seit Sommer 2021 zur Verfügung und wird kontinuierlich weiterentwickelt. Sie richtet sich in erster Linie an Bund, Kantone und Gemeinden sowie an die Forschung. Da Verwaltung und Unternehmen eng zusammenarbeiten, steht sie auch Unternehmen offen. Öffentlich publizierte Inhalte können auch von Unternehmen und den Bürgerinnen und Bürgern eingesehen und genutzt werden.
+Die Interoperabilitätsplattform I14Y steht seit Sommer 2021 zur Verfügung und wird kontinuierlich weiterentwickelt. Sie richtet sich in erster Linie an Bund, Kantone und Gemeinden sowie an die Forschung. Da Verwaltung und Unternehmen eng zusammenarbeiten, steht sie auch Unternehmen offen. Öffentlich publizierte Inhalte können auch von Unternehmen und den Bürgerinnen und Bürgern eingesehen und genutzt werden.
 
 {{<alert title="Flugblatt mit den wichtigsten Fakten" color="success" >}}
 

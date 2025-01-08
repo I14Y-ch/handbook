@@ -4,7 +4,7 @@ slug: piattaformi
 translationKey: platforms
 weight: 30
 type: docs
-keywords: [I14Y, I14Y-Interoperabilitätsplattform, Metadaten, Metadaten-Katalog, Lindas, Opendata, Opendata.swiss, Geocat]
+keywords: [I14Y, Interoperabilitätsplattform I14Y, Metadaten, Metadaten-Katalog, Lindas, Opendata, Opendata.swiss, Geocat]
 ---
 
 In Svizzera ci sono diversi cataloghi di metadati, che si differenziano per le loro funzioni e quindi per i campi di applicazione. I gestori delle diverse piattaforme si adoperano affinché il lavoro di sviluppo venga coordinato tra loro.

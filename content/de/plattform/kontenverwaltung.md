@@ -4,25 +4,25 @@ slug: kontenverwaltung
 translationKey: accounts
 weight: 10
 type: docs
-keywords: [I14Y, I14Y-Interoperabilitätsplattform, Nutzungskonto, Konto, Zugang, EIAM, Login]
+keywords: [I14Y, Interoperabilitätsplattform I14Y, Nutzungskonto, Konto, Zugang, EIAM, Login]
 ---
 
-Wer auf der I14Y-Interoperabilitätsplattform Daten erfassen will, benötigt ein Nutzungskonto. Genauso wie jene Personen, die (noch) nicht öffentlich publizierte Informationen der eigenen Organisation einsehen wollen. Der Zugriff wird mit dem _Enterprise Identity and Access Management (EIAM)_ gesteuert. Dieser Dienst wird vom Bundesamt für Informatik für die Eidgenossenschaft betrieben.  
+Wer auf der Interoperabilitätsplattform I14Y Daten erfassen will, benötigt ein Nutzungskonto. Genauso wie jene Personen, die (noch) nicht öffentlich publizierte Informationen der eigenen Organisation einsehen wollen. Der Zugriff wird mit dem _Enterprise Identity and Access Management (EIAM)_ gesteuert. Dieser Dienst wird vom Bundesamt für Informatik für die Eidgenossenschaft betrieben.  
 
-Um auf den internen Bereich der I14Y-Interoperabilitätsplattform zugreifen zu können, ist ein Konto bei einem Anbieter einer digitalen Identifikationslösung nötig. Die Mitarbeitenden der Bundesverwaltung nutzen ihr [Fedlogin](https://www.eiam.swiss). Daneben stehen diverse andere Möglichkeiten zur Auswahl, etwa das CH-Login, die elektronischen Identitäten von Switch oder jene von Kantonen wie Bern, Schaffhausen, Zug und Genf. Weitere Details sind in der [Tabelle Identifikationsmöglichkeiten](/handbook/de/anhang/eiam) im Anhang zu finden. 
+Um auf den internen Bereich der Interoperabilitätsplattform I14Y zugreifen zu können, ist ein Konto bei einem Anbieter einer digitalen Identifikationslösung nötig. Die Mitarbeitenden der Bundesverwaltung nutzen ihr [Fedlogin](https://www.eiam.swiss). Daneben stehen diverse andere Möglichkeiten zur Auswahl, etwa das CH-Login, die elektronischen Identitäten von Switch oder jene von Kantonen wie Bern, Schaffhausen, Zug und Genf. Weitere Details sind in der [Tabelle Identifikationsmöglichkeiten](/handbook/de/anhang/eiam) im Anhang zu finden. 
 
 Gehen Sie folgendermassen vor:
 
-1. Klicken Sie auf der I14Y-Interoperabilitätsplattform oben rechts auf das Einwählsymbol. Wählen Sie den passenden Anbieter zur Identifikation aus. Loggen Sie sich beim Anbieter der digitalen Identität ein oder erstellen Sie ein neues Konto. Achtung: Mitarbeitende der Bundesverwaltung müssen das Fedlogin statt dem CH-Login verwenden, da es ansonsten zu Konflikten kommen kann. Sollte der Prozess plötzlich abbrechen, müssen allenfalls die _Cookies_ gelöscht werden. Den entsprechenden Dialog erreichen Sie, wenn Sie im Webbrowser die Tastenkombination Ctrl-Shift-Löschen drücken. 
+1. Klicken Sie auf der Interoperabilitätsplattform I14Y oben rechts auf das Einwählsymbol. Wählen Sie den passenden Anbieter zur Identifikation aus. Loggen Sie sich beim Anbieter der digitalen Identität ein oder erstellen Sie ein neues Konto. Achtung: Mitarbeitende der Bundesverwaltung müssen das Fedlogin statt dem CH-Login verwenden, da es ansonsten zu Konflikten kommen kann. Sollte der Prozess plötzlich abbrechen, müssen allenfalls die _Cookies_ gelöscht werden. Den entsprechenden Dialog erreichen Sie, wenn Sie im Webbrowser die Tastenkombination Ctrl-Shift-Löschen drücken. 
 
-2. In einem zweiten Schritt müssen die Berechtigungen auf der I14Y-Interoperabilitätsplattform vergeben werden. Grössere Organisationen verwalten die Nutzungskontos selber ([siehe unten](#kontenverwaltung-in-grösseren-organisationen)). Bitte kontaktieren Sie also die Kontenverwalterin oder den Kontoverwalter Ihrer Organisation. Falls Sie keine organisationsinterne Standardlösung wie das Fedlogin nutzen: Teilen Sie insbesondere mit, welche E-Mail-Adresse Sie beim Erstellen eines Logins (siehe Schritt 1) verwendet haben. Sobald die Lese- bzw. Schreibrechte vergeben sind, erhalten Sie eine E-Mail. Diese enthält einen Weblink sowie einen Code. Besuchen Sie die angegebene Webseite und tragen Sie dort den zugestellten Code ein. Damit wird die digitale Identität mit der I14Y-Plattform verknüpft.  
+2. In einem zweiten Schritt müssen die Berechtigungen auf der Interoperabilitätsplattform I14Y vergeben werden. Grössere Organisationen verwalten die Nutzungskontos selber ([siehe unten](#kontenverwaltung-in-grösseren-organisationen)). Bitte kontaktieren Sie also die Kontenverwalterin oder den Kontoverwalter Ihrer Organisation. Falls Sie keine organisationsinterne Standardlösung wie das Fedlogin nutzen: Teilen Sie insbesondere mit, welche E-Mail-Adresse Sie beim Erstellen eines Logins (siehe Schritt 1) verwendet haben. Sobald die Lese- bzw. Schreibrechte vergeben sind, erhalten Sie eine E-Mail. Diese enthält einen Weblink sowie einen Code. Besuchen Sie die angegebene Webseite und tragen Sie dort den zugestellten Code ein. Damit wird die digitale Identität mit der I14Y-Plattform verknüpft.  
 
 ```mermaid
 flowchart TD
     user(fa:fa-user-circle \nDie Nutzerin oder der Nutzer erstellt eine digitale Identität, z.B. ein CH-Login. \nDie 2-Faktoren-Authentifizierung wird aktiviert.)
     account(fa:fa-user-plus \nI14Y-Admin vergibt die Lese- und Schreibrechte.)
     code(fa:fa-file-text \nDie Nutzerin oder der Nutzer erhält per E-Mail einen Code zugestellt. \nDieser ist nötig, um die Identität mit dem I14Y-Konto zu verknüpfen.)
-    i14y(fa:fa-database \nDie Nutzerin oder der Nutzer kann nun \nauf den internen Bereich der eigenen Verwaltungseinheit auf der I14Y-Interoperabilitätsplattform zugreifen.)
+    i14y(fa:fa-database \nDie Nutzerin oder der Nutzer kann nun \nauf den internen Bereich der eigenen Verwaltungseinheit auf der Interoperabilitätsplattform I14Y zugreifen.)
 
 user-->account
 account-->code
@@ -32,7 +32,7 @@ code-->i14y
 Diese Einrichtungsschritte sind einmalig nötig. Falls Sie später die Angaben zum eigenen Konto anpassen möchten, besuchen Sie den [Kontoverwaltungsbereich von EIAM](https://www.myaccount.eiam.admin.ch). 
 
 {{<alert title="Wieviel kostet das Konto?" color="info" >}}
-Die I14Y-Interoperabilitätsplattform wird von der Eidgenossenschaft im Rahmen des Programms Nationale Datenbewirtschaftung entwickelt und betrieben. Finanziert werden die Aufbauarbeiten wie auch der Betrieb vom Bund. Mittelfristig kann das Portal kostenlos genutzt werden -- auch von Inhaltsanbieterinnen und -anbietern aus Kantons- und Gemeindeverwaltungen sowie von staatsnahen Unternehmen. Über die längerfristige Finanzierung wird in einer späteren Phase entschieden. 
+Die Interoperabilitätsplattform I14Y wird von der Eidgenossenschaft im Rahmen des Programms Nationale Datenbewirtschaftung entwickelt und betrieben. Finanziert werden die Aufbauarbeiten wie auch der Betrieb vom Bund. Mittelfristig kann das Portal kostenlos genutzt werden -- auch von Inhaltsanbieterinnen und -anbietern aus Kantons- und Gemeindeverwaltungen sowie von staatsnahen Unternehmen. Über die längerfristige Finanzierung wird in einer späteren Phase entschieden. 
 
 {{</alert>}}
 

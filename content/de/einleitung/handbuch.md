@@ -3,19 +3,19 @@ title: Handbuch
 slug: handbuch
 translationKey: handbook
 description: 
-keywords: [I14Y, I14Y-Interoperabilitätsplattform, IOP, Einleitung, Interoperabilität, Mehrfachnutzung, Schweiz, Handbuch, Dokumentation, Github]
+keywords: [I14Y, Interoperabilitätsplattform I14Y, IOP, Einleitung, Interoperabilität, Mehrfachnutzung, Schweiz, Handbuch, Dokumentation, Github]
 weight: 20
 type: docs
 ---
 
-Dieses Handbuch erläutert die wichtigsten Funktionen der I14Y-Interoperabilitätsplattform. Es beinhaltet zahlreiche Schritt-für-Schritt-Anleitungen. Zusätzlich bietet es Angaben zu technischen Details sowie Hintergrundinformationen zur Harmonisierung und Standardisierung von Daten.
+Dieses Handbuch erläutert die wichtigsten Funktionen der Interoperabilitätsplattform I14Y. Es beinhaltet zahlreiche Schritt-für-Schritt-Anleitungen. Zusätzlich bietet es Angaben zu technischen Details sowie Hintergrundinformationen zur Harmonisierung und Standardisierung von Daten.
 
-In einem ersten Kapitel werden die [Rollen und Prozesse](/handbook/de/gouvernanz) in der Datenbewirtschaftung beleuchtet. Unter [Metadaten abrufen](/handbook/de/metadaten_abrufen) werden Wege zum Bezug von Informationen von der I14Y-Interoperabilitätsplattform aufgezeigt. Im darauf folgenden Kapitel [Metadaten publizieren](/handbook/de/publikation) wird erläutert, wie Beschreibungen von Datensammlungen, elektronischen Schnittstellen und Datenelementen auf der Plattform veröffentlicht werden. Zudem wird gezeigt, wie das Verzeichnis der Behördenleistungen befüllt wird. 
+In einem ersten Kapitel werden die [Rollen und Prozesse](/handbook/de/gouvernanz) in der Datenbewirtschaftung beleuchtet. Unter [Metadaten abrufen](/handbook/de/metadaten_abrufen) werden Wege zum Bezug von Informationen von der Interoperabilitätsplattform I14Y aufgezeigt. Im darauf folgenden Kapitel [Metadaten publizieren](/handbook/de/publikation) wird erläutert, wie Beschreibungen von Datensammlungen, elektronischen Schnittstellen und Datenelementen auf der Plattform veröffentlicht werden. Zudem wird gezeigt, wie das Verzeichnis der Behördenleistungen befüllt wird. 
 
 <!--Später ergänzen: Nebst den schriftlichen Anleitungen enthält dieses Handbuch auch einige Videotutorials.--> 
 Das Handbuch enthält zudem ein [Glossar](/handbook/de/glossar) mit Fachbegriffen, eine [Liste mit Weblinks](/handbook/de/anhang/weblinks), eine Übersicht über die [Partnerorganisationen](/handbook/de/partner) sowie ein [Log](/handbook/de/anhang/changelog) mit den wichtigsten Änderungen, die an der Plattform vorgenommen wurden.
 
-Die Funktionalitäten der I14Y-Interoperabilitätsplattform werden laufend ausgebaut. Auch dieses Handbuch wird regelmässig überarbeitet. Haben Sie Anregungen, wie es verbessert werden könnte? Oder möchten Sie die Erfahrungen, die Sie mit dem Handbuch oder der Plattform gemacht haben, mit uns teilen? [Schreiben Sie uns](mailto:i14y@bfs.admin.ch). Dieses Handbuch wird auf der [Codeverwaltungsplattform Github](https://github.com/I14Y-ch/handbook/) gepflegt. Gerne können Sie dort einen Pull-Request mit Ihren Änderungswünschen einreichen.
+Die Funktionalitäten der Interoperabilitätsplattform I14Y werden laufend ausgebaut. Auch dieses Handbuch wird regelmässig überarbeitet. Haben Sie Anregungen, wie es verbessert werden könnte? Oder möchten Sie die Erfahrungen, die Sie mit dem Handbuch oder der Plattform gemacht haben, mit uns teilen? [Schreiben Sie uns](mailto:i14y@bfs.admin.ch). Dieses Handbuch wird auf der [Codeverwaltungsplattform Github](https://github.com/I14Y-ch/handbook/) gepflegt. Gerne können Sie dort einen Pull-Request mit Ihren Änderungswünschen einreichen.
 
 {{<alert title="So reichen Sie einen Pull-Request ein" color="success">}}
 

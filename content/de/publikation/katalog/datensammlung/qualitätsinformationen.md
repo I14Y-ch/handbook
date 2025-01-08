@@ -3,10 +3,10 @@ title: Qualitätsinformationen
 slug: qualitaetsinformationen
 weight: 40
 type: docs
-keywords: [I14Y, I14Y-Interoperabilitätsplattform, Metadaten, Metadaten-Katalog, Qualität, Qualitätsinformationen]
+keywords: [I14Y, Interoperabilitätsplattform I14Y, Metadaten, Metadaten-Katalog, Qualität, Qualitätsinformationen]
 ---
 
-Auf der I14Y-Interoperabilitätsplattform werden zudem Angaben zur Qualität der Datensammlung erfasst. Dank diesen können Nutzerinnen und Nutzer rasch abschätzen, ob die Datensammlung für die eigenen Zwecke hilfreich ist oder nicht. Sollen die Metainformationen zu einer Datensammlung öffentlich publiziert werden, sind die Fragen zur Qualität zwingend auszufüllen.
+Auf der Interoperabilitätsplattform I14Y werden zudem Angaben zur Qualität der Datensammlung erfasst. Dank diesen können Nutzerinnen und Nutzer rasch abschätzen, ob die Datensammlung für die eigenen Zwecke hilfreich ist oder nicht. Sollen die Metainformationen zu einer Datensammlung öffentlich publiziert werden, sind die Fragen zur Qualität zwingend auszufüllen.
 
 Dank der Qualitätsinformationen ist etwa auf einen Blick ersichtlich, ob die Datensammlung über einen Primärschlüssel verfügt, anhand dessen die Daten mit Informationen aus einer anderen Quelle zusammengeführt werden können. Hilfreich können auch etwa die Angaben zum Aktualisierungsintervall sein.  
 

@@ -3,7 +3,7 @@ title: Open Government Data erfassen
 slug: ogd
 weight: 20
 type: docs
-keywords: [I14Y, I14Y-Interoperabilitätsplattform, I14Y-IOP, Interoperabilität, Datensatz, Datensammlung, Dataset, Erfassen, Erfassung, Inventar, Katalog, Open Data, OGD, opendata.swiss, DCAT]
+keywords: [I14Y, Interoperabilitätsplattform I14Y, I14Y-IOP, Interoperabilität, Datensatz, Datensammlung, Dataset, Erfassen, Erfassung, Inventar, Katalog, Open Data, OGD, opendata.swiss, DCAT]
 ---
 
 Sie möchten Ihre offenen Behördendaten auf [opendata.swiss](https://opendata.swiss) publizieren? Nutzen Sie für die manuelle Datenerfassung die I14Y. In diesem Kapitel wird detailliert erklärt, wie sie Open Government Data auf der Interoperabilitätsplattform erfassen und auf opendata.swiss publizieren. 
@@ -18,7 +18,7 @@ Sollten Sie zum ersten Mal Datensammlungen auf I14Y und opendata.swiss publizier
 
 Um Metadaten zu einer Datensammlung zu erfassen, müssen Sie sich in den Input-Bereich von I14Y](https://input.i14y.admin.ch/) einloggen. Falls Ihnen mehrere Rollen zugewiesen sind, wählen Sie bitte das für Sie zutreffende Profil für die Publikation und Pflege von OGD aus.
 
-Sie befinden sich nun im Input-Bereich. Hier sehen Sie drei Kacheln, über die Sie zu den verschiedenen Arbeitsbereichen gelangen: **Katalog pflegen**, **Konzepte pflegen** und **I14Y-Interoperabilitätsplattform**. Unterhalb dieser Kacheln finden Sie die Kachel **Meine Daten**. Dort werden Aufgaben aufgelistet, die Sie betreffen.
+Sie befinden sich nun im Input-Bereich. Hier sehen Sie drei Kacheln, über die Sie zu den verschiedenen Arbeitsbereichen gelangen: **Katalog pflegen**, **Konzepte pflegen** und **Interoperabilitätsplattform I14Y**. Unterhalb dieser Kacheln finden Sie die Kachel **Meine Daten**. Dort werden Aufgaben aufgelistet, die Sie betreffen.
 
 Um einen Datensammlung in ihrem Katalog zu erfassen, klicken Sie auf die Kachel **Katalog pflegen**. Nun sehen Sie eine Liste der Datensammlungen Ihrer Organisation sowie alle öffentlich publizierten Beschreibungen anderer Organisationen. Für jede Datensammlung werden Titel, Identifikator, Herausgeber, Typ, Status und der Publikationskanal auf I14Y angezeigt. 
 

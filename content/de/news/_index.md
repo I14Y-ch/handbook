@@ -3,12 +3,12 @@ title: News
 slug: news
 weight: 90
 type: docs
-keywords: [I14Y, I14Y-Interoperabilitätsplattform, IOP, Nachrichten, News, Neuigkeiten]
+keywords: [I14Y, Interoperabilitätsplattform I14Y, IOP, Nachrichten, News, Neuigkeiten]
 ---
 
 {{<alert title="Bleiben Sie stets auf dem Laufenden" color="success" >}}
 
-Möchten Sie über neue Funktionen und Angebote auf der I14Y-Interoperabilitätsplattform informiert werden? Dann folgen Sie der I14Y auf dem sozialen Netzwerk [LinkedIn](https://www.linkedin.com/showcase/103890166/). Gerne können Sie auch das Newsmail abonnieren. Drei bis viermal pro Jahr erhalten Sie per E-Mail eine Zusammenstellung der neusten Entwicklungen bei der I14Y-IOP. Um das Newsmail kostenlos zu abonnieren, besuchen Sie den [Abodienst des Bundesamts für Statistik](https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/kontakt/newsmail-abonnement.html) und wählen Sie "I14Y-Interoperabilitätsplattform" aus. 
+Möchten Sie über neue Funktionen und Angebote auf der Interoperabilitätsplattform I14Y informiert werden? Dann folgen Sie der I14Y auf dem sozialen Netzwerk [LinkedIn](https://www.linkedin.com/showcase/103890166/). Gerne können Sie auch das Newsmail abonnieren. Drei bis viermal pro Jahr erhalten Sie per E-Mail eine Zusammenstellung der neusten Entwicklungen bei der I14Y-IOP. Um das Newsmail kostenlos zu abonnieren, besuchen Sie den [Abodienst des Bundesamts für Statistik](https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/kontakt/newsmail-abonnement.html) und wählen Sie "Interoperabilitätsplattform I14Y" aus. 
 
 {{</alert>}}
 
@@ -122,12 +122,12 @@ Enthält eine auf der I14Y-Plattform beschriebene Datensammlung personenbezogene
 
 Auch die gesetzliche Aufbewahrungsfrist einer Datensammlung kann nun erfasst werden. Bei einmalig erhobenen Daten wird das genaue Datum angegeben, an dem sie gelöscht werden muss. Bei einer periodisch aktualisierten Datensammlung wird in einem Freitextfeld beschrieben, in welchem Intervall die Daten vom Datenbesitzer gelöscht werden, z.B. «fünf Jahre nach Ablauf des jeweiligen Kalenderjahres». 
 
-Die neuen Felder «Vertraulichkeit» und «Aufbewahrungsfrist» sind im DCAT-Standard nicht vorgesehen, sondern werden zusätzlich angeboten. Sie müssen daher nicht zwingend ausgefüllt werden. Eine detaillierte Übersicht aller Eingabefelder der I14Y-Interoperabilitätsplattform finden Sie hier.
+Die neuen Felder «Vertraulichkeit» und «Aufbewahrungsfrist» sind im DCAT-Standard nicht vorgesehen, sondern werden zusätzlich angeboten. Sie müssen daher nicht zwingend ausgefüllt werden. Eine detaillierte Übersicht aller Eingabefelder der Interoperabilitätsplattform I14Y finden Sie hier.
 
 ## Bundesexterne Nutzerinnen und Nutzer gut integriert
 *20.02.2024*
 
-Mit dem Release vom 4. Dezember 2023 wurde die I14Y-Interoperabilitätsplattform an [eIAM](https://www.eiam.swiss/) angebunden (zugänglich via CH-LOGIN oder IdP), damit die Nutzerprofile zusätzlich zum Verzeichnis der Bundesangestellten AdminDir auch dort beschrieben werden können. Bundesexterne Nutzerinnen und Nutzer können so als Konzeptverantwortliche angemeldet werden und aktiv an der Bewirtschaftung der Metadaten mitwirken. Diese Funktion verbessert die Zusammenarbeit zwischen bundesinternen und -externen Nutzenden auf der Interoperabilitätsplattform und vereinheitlicht die verschiedenen Anmeldemöglichkeiten.
+Mit dem Release vom 4. Dezember 2023 wurde die Interoperabilitätsplattform I14Y an [eIAM](https://www.eiam.swiss/) angebunden (zugänglich via CH-LOGIN oder IdP), damit die Nutzerprofile zusätzlich zum Verzeichnis der Bundesangestellten AdminDir auch dort beschrieben werden können. Bundesexterne Nutzerinnen und Nutzer können so als Konzeptverantwortliche angemeldet werden und aktiv an der Bewirtschaftung der Metadaten mitwirken. Diese Funktion verbessert die Zusammenarbeit zwischen bundesinternen und -externen Nutzenden auf der Interoperabilitätsplattform und vereinheitlicht die verschiedenen Anmeldemöglichkeiten.
 
 ## Die Zusammenarbeit mit den Kantonen und Gemeinden stärken
 *20.02.2024*
@@ -174,7 +174,7 @@ Die I14Y-IOP des BFS hat im Finale des internationalen 22. eGovernment-Wettbewer
 ## Erklärvideo zur Datenharmonisierung in der Schweiz
 *18.04.2023*
 
-Wie funktionieren das Once-Only-Prinzip und die I14Y-Interoperabilitätsplattform? Wie hängt beides zusammen? Das 3-minütige Video «Mit der I14Y in die digitale Zukunft der Schweiz» erklärt es auf leicht verständliche Art und Weise.
+Wie funktionieren das Once-Only-Prinzip und die Interoperabilitätsplattform I14Y? Wie hängt beides zusammen? Das 3-minütige Video «Mit der I14Y in die digitale Zukunft der Schweiz» erklärt es auf leicht verständliche Art und Weise.
 
 {{< youtube_custom U0CpW1bNIdU >}}
 
@@ -206,12 +206,12 @@ Beim I14Y-Chatbot handelt es sich um ein Experiment, das im Rahmen eines Teamtag
 
 Dieses Jahr stehen 18 Behördenteams mit ihren Projekten zur Digitalisierung und Transformation der öffentlichen Verwaltung im Finale. Die Jury hat bereits gewählt – nun kann für den Publikumspreis abgestimmt werden. Nehmen Sie am [Online-Voting](https://www.egovernment-wettbewerb.de/online-voting/online-voting.html) teil und helfen Sie der I14Y-IOP, den Publikumspreis zu gewinnen!
 
-## Dank eIAM einfacher Zugriff auf die I14Y-Interoperabilitätsplattform
+## Dank eIAM einfacher Zugriff auf die Interoperabilitätsplattform I14Y
 *16.02.2023*
 
 {{< figure src="/handbook/img/news/02_eiam.jpg" alt="I14Y-Symbol Konzepte" width="250px" class="float-left img-news-thumb" >}}
 
-Dank eIAM ist die I14Y-Interoperabilitätsplattform (I14Y-IOP) nun für die Nutzerinnen und Nutzer aus Gemeinden, Kantonen, Institutionen und der Bundesverwaltung noch besser zugänglich. Einmal eingeloggt können sie auf der Administrationsoberfläche das Datenangebot ihrer Organisation einpflegen und bearbeiten.
+Dank eIAM ist die Interoperabilitätsplattform I14Y (I14Y-IOP) nun für die Nutzerinnen und Nutzer aus Gemeinden, Kantonen, Institutionen und der Bundesverwaltung noch besser zugänglich. Einmal eingeloggt können sie auf der Administrationsoberfläche das Datenangebot ihrer Organisation einpflegen und bearbeiten.
 eIAM ist das zentrale Zugriffs- und Berechtigungssystem der Bundesverwaltung für Webapplikationen und native Mobile Apps. Alle Nutzerinnen und Nutzer, die über ein eIAM-Konto oder ein CH-Login verfügen, können sich nun ganz einfach auf der I14Y-IOP einloggen. Dank dieser Anbindung werden Kosten gespart und die Sicherheit erhöht. Nutzerinnen und Nutzer aus der Bundesverwaltung können sich weiterhin mit ihrer Smartcard anmelden.
 
 ## Neu auf der I14Y-IOP: Gebäude- und Wohnungsstammdaten 
@@ -219,7 +219,7 @@ eIAM ist das zentrale Zugriffs- und Berechtigungssystem der Bundesverwaltung fü
 
 {{< figure src="/handbook/img/news/03_ewg.png" alt="I14Y-Symbol Konzepte" width="250px" class="float-left img-news-thumb" >}}
 
-Die Stammdaten zu den Gebäuden und Wohnungen sind im I14Y-Metadatenkatalog beschrieben und stehen zur Wiederverwendung bereit. Die detaillierten Beschreibungen zur Datenstruktur vervollständigen die umfassende Liste der im Register verfügbaren Daten, tragen zu deren Transparenz bei und fördern die Wiederverwendung offizieller Standards. Die bei der Bereitstellung der Daten (MADD) im Register verwendete API ist im API-Verzeichnis der I14Y-IOP verfügbar. Möchten auch Sie Ihre Metadaten oder APIs auf der I14Y-Interoperabilitätsplattform publizieren? Dann kontaktieren Sie uns i14y@bfs.admin.ch.
+Die Stammdaten zu den Gebäuden und Wohnungen sind im I14Y-Metadatenkatalog beschrieben und stehen zur Wiederverwendung bereit. Die detaillierten Beschreibungen zur Datenstruktur vervollständigen die umfassende Liste der im Register verfügbaren Daten, tragen zu deren Transparenz bei und fördern die Wiederverwendung offizieller Standards. Die bei der Bereitstellung der Daten (MADD) im Register verwendete API ist im API-Verzeichnis der I14Y-IOP verfügbar. Möchten auch Sie Ihre Metadaten oder APIs auf der Interoperabilitätsplattform I14Y publizieren? Dann kontaktieren Sie uns i14y@bfs.admin.ch.
 
 ## Das BFS nimmt am GovTech Hackathon teil  
 *16.02.2023*

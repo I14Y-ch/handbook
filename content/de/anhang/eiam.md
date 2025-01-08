@@ -5,7 +5,7 @@ weight: 40
 type: docs
 ---
 
-Die I14Y-Interoperabilitätsplattform verwendet das _Enterprise Identity and Access Management (EIAM)_, das das Bundesamt für Informatik betreibt. Daran sind diverse bestehende Identifikationsanbieter angebunden.
+Die Interoperabilitätsplattform I14Y verwendet das _Enterprise Identity and Access Management (EIAM)_, das das Bundesamt für Informatik betreibt. Daran sind diverse bestehende Identifikationsanbieter angebunden.
 
 | Name | Beschreibung |
 | --- | --- |

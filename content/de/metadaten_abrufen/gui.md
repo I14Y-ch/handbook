@@ -3,10 +3,10 @@ title: Über die Weboberfläche
 slug: gui
 weight: 10
 type: docs
-keywords: [I14Y, I14Y-Interoperabilitätsplattform, I14Y-IOP, GUI, Daten abrufen, Datenbezug, beziehen, abrufen]
+keywords: [I14Y, Interoperabilitätsplattform I14Y, I14Y-IOP, GUI, Daten abrufen, Datenbezug, beziehen, abrufen]
 ---
 
-Auf der öffentlich zugänglichen Oberfläche der I14Y-Interoperabilitätsplattform sind jene Metadaten zu finden, die von den _Local Data Stewards_ oder der Interoperabilitätsstelle freigeschaltet worden sind. Um zur Übersichtsseite zu den Datensammlungen, elektronischen Schnittstellen und Behördenleistungen zu gelangen, klicken Sie auf die Kachel "Katalog durchsuchen". Um zur Übersichtsseite mit den Konzepten -- zum Beispiel den Codelisten -- zu gelangen, klicken Sie auf "Konzepte".
+Auf der öffentlich zugänglichen Oberfläche der Interoperabilitätsplattform I14Y sind jene Metadaten zu finden, die von den _Local Data Stewards_ oder der Interoperabilitätsstelle freigeschaltet worden sind. Um zur Übersichtsseite zu den Datensammlungen, elektronischen Schnittstellen und Behördenleistungen zu gelangen, klicken Sie auf die Kachel "Katalog durchsuchen". Um zur Übersichtsseite mit den Konzepten -- zum Beispiel den Codelisten -- zu gelangen, klicken Sie auf "Konzepte".
 
 {{<alert title="Hier finden Sie die Einträge der eigenen Organisation" color="success">}}
 
@@ -43,7 +43,7 @@ __Distributionen:__ Die I14Y-IOP stellt ausschliesslich Metadaten zur Verfügung
 
 {{<alert title="So lesen Sie CSV-Daten in Microsoft Excel ein" color="success">}}
 
-Die I14Y-Interoperabilitätsplattform bietet einen Export im maschinenlesbaren CSV-Format an. Die Werte werden mit Kommas getrennt. Als Zeichensatz wird der weit verbreitete Standard UTF-8 verwendet. 
+Die Interoperabilitätsplattform I14Y bietet einen Export im maschinenlesbaren CSV-Format an. Die Werte werden mit Kommas getrennt. Als Zeichensatz wird der weit verbreitete Standard UTF-8 verwendet. 
 
 Soll eine CSV-Datei in Microsoft Excel unter Windows eingelesen werden, ist ein Umweg nötig. Um die Datei etwa in Excel 2021 bearbeiten zu können, wird sie zuerst heruntergeladen. Nun wird eine neue Tabelle in Excel generiert. Wählen Sie dann im Menu den Punkt "Daten" aus. Klicken Sie auf "Daten abrufen", dann auf "Aus Datei" und schliesslich auf "Aus Text/CSV" an. Im Import-Fenster stellen Sie den "Dateiursprung" auf UTF-8 um. Und als Trennzeichen wählen Sie das Komma. 
 

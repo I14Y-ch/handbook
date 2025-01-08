@@ -3,12 +3,12 @@ title: Distributionen hinzufügen
 slug: distributionen
 weight: 30
 type: docs
-keywords: [I14Y, I14Y-Interoperabilitätsplattform, I14Y-IOP, Interoperabilität, Datensammlung, Dataset, Erfassen, Erfassung, Inventar, Katalog, Distribution, File, Datei]
+keywords: [I14Y, Interoperabilitätsplattform I14Y, I14Y-IOP, Interoperabilität, Datensammlung, Dataset, Erfassen, Erfassung, Inventar, Katalog, Distribution, File, Datei]
 ---
 
 Bei einer Distribution handelt es sich um einen Export der Datensammlung in einem spezifischen Format, also etwa um eine CSV-Datei, die aus einer Datenbank generiert wird. Dabei können auch unterschiedliche Formen angeboten werden: Exporte in mehreren Sprachen etwa oder unterschiedliche räumliche oder örtliche Auflösungen. Entsprechend ist es nicht zwingend, dass jeder Export alle Informationen der betreffenden Datensammlung enthält. Eine Distribution kann etwa alle Daten über die Anzahl Einwohnerinnen und Einwohner der Schweiz enthalten. Sie kann sich aber auch auf ein einzelnes Jahr oder eine einzelne Gemeinde beschränken. 
 
-Auf der I14Y-Interoperabilitätsplattform können Links zu solchen Datenangeboten hinterlegt werden. Direkt auf der Metadaten-Plattform lassen sich die Daten aber nicht speichern. 
+Auf der Interoperabilitätsplattform I14Y können Links zu solchen Datenangeboten hinterlegt werden. Direkt auf der Metadaten-Plattform lassen sich die Daten aber nicht speichern. 
 
 Zum Erfassen des Weblinks zu einem Datenexport öffnen Sie im internen Bereich im Katalog den betreffenden Eintrag. Klicken Sie auf die Registerkarte "Distributionen" und anschliessend auf "Erstellen". Füllen Sie die Felder zum __Titel__ und der __Beschreibung__ aus -- analog zum Vorgehen beim Erfassen der Grundinformationen zur Datensammlung. 
 

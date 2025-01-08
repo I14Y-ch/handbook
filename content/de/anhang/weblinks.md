@@ -48,5 +48,5 @@ type: docs
 | Weblink | Beschreibung | Land |
 | ----- | ----- | ----- | ---- | --- |
 | [opendatacommons.org](https://opendatacommons.org/) | Lizenzen für offene Daten  | International |
-| [egovernment-wettbewerb.de](https://www.egovernment-wettbewerb.de/) | eGovernment-Wettbewerb, an dem die I14Y-Interoperabilitätsplattform teilgenommen hat.  | International |
+| [egovernment-wettbewerb.de](https://www.egovernment-wettbewerb.de/) | eGovernment-Wettbewerb, an dem die Interoperabilitätsplattform I14Y teilgenommen hat.  | International |
 {.weblink1}

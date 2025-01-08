@@ -3,7 +3,7 @@ title: Struktur beschreiben
 slug: struktur
 weight: 20
 type: docs
-keywords: [I14Y, I14Y-Interoperabilitätsplattform, I14Y-IOP, Interoperabilität, Datensammlung, Dataset, Erfassen, Erfassung, Inventar, Katalog, Struktur]
+keywords: [I14Y, Interoperabilitätsplattform I14Y, I14Y-IOP, Interoperabilität, Datensammlung, Dataset, Erfassen, Erfassung, Inventar, Katalog, Struktur]
 ---
 
 Eine Datensammlung hat eine Struktur. Diese beschreibt, wie die Datensammlung gegliedert ist. Der Katalogeintrag aus dem vorangehenden Kapitel dokumentiert lediglich, dass eine Datensammlung besteht. Mit der Struktur hingegen wird gezeigt, wie sie aussieht. Am Beispiel: Ein Katalogeintrag könnte beschreiben, dass eine Datensammlung zur Wohnbevölkerung besteht. Dank der Angaben zur Struktur erfährt man, dass die Datensammlung die Gemeindenummer und den Namen der Gemeinde enthält, sowie das Total der ständigen Wohnbevölkerung. Die Informationen zur Struktur einer Datensammlung sind also wichtig, um den Aufbau und damit auch die Möglichkeiten zur Weiterverwendung einer Datensammlung rasch verstehen zu können. 

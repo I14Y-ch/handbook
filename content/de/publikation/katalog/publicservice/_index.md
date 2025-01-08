@@ -3,16 +3,16 @@ title: Behördenleistung
 slug: publicservice
 weight: 40
 type: docs
-keywords: [I14Y, I14Y-Interoperabilitätsplattform, I14Y-IOP, Interoperabilität, Behördenleistung, öffentliche Dienstleistung, Website, Portal, Webapp, App, Mobile App, Applikation, Verzeichnis, Schweiz]
+keywords: [I14Y, Interoperabilitätsplattform I14Y, I14Y-IOP, Interoperabilität, Behördenleistung, öffentliche Dienstleistung, Website, Portal, Webapp, App, Mobile App, Applikation, Verzeichnis, Schweiz]
 ---
 
-Digitale Angebote wie Apps und Webportale vereinfachen viele Interaktionen zwischen den Behörden sowie den Bürgerinnen und Bürgern beziehungsweise den Unternehmen. Das Verzeichnis der elektronischen Behördenleistungen auf der I14Y-Interoperabilitätsplattform hilft dabei diese Angebote einfach auffindbar und sichtbar zu machen. 
+Digitale Angebote wie Apps und Webportale vereinfachen viele Interaktionen zwischen den Behörden sowie den Bürgerinnen und Bürgern beziehungsweise den Unternehmen. Das Verzeichnis der elektronischen Behördenleistungen auf der Interoperabilitätsplattform I14Y hilft dabei diese Angebote einfach auffindbar und sichtbar zu machen. 
 
-Im Folgenden wird erklärt, wie Informationen zu Behördenleistungen erfasst werden können. Die I14Y-Interoperabilitätsplattform setzt zum Beschreiben von Behördenleistungen das [_Core Public Service Vocabulary_](https://github.com/SEMICeu/CPSV-AP) der Europäischen Union ein (siehe auch [Informationsmodell](/handbook/de/gouvernanz/informationsmodell)). Die einzelnen Eingabefelder sind im [Anhang](/handbook/de/anhang/eingabefelder) detailliert beschrieben. 
+Im Folgenden wird erklärt, wie Informationen zu Behördenleistungen erfasst werden können. Die Interoperabilitätsplattform I14Y setzt zum Beschreiben von Behördenleistungen das [_Core Public Service Vocabulary_](https://github.com/SEMICeu/CPSV-AP) der Europäischen Union ein (siehe auch [Informationsmodell](/handbook/de/gouvernanz/informationsmodell)). Die einzelnen Eingabefelder sind im [Anhang](/handbook/de/anhang/eingabefelder) detailliert beschrieben. 
 
 {{<alert title="Was ist eine Behördenleistung?" color="info">}}
  
-Auf der I14Y-Interoperabilitätsplattform können obligatorische und freiwillige Tätigkeiten der Behörden verzeichnet werden. Diese müssen von der betreffenden Behörde oder von einer externen Stelle in deren Auftrag erbracht werden. Behördenleistungen werden stets mit öffentlichen Mitteln finanziert. Die entsprechenden Dienstleistungen können zugunsten einer Einzelperson, eines Unternehmens oder einer anderen öffentlichen Stelle erbracht werden. Eine Dienstleistung besteht unabhängig davon, ob sie in Anspruch genommen wird oder nicht.
+Auf der Interoperabilitätsplattform I14Y können obligatorische und freiwillige Tätigkeiten der Behörden verzeichnet werden. Diese müssen von der betreffenden Behörde oder von einer externen Stelle in deren Auftrag erbracht werden. Behördenleistungen werden stets mit öffentlichen Mitteln finanziert. Die entsprechenden Dienstleistungen können zugunsten einer Einzelperson, eines Unternehmens oder einer anderen öffentlichen Stelle erbracht werden. Eine Dienstleistung besteht unabhängig davon, ob sie in Anspruch genommen wird oder nicht.
 
 {{</alert>}}
 

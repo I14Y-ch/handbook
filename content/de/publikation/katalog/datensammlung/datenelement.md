@@ -3,7 +3,7 @@ title: Datenelemente hinzufügen
 slug: dataelement
 weight: 30
 type: docs
-keywords: [I14Y, I14Y-Interoperabilitätsplattform, I14Y-IOP, Interoperabilität, Datensammlung, Dataset, Datensatz, Konzept, Datenelement]
+keywords: [I14Y, Interoperabilitätsplattform I14Y, I14Y-IOP, Interoperabilität, Datensammlung, Dataset, Datensatz, Konzept, Datenelement]
 ---
 
 Datenelemente sind die kleinsten Einheiten einer Datensammlung. Gelegentlich werden sie auch als Attribut bezeichnet, als (definierte) Variable oder im Fall einer Tabelle als Spalte. Das Datenelement enthält die einzelnen Werte, im Beispiel mit der Wohnbevölkerung also etwa die Anzahl der Personen, die in einer Gemeinde leben. Auf der I14Y-IOP referenziert das Datenelement ein Konzept, ist also entweder eine Zeichenkette, eine Nummer, ein Datum oder eine Codeliste.

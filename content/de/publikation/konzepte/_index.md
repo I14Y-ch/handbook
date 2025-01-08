@@ -3,14 +3,14 @@ title: Konzepte erfassen
 slug: konzepte
 weight: 0
 type: docs
-keywords: [I14Y, I14Y-IOP, I14Y-Interoperabilitätsplattform, Konzepte, Codeliste, Codelisten, Datenelemente, Mehrfachnutzung, Publikation, publizieren, veröffentlichen]
+keywords: [I14Y, I14Y-IOP, Interoperabilitätsplattform I14Y, Konzepte, Codeliste, Codelisten, Datenelemente, Mehrfachnutzung, Publikation, publizieren, veröffentlichen]
 ---
 
 ![Symbolbild Konzepte pflegen](/handbook/img/i14y_konzepte.png)
 
 Das Konzept beschreibt die im Datenelement enthaltenen Informationen eindeutig und vollständig. Bei einem Konzept kann es sich um eine Zahl, eine Zeichenkette, ein Datum oder um eine Codeliste mit vordefinierten Werten handeln (vergleiche auch Kapitel [Informationsmodell](/handbook/de/gouvernanz/informationsmodell)). 
 
-Auf der I14Y-Interoperabilitätsplattform lassen sich Konzepte verwalten und publizieren. Die veröffentlichten Konzepte können von anderen Organisationen wiederverwendet werden. Dies ist eine zentrale Funktion der Plattform. Denn damit werden die Daten allmählich semantisch harmonisiert. So wird die Voraussetzung geschaffen, dass sich Daten -- sofern erlaubt und gewünscht -- zwischen den einzelnen Behörden einfacher austauschen lassen. 
+Auf der Interoperabilitätsplattform I14Y lassen sich Konzepte verwalten und publizieren. Die veröffentlichten Konzepte können von anderen Organisationen wiederverwendet werden. Dies ist eine zentrale Funktion der Plattform. Denn damit werden die Daten allmählich semantisch harmonisiert. So wird die Voraussetzung geschaffen, dass sich Daten -- sofern erlaubt und gewünscht -- zwischen den einzelnen Behörden einfacher austauschen lassen. 
 
 Um die administrativen Daten zu harmonisieren, sollten -- wenn immer möglich -- Datenelemente mit bestehenden Konzepten beschrieben werden. Prüfen Sie also, ob bereits ein identisches Konzept besteht, bevor Sie ein eigenes erfassen. Und fragen Sie sich: Lässt sich das Datenangebot so anpassen, dass ein bestehendes Konzept übernommen werden kann? Diskutieren Sie im Zweifelsfall mit der Anbieterin oder dem Anbieter eines ähnlichen Konzepts, ob eine Harmonisierung Sinn macht. Falls ja, regeln Sie, welche Stelle das Konzept in Zukunft pflegen soll. Das I14Y-Team steht bei solchen Diskussionen gerne für Abklärungen und Beratungen zur Verfügung. 
 

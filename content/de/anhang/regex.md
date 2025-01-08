@@ -3,10 +3,10 @@ title: Beispiele für reguläre Ausdrücke
 slug: regex
 weight: 30
 type: docs
-keywords: [I14Y-Interoperabilitätsplattform, I14Y-IOP, Glossar, Eingabefelder, Standard]
+keywords: [Interoperabilitätsplattform I14Y, I14Y-IOP, Glossar, Eingabefelder, Standard]
 ---
 
-Dank regulären Ausdrücken (_Regular expression_, kurz _Regex_) können Zeichenketten beschrieben werden. Werden reguläre Ausdrücke auf der I14Y-Interoperabilitätsplattform hinterlegt, können später die Daten anhand dieser Angaben überprüft werden. So lassen sich fehlerhafte Eingaben rasch korrigieren. Dank den regulären Ausdrücken kann zudem die Datenqualität automatisiert überprüft werden. Im Laufe der Jahre wurden verschiedene Regex-Implementierungen entwickelt, die sich teilweise in wichtigen Details unterscheiden. Auf der I14Y-Interoperabilitätsplattform wird die grundlegende, weit verbreitete Syntax _Basic Regular Expressions (BRE)_ bevorzugt.
+Dank regulären Ausdrücken (_Regular expression_, kurz _Regex_) können Zeichenketten beschrieben werden. Werden reguläre Ausdrücke auf der Interoperabilitätsplattform I14Y hinterlegt, können später die Daten anhand dieser Angaben überprüft werden. So lassen sich fehlerhafte Eingaben rasch korrigieren. Dank den regulären Ausdrücken kann zudem die Datenqualität automatisiert überprüft werden. Im Laufe der Jahre wurden verschiedene Regex-Implementierungen entwickelt, die sich teilweise in wichtigen Details unterscheiden. Auf der Interoperabilitätsplattform I14Y wird die grundlegende, weit verbreitete Syntax _Basic Regular Expressions (BRE)_ bevorzugt.
 
 Nachfolgend werden einige Beispiele für solche Ausdrücke aufgelistet. 
 

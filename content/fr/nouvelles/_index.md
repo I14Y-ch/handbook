@@ -4,7 +4,7 @@ slug: nouvelles
 translationKey: news
 weight: 90
 type: docs
-keywords: [I14Y, I14Y-Interoperabilitätsplattform, IOP, nouvelles, News]
+keywords: [I14Y, Interoperabilitätsplattform I14Y, IOP, nouvelles, News]
 ---
 
 {{<alert title="Tenez-vous informés!" color="success" >}}

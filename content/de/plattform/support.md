@@ -4,7 +4,7 @@ slug: support
 translationKey: support
 weight: 20
 type: docs
-keywords: [I14Y, I14Y-Interoperabilitätsplattform, Metadaten-Katalog, Software as a Service, SaaS, Support, technische Hilfe, Probleme, Bug]
+keywords: [I14Y, Interoperabilitätsplattform I14Y, Metadaten-Katalog, Software as a Service, SaaS, Support, technische Hilfe, Probleme, Bug]
 ---
 
 Manchmal läuft nicht alles nach Plan. Sollten Probleme auftreten, wenn Sie mit der I14Y arbeiten, gehen Sie wie folgt vor: 

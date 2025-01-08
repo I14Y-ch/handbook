@@ -3,7 +3,7 @@ title: Geschäftssituationen und Lebenslagen
 slug: events
 weight: 10
 type: docs
-keywords: [I14Y, I14Y-Interoperabilitätsplattform, I14Y-IOP, Interoperabilität, Behördenleistung, öffentliche Dienstleistung, One Stop Government, Geschäftssituation, Lebenslage, Business Event, Life Event, Customer Journey, Website, Portal, Webapp, App, Mobile App, Applikation, Verzeichnis, Schweiz]
+keywords: [I14Y, Interoperabilitätsplattform I14Y, I14Y-IOP, Interoperabilität, Behördenleistung, öffentliche Dienstleistung, One Stop Government, Geschäftssituation, Lebenslage, Business Event, Life Event, Customer Journey, Website, Portal, Webapp, App, Mobile App, Applikation, Verzeichnis, Schweiz]
 ---
 
 Auf I14Y ist es möglich, digitale Behördendienste nach der Situation zu kategorisieren, in der sie im beruflichen oder privaten Alltag in Anspruch genommen werden. Durch diese Kategorisierung finden die Nutzerinnen und Nutzer schneller und einfacher die richtige Behördenleistung. 

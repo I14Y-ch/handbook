@@ -4,7 +4,7 @@ slug: versionierung
 weight: 10
 type: docs
 check: [this]
-keywords: [I14Y, I14Y-Interoperabilitätsplattform, I14Y-IOP, Interoperabilität, Datenpflege, Daten pflegen, Local Data Steward, Version, Versionierung, Ausgabe, Schweiz]
+keywords: [I14Y, Interoperabilitätsplattform I14Y, I14Y-IOP, Interoperabilität, Datenpflege, Daten pflegen, Local Data Steward, Version, Versionierung, Ausgabe, Schweiz]
 ---
 
 Statt einen bestehenden Eintrag anzupassen, ist es oftmals sinnvoller eine neue Version davon zu erstellen. Diese verweist auf die vorherige Ausgabe des Angebots. So bleiben Änderungen für alle Nutzerinnen und Nutzer transparent. Und sie beeinträchtigen keine laufenden Systeme. Die Nutzerinnen und Nutzer, die etwa eine Codeliste beziehen, haben die Wahl: Sie können die jeweils aktuelle Version anfordern oder sie können die Benutzung einer bestimmten Version festschreiben. 
