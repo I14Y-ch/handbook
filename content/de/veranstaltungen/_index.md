@@ -2,7 +2,7 @@
 title: Veranstaltungen
 slug: veranstaltungen
 translationKey: events
-description: "Lernen Sie die I14Y kennen und diskutieren Sie Möglichkeiten zur Datenharmonisierung: Die Interoperabilitätsstelle organisiert regelmässig Veranstaltungen zur Plattform und zur Datenharmonisierung. Wir freuen uns, wenn Sie daran teilnehmen."
+description: "Lernen Sie I14Y kennen und diskutieren Sie Möglichkeiten zur Datenharmonisierung: Die Interoperabilitätsstelle organisiert regelmässig Veranstaltungen zur Plattform und zur Datenharmonisierung. Wir freuen uns, wenn Sie daran teilnehmen."
 keywords: [I14Y, Interoperabilitätsplattform I14Y, IOP, Event, Veranstaltung, Information, Ausbildung, Austausch]
 weight: 100
 type: docs
@@ -18,7 +18,7 @@ Arbeiten Sie als Local Data Steward beim Bund, einem Kanton oder einer Gemeinde?
 
 ### 9. Dezember 2024: Steuerungsausschuss
 
-Der Steuerungsausschuss der Interoperabilitätsplattform I14Y kommt am Montag, dem 9. Dezember 2025, zum zweiten Mal zusammen. Der Steuerungsausschuss ist bei der Priorisierung der Entwicklungsaufgaben behilflich und berät das I14Y-Team bei strategischen Entscheiden. Organisationen, die die I14Y aktiv nutzen, können im Steuerungsausschuss Einsitz nehmen. Falls Sie Interesse haben, kontaktieren Sie die Interoperabilitätsstelle unter [i14y@bfs.admin.ch](mailto:i14y@bfs.admin.ch).
+Der Steuerungsausschuss der Interoperabilitätsplattform I14Y kommt am Montag, dem 9. Dezember 2025, zum zweiten Mal zusammen. Der Steuerungsausschuss ist bei der Priorisierung der Entwicklungsaufgaben behilflich und berät das I14Y-Team bei strategischen Entscheiden. Organisationen, die I14Y aktiv nutzen, können im Steuerungsausschuss Einsitz nehmen. Falls Sie Interesse haben, kontaktieren Sie die Interoperabilitätsstelle unter [i14y@bfs.admin.ch](mailto:i14y@bfs.admin.ch).
 
 ### 4. Dezember 2024: Entdecken Sie die Möglichkeiten der I14Y Interoperabilitätsplattform
 

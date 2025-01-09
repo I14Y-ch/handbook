@@ -6,7 +6,7 @@ type: docs
 keywords: [I14Y, Interoperabilitätsplattform I14Y, I14Y, Interoperabilität, Datensatz, Datensammlung, Dataset, Erfassen, Erfassung, Inventar, Katalog, Open Data, OGD, opendata.swiss, DCAT]
 ---
 
-Sie möchten Ihre offenen Behördendaten auf [opendata.swiss](https://opendata.swiss) publizieren? Nutzen Sie für die manuelle Datenerfassung die I14Y. In diesem Kapitel wird detailliert erklärt, wie sie Open Government Data auf der Interoperabilitätsplattform erfassen und auf opendata.swiss publizieren. 
+Sie möchten Ihre offenen Behördendaten auf [opendata.swiss](https://opendata.swiss) publizieren? Nutzen Sie für die manuelle Datenerfassung I14Y. In diesem Kapitel wird detailliert erklärt, wie sie Open Government Data auf der Interoperabilitätsplattform erfassen und auf opendata.swiss publizieren. 
 
 {{<alert title="Ein Input-Bereich, zwei Plattformen" color="info">}}
 Damit die Metadaten nicht auf zwei Plattformen bewirtschaftet werden müssen, bieten opendata.swiss und die Interoperabilitätsplattform i14y.ch einen gemeinsamen Input-Bereich an.

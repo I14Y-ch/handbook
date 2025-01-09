@@ -132,7 +132,7 @@ Mit dem Release vom 4. Dezember 2023 wurde die Interoperabilitätsplattform I14Y
 ## Die Zusammenarbeit mit den Kantonen und Gemeinden stärken
 *20.02.2024*
 
-Die I14Y-Plattform entwickelt sich zum nationalen Metadatenkatalog der Schweiz. Auch immer mehr Kantone und erste Gemeinde möchten die Plattform nutzen, um ihre Datenbestände zu inventarisieren. Der Kanton Basel-Stadt hat bei der [Digitalen Verwaltung Schweiz](https://www.digitale-verwaltung-schweiz.ch/) das Projekt Basel+ eingereicht, das die Bedürfnisse und Anforderungen der Kantone und Gemeinden an die I14Y aufnimmt. Die Zusammenarbeit mit den Kantonen und Gemeinden ermöglicht es, gemeinsame Bedürfnisse in Bezug auf einen nationalen Datenkatalog zu identifizieren. Initiiert wurde das Projekt vom Kanton Basel-Stadt; in der Organisation sind derzeit auch die Kantone Aargau, Basel-Landschaft, Thurgau, Bern und Zürich sowie die Stadt Bern vertreten.
+Die I14Y-Plattform entwickelt sich zum nationalen Metadatenkatalog der Schweiz. Auch immer mehr Kantone und erste Gemeinde möchten die Plattform nutzen, um ihre Datenbestände zu inventarisieren. Der Kanton Basel-Stadt hat bei der [Digitalen Verwaltung Schweiz](https://www.digitale-verwaltung-schweiz.ch/) das Projekt Basel+ eingereicht, das die Bedürfnisse und Anforderungen der Kantone und Gemeinden an I14Y aufnimmt. Die Zusammenarbeit mit den Kantonen und Gemeinden ermöglicht es, gemeinsame Bedürfnisse in Bezug auf einen nationalen Datenkatalog zu identifizieren. Initiiert wurde das Projekt vom Kanton Basel-Stadt; in der Organisation sind derzeit auch die Kantone Aargau, Basel-Landschaft, Thurgau, Bern und Zürich sowie die Stadt Bern vertreten.
 
 ## Changelog – Releasenotes
 *20.02.2024*
@@ -183,7 +183,7 @@ Wie funktionieren das Once-Only-Prinzip und die Interoperabilitätsplattform I14
 
 {{< figure src="/handbook/img/news/handbuch.png" alt="I14Y-Symbol Handbuch" width="250px" class="float-left img-news-thumb" >}}
 
-Wie kam die I14Y-Interoperabiliätsplattform zu ihrem kryptischen Namen? Wer kann auf welche Metadaten zugreifen? Und wie muss ein bestimmtes Feld befüllt werden? Antworten auf Fragen wie diese finden Sie im neu publizierten I14Y-Handbuch. In einem ersten Teil der Online-Publikation wird erklärt, wie die Plattform dazu beiträgt, die administrativen Daten zu harmonisieren. In einem zweiten Teil sind die einzelnen Arbeitsabläufe Schritt für Schritt dokumentiert. Das Handbuch steht unter [handbook.i14y.admin.ch](https://handbook.i14y.admin.ch) zur Verfügung. Es wird laufend ergänzt. Gerne können auch Sie Textpassagen beisteuern. Wie das genau funktioniert, steht im Handbuch. 
+Wie kam die Interoperabiliätsplattform zu ihrem kryptischen Namen? Wer kann auf welche Metadaten zugreifen? Und wie muss ein bestimmtes Feld befüllt werden? Antworten auf Fragen wie diese finden Sie im neu publizierten I14Y-Handbuch. In einem ersten Teil der Online-Publikation wird erklärt, wie die Plattform dazu beiträgt, die administrativen Daten zu harmonisieren. In einem zweiten Teil sind die einzelnen Arbeitsabläufe Schritt für Schritt dokumentiert. Das Handbuch steht unter [handbook.i14y.admin.ch](https://handbook.i14y.admin.ch) zur Verfügung. Es wird laufend ergänzt. Gerne können auch Sie Textpassagen beisteuern. Wie das genau funktioniert, steht im Handbuch. 
 
 ## Neu auf I14Y: Konzepte
 *07.08.2023*
