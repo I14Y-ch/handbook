@@ -3,12 +3,12 @@ title: Voraussetzungen für eine Publikation
 slug: voraussetzungen
 weight: 10
 type: docs
-keywords: [I14Y, I14Y-Interoperbilitätsplattform, I14Y-IOP, Publikation, Metadaten, Erfassen, Erfassung, Voraussetzungen, Prämisse]
+keywords: [I14Y, I14Y-Interoperbilitätsplattform, I14Y, Publikation, Metadaten, Erfassen, Erfassung, Voraussetzungen, Prämisse]
 ---
 
 Am Anfang steht eine gute Vorbereitung: Bevor Sie die Metadaten zu ihrer Datensammlung, zu ihrer elektronischen Schnittstelle oder zu einer Behördenleistung erfassen können, müssen Sie sicherstellen, dass die technischen wie auch die organisatorischen Anforderungen für eine Publikation erfüllt sind. Die wichtigsten Bedingungen: 
 
-- Die Datensammlung oder die elektronische Dienstleistung wird von einer Schweizer Behörde betreut. Nach Absprache können auch in der Schweiz ansässige Unternehmen mit enger Verbindung zur öffentlichen Verwaltung Metadaten auf der I14Y-IOP anbieten.
+- Die Datensammlung oder die elektronische Dienstleistung wird von einer Schweizer Behörde betreut. Nach Absprache können auch in der Schweiz ansässige Unternehmen mit enger Verbindung zur öffentlichen Verwaltung Metadaten auf I14Y anbieten.
 - Sie sind verantwortlich für das betreffende Angebot. Oder Sie sind damit beauftragt, die Metadaten dazu auf der Interoperabilitätsplattform zu erfassen und zu pflegen. 
 - Ihre Organisation stellt sicher, dass die Metadaten langfristig gepflegt werden. Sie ist Anlaufstelle bei Rückfragen von Nutzerinnen und Nutzern.
 - Sie kennen die genaue Struktur der Datensammlung bzw. die Details zur Behördenleistung. 

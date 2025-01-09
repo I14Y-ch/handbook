@@ -79,7 +79,7 @@ In der Regel wird die öffentliche Publikation durch eine Person mit der Rolle _
 
 Abhängig vom Status im Publikations-Workflow sowie von der eigenen Rolle können die erfassten Metadaten nicht abgeändert werden. So können etwa als "Registriert" gekennzeichnete Einträge nicht mehr bearbeitet werden, ohne dass der Status zurückgestellt wird. In diesem Fall wird normalerweise eine neue Version angelegt.
 
-{{<alert title="Sind die Daten auf der I14Y-IOP sicher?" color="info">}}
+{{<alert title="Sind die Daten auf I14Y sicher?" color="info">}}
 Auf der Interoperabilitätsplattform I14Y werden ausschliesslich Metadaten gespeichert. Die eigentlichen Daten verbleiben bei jener Stelle, die die Datensammlung verwaltet. Diese ist damit zuständig für die Sicherheit der Daten. 
 
 Die Interoperabilitätsplattform I14Y wird vom Bundesamt für Informatik im Auftrag der Interoperabilitätsstelle technisch betrieben. Die Bundesvorgaben zur Informatiksicherheit werden umgesetzt. Eine Schutzbedarfsanalyse wurde anfangs Februar 2021 abgeschlossen. Die Server, auf denen die Plattform läuft, werden vom Bundesamt für Informatik betrieben. Sie befinden sich in der Schweiz. Extern betrieben werden einzig dieses Handbuch sowie der Chatbot. 

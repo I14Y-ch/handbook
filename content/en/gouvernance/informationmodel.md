@@ -45,7 +45,7 @@ On the I14Y Interoperability Platform, data sets, electronic interfaces (APIs) a
     style distribution stroke:black
 ```
 
-The diagram provides a simplified representation of the different parts of the I14Y-IOP. A detailed summary can be found in the [Information model on the I14Y-IOP](/handbook/img/i14y_informationsmodell.png).
+The diagram provides a simplified representation of the different parts of I14Y. A detailed summary can be found in the [Information model on I14Y](/handbook/img/i14y_informationsmodell.png).
 
 To do justice to the different offers, the platform uses various information models. For example, the Data Catalogue Vocabulary (DCAT) with the Swiss application profile is used for data sets and APIs. The _Core Public Service Vocabulary (CPSV)_ is used for government services.
 
@@ -55,7 +55,7 @@ A data set is a group of data elements with related content in a uniform structu
 
 A data set can be exported in several formats, i.e., contain so-called _distributions_. The distributions do not necessarily have to contain the full data. The data set can also form the basis for an electronic interface (API) through which specific individual information can be queried.
 
-Data sets can be described in detail on the I14Y-IOP: in addition to the catalogue entry, which contains the basic information such as the title, the description and the issuing organisation, information on the structure can also be saved. A structure usually contains several data elements, and each data element has a concept that describes the type of content. A concept is thus the smallest unit of a data set, often also called a (defined) variable or attribute.
+Data sets can be described in detail on I14Y: in addition to the catalogue entry, which contains the basic information such as the title, the description and the issuing organisation, information on the structure can also be saved. A structure usually contains several data elements, and each data element has a concept that describes the type of content. A concept is thus the smallest unit of a data set, often also called a (defined) variable or attribute.
 
 ```mermaid
     flowchart TD
@@ -247,15 +247,15 @@ For example: the data set of a veterinary clinic contains information on dogs --
 
 ```
 
-Data sets are described in the I14Y-IOP using the [Data Catalogue Vocabulary (DCAT)](/handbook/en/glossar). DCAT is a standardised model for describing data catalogues, maintained by the Internet Standards Board [W3C](https://www.w3.org/). The application profile for Switzerland is largely used on the platform ([DCAT-AP CH 2](https://www.dcat-ap.ch/)). DCAT specifies which information must be saved. In addition, the vocabulary suggests further possibilities for describing the data set.
+Data sets are described in I14Y using the [Data Catalogue Vocabulary (DCAT)](/handbook/en/glossar). DCAT is a standardised model for describing data catalogues, maintained by the Internet Standards Board [W3C](https://www.w3.org/). The application profile for Switzerland is largely used on the platform ([DCAT-AP CH 2](https://www.dcat-ap.ch/)). DCAT specifies which information must be saved. In addition, the vocabulary suggests further possibilities for describing the data set.
 
-To store information about a data set on the I14Y-IOP, the minimum requirements set by the DCAT standard must be met. The I14Y-IOP offers some additional fields that go beyond the current DCAT standard. Which fields are filled with which information when entering data sets is listed in the chapter [publication](/handbook/en/publikation/katalog/datensammlung).
+To store information about a data set on I14Y, the minimum requirements set by the DCAT standard must be met. I14Y offers some additional fields that go beyond the current DCAT standard. Which fields are filled with which information when entering data sets is listed in the chapter [publication](/handbook/en/publikation/katalog/datensammlung).
 
 ### Structure
 
 The structure describes how the contents of a data set are organised. Each structure consists of at least one data element ([see below](#dataelement)). The individual structures can be used in several data sets. For example, the identical structure is usually used in a recurring publication of a register (version).
 
-For the description of the structure, the DCAT standard with the Swiss application profile is largely used for the I14Y-IOP.
+For the description of the structure, the DCAT standard with the Swiss application profile is largely used for I14Y.
 
 ### Data element
 
@@ -265,15 +265,15 @@ The data element is the smallest descriptive unit of a data collection. Often th
 
 The concept uniquely and completely describes the information contained in the data element. A concept can be a number, a string, a date or a code list with predefined values.
 
-The standard [ISO 11179-1:2023](https://www.iso.org/standard/78914.html) is used to describe the concepts in the I14Y-IOP. The type of concept is documented. Dependent upon this, further details such as the length or the possible minimum and maximum values are necessary. Step-by-step instructions for documenting a concept can be found in the chapter [publication](/handbook/en/publikation/konzepte).
+The standard [ISO 11179-1:2023](https://www.iso.org/standard/78914.html) is used to describe the concepts in I14Y. The type of concept is documented. Dependent upon this, further details such as the length or the possible minimum and maximum values are necessary. Step-by-step instructions for documenting a concept can be found in the chapter [publication](/handbook/en/publikation/konzepte).
 
 ## Electronic interface (API)
 
-An Application Program Interface (API)_ -- allows machines, among other things, to specifically request individual pieces of information from a set of data. Thanks to APIs, isolated systems can exchange information in an efficient and standardised way. In order for developers to be able to programme their software to obtain information from external systems, they need to know these interfaces. The I14Y-IOP offers the possibility to describe the interfaces in a central location.
+An Application Program Interface (API)_ -- allows machines, among other things, to specifically request individual pieces of information from a set of data. Thanks to APIs, isolated systems can exchange information in an efficient and standardised way. In order for developers to be able to programme their software to obtain information from external systems, they need to know these interfaces. I14Y offers the possibility to describe the interfaces in a central location.
 
-On the I14Y-IOP, in addition to the title and description, a so-called endpoint from where data can be obtained or a link to the documentation must be given. If possible, reference is also made to the data set upon which the API is based.
+On I14Y, in addition to the title and description, a so-called endpoint from where data can be obtained or a link to the documentation must be given. If possible, reference is also made to the data set upon which the API is based.
 
-APIs are also thoroughly described on the I14Y-IOP using the data catalogue vocabulary DCAT. It is imperative that some fields that are optional in the standard must be filled in. Thus, the DCAT standard recommends that only a description is documented when an API is catalogued. On the I14Y-IOP this information is mandatory. All fields specified in the standard must also be filled in on the platform.
+APIs are also thoroughly described on I14Y using the data catalogue vocabulary DCAT. It is imperative that some fields that are optional in the standard must be filled in. Thus, the DCAT standard recommends that only a description is documented when an API is catalogued. On I14Y this information is mandatory. All fields specified in the standard must also be filled in on the platform.
 
 A step-by-step guide on how to create electronic interfaces is given in the chapter 
 [publication](/handbook/de/publikation/katalog/api). 
@@ -285,4 +285,4 @@ E-government services can also be described on the I14Y interoperability platfor
 The _Core Public Service Vocabulary_ defined by the European Union is used to describe public services. The structure and the entire vocabulary are available on the European Commission's Interoperability Platform 
 [Join up](https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/core-public-service-vocabulary/releases). The reusable and expandable vocabulary specifies certain fields that must be filled in. Each government service can be assigned to a channel -- an internet address, for example, or a telephone number.
 
-On the I14Y-IOP, the chapter [publication](/handbook/de/publikation/katalog/3_publicservice/) describes in detail how a government service is documented.
+On I14Y, the chapter [publication](/handbook/de/publikation/katalog/3_publicservice/) describes in detail how a government service is documented.

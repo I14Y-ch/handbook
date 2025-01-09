@@ -9,11 +9,11 @@ type: docs
 ---
 Multiple use of administrative data is possible if it is known who owns which data sets. In addition, the data must be harmonised. All agencies should work with the same categories and code lists -- for instance, by using the same lists of commune names or occupational titles. Good cooperation is essential for successful harmonisation. For example, it must be agreed which organisation is responsible for which code list. All other organisations should not revise the list themselves but take it on from the responsible organisation.
 
-This is exactly what the I14Y-IOP makes possible: in addition to descriptive metadata, the platform contains structural metadata. These describe the individual elements of a data set. Each element is based on a clearly defined concept, for example a code list. The concepts only need to be registered once by the responsible body. Other organisations adopt them to describe their structural metadata.
+This is exactly what I14Y makes possible: in addition to descriptive metadata, the platform contains structural metadata. These describe the individual elements of a data set. Each element is based on a clearly defined concept, for example a code list. The concepts only need to be registered once by the responsible body. Other organisations adopt them to describe their structural metadata.
 
 In this way, different authorities benefit from each other's work. It also makes it possible, for example, for a private survey institute to use the same categories or expressions that a government agency uses. This eliminates the need for subsequent harmonisation and in many cases improves the quality of the data.
 
-In this way, the I14Y-IOP helps to semantically harmonise the Swiss data ecosystem. The metadata -- especially the code lists -- can be retrieved automatically via electronic interfaces (APIs). This makes it possible to connect the platform to any systems and applications.
+In this way, I14Y helps to semantically harmonise the Swiss data ecosystem. The metadata -- especially the code lists -- can be retrieved automatically via electronic interfaces (APIs). This makes it possible to connect the platform to any systems and applications.
 
 {{<alert title="What does I14Y mean?" color="info">}}
 
@@ -21,7 +21,7 @@ Unnecessary typing makes no sense for many IT professionals. That's why they lov
 
 {{</alert>}}
 
-A directory of e-government services such as web applications and apps will also be available on the I14Y-IOP. This will provide an overview of the services offered by the public administration and facilitates the dialogue between service providers and users.
+A directory of e-government services such as web applications and apps will also be available on I14Y. This will provide an overview of the services offered by the public administration and facilitates the dialogue between service providers and users.
 
 <!-- ![Scene on the government service directory from the explanatory video on the I14Y Interoperability Platform](/handbook/img/i14y-film_160.png) -->
 
@@ -43,10 +43,10 @@ The platform is developed and operated by the Interoperability Office (IOS) in t
 
 {{</card>}}
 
-The I14Y-IOP has been available since summer 2021 and is being continuously developed. It is primarily intended for the Confederation, the cantons and the communes as well as for the research community. Since the Administration and companies work closely together, it is also open to companies. Publicly published content can also be viewed and used by companies and citizens.
+I14Y has been available since summer 2021 and is being continuously developed. It is primarily intended for the Confederation, the cantons and the communes as well as for the research community. Since the Administration and companies work closely together, it is also open to companies. Publicly published content can also be viewed and used by companies and citizens.
 
 {{<alert title="Always stay up to date" color="success" >}}
 
-Would you like to be kept up to date about new features and offers on the I14Y interoperability platform? Then subscribe to the newsletter. Three to four times a year you will receive a summary of the latest developments on the I14Y-IOP by email. To subscribe to the newsletter free of charge, visit the [Federal Statistical Office subscription service](https://www.bfs.admin.ch/bfs/en/home/services/contact/newsletter-subscription.html) and select "I14Y interoperability platform".
+Would you like to be kept up to date about new features and offers on the I14Y interoperability platform? Then subscribe to the newsletter. Three to four times a year you will receive a summary of the latest developments on I14Y by email. To subscribe to the newsletter free of charge, visit the [Federal Statistical Office subscription service](https://www.bfs.admin.ch/bfs/en/home/services/contact/newsletter-subscription.html) and select "I14Y interoperability platform".
 
 {{</alert>}}

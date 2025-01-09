@@ -3,10 +3,10 @@ title: Datensammlung erfassen
 slug: dataset
 weight: 10
 type: docs
-keywords: [I14Y, Interoperabilitätsplattform I14Y, I14Y-IOP, Interoperabilität, Datensammlung, Dataset, Erfassen, Erfassung, Inventar, Katalog]
+keywords: [I14Y, Interoperabilitätsplattform I14Y, I14Y, Interoperabilität, Datensammlung, Dataset, Erfassen, Erfassung, Inventar, Katalog]
 ---
 
-Die Metadaten zu einer Datensammlung lassen sich bequem übers Webinterface erfassen. Wechseln Sie dazu in den [Input-Bereich der I14Y-IOP](https://input.i14y.admin.ch). Klicken Sie nun auf "Katalog pflegen" und "Erstellen". Wählen Sie aus, dass Sie eine Beschreibung zu einer Datensammlung erstellen möchten. 
+Die Metadaten zu einer Datensammlung lassen sich bequem übers Webinterface erfassen. Wechseln Sie dazu in den [Input-Bereich von I14Y](https://input.i14y.admin.ch). Klicken Sie nun auf "Katalog pflegen" und "Erstellen". Wählen Sie aus, dass Sie eine Beschreibung zu einer Datensammlung erstellen möchten. 
 
 In einem ersten Schritt werden die grundlegenden Informationen eingetragen. Zwingend auszufüllen sind die mit einem Stern gekennzeichneten Eingabefelder: Um eine Datensammlung zu beschreiben, ist ein __Titel__ und eine __Beschreibung__ nötig. Diese Informationen sollten möglichst in allen für Ihre Organisation relevanten Sprachen vorliegen; in einer ersten Phase ist es indes möglich sich auf eine Sprache zu beschränken. Mit einem Klick auf den Knopf "Alle Sprachen ausblenden" lassen sich die zusätzlichen Sprachfelder ausblenden. 
 

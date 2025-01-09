@@ -3,7 +3,7 @@ title: Open Government Data erfassen
 slug: ogd
 weight: 20
 type: docs
-keywords: [I14Y, Interoperabilitätsplattform I14Y, I14Y-IOP, Interoperabilität, Datensatz, Datensammlung, Dataset, Erfassen, Erfassung, Inventar, Katalog, Open Data, OGD, opendata.swiss, DCAT]
+keywords: [I14Y, Interoperabilitätsplattform I14Y, I14Y, Interoperabilität, Datensatz, Datensammlung, Dataset, Erfassen, Erfassung, Inventar, Katalog, Open Data, OGD, opendata.swiss, DCAT]
 ---
 
 Sie möchten Ihre offenen Behördendaten auf [opendata.swiss](https://opendata.swiss) publizieren? Nutzen Sie für die manuelle Datenerfassung die I14Y. In diesem Kapitel wird detailliert erklärt, wie sie Open Government Data auf der Interoperabilitätsplattform erfassen und auf opendata.swiss publizieren. 

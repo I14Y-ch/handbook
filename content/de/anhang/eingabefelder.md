@@ -3,7 +3,7 @@ title: Übersicht über die Eingabefelder
 slug: eingabefelder
 weight: 10
 type: docs
-keywords: [Interoperabilitätsplattform I14Y, I14Y-IOP, Glossar, Eingabefelder, Standard]
+keywords: [Interoperabilitätsplattform I14Y, I14Y, Glossar, Eingabefelder, Standard]
 ---
 
 ## Inhalt 

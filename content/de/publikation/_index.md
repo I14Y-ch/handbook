@@ -4,7 +4,7 @@ slug: publizieren
 description: "Sie möchten Ihre Datensammlungen, elektronischen Schnittstellen, Behördenleistungen oder einzelne Datenelemente auf der Interoperabilitätsplattform I14Y beschreiben? In diesem Teil wird aufgezeigt, wie solche Metadaten erfasst werden."
 weight: 30
 type: docs
-keywords: [Interoperabilitätsplattform I14Y, I14Y-IOP, I14Y, Publikation, Veröffentlichung, Metadaten, Katalog, Konzepte]
+keywords: [Interoperabilitätsplattform I14Y, I14Y, Publikation, Veröffentlichung, Metadaten, Katalog, Konzepte]
 ---
 
 ![Szene aus dem Erklärvideo zur Interoperabilitätsplattform I14Y](/handbook/img/i14y-film_erfassen.png)

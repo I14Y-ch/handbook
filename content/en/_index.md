@@ -15,11 +15,11 @@ Translation is in progress: Thank you for your interest in the English version o
 
 ![ Scene from the explanatory video for the I14Y interoperability platform](/handbook/img/i14y-film_55.png)
 
-What data is available? And how can they be retrieved? The I14Y interoperability platform -- I14Y-IOP for short -- is the central directory of data, electronic interfaces and government services of public administration offices in Switzerland. The platform makes it possible to find data and it shows how they can be obtained.
+What data is available? And how can they be retrieved? The I14Y interoperability platform is the central directory of data, electronic interfaces and government services of public administration offices in Switzerland. The platform makes it possible to find data and it shows how they can be obtained.
 
-The I14Y-IOP documents whether the data in question are freely available or restricted, whether they conform to a standard or not, who is responsible, how often the data are updated and how their quality is to be assessed. The platform thus helps in understanding the context of a data set. Only metadata can be found on the I14Y-IOP; the actual data remain with the responsible agencies. I14Y-IOP promotes the efficient exchange of data within public administrations as well as between authorities, companies and citizens.
+I14Y documents whether the data in question are freely available or restricted, whether they conform to a standard or not, who is responsible, how often the data are updated and how their quality is to be assessed. The platform thus helps in understanding the context of a data set. Only metadata can be found on the I14Y; the actual data remain with the responsible agencies. I14Y promotes the efficient exchange of data within public administrations as well as between authorities, companies and citizens.
 
-Public authorities and government-related companies can use the platform to create an inventory of their data sets. At the same time, the I14Y-IOP serves to harmonise the data so that they can be used multiple times. In this way, redundant data sets can be avoided -- as envisaged by the Confederation with the _once-only principle_.
+Public authorities and government-related companies can use the platform to create an inventory of their data sets. At the same time, I14Y serves to harmonise the data so that they can be used multiple times. In this way, redundant data sets can be avoided -- as envisaged by the Confederation with the _once-only principle_.
 
 {{<alert title=" What is the <i> once-only principle </i>?" color="info">}}
 

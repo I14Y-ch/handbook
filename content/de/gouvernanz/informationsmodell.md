@@ -45,7 +45,7 @@ Auf der Interoperabilitätsplattform I14Y können sowohl Datensammlungen, elektr
     style distribution stroke:black
 ```
 
-Die Grafik bietet eine vereinfachte Darstellung der einzelnen Teile der I14Y-Plattform. Eine ausführliche Zusammenstellung ist im [Informationsmodell der I14Y-IOP](/handbook/img/i14y_informationsmodell.png) zu finden.
+Die Grafik bietet eine vereinfachte Darstellung der einzelnen Teile der I14Y-Plattform. Eine ausführliche Zusammenstellung ist im [Informationsmodell I14Y](/handbook/img/i14y_informationsmodell.png) zu finden.
 
 Um den unterschiedlichen Angeboten gerecht zu werden, bedient sich die Plattform verschiedener Informationsmodelle. So wird bei Datensammlungen und APIs etwa das _Data Catalog Vocabulary (DCAT)_ mit dem Schweizer Applikationsprofil eingesetzt. Im Bereich der Behördenleistungen kommt das _Core Public Service Vocabulary (CPSV)_ zum Einsatz. 
 
@@ -247,13 +247,13 @@ Am Beispiel: In der Datensammlung einer Tierklinik sind Informationen zu Hunden 
 
 Datensammlungen werden bei der Interoperabilitätsplattform I14Y mit dem [Datenkatalog-Vokabular (DCAT)](/handbook/de/glossar) beschrieben. DCAT ist ein standardisiertes Modell zur Beschreibung von Datenkatalogen, das vom Internet-Standardisierungsgremium [W3C](https://www.w3.org/) gepflegt wird. Auf der Plattform wird weitgehend das Applikationsprofil für die Schweiz verwendet ([DCAT-AP CH 2](https://www.dcat-ap.ch/)). DCAT gibt vor, welche Informationen zwingend erfasst werden müssen. Zudem schlägt das Vokabular weitere Möglichkeiten zur Beschreibung der Datensammlung vor.     
 
-Um Informationen zu einer Datensammlung auf der Interoperabilitätsplattform I14Y speichern zu können, müssen die Minimalanforderungen erfüllt sein, die der DCAT-Standard vorgibt. Die I14Y-IOP bietet einige zusätzliche Felder an, die über den aktuellen DCAT-Standard hinausgehen. Welche Felder beim Erfassen von Datensammlungen mit welchen Informationen befüllt werden, wird im Kapitel [Publikation](/handbook/de/publikation/katalog/datensammlung) aufgeführt.
+Um Informationen zu einer Datensammlung auf der Interoperabilitätsplattform I14Y speichern zu können, müssen die Minimalanforderungen erfüllt sein, die der DCAT-Standard vorgibt. I14Y bietet einige zusätzliche Felder an, die über den aktuellen DCAT-Standard hinausgehen. Welche Felder beim Erfassen von Datensammlungen mit welchen Informationen befüllt werden, wird im Kapitel [Publikation](/handbook/de/publikation/katalog/datensammlung) aufgeführt.
 
 ### Struktur
 
 Die Struktur beschreibt, wie die Inhalte einer Datensammlung organisiert sind. Jede Struktur besteht aus mindestens einem Datenelement ([siehe unten](#datenelement)). Die einzelnen Strukturen können in mehreren Datensammlungen verwendet werden. Beispielsweise wird bei einer wiederkehrenden Publikation eines Registers (Versionierung) in der Regel die identische Struktur verwendet. 
 
-Zur Beschreibung der Struktur wird bei der I14Y-IOP weitgehend der DCAT-Standard mit dem Schweizer Applikationsprofil eingesetzt. 
+Zur Beschreibung der Struktur wird bei I14Y weitgehend der DCAT-Standard mit dem Schweizer Applikationsprofil eingesetzt. 
 
 ### Datenelement
 
@@ -267,11 +267,11 @@ Zur Beschreibung der Konzepte wird bei der Interoperabilitätsplattform I14Y der
 
 ## Elektronische Schnittstelle (API)
 
-Eine elektronische Schnittstelle -- auf Englisch _Application Programm Interface (API)_ -- erlaubt es Maschinen unter anderem, gezielt einzelne Informationen aus einer Datensammlung anzufordern. Dank APIs können isolierte Systeme Informationen in einer effizienten und standardisierten Weise austauschen. Damit die Entwicklerinnen und Entwickler ihre Software so programmieren können, dass sie Informationen von Fremdsystemen bezieht, müssen sie diese Schnittstellen kennen. Die I14Y-IOP bietet die Möglichkeit, die Schnittstellen an einem zentralen Ort zu beschreiben. 
+Eine elektronische Schnittstelle -- auf Englisch _Application Programm Interface (API)_ -- erlaubt es Maschinen unter anderem, gezielt einzelne Informationen aus einer Datensammlung anzufordern. Dank APIs können isolierte Systeme Informationen in einer effizienten und standardisierten Weise austauschen. Damit die Entwicklerinnen und Entwickler ihre Software so programmieren können, dass sie Informationen von Fremdsystemen bezieht, müssen sie diese Schnittstellen kennen. I14Y bietet die Möglichkeit, die Schnittstellen an einem zentralen Ort zu beschreiben. 
 
-Auf der I14Y-IOP muss zusätzlich etwa zum Titel und der Beschreibung ein sogenannter Endpunkt, von wo Daten bezogen werden können, oder ein Link zur Dokumentation angegeben werden. Wenn möglich wird auch auf die Datensammlung verwiesen, die der API zu Grunde liegt.
+Auf I14Y muss zusätzlich etwa zum Titel und der Beschreibung ein sogenannter Endpunkt, von wo Daten bezogen werden können, oder ein Link zur Dokumentation angegeben werden. Wenn möglich wird auch auf die Datensammlung verwiesen, die der API zu Grunde liegt.
 
-Auch APIs werden auf der Interoperabilitätsplattform I14Y weitgehend mittels des Datenkatalog-Vokabulars DCAT beschrieben. Einige Felder, die im Standard optional sind, müssen zwingend befüllt werden. So empfiehlt der DCAT-Standard lediglich, dass beim Katalogisieren einer API eine Beschreibung erfasst wird. Auf der I14Y-IOP hingegen ist diese Angabe obligatorisch. Alle Felder, die der Standard vorgibt, sind auch auf der Plattform zwingend auszufüllen. 
+Auch APIs werden auf der Interoperabilitätsplattform I14Y weitgehend mittels des Datenkatalog-Vokabulars DCAT beschrieben. Einige Felder, die im Standard optional sind, müssen zwingend befüllt werden. So empfiehlt der DCAT-Standard lediglich, dass beim Katalogisieren einer API eine Beschreibung erfasst wird. Auf I14Y hingegen ist diese Angabe obligatorisch. Alle Felder, die der Standard vorgibt, sind auch auf der Plattform zwingend auszufüllen. 
 
 Eine Schritt-für-Schritt-Anleitung dazu, wie elektronische Schnittstellen erfasst werden, ist im Kapitel 
 [Publikation](/handbook/de/4_publikation/katalog/api) zu finden. 

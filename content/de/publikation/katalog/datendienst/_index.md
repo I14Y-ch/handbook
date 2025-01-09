@@ -3,7 +3,7 @@ title: Elektronische Schnittstelle
 slug: api
 weight: 30
 type: docs
-keywords: [I14Y, Interoperabilitätsplattform I14Y, I14Y-IOP, Interoperabilität, API, Erfassen, Erfassung, Inventar, Elektronische Schnittstellen, Application Programming Interface]
+keywords: [I14Y, Interoperabilitätsplattform I14Y, I14Y, Interoperabilität, API, Erfassen, Erfassung, Inventar, Elektronische Schnittstellen, Application Programming Interface]
 ---
 
 Elektronische Schnittstellen, in der Fachsprache als _Application programming interface (API)_ bezeichnet, sind zentral für die Vernetzung von isolierten Systemen. Die Interoperabilitätsplattform I14Y ist das zentrale Verzeichnis der APIs der Schweizer Behörden.  

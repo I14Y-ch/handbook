@@ -3,7 +3,7 @@ title: Erfassungsrichtlinien
 slug: erfassungsrichtlinien
 weight: 20
 type: docs
-keywords: [I14Y, Interoperabilitätsplattform I14Y, I14Y-IOP, Interoperabilität, Behördenleistung, öffentliche Dienstleistung, One Stop Government, Geschäftssituation, Lebenslage, Business Event, Life Event, Customer Journey, Website, Portal, Webapp, App, Mobile App, Applikation, Verzeichnis, Schweiz]
+keywords: [I14Y, Interoperabilitätsplattform I14Y, I14Y, Interoperabilität, Behördenleistung, öffentliche Dienstleistung, One Stop Government, Geschäftssituation, Lebenslage, Business Event, Life Event, Customer Journey, Website, Portal, Webapp, App, Mobile App, Applikation, Verzeichnis, Schweiz]
 draft: true
 ---
 

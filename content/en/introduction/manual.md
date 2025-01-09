@@ -16,7 +16,7 @@ The first chapter highlights the [Roles and Processes](/handbook/en/gouvernance)
 <!--Später ergänzen: Nebst den schriftlichen Anleitungen enthält dieses Handbuch auch einige Videotutorials.--> 
 The handbook also contains a [Glossary](/handbook/de/7_glossar) with technical terms, a [list with web links](/handbook/de/6_anhang/weblinks), an overview of the [partner organisations](/handbook/de/8_partner) as well as a [Log](/handbook/de/6_anhang/changelog) of the most important changes that have been made to the platform.
 
-The functionalities of the I14Y-IOP are constantly being developed. This manual is also revised on a regular basis. Do you have any suggestions on how it could be improved? Or would you like to share your experiences with the manual or the platform? [Write to us](mailto:i14y@bfs.admin.ch). This manual is revised on the [Code Management Platform Github](https://github.com/I14Y-ch/handbook/). You are welcome to submit a pull request with your change requests there.
+The functionalities of I14Y are constantly being developed. This manual is also revised on a regular basis. Do you have any suggestions on how it could be improved? Or would you like to share your experiences with the manual or the platform? [Write to us](mailto:i14y@bfs.admin.ch). This manual is revised on the [Code Management Platform Github](https://github.com/I14Y-ch/handbook/). You are welcome to submit a pull request with your change requests there.
 
 {{<alert title="How to submit a pull request" color="success">}}
 

@@ -3,7 +3,7 @@ title: Distributionen hinzufügen
 slug: distributionen
 weight: 30
 type: docs
-keywords: [I14Y, Interoperabilitätsplattform I14Y, I14Y-IOP, Interoperabilität, Datensammlung, Dataset, Erfassen, Erfassung, Inventar, Katalog, Distribution, File, Datei]
+keywords: [I14Y, Interoperabilitätsplattform I14Y, I14Y, Interoperabilität, Datensammlung, Dataset, Erfassen, Erfassung, Inventar, Katalog, Distribution, File, Datei]
 ---
 
 Bei einer Distribution handelt es sich um einen Export der Datensammlung in einem spezifischen Format, also etwa um eine CSV-Datei, die aus einer Datenbank generiert wird. Dabei können auch unterschiedliche Formen angeboten werden: Exporte in mehreren Sprachen etwa oder unterschiedliche räumliche oder örtliche Auflösungen. Entsprechend ist es nicht zwingend, dass jeder Export alle Informationen der betreffenden Datensammlung enthält. Eine Distribution kann etwa alle Daten über die Anzahl Einwohnerinnen und Einwohner der Schweiz enthalten. Sie kann sich aber auch auf ein einzelnes Jahr oder eine einzelne Gemeinde beschränken. 

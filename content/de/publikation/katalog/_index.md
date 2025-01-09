@@ -3,7 +3,7 @@ title: Kataloginhalte erfassen
 slug: katalog
 weight: 20
 type: docs
-keywords: [I14Y, I14Y-IOP, Interoperabilitätsplattform I14Y, Katalog, Metadaten, erfassen]
+keywords: [I14Y, I14Y, Interoperabilitätsplattform I14Y, Katalog, Metadaten, erfassen]
 ---
 
 ![Symbolbild Katalog pflegen](/handbook/img/i14y_katalog.png)

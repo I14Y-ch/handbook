@@ -7,7 +7,7 @@ type: docs
 keywords: [I14Y, I14Y interoperability platform, work process, workflow, status, publication channel]
 ---
 
-A clearly defined work process governs how metadata is published on the I14Y-IOP. Depending on whether the metadata are published publicly or only within the organisation, the work process has two or three stages. The work process is designed to ensure quality. Firstly, the metadata are saved. Secondly, they are checked and published by_Local Data Stewards_. Thirdly, , if desired and appropriate, they are checked in cooperation with the Interoperability Office, marked as standard-compliant if necessary and finally released to the public.
+A clearly defined work process governs how metadata is published on I14Y. Depending on whether the metadata are published publicly or only within the organisation, the work process has two or three stages. The work process is designed to ensure quality. Firstly, the metadata are saved. Secondly, they are checked and published by_Local Data Stewards_. Thirdly, , if desired and appropriate, they are checked in cooperation with the Interoperability Office, marked as standard-compliant if necessary and finally released to the public.
 
 ```mermaid
 flowchart LR
@@ -50,7 +50,7 @@ Further information on status management and responsibilities is compiled in the
 
 ## Publication channel
 
-There are two publication channels on the I14Y-IOP. Metadata can be made available within one's own organisation -- for example, to inventory one's own data holdings. Otherwise, they can be published publicly. Initially, the metadata collected are only available within the organisation. If they are to be made visible to the public, the publication channel is changed to _I14Y_. This is desirable for harmonised and standardised data structures and concepts. This is because they are suitable for further use.
+There are two publication channels on I14Y. Metadata can be made available within one's own organisation -- for example, to inventory one's own data holdings. Otherwise, they can be published publicly. Initially, the metadata collected are only available within the organisation. If they are to be made visible to the public, the publication channel is changed to _I14Y_. This is desirable for harmonised and standardised data structures and concepts. This is because they are suitable for further use.
 
 As a rule, public publication is proposed by a person with the role of _Local Data Steward_. The Interoperability Office, the I14Y team, then checks the metadata. It releases the entry on the jointly agreed publication date.
 

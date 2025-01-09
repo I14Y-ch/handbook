@@ -7,15 +7,15 @@ type: docs
 keywords: [I14Y, I14Y interoperability platform, user account, account, connection, EIAM, Login]
 ---
 
-Anyone who wants to enter data on the I14Y-IOP needs a user account. The same applies to those who want to view information of their own organisation that has not (yet) been published publicly. Access is controlled with the _Enterprise Identity and Access Management (EIAM)_. This service is operated by the Federal Office of Information Technology for the Confederation.
+Anyone who wants to enter data on I14Y needs a user account. The same applies to those who want to view information of their own organisation that has not (yet) been published publicly. Access is controlled with the _Enterprise Identity and Access Management (EIAM)_. This service is operated by the Federal Office of Information Technology for the Confederation.
 
-To access the internal area of the I14Y-IOP, an account with a provider of a digital identification solution is required. The Federal Administration's employees can use their [Fedlogin](https://www.eiam.swiss). In addition, there are other options to choose from, such as the CH login, the electronic identities of Switch or those of cantons such as Berne, Schaffhausen, Zug and Geneva. Further details can be found in the [Table of identification options](/handbook/en/anhang/eiam) in the appendix.
+To access the internal area of I14Y, an account with a provider of a digital identification solution is required. The Federal Administration's employees can use their [Fedlogin](https://www.eiam.swiss). In addition, there are other options to choose from, such as the CH login, the electronic identities of Switch or those of cantons such as Berne, Schaffhausen, Zug and Geneva. Further details can be found in the [Table of identification options](/handbook/en/anhang/eiam) in the appendix.
 
 Proceed as follows:
 
-1. On the I14Y-IOP, click on the icon in the top right-hand corner. Select the appropriate identification provider. Log in to the digital identity provider or create a new account. Attention: Federal Administration employees must use the Fedlogin instead of the CH-Login, otherwise errors may arise. If the process suddenly stops, the _cookies_ may have to be deleted. You can access the corresponding dialogue by pressing the key combination Ctrl-Shift-Delete in the web browser.
+1. On I14Y, click on the icon in the top right-hand corner. Select the appropriate identification provider. Log in to the digital identity provider or create a new account. Attention: Federal Administration employees must use the Fedlogin instead of the CH-Login, otherwise errors may arise. If the process suddenly stops, the _cookies_ may have to be deleted. You can access the corresponding dialogue by pressing the key combination Ctrl-Shift-Delete in the web browser.
 
-2. In a second step, the authorisations must be assigned on the I14Y-IOP. Larger organisations manage their accounts themselves ([see below](#accountadministration-in-larger-organisations)). Therefore, please contact your account administrator. If you do not use an organisation-internal standard solution such as Fedlogin, let them know which email address you used when creating the login (see step 1). As soon as read or edit access rights have been granted, you will receive an email. This contains a web link and a code. Visit the specified website and enter the code that was sent to you. This will link your digital identity to the I14Y-IOP.
+2. In a second step, the authorisations must be assigned on I14Y. Larger organisations manage their accounts themselves ([see below](#accountadministration-in-larger-organisations)). Therefore, please contact your account administrator. If you do not use an organisation-internal standard solution such as Fedlogin, let them know which email address you used when creating the login (see step 1). As soon as read or edit access rights have been granted, you will receive an email. This contains a web link and a code. Visit the specified website and enter the code that was sent to you. This will link your digital identity to I14Y.
 
 ```mermaid
 flowchart TD
@@ -32,7 +32,7 @@ code-->i14y
 These set-up steps are necessary once only. If you want to change the details of your account later, visit the [Account Management Area of EIAM](https://www.myaccount.eiam.admin.ch).
 
 {{<alert title="How much does the account cost?" color="info" >}}
-The I14Y-IOP is being developed and operated by the Confederation as part of the National Data Management programme. The development work as well as the operation are financed by the Confederation. In the medium term, the portal can be used free of charge -- including by content providers from cantonal and communal administrations and by state-related companies. Longer-term financing will be decided at a later stage.
+I14Y is being developed and operated by the Confederation as part of the National Data Management programme. The development work as well as the operation are financed by the Confederation. In the medium term, the portal can be used free of charge -- including by content providers from cantonal and communal administrations and by state-related companies. Longer-term financing will be decided at a later stage.
 
 {{</alert>}}
 

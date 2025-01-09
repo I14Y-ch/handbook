@@ -3,7 +3,7 @@ title: Datensammlung
 slug: datensammlung
 weight: 20
 type: docs
-keywords: [I14Y, Interoperabilitätsplattform I14Y, I14Y-IOP, Interoperabilität, Datensammlung, Datensammlung, Dataset, Datensatz, Erfassen, Erfassung, Inventar, Katalog]
+keywords: [I14Y, Interoperabilitätsplattform I14Y, I14Y, Interoperabilität, Datensammlung, Datensammlung, Dataset, Datensatz, Erfassen, Erfassung, Inventar, Katalog]
 ---
 
 ```mermaid

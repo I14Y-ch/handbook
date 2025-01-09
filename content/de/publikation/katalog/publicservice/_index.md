@@ -3,7 +3,7 @@ title: Behördenleistung
 slug: publicservice
 weight: 40
 type: docs
-keywords: [I14Y, Interoperabilitätsplattform I14Y, I14Y-IOP, Interoperabilität, Behördenleistung, öffentliche Dienstleistung, Website, Portal, Webapp, App, Mobile App, Applikation, Verzeichnis, Schweiz]
+keywords: [I14Y, Interoperabilitätsplattform I14Y, I14Y, Interoperabilität, Behördenleistung, öffentliche Dienstleistung, Website, Portal, Webapp, App, Mobile App, Applikation, Verzeichnis, Schweiz]
 ---
 
 Digitale Angebote wie Apps und Webportale vereinfachen viele Interaktionen zwischen den Behörden sowie den Bürgerinnen und Bürgern beziehungsweise den Unternehmen. Das Verzeichnis der elektronischen Behördenleistungen auf der Interoperabilitätsplattform I14Y hilft dabei diese Angebote einfach auffindbar und sichtbar zu machen. 

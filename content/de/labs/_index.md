@@ -4,7 +4,7 @@ slug: labs
 description: "Wie können Metadaten genutzt werden? In den I14Y-Labs werden experimentelle Service- und Produktinnovationen vorgestellt."
 weight: 50
 type: docs
-keywords: [Interoperabilitätsplattform I14Y, I14Y-IOP, I14Y, Labs, Lab, Labor, Experimente, Tests, Metadaten]
+keywords: [Interoperabilitätsplattform I14Y, I14Y, Labs, Lab, Labor, Experimente, Tests, Metadaten]
 draft: True
 ---
 
