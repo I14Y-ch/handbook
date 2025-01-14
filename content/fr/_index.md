@@ -1,5 +1,5 @@
 ---
-title: Plateforme de métadonnées pour la Suisse
+title: Catalogue de métadonnées pour la Suisse
 description: "La plateforme d’interopérabilité I14Y est le répertoire centralisé suisse des métadonnées, des interfaces électroniques (API) et des prestations des autorités (services publics). Elle propose par ailleurs des outils permettant l’utilisation multiple des données et réduit ainsi la charge de travail des entreprises, des citoyens et des autorités."
 slug: bienvenue
 translationKey: welcome
