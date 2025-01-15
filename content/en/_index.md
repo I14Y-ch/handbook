@@ -1,5 +1,5 @@
 ---
-title: Metadata platform for Switzerland 
+title: Metadata catalogue for Switzerland 
 slug: introduction
 translationkey: welcome
 description: 'The I14Y interoperability platform is the central directory of data, electronic interfaces and government services in Switzerland. The platform also provides tools so that data can be used multiple times. This relieves the burden on companies, citizens and the authorities.'

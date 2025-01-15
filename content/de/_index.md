@@ -1,5 +1,5 @@
 ---
-title: Metadatenplattform für die Schweiz
+title: Metadatenkatalog für die Schweiz
 slug: willkommen
 translationKey: welcome
 description: 'Die Interoperabilitätsplattform I14Y ist das zentrale Verzeichnis der Daten, elektronischen Schnittstellen und Behördenleistungen in der Schweiz. Die Plattform stellt zudem Werkzeuge zur Verfügung, damit Daten mehrfach genutzt werden können. Dies entlastet Unternehmen, Bürgerinnen und Bürger sowie die Behörden.'
