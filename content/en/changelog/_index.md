@@ -9,6 +9,12 @@ keywords: [I14Y, Interoperabilitätsplattform I14Y, IOP, Changelog, Releases, Ve
 
 The I14Y interoperability platform is under continuous development. New features are added with each release. Bugs are also fixed. The most important changes are briefly documented below. For detailed information on the development of the platform, please contact the [I14Y team](mailto:i14y@bfs.admin.ch). 
 
+## Release January 15 2025
+- The [Partner API](https://apiconsole.i14y.admin.ch/partner/v1/index.html) can now be used to retrieve and publish dataset descriptions (GET and POST). 
+- The [Partner API](https://apiconsole.i14y.admin.ch/partner/v1/index.html) can now be used to set status and publication level (PUT).
+- Minor search improvements
+- Numerous bug fixes
+
 ## Major release 13 November
 With the major release of 13 November, the I14Y user interface becomes simpler and more intuitive to use: the previous separation between the catalogue and the concepts on the graphical interface is eliminated. A global search is now available. The appearance has been modernised. A new API endpoint is also introduced. The changes in detail.
 
