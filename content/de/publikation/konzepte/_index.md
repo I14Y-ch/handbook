@@ -55,7 +55,7 @@ Alternativ kann die Codeliste auch in der Form einer JSON-Datei hochgeladen werd
 
 ```
 {
-  "codeListEntries": [
+  "data": [
     {
       "annotations": [],
       "code": "10",
