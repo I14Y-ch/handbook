@@ -1,6 +1,6 @@
 ---
 title: News
-slug: nouvelles
+slug: news
 translationKey: news
 weight: 90
 type: docs
