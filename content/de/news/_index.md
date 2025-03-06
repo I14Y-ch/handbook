@@ -12,6 +12,31 @@ Möchten Sie über neue Funktionen und Angebote auf der Interoperabilitätsplatt
 
 {{</alert>}}
 
+## Automatisch statt manuell: Datensatzbeschreibungen effizient auf I14Y laden
+*04.03.2025*
+
+{{< figure src="/handbook/img/news/grafik_api.png" alt="Grafik API" width="125px" class="float-left img-news-thumb" >}}
+
+Ab sofort können Beschreibungen zu Datensätzen automatisiert auf I14Y hochgeladen werden – dank eines neuen Endpunkts der elektronischen Schnittstelle (API). Mit einem einfachen POST-Request lassen sich Datensatzbeschreibungen erstellen, inklusive Angaben zu allfälligen Distributionen. Der Eintrag kann anschliessend über die Weboberfläche überprüft und freigegeben werden. Alternativ lässt sich der Status per PUT-Request direkt aus einem Skript heraus ändern und publizieren.  
+
+Die technischen Spezifikationen zu den neuen Endpunkten sind im Swagger zur Partner-API dokumentiert. Zudem steht ein Tutorial mit Anwendungsbeispielen zur Verfügung.  
+
+Alle Informationen zur I14Y-API sind unter [apiconsole.i14y.admin.ch](https://apiconsole.i14y.admin.ch) zu finden. 
+
+## Ein Code für alle Fälle: Medizinische Daten strukturiert erfassen
+*04.03.2025*
+
+{{< figure src="/handbook/img/news/medical.jpg" alt="Grafik digitalisierte Medizin" width="125px" class="float-left img-news-thumb" >}}
+
+In allen Schweizer Spitälern müssen Diagnose- und Behandlungsdaten einheitlich erfasst werden. Dafür kommen die Klassifikationen ICD-10 (Diagnosen) und CHOP (Untersuchungen & Behandlungen) zum Einsatz. Die aktuellsten Versionen sind auf I14Y beschrieben, und die Codelisten können als JSON und CSV – sowie per API – exportiert werden. Direkte Links: [ICD-10](https://www.i14y.admin.ch/de/catalog/concepts/08dd2e54-00fb-efc5-b7cd-14f5c7d2272d) und [CHOP](https://www.i14y.admin.ch/de/catalog/concepts/08dd2e3a-d99e-d56f-9c1c-5a7c5733f1a6).
+
+## Gelebte Datengouvernanz
+*04.03.2025*
+
+{{< figure src="/handbook/img/news/lds_meetup.jpg" alt="Foto Treffen der Local Data Stewards" width="125px" class="float-left img-news-thumb" >}}
+
+Einige Verwaltungseinheiten nutzen ausschliesslich die Interoperabilitätsplattform I14Y, während andere auf eine spezialisierte Katalogsoftware setzen, die dereinst mit I14Y verbunden werden soll: An einem vom I14Y-Team organisierten Treffen tauschten sich Local Data Stewards aus verschiedenen Bundesämtern und Kantonen über ihre Vorgehensweisen bei der Inventarisierung und Harmonisierung ihrer Datensätze aus. Sie diskutierten, wie Datenharmonisierung vorangetrieben werden kann, wie Datengouvernanz bei ihnen gelebt wird. Und sie gaben einander praktische Tipps zur Nutzung von I14Y. Wir von der Interoperabilitätsstelle bedanken uns für den regen und erkenntnisreichen Austausch – und freuen uns schon auf das nächste Treffen im Frühsommer. 
+
 ## Jahresrückblick 2024
 *11.12.2024*
 

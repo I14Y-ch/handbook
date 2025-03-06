@@ -13,6 +13,32 @@ Vous souhaitez être informés des nouvelles fonctions et des offres de la plate
 
 {{</alert>}}
 
+## Téléchargement automatisé des descriptions de données sur I14Y  
+*04.03.2025*
+
+{{< figure src="/handbook/img/news/grafik_api.png" alt="Graphique API" width="125px" class="float-left img-news-thumb" >}}
+
+Grâce à un nouveau point de terminaison de l’interface électronique (API), vous pouvez dès à présent télécharger les descriptions des jeux de données de manière automatisée sur I14Y. Une simple requête POST suffit pour générer la description d’un jeu de données, ainsi que des indications sur sa distribution. Rendez-vous sur l’interface Web pour ensuite vérifier et valider l’enregistrement. Vous pouvez aussi modifier et publier le statut directement à partir d’un script via une requête PUT. 
+
+Vous trouverez les spécifications techniques des nouveaux points de terminaison dans le fichier Swagger de l’API partenaire. Un tutoriel donne par ailleurs un exemple d’utilisation. 
+
+Toutes les informations sur l’API I14Y sont disponibles à l’adresse suivante : [apiconsole.i14y.admin.ch](apiconsole.i14y.admin.ch). 
+
+## À chaque cas, son code: saisie uniforme des données médicales
+*04.03.2025*
+
+{{< figure src="/handbook/img/news/medical.jpg" alt="Graphique médecine numérisée" width="125px" class="float-left img-news-thumb" >}}
+
+Tous les hôpitaux suisses sont tenus de saisir de manière uniforme les données de diagnostic et de traitement. Pour ce faire, ils utilisent les classifications CIM-10 (diagnostics) et CHOP (examens et traitements). Les dernières versions de ces classifications sont disponibles sur la plateforme I14Y. Elle permet aussi d’exporter les listes de codes aux formats JSON et CSV, ou via une API. Liens directs : [ICD-10](https://www.i14y.admin.ch/fr/catalog/concepts/08dd2e54-00fb-efc5-b7cd-14f5c7d2272d/description) et [CHOP](https://www.i14y.admin.ch/fr/catalog/concepts/08dd2e3a-d99e-d56f-9c1c-5a7c5733f1a6/description).
+
+## La gouvernance des données mise en pratique
+*04.03.2025*
+
+{{< figure src="/handbook/img/news/lds_meetup.jpg" alt="Photo de la rencontre des Local Data Stewards" width="125px" class="float-left img-news-thumb" >}}
+
+Alors que certaines unités administratives recourent exclusivement à la plateforme d’interopérabilité I14Y, d’autres utilisent un logiciel catalogue installé localement, qui sera relié à I14Y. Lors d’une rencontre organisée par l’équipe I14Y, les administrateurs locaux des données de plusieurs offices fédéraux et cantons ont expliqué comment ils procédaient pour inventorier et harmoniser leurs données. En plus de se demander comment mieux harmoniser les données, ils ont aussi abordé le sujet de la gouvernance des données, donnant même quelques conseils pratiques en matière d’utilisation de la plateforme I14Y. Le service d’interopérabilité remercie tous les participants pour cet échange riche et fructueux et se réjouit d’ores et déjà de la prochaine rencontre au début de l’été.
+
+
 ## Rétrospective de l'année 2024
 *11.12.2024*
 

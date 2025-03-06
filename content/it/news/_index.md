@@ -13,6 +13,31 @@ Desiderate essere informati sulle nuove funzionalità e offerte della piattaform
 
 {{</alert>}}
 
+## Come caricare in modo efficace descrizioni di set di dati sulla piattaforma I14Y
+*04.03.2025*
+
+{{< figure src="/handbook/img/news/grafik_api.png" alt="API grafica" width="125px" class="float-left img-news-thumb" >}}
+
+Grazie a un nuovo endpoint dell’interfaccia elettronica (API), ora le descrizioni dei set di dati possono essere caricate su I14Y automaticamente. Le descrizioni di set di dati, compresi i dettagli riguardanti eventuali distribuzioni, possono essere create con una semplice richiesta POST. La voce può quindi essere controllata e messa a disposizione tramite l’interfaccia web. In alternativa, lo stato può essere modificato e pubblicato direttamente con uno script tramite una richiesta PUT.  
+
+Le specifiche tecniche dei nuovi endpoint sono documentate nello Swagger dell’API partner. Inoltre è disponibile un tutorial con un esempio di applicazione.  
+
+Tutte le informazioni sull’API I14Y si trovano al seguente link: [apiconsole.i14y.admin.ch](https://apiconsole.i14y.admin.ch). 
+
+## Un codice per ogni caso: registrare i dati medici in modo omogeneo
+*04.03.2025*
+
+{{< figure src="/handbook/img/news/medical.jpg" alt="Grafica medicina digitalizzata" width="125px" class="float-left img-news-thumb" >}}
+
+In tutti gli ospedali svizzeri, le diagnosi e i trattamenti devono essere registrati in modo omogeneo. A tale scopo vengono utilizzate le classificazioni ICD-10 (diagnosi) e CHOP (esami e trattamenti). Le ultime versioni sono descritte sulla piattaforma I14Y e gli elenchi di codici possono essere esportati in formato JSON e CSV, oltre che tramite l’API. Collegamenti diretti: [ICD-10](https://www.i14y.admin.ch/it/catalog/concepts/08dd2e54-00fb-efc5-b7cd-14f5c7d2272d/description) e [CHOP](https://www.i14y.admin.ch/it/catalog/concepts/08dd2e3a-d99e-d56f-9c1c-5a7c5733f1a6/description).
+
+## La governance dei dati nella pratica
+*04.03.2025*
+
+{{< figure src="/handbook/img/news/lds_meetup.jpg" alt="Foto dell'incontro dei Local Data Steward" width="125px" class="float-left img-news-thumb" >}}
+
+Alcune unità amministrative utilizzano solo la piattaforma di interoperabilità I14Y, mentre altre si affidano a un software per cataloghi installato localmente, che in futuro sarà collegato a I14Y: in un incontro organizzato dal team I14Y, i local data steward di diversi uffici federali e Cantoni hanno condiviso il loro modo di procedere nell’inventariare e armonizzare i set di dati. Hanno discusso di come promuovere l’armonizzazione dei dati e di come ognuno di loro mette in pratica la governance dei dati, dandosi consigli pratici sull’utilizzazione della piattaforma I14Y. Il team del servizio di interoperabilità ringrazia per lo scambio vivace e arricchente in attesa del prossimo incontro previsto all’inizio dell’estate. Lavora come local data steward presso un’unità amministrativa e desidera partecipare alla prossima riunione? Ci scriva!
+
 ## Bilancio dell'anno
 *11.12.2024*
 
