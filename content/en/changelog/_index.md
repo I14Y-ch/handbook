@@ -9,6 +9,15 @@ keywords: [I14Y, Interoperabilitätsplattform I14Y, IOP, Changelog, Releases, Ve
 
 The I14Y interoperability platform is under continuous development. New features are added with each release. Bugs are also fixed. The most important changes are briefly documented below. For detailed information on the development of the platform, please contact the [I14Y team](mailto:i14y@bfs.admin.ch). 
 
+## Release of 5 March 2025
+- The [I14Y-API](https://apiconsole.i14y.admin.ch/) offers new endpoints in the area of dataset descriptions. The metadata for datasets can be read (GET). New descriptions can be entered (POST). Existing ones can be edited and published (PUT) or deleted if necessary (DELETE).
+- When registering a public service, it is now possible to select the area for which the service is offered. In addition to the whole of Switzerland, all cantons, districts and municipalities are available in the selection field. This information is also supplied when exporting via the API. The basis for this is the code list [cantons, districts and municipalities](https://www.i14y.admin.ch/de/catalog/concepts/08dc23f0-d04d-2d2f-a9f5-9cea80695acf/description).
+- When creating an internal work area for an office or other organisation, the interoperability service can now store the organisation number from the business register, information on the [legal form](https://www.i14y.admin. ch/en/catalog/concepts/08dad8ff-f18a-560b-bfa6-20767f2afb17/description) and information on the federal level of the organisation. The information on the area in which an organisation operates is provided when a public  service description is obtained via the API.
+- The home page and the overview page in the internal area have been slightly revised in terms of content: the introductory texts have been adapted. And a link to the I14Y API console has been added in the footer area. The video on data harmonisation, which was previously placed on the home page, has been removed; it can still be found in the [news section](https://i14y-ch.github.io/handbook/en/news/) and on [Youtube](https://youtu.be/ZLMM-bM74oY?si=RWzpZB1DU36Z4Br4).
+- An error in the publisher field has been corrected: Until now, the publisher's organisation name often had to be reselected as soon as an entry had been edited. This is no longer necessary. 
+- An error in the data owner field has been corrected: Previously, it was not possible to delete a name when editing an entry. This is now possible again.
+- Numerous bug fixes
+
 ## Release January 15 2025
 - The [Partner API](https://apiconsole.i14y.admin.ch/partner/v1/index.html) can now be used to retrieve and publish dataset descriptions (GET and POST). 
 - The [Partner API](https://apiconsole.i14y.admin.ch/partner/v1/index.html) can now be used to set status and publication level (PUT).

@@ -6,10 +6,19 @@ type: docs
 keywords: [I14Y, Interoperabilitätsplattform I14Y, IOP, Changelog, Releases, Versionen, Software-Entwicklung]
 ---
 {{<alert title="Language" color="warning">}}
-__DE:__ Diese Seite liegt nur in englischer Sprache vor. Einzig Beschreibungen zu grossen Releases werden auf Deutsch publiziert.
+__DE:__ Diese Seite liegt teilweise in englischer Sprache vor.
 {{</alert>}}
 
 The I14Y interoperability platform is under continuous development. New features are added with each release. Bugs are also fixed. The most important changes are briefly documented below. For detailed information on the development of the platform, please contact the [I14Y team](mailto:i14y@bfs.admin.ch). 
+
+## Release vom 5. März 2025
+- Die [I14Y-API](https://apiconsole.i14y.admin.ch/) bietet neue Endpunkte an im Bereich der Datensatz-Beschreibungen. Die Metadaten zu Datensätzen können gelesen werden (GET). Neue Beschreibungen lassen sich erfassen (POST). Bestehende können editiert und publiziert (PUT) oder bei Bedarf gelöscht werden (DELETE).  
+- Bei der Erfassung einer Behördenleistung kann neu ausgewählt werden, für welches Gebiet die Leistung angeboten wird. Im Auswahlfeld sind nebst der Gesamtschweiz alle Kantone, Bezirke und Gemeinden hinterlegt. Diese Information wird auch im Export über die API mitgeliefert. Grundlage ist die Codeliste [Kantone, Bezirke und Gemeinden](https://www.i14y.admin.ch/de/catalog/concepts/08dc23f0-d04d-2d2f-a9f5-9cea80695acf/description).
+- Beim Erstellen eines internen Arbeitsbereichs für ein Amt oder für eine andere Organisation kann die Interoperabilitätsstelle neu die Organisationsnummer aus dem Unternehmensregister, eine Angabe zur Rechtsform (siehe Codeliste [Rechtsform eines Unternehmens](https://www.i14y.admin.ch/de/catalog/concepts/08dad8ff-f18a-560b-bfa6-20767f2afb17/description)) sowie Informationen zur föderalen Ebene der Organisation hinterlegen. Die Informationen zum Gebiet, in dem eine Organisation tätig ist, werden beim Bezug einer Behördenleistung über die API mitgeliefert.
+- Die Startseite sowie die Überblicksseite im internen Bereich wurden inhaltlich leicht überarbeitet: Die Einleitungstexte wurden angepasst. Und in der Fusszeile wurde ein Link zur API-Konsole von I14Y hinzugefügt. Das Video zur Datenharmonisierung, das bislang auf der Startseite platziert war, wurde entfernt; es ist weiterhin im [News-Bereich](https://i14y-ch.github.io/handbook/de/news/) sowie auf [Youtube](https://www.youtube.com/watch?v=U0CpW1bNIdU) zu finden.  
+- Ein Fehler des Feldes Herausgeber wurde korrigiert: Bislang musste die Herausgeber-Organisation oftmals neu ausgewählt werden, sobald ein Eintrag bearbeitet worden war. Dies ist nun nicht mehr nötig. 
+- Ein Fehler des Feldes Dateneigner wurde korrigiert: Bislang konnte ein früher gespeicherter Name im Editiermodus nicht gelöscht werden. Dies ist nun wieder möglich. 
+- Weitere Fehlerkorrekturen
 
 ## Release January 15 2025
 - The [Partner API](https://apiconsole.i14y.admin.ch/partner/v1/index.html) can now be used to retrieve and publish dataset descriptions (GET and POST). 
