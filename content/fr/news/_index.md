@@ -30,7 +30,7 @@ Grâce à la bibliothèque R, les utilisateurs peuvent accéder à des métadonn
 
 *Quelles réflexions ou expériences vous ont motivé à mettre à la disposition de la communauté non seulement la bibliothèque, mais aussi un tutoriel?*
 
-En développant la bibliothèque, je voulais qu’il soit possible de tout réaliser directement à partir de la console R: recherche dans le catalogue I14Y, accès aux données et à d’autres identifiants permettant de trouver des données complémentaires. J’ai non seulement décrit l’ensemble du processus, mais aussi donné un exemple de combinaison possible avec une base de données de l’Office fédéral de la statistique. N’hésitez pas à jeter un œil à la documentation en ligne sous  [www.felixluginbuhl.com/I14Y](https//:www.felixluginbuhl.com/I14Y) et à nous envoyer vos questions et commentaires. 
+En développant la bibliothèque, je voulais qu’il soit possible de tout réaliser directement à partir de la console R: recherche dans le catalogue I14Y, accès aux données et à d’autres identifiants permettant de trouver des données complémentaires. J’ai non seulement décrit l’ensemble du processus, mais aussi donné un exemple de combinaison possible avec une base de données de l’Office fédéral de la statistique. N’hésitez pas à jeter un œil à la documentation en ligne sous   [www.felixluginbuhl.com/I14Y](https://felixluginbuhl.com/I14Y).et à nous envoyer vos questions et commentaires. 
 
 ## Téléchargement automatisé des descriptions de données sur I14Y  
 *04.03.2025*
