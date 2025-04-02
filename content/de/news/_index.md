@@ -29,7 +29,7 @@ Dank der R-Bibliothek können Nutzerinnen und Nutzer Metadaten von I14Y abrufen 
 
 *Welche Überlegungen oder Erfahrungen haben Sie dazu motiviert, der Community nicht nur das Paket, sondern auch ein Tutorial zur Verfügung zu stellen?*
 
-Bei der Entwicklung der Bibliothek hatte ich vor Augen, alles direkt von der R-Konsole aus realisieren zu können: Suche im I14Y-Katalog, Zugriff auf die Daten sowie auf andere Identifikatoren, um weitere ergänzende Daten finden zu können. Ich habe den gesamten Prozess dokumentiert. Ich habe auch ein Beispiel für die Kombination mit einer Datenbank des Bundesamtes für Statistik gegeben. Werfen Sie einen Blick in die Online-Dokumentation unter [www.felixluginbuhl.com/I14Y](https//:www.felixluginbuhl.com/I14Y). Fragen oder Feedback sind willkommen! 
+Bei der Entwicklung der Bibliothek hatte ich vor Augen, alles direkt von der R-Konsole aus realisieren zu können: Suche im I14Y-Katalog, Zugriff auf die Daten sowie auf andere Identifikatoren, um weitere ergänzende Daten finden zu können. Ich habe den gesamten Prozess dokumentiert. Ich habe auch ein Beispiel für die Kombination mit einer Datenbank des Bundesamtes für Statistik gegeben. Werfen Sie einen Blick in die Online-Dokumentation unter [www.felixluginbuhl.com/I14Y](https://felixluginbuhl.com/I14Y). Fragen oder Feedback sind willkommen! 
 
 ## Automatisch statt manuell: Datensatzbeschreibungen effizient auf I14Y laden
 *04.03.2025*
