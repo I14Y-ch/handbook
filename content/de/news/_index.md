@@ -12,6 +12,25 @@ Möchten Sie über neue Funktionen und Angebote auf der Interoperabilitätsplatt
 
 {{</alert>}}
 
+## Effizienter Zugang zur I14Y-API mit R
+*02.04.2025*
+
+{{< figure src="/handbook/img/news/r-konsole.png" alt="Grafik R-Konsole" width="125px" class="float-left img-news-thumb" >}}
+
+Ein durchdachtes R-Paket erleichtert den Zugriff auf die API der Interoperabilitätsplattform I14Y. Ein begleitendes Tutorial zeigt zudem, wie Metadaten direkt in der R-Konsole genutzt werden können. Drei Fragen an Félix Luginbuhl, der das R-Paket in Eigenregie entwickelt hat. 
+
+*Félix Luginbühl, Sie haben eine R-Bibliothek entwickelt, die den Zugang zur elektronischen Schnittstelle von I14Y erleichtert. War ein bestimmtes Problem oder eine Herausforderung der Auslöser?*
+
+Für ein Projekt benötigte ich Zugriff auf bestimmte Daten der Interoperabilitätsplattform. Normalerweise arbeite ich mit der Skriptsprache R. Sie ermöglicht es die Bearbeitungsschritte und die Analysen transparent und replizierbar zu machen. Daher habe ich ein Skript geschrieben, das die Metadaten über die API abruft. Angesichts der Bedeutung von I14Y und der zunehmenden Verbreitung der Programmiersprache R in der Schweiz dachte ich, dass eine Bibliothek für die Community nützlich sein könnte. Also machte ich mich daran, diese neue Bibliothek ehrenamtlich zu entwickeln.
+
+*Welche Lücke schliesst Ihre R-Bibliothek?*
+
+Dank der R-Bibliothek können Nutzerinnen und Nutzer Metadaten von I14Y abrufen – auf ähnliche simple Weise, wie sie Daten aus anderen Quellen beziehen. Dabei brauchen sie sich nicht um technische Details der API-Calls zu kümmern, sondern können die vertraute R-Syntax verwenden. Die Metadaten lassen sich zudem einfach mit den eigentlichen Daten des Bundesamts für Statistik kombinieren, wie sie sich mit meinem R-Paket namens «BFS» beziehen lassen. Beide Pakete biete ich als Opensource-Code an. 
+
+*Welche Überlegungen oder Erfahrungen haben Sie dazu motiviert, der Community nicht nur das Paket, sondern auch ein Tutorial zur Verfügung zu stellen?*
+
+Bei der Entwicklung der Bibliothek hatte ich vor Augen, alles direkt von der R-Konsole aus realisieren zu können: Suche im I14Y-Katalog, Zugriff auf die Daten sowie auf andere Identifikatoren, um weitere ergänzende Daten finden zu können. Ich habe den gesamten Prozess dokumentiert. Ich habe auch ein Beispiel für die Kombination mit einer Datenbank des Bundesamtes für Statistik gegeben. Werfen Sie einen Blick in die Online-Dokumentation unter [www.felixluginbuhl.com/I14Y](https//:www.felixluginbuhl.com/I14Y). Fragen oder Feedback sind willkommen! 
+
 ## Automatisch statt manuell: Datensatzbeschreibungen effizient auf I14Y laden
 *04.03.2025*
 
