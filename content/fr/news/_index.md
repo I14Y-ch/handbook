@@ -13,6 +13,25 @@ Vous souhaitez être informés des nouvelles fonctions et des offres de la plate
 
 {{</alert>}}
 
+## Accès aisé à l’API I14Y grâce à R
+*02.04.2025*
+
+{{< figure src="/handbook/img/news/r-konsole.png" alt="Grafik R-Konsole" width="125px" class="float-left img-news-thumb" >}}
+
+Un package R bien conçu facilite l’accès à l’API de la plateforme d’interopérabilité I14Y. Un tutoriel montre en outre comment utiliser les métadonnées directement dans la console R. Trois questions à Félix Luginbuhl, qui a développé le paquet R.
+
+*Félix Luginbühl, vous avez développé une bibliothèque R qui facilite l’accès à l’interface électronique de la plateforme I14Y. Quel a été l’élément déclencheur, un problème ou un défi en particulier?*
+
+Dans le cadre d’un projet, j’avais besoin d’accéder à certaines données de la plateforme d’interopérabilité. En général, j’utilise le langage de programmation R, qui permet de définir de manière transparente les étapes du traitement et les analyses et de les reproduire. J’ai donc écrit un script qui récupère les métadonnées via l’API. Étant donné le rôle de la plateforme I14Y et l’importance croissante du langage de programmation R en Suisse, j’ai pensé qu’une bibliothèque pourrait être utile à la communauté. J’ai donc entrepris de développer cette nouvelle bibliothèque, à titre bénévole. 
+
+*Quelles lacunes votre bibliothèque R permet-elle de combler?*
+
+Grâce à la bibliothèque R, les utilisateurs peuvent accéder à des métadonnées de la plateforme I14Y aussi simplement qu’ils se procurent des données d’autres sources. Ils n’ont pas besoin de se préoccuper des détails techniques des appels API, mais peuvent utiliser la syntaxe R qui leur est familière. Il est en outre facile de combiner les métadonnées avec les données de l’Office fédéral de la statistique, telles qu’elles se présentent dans ma deuxième bibliothèque R (la bibliothèque «BFS»). Les deux bibliothèques sont disponibles sous forme de code *open source*. 
+
+*Quelles réflexions ou expériences vous ont motivé à mettre à la disposition de la communauté non seulement la bibliothèque, mais aussi un tutoriel?*
+
+En développant la bibliothèque, je voulais qu’il soit possible de tout réaliser directement à partir de la console R: recherche dans le catalogue I14Y, accès aux données et à d’autres identifiants permettant de trouver des données complémentaires. J’ai non seulement décrit l’ensemble du processus, mais aussi donné un exemple de combinaison possible avec une base de données de l’Office fédéral de la statistique. N’hésitez pas à jeter un œil à la documentation en ligne sous  [www.felixluginbuhl.com/I14Y](https//:www.felixluginbuhl.com/I14Y) et à nous envoyer vos questions et commentaires. 
+
 ## Téléchargement automatisé des descriptions de données sur I14Y  
 *04.03.2025*
 
