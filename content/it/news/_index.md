@@ -30,7 +30,7 @@ Grazie a questa libreria, gli utenti possono recuperare i metadati dalla piattaf
 
 *Quali considerazioni o esperienze L’hanno spinta a fornire alla community non solo il pacchetto, ma anche un tutorial?*
 
-Mentre sviluppavo la libreria mi è venuto in mente che potevo realizzare il tutto servendomi della console di R: ricerca nel catalogo della piattaforma 14Y, accesso ai dati e ad altri identificatori per trovare dati supplementari. Ho documentato l’intero processo e anche fornito un esempio di combinazione con una banca dati dell’Ufficio federale di statistica. Date un’occhiata alla documentazione online disponibile su   [www.felixluginbuhl.com/I14Y](https//:www.felixluginbuhl.com/I14Y). Eventuali domande e feedback sono i benvenuti!
+Mentre sviluppavo la libreria mi è venuto in mente che potevo realizzare il tutto servendomi della console di R: ricerca nel catalogo della piattaforma 14Y, accesso ai dati e ad altri identificatori per trovare dati supplementari. Ho documentato l’intero processo e anche fornito un esempio di combinazione con una banca dati dell’Ufficio federale di statistica. Date un’occhiata alla documentazione online disponibile su [www.felixluginbuhl.com/I14Y](https://felixluginbuhl.com/I14Y). Eventuali domande e feedback sono i benvenuti!
 
 ## Come caricare in modo efficace descrizioni di set di dati sulla piattaforma I14Y
 *04.03.2025*
