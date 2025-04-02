@@ -13,6 +13,25 @@ Desiderate essere informati sulle nuove funzionalità e offerte della piattaform
 
 {{</alert>}}
 
+## Accesso più rapido con R all’API della I14Y 
+*02.04.2025*
+
+{{< figure src="/handbook/img/news/r-konsole.png" alt="Grafik R-Konsole" width="125px" class="float-left img-news-thumb" >}}
+
+Un pacchetto R ben ponderato facilita l’accesso all’API della piattaforma di interoperabilità I14Y. Un tutorial di accompagnamento mostra inoltre come i metadati possono essere utilizzati direttamente nella console di R. Tre domande a Félix Luginbuhl, che ha sviluppato il pacchetto R.
+
+*Felix Luginbühl, Lei ha sviluppato una libreria in linguaggio R che facilita l’accesso all’interfaccia elettronica della piattaforma I14Y. È stato un problema o una sfida specifica a spingerla a sviluppare il suddetto pacchetto?*
+
+Avevo bisogno di accedere a determinati dati sulla piattaforma di interoperabilità per un progetto. Sono solito lavorare con il linguaggio di programmazione R. Mi permette di rendere trasparenti e riproducibili le fasi di elaborazione e le analisi. Ho quindi creato uno script che aiuta a trovare i metadati tramite l’API. Data l’importanza della piattaforma I14Y e il crescente utilizzo del linguaggio di programmazione R in Svizzera, ho pensato che una libreria potesse essere utile all’intera community. Ecco perché ho iniziato a svilupparla a titolo volontario.
+
+*Quale lacuna ha colmato la Sua libreria in linguaggio R?*
+
+Grazie a questa libreria, gli utenti possono recuperare i metadati dalla piattaforma I14Y in modo semplice, analogamente a come fanno con altre fonti di dati. Non devono infatti più preoccuparsi dei dettagli tecnici delle chiamate API, poiché possono utilizzare la sintassi R che già conoscono. Attraverso il mio pacchetto R denominato «BFS», inoltre, i metadati possono essere facilmente combinati con i dati veri e propri dell’Ufficio federale di statistica. Ho messo a disposizione entrambi i pacchetti come codici open source.  
+
+*Quali considerazioni o esperienze L’hanno spinta a fornire alla community non solo il pacchetto, ma anche un tutorial?*
+
+Mentre sviluppavo la libreria mi è venuto in mente che potevo realizzare il tutto servendomi della console di R: ricerca nel catalogo della piattaforma 14Y, accesso ai dati e ad altri identificatori per trovare dati supplementari. Ho documentato l’intero processo e anche fornito un esempio di combinazione con una banca dati dell’Ufficio federale di statistica. Date un’occhiata alla documentazione online disponibile su   [www.felixluginbuhl.com/I14Y](https//:www.felixluginbuhl.com/I14Y). Eventuali domande e feedback sono i benvenuti!
+
 ## Come caricare in modo efficace descrizioni di set di dati sulla piattaforma I14Y
 *04.03.2025*
 
