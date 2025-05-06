@@ -8,7 +8,23 @@ weight: 100
 type: docs
 ---
 
+{{< mermaid >}}
+timeline
+    title Zeitplan der Veranstaltungen
+    section Kommende Veranstaltungen
+        9. Juli 2025 : Informelles Treffen der Local Data Stewards
+        27. Mai 2025 : Steuerungsausschuss
+    section Vergangene Veranstaltungen
+        18. Februar 2025 : Steuerungsausschuss
+        9. Dezember 2024 : Steuerungsausschuss
+        4. Dezember 2024 : Entdecken Sie die Möglichkeiten der I14Y Interoperabilitätsplattform
+{{< /mermaid >}}
+
 ## Kommende Veranstaltungen
+
+### 27. Mai 2025: Steuerungsausschuss
+
+Der Steuerungsausschuss der Interoperabilitätsplattform I14Y trifft sich das nächste Mal am Dienstag, den 27. Mai 2025 von 9.30 bis 12.00 Uhr. Der Steuerungsausschuss unterstützt IOS bei der Priorisierung der Entwicklungsaufgaben und berät das I14Y-Team bei strategischen Entscheiden. Organisationen, die I14Y aktiv nutzen, können im Steuerungsausschuss Einsitz nehmen. Falls Sie Interesse haben, kontaktieren Sie die Interoperabilitätsstelle unter [i14y@bfs.admin.ch](mailto:i14y@bfs.admin.ch).
 
 ### 9. Juli 2025: Informelles Treffen der Local Data Stewards
 
