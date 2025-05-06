@@ -24,10 +24,11 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "6.2.0",
-    "bootstrap": "^5.3.0",
+    "bootstrap": "^5.0.0",
     "postcss-cli": "^10.1.0",
-    "braces": "^4.3.0",
-    "micromatch": "^5.1.2"
+    "braces": "^3.0.3",
+    "micromatch": "^4.0.8",
+    "nanoid": "^3.3.8"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
