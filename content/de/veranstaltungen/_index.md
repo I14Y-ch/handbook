@@ -8,7 +8,7 @@ weight: 100
 type: docs
 ---
 
-{{< mermaid >}}
+```mermaid
 timeline
     title Zeitplan der Veranstaltungen
     section Kommende Veranstaltungen
@@ -18,7 +18,7 @@ timeline
         18. Februar 2025 : Steuerungsausschuss
         9. Dezember 2024 : Steuerungsausschuss
         4. Dezember 2024 : Entdecken Sie die Möglichkeiten der I14Y Interoperabilitätsplattform
-{{< /mermaid >}}
+```
 
 ## Kommende Veranstaltungen
 
