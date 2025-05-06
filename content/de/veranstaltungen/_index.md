@@ -10,15 +10,15 @@ type: docs
 
 ## Kommende Veranstaltungen
 
-### Frühsommer 2025: Workshop für Local Data Stewards
+### 9. Juli 2025: Informelles Treffen der Local Data Stewards
 
-Arbeiten Sie als Local Data Steward beim Bund, einem Kanton oder einer Gemeinde? Möchten Sie sich mit anderen Local Data Stewards über die praktische Nutzung der Interoperabilitätsplattform I14Y austauschen? Das nächste informelle Treffen findet im Frühsommer statt. Das genaue Datum und der Ort werden bald bekannt gegeben. Falls Sie gerne dabei sein möchten, kontaktieren Sie die Interoperabilitätsstelle unter [i14y@bfs.admin.ch](mailto:i14y@bfs.admin.ch). 
+Arbeiten Sie als Local Data Steward beim Bund, einem Kanton oder einer Gemeinde? Möchten Sie sich mit anderen Local Data Stewards über die praktische Nutzung der Interoperabilitätsplattform I14Y austauschen? Das nächste informelle Treffen findet am 9. Juli auf dem Campus Liebefeld (Köniz bei Bern) statt. Falls Sie gerne dabei sein möchten, kontaktieren Sie die Interoperabilitätsstelle unter [i14y@bfs.admin.ch](mailto:i14y@bfs.admin.ch). 
+
+## Vergangene Veranstaltungen
 
 ### 18. Februar 2025: Steuerungsausschuss
 
 Der Steuerungsausschuss der Interoperabilitätsplattform I14Y trifft sich das nächste Mal am Dienstag, den 18. Februar 2025. Der Steuerungsausschuss unterstützt IOS bei der Priorisierung der Entwicklungsaufgaben und berät das I14Y-Team bei strategischen Entscheiden. Organisationen, die I14Y aktiv nutzen, können im Steuerungsausschuss Einsitz nehmen. Falls Sie Interesse haben, kontaktieren Sie die Interoperabilitätsstelle unter [i14y@bfs.admin.ch](mailto:i14y@bfs.admin.ch).
-
-## Vergangene Veranstaltungen
 
 ### 9. Dezember 2024: Steuerungsausschuss
 
