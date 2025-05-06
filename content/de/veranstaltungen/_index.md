@@ -9,15 +9,18 @@ type: docs
 ---
 
 ```mermaid
-timeline
+gantt
     title Zeitplan der Veranstaltungen
+    dateFormat YYYY-MM-DD
+    
     section Kommende Veranstaltungen
-        9. Juli 2025 : Informelles Treffen der Local Data Stewards
-        27. Mai 2025 : Steuerungsausschuss
+    Steuerungsausschuss                    :milestone, 2025-05-27, 0d
+    Informelles Treffen Local Data Stewards:milestone, 2025-07-09, 0d
+    
     section Vergangene Veranstaltungen
-        18. Februar 2025 : Steuerungsausschuss
-        9. Dezember 2024 : Steuerungsausschuss
-        4. Dezember 2024 : Entdecken Sie die Möglichkeiten der I14Y Interoperabilitätsplattform
+    Steuerungsausschuss                     :milestone, done, 2025-02-18, 0d
+    Steuerungsausschuss                     :milestone, done, 2024-12-09, 0d
+    I14Y Interoperabilitätsplattform        :milestone, done, 2024-12-04, 0d
 ```
 
 ## Kommende Veranstaltungen
