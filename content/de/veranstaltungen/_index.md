@@ -7,7 +7,7 @@ keywords: [I14Y, Interoperabilitätsplattform I14Y, IOP, Event, Veranstaltung, I
 weight: 100
 type: docs
 ---
-{{< mermaid >}}
+{{< mermaid  width="800px" >}}
 timeline
     title Veranstaltungen im Überblick
     
