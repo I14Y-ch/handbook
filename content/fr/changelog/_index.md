@@ -13,6 +13,16 @@ __FR:__ Ce site est en anglais. Seules les descriptions des grandes releases son
 
 The I14Y interoperability platform is under continuous development. New features are added with each release. Bugs are also fixed. The most important changes are briefly documented below. For detailed information on the development of the platform, please contact the [I14Y team](mailto:i14y@bfs.admin.ch). 
 
+## Release May 7 2025
+- The I14Y interoperability platform has previously stored some objects in a BFS database. With the current version, the systems are separated. All metadata is now stored in the I14Y database. The previous functions have been adapted and the data from the old system has been migrated. The decision not to use a microservice architecture in this area makes the system faster, especially when searching across multiple object categories.
+- The appearance of the pages displaying descriptions of a data record, an electronic interface, a government service or a concept has been improved: a directory is now available on the left-hand side, allowing users to navigate quickly through the descriptions.
+- Which data is publicly available, which can be viewed under certain conditions, and which is confidential? The new icons on the overview pages indicate the status of each entry.
+- Thanks to a new endpoint in the public API and in the API for I14Y partners, filtered concept lists can be requested. Filtering can be done by publisher or status, for example. 
+- A new endpoint in the API for I14Y partners allows existing concepts to be updated automatically.
+- In the description of an electronic interface, a link can now be set to the data set that the interface accesses.
+- The recording of data structures is currently being completely revised. A new tab is being introduced with this release. This can be used to upload and download information about the data structure in RDF and TTL formats. The new functions are still in the test phase. The previous tab is still available. However, structures can no longer be created in the conventional way. The next release will further improve the recording and visualisation of structures.
+- Numerous bug fixes
+
 ## Release March 5 2025
 - The [I14Y-API](https://apiconsole.i14y.admin.ch/) offers new endpoints in the area of dataset descriptions. The metadata for datasets can be read (GET). New descriptions can be entered (POST). Existing ones can be edited and published (PUT) or deleted if necessary (DELETE).
 - When registering a public service, it is now possible to select the area for which the service is offered. In addition to the whole of Switzerland, all cantons, districts and municipalities are available in the selection field. This information is also supplied when exporting via the API. The basis for this is the code list [cantons, districts and municipalities](https://www.i14y.admin.ch/de/catalog/concepts/08dc23f0-d04d-2d2f-a9f5-9cea80695acf/description).
