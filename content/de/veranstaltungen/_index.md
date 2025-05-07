@@ -12,15 +12,18 @@ type: docs
 timeline
     title Zeitplan der Veranstaltungen
     
-    section 2024
-        September : Treffen Local Data Stewards (24.09.2024)
-        Dezember : Steuerungsausschuss (09.12.2024)
-
-    section 2025  
-        Januar : Treffen Local Data Stewards (16.01.2025)
-        Februar : Steuerungsausschuss (18.02.2025)
-        Mai : Steuerungsausschuss (27.05.2025)
-        Juli : Treffen Local Data Stewards (09.07.2025)
+        September 24 : Treffen Local Data Stewards (24.09.2024)
+        Oktober 24 :
+        November 24 : Dezember : Steuerungsausschuss (09.12.2024)
+        Dezember 24 : 
+        Januar 25 : Treffen Local Data Stewards (16.01.2025)
+        Februar 25 : Steuerungsausschuss (18.02.2025)
+        März 25 : 
+        April 25 : 
+        Mai 25 : Steuerungsausschuss (27.05.2025)
+        Juni 25 : 
+        Juli 25 : Treffen Local Data Stewards (09.07.2025)
+        August 25 :
 {{< /mermaid >}}
 
 ## Kommende Veranstaltungen
