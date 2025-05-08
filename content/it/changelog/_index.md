@@ -14,13 +14,13 @@ __IT:__ Questa pagina è disponibile solo in inglese.
 The I14Y interoperability platform is under continuous development. New features are added with each release. Bugs are also fixed. The most important changes are briefly documented below. For detailed information on the development of the platform, please contact the [I14Y team](mailto:i14y@bfs.admin.ch). 
 
 ## Release May 7 2025
-- The I14Y interoperability platform has previously stored some objects in a BFS database. With the current version, the systems are separated. All metadata is now stored in the I14Y database. The previous functions have been adapted and the data from the old system has been migrated. The decision not to use a microservice architecture in this area makes the system faster, especially when searching across multiple object categories.
-- The appearance of the pages displaying descriptions of a data record, an electronic interface, a government service or a concept has been improved: a directory is now available on the left-hand side, allowing users to navigate quickly through the descriptions.
-- Which data is publicly available, which can be viewed under certain conditions, and which is confidential? The new icons on the overview pages indicate the status of each entry.
-- Thanks to a new endpoint in the public API and in the API for I14Y partners, filtered concept lists can be requested. Filtering can be done by publisher or status, for example. 
-- A new endpoint in the API for I14Y partners allows existing concepts to be updated automatically.
-- In the description of an electronic interface, a link can now be set to the data set that the interface accesses.
-- The recording of data structures is currently being completely revised. A new tab is being introduced with this release. This can be used to upload and download information about the data structure in RDF and TTL formats. The new functions are still in the test phase. The previous tab is still available. However, structures can no longer be created in the conventional way. The next release will further improve the recording and visualisation of structures.
+- The Interoperability Platform I14Y has previously used several systems to store metadata. Starting with the current release, all objects are now stored in the central I14Y database. The previous functions have been adapted and the data from the old system has been migrated. The decision not to use a microservice architecture in this area makes the system faster, especially when searching across multiple object categories.
+- The appearance of the pages displaying descriptions of a dataset, an electronic interface, a government service or a concept has been improved: a directory is now available on the left-hand side, allowing users to navigate quickly through the descriptions.
+- Which data is publicly available, which can be viewed under certain conditions, and which is confidential? The new icons on the overview pages indicate the availability status for each entry.
+- Thanks to a new endpoint in the public API and in the API for I14Y partners, filtered concept lists can be retrieved. Filtering can be done by publisher or status, for example. 
+- A new endpoint in the API for I14Y partners allows existing concepts to be updated programmatically.
+- In the description of an electronic interface, a link to the dataset that the interface accesses can now be displayed.
+- The recording of data structures is currently being revised. A new tab is being introduced with this release. It can be used to upload and download information about the data structure in RDF and TTL formats. The new functions are still in the test phase. The previous tab is still available. However, structures can no longer be created in the conventional way. The next release will further improve the recording and visualisation of structures.
 - Numerous bug fixes
 
 ## Release March 5 2025
@@ -38,7 +38,7 @@ The I14Y interoperability platform is under continuous development. New features
 - Minor search improvements
 - Numerous bug fixes
 
-## Major release 13 November
+## Major release 13 November 2024
 With the major release of 13 November, the I14Y user interface becomes simpler and more intuitive to use: the previous separation between the catalogue and the concepts on the graphical interface is eliminated. A global search is now available. The appearance has been modernised. A new API endpoint is also introduced. The changes in detail.
 
 ### Public area of the portal
