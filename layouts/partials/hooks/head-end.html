@@ -3,22 +3,59 @@
 
 <script>
   document.addEventListener('DOMContentLoaded', function() {
-    // This script will run after the page has loaded
-    // Wait for Mermaid to render (using setTimeout as a simple way)
-    setTimeout(function() {
-      // Find all text elements in Mermaid diagrams that contain [DVS BS+]
+    // Function to process Mermaid diagrams
+    function processMermaidDiagrams() {
+      // Find all text elements in Mermaid diagrams
       const mermaidTexts = document.querySelectorAll('.mermaid text');
       
       mermaidTexts.forEach(function(textElement) {
         if (textElement.textContent.includes('[DVS BS+]')) {
-          // Apply custom styling
-          textElement.style.fontWeight = 'bold';
+          // Mark the element for styling
+          textElement.classList.add('dvs-badge-container');
           
-          // Replace the [DVS BS+] marker with a styled span
-          const content = textElement.innerHTML;
-          textElement.innerHTML = content.replace('[DVS BS+]', '<tspan style="fill: #FFB6C1; background-color: #00008B; padding: 2px 4px; border-radius: 3px;">DVS BS+</tspan>');
+          // Get all tspans in this text element
+          const tspans = textElement.querySelectorAll('tspan');
+          
+          // Go through each tspan to find and replace the [DVS BS+] marker
+          tspans.forEach(function(tspan) {
+            if (tspan.textContent.includes('[DVS BS+]')) {
+              // Add a star marker before the text
+              const starElement = document.createElementNS("http://www.w3.org/2000/svg", "tspan");
+              starElement.textContent = "★ ";
+              starElement.classList.add('dvs-star');
+              textElement.insertBefore(starElement, tspan);
+              
+              // Replace the marker with styled text
+              const badgeElement = document.createElementNS("http://www.w3.org/2000/svg", "tspan");
+              badgeElement.textContent = "DVS BS+";
+              badgeElement.classList.add('dvs-badge');
+              
+              // Replace the original text (removing [DVS BS+])
+              const originalText = tspan.textContent.replace('[DVS BS+]', '');
+              tspan.textContent = originalText;
+              
+              // Add the badge after the text
+              textElement.appendChild(badgeElement);
+            }
+          });
         }
       });
-    }, 2000); // Give Mermaid time to render
+    }
+    
+    // Wait for Mermaid to finish rendering
+    // This is important as Mermaid might take some time to render the diagrams
+    let checkCount = 0;
+    const checkMermaid = setInterval(function() {
+      if (document.querySelector('.mermaid') && 
+          document.querySelector('.mermaid svg') && 
+          document.querySelectorAll('.mermaid text').length > 0) {
+        clearInterval(checkMermaid);
+        processMermaidDiagrams();
+      } else if (checkCount > 20) {
+        // After 10 seconds (20 * 500ms), stop trying
+        clearInterval(checkMermaid);
+      }
+      checkCount++;
+    }, 500);
   });
 </script>
