@@ -13,6 +13,47 @@ Desiderate essere informati sulle nuove funzionalità e offerte della piattaform
 
 {{</alert>}}
 
+## Un tutorial per lo scambio automatico di dati
+*12.05.2025*
+
+Come si fa ad accedere alle API pubbliche e dei partner della piattaforma I14Y con Python? Un nuovo tutorial interattivo spiega passo dopo passo come fare, con esempi specifici per tutti gli endpoint API. Mostra come recuperare, importare o aggiornare i dati automaticamente.
+Il tutorial può essere utilizzato in due modi: visionandolo localmente, ovvero scaricandolo semplicemente da GitHub e avviandolo direttamente nel browser con JupyterLite, senza bisogno di alcuna installazione.
+
+Vai alla pagina GitHub esplicativa: [I14Y-ch/tutorials](https://github.com/I14Y-ch/tutorials) 
+
+Vai al tutorial: [JupyterLite](https://i14y-ch.github.io/tutorials/lab/index.html) 
+
+## Descrivere le strutture dei set di dati su I14Y – Cosa cambia
+*12.05.2025*
+
+{{< figure src="/handbook/img/news/structure.png" alt="Grafik Struktur" width="125px" class="float-left img-news-thumb" >}}
+
+Nelle prossime settimane l’attuale struttura piatta dei set di dati su I14Y sarà gradualmente sostituita da una struttura gerarchica. Il modello futuro si basa su dati collegati (linked data), con classi, attributi e relazioni, salvati in formato RDF/TTL. 
+
+Tra circa tre settimane verranno introdotti nel catalogo interno nuovi modelli di dati più complessi in formato RDF/TTL. Per il momento le strutture esistenti rimangono visibili, ma non possono più essere modificate. Nel giro di circa sei settimane le nuove strutture sostituiranno completamente quelle vecchie, compresa la visualizzazione grafica e i collegamenti chiari ai concetti.
+
+Importante: le organizzazioni che hanno pubblicato descrizioni di set di dati con una struttura non hanno bisogno di fare niente. Il centro di interoperabilità trasferirà le strutture esistenti nella nuova forma. Durante il periodo in cui le strutture non possono essere modificate, chi deve effettuare modifiche può contattare il team I14Y.
+
+##  L’UFAG inizia a inserire la descrizione dei dati agricoli
+*12.05.2025*
+
+{{< figure src="/handbook/img/news/landwirtschaft.jpg" alt="Grafik Landwirtschaft" width="125px" class="float-left img-news-thumb" >}}
+
+L’Ufficio federale dell’agricoltura (UFAG) ha iniziato a descrivere i propri concetti relativi agli elementi di dati e ai set di dati sulla piattaforma I14Y; siamo entusiasti di questa iniziativa!
+I concetti registrati comprendono i pagamenti diretti, i fertilizzanti, i mangimi, le categorie di aree registrate, le etichette, i sistemi di stabulazione e le aziende di acquacoltura. A questi si aggiungono due set di dati: [Colture a pagamenti diretti e colture principali](https://www.i14y.admin.ch/it/catalog/datasets/BLW_DS_DZ_CROP/description) e [Tipi di piante in Svizzera](https://www.i14y.admin.ch/it/catalog/datasets/BLW_DS_VARIETIES/description).
+
+Le descrizioni aiutano i tecnici, i servizi amministrativi e il pubblico interessato a trovare e classificare più facilmente i dati relativi all’agricoltura.
+La descrizione strutturata dei concetti e degli insiemi di dati non solo ne aumenta la riutilizzabilità, ma promuove anche l’armonizzazione dei dati relativi all’agricoltura, un contributo fondamentale all’attuazione del principio «once-only» nell’amministrazione.
+
+## Preziosi riscontri pratici
+*12.05.2025*
+
+Lo sguardo esterno sul prodotto aiuta a migliorarlo. In alcune interviste agli utenti, otto amministratori dei dati a livello locale attivi hanno fornito al team I14Y una panoramica delle loro esperienze con la raccolta dei metadati.
+l feedback sono fondamentalmente positivi: la registrazione funziona bene e le possibilità che offre la piattaforma sono apprezzate. Le persone intervistate vedono un potenziale di miglioramento soprattutto nel supporto legato al contesto durante la compilazione e nel filtraggio dei propri set di dati.
+
+Alcuni dei punti citati sono già stati implementati, mentre altri saranno gradualmente integrati con l’ulteriore sviluppo della piattaforma.
+Promemoria: i suggerimenti per le proposte di miglioramento possono essere inviati in qualsiasi momento tramite [Github](https://github.com/I14Y-ch/feature-requests).
+
 ## Accesso più rapido con R all’API della I14Y 
 *02.04.2025*
 
