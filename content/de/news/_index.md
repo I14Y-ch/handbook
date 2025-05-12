@@ -16,10 +16,10 @@ Möchten Sie über neue Funktionen und Angebote auf der Interoperabilitätsplatt
 *12.05.2025*
 
 Wie kann man mit Python auf die öffentlichen und Partner-APIs von I14Y zugreifen? Ein neues interaktives Tutorial erklärt Schritt für Schritt, wie das geht – inklusive konkreter Beispiele für alle API-Endpunkte. Es zeigt, wie man Daten automatisiert abrufen, importieren oder aktualisieren kann.
-Das Tutorial kann auf zwei Wegen genutzt werden:
-•	Lokal ausführen – einfach von GitHub herunterladen
-•	Direkt im Browser starten – mit JupyterLite, ganz ohne Installation
+Das Tutorial kann auf zwei Wegen genutzt werden: Lokal ausführen – einfach von GitHub herunterladen oder direkt im Browser starten – ohne Installation mit JupyterLite.
+
 Zur erklärenden GitHub-Seite: [I14Y-ch/tutorials](https://github.com/I14Y-ch/tutorials)
+
 Zum Tutorial: JupyterLite [JupyterLite](https://i14y-ch.github.io/tutorials/lab/index.html)
 
 ## Strukturen von Datensätzen auf I14Y beschreiben – was sich ändert
@@ -38,6 +38,7 @@ Wichtig: Organisationen die Beschreibungen von Datensätzen mit einer Struktur p
 
 Das Bundesamt für Landwirtschaft (BLW) hat begonnen, seine Datenelementkonzepte und Datensätze auf I14Y zu beschreiben – wir freuen uns sehr über diese Initiative!
 Erfasst wurden unter anderem Konzepte zu Direktzahlungen, Düngern, Futtermitteln, Flächenkategorien, Labels, Stallsystemen und Aquakultur-Betrieben. Ergänzt werden diese durch zwei Datensätze: [Direktzahlungskultur bzw. Hauptkulturen](https://www.i14y.admin.ch/de/catalog/datasets/BLW_DS_DZ_CROP/description) und [Pflanzensorten in der Schweiz](https://www.i14y.admin.ch/de/catalog/datasets/BLW_DS_VARIETIES/description).
+
 Die Beschreibungen helfen Fachleuten, Verwaltungsstellen und der interessierten Öffentlichkeit, landwirtschaftliche Daten leichter zu finden und besser einzuordnen.
 Durch die strukturierte Beschreibung von Konzepten und Datensätzen wird nicht nur die Wiederverwendbarkeit dieser erhöht, sondern auch die Harmonisierung landwirtschaftlicher Daten vorangetrieben – ein zentraler Beitrag zur Umsetzung des Once-Only-Prinzips in der Verwaltung.
 
