@@ -1,0 +1,24 @@
+<!-- Custom styles for Mermaid diagrams -->
+<link rel="stylesheet" href="{{ "css/custom-mermaid.css" | relURL }}">
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // This script will run after the page has loaded
+    // Wait for Mermaid to render (using setTimeout as a simple way)
+    setTimeout(function() {
+      // Find all text elements in Mermaid diagrams that contain [DVS BS+]
+      const mermaidTexts = document.querySelectorAll('.mermaid text');
+      
+      mermaidTexts.forEach(function(textElement) {
+        if (textElement.textContent.includes('[DVS BS+]')) {
+          // Apply custom styling
+          textElement.style.fontWeight = 'bold';
+          
+          // Replace the [DVS BS+] marker with a styled span
+          const content = textElement.innerHTML;
+          textElement.innerHTML = content.replace('[DVS BS+]', '<tspan style="fill: #FFB6C1; background-color: #00008B; padding: 2px 4px; border-radius: 3px;">DVS BS+</tspan>');
+        }
+      });
+    }, 2000); // Give Mermaid time to render
+  });
+</script>

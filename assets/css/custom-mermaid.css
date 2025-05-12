@@ -1,0 +1,15 @@
+/* Custom styling for DVS BS+ labels in Mermaid timeline */
+.mermaid text tspan:contains('[DVS BS+]') {
+  fill: #FFB6C1 !important;
+  font-weight: bold !important;
+}
+
+.mermaid text:has(tspan:contains('[DVS BS+]')) {
+  background-color: #00008B !important;
+}
+
+/* Add a small marker before DVS BS+ items */
+.mermaid text:has(tspan:contains('[DVS BS+]'))::before {
+  content: "★ ";
+  fill: #FFB6C1 !important;
+}
