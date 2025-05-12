@@ -35,12 +35,12 @@ Dans trois semaines environ, de nouveaux modèles de données plus complexes ser
 
 Remarque: les organisations qui ont publié des descriptions de jeux de données dans leur structure n’ont rien à faire. Le service d’interopérabilité se chargera de remplacer les structures actuelles par les nouvelles. Veuillez contacter l’équipe I14Y pour toute modification pendant la période où les structures ne pourront pas être éditées.
 
-## L’OFAG se lance dans la description des données agricoles
+##  L’OFAG se lance dans la description des données agricoles sur la plateforme I14Y
 *12.05.2025*
 
 {{< figure src="/handbook/img/news/landwirtschaft.jpg" alt="Grafik Landwirtschaft" width="125px" class="float-left img-news-thumb" >}}
 
-L’Office fédéral de l’agriculture (OFAG) a commencé à décrire ses concepts d’éléments de données et ses jeux de données sur la plateforme I14Y, ce qui nous réjouit. Il a notamment saisi des concepts relatifs aux paiements directs, aux engrais, aux aliments pour animaux, aux catégories de surfaces, aux labels, aux systèmes de stabulation et aux exploitations aquacoles. Deux jeux de données sont publiés: [Cultures de paiement direct ou cultures principales](https://www.i14y.admin.ch/fr/catalog/datasets/BLW_DS_DZ_CROP/description) und [Variétés végétales en Suisse](https://www.i14y.admin.ch/fr/catalog/datasets/BLW_DS_VARIETIES/description).
+L’Office fédéral de l’agriculture (OFAG) a commencé à décrire ses concepts d’éléments de données et ses jeux de données sur la plateforme I14Y, ce qui nous réjouit. Il a notamment saisi des concepts relatifs aux paiements directs, aux engrais, aux aliments pour animaux, aux catégories de surfaces, aux labels, aux systèmes de stabulation et aux exploitations aquacoles. Deux jeux de données sont publiés: [Cultures de paiement direct ou cultures principales](https://www.i14y.admin.ch/fr/catalog/datasets/BLW_DS_DZ_CROP/description) et [Variétés végétales en Suisse](https://www.i14y.admin.ch/fr/catalog/datasets/BLW_DS_VARIETIES/description).
 
 Grâce aux descriptions de l’OFAG, les professionnels, les services administratifs et les particuliers peuvent plus facilement trouver des données sur l’agriculture et les placer dans leur contexte.
  
