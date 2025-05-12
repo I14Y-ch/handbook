@@ -24,18 +24,23 @@ timeline
     
     section 2025
         PI 25 (27.03.2025 - 04.06.2025)
-        : Migration der Datenbank. Dadurch Beschleunigung der globalen Suche.
-        : Die Suche in Codelisten wird möglich.
-        : Über die API kann die Rechtsform und das Tätigkeitsgebiet jeder Organisation abgerufen werden.
-        : Neue API-Endpunkte für I14Y-Partner (Bereich Dataservices)
-        : Optimierungen und Erweiterung der Log-Möglichkeiten (Audit Trail).
-        : Verbesserung der Suchfunktion.
+        : Migration aller Daten in eine zentrale Datenbank. Dadurch wird die globale Suche beschleunigt.
+        : Ein Inhaltsverzeichnis zur Navigation auf Detailseiten wird eingeführt.
+        : Bestehende Konzepte können über die API aktualisiert werden.
+        : Über die API kann die Rechtsform und das Tätigkeitsgebiet von Organisationen abgerufen werden.
+        : Ein neuer Endpunkt erlaubt es gefilterte Listen von Konzepten abzurufen.
+        : Auf Übersichtsseiten wird angezeigt, wie offen die Daten zugänglich sind. 
+        : Komplexe Strukturen von Datensätzen können in den Formaten RDF/TTL hochgeladen werden. 
+        : In Beschreibungen von APIs kann ein Link zur Datenbasis hinterlegt werden.  
         
         PI 26 - 28 (05.06.2025 - 04.01.2026)
-        : Strukturen zu Datensammlungen können einfacher erfasst werden.
+        : Komplexe Strukturen von Datensätzen lassen sich über die Weboberfläche erfassen und editieren.
+        : Neue Endpunkte zu Dataservices auf der Partner-API werden eingeführt.
+        : Einführung von Log-Möglichkeiten (Audit Trail).
+        : Die globale Suche indexiert auch die einzelnen Einträge von Codelisten. 
+        : Die Suche wird verbessert.
         : Änderungen an Datensammlungen werden aufgezeichnet (Audit Trail).
-        : Automatisches Onboarding der Bundesverwaltung.
-        : Einführen von Mapping-Tabellen zur Dokumentation.
+        : Einführen von Mapping-Tabellen zur Dokumentation von Unterschieden zwischen Konzepten.
         : Notifikationen bei Änderungen an Metadaten können abonniert werden.
         : Weitere Exportmöglichkeiten.
         : Öffentlich publizierte Inhalte werden als Linked Data zur Verfügung gestellt.
@@ -44,6 +49,7 @@ timeline
     section 2026
         PIs 29 - 33 (05.01.2026 - 31.12.2026)
         : Vorschau auf die Daten wird eingebaut.
+        : Automatisches Onboarding der Bundesverwaltung.
         : Möglichkeit zur Dokumentation von Datenflüssen (Data Lineage) wird geschaffen.
         : Erweiterung der Verbindungsmöglichkeiten zu Tools.
         : Freigabe des Programmcodes (Open Source).
@@ -60,4 +66,4 @@ Die diesem Gesetz unterstehenden Bundesbehörden legen, wenn es möglich und sin
 
 {{</card>}}
 
-I14Y publiziert Quellcodes und Skripte unter dem Namen i14y-ch auf der [Plattform Github](https://github.com/i14y-ch). Bereits verfügbar ist dieses Handbuch sowie Prototypen, die an den GovTech-Hackathon 2023 und 2024 entwickelt wurden. Auf der Plattform sollen auch Beispielskripte zum Datenbezug veröffentlicht werden. 
+I14Y publiziert Quellcodes und Skripte unter dem Namen i14y-ch auf der [Plattform Github](https://github.com/i14y-ch). Bereits verfügbar ist dieses Handbuch sowie Prototypen, die an den GovTech-Hackathon 2023 und 2024 entwickelt wurden. Auf der Plattform sollen auch Beispielskripte zum Datenbezug veröffentlicht werden.
