@@ -18,39 +18,29 @@ Sollten Sie eine Verbesserungsmöglichkeit oder einen Fehler auf der Interoperab
 
 Die I14Y wird in einem so genannten Agile Release Train (ART) entwickelt. Die Funktionen werden laufend spezifiziert, entwickelt und implementiert. Welche Funktionen für welchem Abschnitt der Entwicklung vorgesehen sind, ist in der untenstehenden Roadmap dokumentiert; für Detailangaben zu einzelnen Funktionalitäten kontaktieren Sie die Interoperabilitätsstelle. Die Schwerpunkte können sich ändern -- etwa wenn andere Anforderungen hoch priorisiert werden. Die Roadmap wird jeweils vor dem Beginn einer neuen Entwicklungsperiode (*Program Increment*, kurz PI) aktualisiert. Die nächsten Abschnitte werden detailliert beschrieben, für spätere Phasen werden allgemeinere Ziele angegeben.  
 
-```mermaid
+{{< mermaid width="650px" >}}
 timeline
     title Roadmap Interoperabilitätsplattform I14Y
     
-    section 2024
-        PI 23 (07.11.2024 - 15.01.2025)
+    section 2025
+        PI 25 (27.03.2025 - 04.06.2025)
         : Migration der Datenbank. Dadurch Beschleunigung der globalen Suche.
-        : Neue API-Endpunkte für I14Y-Partner (Abrufen und Publizieren von Beschreibungen zu Datensammlungen).
         : Die Suche in Codelisten wird möglich.
         : Über die API kann die Rechtsform und das Tätigkeitsgebiet jeder Organisation abgerufen werden.
-        : Die Local Data Stewards können Beschreibungen selbstständig öffentlich publizieren.
-    
-    section 2025
-        PIs 24 (16.01.2025 - 04.03.2025)
-        : Neue API-Endpunkte für I14Y-Partner (Bereich Datensammlungen und Konzepte).
-        : Änderungen an Datensammlungen werden aufgezeichnet (Audit Trail).
-        : Strukturen zu Datensammlungen können einfacher erfasst werden.
-        : Codelisten lassen sich filtern.
-        : Zusätzliche Dashboard-Auswertungen.
-        : Organisationen können einfacher erstellt und verwaltet werden.
-        
-        PI 25 (27.03.2025 - 04.06.2025)
         : Neue API-Endpunkte für I14Y-Partner (Bereich Dataservices)
         : Optimierungen und Erweiterung der Log-Möglichkeiten (Audit Trail).
         : Verbesserung der Suchfunktion.
         
         PI 26 - 28 (05.06.2025 - 04.01.2026)
+        : Strukturen zu Datensammlungen können einfacher erfasst werden.
+        : Änderungen an Datensammlungen werden aufgezeichnet (Audit Trail).
         : Automatisches Onboarding der Bundesverwaltung.
         : Einführen von Mapping-Tabellen zur Dokumentation.
         : Notifikationen bei Änderungen an Metadaten können abonniert werden.
         : Weitere Exportmöglichkeiten.
         : Öffentlich publizierte Inhalte werden als Linked Data zur Verfügung gestellt.
-    
+        : Zusätzliche Dashboard-Auswertungen.
+  
     section 2026
         PIs 29 - 33 (05.01.2026 - 31.12.2026)
         : Vorschau auf die Daten wird eingebaut.
@@ -58,7 +48,8 @@ timeline
         : Erweiterung der Verbindungsmöglichkeiten zu Tools.
         : Freigabe des Programmcodes (Open Source).
         : Abschluss der Projektphase.
-```
+{{< /mermaid >}}
+
 
 ### Open Source
 Der Programmcode der Interoperabilitätsplattform I14Y soll unter einer [freien Lizenz](https://www.gnu.org/licenses) Lizenz veröffentlichst werden. Die Interoperabilitätsstelle publiziert den Quellcode bis spätestens Ende der Projektphase, also Ende des Jahres 2026. Dies geschieht im Einklang mit dem zukünftigen Bundesgesetz über den Einsatz elektronischer Mittel zur Erfüllung von Behördenaufgaben ([EMBAG](https://www.fedlex.admin.ch/eli/fga/2023/787/de#art_9)). Laut Artikel 9 sollen die Bundesbehörden ihre Quellcodes -- sofern möglich -- frei zur Verfügung stellen. 
