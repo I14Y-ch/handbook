@@ -13,6 +13,50 @@ Vous souhaitez être informés des nouvelles fonctions et des offres de la plate
 
 {{</alert>}}
 
+## Un tutoriel pour l’échange automatique de données
+*12.05.2025*
+
+Comment procéder dans Python pour accéder aux API publiques et partenaires de la plateforme I14Y? Un nouveau tutoriel interactif explique comment procéder pas à pas, et donne des exemples concrets pour tous les points de terminaison (endpoints) de l’API. Il montre comment consulter, importer ou actualiser des données de manière automatisée.
+Pour consulter le tutoriel, il est possible de le télécharger localement depuis GitHub, ou de
+le lancer dans le navigateur, à l’aide de JupyterLite, sans rien installer.
+
+Vers la page GitHub explicative: [I14Y-ch/tutorials](https://github.com/I14Y-ch/tutorials)  
+
+Vers le tutoriel: [JupyterLite](https://i14y-ch.github.io/tutorials/lab/index.html)
+
+## Description de la structure des jeux de données sur la plateforme I14Y: nouveautés
+*12.05.2025*
+
+{{< figure src="/handbook/img/news/structure.png" alt="Grafik Struktur" width="125px" class="float-left img-news-thumb" >}}
+
+La structure plate actuelle des jeux de données sur la plateforme I14Y sera progressivement remplacée ces prochaines semaines par une structure permettant la modélisation des hiérarchies. Le futur modèle est basé sur des données liées, comprenant des classes, des attributs et des relations, et sauvegardées au format RDF/TTL.
+
+Dans trois semaines environ, de nouveaux modèles de données plus complexes seront introduits dans le catalogue interne au format RDF/TTL. Les structures existantes resteront provisoirement visibles, mais ne pourront plus être modifiées. Dans six semaines environ, les nouvelles structures auront complètement remplacé les anciennes, y compris la représentation graphique et les liens vers les concepts.
+
+Remarque: les organisations qui ont publié des descriptions de jeux de données dans leur structure n’ont rien à faire. Le service d’interopérabilité se chargera de remplacer les structures actuelles par les nouvelles. Veuillez contacter l’équipe I14Y pour toute modification pendant la période où les structures ne pourront pas être éditées.
+
+## L’OFAG se lance dans la description des données agricoles
+*12.05.2025*
+
+{{< figure src="/handbook/img/news/landwirtschaft.jpg" alt="Grafik Landwirtschaft" width="125px" class="float-left img-news-thumb" >}}
+
+L’Office fédéral de l’agriculture (OFAG) a commencé à décrire ses concepts d’éléments de données et ses jeux de données sur la plateforme I14Y, ce qui nous réjouit. Il a notamment saisi des concepts relatifs aux paiements directs, aux engrais, aux aliments pour animaux, aux catégories de surfaces, aux labels, aux systèmes de stabulation et aux exploitations aquacoles. Deux jeux de données sont publiés: [Cultures de paiement direct ou cultures principales](https://www.i14y.admin.ch/fr/catalog/datasets/BLW_DS_DZ_CROP/description) und [Variétés végétales en Suisse](https://www.i14y.admin.ch/fr/catalog/datasets/BLW_DS_VARIETIES/description).
+
+Grâce aux descriptions de l’OFAG, les professionnels, les services administratifs et les particuliers peuvent plus facilement trouver des données sur l’agriculture et les placer dans leur contexte.
+ 
+La description des concepts et des jeux de données favorise non seulement la réutilisation, mais aussi l’harmonisation des données agricoles: une contribution centrale à l’application du principe once-only dans l’administration.
+
+## De précieux enseignements tirés de la pratique
+*12.05.2025*
+
+Il est utile d’avoir l’avis d’externes pour améliorer son produit. Dans le cadre d’entretiens avec l’équipe I14Y, huit administrateurs locaux de données ont rendu compte de leur expérience utilisateur quant à la saisie de métadonnées.
+
+Le bilan est globalement positif: la saisie fonctionne bien et les possibilités offertes par la plateforme sont appréciées. Les personnes interrogées estiment qu’il existe un potentiel d’amélioration notamment en ce qui concerne l’assistance contextuelle lors du remplissage et lorsqu’il s’agit d’appliquer des filtres à ses propres jeux de données.
+
+Certains des points mentionnés ont déjà été pris en compte, d’autres le seront progressivement au fil du développement de la plateforme.
+
+Pour rappel: vous pouvez nous soumettre vos propositions d’amélioration en tout temps via [Github](https://github.com/I14Y-ch/feature-requests).
+
 ## Accès aisé à l’API I14Y grâce à R
 *02.04.2025*
 
