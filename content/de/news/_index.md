@@ -12,6 +12,43 @@ Möchten Sie über neue Funktionen und Angebote auf der Interoperabilitätsplatt
 
 {{</alert>}}
 
+## Ein Tutorial für den automatischen Datenaustausch
+*12.05.2025*
+
+Wie kann man mit Python auf die öffentlichen und Partner-APIs von I14Y zugreifen? Ein neues interaktives Tutorial erklärt Schritt für Schritt, wie das geht – inklusive konkreter Beispiele für alle API-Endpunkte. Es zeigt, wie man Daten automatisiert abrufen, importieren oder aktualisieren kann.
+Das Tutorial kann auf zwei Wegen genutzt werden:
+•	Lokal ausführen – einfach von GitHub herunterladen
+•	Direkt im Browser starten – mit JupyterLite, ganz ohne Installation
+Zur erklärenden GitHub-Seite: [I14Y-ch/tutorials](https://github.com/I14Y-ch/tutorials)
+Zum Tutorial: JupyterLite [JupyterLite](https://i14y-ch.github.io/tutorials/lab/index.html)
+
+## Strukturen von Datensätzen auf I14Y beschreiben – was sich ändert
+*12.05.2025*
+
+{{< figure src="/handbook/img/news/structure.png" alt="Grafik Struktur" width="125px" class="float-left img-news-thumb" >}}
+
+Die heutige flache Struktur der Datensätze auf I14Y wird in den nächsten Wochen schrittweise durch eine hierarchische Struktur ersetzt. Das zukünftige Modell beruht auf Linked Data – mit Klassen, Attributen und Relationen, gespeichert im RDF/TTL-Format.  
+In rund drei Wochen werden im internen Katalog neue, komplexere Datenmodelle im RDF/TTL-Format eingeführt. Bestehende Strukturen bleiben vorläufig sichtbar, können aber nicht mehr bearbeitet werden. In etwa sechs Wochen ersetzen die neuen Strukturen vollständig die alten – inklusive graphischer Darstellung und klarer Verlinkung zu Konzepten. 
+Wichtig: Organisationen die Beschreibungen von Datensätzen mit einer Struktur publiziert haben, brauchen nicht aktiv zu werden. Die Interoperabilitätsstelle wird die bestehenden Strukturen in die neue Form überführen. Für Änderungen in der Zeit, in der die Strukturen nicht editiert werden können, kann das I14Y-Team kontaktiert werden.
+
+## Das BLW startet mit Beschreibung von Landwirtschaftsdaten
+*12.05.2025*
+
+{{< figure src="/handbook/img/news/landwirtschaft.jpg" alt="Grafik Landwirtschaft" width="125px" class="float-left img-news-thumb" >}}
+
+Das Bundesamt für Landwirtschaft (BLW) hat begonnen, seine Datenelementkonzepte und Datensätze auf I14Y zu beschreiben – wir freuen uns sehr über diese Initiative!
+Erfasst wurden unter anderem Konzepte zu Direktzahlungen, Düngern, Futtermitteln, Flächenkategorien, Labels, Stallsystemen und Aquakultur-Betrieben. Ergänzt werden diese durch zwei Datensätze: [Direktzahlungskultur bzw. Hauptkulturen](https://www.i14y.admin.ch/de/catalog/datasets/BLW_DS_DZ_CROP/description) und [Pflanzensorten in der Schweiz](https://www.i14y.admin.ch/de/catalog/datasets/BLW_DS_VARIETIES/description).
+Die Beschreibungen helfen Fachleuten, Verwaltungsstellen und der interessierten Öffentlichkeit, landwirtschaftliche Daten leichter zu finden und besser einzuordnen.
+Durch die strukturierte Beschreibung von Konzepten und Datensätzen wird nicht nur die Wiederverwendbarkeit dieser erhöht, sondern auch die Harmonisierung landwirtschaftlicher Daten vorangetrieben – ein zentraler Beitrag zur Umsetzung des Once-Only-Prinzips in der Verwaltung.
+
+## Wertvolle Rückmeldungen aus der Praxis
+*12.05.2025*
+
+Der Blick von aussen hilft, das eigene Produkt zu verbessern. Acht aktive Local Data Stewards haben dem I14Y-Team in Nutzerinterviews Einblick in ihre Erfahrungen mit der Metadatenerfassung gegeben.
+Das Fazit fällt grundsätzlich positiv aus: Die Erfassung gelingt gut, und die Möglichkeiten der Plattform werden geschätzt. Verbesserungspotenzial sehen die Befragten vor allem bei der kontextbezogenen Unterstützung beim Ausfüllen sowie bei der Filterung der eigenen Datensätze.
+Einige der genannten Punkte wurden bereits aufgenommen, andere werden schrittweise in die Weiterentwicklung der Plattform einfliessen. 
+Zur Erinnerung: Verbesserungsvorschläge können jederzeit über [Github](https://github.com/I14Y-ch/feature-requests) eingereicht werden.
+
 ## Effizienter Zugang zur I14Y-API mit R
 *02.04.2025*
 
@@ -94,7 +131,7 @@ Die Konsolen werden kontinuierlich erweitert. Neue Endpunkte werden hinzugefügt
 ### Neu im Team
 *11.12.2024*
 
-{{< figure src="/handbook/img/news/lien.jpg" alt="Porträt Lien Beroggi" width="250px" class="float-left img-news-thumb" caption="Quelle: BFS" >}}
+{{< figure src="/handbook/img/news/lien.jpg" alt="Porträt Lien Beroggi" width="125px" class="float-left img-news-thumb" caption="Quelle: BFS" >}}
 
 Lien Beroggi unterstützt uns ein Jahr lang mit ihrem frisch erworbenen Universitätswissen. Ihre Arbeit dreht sich rund um die Themen Semantic Web, RDF und Linked Data. Drei Fragen an unsere Hochschulpraktikantin.
 
@@ -124,7 +161,7 @@ Mehr Informationen zu Datenelementen und Konzepten finden sich im Handbuch der I
 ## Ein API-Gateway für die sichere Verwaltung von Metadaten 
 *21.06.2024*
 
-{{< figure src="/handbook/img/news/grafik_api.png" alt="Symbolbild API" width="250px" class="float-left img-news-thumb" >}}
+{{< figure src="/handbook/img/news/api.png" alt="Symbolbild API" width="125px" class="float-left img-news-thumb" >}}
 
 Die Entwicklung unseres API-Gateways ist nahezu fertig. Auf dem [API-Gateway](https://input.i14y.admin.ch/console/partner/v1/index.html) werden die elektronischen Schnittstellen der I14Y zur Verfügung gestellt, die über längere Zeit stabil bleiben werden. Das Angebot an Endpunkten wird in den nächsten Monaten stark ausgebaut. Der Gateway kann genutzt werden, um Metadaten zu beziehen, zu editieren oder auch zu veröffentlichen. Eine Authentifizierungsfunktion stellt sicher, dass nur berechtigte Benutzerinnen und Benutzer auf die Metadaten zugreifen und diese anpassen können. Mit dem API-Gateway soll in Zukunft auf Wunsch auch ein automatisierter Zugriff auf organisationsinterne Bereiche von Maschine zu Maschine ermöglicht werden. 
 
