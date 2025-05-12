@@ -36,25 +36,27 @@ timeline
         PI 26 - 28 (05.06.2025 - 04.01.2026)
         : Komplexe Strukturen von Datensätzen lassen sich über die Weboberfläche erfassen und editieren.
         : Neue Endpunkte zu Dataservices auf der Partner-API werden eingeführt.
-        : Einführung von Log-Möglichkeiten (Audit Trail) [DVS BS+]
+        : ⭐ Einführung von Log-Möglichkeiten (Audit Trail)
         : Die globale Suche indexiert auch die einzelnen Einträge von Codelisten. 
         : Die Suche wird verbessert.
-        : Änderungen an Datensammlungen werden aufgezeichnet (Audit Trail) [DVS BS+]
+        : ⭐ Änderungen an Datensammlungen werden aufgezeichnet (Audit Trail)
         : Einführen von Mapping-Tabellen zur Dokumentation von Unterschieden zwischen Konzepten.
-        : Notifikationen bei Änderungen an Metadaten können abonniert werden [DVS BS+]
+        : ⭐ Notifikationen bei Änderungen an Metadaten können abonniert werden
         : Weitere Exportmöglichkeiten.
         : Öffentlich publizierte Inhalte werden als Linked Data zur Verfügung gestellt.
-        : Zusätzliche Dashboard-Auswertungen [DVS BS+]
+        : ⭐ Zusätzliche Dashboard-Auswertungen
   
     section 2026
         PIs 29 - 33 (05.01.2026 - 31.12.2026)
         : Vorschau auf die Daten wird eingebaut.
         : Automatisches Onboarding der Bundesverwaltung.
-        : Möglichkeit zur Dokumentation von Datenflüssen (Data Lineage) wird geschaffen [DVS BS+]
+        : ⭐ Möglichkeit zur Dokumentation von Datenflüssen (Data Lineage) wird geschaffen
         : Erweiterung der Verbindungsmöglichkeiten zu Tools.
         : Freigabe des Programmcodes (Open Source).
         : Abschluss der Projektphase.
 {{< /mermaid >}}
+
+*⭐ Mit einem Stern gekennzeichnete Einträge sind Vorschläge des Projekts DVS BS+.*
 
 
 ### Open Source
