@@ -18,7 +18,7 @@ Sollten Sie eine Verbesserungsmöglichkeit oder einen Fehler auf der Interoperab
 
 Die I14Y wird in einem so genannten Agile Release Train (ART) entwickelt. Die Funktionen werden laufend spezifiziert, entwickelt und implementiert. Welche Funktionen für welchem Abschnitt der Entwicklung vorgesehen sind, ist in der untenstehenden Roadmap dokumentiert; für Detailangaben zu einzelnen Funktionalitäten kontaktieren Sie die Interoperabilitätsstelle. Die Schwerpunkte können sich ändern -- etwa wenn andere Anforderungen hoch priorisiert werden. Die Roadmap wird jeweils vor dem Beginn einer neuen Entwicklungsperiode (*Program Increment*, kurz PI) aktualisiert. Die nächsten Abschnitte werden detailliert beschrieben, für spätere Phasen werden allgemeinere Ziele angegeben.  
 
-{{< mermaid-timeline width="650px" >}}
+{{< mermaid width="650px" >}}
 timeline
     title Roadmap Interoperabilitätsplattform I14Y
     
@@ -54,7 +54,7 @@ timeline
         : Erweiterung der Verbindungsmöglichkeiten zu Tools.
         : Freigabe des Programmcodes (Open Source).
         : Abschluss der Projektphase.
-{{< /mermaid-timeline >}}
+{{< /mermaid >}}
 
 
 ### Open Source
