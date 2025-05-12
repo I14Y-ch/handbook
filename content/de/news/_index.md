@@ -12,6 +12,16 @@ Möchten Sie über neue Funktionen und Angebote auf der Interoperabilitätsplatt
 
 {{</alert>}}
 
+## Neuer M2M-Zugang: Metadaten automatisiert mit I14Y synchronisieren
+*12.05.2025*
+
+Bislang mussten die Metadaten der Datensätze manuell in I14Y eingegeben werden – ein aufwändiger Prozess, der Ressourcen bindet und fehleranfällig ist. Neu können die Organisationen die Metadaten ihrer Datensätze komplett automatisiert importieren und pflegen. Das ist ein grosser Meilenstein für I14Y und ein wichtiger Schritt in Richtung einer effizienten Verwaltung. Diese Möglichkeit ist sehr interessant für jene Organisationen, die bereits eigene Datenkataloge pflegen und diese mit I14Y verbinden möchten. Für die Machine-to-Machine-Kommunikation (M2M) wird ein spezieller Zugangstoken benötigt. Damit können Metadaten über die API auf I14Y erfasst und publiziert werden, ohne dass eine manuelle Arbeit nötig ist. Eine solche Anbindung ist auch dann sinnvoll und sehr interessant, wenn regelmässig Metadaten auf I14Y geschrieben und aktualisiert werden sollen.
+Zu diesem Zweck stellen wir eine Beispielanwendung als technische Vorlage (Musterrepository) zur Verfügung, mit der sich die automatisierte Anbindung an I14Y einfach realisiert werden kann. Sie ermöglicht nicht nur den Import von Datensätzen, sondern auch deren automatische Aktualisierung in festgelegten Intervallen – zum Beispiel jede Nacht. So bleiben die Informationen aktuell, ohne dass man sie manuell nachführen muss. Das reduziert den Aufwand deutlich und verbessert die Datenqualität.
+ 
+Für einmalige Importe und Exporte über die API genügt weiterhin der etablierte Prozess über das Token, das man nach dem Login per Klick auf das Personensymbol oben rechts erhält.
+ 
+Bei Interesse oder Fragen zur M2M-Kommunikation haben, kontaktieren Sie uns am besten per Mail an i14y@bfs.admin.ch.
+
 ## Ein Tutorial für den automatischen Datenaustausch
 *12.05.2025*
 
