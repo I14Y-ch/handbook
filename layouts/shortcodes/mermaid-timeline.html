@@ -1,0 +1,51 @@
+{{ $content := .Inner }}
+{{ $content := replace $content "[DVS BS+]" "<span class=\"dvs-badge\">DVS BS+</span>" }}
+
+<div class="mermaid-timeline-wrapper">
+  {{ with .Get "width" }}<div style="width: {{ . }}">{{ end }}
+  <div class="mermaid">
+{{ $content }}
+  </div>
+  {{ with .Get "width" }}</div>{{ end }}
+</div>
+
+<style>
+.dvs-badge {
+  display: inline-block;
+  background-color: #00008B; /* dark blue background */
+  color: #FFB6C1; /* light red text */
+  font-size: 0.8em;
+  padding: 2px 6px;
+  border-radius: 3px;
+  margin-left: 6px;
+  font-weight: bold;
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Wait for Mermaid to render the diagram
+  setTimeout(function() {
+    // Find all text elements containing the special marker
+    const textElements = document.querySelectorAll('.mermaid-timeline-wrapper text');
+    
+    textElements.forEach(function(textElement) {
+      if (textElement.innerHTML.includes('<span class="dvs-badge">DVS BS+</span>')) {
+        // Replace HTML markup with actual styled element
+        const originalText = textElement.innerHTML.replace('<span class="dvs-badge">DVS BS+</span>', '');
+        
+        // Create a badge element
+        const badge = document.createElementNS("http://www.w3.org/2000/svg", "tspan");
+        badge.setAttribute('class', 'dvs-badge');
+        badge.textContent = 'DVS BS+';
+        badge.setAttribute('x', '10');
+        badge.setAttribute('dy', '1.2em');
+        
+        // Update the text element
+        textElement.innerHTML = originalText;
+        textElement.appendChild(badge);
+      }
+    });
+  }, 1000); // Adjust timeout as needed
+});
+</script>
