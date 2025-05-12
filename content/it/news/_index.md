@@ -13,6 +13,17 @@ Desiderate essere informati sulle nuove funzionalità e offerte della piattaform
 
 {{</alert>}}
 
+## Nouvel accès M2M : synchronisation automatisée des métadonnées avec I14Y
+*12.05.2025*
+
+Finora i metadati dei set di dati dovevano essere inseriti manualmente sulla piattaforma I14Y, un processo oneroso in termini di tempo e risorse nonché a volte soggetto a errori. Da ora le organizzazioni possono invece importare e gestire i metadati dei loro set di dati in modo completamente automatico. Si tratta di una pietra miliare per la piattaforma I14Y e di un passo importante verso un’amministrazione efficiente. Questa opzione è molto interessante per le organizzazioni che gestiscono già i propri cataloghi di dati e vorrebbero collegarli a I14Y. Per la comunicazione da macchina a macchina (machine to machine, M2M) è necessario uno speciale token di accesso. Ciò significa che i metadati possono essere registrati e pubblicati sulla piattaforma I14Y tramite l’API senza bisogno di intervenire manualmente. Una connessione di questo genere è utile e molto interessante anche per scrivere e aggiornare i metadati sulla piattaforma I14Y su base regolare.
+
+Per farlo, forniamo un’applicazione tipo come modello tecnico (repository tipo) con cui realizzare la connessione automatica alla piattaforma I14Y in tutta semplicità. L’applicazione non solo consente di importare i set di dati, ma anche di aggiornarli automaticamente a intervalli prestabiliti, ad esempio ogni notte. In questo modo le informazioni rimangono aggiornate senza che debba essere fatto manualmente, il che riduce significativamente l’onere di lavoro e migliora la qualità dei dati.
+
+Per importazioni ed esportazioni da svolgere tramite l’API una volta sola, continua ad essere sufficiente la procedura consolidata tramite il token, che si riceve dopo aver effettuato il login cliccando sull’icona a forma di persona in alto a destra.
+
+Chi fosse interessato o avesse domande sulla comunicazione M2M può contattarci via e-mail all’indirizzo i14y@bfs.admin.ch. 
+
 ## Un tutorial per lo scambio automatico di dati
 *12.05.2025*
 
