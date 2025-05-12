@@ -13,6 +13,16 @@ Vous souhaitez être informés des nouvelles fonctions et des offres de la plate
 
 {{</alert>}}
 
+## Neuer M2M-Zugang: Metadaten automatisiert mit I14Y synchronisieren
+*12.05.2025*
+
+Jusqu’à présent, il fallait procéder manuellement pour saisir les métadonnées des jeux de données sur la plateforme I14Y, un processus fastidieux mobilisant des ressources et sujet aux erreurs. Désormais, les organisations peuvent importer et gérer les métadonnées de leurs jeux de données de manière entièrement automatisée. C’est une étape importante pour la plateforme I14Y et un grand pas vers une administration plus efficiente. Cette nouveauté ravira également les organisations qui gèrent déjà leurs catalogues de données et qui souhaitent les relier à la plateforme I14Y. La communication de machine à machine (M2M) requiert un jeton d’accès spécial. Celui-ci permet de saisir et de publier les métadonnées sur la plateforme I14Y via l’API, sans qu’il faille intervenir manuellement. Une possibilité qui s’avère également utile et très intéressante pour les organisations qui éditent et mettent régulièrement à jour des métadonnées sur la plateforme I14Y.
+Il suffit de suivre les instructions de la fiche technique (référentiel du modèle), un exemple d’utilisation, pour réaliser facilement la connexion automatisée à la plateforme. Ces instructions permettent non seulement permettent non seulement d’importer des jeux de données, mais aussi d’en assurer la mise à jour à intervalles réguliers (chaque nuit, par exemple). Les informations saisies sont ainsi toujours à jour, sans qu’aucune intervention manuelle soit nécessaire. Il en résulte une charge de travail fortement réduite et une meilleure qualité des données.
+ 
+Pour procéder à des importations ou exportations uniques via l’API, il suffit de suivre la procédure en utilisant le jeton d’accès, que l’on obtient en cliquant sur le symbole de la personne en haut à droite (bouton « Copie Access Token »), une fois la connexion établie.
+ 
+Pour tout complément d’information au sujet de la communication de machine à machine, veuillez nous contacter par courriel à l’adresse i14y@bfs.admin.ch.
+
 ## Un tutoriel pour l’échange automatique de données
 *12.05.2025*
 
