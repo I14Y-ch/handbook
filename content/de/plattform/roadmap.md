@@ -32,9 +32,8 @@ timeline
         : Auf Übersichtsseiten wird angezeigt, wie offen die Daten zugänglich sind. 
         : Komplexe Strukturen von Datensätzen können in den Formaten RDF/TTL hochgeladen und dargestellt werden. 
         : Datensätze können über die Weboberfläche heruntergeladen und hochgeladen werden.
-        : Die Daten der Organisationen werden mit zusätzlichen Informationen angereichert und dargestellt.
+        : Die Metadaten der Organisationen werden mit zusätzlichen Informationen angereichert und dargestellt.
         : Eine Suche in den Einträgen der Codelisten wird eingeführt.
-        : In Beschreibungen von APIs kann ein Link zur Datenbasis hinterlegt werden.
         : Die Suche wird verbessert.
         
         PI 26 - 28 (05.06.2025 - 04.01.2026)
