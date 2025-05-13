@@ -30,20 +30,23 @@ timeline
         : Über die API kann die Rechtsform und das Tätigkeitsgebiet von Organisationen abgerufen werden.
         : Ein neuer Endpunkt erlaubt es gefilterte Listen von Konzepten abzurufen.
         : Auf Übersichtsseiten wird angezeigt, wie offen die Daten zugänglich sind. 
-        : Komplexe Strukturen von Datensätzen können in den Formaten RDF/TTL hochgeladen werden. 
-        : In Beschreibungen von APIs kann ein Link zur Datenbasis hinterlegt werden.  
+        : Komplexe Strukturen von Datensätzen können in den Formaten RDF/TTL hochgeladen und dargestellt werden. 
+        : Datensätze können über die Weboberfläche heruntergeladen und hochgeladen werden.
+        : Die Daten der Organisationen werden mit zusätzlichen Informationen angereichert und dargestellt.
+        : Eine Suche in den Einträgen der Codelisten wird eingeführt.
+        : In Beschreibungen von APIs kann ein Link zur Datenbasis hinterlegt werden.
+        : Die Suche wird verbessert.
         
         PI 26 - 28 (05.06.2025 - 04.01.2026)
+        : Die Plattform wird in die öffentliche Cloud migriert.
         : Komplexe Strukturen von Datensätzen lassen sich über die Weboberfläche erfassen und editieren.
-        : Neue Endpunkte zu Dataservices auf der Partner-API werden eingeführt.
+        : URIs/Permalinks werden für alle Objekte eingeführt.
+        : Neue Endpunkte zu Dataservices und Public services auf der Partner-API werden eingeführt.
         : ⭐ Einführung von Log-Möglichkeiten (Audit Trail)
-        : Die globale Suche indexiert auch die einzelnen Einträge von Codelisten. 
-        : Die Suche wird verbessert.
-        : ⭐ Änderungen an Datensammlungen werden aufgezeichnet (Audit Trail)
+        : ⭐ Änderungen an Objekten werden aufgezeichnet (Audit Trail)
         : Einführen von Mapping-Tabellen zur Dokumentation von Unterschieden zwischen Konzepten.
-        : ⭐ Notifikationen bei Änderungen an Metadaten können abonniert werden
-        : Weitere Exportmöglichkeiten.
-        : Öffentlich publizierte Inhalte werden als Linked Data zur Verfügung gestellt.
+        : ⭐ Notifikationen bei Änderungen an Metadaten können abonniert werden.
+        : Ein Toolbox mit weiteren Import- und Exportmöglichkeiten wird zur Verfügung gestellt.
         : ⭐ Zusätzliche Dashboard-Auswertungen
   
     section 2026
