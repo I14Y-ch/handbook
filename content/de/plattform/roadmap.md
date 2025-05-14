@@ -27,7 +27,6 @@ timeline
         : Migration aller Daten in eine zentrale Datenbank. Dadurch wird die globale Suche beschleunigt.
         : Ein Inhaltsverzeichnis zur Navigation auf Detailseiten wird eingeführt.
         : Bestehende Konzepte können über die API aktualisiert werden.
-        : Über die API kann die Rechtsform und das Tätigkeitsgebiet von Organisationen abgerufen werden.
         : Ein neuer Endpunkt erlaubt es gefilterte Listen von Konzepten abzurufen.
         : Auf Übersichtsseiten wird angezeigt, wie offen die Daten zugänglich sind. 
         : Komplexe Strukturen von Datensätzen können in den Formaten RDF/TTL hochgeladen und dargestellt werden. 
