@@ -16,7 +16,46 @@ If you find an opportunity for improvement or a bug on I14Y, the development tea
 
 {{</alert>}}
 
-![Bild Roadmap I14Y](/handbook/img/roadmap_en.svg)
+{{< mermaid width="650px" >}}
+timeline
+    title Roadmap Interoperability Platform I14Y
+    
+    section 2025
+        PI 25 (27.03.2025 - 04.06.2025)
+        : Migration of all data into a central database. This will accelerate the global search.
+        : A table of contents for navigation on detail pages will be introduced.
+        : Existing concepts can be updated via the API.
+        : A new endpoint allows retrieving filtered lists of concepts.
+        : Overview pages will display how openly accessible the data is.
+        : Complex structures of datasets can be uploaded and displayed in RDF/TTL formats.
+        : Datasets can be downloaded and uploaded via the web interface.
+        : Organization metadata will be enriched with additional information and displayed.
+        : A search function for entries in code lists will be introduced.
+        : The search functionality will be improved.
+        
+        PI 26 - 27 (05.06.2025 - 09.12.2025)
+        : The platform will be migrated to the public cloud.
+        : Complex structures of datasets can be captured and edited via the web interface.
+        : URIs/Permalinks will be introduced for all objects.
+        : New endpoints for data services and public services on the Partner API will be introduced.
+        : ⭐ Introduction of logging capabilities (Audit Trail)
+        : ⭐ Changes to objects will be recorded (Audit Trail)
+        : Introduction of mapping tables to document differences between concepts.
+        : ⭐ Notifications for metadata changes can be subscribed to.
+        : A toolbox with additional import and export options will be made available.
+        : ⭐ Additional dashboard analytics
+  
+    section 2026
+        PIs 28 - 31 (10.12.2025 - 31.12.2026)
+        : Data preview functionality will be built in.
+        : Automatic onboarding of the Federal Administration.
+        : ⭐ Capability for documenting data flows (Data Lineage) will be created
+        : Extension of connection possibilities to tools.
+        : Release of the program code (Open Source).
+        : Completion of the project phase.
+{{< /mermaid >}}
+
+*⭐ Entries marked with a star are suggestions from the DVS BS+ project.*
 
 ## Electronic interfaces (APIs)
 I14Y already offers electronic interfaces (APIs) for retrieving, saving and editing metadata on the platform. However, they are still subject to change. Therefore, they have not been communicated publicly yet. In addition, many of the interfaces can only be accessed from the federal network. Please contact the [Interoperability Office](mailto:i14y@bfs.admin.ch) if you already rely on the interfaces now.
