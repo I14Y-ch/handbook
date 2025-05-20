@@ -48,7 +48,7 @@ timeline
         : ⭐ Zusätzliche Dashboard-Auswertungen
   
     section 2026
-        PIs 29 - 31 (10.12.2025 - 31.12.2026)
+        PIs 28 - 31 (10.12.2025 - 31.12.2026)
         : Vorschau auf die Daten wird eingebaut.
         : Automatisches Onboarding der Bundesverwaltung.
         : ⭐ Möglichkeit zur Dokumentation von Datenflüssen (Data Lineage) wird geschaffen
