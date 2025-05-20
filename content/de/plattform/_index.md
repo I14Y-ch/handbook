@@ -1,8 +1,8 @@
 ---
-title: Betrieb und Weiterentwicklung der I14Y
+title: Entwicklung und Betrieb von I14Y
 slug: plattform
 translationKey: platform
-description: "Die Interoperabilitätsplattform I14Y wird aktiv entwickelt. "
+description: "Die Interoperabilitätsplattform I14Y wird aktiv entwickelt. Die Roadmap zeigt, welche  Funktionen wann ergänzt werden sollen. Zusätzlich sind in diesem Kapitel auch Informationen zum Betrieb zu finden, etwa zur Verwaltung der Zugriffsberechtigungen."
 weight: 30
 type: docs
 keywords: [I14Y, Interoperabilitätsplattform I14Y, I14Y, Metadaten, Katalog, Support, Hilfe, Probleme, Nutzerverwaltung, Kontenverwaltung, Zugangsverwaltung, Zugang]

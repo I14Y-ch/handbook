@@ -2,7 +2,7 @@
 title: Exploitation et développement de l'I14Y
 slug: plateforme
 translationKey: platform
-description: "Die Interoperabilitätsplattform I14Y wird aktiv entwickelt. "
+description: "La plateforme d'interopérabilité I14Y est en développement actif. La feuille de route indique quelles fonctionnalités seront ajoutées et quand. Ce chapitre contient également des informations sur l'exploitation, notamment sur la gestion des droits d'accès."
 weight: 30
 type: docs
 keywords: [I14Y, Plateforme d'intéroberbilité, IOP, développement]
