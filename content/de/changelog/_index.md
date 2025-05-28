@@ -11,6 +11,14 @@ __DE:__ Diese Seite liegt teilweise in englischer Sprache vor.
 
 The I14Y interoperability platform is under continuous development. New features are added with each release. Bugs are also fixed. The most important changes are briefly documented below. For detailed information on the development of the platform, please contact the [I14Y team](mailto:i14y@bfs.admin.ch). 
 
+## Release vom 28. Mai 2025
+- Ein neuer Download-Button ermöglicht es, Beschreibungen von Datensätzen aus dem internen Bereich im JSON-Format herunterzuladen. Dies vereinfacht den Export von Metadaten. 
+- Beschreibungen von Datensätzen können neu aus einer Datei importiert werden. Der Import steht zur Auswahl, wenn man auf den "Import"-Knopf klickt. 
+- Seit dem letzten Release ist es möglich Datenstrukturen im RDF-, TTL oder JSON-LD-Format hochzuladen. Diese Strukturen lassen sich neu grafisch darstellen.  
+- Für Organisationen wurden neue Informationsfelder eingeführt. Diese ermöglichen eine detailliertere Beschreibung der in I14Y erfassten Organisationen.
+- Einige Übersetzungen wurden aktualisiert.
+- Das Indexierungssystem der Suche wurde verbessert. Suchanfragen liefern nun präzisere Ergebnisse.
+
 ## Release vom 7. Mai 2025
 - Die Interoperabilitätsplattform I14Y hat bisher mehrere Systeme zum Speichern der Metadaten genutzt. Ab diesem Release werden nun alle Objekte in der zentralen I14Y-Datenbank abgelegt. Die bisherigen Funktionen wurden angepasst und die Daten aus dem alten System wurden migriert. Der Verzicht auf eine Mikroservice-Architektur in diesem Bereich macht das System vor allem bei der Suche über mehrere Objektkategorienschneller.
 - Das Aussehen der Seiten, auf denen die Beschreibungen zu einem Datensatz, einer elektronischen Schnittstelle, einer Behördenleistung oder einem Konzept gezeigt werden, wurde verbessert: Auf der linken Seite steht nun ein Verzeichnis zur Verfügung, dank dem rasch durch die Beschreibung navigiert werden kann.
