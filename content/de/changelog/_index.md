@@ -14,7 +14,8 @@ The I14Y interoperability platform is under continuous development. New features
 ## Release vom 28. Mai 2025
 - Ein neuer Download-Button ermöglicht es, Beschreibungen von Datensätzen aus dem internen Bereich im JSON-Format herunterzuladen. Dies vereinfacht den Export von Metadaten. 
 - Beschreibungen von Datensätzen können neu aus einer Datei importiert werden. Der Import steht zur Auswahl, wenn man auf den "Import"-Knopf klickt. 
-- Seit dem letzten Release ist es möglich Datenstrukturen im RDF-, TTL oder JSON-LD-Format hochzuladen. Diese Strukturen lassen sich neu grafisch darstellen.  
+- Seit dem letzten Release ist es möglich Datenstrukturen im RDF-, TTL oder JSON-LD-Format hochzuladen. Diese Strukturen lassen sich neu grafisch darstellen.
+- Die [I14Y-API](https://apiconsole.i14y.admin.ch/) bietet neue Endpunkte zum Importieren und Exportieren einer Struktur in RDF-, TTL- und JSON-LD-Formate.  
 - Für Organisationen wurden neue Informationsfelder eingeführt. Diese ermöglichen eine detailliertere Beschreibung der in I14Y erfassten Organisationen.
 - Einige Übersetzungen wurden aktualisiert.
 - Das Indexierungssystem der Suche wurde verbessert. Suchanfragen liefern nun präzisere Ergebnisse.
