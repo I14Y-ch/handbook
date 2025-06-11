@@ -2,7 +2,7 @@
 title: Operation and development of I14Y
 slug: platform
 translationKey: platform
-description: 'The I14Y interoperability platform is under active development.'
+description: "The I14Y interoperability platform is being actively developed. The roadmap shows which functions will be added and when. This chapter also contains information about operations, such as managing access permissions."
 weight: 30
 type: docs
 keywords: [I14Y, I14Y interoperability platform, I14Y-IOP, metadata, catalogue, support, help, problems, user management, account management, access management, access]

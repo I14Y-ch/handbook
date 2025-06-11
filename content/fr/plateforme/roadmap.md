@@ -16,7 +16,46 @@ Vous avez une proposition d'amélioration ou souhaitez signaler une erreur sur l
 
 {{</alert>}}
 
-![Roadmap I14Y](/handbook/img/roadmap_fr.svg)
+{{< mermaid width="650px" >}}
+timeline
+    title Roadmap Plateforme d'interopérabilité I14Y
+    
+    section 2025
+        PI 25 (27.03.2025 - 04.06.2025)
+        : Migration de toutes les données dans une base de données centrale. Cela accélère la recherche globale.
+        : Introduction d'une table des matières pour la navigation sur les pages de détail.
+        : Les concepts existants peuvent être mis à jour via l'API.
+        : Un nouveau point d'accès permet de récupérer des listes filtrées de concepts.
+        : Sur les pages d'aperçu, il sera indiqué dans quelle mesure les données sont librement accessibles.
+        : Les structures complexes de jeux de données peuvent être téléversées et affichées aux formats RDF/TTL.
+        : Les jeux de données peuvent être téléchargés et téléversés via l'interface web.
+        : Les métadonnées des organisations sont enrichies d'informations supplémentaires et affichées.
+        : Introduction d'une recherche dans les entrées des listes de codes.
+        : Amélioration de la recherche.
+        
+        PI 26 - 27 (05.06.2025 - 09.12.2025)
+        : La plateforme est migrée vers le cloud public.
+        : Les structures complexes de jeux de données peuvent être saisies et modifiées via l'interface web.
+        : Introduction d'URIs/permaliens pour tous les objets.
+        : Nouveaux points d'accès pour les services de données et services publics sur l'API partenaire.
+        : ⭐ Introduction de fonctionnalités de journalisation (piste d'audit)
+        : ⭐ Enregistrement des modifications apportées aux objets (piste d'audit)
+        : Introduction de tables de mappage pour documenter les différences entre les concepts.
+        : ⭐ Possibilité de s'abonner aux notifications de modifications des métadonnées.
+        : Mise à disposition d'une boîte à outils avec d'autres options d'importation et d'exportation.
+        : ⭐ Analyses de tableau de bord supplémentaires
+  
+    section 2026
+        PIs 28 - 31 (10.12.2025 - 31.12.2026)
+        : Intégration d'un aperçu des données.
+        : Intégration automatique de l'administration fédérale.
+        : ⭐ Création d'une possibilité de documenter les flux de données (Data Lineage)
+        : Extension des possibilités de connexion aux outils.
+        : Publication du code source (Open Source).
+        : Fin de la phase de projet.
+{{< /mermaid >}}
+
+*⭐ Les entrées marquées d'un astérisque sont des propositions du projet DVS BS+.*
 
 ## Interfaces électroniques (API)
 La plateforme d'interopérabilité I14Y propose d'ores et déjà des interfaces électroniques (API) permettant de rechercher, de saisir et de traiter les métadonnées sur la plateforme. Ces API n'étant pas encore totalement finalisées, il n'y a guère eu d'informations à leur sujet. Nombre d'entre elles sont par ailleurs accessibles uniquement depuis le réseau de la Confédération. Si vous devez déjà utiliser ces interfaces, veuillez contacter le [service d'interopérabilité](mailto:i14y@bfs.admin.ch).  

@@ -35,7 +35,7 @@ timeline
         : Eine Suche in den Einträgen der Codelisten wird eingeführt.
         : Die Suche wird verbessert.
         
-        PI 26 - 28 (05.06.2025 - 04.01.2026)
+        PI 26 - 27 (05.06.2025 - 09.12.2025)
         : Die Plattform wird in die öffentliche Cloud migriert.
         : Komplexe Strukturen von Datensätzen lassen sich über die Weboberfläche erfassen und editieren.
         : URIs/Permalinks werden für alle Objekte eingeführt.
@@ -48,7 +48,7 @@ timeline
         : ⭐ Zusätzliche Dashboard-Auswertungen
   
     section 2026
-        PIs 29 - 33 (05.01.2026 - 31.12.2026)
+        PIs 28 - 31 (10.12.2025 - 31.12.2026)
         : Vorschau auf die Daten wird eingebaut.
         : Automatisches Onboarding der Bundesverwaltung.
         : ⭐ Möglichkeit zur Dokumentation von Datenflüssen (Data Lineage) wird geschaffen

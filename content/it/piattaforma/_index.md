@@ -2,7 +2,7 @@
 title: Funzionamento e sviluppo di I14Y
 slug: piattaforma
 translationKey: platform
-description: "La piattaforma di interoperabilità I14Y è in fase di sviluppo attivo."
+description: "La piattaforma di interoperabilità I14Y è in fase di sviluppo attivo. La roadmap mostra quali funzionalità verranno aggiunte e quando. In questo capitolo sono presenti anche informazioni sul funzionamento, come ad esempio la gestione delle autorizzazioni di accesso."
 weight: 30
 type: docs
 keywords: [I14Y, piattaforma di interoperabilità I14Y, I14Y-IOP, metadati, catalogo, supporto, aiuto, problemi, gestione utenti, gestione account, gestione accessi, accesso]

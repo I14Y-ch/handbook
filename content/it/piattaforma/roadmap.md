@@ -16,44 +16,46 @@ Il team di sviluppo sarà molto grato della segnalazione di chiunque dovesse sco
 
 {{</alert>}}
 
-![Bild Roadmap I14Y](/handbook/img/roadmap_it.svg)
+{{< mermaid width="650px" >}}
+timeline
+    title Roadmap Piattaforma di interoperabilità I14Y
+    
+    section 2025
+        PI 25 (27.03.2025 - 04.06.2025)
+        : Migrazione di tutti i dati in un database centrale. Ciò accelera la ricerca globale.
+        : Introduzione di un indice per la navigazione sulle pagine di dettaglio.
+        : I concetti esistenti possono essere aggiornati tramite API.
+        : Un nuovo endpoint permette di recuperare liste filtrate di concetti.
+        : Nelle pagine di panoramica viene indicato quanto sono accessibili i dati.
+        : Le strutture complesse di set di dati possono essere caricate e visualizzate nei formati RDF/TTL.
+        : I set di dati possono essere scaricati e caricati tramite l'interfaccia web.
+        : I metadati delle organizzazioni vengono arricchiti con informazioni aggiuntive e visualizzati.
+        : Viene introdotta una ricerca nelle voci delle liste di codici.
+        : La ricerca viene migliorata.
+        
+        PI 26 - 27 (05.06.2025 - 09.12.2025)
+        : La piattaforma viene migrata nel cloud pubblico.
+        : Le strutture complesse di set di dati possono essere inserite e modificate tramite l'interfaccia web.
+        : Vengono introdotti URI/permalink per tutti gli oggetti.
+        : Vengono introdotti nuovi endpoint per i servizi di dati e i servizi pubblici sull'API partner.
+        : ⭐ Introduzione di funzionalità di registrazione (audit trail)
+        : ⭐ Le modifiche agli oggetti vengono registrate (audit trail)
+        : Introduzione di tabelle di mappatura per documentare le differenze tra i concetti.
+        : ⭐ È possibile sottoscrivere notifiche per le modifiche ai metadati.
+        : Viene messa a disposizione una toolbox con ulteriori possibilità di importazione ed esportazione.
+        : ⭐ Analisi aggiuntive della dashboard
+  
+    section 2026
+        PIs 28 - 31 (10.12.2025 - 31.12.2026)
+        : Viene integrata un'anteprima dei dati.
+        : Onboarding automatico dell'amministrazione federale.
+        : ⭐ Viene creata la possibilità di documentare i flussi di dati (Data Lineage)
+        : Ampliamento delle possibilità di connessione agli strumenti.
+        : Rilascio del codice sorgente (Open Source).
+        : Conclusione della fase di progetto.
+{{< /mermaid >}}
 
-```mermaid
-    timeline
-        title Roadmap I14Y
-        section 2024
-        PI 23<br>(07.11.2024 - 15.01.2025) 
-            : Migrazione del database. Questo velocizza la ricerca globale. 
-            : Nuovi endpoint API per i partner di I14Y (recupero e pubblicazione delle descrizioni delle raccolte di dati).
-            : La ricerca in elenchi di codici diventa possibile.
-            : La forma giuridica e il settore di attività di ciascuna organizzazione possono essere recuperati tramite l'API. 
-            : I data steward locali possono pubblicare le descrizioni in modo indipendente.
-        section 2025
-        PI 24<br>(16.01.2025 - 04.03.2025)
-            : Nuovi endpoint API per i partner I14Y (raccolta dati e area concetti).
-            : Le modifiche alle raccolte di dati sono registrate (audit trail). 
-            : Le strutture delle raccolte di dati possono essere registrate più facilmente.
-            : Gli elenchi di codici possono essere filtrati. 
-            : Analisi aggiuntive del cruscotto.
-            : Le organizzazioni possono essere create e gestite più facilmente.
-        PI 25<br>(27.03.2025 - 04.06.2025)
-            : Nuovi endpoint API per i partner I14Y (area servizi dati)
-            : Ottimizzazione e ampliamento delle opzioni di log (audit trail).
-            : Miglioramento della funzione di ricerca. 
-        PI 26 - 28<br>(05.06.2025 - 04.01.2026)
-            : Onboarding automatico dell'amministrazione federale. 
-            : Introduzione di tabelle di mappatura per la documentazione. 
-            : Possibilità di sottoscrivere notifiche di modifiche ai metadati. 
-            : Ulteriori opzioni di esportazione.
-            : I contenuti pubblicati pubblicamente sono resi disponibili come dati collegati.
-        section 2026
-        PIs 29 - 33<br>(05.01.2026 - 31.12.2026)
-            : Anteprima dei dati incorporata. 
-            : Possibilità di documentare i flussi di dati (data lineage). 
-            : Estensione delle opzioni di connessione agli strumenti. 
-            : Rilascio del codice del programma (open source). 
-            : Completamento della fase di progetto.
-```
+*⭐ Le voci contrassegnate con un asterisco sono proposte del progetto DVS BS+.*
 
 ## Interfacce elettroniche (API)
 Già oggi l'IOP I14Y mette a disposizione interfacce elettroniche (API) per la consultazione, la registrazione e la modifica di metadati sulla piattaforma. Tuttavia esse possono ancora essere soggette a modifiche, motivo per cui non sono ancora state annunciate pubblicamente. Inoltre, molte delle interfacce sono raggiungibili solo connettendosi alla piattaforma dalla rete della Confederazione. Chi avesse già bisogno di utilizzare delle interfacce, è pregato di rivolgersi al servizio di interoperabilità](mailto:i14y@bfs.admin.ch).  
