@@ -6,6 +6,7 @@ type: docs
 ---
 
 {{<table_of_contents>}}
+
  
 Das I14Y-Glossar enthält alle zentralen Begriffe, die für das Verständnis und die Arbeit mit der Interoperabilitätsplattform relevant sind. Begriffe, die auch in der Terminologiedatenbank der Bundesverwaltung TERMDAT definiert sind, sind entsprechend verlinkt. 
 Das Glossar wird bald auch in den Sprachen Französisch, Italienisch und Englisch verfügbar sein. 
