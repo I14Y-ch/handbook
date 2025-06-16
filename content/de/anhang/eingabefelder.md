@@ -8,11 +8,11 @@ keywords: [Interoperabilitätsplattform I14Y, I14Y, Glossar, Eingabefelder, Stan
 
 ## Inhalt 
 - [Katalog](#katalog)
-- [Datensatz](#Datensatz)
-    - [Struktur](#Struktur)
-        - [Klass](#Class)
-        - [Attribut](#Attribute)
-        - [Assoziation](#Association)
+- [Datensatz](#datensatz)
+    - [Struktur](#struktur)
+        - [Klasse](#klasse)
+        - [Attribut](#attribut)
+        - [Assoziation](#assoziation)
     - [Distribution](#distribution)
 - [Elektronische Schnittstelle (API)](#elektronische-schnittstelle-api)
 - [Behördenleistung](#behördenleistung)
@@ -79,7 +79,7 @@ In der folgenden Übersicht werden die Eingabefelder der Interoperabilitätsplat
 ### Struktur 
 Eine Struktur beschreibt, wie Datenobjekte organisiert sind und wie sie zusammenhängen. Auf der Interoperabilitätsplattform I14Y wird die Struktur mit der Shapes Constraint Language (SHACL) definiert. Dabei werden Klassen, Attribute und Beziehungen zwischen Objekten beschrieben. Nachfolgend wird der Aufbau einer Struktur kurz beschrieben; detaillierte Informationen sind auf der [SHACL-Website](https://www.w3.org/TR/shacl/) zu finden. 
 
-#### Class
+#### Klasse
 
 Eine Klasse beschreibt eine Gruppe von Objekten, die ähnliche Merkmale haben – zum Beispiel Einträge desselben Typs.
 
@@ -93,7 +93,7 @@ Eine Klasse beschreibt eine Gruppe von Objekten, die ähnliche Merkmale haben �
 | __Modifiziert__ | Datum der letzten Änderung der Klasse. | [dcterms\:modified](http://purl.org/dc/terms/modified) | `xsd:dateTime` | 0..1 | erwünscht |
 | __Erstellt__ | Erstellungsdatum der Klasse. | [dcterms\:created](http://purl.org/dc/terms/created) | `xsd:dateTime` | 0..1 | erwünscht |
 
-#### Attribute
+#### Attribut
 Ein Attribut ist eine Eigenschaft oder ein Datenfeld, das einer Klasse zugeordnet ist (über sh:property). 
 
 | Feld | Beschreibung | URI | Wertebereich | Kardinalität | Anmerkung | 
