@@ -14,7 +14,7 @@ Besteht bereits eine entsprechende Struktur, klicken Sie auf "Bestehende Struktu
 
 Der __Identifikator__ kann beliebig gewählt werden. Die meisten Strukturen kommen einzig bei einer Datensammlung sowie deren Nachfolgeversionen vor, also nach einer Aktualisierung der Daten. Deshalb macht es meistens Sinn, wenn der Identifikator aus dem Katalogeintrag verwendet wird. Bei Bedarf lässt sich dieser beliebig ergänzen. 
 
-Im Feld __Version__ muss eine Nummer mit der Struktur analog zu 1.0.0 eingetragen werden (vergleiche dazu den Abschnitt zur [Versionierung](/handbook/de/publikation/katalog/6_datenpflege/versionierung)). 
+Im Feld __Version__ muss eine Nummer mit der Struktur analog zu 1.0.0 eingetragen werden (vergleiche dazu den Abschnitt zur [Versionierung](/handbook/de/publikation/katalog/datenpflege/versionierung)). 
 
 Zwingend ausgefüllt werden muss das Feld __Gültig von__. Dieses beschreibt, ab wann die Datensammlung exakt in der hier beschriebenen Struktur vorlag. Ausschlaggebend ist das Publikationsdatum des betreffenden Angebots. Sollte sich die Struktur dereinst verändern -- etwa, wenn einer Tabelle eine zusätzliche Spalte angefügt wird --, werden die Angaben im Feld __Gültig bis__ nachgetragen. Bis dahin kann dieses Feld leer gelassen werden. 
 

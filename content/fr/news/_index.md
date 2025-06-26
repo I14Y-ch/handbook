@@ -183,7 +183,7 @@ La plateforme I14Y est en passe de devenir le catalogue national de métadonnée
 ## Changelog – notes de mise à jour 
 *20.02.2024*
 
-L’IOP I14Y fait l’objet d’un développement continu. Chaque version apporte de nouvelles fonctionnalités et corrige des erreurs. Le manuel I14Y consigne l’essentiel des modifications, des améliorations et des corrections de bugs [Changelog im I14Y-Handbuch](https://i14y-ch.github.io/handbook/de/8_changelog/) .
+L’IOP I14Y fait l’objet d’un développement continu. Chaque version apporte de nouvelles fonctionnalités et corrige des erreurs. Le manuel I14Y consigne l’essentiel des modifications, des améliorations et des corrections de bugs [Changelog im I14Y-Handbuch](https://i14y-ch.github.io/handbook/de/changelog/) .
 
 ## Le service d’interopérabilité (IOS) au GovTech Hackathon 2024
 *20.02.2024*

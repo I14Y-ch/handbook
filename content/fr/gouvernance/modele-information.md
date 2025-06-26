@@ -282,4 +282,4 @@ La plateforme d'interopérabilité permet également de décrire les prestations
 
 La description des prestations administratives électroniques repose sur l'utilisation du _core public service vocabulary_, un vocabulaire développé par l'Union européenne. Sa structure et ses spécificités sont décrites sur la plateforme d'interopérabilité [Joinup](https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/core-public-service-vocabulary/releases) de la Commission européenne. Ce modèle de données réutilisable et extensible comprend des champs qui doivent être impérativement renseignés. Chaque prestation administrative se voit ainsi affecter un certain nombre de canaux, une adresse Internet ou un numéro de téléphone.
 
-Le chapitre [Publication](/handbook/de/publikation/katalog/3_publicservice/) décrit en détail comment saisir les informations sur les prestations administratives sur la plateforme d'interopérabilité I14Y.
+Le chapitre [Publication](/handbook/de/publikation/katalog/publicservice/) décrit en détail comment saisir les informations sur les prestations administratives sur la plateforme d'interopérabilité I14Y.

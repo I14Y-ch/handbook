@@ -229,7 +229,7 @@ Die I14Y-Plattform entwickelt sich zum nationalen Metadatenkatalog der Schweiz. 
 ## Changelog – Releasenotes
 *20.02.2024*
 
-I14Y wird kontinuierlich weiterentwickelt. Mit jedem Release kommen neue Funktionen hinzu und werden Fehler behoben. Die wichtigsten Änderungen, Verbesserungen sowie Bugfixes werden neu im [Changelog im I14Y-Handbuch](https://i14y-ch.github.io/handbook/de/8_changelog/) beschrieben.	 	 
+I14Y wird kontinuierlich weiterentwickelt. Mit jedem Release kommen neue Funktionen hinzu und werden Fehler behoben. Die wichtigsten Änderungen, Verbesserungen sowie Bugfixes werden neu im [Changelog im I14Y-Handbuch](https://i14y-ch.github.io/handbook/de/changelog/) beschrieben.	 	 
 
 ## Das I14Y-Team nimmt am GovTech Hackathon teil
 *20.02.2024*

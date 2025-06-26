@@ -282,4 +282,4 @@ Anche i servizi elettronici offerti dalle autorità possono essere descritti sul
 
 La descrizione dei servizi offerti dalle autorità è redatta sulla base del _Core Public Service Vocabulary_, definito dall'Unione europea. La creazione e l'intero vocabolario è documentato sulla piattaforma di interoperabilità [Joinup](https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/core-public-service-vocabulary/releases)della Commissione europea. Il vocabolario, riutilizzabile e ampliabile, prevede alcuni campi che devono essere compilati obbligatoriamente. Ad ogni servizio offerto dalle autorità possono essere assegnati canali, come un indirizzo Internet o un numero di telefono.
 
-Nel capitolo[Pubblicare metadati](/handbook/de/publikation/katalog/3_publicservice/) è descritto nel dettaglio come registrare un servizio delle autorità sulla piattaforma di interoperabilità I14Y.
+Nel capitolo[Pubblicare metadati](/handbook/de/publikation/katalog/publicservice/) è descritto nel dettaglio come registrare un servizio delle autorità sulla piattaforma di interoperabilità I14Y.

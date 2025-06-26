@@ -183,7 +183,7 @@ La piattaforma I14Y si sta sviluppando per divenire il catalogo nazionale dei me
 ## Changelog – Note sulla versione rilasciata 
 *20.02.2024*
 
-La IOP 14Y è soggetta a continui sviluppi. Ad ogni nuova versione vengono aggiunte nuove funzioni e risolti bug. Le modifiche, i miglioramenti e le correzioni dei bug più importanti sono ora descritti nel manuale I14Y [Changelog im I14Y-Handbuch](https://i14y-ch.github.io/handbook/de/8_changelog/).
+La IOP 14Y è soggetta a continui sviluppi. Ad ogni nuova versione vengono aggiunte nuove funzioni e risolti bug. Le modifiche, i miglioramenti e le correzioni dei bug più importanti sono ora descritti nel manuale I14Y [Changelog im I14Y-Handbuch](https://i14y-ch.github.io/handbook/de/changelog/).
 
 ## IOS parteciperà al GovTech Hackathon 2024
 *20.02.2024*
