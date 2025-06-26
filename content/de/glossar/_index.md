@@ -122,8 +122,8 @@ Eine Distribution ist die Bereitstellung von Daten für definierte Zielgruppen, 
 ## eCH 
 Der gemeinnützige Verein eCH fördert, entwickelt und verabschiedet Standards im Bereich E-Government. In den zahlreichen Arbeitsgruppen von eCH arbeiten sowohl Vertreterinnen und Vertreter des Bundes und der Kantone als auch der der Privatwirtschaft und der Wissenschaft mit. eCH ist das wichtigste Normierungsgremium im Bereich eGovernment in der Schweiz. Weitere Informationen wie auch die Dokumente zu den verabschiedeten Standards sind auf der Website [ech.ch](https://ech.ch) zu finden. 
 
-## [Elektronische Schnittstelle (API)](https://www.termdat.bk.admin.ch/search/entry/500882?s=API&sl=2,6,7,8,3&tl=2,6,7,8,3)
-Eine elektronische Schnittstelle ermöglicht es verschiedenen Systemen und Anwendungen miteinander zu kommunizieren. Und das selbst dann, wenn die Systeme nicht direkt miteinander verhängt sind. Über elektronische Schnittstellen können etwa Informationen aus einem Datensammlung abgefragt werden, ohne dass die gesamte Datensammlung heruntergeladen werden muss. In der Fachsprache werden elektronische Schnittstellen oft als _Application Programming Interface (API)_ bezeichnet, also als elektronische Schnittstellen für Anwendungen. Sie werden in der modernen Software-Entwicklung sehr oft eingesetzt, um einzelne Teilsysteme zu verbinden oder um Daten von einem anderen System zu beziehen. 
+## Elektronische Schnittstelle (API)
+Eine elektronische Schnittstelle ermöglicht es verschiedenen Systemen und Anwendungen miteinander zu kommunizieren. Und das selbst dann, wenn die Systeme nicht direkt miteinander verhängt sind. Über elektronische Schnittstellen können etwa Informationen aus einem Datensammlung abgefragt werden, ohne dass die gesamte Datensammlung heruntergeladen werden muss. In der Fachsprache werden elektronische Schnittstellen oft als _Application Programming Interface (API)_ bezeichnet, also als elektronische Schnittstellen für Anwendungen. Sie werden in der modernen Software-Entwicklung sehr oft eingesetzt, um einzelne Teilsysteme zu verbinden oder um Daten von einem anderen System zu beziehen. [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/500882?s=API&sl=2,6,7,8,3&tl=2,6,7,8,3)
 
 ## Enterprise Identity Management (EIAM) 
 Systeme zum _Enterprise Identity Management (EIAM)_ werden verwendet, um Identitäten und Zugriffsrechte innerhalb eines Unternehmens oder einer Organisation zu verwalten und zu schützen. Sie stellen also sicher, dass einzig die vorgesehenen Personen eine bestimmte Internet-Plattform oder Anwendung nutzen können. Dabei regeln sie auch, wer Lese-, Schreib- und wer Administrationsrechte hat. Die I14Y nutzt das EIAM-System der Bundesverwaltung. Weitere Informationen sind unter [Kontenverwaltung](/handbook/de/plattform/kontenverwaltung) zusammengestellt.
@@ -134,9 +134,8 @@ Systeme zum _Enterprise Identity Management (EIAM)_ werden verwendet, um Identit
 ## FAIR-Prinzipien
 Die FAIR- Prinzipien postulieren, dass Daten einfach auffindbar _(**F**indable)_, zugänglich _(**A**ccessible)_, interoperabel _(**I**nteroperable)_ und mehrfachverwendbar _(**R**eusable)_ sein sollen. Die Daten sollen sowohl von Menschen als auch von Computersystemen einfach auffindbar sein. Sie sollen über ein offenes, freies und universell implementierbares Standard-Kommunikationsprotokoll zugänglich sein. Dank einer eindeutigen Lizenz ist ersichtlich, wie die Daten genutzt werden dürfen. Die Interoperabilität ist sowohl semantisch als auch syntaktisch gewährleistet. Sie setzt die Verwendung präziser kontextbezogener Metadaten voraus, hält sich in Bezug auf Inhalt und Format an die grossen internationalen Standards und verwendet möglichst standardisierte Vokabulare. Die freie, bedingte oder kostenpflichtige Mehrfachverwendung der Daten wird durch gemeinsame Standards vereinfacht. Grundlegende Informationen zu den FAIR-Prinzipien sind in diesem [Nature-Artikel](https://www.nature.com/articles/sdata201618) zu finden. 
 
-## [Geobasisdaten](https://www.termdat.bk.admin.ch/search/entry/71443?s=Geobasisdaten&sl=2,6,7,8,3&tl=2,6,7,8,3)
-Geobasisdaten sind Geodaten, die auf einem Recht setzenden Erlass des Bundes, eines Kantons oder einer Gemeinde beruhen:
-z.B. die Amtliche Vermessung, der Bauzonenplan oder das Hochmoor-Inventar.
+## Geobasisdaten
+Geobasisdaten sind Geodaten, die auf einem Recht setzenden Erlass des Bundes, eines Kantons oder einer Gemeinde beruhen: z.B. die Amtliche Vermessung, der Bauzonenplan oder das Hochmoor-Inventar. [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/71443?s=Geobasisdaten&sl=2,6,7,8,3&tl=2,6,7,8,3).
 
 ## Geocat 
 [Geocat](https://geocat.ch) ist ein Katalog für Metadaten für Geoinformationen in der Schweiz und im Fürstentum Liechtenstein. Darin erfassen Bundesämter, Kantone, Gemeinden, Forschungsinstitute und Unternehmen Informationen zu ihren Geodaten, also von Datensätzen mit starkem geografischem Bezug, von Karten wie auch Luftbildern. Betrieben wird der Dienst vom Bundesamt für Landestopografie swisstopo. Weitere Informationen sind im Abschnitt zu den [verschiedenen Plattformen](/handbook/de/gouvernanz/plattformen) zu finden.
@@ -150,54 +149,50 @@ Eine Graphdatenbank hat als einzigen Zweck die Erstellung und Manipulation von G
 ## Harvesting
 Als Harvesting bezeichnet man das automatische «Einsammeln» von Daten bzw. Metadaten. Mit einem Harvesting-Modul lassen sich Kataloge von Datensätzen, die von anderen Instanzen zur Verfügung gestellt werden, automatisch importieren.
 
-Der Datenanbieter stellt eine RDF-Datei auf einem Endpunkt (URL) zur Verfügung und registriert diesen Endpunkt dann auf opendata.swiss, wo er so konfiguriert werden muss, dass er automatisch geharvestet wird.
-
 ## Identifikator
 Ein Identifikator ist ein definiertes Attribut oder eine Kombination von Attributen, die es ermöglicht, in Daten einzelne Elemente zu identifizieren. Ein Identifikator muss innerhalb eines Datenbestandes eineindeutig sein, d.h. er muss einen eindeutigen Rückschluss auf das identifizierte Element ermöglichen und darf nur einmal verwendet werden.
 
 ## Internationale Organisation für Normung (ISO)
 Die Internationale Organisation für Normung (ISO) ist eine Vereinigung von Normierungsorganisationen. Sie erarbeitet internationale Normen in zahlreichen Bereichen -- mit Ausnahme der Elektrotechnik und der Kommunikationstechnologie. Bei der ISO handelt es sich um einen Verein nach schweizerischem Recht. Der Sitz ist in Genf. Nationale Standardisierungsvorhaben im Bereich eGovernment treibt meistens der [→ Verein eCH](#ech) voran.
 
-
-## [Interoperabilität](https://www.termdat.bk.admin.ch/search/entry/71434?s=Interoperabilit%C3%A4t&sl=2,6,7,8,3&tl=2,6,7,8,3)
-Interoperabilität ist die Fähigkeit unabhängiger, heterogener Systeme, möglichst nahtlos zusammenzuarbeiten. Sie sollen Informationen auf effiziente Art und Weise auszutauschen, ohne dass dazu im Einzelfall gesonderte Absprachen nötig sind. Das [European Interoperability Framework (EIF)](https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/3-interoperability-layers) unterscheidet vier Ebenen: Die _rechtliche Interoperabilität_ stellt sicher, dass eine ausreichende gesetzliche Grundlage für die Zusammenarbeit besteht. Die _organisatorische Interoperabilität_ beschreibt, wie die Geschäftsprozesse aufeinander abgestimmt sind. Mit der _semantischen Interoperabilität_ wird angestrebt, dass beim Austausch von Informationen die Form der Daten möglichst nicht manuell verändert werden muss. Die _technische Interoperabilität_ beschreibt alle technischen Aspekte des Informationsaustausches, beinhaltet also etwa Schnittstellenspezifikationen und Übermittlungsprotokolle.
+## Interoperabilität
+Interoperabilität ist die Fähigkeit unabhängiger, heterogener Systeme, möglichst nahtlos zusammenzuarbeiten. Sie sollen Informationen auf effiziente Art und Weise auszutauschen, ohne dass dazu im Einzelfall gesonderte Absprachen nötig sind. Das [European Interoperability Framework (EIF)](https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/3-interoperability-layers) unterscheidet vier Ebenen: Die _rechtliche Interoperabilität_ stellt sicher, dass eine ausreichende gesetzliche Grundlage für die Zusammenarbeit besteht. Die _organisatorische Interoperabilität_ beschreibt, wie die Geschäftsprozesse aufeinander abgestimmt sind. Mit der _semantischen Interoperabilität_ wird angestrebt, dass beim Austausch von Informationen die Form der Daten möglichst nicht manuell verändert werden muss. Die _technische Interoperabilität_ beschreibt alle technischen Aspekte des Informationsaustausches, beinhaltet also etwa Schnittstellenspezifikationen und Übermittlungsprotokolle. [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/71434?s=Interoperabilit%C3%A4t&sl=2,6,7,8,3&tl=2,6,7,8,3).
 
 ## Interoperabilitätsstelle (IOS)
 Die Interoperabilitätsstelle (IOS) des Bundesamts für Statistik stellt die Instrumente zur Harmonisierung, Standardisierung und Mehrfachverwendung von Daten bereit. Als technisches Werkzeug dazu entwickelt und betreut sie die Interoperabilitätsplattform I14Y. IOS koordiniert die Standardisierung und Harmonisierung von Daten innerhalb der einzelnen Themenbereiche (z.B. Energie, Gesundheit, Mobilität, Landwirtschaft). Das BFS nimmt dabei die Aufgaben des _Swiss Data Stewards_ wahr. 
 
-## [Linked Data](https://www.termdat.bk.admin.ch/search/entry/503121?s=Linked%20data&sl=2,6,7,8,3&tl=2,6,7,8,3) 
-Linked Data sind Daten, die dank eines Identifikators (_Uniform Resource Identifier_) direkt miteinander verknüpft werden können. Sofern die Daten frei verfügbar sind, wird auch von _Linked Open Data_ gesprochen. Die Daten können verteilt sein. Sie lassen sich über normale Web-Transferprotokoll abrufen. Dank dem standardisierten Aufbau lassen sie wie eine einzige grosse Datenbank benutzen. Dazu wird die Abfragesprache _Sparql_ eingesetzt. Linked Open Data ist ein von Tim Berners-Lee, dem Erfinder des World Wide Webs, entwickeltes Konzept. Das Ziel ist der Aufbau eines semantischen Webs, bei dem dank strukturierten und verknüpfbaren Datenangeboten die maschinelle Kommunikation vereinfacht wird. Die Plattform Lindas ist die wichtigste Anbieterin von Linked Data im Bereich der öffentlichen Verwaltung in der Schweiz. Weitere Informationen sind im [Abschnitt zu Lindas](/handbook/de/gouvernanz/plattformen) zu finden.
-
+## Linked Data
+Linked Data sind Daten, die dank eines Identifikators (_Uniform Resource Identifier_) direkt miteinander verknüpft werden können. Sofern die Daten frei verfügbar sind, wird auch von _Linked Open Data_ gesprochen. Die Daten können verteilt sein. Sie lassen sich über normale Web-Transferprotokoll abrufen. Dank dem standardisierten Aufbau lassen sie wie eine einzige grosse Datenbank benutzen. Dazu wird die Abfragesprache _Sparql_ eingesetzt. Linked Open Data ist ein von Tim Berners-Lee, dem Erfinder des World Wide Webs, entwickeltes Konzept. Das Ziel ist der Aufbau eines semantischen Webs, bei dem dank strukturierten und verknüpfbaren Datenangeboten die maschinelle Kommunikation vereinfacht wird. Die Plattform Lindas ist die wichtigste Anbieterin von Linked Data im Bereich der öffentlichen Verwaltung in der Schweiz. Weitere Informationen sind im [Abschnitt zu Lindas](/handbook/de/gouvernanz/plattformen) zu finden. [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/503121?s=Linked%20data&sl=2,6,7,8,3&tl=2,6,7,8,3).
 
 ## Metadaten
 Metadaten sind Daten, die andere Daten definieren und beschreiben. Sie beinhalten Informationen zur Semantik einer Datensammlung – also zur Bedeutung, zum Inhalt und zur Qualität. Zudem beschreiben sie die Syntax (die Form und die Struktur) der verwendeten Attribute (Variablen). Um sicherzustellen, dass die Daten einheitlich erfasst werden, können [→ Nomenklaturen](#nomenklatur) hinterlegt und Register angebunden werden, etwa das Gemeindeverzeichnis, die Nomenklatur der Berufe (ISCO) oder der Wirtschaftszweige (NOGA). Damit werden diese Daten zu Metadaten. Auf der I14Y lassen sich solche Metadaten verwalten, publizieren und austauschen.  
 
-## [Metadatenkatalog](https://www.termdat.bk.admin.ch/search/entry/71450?s=API&sl=2,6,7,8,3&tl=2,6,7,8,3)
-Strukturierte Bestandsaufnahme der Datensammlungen einer Organisation, die in einem digitalen Verzeichnis aufgeführt sind.
+## Metadatenkatalog
+Strukturierte Bestandsaufnahme der Datensammlungen einer Organisation, die in einem digitalen Verzeichnis aufgeführt sind. [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/71450?s=Metadatenkatalog&sl=2,6,7,8,3&tl=2,6,7,8,3).
 
-## [Nationale Datenbewirtschaftung (NaDB)](https://www.termdat.bk.admin.ch/search/entry/481315?s=nadb&sl=2,6,7,8,3&tl=2,6,7,8,3)
-Das Programm Nationale Datenbewirtschaftung hat es zum Ziel, die Datenbewirtschaftung der öffentlichen Hand durch die Mehrfachnutzung von Daten einfacher und effizienter zu gestalten. Es wurde vom Bundesrat initiiert und im Oktober 2019 gestartet. Beteiligt am Programm sind alle Departemente des Bundes, die Bundeskanzlei, alle Bereiche des Statistiksystems Schweiz, Vertreter von Kantonen, die Sozialpartner sowie private Organisationen und Verbände. Die Verantwortung für die Umsetzung des Programms liegt beim Bundesamt für Statistik. Technisches Kernstück ist die I14Y. Weitere Informationen sind auf der [Website des Programms](https://www.bfs.admin.ch/bfs/de/home/nadb/nadb.html) zu finden.
+## Nationale Datenbewirtschaftung (NaDB)
+Das Programm Nationale Datenbewirtschaftung hat es zum Ziel, die Datenbewirtschaftung der öffentlichen Hand durch die Mehrfachnutzung von Daten einfacher und effizienter zu gestalten. Es wurde vom Bundesrat initiiert und im Oktober 2019 gestartet. Beteiligt am Programm sind alle Departemente des Bundes, die Bundeskanzlei, alle Bereiche des Statistiksystems Schweiz, Vertreter von Kantonen, die Sozialpartner sowie private Organisationen und Verbände. Die Verantwortung für die Umsetzung des Programms liegt beim Bundesamt für Statistik. Technisches Kernstück ist die I14Y. Weitere Informationen sind auf der [Website des Programms](https://www.bfs.admin.ch/bfs/de/home/nadb/nadb.html) zu finden. [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/481315?s=nadb&sl=2,6,7,8,3&tl=2,6,7,8,3).
 
-## [Nomenklatur](https://www.termdat.bk.admin.ch/search/entry/94036?s=nomenklatur&sl=2,6,7,8,3&tl=2,6,7,8,3)
-Eine Nomenklatur ist eine für bestimmte Bereiche verbindliche Sammlung von Benennungen aus einem bestimmten Themen- oder Anwendungsgebiet. Beispiele für Nomenklaturen sind ein Gemeindeverzeichnis oder ein Länderverzeichnis. Eine Nomenklatur erhält Codes und beschreibende Textteile, allenfalls in verschiedenen Sprachen.
+## Nomenklatur
+Eine Nomenklatur ist eine für bestimmte Bereiche verbindliche Sammlung von Benennungen aus einem bestimmten Themen- oder Anwendungsgebiet. Beispiele für Nomenklaturen sind ein Gemeindeverzeichnis oder ein Länderverzeichnis. Eine Nomenklatur erhält Codes und beschreibende Textteile, allenfalls in verschiedenen Sprachen. [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/94036?s=nomenklatur&sl=2,6,7,8,3&tl=2,6,7,8,3).
 
-## [Offene Daten](https://www.termdat.bk.admin.ch/search/entry/387377?s=offene%20Daten&sl=2,6,7,8,3&tl=2,6,7,8,3)
-Daten, die frei, ohne wesentliche rechtliche, finanzielle oder technische Einschränkungen, genutzt, verarbeitet, ausgewertet und weitergegeben werden dürfen. Rechtlich muss die kostenfreie Nutzung und Weiterverarbeitung der Daten gewährleistet sein; technische Offenheit betont, dass offene Daten maschinell bearbeitbar sein müssen. Bei der Publikation von Daten als offenen Daten müssen Datenschutz-, Informationsschutz- und Urheberrechtsbestimmungen sowie Geschäftsgeheimnisse gewahrt bleiben.
+## Offene Daten
+Daten, die frei, ohne wesentliche rechtliche, finanzielle oder technische Einschränkungen, genutzt, verarbeitet, ausgewertet und weitergegeben werden dürfen. Rechtlich muss die kostenfreie Nutzung und Weiterverarbeitung der Daten gewährleistet sein; technische Offenheit betont, dass offene Daten maschinell bearbeitbar sein müssen. Bei der Publikation von Daten als offenen Daten müssen Datenschutz-, Informationsschutz- und Urheberrechtsbestimmungen sowie Geschäftsgeheimnisse gewahrt bleiben. [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/387377?s=offene%20Daten&sl=2,6,7,8,3&tl=2,6,7,8,3).
 
-## [Once-Only-Prinzip]( https://www.termdat.bk.admin.ch/search/entry/480493?s=once-only&sl=2,6,7,8,3&tl=2,6,7,8,3) 
-Ziel des Once-Only-Prinzips ist es, dass Bürgerinnen und Bürger sowie Unternehmen ihre Daten nur einmal der öffentlichen Verwaltung zur Verfügung stellen müssen. Die einzelnen Amtsstellen der unterschiedlichen Ebenen tauschen die Informationen untereinander aus -- sofern dies explizit so vorgesehen und sinnvoll ist. Das _Once-Only_-Prinzip soll den Aufwand reduzieren -- bei den Bürgerinnen und Bürgern, den Unternehmen wie auch innerhalb der Verwaltung. Die Umsetzung des Once-Only-Prinzips ist ein zentrales Ziel des Programms Nationale Datenbewirtschaftung (NaDB).
+## Once-Only-Prinzip
+Ziel des Once-Only-Prinzips ist es, dass Bürgerinnen und Bürger sowie Unternehmen ihre Daten nur einmal der öffentlichen Verwaltung zur Verfügung stellen müssen. Die einzelnen Amtsstellen der unterschiedlichen Ebenen tauschen die Informationen untereinander aus -- sofern dies explizit so vorgesehen und sinnvoll ist. Das _Once-Only_-Prinzip soll den Aufwand reduzieren -- bei den Bürgerinnen und Bürgern, den Unternehmen wie auch innerhalb der Verwaltung. Die Umsetzung des Once-Only-Prinzips ist ein zentrales Ziel des Programms Nationale Datenbewirtschaftung (NaDB). [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/480493?s=once-only&sl=2,6,7,8,3&tl=2,6,7,8,3).
 
 ## Ontologie
 Eine Ontologie ist eine formal definierte Darstellung von Wissen, in der die Konzepte und Beziehungen in einem bestimmten Bereich beschrieben werden. Sie ist wie ein Vokabular oder ein Regelwerk, das ein gemeinsames Verständnis eines bestimmten Fachgebiets ermöglicht. Ontologien werden verwendet, um den Austausch und die Wiederverwendung von Wissen zu ermöglichen und die Kommunikation und Argumentation zwischen Menschen oder Computersystemen zu erleichtern.
 
-## [Personendaten](https://www.termdat.bk.admin.ch/search/entry/52451?s=personendaten&sl=2,6,7,8,3&tl=2,6,7,8,3)
-Angaben, die sich auf eine bestimmte oder bestimmbare natürliche Person beziehen.
+## Personendaten
+Angaben, die sich auf eine bestimmte oder bestimmbare natürliche Person beziehen. [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/52451?s=personendaten&sl=2,6,7,8,3&tl=2,6,7,8,3).
 
 ## Public Service Vocabulary Application Profile (CPSV-AP)
 Das Public Service Vocabulary Application Profile (CPSV-AP) ist ein Datenmodell, das Behördenleistungen anhand einer standardisierten Semantik strukturiert und maschinenlesbar beschreibt
 
-## [Referenzdaten](https://www.termdat.bk.admin.ch/search/entry/502771?s=Referenzdaten&sl=2,6,7,8,3&tl=2,6,7,8,3)
-Daten, die nur bestimmte Werte annehmen können und in einer Organisation in Prozessen, Analysen oder Entscheidungen verwendet werden.
+## Referenzdaten
+Daten, die nur bestimmte Werte annehmen können und in einer Organisation in Prozessen, Analysen oder Entscheidungen verwendet werden. [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/502771?s=Referenzdaten&sl=2,6,7,8,3&tl=2,6,7,8,3).
 
 ## Referenz-Metadaten
 Gemäss Eurostat beschreiben Referenz-Metadaten (manchmal auch erklärende Metadaten genannt) den Inhalt und die Qualität der statistischen Daten aus semantischer Sicht. Sie enthalten erläuternde Texte zum Kontext der statistischen Daten, zur Methodik der Datenerhebung und -aggregation sowie zu Qualitäts- und Diffusionsmerkmalen.
@@ -205,11 +200,11 @@ Gemäss Eurostat beschreiben Referenz-Metadaten (manchmal auch erklärende Metad
 ## SDMX 
 Der _Statistical Data and Metadata EXchange (SDMX)_ ist eine Initiative zur Standardisierung des Datenaustauschs zwischen internationalen Organisationen und ihren Mitgliedsländern. Massgeblich entwickelt wurde er von der Weltbank und der Europäischen Union. _SDMX_ definiert sowohl einheitliche Datenformate als auch Metadatenstandards und Methoden zur Datenübertragung. Weitere Informationen: [sdmx.org](https://sdmx.org). Auf der I14Y können  Codelisten im SDMX-Format eingelesen werden (siehe [Erfassen von Konzepten](/handbook/de/publikation/konzepte/)). 
 
-## [SPARQL](https://www.termdat.bk.admin.ch/search/entry/503123?s=SPARQL&sl=2,6,7,8,3&tl=2,6,7,8,3)
-Standardabfragesprache zum Abrufen und zur Bearbeitung von Daten, die im RDF-Format dargestellt werden.
+## SPARQL
+Standardabfragesprache zum Abrufen und zur Bearbeitung von Daten, die im RDF-Format dargestellt werden. [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/503123?s=SPARQL&sl=2,6,7,8,3&tl=2,6,7,8,3).
 
-## [Stammdaten](https://www.termdat.bk.admin.ch/search/entry/379368?s=stammdaten&sl=2,6,7,8,3&tl=2,6,7,8,3)
-Die Stammdaten sind grundlegende Informationen, die von der öffentlichen Verwaltung zwingend benötigt werden. Sie können Personen, Unternehmen, aber auch diverse Objekte wie etwa Gebäude oder Fahrzeuge beschreiben. Für jedes dieser Objekte muss ein abschliessender Katalog der Merkmale (Attribute) verfügbar sein. Die Stammdaten sind zustandsorientierte Daten. Sie bleiben im Zeitverlauf relativ konstant. Und sie ändern sich eher selten. Eine Sonderform von Stammdaten sind die so genannten Referenzdaten wie etwa die Codes für Flughäfen oder Länder. Diese dienen der Klassifizierung von Stammdaten.
+## Stammdaten
+Die Stammdaten sind grundlegende Informationen, die von der öffentlichen Verwaltung zwingend benötigt werden. Sie können Personen, Unternehmen, aber auch diverse Objekte wie etwa Gebäude oder Fahrzeuge beschreiben. Für jedes dieser Objekte muss ein abschliessender Katalog der Merkmale (Attribute) verfügbar sein. Die Stammdaten sind zustandsorientierte Daten. Sie bleiben im Zeitverlauf relativ konstant. Und sie ändern sich eher selten. Eine Sonderform von Stammdaten sind die so genannten Referenzdaten wie etwa die Codes für Flughäfen oder Länder. Diese dienen der Klassifizierung von Stammdaten. [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/379368?s=stammdaten&sl=2,6,7,8,3&tl=2,6,7,8,3).
 
 ## Statistische Daten
 Statistische Daten sind alle Daten, welche zu statistischen Zwecken erhoben oder weitergegeben wurden, insbesondere gestützt auf das Bundesstatistikgesetz und unterliegen damit dem Statistikgeheimnis.
@@ -223,12 +218,12 @@ Eine Datenbank, die speziell für die Speicherung und den Abruf von RDF-Daten ko
 ## Triplet
 Tripel sind die kleinste Struktur zur Beschreibung von Ressourcen im RDF-Modell. Im RDF-Modell ist eine Aussage dreiteilig und besteht aus zwei Knoten, die durch eine Kante verbunden sind und dabei das Subjekt, das Prädikat und das Objekt repräsentieren. Üblicherweise werden Tripel als Graph dargestellt.
 
-## [Uniform Resource Identifier (URI)](https://www.termdat.bk.admin.ch/search/entry/70183?s=Uniform%20Resource%20Identifier%20&sl=2,6,7,8,3&tl=2,6,7,8,3)
-URIs erlauben die Identifizierung von abstrakten oder physischen Ressourcen im Internet. RDF-Ressourcen werden durch eindeutige Bezeichner (URIs) identifiziert. Die URIs erlauben es, Aussagen aus verschiedenen Quellen zu verbinden. 
+## Uniform Resource Identifier (URI)
+URIs erlauben die Identifizierung von abstrakten oder physischen Ressourcen im Internet. RDF-Ressourcen werden durch eindeutige Bezeichner (URIs) identifiziert. Die URIs erlauben es, Aussagen aus verschiedenen Quellen zu verbinden. [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/70183?s=Uniform%20Resource%20Identifier%20&sl=2,6,7,8,3&tl=2,6,7,8,3). 
 
 ## Validierung
 Die Validierung ist ein Prozess. Darin wird geprüft, ob ein bestimmter Inhalt in ein System oder ein Verzeichnis aufgenommen werden soll. Im Fall einer Datensammlung werden auf der I14Y vor der öffentlichen Publikation etwa das Datenformat kontrolliert, die Datenintegrität sowie die Wertebereiche und Nomenklaturen. Die Validierung erfolgt durch die _Local Data Stewards_ oder die Interoperabilitätsstelle.
 
-## [Verwaltungsdaten](https://www.termdat.bk.admin.ch/search/entry/387376?s=Verwaltungsdaten&sl=2,6,7,8,3&tl=2,6,7,8,3) 
-Verwaltungsdaten sind Daten, die im Rahmen eines gesetzlichen Auftrags erhoben, erstellt, verwaltet, verarbeitet und gespeichert werden. Bei diesen kann es sich um strukturierte und unstrukturierte Daten handeln. Auf der I14Y können die einzelnen Verwaltungsstellen Inventare ihrer Datensätze erstellen. 
+## Verwaltungsdaten
+Verwaltungsdaten sind Daten, die im Rahmen eines gesetzlichen Auftrags erhoben, erstellt, verwaltet, verarbeitet und gespeichert werden. Bei diesen kann es sich um strukturierte und unstrukturierte Daten handeln. Auf der I14Y können die einzelnen Verwaltungsstellen Inventare ihrer Datensätze erstellen. [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/387376?s=Verwaltungsdaten&sl=2,6,7,8,3&tl=2,6,7,8,3).
 
