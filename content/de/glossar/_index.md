@@ -10,15 +10,14 @@ type: docs
 
 &nbsp;
  
-Das I14Y-Glossar enthält alle zentralen Begriffe, die für das Verständnis und die Arbeit mit der Interoperabilitätsplattform relevant sind. Begriffe, die auch in der Terminologiedatenbank der Bundesverwaltung TERMDAT definiert sind, sind entsprechend verlinkt. 
+Das I14Y-Glossar enthält alle zentralen Begriffe, die für das Verständnis und die Arbeit mit der Interoperabilitätsplattform relevant sind. Begriffe, die in der Terminologiedatenbank der Bundesverwaltung TERMDAT definiert sind, sind entsprechend verlinkt. 
 Das Glossar wird bald auch in den Sprachen Französisch, Italienisch und Englisch verfügbar sein. 
 
 ## Abnahmeumgebung
 Die Abnahmeumgebung (auch Abnahmetestumgebung oder User Acceptance Testing (UAT) Umgebung genannt) ermöglicht es, neue Software vor der Freigabe unter realitätsnahen Bedingungen zu testen. Im Fall von I14Y werden hier neue Funktionen vor dem Release getestet.
 
-## [Anwendung (Applikation)](https://www.termdat.bk.admin.ch/search/entry/70368?s=Anwendung&sl=2,6,7,8,3&tl=2,6,7,8,3)
-Softwareprogramm zur Ausführung von bestimmten Bearbeitungsfunktionen, das für einen speziellen Einsatz entwickelt wurde.
-
+## Anwendung
+Softwareprogramm zur Ausführung von bestimmten Bearbeitungsfunktionen, das für einen speziellen Einsatz entwickelt wurde. [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/70368?s=Anwendung&sl=2,6,7,8,3&tl=2,6,7,8,3).
 
 ## Behördenleistungen 
 Behördenleistungen werden mit öffentlichen Mitteln finanziert. Die entsprechenden Dienstleistungen können zugunsten einer Einzelperson, eines Unternehmens oder einer anderen öffentlichen Stelle erbracht werden. Eine Dienstleistung besteht unabhängig davon, ob sie in Anspruch genommen wird oder nicht. 
@@ -45,26 +44,26 @@ DCAT sieht vier Hauptklassen vor: Die Klasse __Katalog__ (`dcat:Catalog`) beschr
 
 Auf I14Y werden auch digitale Behördenleistungen beschrieben. Deshalb wurde DCAT um die Klasse __Public Service__ (`dcat:Publicservice`) erweitert. Für diese Einträge wird das [Core Public Service Vocabulary Application Profile](https://joinup.ec.europa.eu/collection/semic-support-centre/solution/core-public-service-vocabulary-application-profile) der Europäischen Union verwendet. 
 
-## [Data Custodian (Datenhalter)](https://www.termdat.bk.admin.ch/search/entry/502924?s=local%20data%20custodian&sl=2,6,7,8,3&tl=2,6,7,8,3)
-Ein Data Custodian ist verantwortlich für die sichere Haltung und Übermittlung der Daten und stellt diese gemäss den gemeinsam definierten Anforderungen in geeigneter Art und Weise allen legitimierten Nutzern zur Verfügung.
+## Data Custodian (Datenhalter)
+Ein Data Custodian ist verantwortlich für die sichere Haltung und Übermittlung der Daten und stellt diese gemäss den gemeinsam definierten Anforderungen in geeigneter Art und Weise allen legitimierten Nutzern zur Verfügung. [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/502924?s=local%20data%20custodian&sl=2,6,7,8,3&tl=2,6,7,8,3).
 
-## [Data Governance](https://www.termdat.bk.admin.ch/search/entry/387641?s=governance&sl=2,6,7,8,3&tl=2,6,7,8,3)
-Set von Regeln, Entscheidungsbefugnissen und Rechenschaftspflichten für informationsbezogene Prozesse, durch die festgelegt wird, wer mit welchen Informationen, wann und unter welchen Bedingungen unter Verwendung welcher Methoden welche Handlungen ausführen darf bzw. muss.
+## Data Governance
+Set von Regeln, Entscheidungsbefugnissen und Rechenschaftspflichten für informationsbezogene Prozesse, durch die festgelegt wird, wer mit welchen Informationen, wann und unter welchen Bedingungen unter Verwendung welcher Methoden welche Handlungen ausführen darf bzw. muss. [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/387641?s=governance&sl=2,6,7,8,3&tl=2,6,7,8,3).
 
-## [Data Owner (Dateneigner)](https://www.termdat.bk.admin.ch/search/entry/502925?s=Data%20owner&sl=2,6,7,8,3&tl=2,6,7,8,3)
-Der Data Owner ist die Person oder Stelle innerhalb einer Behörde, die für die Bearbeitung von Daten in ihrem Verantwortungsbereich zuständig ist.
+## Data Owner (Dateneigner)
+Der Data Owner ist die Person oder Stelle innerhalb einer Behörde, die für die Bearbeitung von Daten in ihrem Verantwortungsbereich zuständig ist. [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/502925?s=Data%20owner&sl=2,6,7,8,3&tl=2,6,7,8,3)
 
-## [Data Producer (Datenbearbeiter)](https://www.termdat.bk.admin.ch/search/entry/502926?s=Data%20producer&sl=2,6,7,8,3&tl=2,6,7,8,3)
-Person oder System, das vom Data Owner für die Datenverarbeitung verantwortlichen Stelle autorisiert ist, Daten zu erstellen, zu ändern und/oder zu löschen.
+## Data Producer (Datenbearbeiter)
+Person oder System, das vom Data Owner für die Datenverarbeitung verantwortlichen Stelle autorisiert ist, Daten zu erstellen, zu ändern und/oder zu löschen. [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/502926?s=Data%20producer&sl=2,6,7,8,3&tl=2,6,7,8,3)
 
 ## Data Repository
 Ein Repository ist ein Speicherort für strukturierte Daten, Programme oder Metadaten, auf den mehrere Benutzer oder Systeme zugreifen können.
 
-## [Data Steward (Datenverwalterin)](https://www.termdat.bk.admin.ch/search/entry/502921?s=data%20steward&sl=2,6,7,8,3&tl=2,6,7,8,3)
-Im Data Stewardship Model koordinieren und fördern die Data Stewards die Mehrfachnutzung von Daten innerhalb eines Bundesamts.
+## Data Steward (Datenverwalterin)
+Im Data Stewardship Model koordinieren und fördern die Data Stewards die Mehrfachnutzung von Daten innerhalb eines Bundesamts. [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/502921?s=data%20steward&sl=2,6,7,8,3&tl=2,6,7,8,3)
 
-## [Datenanbietende](https://www.termdat.bk.admin.ch/search/entry/503084?s=Datenanbietende&sl=2,6,7,8,3&tl=2,6,7,8,3)
-Datenanbietende, alternativ Datenlieferanten, sind Organisationen, die innerhalb eines oder mehrerer Datenräume Daten zur Nutzung bereitstellen.
+## Datenanbietende
+Datenanbietende, alternativ Datenlieferanten, sind Organisationen, die innerhalb eines oder mehrerer Datenräume Daten zur Nutzung bereitstellen. [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/503084?s=Datenanbietende&sl=2,6,7,8,3&tl=2,6,7,8,3)
 
 ## Datenelement
 Das Datenelement ist die kleinste beschreibende Einheit einer Datensammlung. Oft wird das Datenelement auch als Attribut, (definierte) Variable oder «Spalte» bezeichnet. Das Datenelement enthält die einzelnen Werte, z.B. die AHV-Nummer, die Anzahl leerstehender Wohnungen oder die Messwerte der Wassertemperatur. Jedes Datenelement verweist auf ein Datenelementkonzept.
@@ -74,45 +73,45 @@ Vergleiche Kapitel [Abschnitt zum Datenelement](/handbook/de/gouvernanz/informat
 Das Datenelementkonzept beschreibt die im Datenelement enthaltenen Informationen eindeutig und vollständig. Bei einem Konzept kann es sich um eine Zahl, eine Zeichenkette, ein Datum oder um eine Codeliste mit vordefinierten Werten handeln.
 Zur Beschreibung der Konzepte wird bei der I14Y der Standard ISO 11179-1:2023 verwendet. Eine Schritt-für-Schritt-Anleitung zur Erfassung eines Konzepts ist im Kapitel im Kapitel [Konzepte erfassen](de/publikation/konzepte/) beschrieben. 
 
-## [Datenformat](https://www.termdat.bk.admin.ch/search/entry/502964?s=datenformat&sl=2,6,7,8,3&tl=2,6,7,8,3)
-Definition, wie Daten strukturiert werden und wie sie bei der Verarbeitung zu interpretieren sind.
+## Datenformat
+Definition, wie Daten strukturiert werden und wie sie bei der Verarbeitung zu interpretieren sind. [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/502964?s=datenformat&sl=2,6,7,8,3&tl=2,6,7,8,3)
 
 ## Datenharmonisierung
 Datenharmonisierung ist der Prozess, bei dem Daten aus unterschiedlichen Quellen in eine einheitliche Struktur, Terminologie und Bedeutung überführt werden, so dass sie konsistent, vergleichbar und gemeinsam nutzbar sind. Ziel ist es, semantische und strukturelle Unterschiede zu überwinden, um die Interoperabilität und Qualität der Daten zu verbessern.
 
-## [Datenkatalog](https://www.termdat.bk.admin.ch/search/entry/64371?s=Datenkatalog&sl=2,6,7,8,3&tl=2,6,7,8,3)
-Ein Datenkatalog ist ein Verzeichnis von Datenbeständen. Mit Hilfe von Metadaten ist er ein informatives und durchsuchbares Verzeichnis von Datenbeständen.
+## Datenkatalog
+Ein Datenkatalog ist ein Verzeichnis von Datenbeständen. Mit Hilfe von Metadaten ist er ein informatives und durchsuchbares Verzeichnis von Datenbeständen. [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/64371?s=Datenkatalog&sl=2,6,7,8,3&tl=2,6,7,8,3).
 
 ## Datenlebenszyklus
 Ein Datenkatalog ist ein Verzeichnis von Datenbeständen. Mit Hilfe von Metadaten ist er ein informatives und durchsuchbares Verzeichnis von Datenbeständen.
 
-## [Datenmanagement](https://www.termdat.bk.admin.ch/search/entry/502636?s=Datenmanagement&sl=2,6,7,8,3&tl=2,6,7,8,3)
-Das Datenmanagement beinhaltet die Planung, Standardisierung, Verarbeitung, Speicherung und Bereitstellung von verlässlichen Daten in einem Unternehmen über deren gesamten Lebenszyklus.
+## Datenmanagement
+Das Datenmanagement beinhaltet die Planung, Standardisierung, Verarbeitung, Speicherung und Bereitstellung von verlässlichen Daten in einem Unternehmen über deren gesamten Lebenszyklus. [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/502636?s=Datenmanagement&sl=2,6,7,8,3&tl=2,6,7,8,3).
 
-## [Datenmodell](https://www.termdat.bk.admin.ch/search/entry/502865?s=Datenmodell&sl=2,6,7,8,3&tl=2,6,7,8,3)
-Visuelle Darstellung von applikationsspezifischen Konzepten und ihren Beziehungen als Ausschnitt der Realität, die in einem iterativen Analyseprozess definiert und für die Beschreibung der Struktur einer Datenbank verwendet wird.
+## Datenmodell
+Visuelle Darstellung von applikationsspezifischen Konzepten und ihren Beziehungen als Ausschnitt der Realität, die in einem iterativen Analyseprozess definiert und für die Beschreibung der Struktur einer Datenbank verwendet wird. [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/502865?s=Datenmodell&sl=2,6,7,8,3&tl=2,6,7,8,3).
 
-## [Datennutzende](https://www.termdat.bk.admin.ch/search/entry/293654?s=Datennutzer&sl=2,6,7,8,3&tl=2,6,7,8,3)
-Person oder Organisation, welche angebotene Daten aus einem oder mehreren Datenräumen für eigene Aktivitäten nutzt.
+## Datennutzende
+Person oder Organisation, welche angebotene Daten aus einem oder mehreren Datenräumen für eigene Aktivitäten nutzt. [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/293654?s=Datennutzer&sl=2,6,7,8,3&tl=2,6,7,8,3)
 
 ## Datenobjekt
 Ein Datenobjekt ist eine klar abgegrenzte, logische Einheit von Daten, die digital beschrieben, ausgetauscht oder genutzt werden kann. Auf I14Y werden die Datenobjekte  Datensätze, APIs und Behördenleistungen standardisiert beschrieben, so dass sie auffindbar und mehrfach genutzt werden können.
 
-## [Datensatz](https://www.termdat.bk.admin.ch/search/entry/501320?s=Datensatz&sl=2,6,7,8,3&tl=2,6,7,8,3)
+## Datensatz (Datensammlung)
 Ein Datensatz ist eine strukturierte Sammlung von Daten, die sich auf ein bestimmtes Thema oder eine spezifische Fragestellung beziehen und in einer definierten Form organisiert sind. Auf der Interoperabilitätsplattform I14Y wird ein Datensatz gemäss DCAT-CH beschrieben und enthält mindestens eine Distribution oder kann über eine API bezogen werden.  
-Weitere Informationen zur Struktur eines Datensatzes auf I14Y sind im Abschnitt Informationsmodell zu finden.
+Weitere Informationen zur Struktur eines Datensatzes auf I14Y sind im Abschnitt Informationsmodell zu finden. [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/501320?s=Datensatz&sl=2,6,7,8,3&tl=2,6,7,8,3)
 
-## [Datenschutz](https://www.termdat.bk.admin.ch/search/entry/52411?s=datenschutz&sl=2,6,7,8,3&tl=2,6,7,8,3)
-Rechtliche Massnahmen, die dem Schutz der Persönlichkeit und der Grundrechte von natürlichen Personen dienen, deren Daten durch private Personen oder Bundesorgane bearbeitet werden.
+## Datenschutz
+Rechtliche Massnahmen, die dem Schutz der Persönlichkeit und der Grundrechte von natürlichen Personen dienen, deren Daten durch private Personen oder Bundesorgane bearbeitet werden. [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/52411?s=datenschutz&sl=2,6,7,8,3&tl=2,6,7,8,3)
 
 ## Datenstandard
 Ein Datenstandard ist eine Datenspezifikation, die andere Daten beschreibt oder definiert [ISO111179]. Zwei wichtige Arten von Datenstandards sind Datenmodelle (einschliesslich Kernvokabulare) und Referenzdaten (einschliesslich Konzepte).
 
-## [Datenstruktur](https://www.termdat.bk.admin.ch/search/entry/502986?s=datenstruktur&sl=2,6,7,8,3&tl=2,6,7,8,3)
-Zusammenfassung von Datenelementen, die in einem logischen Zusammenhang stehen und zur Speicherung und Organisation von Daten verwendet werden, deren Anordnung eine effiziente Verwaltung sowie den Zugriff ermöglicht.
+## Datenstruktur
+Zusammenfassung von Datenelementen, die in einem logischen Zusammenhang stehen und zur Speicherung und Organisation von Daten verwendet werden, deren Anordnung eine effiziente Verwaltung sowie den Zugriff ermöglicht. [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/502986?s=datenstruktur&sl=2,6,7,8,3&tl=2,6,7,8,3).
 
-## [Datentyp](https://www.termdat.bk.admin.ch/search/entry/516244?s=Datentyp&sl=2,6,7,8,3&tl=2,6,7,8,3)
-Der Datentyp klassifiziert ein Datenelement. Er gibt an, welche Art von Werten darin enthalten sein dürfen. Mithilfe des Datentyps wird sichergestellt, dass Daten von einem Programm korrekt verarbeitet und interpretiert werden. Beispiele für Datentypen sind: Ganzzahlen (engl. _integer_), Gleitkommazahlen (_floating point_), Boolesche Werte (_boolean_) oder Zeichenketten (_string_). Auf der I14Y definiert das Konzept den Datentyp (vgl. Abschnitt zum [Konzept](/handbook/de/gouvernanz/informationsmodell#konzept)).
+## Datentyp
+Der Datentyp klassifiziert ein Datenelement. Er gibt an, welche Art von Werten darin enthalten sein dürfen. Mithilfe des Datentyps wird sichergestellt, dass Daten von einem Programm korrekt verarbeitet und interpretiert werden. Beispiele für Datentypen sind: Ganzzahlen (engl. _integer_), Gleitkommazahlen (_floating point_), Boolesche Werte (_boolean_) oder Zeichenketten (_string_). Auf der I14Y definiert das Konzept den Datentyp (vgl. Abschnitt zum [Konzept](/handbook/de/gouvernanz/informationsmodell#konzept)). [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/516244?s=Datentyp&sl=2,6,7,8,3&tl=2,6,7,8,3).
 
 ## DCAT-Distribution
 Eine physische Verkörperung bzw. Darstellung des Datensatzes in einem spezifischen Format. Eine Distribution (↔ «Ressource») ist eine spezifische Repräsentation des Datensatzes (Link zu realen Daten).
