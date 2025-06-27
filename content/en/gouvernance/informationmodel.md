@@ -285,4 +285,4 @@ E-government services can also be described on the I14Y interoperability platfor
 The _Core Public Service Vocabulary_ defined by the European Union is used to describe public services. The structure and the entire vocabulary are available on the European Commission's Interoperability Platform 
 [Join up](https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/core-public-service-vocabulary/releases). The reusable and expandable vocabulary specifies certain fields that must be filled in. Each government service can be assigned to a channel -- an internet address, for example, or a telephone number.
 
-On I14Y, the chapter [publication](/handbook/de/publikation/katalog/3_publicservice/) describes in detail how a government service is documented.
+On I14Y, the chapter [publication](/handbook/de/publikation/katalog/publicservice/) describes in detail how a government service is documented.
