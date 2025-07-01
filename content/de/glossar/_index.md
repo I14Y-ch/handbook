@@ -83,7 +83,7 @@ Datenharmonisierung ist der Prozess, bei dem Daten aus unterschiedlichen Quellen
 Ein Datenkatalog ist ein Verzeichnis von Datenbeständen. Mit Hilfe von Metadaten ist er ein informatives und durchsuchbares Verzeichnis von Datenbeständen. [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/64371?s=Datenkatalog&sl=2,6,7,8,3&tl=2,6,7,8,3).
 
 ## Datenlebenszyklus
-Ein Datenkatalog ist ein Verzeichnis von Datenbeständen. Mit Hilfe von Metadaten ist er ein informatives und durchsuchbares Verzeichnis von Datenbeständen.
+Der Datenlebenszyklus beschreibt die verschiedenen Phasen, die Daten von ihrer Entstehung bis zu ihrer Löschung durchlaufen. Typische Phasen sind: Erhebung, Speicherung, Nutzung, Weitergabe, Archivierung und Löschung. Jede Phase erfordert spezifische technische, organisatorische und rechtliche Massnahmen – insbesondere im Hinblick auf Datenschutz, Qualität und Sicherheit.
 
 ## Datenmanagement
 Das Datenmanagement beinhaltet die Planung, Standardisierung, Verarbeitung, Speicherung und Bereitstellung von verlässlichen Daten in einem Unternehmen über deren gesamten Lebenszyklus. [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/502636?s=Datenmanagement&sl=2,6,7,8,3&tl=2,6,7,8,3).
@@ -197,8 +197,11 @@ Daten, die nur bestimmte Werte annehmen können und in einer Organisation in Pro
 ## Referenz-Metadaten
 Gemäss Eurostat beschreiben Referenz-Metadaten (manchmal auch erklärende Metadaten genannt) den Inhalt und die Qualität der statistischen Daten aus semantischer Sicht. Sie enthalten erläuternde Texte zum Kontext der statistischen Daten, zur Methodik der Datenerhebung und -aggregation sowie zu Qualitäts- und Diffusionsmerkmalen.
 
+## Resource Description Framework (RDF)
+RDF ist die Basissprache des semantischen Webs und ermöglicht die Darstellung von Metadaten in Form von Tripeln (Subjekt-Prädikat-Objekt). 
+
 ## SDMX 
-Der _Statistical Data and Metadata EXchange (SDMX)_ ist eine Initiative zur Standardisierung des Datenaustauschs zwischen internationalen Organisationen und ihren Mitgliedsländern. Massgeblich entwickelt wurde er von der Weltbank und der Europäischen Union. _SDMX_ definiert sowohl einheitliche Datenformate als auch Metadatenstandards und Methoden zur Datenübertragung. Weitere Informationen: [sdmx.org](https://sdmx.org). Auf der I14Y können  Codelisten im SDMX-Format eingelesen werden (siehe [Erfassen von Konzepten](/handbook/de/publikation/konzepte/)). 
+Der _Statistical Data and Metadata EXchange (SDMX)_ ist eine Initiative zur Standardisierung des Datenaustauschs zwischen internationalen Organisationen und ihren Mitgliedsländern. Massgeblich entwickelt wurde er von der Weltbank und der Europäischen Union. _SDMX_ definiert sowohl einheitliche Datenformate als auch Metadatenstandards und Methoden zur Datenübertragung. Weitere Informationen: [sdmx.org](https://sdmx.org). Auf der I14Y können Codelisten im SDMX-Format eingelesen werden (siehe [Erfassen von Konzepten](/handbook/de/publikation/konzepte/)). 
 
 ## SPARQL
 Standardabfragesprache zum Abrufen und zur Bearbeitung von Daten, die im RDF-Format dargestellt werden. [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/503123?s=SPARQL&sl=2,6,7,8,3&tl=2,6,7,8,3).
