@@ -11,6 +11,14 @@ __DE:__ Diese Seite liegt teilweise in englischer Sprache vor.
 
 The I14Y interoperability platform is under continuous development. New features are added with each release. Bugs are also fixed. The most important changes are briefly documented below. For detailed information on the development of the platform, please contact the [I14Y team](mailto:i14y@bfs.admin.ch). 
 
+## Release vom 2. Juli 2025
+- I14Y benutzt für die grafische Oberfläche [Oblique](https://oblique.bit.admin.ch/), eine Sammlung von standardisierten grafischen Komponenten der Bundesverwaltung. Mit diesem Release wird auf Oblique 13 umgestellt. Dadurch wird die I14Y-Website grafisch leicht modernisiert. 
+- Mit den letzten Releases hat I14Y eine neue Technologie zur Beschreibung von Datenstrukturen eingeführt (siehe Struktur Beta). Neu lassen sich die hochgeladenen Strukturen im internen Bereich der Plattform grafisch darstellen. 
+- Publizierte Codelisten lassen sich nun auf der öffentlichen Website durchsuchen.
+- Dank neuen Endpunkten können Beschreibungen von APIs automatisiert bezogen und geschrieben werden. 
+- Das Feld E-Mail-Adresse der Kontaktstelle muss nun zwingend ausgefüllt werden. Dies entspricht der Anforderung der nächsten Version des Standards DCAT-AP CH ([Version 3](https://www.dcat-ap.ch/releases/3.0_workingdraft/dcat-ap-ch_3.0_workingdraft.html)). Bestehende Einträge auf I14Y können nicht erneut abgespeichert werden, solange das E-Mail-Feld nicht ausgefüllt ist. 
+- Fehlerkorrekturen
+
 ## Release vom 28. Mai 2025
 - Ein neuer Download-Button ermöglicht es, Beschreibungen von Datensätzen aus dem internen Bereich im JSON-Format herunterzuladen. Dies vereinfacht den Export von Metadaten. 
 - Beschreibungen von Datensätzen können neu aus einer Datei importiert werden. Der Import steht zur Auswahl, wenn man auf den "Import"-Knopf klickt. 
