@@ -11,6 +11,12 @@ __DE:__ Diese Seite liegt teilweise in englischer Sprache vor.
 
 The I14Y interoperability platform is under continuous development. New features are added with each release. Bugs are also fixed. The most important changes are briefly documented below. For detailed information on the development of the platform, please contact the [I14Y team](mailto:i14y@bfs.admin.ch). 
 
+## Release vom 23. Juli 2025
+- Welche Organisationen nutzen die Interoperabilitätsplattform I14Y? Eine neue Seite listet alle Organisationen auf, die auf I14Y Metadaten publizieren. Zudem wird für jede Organisation die Anzahl veröffentlichter Beschreibungen von Datensätzen, APIs und Behördenleistungen sowie die Anzahl publizierter Konzepte eingeblendet. 
+- Seit dem Frühsommer können auf I14Y kompliziertere Datenstrukturen dokumentiert werden. Bislang waren diese Informationen ausschliesslich im internen Bereich sichtbar. Mit dem aktuellen Release wird eine grafische Darstellung erfasster Datenstrukturen auf der öffentlichen Website eingeführt.
+- Behördenleistungen können nun einzeln über die elektronische Schnittstelle (API) bezogen werden. Ein weiterer Endpunkt erlaubt es I14Y-Partnerorganisationen zudem Behördenleistungen voll- oder halbautomatisiert auf I14Y zu veröffentlichen. 
+- Fehlerkorrekturen
+
 ## Release vom 2. Juli 2025
 - I14Y benutzt für die grafische Oberfläche [Oblique](https://oblique.bit.admin.ch/), eine Sammlung von standardisierten grafischen Komponenten der Bundesverwaltung. Mit diesem Release wird auf Oblique 13 umgestellt. Dadurch wird die I14Y-Website grafisch leicht modernisiert. 
 - Mit den letzten Releases hat I14Y eine neue Technologie zur Beschreibung von Datenstrukturen eingeführt (siehe Struktur Beta). Neu lassen sich die hochgeladenen Strukturen im internen Bereich der Plattform grafisch darstellen. 
