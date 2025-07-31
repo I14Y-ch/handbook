@@ -42,7 +42,7 @@ Die I14Y wird bei einem Kurzreferat an der Weiterbildung [Data Management und Op
 Kurzinputs zu I14Y im Rahmen von Workshops am [Swiss Data Space Forum](https://forum.swissdataalliance.ch) auf dem Campus HSLU Rotkreuz.
 
 ### 21. Oktober 2025: Ausbildungstag für Local Data Stewards
-Welche Möglichkeiten bietet I14Y zur Inventarisierung und Harmonisierung von Daten? Lernen Sie die Plattform am Ausbildungstag für Local Data Stewards in Neuenburg genau kennen. Weitere Informationen folgen. Anmeldung unter [mailto:i14y@bfs.admin.ch].   
+Welche Möglichkeiten bietet I14Y zur Inventarisierung und Harmonisierung von Daten? Lernen Sie die Plattform am Ausbildungstag für Local Data Stewards in Neuchâtel genau kennen. Weitere Informationen folgen. Anmeldung unter [i14y@bfs.admin.ch](mailto:i14y@bfs.admin.ch).   
 
 ### 5. bis 7. November 2025: Schweizer Statistiktage
 Die Schweizer Statistiktage finden vom 5. bis 7. November 2025 in Genf statt.
