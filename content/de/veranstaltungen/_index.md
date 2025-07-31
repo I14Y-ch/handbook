@@ -50,7 +50,7 @@ Die Schweizer Statistiktage finden vom 5. bis 7. November 2025 in Genf statt.
 ### 18. November 2025: Dinacon
 Viele praktische Tipps in nur 20 Minuten: Besuchen Sie das Kurzreferat von I14Y an der diesjährigen [Dinacon](https://dinacon.ch) in Bern. 
 
-### 4. Dezember: Swiss CommUNITY Day on data
+### 4. Dezember: Swiss CommUNITY Day on Data
 Am 4. Dezember 2025 trifft sich die Schweizer Daten-Community im Forum Fribourg zum [Swiss CommUNITY Day on Data](https://swissdatacommunity.ch/alle-events/swisscommunity-day-on-data-2025/) zu einem Tag des Austauschs, der Entdeckungen und der Innovationen. Bei dieser dritten Ausgabe wird das Thema Plattformen im Bezug zur Datenbewirtschaftung im Mittelpunkt stehen.
 
 ## Vergangene Veranstaltungen
