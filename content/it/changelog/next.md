@@ -5,7 +5,7 @@ slug: next-release
 weight: 10
 type: docs
 keywords: [I14Y, Interoperability Platform I14Y, IOP, Changelog, Releases, Versions, Software Development]
-draft: false
+draft: true
 ---
 
 {{<alert title="Language" color="warning">}}
