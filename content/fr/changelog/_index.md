@@ -13,6 +13,13 @@ __FR:__ Ce site est en anglais. Seules les descriptions des grandes releases son
 
 The I14Y interoperability platform is under continuous development. New features are added with each release. Bugs are also fixed. The most important changes are briefly documented below. For detailed information on the development of the platform, please contact the [I14Y team](mailto:i14y@bfs.admin.ch). 
 
+## Release July 30 2025
+- Specifying an identifier for datasets is now optional. If no identifier is entered, one is generated automatically, regardless of whether the metadata is entered via the user interface or the electronic interface.
+- The display and functionality of the organisation page have been improved.
+- Bug fix: In the last version, public services whose channel contained an ownedBy field triggered an error message. This issue has been resolved.
+- Bug fix: Public services with an assigned channel could not be edited in the last version. This bug has been fixed.
+- Bug fix: An error occurred when searching within code list entries in the last version. The search function has been corrected and now works as expected.
+
 ## Release July 23 2025
 - Which organisations use the I14Y interoperability platform? A new page lists all organisations that publish metadata on I14Y. It also shows the number of descriptions of datasets, APIs and public services published by each organisation, as well as the number of concepts published.
 - Since early summer, more complex data structures can be documented on I14Y. Previously, this information was only visible in the internal area. The latest release introduces a graphical representation of recorded data structures on the public website.
