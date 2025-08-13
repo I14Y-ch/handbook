@@ -67,29 +67,28 @@ Datenanbietende, alternativ Datenlieferanten, sind Organisationen, die innerhalb
 
 ## Datenelement
 Das Datenelement ist die kleinste beschreibende Einheit einer Datensammlung. Oft wird das Datenelement auch als Attribut, (definierte) Variable oder «Spalte» bezeichnet. Das Datenelement enthält die einzelnen Werte, z.B. die AHV-Nummer, die Anzahl leerstehender Wohnungen oder die Messwerte der Wassertemperatur. Jedes Datenelement verweist auf ein Datenelementkonzept.
-Vergleiche Kapitel [Abschnitt zum Datenelement](/handbook/de/gouvernanz/informationsmodell#datenelement) im Kapitel Rollen und Prozesse. 
 
 ## Datenelementkonzept (Konzept)
 Das Datenelementkonzept beschreibt die im Datenelement enthaltenen Informationen eindeutig und vollständig. Bei einem Konzept kann es sich um eine Zahl, eine Zeichenkette, ein Datum oder um eine Codeliste mit vordefinierten Werten handeln.
 Zur Beschreibung der Konzepte wird bei der I14Y der Standard ISO 11179-1:2023 verwendet. Eine Schritt-für-Schritt-Anleitung zur Erfassung eines Konzepts ist im Kapitel im Kapitel [Konzepte erfassen](de/publikation/konzepte/) beschrieben. 
 
 ## Datenformat
-Definition, wie Daten strukturiert werden und wie sie bei der Verarbeitung zu interpretieren sind. [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/502964?s=datenformat&sl=2,6,7,8,3&tl=2,6,7,8,3)
+Definition, wie Daten strukturiert werden und wie sie bei der Verarbeitung zu interpretieren sind. [Zur Definition auf TERMDAT](https://register.ld.admin.ch/termdat/502964)
 
 ## Datenharmonisierung
 Datenharmonisierung ist der Prozess, bei dem Daten aus unterschiedlichen Quellen in eine einheitliche Struktur, Terminologie und Bedeutung überführt werden, so dass sie konsistent, vergleichbar und gemeinsam nutzbar sind. Ziel ist es, semantische und strukturelle Unterschiede zu überwinden, um die Interoperabilität und Qualität der Daten zu verbessern.
 
 ## Datenkatalog
-Ein Datenkatalog ist ein Verzeichnis von Datenbeständen. Mit Hilfe von Metadaten ist er ein informatives und durchsuchbares Verzeichnis von Datenbeständen. [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/64371?s=Datenkatalog&sl=2,6,7,8,3&tl=2,6,7,8,3).
+Ein Datenkatalog ist ein Verzeichnis von Datenbeständen. Mit Hilfe von Metadaten ist er ein informatives und durchsuchbares Verzeichnis von Datenbeständen. [Zur Definition auf TERMDAT](https://register.ld.admin.ch/termdat/64371).
 
 ## Datenlebenszyklus
 Der Datenlebenszyklus beschreibt die verschiedenen Phasen, die Daten von ihrer Entstehung bis zu ihrer Löschung durchlaufen. Typische Phasen sind: Erhebung, Speicherung, Nutzung, Weitergabe, Archivierung und Löschung. Jede Phase erfordert spezifische technische, organisatorische und rechtliche Massnahmen – insbesondere im Hinblick auf Datenschutz, Qualität und Sicherheit.
 
 ## Datenmanagement
-Das Datenmanagement beinhaltet die Planung, Standardisierung, Verarbeitung, Speicherung und Bereitstellung von verlässlichen Daten in einem Unternehmen über deren gesamten Lebenszyklus. [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/502636?s=Datenmanagement&sl=2,6,7,8,3&tl=2,6,7,8,3).
+Das Datenmanagement beinhaltet die Planung, Standardisierung, Verarbeitung, Speicherung und Bereitstellung von verlässlichen Daten in einem Unternehmen über deren gesamten Lebenszyklus. [Zur Definition auf TERMDAT](https://register.ld.admin.ch/termdat/502636).
 
 ## Datenmodell
-Visuelle Darstellung von applikationsspezifischen Konzepten und ihren Beziehungen als Ausschnitt der Realität, die in einem iterativen Analyseprozess definiert und für die Beschreibung der Struktur einer Datenbank verwendet wird. [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/502865?s=Datenmodell&sl=2,6,7,8,3&tl=2,6,7,8,3).
+Visuelle Darstellung von applikationsspezifischen Konzepten und ihren Beziehungen als Ausschnitt der Realität, die in einem iterativen Analyseprozess definiert und für die Beschreibung der Struktur einer Datenbank verwendet wird. [Zur Definition auf TERMDAT](https://register.ld.admin.ch/termdat/502865).
 
 ## Datennutzende
 Person oder Organisation, welche angebotene Daten aus einem oder mehreren Datenräumen für eigene Aktivitäten nutzt. [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/293654?s=Datennutzer&sl=2,6,7,8,3&tl=2,6,7,8,3)
@@ -98,17 +97,16 @@ Person oder Organisation, welche angebotene Daten aus einem oder mehreren Datenr
 Ein Datenobjekt ist eine klar abgegrenzte, logische Einheit von Daten, die digital beschrieben, ausgetauscht oder genutzt werden kann. Auf I14Y werden die Datenobjekte  Datensätze, APIs und Behördenleistungen standardisiert beschrieben, so dass sie auffindbar und mehrfach genutzt werden können.
 
 ## Datensatz (Datensammlung)
-Ein Datensatz ist eine strukturierte Sammlung von Daten, die sich auf ein bestimmtes Thema oder eine spezifische Fragestellung beziehen und in einer definierten Form organisiert sind. Auf der Interoperabilitätsplattform I14Y wird ein Datensatz gemäss DCAT-CH beschrieben und enthält mindestens eine Distribution oder kann über eine API bezogen werden.  
-Weitere Informationen zur Struktur eines Datensatzes auf I14Y sind im Abschnitt Informationsmodell zu finden. [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/501320?s=Datensatz&sl=2,6,7,8,3&tl=2,6,7,8,3)
+Ein Datensatz ist eine strukturierte Sammlung von Daten, die sich auf ein bestimmtes Thema oder eine spezifische Fragestellung beziehen und in einer definierten Form organisiert sind. Auf der Interoperabilitätsplattform I14Y wird ein Datensatz gemäss DCAT-CH beschrieben und enthält mindestens eine Distribution oder kann über eine API bezogen werden. Weitere Informationen zur Struktur eines Datensatzes auf I14Y sind im [Abschnitt Informationsmodell](https://i14y-ch.github.io/handbook/de/gouvernanz/informationsmodell/) zu finden. [Zur Definition auf TERMDAT](https://register.ld.admin.ch/termdat/501320).
 
 ## Datenschutz
-Rechtliche Massnahmen, die dem Schutz der Persönlichkeit und der Grundrechte von natürlichen Personen dienen, deren Daten durch private Personen oder Bundesorgane bearbeitet werden. [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/52411?s=datenschutz&sl=2,6,7,8,3&tl=2,6,7,8,3)
+Rechtliche Massnahmen, die dem Schutz der Persönlichkeit und der Grundrechte von natürlichen Personen dienen, deren Daten durch private Personen oder Bundesorgane bearbeitet werden. [Zur Definition auf TERMDAT](https://register.ld.admin.ch/termdat/52411)
 
 ## Datenstandard
 Ein Datenstandard ist eine Datenspezifikation, die andere Daten beschreibt oder definiert [ISO111179]. Zwei wichtige Arten von Datenstandards sind Datenmodelle (einschliesslich Kernvokabulare) und Referenzdaten (einschliesslich Konzepte).
 
 ## Datenstruktur
-Zusammenfassung von Datenelementen, die in einem logischen Zusammenhang stehen und zur Speicherung und Organisation von Daten verwendet werden, deren Anordnung eine effiziente Verwaltung sowie den Zugriff ermöglicht. [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/502986?s=datenstruktur&sl=2,6,7,8,3&tl=2,6,7,8,3).
+Zusammenfassung von Datenelementen, die in einem logischen Zusammenhang stehen und zur Speicherung und Organisation von Daten verwendet werden, deren Anordnung eine effiziente Verwaltung sowie den Zugriff ermöglicht. [Zur Definition auf TERMDAT](https://register.ld.admin.ch/termdat/502986).
 
 ## Datentyp
 Der Datentyp klassifiziert ein Datenelement. Er gibt an, welche Art von Werten darin enthalten sein dürfen. Mithilfe des Datentyps wird sichergestellt, dass Daten von einem Programm korrekt verarbeitet und interpretiert werden. Beispiele für Datentypen sind: Ganzzahlen (engl. _integer_), Gleitkommazahlen (_floating point_), Boolesche Werte (_boolean_) oder Zeichenketten (_string_). Auf der I14Y definiert das Konzept den Datentyp (vgl. Abschnitt zum [Konzept](/handbook/de/gouvernanz/informationsmodell#konzept)). [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/516244?s=Datentyp&sl=2,6,7,8,3&tl=2,6,7,8,3).
@@ -123,7 +121,7 @@ Eine Distribution ist die Bereitstellung von Daten für definierte Zielgruppen, 
 Der gemeinnützige Verein eCH fördert, entwickelt und verabschiedet Standards im Bereich E-Government. In den zahlreichen Arbeitsgruppen von eCH arbeiten sowohl Vertreterinnen und Vertreter des Bundes und der Kantone als auch der der Privatwirtschaft und der Wissenschaft mit. eCH ist das wichtigste Normierungsgremium im Bereich eGovernment in der Schweiz. Weitere Informationen wie auch die Dokumente zu den verabschiedeten Standards sind auf der Website [ech.ch](https://ech.ch) zu finden. 
 
 ## Elektronische Schnittstelle (API)
-Eine elektronische Schnittstelle ermöglicht es verschiedenen Systemen und Anwendungen miteinander zu kommunizieren. Und das selbst dann, wenn die Systeme nicht direkt miteinander verhängt sind. Über elektronische Schnittstellen können etwa Informationen aus einem Datensammlung abgefragt werden, ohne dass die gesamte Datensammlung heruntergeladen werden muss. In der Fachsprache werden elektronische Schnittstellen oft als _Application Programming Interface (API)_ bezeichnet, also als elektronische Schnittstellen für Anwendungen. Sie werden in der modernen Software-Entwicklung sehr oft eingesetzt, um einzelne Teilsysteme zu verbinden oder um Daten von einem anderen System zu beziehen. [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/500882?s=API&sl=2,6,7,8,3&tl=2,6,7,8,3)
+Eine elektronische Schnittstelle ermöglicht es verschiedenen Systemen und Anwendungen miteinander zu kommunizieren. Und das selbst dann, wenn die Systeme nicht direkt miteinander verhängt sind. Über elektronische Schnittstellen können etwa Informationen aus einem Datensammlung abgefragt werden, ohne dass die gesamte Datensammlung heruntergeladen werden muss. In der Fachsprache werden elektronische Schnittstellen oft als _Application Programming Interface (API)_ bezeichnet, also als elektronische Schnittstellen für Anwendungen. Sie werden in der modernen Software-Entwicklung sehr oft eingesetzt, um einzelne Teilsysteme zu verbinden oder um Daten von einem anderen System zu beziehen. [Zur Definition auf TERMDAT](https://register.ld.admin.ch/termdat/500882)
 
 ## Enterprise Identity Management (EIAM) 
 Systeme zum _Enterprise Identity Management (EIAM)_ werden verwendet, um Identitäten und Zugriffsrechte innerhalb eines Unternehmens oder einer Organisation zu verwalten und zu schützen. Sie stellen also sicher, dass einzig die vorgesehenen Personen eine bestimmte Internet-Plattform oder Anwendung nutzen können. Dabei regeln sie auch, wer Lese-, Schreib- und wer Administrationsrechte hat. Die I14Y nutzt das EIAM-System der Bundesverwaltung. Weitere Informationen sind unter [Kontenverwaltung](/handbook/de/plattform/kontenverwaltung) zusammengestellt.
@@ -135,7 +133,7 @@ Systeme zum _Enterprise Identity Management (EIAM)_ werden verwendet, um Identit
 Die FAIR- Prinzipien postulieren, dass Daten einfach auffindbar _(**F**indable)_, zugänglich _(**A**ccessible)_, interoperabel _(**I**nteroperable)_ und mehrfachverwendbar _(**R**eusable)_ sein sollen. Die Daten sollen sowohl von Menschen als auch von Computersystemen einfach auffindbar sein. Sie sollen über ein offenes, freies und universell implementierbares Standard-Kommunikationsprotokoll zugänglich sein. Dank einer eindeutigen Lizenz ist ersichtlich, wie die Daten genutzt werden dürfen. Die Interoperabilität ist sowohl semantisch als auch syntaktisch gewährleistet. Sie setzt die Verwendung präziser kontextbezogener Metadaten voraus, hält sich in Bezug auf Inhalt und Format an die grossen internationalen Standards und verwendet möglichst standardisierte Vokabulare. Die freie, bedingte oder kostenpflichtige Mehrfachverwendung der Daten wird durch gemeinsame Standards vereinfacht. Grundlegende Informationen zu den FAIR-Prinzipien sind in diesem [Nature-Artikel](https://www.nature.com/articles/sdata201618) zu finden. 
 
 ## Geobasisdaten
-Geobasisdaten sind Geodaten, die auf einem Recht setzenden Erlass des Bundes, eines Kantons oder einer Gemeinde beruhen: z.B. die Amtliche Vermessung, der Bauzonenplan oder das Hochmoor-Inventar. [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/71443?s=Geobasisdaten&sl=2,6,7,8,3&tl=2,6,7,8,3).
+Geobasisdaten sind Geodaten, die auf einem Recht setzenden Erlass des Bundes, eines Kantons oder einer Gemeinde beruhen: z.B. die Amtliche Vermessung, der Bauzonenplan oder das Hochmoor-Inventar. [Zur Definition auf TERMDAT](https://register.ld.admin.ch/termdat/71443).
 
 ## Geocat 
 [Geocat](https://geocat.ch) ist ein Katalog für Metadaten für Geoinformationen in der Schweiz und im Fürstentum Liechtenstein. Darin erfassen Bundesämter, Kantone, Gemeinden, Forschungsinstitute und Unternehmen Informationen zu ihren Geodaten, also von Datensätzen mit starkem geografischem Bezug, von Karten wie auch Luftbildern. Betrieben wird der Dienst vom Bundesamt für Landestopografie swisstopo. Weitere Informationen sind im Abschnitt zu den [verschiedenen Plattformen](/handbook/de/gouvernanz/plattformen) zu finden.
