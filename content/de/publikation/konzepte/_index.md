@@ -6,7 +6,7 @@ type: docs
 keywords: [I14Y, I14Y, Interoperabilitätsplattform I14Y, Konzepte, Codeliste, Codelisten, Datenelemente, Mehrfachnutzung, Publikation, publizieren, veröffentlichen]
 ---
 
-Das Konzept beschreibt die im Datenelement enthaltenen Informationen eindeutig und vollständig. Bei einem Konzept kann es sich um eine Zahl, eine Zeichenkette, ein Datum oder um eine Codeliste mit vordefinierten Werten handeln. Mehr Information dazu finden sie hier [Informationsmodell](https://i14y-ch.github.io/handbook/de/gouvernanz/informationsmodell/). 
+Das Konzept beschreibt die im Datenelement enthaltenen Informationen eindeutig und vollständig. Bei einem Konzept kann es sich um eine Zahl, eine Zeichenkette, ein Datum oder um eine Codeliste mit vordefinierten Werten handeln. Mehr Information dazu finden sie im [Kapitel Informationsmodell](https://i14y-ch.github.io/handbook/de/gouvernanz/informationsmodell/). 
 
 Auf der Interoperabilitätsplattform I14Y lassen sich Konzepte verwalten und publizieren. Die veröffentlichten Konzepte können von anderen Organisationen wiederverwendet werden. Dies ist eine zentrale Funktion der Plattform. Denn damit werden die Daten allmählich semantisch harmonisiert. So wird die Voraussetzung geschaffen, dass sich Daten -- sofern erlaubt und gewünscht -- zwischen den einzelnen Behörden einfacher austauschen lassen. 
 
