@@ -16,6 +16,15 @@ Vous souhaitez être informés des nouvelles fonctions et des offres de la plate
 ## Nouvel accès M2M : synchronisation automatisée des métadonnées avec I14Y
 *12.05.2025*
 
+Et si vous pouviez trouver une aiguille dans une botte de foin… en un clin d’œil ?
+Ou, pour transposer cela à notre contexte: une information bien précise dans une nomenclature aussi dense que la CHOP ou la NOGA. Imaginez une recherche intelligente, rapide, précise et contextuelle qui vous mène directement au code ou à la description que vous recherchez. C’est exactement ce que nous avons développé: Une fonctionnalité de recherche ultra-performante, destinée aux experts, aux analystes et à tous ceux qui travaillent avec des classifications et des nomenclatures.
+
+Découvrez-la par vous-même dans la courte vidéo 👇
+{{< video src="/handbook/img/news/strukturelle-suche.mp4" width="250" >}}[<img src="/static/img/news/strukturelle-suche.png">](/static/img/news/strukturelle-suche.mp4)
+
+## Nouvel accès M2M : synchronisation automatisée des métadonnées avec I14Y
+*12.05.2025*
+
 Jusqu’à présent, il fallait procéder manuellement pour saisir les métadonnées des jeux de données sur la plateforme I14Y, un processus fastidieux mobilisant des ressources et sujet aux erreurs. Désormais, les organisations peuvent importer et gérer les métadonnées de leurs jeux de données de manière entièrement automatisée. C’est une étape importante pour la plateforme I14Y et un grand pas vers une administration plus efficiente. Cette nouveauté ravira également les organisations qui gèrent déjà leurs catalogues de données et qui souhaitent les relier à la plateforme I14Y. La communication de machine à machine (M2M) requiert un jeton d’accès spécial. Celui-ci permet de saisir et de publier les métadonnées sur la plateforme I14Y via l’API, sans qu’il faille intervenir manuellement. Une possibilité qui s’avère également utile et très intéressante pour les organisations qui éditent et mettent régulièrement à jour des métadonnées sur la plateforme I14Y.
 Il suffit de suivre les instructions de la fiche technique (référentiel du modèle), un exemple d’utilisation, pour réaliser facilement la connexion automatisée à la plateforme. Ces instructions permettent non seulement permettent non seulement d’importer des jeux de données, mais aussi d’en assurer la mise à jour à intervalles réguliers (chaque nuit, par exemple). Les informations saisies sont ainsi toujours à jour, sans qu’aucune intervention manuelle soit nécessaire. Il en résulte une charge de travail fortement réduite et une meilleure qualité des données.
  
