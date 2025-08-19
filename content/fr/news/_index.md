@@ -21,7 +21,7 @@ Ou, pour transposer cela à notre contexte: une information bien précise dans u
 
 Découvrez-la par vous-même dans la courte vidéo 👇
 
-{{< video src="/handbook/img/news/strukturelle-suche.mp4" width="250" >}}[<img src="/static/img/news/strukturelle-suche.png">](/static/img/news/strukturelle-suche.mp4)
+{{< video src="/handbook/img/news/strukturelle-suche.mp4" width="800" >}}[<img src="/static/img/news/strukturelle-suche.png">](/static/img/news/strukturelle-suche.mp4)
 
 ## Nouvel accès M2M : synchronisation automatisée des métadonnées avec I14Y
 *12.05.2025*
