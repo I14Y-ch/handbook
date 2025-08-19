@@ -18,7 +18,7 @@ Möchten Sie über neue Funktionen und Angebote auf der Interoperabilitätsplatt
 Was wäre, wenn Sie die Nadel im Heuhaufen im Handumdrehen finden könnten? Oder auf unseren Kontext übertragen: eine ganz bestimmte Information in einer umfangreichen Nomenklatur wie der CHOP oder der NOGA? Stellen Sie sich dazu eine intelligente, schnelle, präzise und kontextbezogene Suche vor, die Sie direkt zum gesuchten Code oder zur gesuchten Beschreibung führt. Genau das haben wir entwickelt: Eine leistungsstarke Suchfunktion, für Fachleute, Analysten und alle, die mit Klassifikationen und Nomenklaturen arbeiten. 
 Überzeugen Sie sich selbst in im kurzen Video 👇
 
-{{< video src="/handbook/img/news/strukturelle-suche.mp4" width="800" >}}
+{{< video src="/handbook/img/news/strukturelle-suche.mp4" width="250" >}}[<img src="/static/img/news/strukturelle-suche.png">](/static/img/news/strukturelle-suche.mp4)
 
 ## Neuer M2M-Zugang: Metadaten automatisiert mit I14Y synchronisieren
 *12.05.2025*
