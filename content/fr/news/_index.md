@@ -13,8 +13,8 @@ Vous souhaitez être informés des nouvelles fonctions et des offres de la plate
 
 {{</alert>}}
 
-## Nouvel accès M2M : synchronisation automatisée des métadonnées avec I14Y
-*12.05.2025*
+## Trouver rapidement le bon code dans des nomenclatures complexes
+*18.07.2025*
 
 Et si vous pouviez trouver une aiguille dans une botte de foin… en un clin d’œil ?
 Ou, pour transposer cela à notre contexte: une information bien précise dans une nomenclature aussi dense que la CHOP ou la NOGA. Imaginez une recherche intelligente, rapide, précise et contextuelle qui vous mène directement au code ou à la description que vous recherchez. C’est exactement ce que nous avons développé: Une fonctionnalité de recherche ultra-performante, destinée aux experts, aux analystes et à tous ceux qui travaillent avec des classifications et des nomenclatures.
