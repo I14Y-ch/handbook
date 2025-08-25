@@ -61,5 +61,5 @@ Am 4. Dezember 2025 trifft sich die Schweizer Daten-Community im Forum Fribourg 
 - 24. September 2024: Informelles Treffen der Local Data Stewards
 - 04. September 2024: Atelier an den Schweizer Statistiktagen
 - 22. August 2024: Modul an der Weiterbildung Data Management und Open Data an der Berner Fachhochschule
-- 18. Januar 2024: Modul an der Weiterbildung Data Management und Open Data an der Berner Fachhochschule
-- 21. August 2025: Weiterbildung Data Management und Open Government Data der Berner Fachhochschule
+- 18. Januar 2024: Präsentation I14Y an der Weiterbildung Data Management und Open Data an der Berner Fachhochschule
+- 21. August 2025: Präsentation I14Y an der Weiterbildung Data Management und Open Government Data der Berner Fachhochschule
