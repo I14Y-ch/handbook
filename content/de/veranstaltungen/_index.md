@@ -35,9 +35,6 @@ timeline
 
 ## Kommende Veranstaltungen
 
-### 21. August 2025: Weiterbildung
-Die I14Y wird bei einem Kurzreferat an der Weiterbildung [Data Management und Open Government Data](https://www.bfh.ch/de/aktuell/fachveranstaltungen/weiterbildung-data-management-open-government-data/) der Berner Fachhochschule vorgestellt.
-
 ### 2. September 2025: Swiss Data Space Forum
 Kurzinputs zu I14Y im Rahmen von Workshops am [Swiss Data Space Forum](https://forum.swissdataalliance.ch) auf dem Campus HSLU Rotkreuz.
 
@@ -65,3 +62,4 @@ Am 4. Dezember 2025 trifft sich die Schweizer Daten-Community im Forum Fribourg 
 - 04. September 2024: Atelier an den Schweizer Statistiktagen
 - 22. August 2024: Modul an der Weiterbildung Data Management und Open Data an der Berner Fachhochschule
 - 18. Januar 2024: Modul an der Weiterbildung Data Management und Open Data an der Berner Fachhochschule
+- 21. August 2025: Weiterbildung Data Management und Open Government Data der Berner Fachhochschule
