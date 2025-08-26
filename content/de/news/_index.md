@@ -12,7 +12,7 @@ Möchten Sie über neue Funktionen und Angebote auf der Interoperabilitätsplatt
 
 {{</alert>}}
 
-## Automatisches Harvesting auf I14Y – eine Dienstleistung für unsere Partner
+## Schnell zum richtigen Code in komplexen Nomenklaturen
 *18.07.2025*
 
 Was wäre, wenn Sie die Nadel im Heuhaufen im Handumdrehen finden könnten? Oder auf unseren Kontext übertragen: eine ganz bestimmte Information in einer umfangreichen Nomenklatur wie der CHOP oder der NOGA? Stellen Sie sich dazu eine intelligente, schnelle, präzise und kontextbezogene Suche vor, die Sie direkt zum gesuchten Code oder zur gesuchten Beschreibung führt. Genau das haben wir entwickelt: Eine leistungsstarke Suchfunktion, für Fachleute, Analysten und alle, die mit Klassifikationen und Nomenklaturen arbeiten. 
