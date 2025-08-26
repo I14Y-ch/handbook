@@ -17,7 +17,7 @@ Das Glossar wird bald auch in den Sprachen Französisch, Italienisch und Englisc
 Die Abnahmeumgebung (auch Abnahmetestumgebung oder User Acceptance Testing (UAT) Umgebung genannt) ermöglicht es, neue Software vor der Freigabe unter realitätsnahen Bedingungen zu testen. Im Fall von I14Y werden hier neue Funktionen vor dem Release getestet.
 
 ## Anwendung
-Softwareprogramm zur Ausführung von bestimmten Bearbeitungsfunktionen, das für einen speziellen Einsatz entwickelt wurde. [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/70368?s=Anwendung&sl=2,6,7,8,3&tl=2,6,7,8,3).
+Softwareprogramm zur Ausführung von bestimmten Bearbeitungsfunktionen, das für einen speziellen Einsatz entwickelt wurde. [Zur Definition auf TERMDAT](https://register.ld.admin.ch/termdat/70368)
 
 ## Behördenleistungen 
 Behördenleistungen werden mit öffentlichen Mitteln finanziert. Die entsprechenden Dienstleistungen können zugunsten einer Einzelperson, eines Unternehmens oder einer anderen öffentlichen Stelle erbracht werden. Eine Dienstleistung besteht unabhängig davon, ob sie in Anspruch genommen wird oder nicht. 
@@ -45,25 +45,25 @@ DCAT sieht vier Hauptklassen vor: Die Klasse __Katalog__ (`dcat:Catalog`) beschr
 Auf I14Y werden auch digitale Behördenleistungen beschrieben. Deshalb wurde DCAT um die Klasse __Public Service__ (`dcat:Publicservice`) erweitert. Für diese Einträge wird das [Core Public Service Vocabulary Application Profile](https://joinup.ec.europa.eu/collection/semic-support-centre/solution/core-public-service-vocabulary-application-profile) der Europäischen Union verwendet. 
 
 ## Data Custodian (Datenhalter)
-Ein Data Custodian ist verantwortlich für die sichere Haltung und Übermittlung der Daten und stellt diese gemäss den gemeinsam definierten Anforderungen in geeigneter Art und Weise allen legitimierten Nutzern zur Verfügung. [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/502924?s=local%20data%20custodian&sl=2,6,7,8,3&tl=2,6,7,8,3).
+Ein Data Custodian ist verantwortlich für die sichere Haltung und Übermittlung der Daten und stellt diese gemäss den gemeinsam definierten Anforderungen in geeigneter Art und Weise allen legitimierten Nutzern zur Verfügung. [Zur Definition auf TERMDAT](https://register.ld.admin.ch/termdat/502924)
 
 ## Data Governance
-Set von Regeln, Entscheidungsbefugnissen und Rechenschaftspflichten für informationsbezogene Prozesse, durch die festgelegt wird, wer mit welchen Informationen, wann und unter welchen Bedingungen unter Verwendung welcher Methoden welche Handlungen ausführen darf bzw. muss. [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/387641?s=governance&sl=2,6,7,8,3&tl=2,6,7,8,3).
+Set von Regeln, Entscheidungsbefugnissen und Rechenschaftspflichten für informationsbezogene Prozesse, durch die festgelegt wird, wer mit welchen Informationen, wann und unter welchen Bedingungen unter Verwendung welcher Methoden welche Handlungen ausführen darf bzw. muss. [Zur Definition auf TERMDAT](https://register.ld.admin.ch/termdat/387641)
 
 ## Data Owner (Dateneigner)
-Der Data Owner ist die Person oder Stelle innerhalb einer Behörde, die für die Bearbeitung von Daten in ihrem Verantwortungsbereich zuständig ist. [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/502925?s=Data%20owner&sl=2,6,7,8,3&tl=2,6,7,8,3)
+Der Data Owner ist die Person oder Stelle innerhalb einer Behörde, die für die Bearbeitung von Daten in ihrem Verantwortungsbereich zuständig ist. [Zur Definition auf TERMDAT](https://register.ld.admin.ch/termdat/502925)
 
 ## Data Producer (Datenbearbeiter)
-Person oder System, das vom Data Owner für die Datenverarbeitung verantwortlichen Stelle autorisiert ist, Daten zu erstellen, zu ändern und/oder zu löschen. [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/502926?s=Data%20producer&sl=2,6,7,8,3&tl=2,6,7,8,3)
+Person oder System, das vom Data Owner für die Datenverarbeitung verantwortlichen Stelle autorisiert ist, Daten zu erstellen, zu ändern und/oder zu löschen. [Zur Definition auf TERMDAT](https://register.ld.admin.ch/termdat/502926)
 
 ## Data Repository
 Ein Repository ist ein Speicherort für strukturierte Daten, Programme oder Metadaten, auf den mehrere Benutzer oder Systeme zugreifen können.
 
 ## Data Steward (Datenverwalterin)
-Im Data Stewardship Model koordinieren und fördern die Data Stewards die Mehrfachnutzung von Daten innerhalb eines Bundesamts. [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/502921?s=data%20steward&sl=2,6,7,8,3&tl=2,6,7,8,3)
+Im Data Stewardship Model koordinieren und fördern die Data Stewards die Mehrfachnutzung von Daten innerhalb eines Bundesamts. [Zur Definition auf TERMDAT](https://register.ld.admin.ch/termdat/502921)
 
 ## Datenanbietende
-Datenanbietende, alternativ Datenlieferanten, sind Organisationen, die innerhalb eines oder mehrerer Datenräume Daten zur Nutzung bereitstellen. [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/503084?s=Datenanbietende&sl=2,6,7,8,3&tl=2,6,7,8,3)
+Datenanbietende, alternativ Datenlieferanten, sind Organisationen, die innerhalb eines oder mehrerer Datenräume Daten zur Nutzung bereitstellen. [Zur Definition auf TERMDAT](https://register.ld.admin.ch/termdat/503084)
 
 ## Datenelement
 Das Datenelement ist die kleinste beschreibende Einheit einer Datensammlung. Oft wird das Datenelement auch als Attribut, (definierte) Variable oder «Spalte» bezeichnet. Das Datenelement enthält die einzelnen Werte, z.B. die AHV-Nummer, die Anzahl leerstehender Wohnungen oder die Messwerte der Wassertemperatur. Jedes Datenelement verweist auf ein Datenelementkonzept.
@@ -79,16 +79,16 @@ Definition, wie Daten strukturiert werden und wie sie bei der Verarbeitung zu in
 Datenharmonisierung ist der Prozess, bei dem Daten aus unterschiedlichen Quellen in eine einheitliche Struktur, Terminologie und Bedeutung überführt werden, so dass sie konsistent, vergleichbar und gemeinsam nutzbar sind. Ziel ist es, semantische und strukturelle Unterschiede zu überwinden, um die Interoperabilität und Qualität der Daten zu verbessern.
 
 ## Datenkatalog
-Ein Datenkatalog ist ein Verzeichnis von Datenbeständen. Mit Hilfe von Metadaten ist er ein informatives und durchsuchbares Verzeichnis von Datenbeständen. [Zur Definition auf TERMDAT](https://register.ld.admin.ch/termdat/64371).
+Ein Datenkatalog ist ein Verzeichnis von Datenbeständen. Mit Hilfe von Metadaten ist er ein informatives und durchsuchbares Verzeichnis von Datenbeständen. [Zur Definition auf TERMDAT](https://register.ld.admin.ch/termdat/64371)
 
 ## Datenlebenszyklus
 Der Datenlebenszyklus beschreibt die verschiedenen Phasen, die Daten von ihrer Entstehung bis zu ihrer Löschung durchlaufen. Typische Phasen sind: Erhebung, Speicherung, Nutzung, Weitergabe, Archivierung und Löschung. Jede Phase erfordert spezifische technische, organisatorische und rechtliche Massnahmen – insbesondere im Hinblick auf Datenschutz, Qualität und Sicherheit.
 
 ## Datenmanagement
-Das Datenmanagement beinhaltet die Planung, Standardisierung, Verarbeitung, Speicherung und Bereitstellung von verlässlichen Daten in einem Unternehmen über deren gesamten Lebenszyklus. [Zur Definition auf TERMDAT](https://register.ld.admin.ch/termdat/502636).
+Das Datenmanagement beinhaltet die Planung, Standardisierung, Verarbeitung, Speicherung und Bereitstellung von verlässlichen Daten in einem Unternehmen über deren gesamten Lebenszyklus. [Zur Definition auf TERMDAT](https://register.ld.admin.ch/termdat/502636)
 
 ## Datenmodell
-Visuelle Darstellung von applikationsspezifischen Konzepten und ihren Beziehungen als Ausschnitt der Realität, die in einem iterativen Analyseprozess definiert und für die Beschreibung der Struktur einer Datenbank verwendet wird. [Zur Definition auf TERMDAT](https://register.ld.admin.ch/termdat/502865).
+Visuelle Darstellung von applikationsspezifischen Konzepten und ihren Beziehungen als Ausschnitt der Realität, die in einem iterativen Analyseprozess definiert und für die Beschreibung der Struktur einer Datenbank verwendet wird. [Zur Definition auf TERMDAT](https://register.ld.admin.ch/termdat/502865)
 
 ## Datennutzende
 Person oder Organisation, welche angebotene Daten aus einem oder mehreren Datenräumen für eigene Aktivitäten nutzt. [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/293654?s=Datennutzer&sl=2,6,7,8,3&tl=2,6,7,8,3)
@@ -97,19 +97,19 @@ Person oder Organisation, welche angebotene Daten aus einem oder mehreren Datenr
 Ein Datenobjekt ist eine klar abgegrenzte, logische Einheit von Daten, die digital beschrieben, ausgetauscht oder genutzt werden kann. Auf I14Y werden die Datenobjekte  Datensätze, APIs und Behördenleistungen standardisiert beschrieben, so dass sie auffindbar und mehrfach genutzt werden können.
 
 ## Datensatz (Datensammlung)
-Ein Datensatz ist eine strukturierte Sammlung von Daten, die sich auf ein bestimmtes Thema oder eine spezifische Fragestellung beziehen und in einer definierten Form organisiert sind. Auf der Interoperabilitätsplattform I14Y wird ein Datensatz gemäss DCAT-CH beschrieben und enthält mindestens eine Distribution oder kann über eine API bezogen werden. Weitere Informationen zur Struktur eines Datensatzes auf I14Y sind im [Abschnitt Informationsmodell](https://i14y-ch.github.io/handbook/de/gouvernanz/informationsmodell/) zu finden. [Zur Definition auf TERMDAT](https://register.ld.admin.ch/termdat/501320).
+Ein Datensatz ist eine strukturierte Sammlung von Daten, die sich auf ein bestimmtes Thema oder eine spezifische Fragestellung beziehen und in einer definierten Form organisiert sind. Auf der Interoperabilitätsplattform I14Y wird ein Datensatz gemäss DCAT-CH beschrieben und enthält mindestens eine Distribution oder kann über eine API bezogen werden. Weitere Informationen zur Struktur eines Datensatzes auf I14Y sind im [Abschnitt Informationsmodell](https://i14y-ch.github.io/handbook/de/gouvernanz/informationsmodell/) zu finden. [Zur Definition auf TERMDAT](https://register.ld.admin.ch/termdat/501320)
 
 ## Datenschutz
 Rechtliche Massnahmen, die dem Schutz der Persönlichkeit und der Grundrechte von natürlichen Personen dienen, deren Daten durch private Personen oder Bundesorgane bearbeitet werden. [Zur Definition auf TERMDAT](https://register.ld.admin.ch/termdat/52411)
 
 ## Datenstandard
-Ein Datenstandard ist eine Datenspezifikation, die andere Daten beschreibt oder definiert [ISO111179]. Zwei wichtige Arten von Datenstandards sind Datenmodelle (einschliesslich Kernvokabulare) und Referenzdaten (einschliesslich Konzepte).
+Ein Datenstandard ist eine Datenspezifikation, die andere Daten beschreibt oder definiert [ISO111179]. Zwei wichtige Arten von Datenstandards sind Datenmodelle (einschliesslich Kernvokabulare) und Referenzdaten (einschliesslich Konzepte)
 
 ## Datenstruktur
-Zusammenfassung von Datenelementen, die in einem logischen Zusammenhang stehen und zur Speicherung und Organisation von Daten verwendet werden, deren Anordnung eine effiziente Verwaltung sowie den Zugriff ermöglicht. [Zur Definition auf TERMDAT](https://register.ld.admin.ch/termdat/502986).
+Zusammenfassung von Datenelementen, die in einem logischen Zusammenhang stehen und zur Speicherung und Organisation von Daten verwendet werden, deren Anordnung eine effiziente Verwaltung sowie den Zugriff ermöglicht. [Zur Definition auf TERMDAT](https://register.ld.admin.ch/termdat/502986)
 
 ## Datentyp
-Der Datentyp klassifiziert ein Datenelement. Er gibt an, welche Art von Werten darin enthalten sein dürfen. Mithilfe des Datentyps wird sichergestellt, dass Daten von einem Programm korrekt verarbeitet und interpretiert werden. Beispiele für Datentypen sind: Ganzzahlen (engl. _integer_), Gleitkommazahlen (_floating point_), Boolesche Werte (_boolean_) oder Zeichenketten (_string_). Auf der I14Y definiert das Konzept den Datentyp (vgl. Abschnitt zum [Konzept](/handbook/de/gouvernanz/informationsmodell#konzept)). [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/516244?s=Datentyp&sl=2,6,7,8,3&tl=2,6,7,8,3).
+Der Datentyp klassifiziert ein Datenelement. Er gibt an, welche Art von Werten darin enthalten sein dürfen. Mithilfe des Datentyps wird sichergestellt, dass Daten von einem Programm korrekt verarbeitet und interpretiert werden. Beispiele für Datentypen sind: Ganzzahlen (engl. _integer_), Gleitkommazahlen (_floating point_), Boolesche Werte (_boolean_) oder Zeichenketten (_string_). Auf der I14Y definiert das Konzept den Datentyp (vgl. Abschnitt zum [Konzept](/handbook/de/gouvernanz/informationsmodell#konzept)). [Zur Definition auf TERMDAT](https://register.ld.admin.ch/termdat/516244)
 
 ## DCAT-Distribution
 Eine physische Verkörperung bzw. Darstellung des Datensatzes in einem spezifischen Format. Eine Distribution (↔ «Ressource») ist eine spezifische Repräsentation des Datensatzes (Link zu realen Daten).
@@ -133,7 +133,7 @@ Systeme zum _Enterprise Identity Management (EIAM)_ werden verwendet, um Identit
 Die FAIR- Prinzipien postulieren, dass Daten einfach auffindbar _(**F**indable)_, zugänglich _(**A**ccessible)_, interoperabel _(**I**nteroperable)_ und mehrfachverwendbar _(**R**eusable)_ sein sollen. Die Daten sollen sowohl von Menschen als auch von Computersystemen einfach auffindbar sein. Sie sollen über ein offenes, freies und universell implementierbares Standard-Kommunikationsprotokoll zugänglich sein. Dank einer eindeutigen Lizenz ist ersichtlich, wie die Daten genutzt werden dürfen. Die Interoperabilität ist sowohl semantisch als auch syntaktisch gewährleistet. Sie setzt die Verwendung präziser kontextbezogener Metadaten voraus, hält sich in Bezug auf Inhalt und Format an die grossen internationalen Standards und verwendet möglichst standardisierte Vokabulare. Die freie, bedingte oder kostenpflichtige Mehrfachverwendung der Daten wird durch gemeinsame Standards vereinfacht. Grundlegende Informationen zu den FAIR-Prinzipien sind in diesem [Nature-Artikel](https://www.nature.com/articles/sdata201618) zu finden. 
 
 ## Geobasisdaten
-Geobasisdaten sind Geodaten, die auf einem Recht setzenden Erlass des Bundes, eines Kantons oder einer Gemeinde beruhen: z.B. die Amtliche Vermessung, der Bauzonenplan oder das Hochmoor-Inventar. [Zur Definition auf TERMDAT](https://register.ld.admin.ch/termdat/71443).
+Geobasisdaten sind Geodaten, die auf einem Recht setzenden Erlass des Bundes, eines Kantons oder einer Gemeinde beruhen: z.B. die Amtliche Vermessung, der Bauzonenplan oder das Hochmoor-Inventar. [Zur Definition auf TERMDAT](https://register.ld.admin.ch/termdat/71443)
 
 ## Geocat 
 [Geocat](https://geocat.ch) ist ein Katalog für Metadaten für Geoinformationen in der Schweiz und im Fürstentum Liechtenstein. Darin erfassen Bundesämter, Kantone, Gemeinden, Forschungsinstitute und Unternehmen Informationen zu ihren Geodaten, also von Datensätzen mit starkem geografischem Bezug, von Karten wie auch Luftbildern. Betrieben wird der Dienst vom Bundesamt für Landestopografie swisstopo. Weitere Informationen sind im Abschnitt zu den [verschiedenen Plattformen](/handbook/de/gouvernanz/plattformen) zu finden.
@@ -154,43 +154,43 @@ Ein Identifikator ist ein definiertes Attribut oder eine Kombination von Attribu
 Die Internationale Organisation für Normung (ISO) ist eine Vereinigung von Normierungsorganisationen. Sie erarbeitet internationale Normen in zahlreichen Bereichen -- mit Ausnahme der Elektrotechnik und der Kommunikationstechnologie. Bei der ISO handelt es sich um einen Verein nach schweizerischem Recht. Der Sitz ist in Genf. Nationale Standardisierungsvorhaben im Bereich eGovernment treibt meistens der [→ Verein eCH](#ech) voran.
 
 ## Interoperabilität
-Interoperabilität ist die Fähigkeit unabhängiger, heterogener Systeme, möglichst nahtlos zusammenzuarbeiten. Sie sollen Informationen auf effiziente Art und Weise auszutauschen, ohne dass dazu im Einzelfall gesonderte Absprachen nötig sind. Das [European Interoperability Framework (EIF)](https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/3-interoperability-layers) unterscheidet vier Ebenen: Die _rechtliche Interoperabilität_ stellt sicher, dass eine ausreichende gesetzliche Grundlage für die Zusammenarbeit besteht. Die _organisatorische Interoperabilität_ beschreibt, wie die Geschäftsprozesse aufeinander abgestimmt sind. Mit der _semantischen Interoperabilität_ wird angestrebt, dass beim Austausch von Informationen die Form der Daten möglichst nicht manuell verändert werden muss. Die _technische Interoperabilität_ beschreibt alle technischen Aspekte des Informationsaustausches, beinhaltet also etwa Schnittstellenspezifikationen und Übermittlungsprotokolle. [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/71434?s=Interoperabilit%C3%A4t&sl=2,6,7,8,3&tl=2,6,7,8,3).
+Interoperabilität ist die Fähigkeit unabhängiger, heterogener Systeme, möglichst nahtlos zusammenzuarbeiten. Sie sollen Informationen auf effiziente Art und Weise auszutauschen, ohne dass dazu im Einzelfall gesonderte Absprachen nötig sind. Das [European Interoperability Framework (EIF)](https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/3-interoperability-layers) unterscheidet vier Ebenen: Die _rechtliche Interoperabilität_ stellt sicher, dass eine ausreichende gesetzliche Grundlage für die Zusammenarbeit besteht. Die _organisatorische Interoperabilität_ beschreibt, wie die Geschäftsprozesse aufeinander abgestimmt sind. Mit der _semantischen Interoperabilität_ wird angestrebt, dass beim Austausch von Informationen die Form der Daten möglichst nicht manuell verändert werden muss. Die _technische Interoperabilität_ beschreibt alle technischen Aspekte des Informationsaustausches, beinhaltet also etwa Schnittstellenspezifikationen und Übermittlungsprotokolle. [Zur Definition auf TERMDAT](https://register.ld.admin.ch/termdat/71434)
 
 ## Interoperabilitätsstelle (IOS)
 Die Interoperabilitätsstelle (IOS) des Bundesamts für Statistik stellt die Instrumente zur Harmonisierung, Standardisierung und Mehrfachverwendung von Daten bereit. Als technisches Werkzeug dazu entwickelt und betreut sie die Interoperabilitätsplattform I14Y. IOS koordiniert die Standardisierung und Harmonisierung von Daten innerhalb der einzelnen Themenbereiche (z.B. Energie, Gesundheit, Mobilität, Landwirtschaft). Das BFS nimmt dabei die Aufgaben des _Swiss Data Stewards_ wahr. 
 
 ## Linked Data
-Linked Data sind Daten, die dank eines Identifikators (_Uniform Resource Identifier_) direkt miteinander verknüpft werden können. Sofern die Daten frei verfügbar sind, wird auch von _Linked Open Data_ gesprochen. Die Daten können verteilt sein. Sie lassen sich über normale Web-Transferprotokoll abrufen. Dank dem standardisierten Aufbau lassen sie wie eine einzige grosse Datenbank benutzen. Dazu wird die Abfragesprache _Sparql_ eingesetzt. Linked Open Data ist ein von Tim Berners-Lee, dem Erfinder des World Wide Webs, entwickeltes Konzept. Das Ziel ist der Aufbau eines semantischen Webs, bei dem dank strukturierten und verknüpfbaren Datenangeboten die maschinelle Kommunikation vereinfacht wird. Die Plattform Lindas ist die wichtigste Anbieterin von Linked Data im Bereich der öffentlichen Verwaltung in der Schweiz. Weitere Informationen sind im [Abschnitt zu Lindas](/handbook/de/gouvernanz/plattformen) zu finden. [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/503121?s=Linked%20data&sl=2,6,7,8,3&tl=2,6,7,8,3).
+Linked Data sind Daten, die dank eines Identifikators (_Uniform Resource Identifier_) direkt miteinander verknüpft werden können. Sofern die Daten frei verfügbar sind, wird auch von _Linked Open Data_ gesprochen. Die Daten können verteilt sein. Sie lassen sich über normale Web-Transferprotokoll abrufen. Dank dem standardisierten Aufbau lassen sie wie eine einzige grosse Datenbank benutzen. Dazu wird die Abfragesprache _SPARQL_ eingesetzt. Linked Open Data ist ein von Tim Berners-Lee, dem Erfinder des World Wide Webs, entwickeltes Konzept. Das Ziel ist der Aufbau eines semantischen Webs, bei dem dank strukturierten und verknüpfbaren Datenangeboten die maschinelle Kommunikation vereinfacht wird. Die Plattform Lindas ist die wichtigste Anbieterin von Linked Data im Bereich der öffentlichen Verwaltung in der Schweiz. Weitere Informationen sind im [Abschnitt zu Lindas]([/handbook/de/gouvernanz/plattformen/#lindas](https://register.ld.admin.ch/termdat/503121)) zu finden. [Zur Definition auf TERMDAT](https://register.ld.admin.ch/termdat/503121)
 
 ## Metadaten
 Metadaten sind Daten, die andere Daten definieren und beschreiben. Sie beinhalten Informationen zur Semantik einer Datensammlung – also zur Bedeutung, zum Inhalt und zur Qualität. Zudem beschreiben sie die Syntax (die Form und die Struktur) der verwendeten Attribute (Variablen). Um sicherzustellen, dass die Daten einheitlich erfasst werden, können [→ Nomenklaturen](#nomenklatur) hinterlegt und Register angebunden werden, etwa das Gemeindeverzeichnis, die Nomenklatur der Berufe (ISCO) oder der Wirtschaftszweige (NOGA). Damit werden diese Daten zu Metadaten. Auf der I14Y lassen sich solche Metadaten verwalten, publizieren und austauschen.  
 
 ## Metadatenkatalog
-Strukturierte Bestandsaufnahme der Datensammlungen einer Organisation, die in einem digitalen Verzeichnis aufgeführt sind. [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/71450?s=Metadatenkatalog&sl=2,6,7,8,3&tl=2,6,7,8,3).
+Strukturierte Bestandsaufnahme der Datensammlungen einer Organisation, die in einem digitalen Verzeichnis aufgeführt sind. [Zur Definition auf TERMDAT](https://register.ld.admin.ch/termdat/71450)
 
 ## Nationale Datenbewirtschaftung (NaDB)
-Das Programm Nationale Datenbewirtschaftung hat es zum Ziel, die Datenbewirtschaftung der öffentlichen Hand durch die Mehrfachnutzung von Daten einfacher und effizienter zu gestalten. Es wurde vom Bundesrat initiiert und im Oktober 2019 gestartet. Beteiligt am Programm sind alle Departemente des Bundes, die Bundeskanzlei, alle Bereiche des Statistiksystems Schweiz, Vertreter von Kantonen, die Sozialpartner sowie private Organisationen und Verbände. Die Verantwortung für die Umsetzung des Programms liegt beim Bundesamt für Statistik. Technisches Kernstück ist die I14Y. Weitere Informationen sind auf der [Website des Programms](https://www.bfs.admin.ch/bfs/de/home/nadb/nadb.html) zu finden. [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/481315?s=nadb&sl=2,6,7,8,3&tl=2,6,7,8,3).
+Das Programm Nationale Datenbewirtschaftung hat es zum Ziel, die Datenbewirtschaftung der öffentlichen Hand durch die Mehrfachnutzung von Daten einfacher und effizienter zu gestalten. Es wurde vom Bundesrat initiiert und im Oktober 2019 gestartet. Beteiligt am Programm sind alle Departemente des Bundes, die Bundeskanzlei, alle Bereiche des Statistiksystems Schweiz, Vertreter von Kantonen, die Sozialpartner sowie private Organisationen und Verbände. Die Verantwortung für die Umsetzung des Programms liegt beim Bundesamt für Statistik. Technisches Kernstück ist die I14Y. Weitere Informationen sind auf der [Website des Programms](https://www.bfs.admin.ch/bfs/de/home/nadb/nadb.html) zu finden. [Zur Definition auf TERMDAT](https://register.ld.admin.ch/termdat/481315)
 
 ## Nomenklatur
-Eine Nomenklatur ist eine für bestimmte Bereiche verbindliche Sammlung von Benennungen aus einem bestimmten Themen- oder Anwendungsgebiet. Beispiele für Nomenklaturen sind ein Gemeindeverzeichnis oder ein Länderverzeichnis. Eine Nomenklatur erhält Codes und beschreibende Textteile, allenfalls in verschiedenen Sprachen. [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/94036?s=nomenklatur&sl=2,6,7,8,3&tl=2,6,7,8,3).
+Eine Nomenklatur ist eine für bestimmte Bereiche verbindliche Sammlung von Benennungen aus einem bestimmten Themen- oder Anwendungsgebiet. Beispiele für Nomenklaturen sind ein Gemeindeverzeichnis oder ein Länderverzeichnis. Eine Nomenklatur erhält Codes und beschreibende Textteile, allenfalls in verschiedenen Sprachen. [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/entry/94036)
 
 ## Offene Daten
-Daten, die frei, ohne wesentliche rechtliche, finanzielle oder technische Einschränkungen, genutzt, verarbeitet, ausgewertet und weitergegeben werden dürfen. Rechtlich muss die kostenfreie Nutzung und Weiterverarbeitung der Daten gewährleistet sein; technische Offenheit betont, dass offene Daten maschinell bearbeitbar sein müssen. Bei der Publikation von Daten als offenen Daten müssen Datenschutz-, Informationsschutz- und Urheberrechtsbestimmungen sowie Geschäftsgeheimnisse gewahrt bleiben. [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/387377?s=offene%20Daten&sl=2,6,7,8,3&tl=2,6,7,8,3).
+Daten, die frei, ohne wesentliche rechtliche, finanzielle oder technische Einschränkungen, genutzt, verarbeitet, ausgewertet und weitergegeben werden dürfen. Rechtlich muss die kostenfreie Nutzung und Weiterverarbeitung der Daten gewährleistet sein; technische Offenheit betont, dass offene Daten maschinell bearbeitbar sein müssen. Bei der Publikation von Daten als offenen Daten müssen Datenschutz-, Informationsschutz- und Urheberrechtsbestimmungen sowie Geschäftsgeheimnisse gewahrt bleiben. [Zur Definition auf TERMDAT](https://register.ld.admin.ch/termdat/387377)
 
 ## Once-Only-Prinzip
-Ziel des Once-Only-Prinzips ist es, dass Bürgerinnen und Bürger sowie Unternehmen ihre Daten nur einmal der öffentlichen Verwaltung zur Verfügung stellen müssen. Die einzelnen Amtsstellen der unterschiedlichen Ebenen tauschen die Informationen untereinander aus -- sofern dies explizit so vorgesehen und sinnvoll ist. Das _Once-Only_-Prinzip soll den Aufwand reduzieren -- bei den Bürgerinnen und Bürgern, den Unternehmen wie auch innerhalb der Verwaltung. Die Umsetzung des Once-Only-Prinzips ist ein zentrales Ziel des Programms Nationale Datenbewirtschaftung (NaDB). [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/480493?s=once-only&sl=2,6,7,8,3&tl=2,6,7,8,3).
+Ziel des Once-Only-Prinzips ist es, dass Bürgerinnen und Bürger sowie Unternehmen ihre Daten nur einmal der öffentlichen Verwaltung zur Verfügung stellen müssen. Die einzelnen Amtsstellen der unterschiedlichen Ebenen tauschen die Informationen untereinander aus -- sofern dies explizit so vorgesehen und sinnvoll ist. Das _Once-Only_-Prinzip soll den Aufwand reduzieren -- bei den Bürgerinnen und Bürgern, den Unternehmen wie auch innerhalb der Verwaltung. Die Umsetzung des Once-Only-Prinzips ist ein zentrales Ziel des Programms Nationale Datenbewirtschaftung (NaDB). [Zur Definition auf TERMDAT](https://register.ld.admin.ch/termdat/480493)
 
 ## Ontologie
 Eine Ontologie ist eine formal definierte Darstellung von Wissen, in der die Konzepte und Beziehungen in einem bestimmten Bereich beschrieben werden. Sie ist wie ein Vokabular oder ein Regelwerk, das ein gemeinsames Verständnis eines bestimmten Fachgebiets ermöglicht. Ontologien werden verwendet, um den Austausch und die Wiederverwendung von Wissen zu ermöglichen und die Kommunikation und Argumentation zwischen Menschen oder Computersystemen zu erleichtern.
 
 ## Personendaten
-Angaben, die sich auf eine bestimmte oder bestimmbare natürliche Person beziehen. [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/52451?s=personendaten&sl=2,6,7,8,3&tl=2,6,7,8,3).
+Angaben, die sich auf eine bestimmte oder bestimmbare natürliche Person beziehen. [Zur Definition auf TERMDAT](https://register.ld.admin.ch/termdat/52451)
 
 ## Public Service Vocabulary Application Profile (CPSV-AP)
-Das Public Service Vocabulary Application Profile (CPSV-AP) ist ein Datenmodell, das Behördenleistungen anhand einer standardisierten Semantik strukturiert und maschinenlesbar beschreibt
+Das _Core Public Service Vocabulary Application Profile_ (CPSV-AP) ist ein Datenmodell, das Behördenleistungen anhand einer standardisierten Semantik strukturiert und maschinenlesbar beschreibt
 
 ## Referenzdaten
-Daten, die nur bestimmte Werte annehmen können und in einer Organisation in Prozessen, Analysen oder Entscheidungen verwendet werden. [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/502771?s=Referenzdaten&sl=2,6,7,8,3&tl=2,6,7,8,3).
+Daten, die nur bestimmte Werte annehmen können und in einer Organisation in Prozessen, Analysen oder Entscheidungen verwendet werden. [Zur Definition auf TERMDAT](https://register.ld.admin.ch/termdat/502771)
 
 ## Referenz-Metadaten
 Gemäss Eurostat beschreiben Referenz-Metadaten (manchmal auch erklärende Metadaten genannt) den Inhalt und die Qualität der statistischen Daten aus semantischer Sicht. Sie enthalten erläuternde Texte zum Kontext der statistischen Daten, zur Methodik der Datenerhebung und -aggregation sowie zu Qualitäts- und Diffusionsmerkmalen.
@@ -198,17 +198,17 @@ Gemäss Eurostat beschreiben Referenz-Metadaten (manchmal auch erklärende Metad
 ## Resource Description Framework (RDF)
 RDF ist die Basissprache des semantischen Webs und ermöglicht die Darstellung von Metadaten in Form von Tripeln (Subjekt-Prädikat-Objekt). 
 
-## SDMX 
-Der _Statistical Data and Metadata EXchange (SDMX)_ ist eine Initiative zur Standardisierung des Datenaustauschs zwischen internationalen Organisationen und ihren Mitgliedsländern. Massgeblich entwickelt wurde er von der Weltbank und der Europäischen Union. _SDMX_ definiert sowohl einheitliche Datenformate als auch Metadatenstandards und Methoden zur Datenübertragung. Weitere Informationen: [sdmx.org](https://sdmx.org). Auf der I14Y können Codelisten im SDMX-Format eingelesen werden (siehe [Erfassen von Konzepten](/handbook/de/publikation/konzepte/)). 
+## Statistical Data and Metadata EXchange (SDMX)  
+SDMX ist eine Initiative zur Standardisierung des Datenaustauschs zwischen internationalen Organisationen und ihren Mitgliedsländern. Massgeblich entwickelt wurde er von der Weltbank und der Europäischen Union. SDMX definiert sowohl einheitliche Datenformate als auch Metadatenstandards und Methoden zur Datenübertragung. Weitere Informationen: [sdmx.org](https://sdmx.org). Auf der I14Y können Codelisten im SDMX-Format eingelesen werden (siehe [Erfassen von Konzepten](/handbook/de/publikation/konzepte/)).
 
 ## SPARQL
-Standardabfragesprache zum Abrufen und zur Bearbeitung von Daten, die im RDF-Format dargestellt werden. [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/503123?s=SPARQL&sl=2,6,7,8,3&tl=2,6,7,8,3).
+Standardabfragesprache zum Abrufen und zur Bearbeitung von Daten, die im RDF-Format dargestellt werden. [Zur Definition auf TERMDAT](https://register.ld.admin.ch/termdat/503123)
 
 ## Stammdaten
-Die Stammdaten sind grundlegende Informationen, die von der öffentlichen Verwaltung zwingend benötigt werden. Sie können Personen, Unternehmen, aber auch diverse Objekte wie etwa Gebäude oder Fahrzeuge beschreiben. Für jedes dieser Objekte muss ein abschliessender Katalog der Merkmale (Attribute) verfügbar sein. Die Stammdaten sind zustandsorientierte Daten. Sie bleiben im Zeitverlauf relativ konstant. Und sie ändern sich eher selten. Eine Sonderform von Stammdaten sind die so genannten Referenzdaten wie etwa die Codes für Flughäfen oder Länder. Diese dienen der Klassifizierung von Stammdaten. [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/379368?s=stammdaten&sl=2,6,7,8,3&tl=2,6,7,8,3).
+Die Stammdaten sind grundlegende Informationen, die von der öffentlichen Verwaltung zwingend benötigt werden. Sie können Personen, Unternehmen, aber auch diverse Objekte wie etwa Gebäude oder Fahrzeuge beschreiben. Für jedes dieser Objekte muss ein abschliessender Katalog der Merkmale (Attribute) verfügbar sein. Die Stammdaten sind zustandsorientierte Daten. Sie bleiben im Zeitverlauf relativ konstant. Und sie ändern sich eher selten. Eine Sonderform von Stammdaten sind die so genannten Referenzdaten wie etwa die Codes für Flughäfen oder Länder. Diese dienen der Klassifizierung von Stammdaten. [Zur Definition auf TERMDAT](https://register.ld.admin.ch/termdat/379368)
 
 ## Statistische Daten
-Statistische Daten sind alle Daten, welche zu statistischen Zwecken erhoben oder weitergegeben wurden, insbesondere gestützt auf das Bundesstatistikgesetz und unterliegen damit dem Statistikgeheimnis.
+Statistical data is all data that has been collected or passed on for statistical purposes, in particular based on the Federal Statistics Act, and is therefore subject to statistical confidentiality.
 
 ## Swagger
 [Swagger](https://swagger.io/) ist eine Kollektion frei verfügbarer Hilfsmittel zur Publikation und Nutzung von elektronischen Schnittstellen (APIs). Auf der I14Y werden insbesondere die Dokumentationsmöglichkeiten genutzt: Dank der Swagger-Weboberfläche ist rasch ersichtlich, was mit der betreffenden API möglich ist. Zudem können die Abfragemöglichkeiten bei sämtlichen Endpunkten direkt ausprobiert werden. Weitere Informationen sind unter [Metadaten abrufen](/handbook/de/metadaten_abrufen/api) zu finden.
@@ -220,11 +220,10 @@ Eine Datenbank, die speziell für die Speicherung und den Abruf von RDF-Daten ko
 Tripel sind die kleinste Struktur zur Beschreibung von Ressourcen im RDF-Modell. Im RDF-Modell ist eine Aussage dreiteilig und besteht aus zwei Knoten, die durch eine Kante verbunden sind und dabei das Subjekt, das Prädikat und das Objekt repräsentieren. Üblicherweise werden Tripel als Graph dargestellt.
 
 ## Uniform Resource Identifier (URI)
-URIs erlauben die Identifizierung von abstrakten oder physischen Ressourcen im Internet. RDF-Ressourcen werden durch eindeutige Bezeichner (URIs) identifiziert. Die URIs erlauben es, Aussagen aus verschiedenen Quellen zu verbinden. [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/70183?s=Uniform%20Resource%20Identifier%20&sl=2,6,7,8,3&tl=2,6,7,8,3). 
+URIs erlauben die Identifizierung von abstrakten oder physischen Ressourcen im Internet. RDF-Ressourcen werden durch eindeutige Bezeichner (URIs) identifiziert. Die URIs erlauben es, Aussagen aus verschiedenen Quellen zu verbinden. [Zur Definition auf TERMDAT](https://register.ld.admin.ch/termdat/70183)
 
 ## Validierung
-Die Validierung ist ein Prozess. Darin wird geprüft, ob ein bestimmter Inhalt in ein System oder ein Verzeichnis aufgenommen werden soll. Im Fall einer Datensammlung werden auf der I14Y vor der öffentlichen Publikation etwa das Datenformat kontrolliert, die Datenintegrität sowie die Wertebereiche und Nomenklaturen. Die Validierung erfolgt durch die _Local Data Stewards_ oder die Interoperabilitätsstelle.
+Die Validierung ist ein Prozess. Darin wird geprüft, ob ein bestimmter Inhalt in ein System oder ein Verzeichnis aufgenommen werden soll. Im Fall einer Datensammlung werden auf der I14Y vor der öffentlichen Publikation etwa das Datenformat kontrolliert, die Datenintegrität sowie die Wertebereiche und Nomenklaturen. Die Validierung erfolgt durch die _Local Data Stewards_ oder die _Interoperabilitätsstelle_.
 
 ## Verwaltungsdaten
-Verwaltungsdaten sind Daten, die im Rahmen eines gesetzlichen Auftrags erhoben, erstellt, verwaltet, verarbeitet und gespeichert werden. Bei diesen kann es sich um strukturierte und unstrukturierte Daten handeln. Auf der I14Y können die einzelnen Verwaltungsstellen Inventare ihrer Datensätze erstellen. [Zur Definition auf TERMDAT](https://www.termdat.bk.admin.ch/search/entry/387376?s=Verwaltungsdaten&sl=2,6,7,8,3&tl=2,6,7,8,3).
-
+Verwaltungsdaten sind Daten, die im Rahmen eines gesetzlichen Auftrags erhoben, erstellt, verwaltet, verarbeitet und gespeichert werden. Bei diesen kann es sich um strukturierte und unstrukturierte Daten handeln. Auf der I14Y können die einzelnen Verwaltungsstellen Inventare ihrer Datensätze erstellen. [Zur Definition auf TERMDAT](https://register.ld.admin.ch/termdat/387376)
