@@ -1,5 +1,6 @@
 ---
 title: Glossar
+translationKey: glossary
 slug: glossar
 weight: 70
 type: docs
