@@ -1,5 +1,7 @@
 html {
   line-height: 1.5;
+  hyphens: auto;
+  word-break: keep-all;
 }
 
 body {
@@ -11,6 +13,10 @@ body {
   line-height: 1.5;
   letter-spacing: 0.5px;
 }
+
+// table column minimums
+$table-col-min-width: 150px !default;
+$table-entry-col2-min: 300px !default;
 
 .td-content {
   h1 {
@@ -443,8 +449,7 @@ a {
 
 .table {
 	margin: $ob-spacing-xl 0;
-    display: table;
-    max-width: 80%;
+  display: table;
 	font-size: .875rem;
     font-weight: 400;
     line-height: 1.42857;
@@ -455,11 +460,43 @@ a {
 		border-bottom: 1px solid $ob-gray-300;
 		padding: 8px 16px;
 		text-align: inherit;
+    hyphens: auto; 
+
+	}
+
+	th,
+	td {
+		white-space: normal;
+		word-wrap: break-word;
+		word-break: break-word;
+		vertical-align: top;
+    min-width: $table-col-min-width;
+		hyphens: auto; 
+	}
+
+	td {
+		hyphens: auto; 
 	}
 
 	th {
 		font-size: 1rem;
+		hyphens: auto; 
 	}
+
+  /* stronger minimum for entry fields second column (used in eingabefelder.md) */
+  &.entry-fields {
+    tr > th:nth-child(2),
+    tr > td:nth-child(2) {
+      min-width: $table-entry-col2-min;
+    }
+  }
+
+  &.entry-fields-planned {
+    tr > th:nth-child(2),
+    tr > td:nth-child(2) {
+      min-width: $table-entry-col2-min;
+    }
+  }
 
 	thead tr:first-child th {
 		border-top: none;
@@ -473,103 +510,7 @@ a {
 		tr:hover, tr.ob-active {
 			background-color: #f2f7fa;
 		}
-	}
-
-	&.roles {
-		tr > th:nth-child(2),
-		tr > td:nth-child(2) {
-			max-width: 600px;
-		}
-	}
-
-	&.workflow {
-		tr > th:nth-child(3),
-		tr > td:nth-child(3) {
-			max-width: 500px;
-		}
-	}
-
-	&.gui {
-		tr > th:nth-child(2),
-		tr > td:nth-child(2) {
-			max-width: 400px;
-		}
-	}
-
-  &.entry-fields {
-    tr > th:nth-child(2),
-    tr > td:nth-child(2) {
-        min-width: 120px;
-        max-width: 400px;
-        width: auto;
-    }
   }
-
-  &.entry-fields-planned {
-		tr > th:nth-child(2),
-		tr > td:nth-child(2) {
-      min-width: 120px;
-      max-width: 400px;
-      width: auto;
-    };
-    background-color: #f2f7fa;
-  }
-	
-	&.swagger {
-		tr > th:nth-child(3),
-		tr > td:nth-child(3) {
-			max-width: 500px;
-		}
-	}
-
-	&.eiam {
-		tr > th:nth-child(2),
-		tr > td:nth-child(2) {
-			max-width: 600px;
-		}
-	}
-
-	&.weblink1 {
-		tr > th:nth-child(2),
-		tr > td:nth-child(2) {
-			max-width: 500px;
-		}
-	}
-
-	&.weblink2 {
-		tr > th:nth-child(2),
-		tr > td:nth-child(2) {
-			max-width: 400px;
-		}
-	}
-
-	&.regex {
-		tr > th:nth-child(1),
-		tr > td:nth-child(1),
-		tr > th:nth-child(2),
-		tr > td:nth-child(2) {
-			max-width: 350px;
-		}
-	}
-
-	&.partner {
-		tr > th:nth-child(1),
-		tr > td:nth-child(1) {
-			max-width: 65px;
-		}
-
-		tr > th:nth-child(4),
-		tr > td:nth-child(4) {
-			max-width: 400px;
-		}
-
-		tr > th:nth-child(2),
-		tr > td:nth-child(2),
-		tr > th:nth-child(5),
-		tr > td:nth-child(5) {
-			max-width: 180px;
-		}
-	}
 }
 
 .alert {
@@ -656,8 +597,4 @@ a {
   margin-right: 20px;
   margin-top: 5px;
   margin-bottom: -5px;
-}
-
-.video_news {
-  
 }
