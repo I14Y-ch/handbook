@@ -28,7 +28,7 @@ Le concept décrit les informations contenues dans l’élément de donnée de f
 ## Core Public Service Vocabulary Application Profile (CPSV-AP)
 Le [Core Public Service Vocabulary Application Profile](https://joinup.ec.europa.eu/collection/semic-support-centre/solution/core-public-service-vocabulary-application-profile/about) (CPSV-AP) est un modèle de données qui décrit les services publics de manière structurée et lisible par machine en normalisant la sémantique.
 
-## Core vocabularies
+## Core vocabularies (vocabulaires de base)
 Les vocabulaires de base sont des modèles de données simplifiés, réutilisables et extensibles qui capturent les caractéristiques fondamentales d’une entité, telle qu’une personne ou une organisation publique, d’une manière neutre par rapport au contexte. 
 Exemples:
 
@@ -42,16 +42,15 @@ Le cycle de vie des données décrit les différentes phases par lesquelles pass
 ## Data Catalog Vocabulary (DCAT) 
 Le profil d’application _DCAT_ est un vocabulaire standardisé permettant de décrire les recueils de données et les services qui y sont liés. Il permet de structurer les informations de manière uniforme, ce qui facilite la recherche et améliore la lisibilité ainsi que l’archivage des données. Ce vocabulaire simplifie par ailleurs l’échange de données sur Internet. Le profil DCAT est basé sur le Resource Description Framework (RDF). Sa maintenance est assurée par le World Wide Web Consortium (W3C). De plus amples informations sont disponibles sur [W3.org](http://www.w3.org/TR/vocab-dcat).   
 
-La norme peut être adaptée à des profils d’application spécifiques. Le profil d’application suisse [DCAT-AP CH](https://www.dcat-ap.ch/) se base sur le profil de l’Union européenne et tient compte des particularités des espaces de données suisses. Il est développé par le groupe spécialisé «Open Gouvernement Data» de l’organe de normalisation [eCH](/handbook/de/glossar/#ech).
+La norme peut être adaptée à des profils d’application spécifiques. Le profil d’application suisse [DCAT-AP CH](https://www.dcat-ap.ch/) se base sur le profil de l’Union européenne et tient compte des particularités des espaces de données suisses. Il est développé par le groupe spécialisé «Open Gouvernement Data» de l’organe de normalisation [eCH](/handbook/fr/glossaire/#ech).
 
-Le vocabulaire DCAT s’articule autour de classes et de propriétés.. Les _classes_ décrivent des concepts de niveau supérieur tels que des organisations, des personnes, des recueils de données ou des sites Web. Chaque classe possède des propriétés qui fournissent des détails supplémentaires, tels que des titres, des mots-clés ou des adresses Internet.
+Le vocabulaire DCAT s’articule autour de classes et de propriétés. Les _classes_ décrivent des concepts de niveau supérieur tels que des organisations, des personnes, des recueils de données ou des sites Web. Chaque classe possède des propriétés qui fournissent des détails supplémentaires, tels que des titres, des mots-clés ou des adresses Internet.
 
 Certains termes peuvent être des classes ou des éléments. Le DCAT distingue les _classes et les propriétés_ par la manière dont elles sont écrites: une classe commence par une majuscule, une propriété par une minuscule. La classe de l’éditeur s’écrit donc `dcat:Publisher`. En revanche, pour indiquer qui a publié une entrée dans un recueil de données, on utilise les minuscules: `dcat:publisher`.
 
 Le DCAT compte quatre classes principales: la classe _Catalogue_ (`dcat:Catalog`) décrit un recueil de données qui peut contenir des jeux de données ou des interfaces électroniques (API). La classe _Dataset_ (`dcat:Dataset`) contient des informations sur les différents jeux de données et la classe _Data Service_ (`dcat:Dataservice`) sur les interfaces électroniques (APIs). Distribution ( `dcat:Distribution`) décrit une représentation spécifique du jeu de données, par exemple sous la forme d’une exportation dans un fichier CSV.
 
-La plateforme I14Y publiant également les services publics, par conséquence la classe _Service public_ (`dcat:Publicservice`) a été ajoutée au DCAT. Pour ces entrées, on utilise le profil [Core Public Service Vocabulary Application 
-Le profil d’application _DCAT_ est un vocabulaire standardisé permettant de décrire les recueils de données et les services qui y sont liés. Il permet de structurer les informations de manière uniforme, ce qui facilite la recherche et améliore la lisibilité ainsi que l’archivage des données. Ce vocabulaire simplifie par ailleurs l’échange de données sur Internet. Le profil DCAT est basé sur le Resource Description Framework (RDF). Sa maintenance est assurée par le World Wide Web Consortium (W3C). De plus amples informations sont disponibles sur [W3.org](http://www.w3.org/TR/vocab-dcat).   
+La plateforme I14Y publiant également les services publics, par conséquence la classe _Service public_ (`dcat:Publicservice`) a été ajoutée au DCAT. Pour ces entrées, on utilise le profil [Core Public Service Vocabulary Application](https://interoperable-europe.ec.europa.eu/collection/semic-support-centre/solution/core-public-service-vocabulary-application-profile) de l'Union européenne.
 
 ## Data custodian (consignataire des données)
 Les data custodians sont responsables de la tenue et de la transmission sécurisées des données, qu’il met à la disposition de tous les utilisateurs légitimés dans le respect des exigences définies conjointement. [Vers la définition dans TERMDAT](https://register.ld.admin.ch/termdat/502924)
