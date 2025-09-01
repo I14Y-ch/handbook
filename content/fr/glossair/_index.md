@@ -23,7 +23,7 @@ Organised inventory of data assets in an organisation. [Vers la définition dans
 Inventaire détaillé des recueils de données d’une organisation listés dans un répertoire numérique. [Vers la définition dans TERMDAT](https://register.ld.admin.ch/termdat/71450)
 
 ## Concept de l’élément de données (concept)
-Le concept décrit les informations contenues dans l’élément de donnée de façon claire et exhaustive. Il peut s’agir d’un nombre, d’une chaîne de caractères, d’une date ou d’une liste de codes comprenant des valeurs prédéfinies. La norme ISO 11179-1:2023 est utilisée pour établir des définitions sur la plateforme I14Y. Le chapitre [Konzepte erfassen](handbook/de/publikation/konzepte/) décrit comment procéder étape par étape (actuellement disponible en allemand uniquement). 
+Le concept décrit les informations contenues dans l’élément de donnée de façon claire et exhaustive. Il peut s’agir d’un nombre, d’une chaîne de caractères, d’une date ou d’une liste de codes comprenant des valeurs prédéfinies. La norme ISO 11179-1:2023 est utilisée pour établir des définitions sur la plateforme I14Y. Le chapitre [Konzepte erfassen](handbook/de/publikation/konzepte/) (actuellement disponible en allemand uniquement) décrit comment procéder étape par étape . 
 
 ## Core Public Service Vocabulary Application Profile (CPSV-AP)
 Le [Core Public Service Vocabulary Application Profile](https://joinup.ec.europa.eu/collection/semic-support-centre/solution/core-public-service-vocabulary-application-profile/about) (CPSV-AP) est un modèle de données qui décrit les services publics de manière structurée et lisible par machine en normalisant la sémantique.
