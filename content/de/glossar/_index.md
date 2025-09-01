@@ -71,7 +71,7 @@ Das Datenelement ist die kleinste beschreibende Einheit einer Datensammlung. Oft
 
 ## Datenelementkonzept (Konzept)
 Das Datenelementkonzept beschreibt die im Datenelement enthaltenen Informationen eindeutig und vollständig. Bei einem Konzept kann es sich um eine Zahl, eine Zeichenkette, ein Datum oder um eine Codeliste mit vordefinierten Werten handeln.
-Zur Beschreibung der Konzepte wird bei der I14Y der Standard ISO 11179-1:2023 verwendet. Eine Schritt-für-Schritt-Anleitung zur Erfassung eines Konzepts ist im Kapitel im Kapitel [Konzepte erfassen](de/publikation/konzepte/) beschrieben. 
+Zur Beschreibung der Konzepte wird bei der I14Y der Standard ISO 11179-1:2023 verwendet. Eine Schritt-für-Schritt-Anleitung zur Erfassung eines Konzepts ist im Kapitel [Konzepte erfassen](handbook/de/publikation/konzepte/) beschrieben. 
 
 ## Datenformat
 Definition, wie Daten strukturiert werden und wie sie bei der Verarbeitung zu interpretieren sind. [Zur Definition auf TERMDAT](https://register.ld.admin.ch/termdat/502964)
