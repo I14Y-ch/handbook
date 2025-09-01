@@ -12,7 +12,6 @@ type: docs
 &nbsp;
  
 Das I14Y-Glossar enthält alle zentralen Begriffe, die für das Verständnis und die Arbeit mit der Interoperabilitätsplattform relevant sind. Begriffe, die in der Terminologiedatenbank der Bundesverwaltung TERMDAT definiert sind, sind entsprechend verlinkt. 
-Das Glossar wird bald auch in den Sprachen Französisch, Italienisch und Englisch verfügbar sein. 
 
 ## Abnahmeumgebung
 Die Abnahmeumgebung (auch Abnahmetestumgebung oder User Acceptance Testing (UAT) Umgebung genannt) ermöglicht es, neue Software vor der Freigabe unter realitätsnahen Bedingungen zu testen. Im Fall von I14Y werden hier neue Funktionen vor dem Release getestet.
@@ -20,22 +19,21 @@ Die Abnahmeumgebung (auch Abnahmetestumgebung oder User Acceptance Testing (UAT)
 ## Anwendung
 Softwareprogramm zur Ausführung von bestimmten Bearbeitungsfunktionen, das für einen speziellen Einsatz entwickelt wurde. [Zur Definition auf TERMDAT](https://register.ld.admin.ch/termdat/70368)
 
-## Behördenleistungen 
-Behördenleistungen werden mit öffentlichen Mitteln finanziert. Die entsprechenden Dienstleistungen können zugunsten einer Einzelperson, eines Unternehmens oder einer anderen öffentlichen Stelle erbracht werden. Eine Dienstleistung besteht unabhängig davon, ob sie in Anspruch genommen wird oder nicht. 
-
 ## Codeliste
 Eine Codeliste ist eine strukturierte Auflistung von Werten (Codes), die in einem bestimmten Kontext verwendet werden. Sie kann offen (erweiterbar) oder geschlossen (nicht erweiterbar) sein und kann standardisiert (z.B. ISO 3166 für Ländercodes) oder organisationsspezifisch definiert sein.
 
 ## Core Vocabularies (Kernvokabulare)
 Kernvokabulare sind vereinfachte, wiederverwendbare und erweiterbare Datenmodelle, die die grundlegenden Merkmale einer Einheit, z. B. einer Person oder einer öffentlichen Organisation, auf kontextneutrale Weise erfassen. 
 Beispiele:  
-• EU Core Vocabularies 
+
+• [EU Core Vocabularies](https://interoperable-europe.ec.europa.eu/collection/semic-support-centre/core-vocabularies)
+
 • [Dublin Core Metadata](https://www.dublincore.org/)
 
 ## Data Catalog Vocabulary (DCAT) 
 Das _Data Catalog Vocabulary (DCAT)_ ist ein standardisiertes Vokabular zur Beschreibung von Datensätzen und -diensten. Es ermöglicht die einheitliche Strukturierung von Informationen, wodurch die Auffindbarkeit, Lesbarkeit und Archivierung von Daten verbessert wird. Zudem vereinfacht es den Datenaustausch im Internet. DCAT basiert auf dem _Resource Description Framework (RDF)_ und wird vom _World Wide Web Consortium (W3C)_ gepflegt. Weitere Informationen sind auf [W3.org](http://www.w3.org/TR/vocab-dcat) zu finden.   
 
-Der Standard kann durch spezifische Anwendungsprofile angepasst werden. So beruht das Schweizer Anwendungsprofil [DCAT-AP CH](https://www.dcat-ap.ch/) auf dem Profil der Europäischen Union und berücksichtigt die Besonderheiten der Schweizer Datenräume. Es wird es von der Fachgruppe "Open Gouvernement Data" des Standardisierungsgremiums [eCH](/handbook/de/glossar/#ech) entwickelt.
+Der Standard kann durch spezifische Anwendungsprofile angepasst werden. So beruht das Schweizer Anwendungsprofil [DCAT-AP CH](https://www.dcat-ap.ch/) auf dem Profil der Europäischen Union und berücksichtigt die Besonderheiten der Schweizer Datenräume. Es wird es von der Fachgruppe «Open Gouvernement Data» des Standardisierungsgremiums [eCH](/handbook/de/glossar/#ech) entwickelt.
 
 Das DCAT-Vokabular besteht aus Klassen und Eigenschaften. __Klassen__ beschreiben übergeordnete Konzepte wie Organisationen, Personen, Datensammlungen oder Websites. Jede Klasse hat __Eigenschaften__, die zusätzliche Details, z. B. Titel, Schlagworte oder Internetadressen, liefern. 
 
@@ -48,7 +46,7 @@ Auf I14Y werden auch digitale Behördenleistungen beschrieben. Deshalb wurde DCA
 ## Data Custodian (Datenhalter)
 Ein Data Custodian ist verantwortlich für die sichere Haltung und Übermittlung der Daten und stellt diese gemäss den gemeinsam definierten Anforderungen in geeigneter Art und Weise allen legitimierten Nutzern zur Verfügung. [Zur Definition auf TERMDAT](https://register.ld.admin.ch/termdat/502924)
 
-## Data Governance
+## Data Governance (Datengouvernanz)
 Set von Regeln, Entscheidungsbefugnissen und Rechenschaftspflichten für informationsbezogene Prozesse, durch die festgelegt wird, wer mit welchen Informationen, wann und unter welchen Bedingungen unter Verwendung welcher Methoden welche Handlungen ausführen darf bzw. muss. [Zur Definition auf TERMDAT](https://register.ld.admin.ch/termdat/387641)
 
 ## Data Owner (Dateneigner)
@@ -70,8 +68,7 @@ Datenanbietende, alternativ Datenlieferanten, sind Organisationen, die innerhalb
 Das Datenelement ist die kleinste beschreibende Einheit einer Datensammlung. Oft wird das Datenelement auch als Attribut, (definierte) Variable oder «Spalte» bezeichnet. Das Datenelement enthält die einzelnen Werte, z.B. die AHV-Nummer, die Anzahl leerstehender Wohnungen oder die Messwerte der Wassertemperatur. Jedes Datenelement verweist auf ein Datenelementkonzept.
 
 ## Datenelementkonzept (Konzept)
-Das Datenelementkonzept beschreibt die im Datenelement enthaltenen Informationen eindeutig und vollständig. Bei einem Konzept kann es sich um eine Zahl, eine Zeichenkette, ein Datum oder um eine Codeliste mit vordefinierten Werten handeln.
-Zur Beschreibung der Konzepte wird bei der I14Y der Standard ISO 11179-1:2023 verwendet. Eine Schritt-für-Schritt-Anleitung zur Erfassung eines Konzepts ist im Kapitel [Konzepte erfassen](handbook/de/publikation/konzepte/) beschrieben. 
+Das Datenelementkonzept beschreibt die im Datenelement enthaltenen Informationen eindeutig und vollständig. Bei einem Konzept kann es sich um eine Zahl, eine Zeichenkette, ein Datum oder um eine Codeliste mit vordefinierten Werten handeln. Zur Beschreibung der Konzepte wird bei der I14Y der Standard ISO 11179-1:2023 verwendet. Eine Schritt-für-Schritt-Anleitung zur Erfassung eines Konzepts ist im Kapitel [Konzepte erfassen](/handbook/de/publikation/konzepte/) beschrieben. 
 
 ## Datenformat
 Definition, wie Daten strukturiert werden und wie sie bei der Verarbeitung zu interpretieren sind. [Zur Definition auf TERMDAT](https://register.ld.admin.ch/termdat/502964)
@@ -104,7 +101,7 @@ Ein Datensatz ist eine strukturierte Sammlung von Daten, die sich auf ein bestim
 Rechtliche Massnahmen, die dem Schutz der Persönlichkeit und der Grundrechte von natürlichen Personen dienen, deren Daten durch private Personen oder Bundesorgane bearbeitet werden. [Zur Definition auf TERMDAT](https://register.ld.admin.ch/termdat/52411)
 
 ## Datenstandard
-Ein Datenstandard ist eine Datenspezifikation, die andere Daten beschreibt oder definiert [ISO111179]. Zwei wichtige Arten von Datenstandards sind Datenmodelle (einschliesslich Kernvokabulare) und Referenzdaten (einschliesslich Konzepte)
+Ein Datenstandard ist eine Datenspezifikation, die andere Daten beschreibt oder definiert [ISO111179]. Zwei wichtige Arten von Datenstandards sind Datenmodelle (einschliesslich Kernvokabulare) und Referenzdaten (einschliesslich Konzepte).
 
 ## Datenstruktur
 Zusammenfassung von Datenelementen, die in einem logischen Zusammenhang stehen und zur Speicherung und Organisation von Daten verwendet werden, deren Anordnung eine effiziente Verwaltung sowie den Zugriff ermöglicht. [Zur Definition auf TERMDAT](https://register.ld.admin.ch/termdat/502986)
@@ -199,17 +196,17 @@ Gemäss Eurostat beschreiben Referenz-Metadaten (manchmal auch erklärende Metad
 ## Resource Description Framework (RDF)
 RDF ist die Basissprache des semantischen Webs und ermöglicht die Darstellung von Metadaten in Form von Tripeln (Subjekt-Prädikat-Objekt). 
 
-## Statistical Data and Metadata EXchange (SDMX)  
-SDMX ist eine Initiative zur Standardisierung des Datenaustauschs zwischen internationalen Organisationen und ihren Mitgliedsländern. Massgeblich entwickelt wurde er von der Weltbank und der Europäischen Union. SDMX definiert sowohl einheitliche Datenformate als auch Metadatenstandards und Methoden zur Datenübertragung. Weitere Informationen: [sdmx.org](https://sdmx.org). Auf der I14Y können Codelisten im SDMX-Format eingelesen werden (siehe [Erfassen von Konzepten](/handbook/de/publikation/konzepte/)).
-
 ## SPARQL
 Standardabfragesprache zum Abrufen und zur Bearbeitung von Daten, die im RDF-Format dargestellt werden. [Zur Definition auf TERMDAT](https://register.ld.admin.ch/termdat/503123)
 
 ## Stammdaten
 Die Stammdaten sind grundlegende Informationen, die von der öffentlichen Verwaltung zwingend benötigt werden. Sie können Personen, Unternehmen, aber auch diverse Objekte wie etwa Gebäude oder Fahrzeuge beschreiben. Für jedes dieser Objekte muss ein abschliessender Katalog der Merkmale (Attribute) verfügbar sein. Die Stammdaten sind zustandsorientierte Daten. Sie bleiben im Zeitverlauf relativ konstant. Und sie ändern sich eher selten. Eine Sonderform von Stammdaten sind die so genannten Referenzdaten wie etwa die Codes für Flughäfen oder Länder. Diese dienen der Klassifizierung von Stammdaten. [Zur Definition auf TERMDAT](https://register.ld.admin.ch/termdat/379368)
 
+## Statistical Data and Metadata EXchange (SDMX)  
+SDMX ist eine Initiative zur Standardisierung des Datenaustauschs zwischen internationalen Organisationen und ihren Mitgliedsländern. Massgeblich entwickelt wurde er von der Weltbank und der Europäischen Union. SDMX definiert sowohl einheitliche Datenformate als auch Metadatenstandards und Methoden zur Datenübertragung. Weitere Informationen: [sdmx.org](https://sdmx.org). Auf der I14Y können Codelisten im SDMX-Format eingelesen werden (siehe [Erfassen von Konzepten](/handbook/de/publikation/konzepte/)).
+
 ## Statistische Daten
-Statistical data is all data that has been collected or passed on for statistical purposes, in particular based on the Federal Statistics Act, and is therefore subject to statistical confidentiality.
+Statistische Daten sind alle Daten, die zu statistischen Zwecken, insbesondere auf Grundlage des Bundesstatistikgesetzes, erhoben oder weitergegeben wurden und daher der statistischen Geheimhaltung unterliegen.
 
 ## Swagger
 [Swagger](https://swagger.io/) ist eine Kollektion frei verfügbarer Hilfsmittel zur Publikation und Nutzung von elektronischen Schnittstellen (APIs). Auf der I14Y werden insbesondere die Dokumentationsmöglichkeiten genutzt: Dank der Swagger-Weboberfläche ist rasch ersichtlich, was mit der betreffenden API möglich ist. Zudem können die Abfragemöglichkeiten bei sämtlichen Endpunkten direkt ausprobiert werden. Weitere Informationen sind unter [Metadaten abrufen](/handbook/de/metadaten_abrufen/api) zu finden.
@@ -217,7 +214,7 @@ Statistical data is all data that has been collected or passed on for statistica
 ## Triplestore
 Eine Datenbank, die speziell für die Speicherung und den Abruf von RDF-Daten konzipiert ist. Ähnlich wie eine relationale Datenbank speichert ein Triplestore Daten und ruft sie über eine Abfragesprache ab. Im Gegensatz zu einer relationalen Datenbank speichert ein Triplestore jedoch nur einen einzigen Datentyp, den Tripel. Er benötigt daher keine Initialisierungsphase, um neue Daten zu speichern. Das heisst, er muss keine Tabellen erstellen wie in einer relationalen Datenbank. Ausserdem ist ein Triplestore für die Speicherung einer grossen Anzahl von Tripeln und das Abrufen dieser Tripel mithilfe der Abfragesprache SPARQL optimiert.
 
-## Triplet
+## Tripel
 Tripel sind die kleinste Struktur zur Beschreibung von Ressourcen im RDF-Modell. Im RDF-Modell ist eine Aussage dreiteilig und besteht aus zwei Knoten, die durch eine Kante verbunden sind und dabei das Subjekt, das Prädikat und das Objekt repräsentieren. Üblicherweise werden Tripel als Graph dargestellt.
 
 ## Uniform Resource Identifier (URI)
