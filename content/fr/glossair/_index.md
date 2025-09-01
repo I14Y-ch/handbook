@@ -1,7 +1,7 @@
 ---
-title: Glossair
-slug: glossair
-translationKey: glossair
+title: Glossaire
+slug: glossaire
+translationKey: glossary
 weight: 70
 type: docs
 ---
@@ -23,15 +23,17 @@ Organised inventory of data assets in an organisation. [Vers la définition dans
 Inventaire détaillé des recueils de données d’une organisation listés dans un répertoire numérique. [Vers la définition dans TERMDAT](https://register.ld.admin.ch/termdat/71450)
 
 ## Concept de l’élément de données (concept)
-Le concept décrit les informations contenues dans l’élément de donnée de façon claire et exhaustive. Il peut s’agir d’un nombre, d’une chaîne de caractères, d’une date ou d’une liste de codes comprenant des valeurs prédéfinies. La norme ISO 11179-1:2023 est utilisée pour établir des définitions sur la plateforme I14Y. Le [chapitre Saisir un concept] (de/publikation/konzepte/) décrit comment procéder étape par étape (actuellement disponible en allemand uniquement). 
+Le concept décrit les informations contenues dans l’élément de donnée de façon claire et exhaustive. Il peut s’agir d’un nombre, d’une chaîne de caractères, d’une date ou d’une liste de codes comprenant des valeurs prédéfinies. La norme ISO 11179-1:2023 est utilisée pour établir des définitions sur la plateforme I14Y. Le chapitre [Saisir un concept](handbook/de/publikation/konzepte/) décrit comment procéder étape par étape (actuellement disponible en allemand uniquement). 
 
 ## Core Public Service Vocabulary Application Profile (CPSV-AP)
 Le [Core Public Service Vocabulary Application Profile](https://joinup.ec.europa.eu/collection/semic-support-centre/solution/core-public-service-vocabulary-application-profile/about) (CPSV-AP) est un modèle de données qui décrit les services publics de manière structurée et lisible par machine en normalisant la sémantique.
 
 ## Core vocabularies
 Les vocabulaires de base sont des modèles de données simplifiés, réutilisables et extensibles qui capturent les caractéristiques fondamentales d’une entité, telle qu’une personne ou une organisation publique, d’une manière neutre par rapport au contexte. 
-Exemples:  
-• EU Core Vocabularies 
+Exemples:
+
+• [EU Core Vocabularies](https://interoperable-europe.ec.europa.eu/collection/semic-support-centre/core-vocabularies) 
+
 • [Dublin Core Metadata](https://www.dublincore.org/)
 
 ## Cycle de vie des données
@@ -92,7 +94,7 @@ Informations concernant une personne physique identifiée ou identifiable. [Vers
 Les données statistiques sont toutes les données qui ont été collectées ou transmises à des fins statistiques, notamment sur la base de la loi fédérale sur la statistique, et qui sont donc soumises au secret statistique.
 
 ## eCH 
-L’association à but non lucratif eCH promeut, développe et adopte des normes dans le domaine de la cyberadministration. Les nombreux groupes de travail d’eCH réunissent aussi bien des représentants de la Confédération et des cantons que de l’économie privée et de la science. C’est le principal organe de normalisation dans le domaine de la cyberadministration en Suisse. De plus amples informations ainsi que les documents relatifs aux normes adoptées sont disponibles sur le site ech.ch. [ech.ch](https://ech.ch).
+L’association à but non lucratif eCH promeut, développe et adopte des normes dans le domaine de la cyberadministration. Les nombreux groupes de travail d’eCH réunissent aussi bien des représentants de la Confédération et des cantons que de l’économie privée et de la science. C’est le principal organe de normalisation dans le domaine de la cyberadministration en Suisse. De plus amples informations ainsi que les documents relatifs aux normes adoptées sont disponibles sur le site [ech.ch](https://ech.ch).
 
 ## Élément de données
 L’élément de données est la plus petite unité descriptive d’un jeu de données. Il est aussi appelé attribut, variable (définie) ou colonne. L’élément de données contient les valeurs à proprement parler (p. ex. numéros AVS, nombre de logements vacants, mesures de la température de l’eau). Chaque élément de données renvoie à une concept. 
@@ -110,7 +112,7 @@ L’environnement de test (également appelé test de validation utilisateur ou 
 Structure qu’un programme d'application impose aux données. [Vers la définition dans TERMDAT](https://register.ld.admin.ch/termdat/502964)
 
 ## Geocat 
-[Geocat](https://geocat.ch) est un catalogue de métadonnées concernant les géoinformations de la Suisse et de la Principauté de Liechtenstein. Les offices fédéraux, les cantons, les communes, les instituts de recherche et les entreprises y saisissent des informations sur leurs géodonnées, c’est-à-dire sur des jeux de données en lien avec la géographie, des cartes et des photos aériennes. Le service est géré par l’Office fédéral de topographie (swisstopo). Vous trouverez de plus amples informations à la rubrique dédiée aux différentes plateformes. [La plateforme idéale pour chaque application](/handbook/fr/introduction/plateformes/).
+[Geocat](https://geocat.ch) est un catalogue de métadonnées concernant les géoinformations de la Suisse et de la Principauté de Liechtenstein. Les offices fédéraux, les cantons, les communes, les instituts de recherche et les entreprises y saisissent des informations sur leurs géodonnées, c’est-à-dire sur des jeux de données en lien avec la géographie, des cartes et des photos aériennes. Le service est géré par l’Office fédéral de topographie (swisstopo). Vous trouverez de plus amples informations à la rubrique dédiée aux différentes plateformes [La plateforme idéale pour chaque application](/handbook/fr/introduction/plateformes/).
 
 ## Géodonnées de base
 Les géodonnées de base se fondent sur un acte législatif fédéral, cantonal ou communal: p. ex. la mensuration officielle, un plan de zone de construction ou l’inventaire des haut-marais. [Vers la définition dans TERMDAT](https://register.ld.admin.ch/termdat/71443)
@@ -125,7 +127,7 @@ Les géodonnées sont des données à référence spatiale. Elles décrivent l�
 Pratique consistant à recueillir, conserver et utiliser des données de manière sécurisée, efficace et rentable. [Vers la définition dans TERMDAT](https://register.ld.admin.ch/termdat/502636)
 
 ## Gestion nationale des données (NaDB)
-Le programme de gestion nationale des données (programme NaDB) vise à rendre la gestion des données des pouvoirs publics plus simple et plus efficace grâce à l’utilisation multiple des données. Il a été instauré par le Conseil fédéral et lancé en octobre 2019. Les départements de la Confédération, la Chancellerie fédérale, tous les domaines du système statistique suisse, certains représentants des cantons, les partenaires sociaux et d’autres organisations et associations privées participent au programme NaDB. La responsabilité de sa mise en œuvre incombe à l’Office fédéral de la statistique (OFS). Sa pièce maîtresse sur le plan technique est la plateforme I14Y. Vous trouverez plus d’informations au sujet du programme [sont disponibles sous ce lien](https://www.bfs.admin.ch/bfs/en/home/nadb/nadb.html). [Vers la définition dans TERMDAT](https://register.ld.admin.ch/termdat/481315)
+Le programme de gestion nationale des données (programme NaDB) vise à rendre la gestion des données des pouvoirs publics plus simple et plus efficace grâce à l’utilisation multiple des données. Il a été instauré par le Conseil fédéral et lancé en octobre 2019. Les départements de la Confédération, la Chancellerie fédérale, tous les domaines du système statistique suisse, certains représentants des cantons, les partenaires sociaux et d’autres organisations et associations privées participent au programme NaDB. La responsabilité de sa mise en œuvre incombe à l’Office fédéral de la statistique (OFS). Sa pièce maîtresse sur le plan technique est la plateforme I14Y. Vous trouverez plus d’informations au sujet du programme sont disponibles sous [ce lien](https://www.bfs.admin.ch/bfs/en/home/nadb/nadb.html). [Vers la définition dans TERMDAT](https://register.ld.admin.ch/termdat/481315)
 
 ## Gouvernance des données
 Cadre de contrôle qualité visant à gérer, exploiter, optimiser, évaluer, protéger, contrôler et entretenir les données des entreprises. [Vers la définition dans TERMDAT](https://register.ld.admin.ch/termdat/387641)
@@ -182,7 +184,7 @@ L’Organisation internationale de normalisation (ISO) est une association d’o
 Le but du principe «once-only» est que la population et les entreprises ne doivent communiquer certaines informations aux autorités qu’une seule fois et que ces informations puissent ensuite être échangées entre les offices, si cela est explicitement prévu. Le principe «once-only» doit permettre de réduire la charge de travail, aussi bien pour les citoyens et les entreprises que pour l’administration. La mise en œuvre du principe «once-only» est un objectif central du programme de gestion nationale des données (NaDB). [Vers la définition dans TERMDAT](https://register.ld.admin.ch/termdat/480493)
 
 ## Principes FAIR
-Les principles FAIR postulent que les données doivent être faciles à trouver _(**F**indable)_, accessibles _(**A**ccessible)_, interopérables _(**I**nteroperable)_ et réutilisables _(**R**eusable)_. Les données doivent être faciles à trouver, tant pour les personnes que pour les systèmes informatiques. Elles doivent être accessibles via un protocole de communication standard ouvert, libre et universellement implémentable. Une licence univoque renseigne sur la manière dont les données peuvent être utilisées. Tant l’interopérabilité sémantique que l’interopérabilité syntaxique sont assurées. Les principes FAIR impliquent l’utilisation de métadonnées contextuelles précises, ainsi que de contenus et de formats respectant les grands standards internationaux et utilisant un vocabulaire informatique respectant les principes FAIR. L’application de normes communes facilite la réutilisation des données (gratuite, sous conditions ou contre paiement). [Cet article de Nature] ](https://www.nature.com/articles/sdata201618) donne des informations de base sur les principes FAIR.
+Les principles FAIR postulent que les données doivent être faciles à trouver _(**F**indable)_, accessibles _(**A**ccessible)_, interopérables _(**I**nteroperable)_ et réutilisables _(**R**eusable)_. Les données doivent être faciles à trouver, tant pour les personnes que pour les systèmes informatiques. Elles doivent être accessibles via un protocole de communication standard ouvert, libre et universellement implémentable. Une licence univoque renseigne sur la manière dont les données peuvent être utilisées. Tant l’interopérabilité sémantique que l’interopérabilité syntaxique sont assurées. Les principes FAIR impliquent l’utilisation de métadonnées contextuelles précises, ainsi que de contenus et de formats respectant les grands standards internationaux et utilisant un vocabulaire informatique respectant les principes FAIR. L’application de normes communes facilite la réutilisation des données (gratuite, sous conditions ou contre paiement). [Cet article de Nature](https://www.nature.com/articles/sdata201618) donne des informations de base sur les principes FAIR.
 
 ## Protection des données
 Ensemble de mesures juridiques qui protègent la personnalité et les droits fondamentaux des personnes physiques dont les données sont traitées par des particuliers ou des organes fédéraux. [Vers la définition dans TERMDAT](https://register.ld.admin.ch/termdat/52411)
@@ -199,13 +201,13 @@ Langage de requête standard permettant d’extraire et de manipuler des donnée
 ## Standard de données
 Un standard de données est une spécification de métadonnées structurelles qui décrit ou définit d’autres données [ISO111179]. Les métadonnées structurelles indiquent comment les objets composés sont assemblés. Les deux principaux types de standard de données sont les modèles de données (y compris les vocabulaires de base) et les données de référence (y compris les concepts).
 ## Statistical Data and Metadata EXchange (SDMX) 
-Le Statistical Data and Metadata EXchange (SDMX) est un projet visant à normaliser l’échange de données entre les organisations internationales et leurs pays membres. Il a été développé en grande partie par la Banque mondiale et l’Union européenne. Le projet SDMX définit aussi bien des formats de données uniformes que des normes de métadonnées et des méthodes de transfert de données. [Informations supplémentaires:](sdmx.org). La plateforme I14Y peut lire des listes de codes au format SDMX (voir [Erfassen von Konzepten, actuellement uniquement en allemand](/handbook/de/publikation/konzepte/)).
+Le Statistical Data and Metadata EXchange (SDMX) est un projet visant à normaliser l’échange de données entre les organisations internationales et leurs pays membres. Il a été développé en grande partie par la Banque mondiale et l’Union européenne. Le projet SDMX définit aussi bien des formats de données uniformes que des normes de métadonnées et des méthodes de transfert de données. [Informations supplémentaires:](sdmx.org). La plateforme I14Y peut lire des listes de codes au format SDMX (voir [Erfassen von Konzepten (actuellement uniquement en allemand)](/handbook/de/publikation/konzepte/)).
 
 ## Structure de données
 Manière de disposer les données et d’organiser les liens qui permettront de les retrouver. [Vers la définition dans TERMDAT](https://register.ld.admin.ch/termdat/502986)
 
 ## Swagger
-[Swagger](https://swagger.io/) est une collection d’outils librement disponibles pour la publication et l’utilisation d’interfaces électroniques (API). Les possibilités de documentation qu’offre la plateforme I14Y sont particulièrement appréciées: l’interface Web de Swagger permet de voir rapidement quelles sont les possibilités offertes par chaque API. Elle permet en outre de tester directement les possibilités de requête pour tous les points d’accès. De plus amples informations sont disponibles à la rubrique  [Elektronische Schnittstelle (API) abrufen](/handbook/de/metadaten_abrufen/api), actuellement uniquement en allemand.
+[Swagger](https://swagger.io/) est une collection d’outils librement disponibles pour la publication et l’utilisation d’interfaces électroniques (API). Les possibilités de documentation qu’offre la plateforme I14Y sont particulièrement appréciées: l’interface Web de Swagger permet de voir rapidement quelles sont les possibilités offertes par chaque API. Elle permet en outre de tester directement les possibilités de requête pour tous les points d’accès. De plus amples informations sont disponibles à la rubrique  [Elektronische Schnittstelle (API) abrufen](/handbook/de/metadaten_abrufen/api) (actuellement uniquement en allemand).
 
 ## Triple
 La plus petite structure de description des ressources du modèle RDF. Dans le modèle RDF, une déclaration est représentée par trois éléments: deux sommets reliés par une arête reflétant le sujet, le prédicat et l’objet d’une phrase. Par convention, RDF propose de représenter les triplets sous forme de graphe.
