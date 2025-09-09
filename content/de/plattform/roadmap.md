@@ -23,42 +23,41 @@ timeline
     title Roadmap Interoperabilitätsplattform I14Y
     
     section 2025
-        PI 25 (27.03.2025 - 04.06.2025)
-        : Migration aller Daten in eine zentrale Datenbank. Dadurch wird die globale Suche beschleunigt.
-        : Ein Inhaltsverzeichnis zur Navigation auf Detailseiten wird eingeführt.
-        : Bestehende Konzepte können über die API aktualisiert werden.
-        : Ein neuer Endpunkt erlaubt es gefilterte Listen von Konzepten abzurufen.
-        : Auf Übersichtsseiten wird angezeigt, wie offen die Daten zugänglich sind. 
-        : Komplexe Strukturen von Datensätzen können in den Formaten RDF/TTL hochgeladen und dargestellt werden. 
-        : Datensätze können über die Weboberfläche heruntergeladen und hochgeladen werden.
-        : Die Metadaten der Organisationen werden mit zusätzlichen Informationen angereichert und dargestellt.
-        : Eine Suche in den Einträgen der Codelisten wird eingeführt.
-        : Die Suche wird verbessert.
-        
-        PI 26 - 27 (05.06.2025 - 09.12.2025)
-        : Die Plattform wird in die öffentliche Cloud migriert.
-        : Komplexe Strukturen von Datensätzen lassen sich über die Weboberfläche erfassen und editieren.
-        : URIs/Permalinks werden für alle Objekte eingeführt.
-        : Neue Endpunkte zu Dataservices und Public services auf der Partner-API werden eingeführt.
-        : ⭐ Einführung von Log-Möglichkeiten (Audit Trail)
-        : ⭐ Änderungen an Objekten werden aufgezeichnet (Audit Trail)
-        : Einführen von Mapping-Tabellen zur Dokumentation von Unterschieden zwischen Konzepten.
-        : ⭐ Notifikationen bei Änderungen an Metadaten können abonniert werden.
-        : Ein Toolbox mit weiteren Import- und Exportmöglichkeiten wird zur Verfügung gestellt.
-        : ⭐ Zusätzliche Dashboard-Auswertungen
-  
+    
+        Q4 2025 (12.09.2025 - 12.2025)
+        : Die Plattform wird in die öffentliche Cloud migriert. 1️⃣
+        : Komplexe Strukturen von Datensätzen lassen sich über die Weboberfläche editieren.1️⃣
+        : URIs/Permalinks werden für alle Objekte eingeführt.1️⃣
+        : Wiederverwendung von Konzepten 1️⃣
+        : Zusätzliche Arbeiten an den Strukturen – Anpassung an die EMBAG-Vorgaben 1️⃣
+        : ⭐ Einführen von Mapping-Tabellen zur Dokumentation von Unterschieden zwischen Konzepten.1️⃣
+        : Einführung von Log-Möglichkeiten (Audit Trail) 2️⃣
+        : ⭐ Ein Toolbox mit weiteren Import- und Exportmöglichkeiten wird zur Verfügung gestellt Phase II. 2️⃣
+        : Verbesserung der Benutzeroberfläche gemass Feedback der Nutzer 3️⃣ 
+
     section 2026
-        PIs 28 - 31 (10.12.2025 - 31.12.2026)
-        : Vorschau auf die Daten wird eingebaut.
-        : Automatisches Onboarding der Bundesverwaltung.
-        : ⭐ Möglichkeit zur Dokumentation von Datenflüssen (Data Lineage) wird geschaffen
-        : Erweiterung der Verbindungsmöglichkeiten zu Tools.
-        : Freigabe des Programmcodes (Open Source).
-        : Abschluss der Projektphase.
+        Q1-Q4 2026 (05.12.2025 - 31.12.2026 / tbd)
+        : Harmonisierungstools - EMBAG-Vorgaben 1️⃣
+        : Co-Entwicklung regeln 1️⃣
+        : Freigabe des Programmcodes (Open Source). 1️⃣
+        : Abschluss der Projektphase. 1️⃣
+        : Handbuch, Anleitung. Etc 1️⃣
+        : Änderungen an Objekten werden aufgezeichnet (Audit Trail) 2️⃣
+        : ⭐ Notifikationen bei Änderungen an Metadaten können abonniert werden. 2️⃣
+        : DCAT Quality Dashboard 2️⃣
+        : Anpassung an DCAT AP v3 2️⃣
+        : Zusätzliche Dashboard-Auswertungen 3️⃣       
+        : Automatisches Onboarding der Bundesverwaltung. 3️⃣
+        : Verbesserung des Benutzer-Dashboards 3️⃣ 
+        : Vorschau auf die Daten wird eingebaut. 3️⃣
+        : Erweiterung der Verbindungsmöglichkeiten zu Tools.3️⃣
+        : ⭐ Möglichkeit zur Dokumentation von Datenflüssen (Data Lineage) wird geschaffen 3️⃣ 
+
 {{< /mermaid >}}
 
 *⭐ Mit einem Stern gekennzeichnete Einträge sind Vorschläge des Projekts DVS BS+.*
 
+*1️⃣2️⃣3️⃣ Die Zahlen stehen für die Priorität der Features im Entwicklungsplan.*
 
 ### Open Source
 Der Programmcode der Interoperabilitätsplattform I14Y soll unter einer [freien Lizenz](https://www.gnu.org/licenses) Lizenz veröffentlichst werden. Die Interoperabilitätsstelle publiziert den Quellcode bis spätestens Ende der Projektphase, also bis Ende des Jahres 2026. Dies geschieht im Einklang mit dem zukünftigen Bundesgesetz über den Einsatz elektronischer Mittel zur Erfüllung von Behördenaufgaben ([EMBAG](https://www.fedlex.admin.ch/eli/fga/2023/787/de#art_9)). Laut Artikel 9 sollen die Bundesbehörden ihre Quellcodes -- sofern möglich -- frei zur Verfügung stellen. 

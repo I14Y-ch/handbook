@@ -18,44 +18,44 @@ Vous avez une proposition d'amélioration ou souhaitez signaler une erreur sur l
 
 {{< mermaid width="650px" >}}
 timeline
-    title Roadmap Plateforme d'interopérabilité I14Y
+    title Roadmap Interoperabilitätsplattform I14Y
     
     section 2025
-        PI 25 (27.03.2025 - 04.06.2025)
-        : Migration de toutes les données dans une base de données centrale. Cela accélère la recherche globale.
-        : Introduction d'une table des matières pour la navigation sur les pages de détail.
-        : Les concepts existants peuvent être mis à jour via l'API.
-        : Un nouveau point d'accès permet de récupérer des listes filtrées de concepts.
-        : Sur les pages d'aperçu, il sera indiqué dans quelle mesure les données sont librement accessibles.
-        : Les structures complexes de jeux de données peuvent être téléversées et affichées aux formats RDF/TTL.
-        : Les jeux de données peuvent être téléchargés et téléversés via l'interface web.
-        : Les métadonnées des organisations sont enrichies d'informations supplémentaires et affichées.
-        : Introduction d'une recherche dans les entrées des listes de codes.
-        : Amélioration de la recherche.
-        
-        PI 26 - 27 (05.06.2025 - 09.12.2025)
-        : La plateforme est migrée vers le cloud public.
-        : Les structures complexes de jeux de données peuvent être saisies et modifiées via l'interface web.
-        : Introduction d'URIs/permaliens pour tous les objets.
-        : Nouveaux points d'accès pour les services de données et services publics sur l'API partenaire.
-        : ⭐ Introduction de fonctionnalités de journalisation (piste d'audit)
-        : ⭐ Enregistrement des modifications apportées aux objets (piste d'audit)
-        : Introduction de tables de mappage pour documenter les différences entre les concepts.
-        : ⭐ Possibilité de s'abonner aux notifications de modifications des métadonnées.
-        : Mise à disposition d'une boîte à outils avec d'autres options d'importation et d'exportation.
-        : ⭐ Analyses de tableau de bord supplémentaires
-  
+    
+        Q4 2025 (12.09.2025 - 12.2025)
+        : La plateforme est migrée vers le cloud public. 1️⃣
+        : les structures complexes des ensembles de données peuvent être modifiées via l'interface web.1️⃣
+        : les URI/permalinks sont introduits pour tous les objets.1️⃣
+        : réutilisation des concepts 1️⃣
+        : travaux supplémentaires sur les structures – adaptation aux spécifications EMBAG 1️⃣
+        : ⭐ Introduction de tables de mapping pour documenter les différences entre les concepts.1️⃣
+        : Introduction de possibilités de journalisation (audit trail) 2️⃣
+        : ⭐ Une boîte à outils avec des possibilités d'importation et d'exportation supplémentaires est mise à disposition. Phase II. 2️⃣
+        : Amélioration de l'interface utilisateur en fonction des commentaires des utilisateurs 3️⃣
+
     section 2026
-        PIs 28 - 31 (10.12.2025 - 31.12.2026)
-        : Intégration d'un aperçu des données.
-        : Intégration automatique de l'administration fédérale.
-        : ⭐ Création d'une possibilité de documenter les flux de données (Data Lineage)
-        : Extension des possibilités de connexion aux outils.
-        : Publication du code source (Open Source).
-        : Fin de la phase de projet.
+        Q1-Q4 2026 (05.12.2025 - 31.12.2026 / tbd)
+        : Outils d'harmonisation - Spécifications EMBAG 1️⃣
+        : Réglementer le co-développement 1️⃣
+        : Publication du code du programme (open source). 1️⃣
+        : Achèvement de la phase de projet. 1️⃣
+        : Manuel, instructions. Etc. 1️⃣
+        : Les modifications apportées aux objets sont enregistrées et visibles (audit trail) 2️⃣
+        : ⭐ Il est possible de s'abonner aux notifications en cas de modifications des métadonnées. 2️⃣
+        : Tableau de bord de qualité DCAT 2️⃣
+        : Adaptation à DCAT AP v3 2️⃣
+        : Évaluations supplémentaires de la Dashboard 3️⃣
+        : Intégration automatique de l'administration fédérale (eIAM). 3️⃣
+        : amélioration du tableau de bord utilisateur 3️⃣
+        : intégration d'un aperçu des données. 3️⃣
+        : extension des possibilités de connexion aux outils.3️⃣
+        : ⭐ création d'une possibilité de documentation des flux de données (Data Lineage) 3️⃣
+
 {{< /mermaid >}}
 
 *⭐ Les entrées marquées d'un astérisque sont des propositions du projet DVS BS+.*
+
+*1️⃣2️⃣3️⃣ Les chiffres représentent la priorité des features dans le plan de développement.*
 
 ## Interfaces électroniques (API)
 La plateforme d'interopérabilité I14Y propose d'ores et déjà des interfaces électroniques (API) permettant de rechercher, de saisir et de traiter les métadonnées sur la plateforme. Ces API n'étant pas encore totalement finalisées, il n'y a guère eu d'informations à leur sujet. Nombre d'entre elles sont par ailleurs accessibles uniquement depuis le réseau de la Confédération. Si vous devez déjà utiliser ces interfaces, veuillez contacter le [service d'interopérabilité](mailto:i14y@bfs.admin.ch).  
