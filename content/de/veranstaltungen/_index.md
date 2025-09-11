@@ -28,15 +28,12 @@ timeline
          : Weiterbildung BFH (21.08.2025)
          : Swiss Data Space Forum (02.09.2025)
          : Ausbildungstag für Local Data Stewards (21.10.2025)
-      Q4 : Schweizer Statistiktage (05.–07.11.2025)
+      Q4 : Schweizer Statistiktage (05. – 07.11.2025)
          : Dinacon (18.11.2025)
          : Swiss CommUNITY Day on Data (04.12.2025)
 {{< /mermaid >}}
 
 ## Kommende Veranstaltungen
-
-### 2. September 2025: Swiss Data Space Forum
-Kurzinputs zu I14Y im Rahmen von Workshops am [Swiss Data Space Forum](https://forum.swissdataalliance.ch) auf dem Campus HSLU Rotkreuz.
 
 ### 21. Oktober 2025: Ausbildungstag für Local Data Stewards
 Welche Möglichkeiten bietet I14Y zur Inventarisierung und Harmonisierung von Daten? Lernen Sie die Plattform am Ausbildungstag für Local Data Stewards in Neuchâtel genau kennen. Weitere Informationen folgen. Anmeldung unter [i14y@bfs.admin.ch](mailto:i14y@bfs.admin.ch).   
@@ -52,7 +49,9 @@ Am 4. Dezember 2025 trifft sich die Schweizer Daten-Community im Forum Fribourg 
 
 ## Vergangene Veranstaltungen
 
-- 9. Juli 2025: Informelles Treffen der Local Data Stewards
+- 02. September 2025: [Swiss Data Space Forum](https://forum.swissdataalliance.ch) auf dem Campus HSLU Rotkreuz.
+- 21. August 2025: Präsentation I14Y an der Weiterbildung Data Management und Open Government Data der Berner Fachhochschule
+- 09. Juli 2025: Informelles Treffen der Local Data Stewards
 - 27. Mai 2025: Steuerungsausschuss
 - 18. Februar 2025: Steuerungsausschuss
 - 16. Januar 2025: Informelles Treffen der Local Data Stewards
@@ -62,4 +61,3 @@ Am 4. Dezember 2025 trifft sich die Schweizer Daten-Community im Forum Fribourg 
 - 04. September 2024: Atelier an den Schweizer Statistiktagen
 - 22. August 2024: Modul an der Weiterbildung Data Management und Open Data an der Berner Fachhochschule
 - 18. Januar 2024: Präsentation I14Y an der Weiterbildung Data Management und Open Data an der Berner Fachhochschule
-- 21. August 2025: Präsentation I14Y an der Weiterbildung Data Management und Open Government Data der Berner Fachhochschule
