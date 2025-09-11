@@ -13,6 +13,14 @@ __FR:__ Ce site est en anglais. Seules les descriptions des grandes releases son
 
 The I14Y interoperability platform is under continuous development. New features are added with each release. Bugs are also fixed. The most important changes are briefly documented below. For detailed information on the development of the platform, please contact the [I14Y team](mailto:i14y@bfs.admin.ch). 
 
+## Release September 10 2025
+- Two new date fields have been introduced for electronic interfaces (APIs): the issue date and the date of last modification. This information makes it easier to track updates.
+- When creating public services and electronic interfaces (APIs), it is now possible to specify the responsible person and their deputy. This improves contact options and clarifies responsibilities.
+- Code list entries now have "Valid from" and "Valid to" fields. This allows the temporal validity of entries to be clearly defined, which is particularly helpful for classifications that change over time.
+- Similar to datasets, specifying an identifier for electronic interfaces (APIs) is now optional. If no identifier is entered, one is automatically generated.
+- Electronic interfaces (APIs) can now be deleted directly via the user interface. This simplifies the management of API descriptions that are no longer needed.
+- Various bug fixes to improve stability and user-friendliness.
+
 ## Release July 30 2025
 - Specifying an identifier for datasets is now optional. If no identifier is entered, one is generated automatically, regardless of whether the metadata is entered via the user interface or the electronic interface.
 - The display and functionality of the organisation page have been improved.
