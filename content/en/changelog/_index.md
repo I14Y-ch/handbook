@@ -11,7 +11,7 @@ The I14Y interoperability platform is under continuous development. New features
 
 ## Release September 10 2025
 - Two new date fields have been introduced for electronic interfaces (APIs): the issue date and the date of last modification. This information makes it easier to track updates.
-- When creating public services and electronic interfaces (APIs), it is now possible to specify the responsible person and their deputy. This improves contact options and clarifies responsibilities.
+- When creating descriptions of public services and electronic interfaces (APIs), it is now possible to specify the responsible person and their deputy. This improves contact options and clarifies responsibilities.
 - Code list entries now have "Valid from" and "Valid to" fields. This allows the temporal validity of entries to be clearly defined, which is particularly helpful for classifications that change over time.
 - Similar to datasets, specifying an identifier for electronic interfaces (APIs) is now optional. If no identifier is entered, one is automatically generated.
 - Electronic interfaces (APIs) can now be deleted directly via the user interface. This simplifies the management of API descriptions that are no longer needed.

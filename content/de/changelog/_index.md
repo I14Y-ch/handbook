@@ -12,7 +12,7 @@ __DE:__ Diese Seite liegt teilweise in englischer Sprache vor.
 The I14Y interoperability platform is under continuous development. New features are added with each release. Bugs are also fixed. The most important changes are briefly documented below. For detailed information on the development of the platform, please contact the [I14Y team](mailto:i14y@bfs.admin.ch). 
 
 ## Release vom 10. September 2025
-- Für Beschreibungen von elektronischen Schnittstellen (APIs) stehen zwei neue Datumsfelder zur Verfügung: das Ausgabedatum und das Datum der letzten Änderung. Dank diesen beiden Feldern kann der Lebenszyklus von Schnittstellen besser dokumentiert werden. 
+- Für Beschreibungen von elektronischen Schnittstellen (APIs) stehen zwei neue Datumsfelder zur Verfügung: das Ausgabedatum und das Datum der letzten Änderung. Dank den beiden Feldern kann der Lebenszyklus von Schnittstellen besser dokumentiert werden. 
 - Bei der Erfassung von Behördenleistungen und elektronischen Schnittstellen (APIs) können nun auch die verantwortliche Person sowie deren Stellvertretung angegeben werden. Damit stehen bei allen I14Y-Objekten (Datensätze, APIs, Behördenleistungen, Konzepte) dieselben Eingabemöglichkeiten zur Verfügung.
 - Bei den einzelnen Einträgen von Codelisten stehen neu die Felder "Gültig von" und "Gültig bis" zur Verfügung. Damit kann die zeitliche Gültigkeit einzelner Einträge dokumentiert werden.
 - Die Angabe eines Identifikators für elektronische Schnittstellen (APIs) ist jetzt optional. Wird kein Identifikator eingegeben, wird automatisch einer generiert. Dieselbe Möglichkeit wurde bei im Bereich der Datensätze bereits früher eingeführt. 
