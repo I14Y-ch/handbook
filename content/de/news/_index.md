@@ -117,7 +117,7 @@ Einige Verwaltungseinheiten nutzen ausschliesslich die Interoperabilitätsplattf
 
 2024 neigt sich dem Ende zu und wir blicken auf ein produktives Jahr zurück. So konnten wir einige ambitionierte Projekte erfolgreich umsetzen – zum Beispiel die Schaffung eines Input-Bereiches auf I14Y für manuell erfasste OGD-Metadaten. Dank diesem können die Daten mit einem Klick auf den Plattformen [opendata.swiss](https://opendata.swiss) und [I14Y.ch](https://i14y.admin.ch) veröffentlicht werden.
 
-Im November haben wir die Benutzungsoberfläche von I14Y moderner und die Bedienung intuitiver gestaltet. Die bisher technisch bedingte Trennung zwischen «Katalog» und «Konzepte» wurde auf der Website aufgehoben. Die neue globale Suche ermöglicht die Suche in allen Metadaten – unabhängig von ihrem Typ. Die Ergebnisse werden übersichtlich in Registern (Datensammlungen, Behördenleistungen, APIs, Konzepte) dargestellt. Auch die Treffer der Metadatenportale Opendata und Geocat werden angezeigt. Zudem stellen wir mit dem November-Release Partnerorganisationen einen Endpunkt auf dem API-Gateway zur Verfügung, über den sie Beschreibungen von Datensammlungen veröffentlichen können. Alle Neuerungen werden seit diesem Jahr im [Changelog](https://i14y-ch.github.io/handbook/de/changelog/) des Handbuchs dokumentiert.
+Im November haben wir die Benutzungsoberfläche von I14Y moderner und die Bedienung intuitiver gestaltet. Die bisher technisch bedingte Trennung zwischen «Katalog» und «Konzepte» wurde auf der Website aufgehoben. Die neue globale Suche ermöglicht die Suche in allen Metadaten – unabhängig von ihrem Typ. Die Ergebnisse werden übersichtlich in Registern (Datensätze, Behördenleistungen, APIs, Konzepte) dargestellt. Auch die Treffer der Metadatenportale Opendata und Geocat werden angezeigt. Zudem stellen wir mit dem November-Release Partnerorganisationen einen Endpunkt auf dem API-Gateway zur Verfügung, über den sie Beschreibungen von Datensätzen veröffentlichen können. Alle Neuerungen werden seit diesem Jahr im [Changelog](https://i14y-ch.github.io/handbook/de/changelog/) des Handbuchs dokumentiert.
 
 Das I14Y-Team arbeitet mit grossem Engagement an der kontinuierlichen Weiterentwicklung der Plattform und steht dabei in engem Austausch mit seinen Nutzerinnen und Nutzern. An Hackathons, bei informellen Treffen mit den Local Data Stewards oder im Projekt Basel+ werden die spezifischen Bedürfnisse unserer Nutzerinnen aufgenommen. Neue Anforderungen werden im neu geschaffenen Steuerungsausschuss diskutiert und priorisiert. Die Entwicklung von I14Y wird zurzeit massgeblich durch die Anforderungen des Bundesgesetzes über den Einsatz elektronischer Mittel zur Erfüllung von Behördenaufgaben ([EMBAG](https://www.fedlex.admin.ch/eli/cc/2023/682/de)) gesteuert. Daraus ergeben sich aber Lösungen und Verbesserungen, von denen alle Nutzer und Nutzerinnen profitieren.
 
@@ -168,11 +168,11 @@ In den kommenden Monaten möchte ich mein Wissen über Linked Data und Interoper
 
 {{< figure src="/handbook/img/news/konzepte.png" alt="Symbolbild Datenkonzepte" width="250px" class="float-left img-news-thumb" >}}
 
-Datensammlungen werden auf der I14Y detailliert beschrieben: Neben dem Titel und der herausgebenden Organisation, können auch Informationen zur Struktur erfasst werden. Eine Struktur besteht in der Regel aus mehreren Datenelementen. Und jedes Datenelement basiert auf einem Konzept – zuweilen auch (definierte) Variable oder Attribut genannt.
+Datensätze werden auf der I14Y detailliert beschrieben: Neben dem Titel und der herausgebenden Organisation, können auch Informationen zur Struktur erfasst werden. Eine Struktur besteht in der Regel aus mehreren Datenelementen. Und jedes Datenelement basiert auf einem Konzept – zuweilen auch (definierte) Variable oder Attribut genannt.
 
 Ein Konzept auf der I14Y beschreibt klar und eindeutig die grundlegende Bedeutung und die Eigenschaften eines Datenelements, unabhängig vom Kontext, in dem es verwendet wird.
 
-Auf der I14Y ist es neu möglich, auf einen Blick zu erkennen, wie oft ein bestimmtes Konzept in verschiedenen Datenelementen wiederverwendet wird. Wenn die Datenelemente Teil einer öffentlichen Datensammlung sind, wird diese genannt und verlinkt. Beispielsweise wird das [Konzept der Schweizer Kantone](https://www.i14y.admin.ch/de/concepts/08d94b89-bf4d-a423-8add-dde94d0cd1f4/description) derzeit in 122 Datenelementen verwendet. Beim Konzept der Schweizer Kantone handelt es sich um eine Codeliste.    
+Auf der I14Y ist es neu möglich, auf einen Blick zu erkennen, wie oft ein bestimmtes Konzept in verschiedenen Datenelementen wiederverwendet wird. Wenn die Datenelemente Teil eines öffentlichen Datensatzes sind, wird diese genannt und verlinkt. Beispielsweise wird das [Konzept der Schweizer Kantone](https://www.i14y.admin.ch/de/concepts/08d94b89-bf4d-a423-8add-dde94d0cd1f4/description) derzeit in 122 Datenelementen verwendet. Beim Konzept der Schweizer Kantone handelt es sich um eine Codeliste.    
 
 Mehr Informationen zu Datenelementen und Konzepten finden sich im Handbuch der I14Y: [Informationsmodell](https://i14y-ch.github.io/handbook/de/gouvernanz/informationsmodell/#datenelement).
 
@@ -218,9 +218,9 @@ Es ist wichtig, dass die Konzepte der Datenelemente einfach beschrieben werden k
 
 {{< figure src="/handbook/img/news/datenschutz.jpg" alt="Symbolbild Datenschutz" width="250px" class="float-left img-news-thumb" >}}
 
-Enthält eine auf der I14Y-Plattform beschriebene Datensammlung personenbezogene Daten? Und falls ja: Beinhalten die eigentlichen Fachdaten schützenswerte Informationen – etwa über die politische Einstellung, den Gesundheitszustand oder die religiöse Orientierung einer Person? Auf I14Y kann dies neu im Feld «Vertraulichkeit» dokumentiert werden. 
+Enthält ein auf der I14Y-Plattform beschriebener Datensatz personenbezogene Daten? Und falls ja: Beinhalten die eigentlichen Fachdaten schützenswerte Informationen – etwa über die politische Einstellung, den Gesundheitszustand oder die religiöse Orientierung einer Person? Auf I14Y kann dies neu im Feld «Vertraulichkeit» dokumentiert werden. 
 
-Auch die gesetzliche Aufbewahrungsfrist einer Datensammlung kann nun erfasst werden. Bei einmalig erhobenen Daten wird das genaue Datum angegeben, an dem sie gelöscht werden muss. Bei einer periodisch aktualisierten Datensammlung wird in einem Freitextfeld beschrieben, in welchem Intervall die Daten vom Datenbesitzer gelöscht werden, z.B. «fünf Jahre nach Ablauf des jeweiligen Kalenderjahres». 
+Auch die gesetzliche Aufbewahrungsfrist eines Datensatzes kann nun erfasst werden. Bei einmalig erhobenen Daten wird das genaue Datum angegeben, an dem sie gelöscht werden muss. Bei einem periodisch aktualisierten Datensatz wird in einem Freitextfeld beschrieben, in welchem Intervall die Daten vom Datenbesitzer gelöscht werden, z.B. «fünf Jahre nach Ablauf des jeweiligen Kalenderjahres». 
 
 Die neuen Felder «Vertraulichkeit» und «Aufbewahrungsfrist» sind im DCAT-Standard nicht vorgesehen, sondern werden zusätzlich angeboten. Sie müssen daher nicht zwingend ausgefüllt werden. Eine detaillierte Übersicht aller Eingabefelder der Interoperabilitätsplattform I14Y finden Sie hier.
 
@@ -290,7 +290,7 @@ Wie kam die Interoperabiliätsplattform zu ihrem kryptischen Namen? Wer kann auf
 
 {{< figure src="/handbook/img/news/konzepte.png" alt="I14Y-Symbol Konzepte" width="250px" class="float-left img-news-thumb" >}}
 
-Auf I14Y gibt es eine neue Kachel: [I14Y-Konzepte](https://www.i14y.admin.ch/de/concepts). In diesem Bereich stehen Ihnen beispielsweise Codelisten zur Verfügung -- inklusive einer detaillierten Beschreibung. Das Konzept beschreibt die in einem Datenelement enthaltenen Informationen eindeutig und vollständig. Es kann sich dabei um eine Zahl, eine Zeichenkette, ein Datum oder eine Codeliste handeln. Dank der Suchfunktion lässt sich das rasch wachsende Angebot an Konzepten einfach durchsuchen. Verwenden Sie in Ihren Datensammlungen – wenn immer möglich – bestehende Konzepte.
+Auf I14Y gibt es eine neue Kachel: [I14Y-Konzepte](https://www.i14y.admin.ch/de/concepts). In diesem Bereich stehen Ihnen beispielsweise Codelisten zur Verfügung -- inklusive einer detaillierten Beschreibung. Das Konzept beschreibt die in einem Datenelement enthaltenen Informationen eindeutig und vollständig. Es kann sich dabei um eine Zahl, eine Zeichenkette, ein Datum oder eine Codeliste handeln. Dank der Suchfunktion lässt sich das rasch wachsende Angebot an Konzepten einfach durchsuchen. Verwenden Sie in Ihren Datensätzen – wenn immer möglich – bestehende Konzepte.
 
 ## I14Y-Chatbot
 *07.08.2023*

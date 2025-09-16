@@ -31,12 +31,12 @@ type: docs
 | Weblink | Beschreibung | Nation/ Union |
 | ----- | ----- | ----- | 
 | [data.bs.ch](https://data.bs.ch/) | Datenportal des Kantons Basel-Stadt | Kanton Basel-Stadt |
-| [data.europa.eu](https://data.europa.eu) | Auf dem Datenportal der Europäischen Union werden Metadaten von den nationalen, regionalen, lokalen und bereichsspezifischen Datenanbietern gesammelt. Zudem bietet das Portal Zugang zu mehr als einer Million offenen Datensammlungen aus 36 Ländern. | Europäische Union |
+| [data.europa.eu](https://data.europa.eu) | Auf dem Datenportal der Europäischen Union werden Metadaten von den nationalen, regionalen, lokalen und bereichsspezifischen Datenanbietern gesammelt. Zudem bietet das Portal Zugang zu mehr als einer Million offenen Datensätzen aus 36 Ländern. | Europäische Union |
 | [geolion.zh.ch](https://geolion.zh.ch/) | Katalog (Metadaten) für Geodaten im Kanton Zürich | Kanton Zürich |
 | [geobasisdaten.ch](https://geobasisdaten.ch) | Geodatenportal Konferenz der kantonalen Geoinformations­- und Katasterstellen und von Swisstopo. | Schweiz |
 | [geodienste.ch](https://www.geodienste.ch/) | Der Webdienst Geodienste.ch prüft Geodaten. Entsprechen diese den vordefinierten Kriterien, werden sie im Verzeichnis aufgelistet. Betrieben wir die Plattform von der Geschäftsstelle der Konferenz der kantonalen Geoinformations­- und Katasterstellen. | Schweiz |
 | [data.norge.no](https://data.norge.no/) | Metadatenportal von Norwegen | Norwegen |
-| [geocat.ch](https://geocat.ch) | Auf dem Geocat-Portal werden Metainformationen zu GeoDatensammlungen aus der Schweiz veröffentlicht. Betrieben wird das Portal vom Bundesamt für Landestopografie swisstopo. | Schweiz |
+| [geocat.ch](https://geocat.ch) | Auf dem Geocat-Portal werden Metainformationen zu GeoDatensätze aus der Schweiz veröffentlicht. Betrieben wird das Portal vom Bundesamt für Landestopografie swisstopo. | Schweiz |
 | [govdata.de](https://www.govdata.de) | Datenportal für Deutschland. | Deutschland |
 | [lindas.admin.ch](https://lindas.admin.ch) | Der Linked Data Service (Lindas) wird vom Bundesarchiv zur Verfügung gestellt. | Schweiz |
 | [metaver.de](https://metaver.de) | Das Metadatenportal MetaVer (MetadatenVerbund) bietet Geoinformationen aus den Bundesländern Brandenburg, Bremen, Hamburg, Mecklenburg-Vorpommern und Sachsen-Anhalt an. | Deutschland |

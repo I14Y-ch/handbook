@@ -53,7 +53,7 @@ flowchart LR
 
 Neu erfasste Metadaten erhalten vorerst den Status _Initial_. Sobald die Erfassungsarbeiten abgeschlossen sind, wird der Status _Kandidat_ vorgeschlagen. Diese Statusänderung muss von einer Person aus der eigenen Organisation, die über _Local Data Steward_-Rechte verfügt, bestätigt werden. Sind alle Kontrollen erfolgreich, kann der Eintrag auf _Registriert_ umgestellt werden. Um die Metadaten stabil und persistent zu halten, können Einträge in diesem Status nicht mehr modifiziert werden. Soll ein Konzept weiter verändert werden, muss eine neue Version angelegt werden. 
 
-Bei einigen Datensammlungen, -diensten und -konzepten, die nicht standardisiert sind und nur intern genutzt werden, endet die Erfassung damit.
+Bei einigen Datensätzen, -diensten und -konzepten, die nicht standardisiert sind und nur intern genutzt werden, endet die Erfassung damit.
 
 In einem zweiten Schritt können die _Local Data Stewards_ prüfen, ob das Datenangebot standardkonform ist. Angebote, die einem von einem Gremium wie [eCH](/handbook/de/glossar/#ech) oder [ISO](/handbook/de/glossar/#internationale-organisation-für-normung-iso) verabschiedeten Standard entsprechen, erhalten den Status _Standard_. Solche, die dereinst zum Standard werden könnten, werden als _Qualifiziert_ gekennzeichnet; im direkten Austausch mit der Interoperabilitätsstelle sowie in Fachgruppen wird daraufhin das weitere Vorgehen festgelegt. Datenangebote, die auf einem überholten oder abgeschafften Standard aufbauen, werden mit dem Status _Abgelöst_ beziehungsweise _Zurückgezogen_ gekennzeichnet. Solange die Daten ausschliesslich für die Nutzerinnen und Nutzer der eigenen Organisation sichtbar sind, können diese Einstufungen von den _Local Data Stewards_ ohne Rücksprache mit der Interoperabilitätsstelle gemacht werden. Soll ein als "Standard" markierter Eintrag öffentlich publiziert werden, muss die Interoperabilitätsstelle beigezogen werden. 
 
@@ -80,7 +80,7 @@ In der Regel wird die öffentliche Publikation durch eine Person mit der Rolle _
 Abhängig vom Status im Publikations-Workflow sowie von der eigenen Rolle können die erfassten Metadaten nicht abgeändert werden. So können etwa als "Registriert" gekennzeichnete Einträge nicht mehr bearbeitet werden, ohne dass der Status zurückgestellt wird. In diesem Fall wird normalerweise eine neue Version angelegt.
 
 {{<alert title="Sind die Daten auf I14Y sicher?" color="info">}}
-Auf der Interoperabilitätsplattform I14Y werden ausschliesslich Metadaten gespeichert. Die eigentlichen Daten verbleiben bei jener Stelle, die die Datensammlung verwaltet. Diese ist damit zuständig für die Sicherheit der Daten. 
+Auf der Interoperabilitätsplattform I14Y werden ausschliesslich Metadaten gespeichert. Die eigentlichen Daten verbleiben bei jener Stelle, die die Datensätze verwaltet. Diese ist damit zuständig für die Sicherheit der Daten. 
 
 Die Interoperabilitätsplattform I14Y wird vom Bundesamt für Informatik im Auftrag der Interoperabilitätsstelle technisch betrieben. Die Bundesvorgaben zur Informatiksicherheit werden umgesetzt. Eine Schutzbedarfsanalyse wurde anfangs Februar 2021 abgeschlossen. Die Server, auf denen die Plattform läuft, werden vom Bundesamt für Informatik betrieben. Sie befinden sich in der Schweiz. Extern betrieben werden einzig dieses Handbuch sowie der Chatbot. 
 

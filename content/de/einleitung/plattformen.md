@@ -15,7 +15,7 @@ Auf der [Interoperabilitätsplattform I14Y](https://i14y.admin.ch) werden Datena
 ## Opendata.swiss
 Im Katalog [Opendata.swiss](https://opendata.swiss), betrieben von der Geschäftsstelle Open Government Data im Bundesamt für Statistik, werden ausschliesslich offene Behördendaten beschrieben -- also Daten, die von jedermann genutzt werden dürfen. Die Eidgenossenschaft wie auch zahlreiche Kantone und einige Städte und Gemeinden haben es sich zum Ziel gesetzt die eigenen Daten, soweit möglich, als so genannte Open Government Data der Öffentlichkeit zur Verfügung zu stellen. 
 
-Bei den meisten auf Opendata.swiss publizierten Angeboten handelt es sich um aggregierte Daten. Die Ursprungsdaten dürfen oftmals aus Datenschutzgründen nicht veröffentlicht werden. Auf der Plattform werden also vorab für die Öffentlichkeit bestimmte Distributionen einer Datensammlung angeboten.  
+Bei den meisten auf Opendata.swiss publizierten Angeboten handelt es sich um aggregierte Daten. Die Ursprungsdaten dürfen oftmals aus Datenschutzgründen nicht veröffentlicht werden. Auf der Plattform werden also vorab für die Öffentlichkeit bestimmte Distributionen eines Datensatzes angeboten.  
 
 Der Katalog von Opendata.swiss lässt sich via die Metasuche direkt von der Interoperabilitätsplattform I14Y aus durchsuchen.
 
@@ -25,4 +25,4 @@ Der Katalog von Opendata.swiss lässt sich via die Metasuche direkt von der Inte
 Linked Data wird vorallem von IT-Fachleuten genutzt, um automatisierte Datenverarbeitunsprozesse aufzubauen. Einige der bei Lindas veröffentlichten Datenangebote werden zusätzlich auch auf der Interoperabilitätsplattform I14Y beschrieben. Derzeit laufen Versuche, um die beiden Plattformen stärker aneinander anzubinden. 
 
 ## Geocat
-Auf der Plattform [Geocat.ch](https://geocat.ch), die vom Bundesamt für Landestopografie (swisstopo) betrieben wird, werden Datensammlungen und elektronische Schnittstellen mit geografischem Bezug beschrieben. Auch Geocat kann über eine Metasuche direkt aus I14Y durchsucht werden. 
+Auf der Plattform [Geocat.ch](https://geocat.ch), die vom Bundesamt für Landestopografie (swisstopo) betrieben wird, werden Datensätze und elektronische Schnittstellen mit geografischem Bezug beschrieben. Auch Geocat kann über eine Metasuche direkt aus I14Y durchsucht werden. 

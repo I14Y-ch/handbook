@@ -10,7 +10,7 @@ draft: True
 
 ![Logo I14Y-Labs](/handbook/img/i14y-labs.png)
 
-Metadaten sind Informationen über Informationen. Sie zeigen auf, welche Inhalte in einer Datensammlung enthalten sind. Und sie liefern Angaben dazu, in welchem Kontext die betreffenden Daten erhoben wurden. Sie legen zudem dar, wie eine Datensammlung genutzt werden darf. Und sie machen Datensammlungen einfacher auffindbar und besser durchsuchbar. Metadaten zu Datensammlungen sind hilfreich, sobald die betreffenden Daten in einer Software genutzt werden sollen. Liegen klare Vorgaben dazu vor, wie die Inhalte eines Datenelements strukturiert sein sollten, können die eigentlichen Daten zudem automatisiert geprüft werden.  
+Metadaten sind Informationen über Informationen. Sie zeigen auf, welche Inhalte in einem Datensatz enthalten sind. Und sie liefern Angaben dazu, in welchem Kontext die betreffenden Daten erhoben wurden. Sie legen zudem dar, wie ein Datensatz genutzt werden darf. Und sie machen Datensätze einfacher auffindbar und besser durchsuchbar. Metadaten zu Datensätzen sind hilfreich, sobald die betreffenden Daten in einer Software genutzt werden sollen. Liegen klare Vorgaben dazu vor, wie die Inhalte eines Datenelements strukturiert sein sollten, können die eigentlichen Daten zudem automatisiert geprüft werden.  
 
 Unter _I14Y-Labs_ werden solche experimentellen Service- und Produkteinnovationen mit Metadaten präsentiert. Die Vorhaben befinden sich teilweise in einem frühen Stadium und können Unzulänglichkeiten aufweisen. Bitte weisen Sie das I14Y-Team darauf hin, falls Sie Probleme bei einem der publizierten Experimente entdecken. Weitere Arbeiten des I14Y-Teams finden Sie auf [Github](https://github.com/i14y-ch/). 
 

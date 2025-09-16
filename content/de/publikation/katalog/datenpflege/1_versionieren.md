@@ -11,7 +11,7 @@ Statt einen bestehenden Eintrag anzupassen, ist es oftmals sinnvoller eine neue 
 
 ```mermaid
 flowchart TD
-    dataset(Beschreibung \neiner Datensammlung) 
+    dataset(Beschreibung \neines Datensatzes) 
     update(Aktualisierung)
     version(Neue Version)
 

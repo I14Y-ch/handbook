@@ -3,14 +3,14 @@ title: Einleitung
 slug: einleitung
 translationKey: introduction
 description:
-keywords: [I14Y, Interoperabilitätsplattform I14Y, IOP, Einleitung, Vorwort, Zusammenfassung, Interoperabilität, Mehrfachnutzung, Schweiz, Datensammlung, elektronische Schnittstelle, Datensammlungen, elektronische Schnittstelle, API, Once-Only-Prinzip, Sekundärnutzung von Daten, Harmonisierung, Standardisierung]
+keywords: [I14Y, Interoperabilitätsplattform I14Y, IOP, Einleitung, Vorwort, Zusammenfassung, Interoperabilität, Mehrfachnutzung, Schweiz, Datensatz, elektronische Schnittstelle, elektronische Schnittstelle, API, Once-Only-Prinzip, Sekundärnutzung von Daten, Harmonisierung, Standardisierung]
 weight: 10
 type: docs
 ---
 
-Eine Mehrfachnutzung von Verwaltungsdaten ist dann möglich, wenn bekannt ist, wer über welche Datensammlungen verfügt. Zudem müssen die Daten harmonisiert sein: Alle Ämter sollten mit denselben Kategorien und Codelisten arbeiten -- also etwa dieselben Listen mit Gemeindenamen oder Berufsbezeichnungen verwenden. Eine gute Zusammenarbeit ist unabdingbar für eine erfolgreiche Harmonisierung: Es muss definiert werden, welche Organisation etwa eine Codeliste verantwortet. Alle anderen pflegen die entsprechende Liste nicht selber, sondern übernehmen sie von der zuständigen Stelle. 
+Eine Mehrfachnutzung von Verwaltungsdaten ist dann möglich, wenn bekannt ist, wer über welche Datensätze verfügt. Zudem müssen die Daten harmonisiert sein: Alle Ämter sollten mit denselben Kategorien und Codelisten arbeiten -- also etwa dieselben Listen mit Gemeindenamen oder Berufsbezeichnungen verwenden. Eine gute Zusammenarbeit ist unabdingbar für eine erfolgreiche Harmonisierung: Es muss definiert werden, welche Organisation etwa eine Codeliste verantwortet. Alle anderen pflegen die entsprechende Liste nicht selber, sondern übernehmen sie von der zuständigen Stelle. 
 
-Genau dies ist mit der Interoperabilitätsplattform I14Y möglich: Zusätzlich zu den beschreibenden Metadaten beinhaltet die Plattform strukturelle Metadaten. Diese beschreiben die einzelnen Elemente einer Datensammlung. Jedes Element basiert auf einem eindeutig definierten Konzept, zum Beispiel einer Codeliste. Die Konzepte brauchen nur einmalig von der zuständigen Stelle erfasst zu werden. Andere Organisationen verwenden sie zur Beschreibung ihrer strukturellen Metadaten wieder. 
+Genau dies ist mit der Interoperabilitätsplattform I14Y möglich: Zusätzlich zu den beschreibenden Metadaten beinhaltet die Plattform strukturelle Metadaten. Diese beschreiben die einzelnen Elemente eines Datensatzes. Jedes Element basiert auf einem eindeutig definierten Konzept, zum Beispiel einer Codeliste. Die Konzepte brauchen nur einmalig von der zuständigen Stelle erfasst zu werden. Andere Organisationen verwenden sie zur Beschreibung ihrer strukturellen Metadaten wieder. 
 
 Die einzelnen Behörden profitieren somit von der Arbeit der jeweils anderen. Möglich wird auch etwa, dass ein privates Umfrageinstitut dieselben Kategorien oder Ausprägungen verwendet, die eine staatliche Stelle einsetzt. Dadurch werden nachträgliche Harmonisierungsarbeiten überflüssig. Und in vielen Fällen wird die Datenqualität besser. 
 

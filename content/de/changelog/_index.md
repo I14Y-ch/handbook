@@ -82,7 +82,7 @@ Die Benutzungsoberfläche von I14Y wird mit dem Release vom 13 November einfache
 
 - Mit dem neuen Release erfolgt das Update auf die neue Version des Designsystems Oblique der Bundesverwaltung. Damit wird das Erscheinungsbild modernisiert.
 - Die grafische Trennung zwischen Katalog und Konzept wird aufgehoben; Datenkonzepte werden nun dem Katalog zugeordnet und die Kacheln entfernt. Das Menü umfasst nur noch die Punkte Startseite, Katalog, News und Handbuch.
-- Neu ist ein prominent platziertes Suchfeld verfügbar, das Metadaten unabhängig vom Typ durchsuchbar macht. Die Ergebnisse werden in Registerkarten dargestellt (Datensammlungen, Behördenleistungen, APIs, Konzepte). Auch die Treffer der Metadatenportale von Opendata und Geocat werden angezeigt.
+- Neu ist ein prominent platziertes Suchfeld verfügbar, das Metadaten unabhängig vom Typ durchsuchbar macht. Die Ergebnisse werden in Registerkarten dargestellt (Datensätze, Behördenleistungen, APIs, Konzepte). Auch die Treffer der Metadatenportale von Opendata und Geocat werden angezeigt.
 - Die Fusszeile wird um einen Link zur [GitHub-Ablage der I14Y](https://github.com/I14Y-ch/) (mit Skripten und Tutorials) ergänzt. Auch wird der Link zum [LinkedIn-Konto der I14Y](https://www.linkedin.com/showcase/i14y/) hinzugefügt.
 
 ### Änderungen im Organisationsinternen Bereich der Website
@@ -93,7 +93,7 @@ Die Benutzungsoberfläche von I14Y wird mit dem Release vom 13 November einfache
 
 ### Elektronische Schnittstellen (APIs)
 
-- Mit dem neuen Release steht auf dem [API-Gateway](https://input.i14y.admin.ch/console/partner/v1/index.html) für Partnerorganisationen ein Endpunkt bereit, über den Beschreibungen von Datensammlungen veröffentlicht werden können.
+- Mit dem neuen Release steht auf dem [API-Gateway](https://input.i14y.admin.ch/console/partner/v1/index.html) für Partnerorganisationen ein Endpunkt bereit, über den Beschreibungen von Datensätze veröffentlicht werden können.
 
 ## Release September 4 2024
 - How fast is the number of metadata entries on the I14Y growing? And how often are data concepts reused? The I14Y dashboard, which is available in a beta version, is now accessible via the homepage. 

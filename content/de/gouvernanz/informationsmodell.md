@@ -7,14 +7,14 @@ type: docs
 keywords: [I14Y, Interoperabilitätsplattform I14Y, Interoperabilitätsplattform I14Y, Datenmodell, Informationsmodell, Katalog, DCAT, Struktur, Konzept]
 ---
  
-Auf der Interoperabilitätsplattform I14Y können sowohl Datensammlungen, elektronische Schnittstellen (APIs) und Datenelemente als auch Behördenleistungen beschrieben werden. Dabei gibt es zwei Einstiegspunkte: Im Katalog-Teil werden Datensammlungen, elektronische Schnittstellen (APIs) und Behördenleistungen verwaltet. Unter "Konzepte" sind die Beschreibungen einzelner Konzepte zu finden. 
+Auf der Interoperabilitätsplattform I14Y können sowohl Datensätze, elektronische Schnittstellen (APIs) und Datenelemente als auch Behördenleistungen beschrieben werden. Dabei gibt es zwei Einstiegspunkte: Im Katalog-Teil werden Datensätze, elektronische Schnittstellen (APIs) und Behördenleistungen verwaltet. Unter "Konzepte" sind die Beschreibungen einzelner Konzepte zu finden. 
 
 ```mermaid 
     flowchart TD
         catalog(Katalog)
         publicservice(Behördenleistung)
         dataservice(Elektronische Schnittstellen)
-        dataset(Datensammlung)
+        dataset(Datensatz)
 
         distribution(Distribution)
         concept(Konzept)
@@ -47,19 +47,19 @@ Auf der Interoperabilitätsplattform I14Y können sowohl Datensammlungen, elektr
 
 Die Grafik bietet eine vereinfachte Darstellung der einzelnen Teile der I14Y-Plattform. Eine ausführliche Zusammenstellung ist im [Informationsmodell I14Y](/handbook/img/i14y_informationsmodell.png) zu finden.
 
-Um den unterschiedlichen Angeboten gerecht zu werden, bedient sich die Plattform verschiedener Informationsmodelle. So wird bei Datensammlungen und APIs etwa das _Data Catalog Vocabulary (DCAT)_ mit dem Schweizer Applikationsprofil eingesetzt. Im Bereich der Behördenleistungen kommt das _Core Public Service Vocabulary (CPSV)_ zum Einsatz. 
+Um den unterschiedlichen Angeboten gerecht zu werden, bedient sich die Plattform verschiedener Informationsmodelle. So wird bei Datensätzen und APIs etwa das _Data Catalog Vocabulary (DCAT)_ mit dem Schweizer Applikationsprofil eingesetzt. Im Bereich der Behördenleistungen kommt das _Core Public Service Vocabulary (CPSV)_ zum Einsatz. 
 
-## Datensammlung
+## Datensatz
 
-Eine Datensammlung ist eine Gruppe inhaltlich zusammenhängender Datenelemente in einer einheitlichen Struktur. Sie kann in unterschiedlichsten Formen und Formaten vorliegen: etwa als CSV-Datei, als Datenbank oder gespeichert in einem verteilten System wie einer Blockchain. 
+Ein Datensatz ist eine Gruppe inhaltlich zusammenhängender Datenelemente in einer einheitlichen Struktur. Sie kann in unterschiedlichsten Formen und Formaten vorliegen: etwa als CSV-Datei, als Datenbank oder gespeichert in einem verteilten System wie einer Blockchain. 
 
-Die Datensammlung kann in mehreren Formaten exportiert werden, also sogenannte _Distributionen_ enthalten. Die Distributionen müssen nicht zwingend die vollen Daten beinhalten. Die Datensammlung kann zudem die Grundlage für eine elektronische Schnittstelle (API) bilden, über die sich gezielt Einzelinformationen abfragen lassen.
+Der Datensatz kann in mehreren Formaten exportiert werden, also sogenannte _Distributionen_ enthalten. Die Distributionen müssen nicht zwingend die vollen Daten beinhalten. Der Datensatz kann zudem die Grundlage für eine elektronische Schnittstelle (API) bilden, über die sich gezielt Einzelinformationen abfragen lassen.
 
-Datensammlungen lassen sich auf der Interoperabilitätsplattform I14Y detailliert beschreiben: Zusätzlich zum Katalogeintrag, der die grundlegenden Informationen wie den Titel, die Beschreibung und die herausgebende Organisation beinhaltet, können auch Informationen zur Struktur erfasst werden. Eine Struktur beinhaltet in der Regel mehrere Datenelemente. Und jedes Datenelement hat ein Konzept, das die Art des Inhalts beschreibt. Als Konzept wird also die kleinste Einheit einer Datensammlung bezeichnet, oft auch (definierte) Variable oder Attribut genannt. 
+Datensätze lassen sich auf der Interoperabilitätsplattform I14Y detailliert beschreiben: Zusätzlich zum Katalogeintrag, der die grundlegenden Informationen wie den Titel, die Beschreibung und die herausgebende Organisation beinhaltet, können auch Informationen zur Struktur erfasst werden. Eine Struktur beinhaltet in der Regel mehrere Datenelemente. Und jedes Datenelement hat ein Konzept, das die Art des Inhalts beschreibt. Als Konzept wird also die kleinste Einheit eines Datensatzes bezeichnet, oft auch (definierte) Variable oder Attribut genannt. 
 
 ```mermaid
     flowchart TD
-        dataset1(Datensammlung)
+        dataset1(Datensatz)
         structure1(Struktur)
         dataelement1(Datenelement)
         concept1(Konzept)
@@ -94,13 +94,13 @@ Datensammlungen lassen sich auf der Interoperabilitätsplattform I14Y detaillier
     style date stroke:#Ff8076
 ```
 
-Es ist möglich, dass mehrere Datensammlungen dieselbe Struktur haben. Die einzelnen Konzepte wiederum sind oftmals in unterschiedlichen Strukturen eingebunden. 
+Es ist möglich, dass mehrere Datensätze dieselbe Struktur haben. Die einzelnen Konzepte wiederum sind oftmals in unterschiedlichen Strukturen eingebunden. 
 
 ```mermaid
     flowchart TD
-        dataset1(Datensammlung 1)
-        dataset2(Datensammlung 2)
-        dataset3(Datensammlung 3)
+        dataset1(Datensatz 1)
+        dataset2(Datensatz 2)
+        dataset3(Datensatz 3)
         structure1(Struktur 1)
         structure2(Struktur 2)
         dataelement11(Datenelement 1)
@@ -169,13 +169,13 @@ Es ist möglich, dass mehrere Datensammlungen dieselbe Struktur haben. Die einze
     style dataelement23 stroke:black
 ```
 
-Am Beispiel: In der Datensammlung einer Tierklinik sind Informationen zu Hunden enthalten: der Name, das Geburtsdatum, die Rasse, die Nummer des Hundechips sowie der Name und die Adresse der Hundehalterin beziehungsweise des -halters. Bei jeder dieser Angaben handelt es sich um ein Datenelement mit einem Konzept. Der Typ des Konzepts Hundename ist eine Zeichenkette, jener beim Geburtsdatum ist ein Datum und jener bei der Rasse eine Codeliste. Diese Konzepte können auch in anderen Datensammlungen gebraucht werden: thematisch eng verwandten wie der Kundendatenbank einer Tierärztin oder -- etwa im Fall des Geburtsdatums oder der Adresse -- auch bei komplett anderen Datensammlungen. 
+Am Beispiel: Im Datensatz einer Tierklinik sind Informationen zu Hunden enthalten: der Name, das Geburtsdatum, die Rasse, die Nummer des Hundechips sowie der Name und die Adresse der Hundehalterin beziehungsweise des -halters. Bei jeder dieser Angaben handelt es sich um ein Datenelement mit einem Konzept. Der Typ des Konzepts Hundename ist eine Zeichenkette, jener beim Geburtsdatum ist ein Datum und jener bei der Rasse eine Codeliste. Diese Konzepte können auch in anderen Datensätzen gebraucht werden: thematisch eng verwandten wie der Kundendatenbank einer Tierärztin oder -- etwa im Fall des Geburtsdatums oder der Adresse -- auch bei komplett anderen Datensätzen. 
 
 ```mermaid
     flowchart TD
-        dataset1(Datensammlung \nTierarztpraxis 1)
-        dataset2(Datensammlung \nTierarztpraxis 2)
-        dataset3(Datensammlung \nTierarztpraxis 3)
+        dataset1(Datensatz \nTierarztpraxis 1)
+        dataset2(Datensatz \nTierarztpraxis 2)
+        dataset3(Datensatz \nTierarztpraxis 3)
         structure1(Aufnahmeformular Hund)
         structure2(Aufnahmeformular Vogel)
         dataelement11(Hunderasse)
@@ -245,19 +245,19 @@ Am Beispiel: In der Datensammlung einer Tierklinik sind Informationen zu Hunden 
 
 ```
 
-Datensammlungen werden bei der Interoperabilitätsplattform I14Y mit dem [Datenkatalog-Vokabular (DCAT)](/handbook/de/glossar) beschrieben. DCAT ist ein standardisiertes Modell zur Beschreibung von Datenkatalogen, das vom Internet-Standardisierungsgremium [W3C](https://www.w3.org/) gepflegt wird. Auf der Plattform wird weitgehend das Applikationsprofil für die Schweiz verwendet ([DCAT-AP CH 2](https://www.dcat-ap.ch/)). DCAT gibt vor, welche Informationen zwingend erfasst werden müssen. Zudem schlägt das Vokabular weitere Möglichkeiten zur Beschreibung der Datensammlung vor.     
+Datensätze werden bei der Interoperabilitätsplattform I14Y mit dem [Datenkatalog-Vokabular (DCAT)](/handbook/de/glossar) beschrieben. DCAT ist ein standardisiertes Modell zur Beschreibung von Datenkatalogen, das vom Internet-Standardisierungsgremium [W3C](https://www.w3.org/) gepflegt wird. Auf der Plattform wird weitgehend das Applikationsprofil für die Schweiz verwendet ([DCAT-AP CH 2](https://www.dcat-ap.ch/)). DCAT gibt vor, welche Informationen zwingend erfasst werden müssen. Zudem schlägt das Vokabular weitere Möglichkeiten zur Beschreibung des Datensatzes vor.     
 
-Um Informationen zu einer Datensammlung auf der Interoperabilitätsplattform I14Y speichern zu können, müssen die Minimalanforderungen erfüllt sein, die der DCAT-Standard vorgibt. I14Y bietet einige zusätzliche Felder an, die über den aktuellen DCAT-Standard hinausgehen. Welche Felder beim Erfassen von Datensammlungen mit welchen Informationen befüllt werden, wird im Kapitel [Publikation](/handbook/de/publikation/katalog/datensammlung) aufgeführt.
+Um Informationen zu einem Datensatz auf der Interoperabilitätsplattform I14Y speichern zu können, müssen die Minimalanforderungen erfüllt sein, die der DCAT-Standard vorgibt. I14Y bietet einige zusätzliche Felder an, die über den aktuellen DCAT-Standard hinausgehen. Welche Felder beim Erfassen von Datensätzen mit welchen Informationen befüllt werden, wird im Kapitel [Publikation](/handbook/de/publikation/katalog/datensatz) aufgeführt.
 
 ### Struktur
 
-Die Struktur beschreibt, wie die Inhalte einer Datensammlung organisiert sind. Jede Struktur besteht aus mindestens einem Datenelement ([siehe unten](#datenelement)). Die einzelnen Strukturen können in mehreren Datensammlungen verwendet werden. Beispielsweise wird bei einer wiederkehrenden Publikation eines Registers (Versionierung) in der Regel die identische Struktur verwendet. 
+Die Struktur beschreibt, wie die Inhalte eines Datensatzes organisiert sind. Jede Struktur besteht aus mindestens einem Datenelement ([siehe unten](#datenelement)). Die einzelnen Strukturen können in mehreren Datensätzen verwendet werden. Beispielsweise wird bei einer wiederkehrenden Publikation eines Registers (Versionierung) in der Regel die identische Struktur verwendet. 
 
 Zur Beschreibung der Struktur wird bei I14Y weitgehend der DCAT-Standard mit dem Schweizer Applikationsprofil eingesetzt. 
 
 ### Datenelement
 
-Das Datenelement ist die kleineste Beschreibungseinheit einer Datensammlung. Oft wird das Datenelement auch als Attribut bezeichnet, als (definierte) Variable oder "Spalte". Das Datenelement enthält die einzelnen Werte, etwa die AHV-Nummern, die Anzahl leerstehender Wohnungen oder Messwerte zur Wassertemperatur. Jedes Datenelement referenziert ein Konzept. 
+Das Datenelement ist die kleineste Beschreibungseinheit eines Datensatzes. Oft wird das Datenelement auch als Attribut bezeichnet, als (definierte) Variable oder "Spalte". Das Datenelement enthält die einzelnen Werte, etwa die AHV-Nummern, die Anzahl leerstehender Wohnungen oder Messwerte zur Wassertemperatur. Jedes Datenelement referenziert ein Konzept. 
 
 ### Konzept
 
@@ -267,16 +267,16 @@ Zur Beschreibung der Konzepte wird bei der Interoperabilitätsplattform I14Y der
 
 ## Elektronische Schnittstelle (API)
 
-Eine elektronische Schnittstelle -- auf Englisch _Application Programm Interface (API)_ -- erlaubt es Maschinen unter anderem, gezielt einzelne Informationen aus einer Datensammlung anzufordern. Dank APIs können isolierte Systeme Informationen in einer effizienten und standardisierten Weise austauschen. Damit die Entwicklerinnen und Entwickler ihre Software so programmieren können, dass sie Informationen von Fremdsystemen bezieht, müssen sie diese Schnittstellen kennen. I14Y bietet die Möglichkeit, die Schnittstellen an einem zentralen Ort zu beschreiben. 
+Eine elektronische Schnittstelle -- auf Englisch _Application Programm Interface (API)_ -- erlaubt es Maschinen unter anderem, gezielt einzelne Informationen aus einem Datensatz anzufordern. Dank APIs können isolierte Systeme Informationen in einer effizienten und standardisierten Weise austauschen. Damit die Entwicklerinnen und Entwickler ihre Software so programmieren können, dass sie Informationen von Fremdsystemen bezieht, müssen sie diese Schnittstellen kennen. I14Y bietet die Möglichkeit, die Schnittstellen an einem zentralen Ort zu beschreiben. 
 
-Auf I14Y muss zusätzlich etwa zum Titel und der Beschreibung ein sogenannter Endpunkt, von wo Daten bezogen werden können, oder ein Link zur Dokumentation angegeben werden. Wenn möglich wird auch auf die Datensammlung verwiesen, die der API zu Grunde liegt.
+Auf I14Y muss zusätzlich etwa zum Titel und der Beschreibung ein sogenannter Endpunkt, von wo Daten bezogen werden können, oder ein Link zur Dokumentation angegeben werden. Wenn möglich wird auch auf den Datensatz verwiesen, der der API zu Grunde liegt.
 
 Auch APIs werden auf der Interoperabilitätsplattform I14Y weitgehend mittels des Datenkatalog-Vokabulars DCAT beschrieben. Einige Felder, die im Standard optional sind, müssen zwingend befüllt werden. So empfiehlt der DCAT-Standard lediglich, dass beim Katalogisieren einer API eine Beschreibung erfasst wird. Auf I14Y hingegen ist diese Angabe obligatorisch. Alle Felder, die der Standard vorgibt, sind auch auf der Plattform zwingend auszufüllen. 
 
 Eine Schritt-für-Schritt-Anleitung dazu, wie elektronische Schnittstellen erfasst werden, ist im Kapitel 
 [Publikation](/handbook/de/publikation/katalog/api) zu finden. 
 
-Das untenstehende Diagramm zeigt die Beziehungen zwischen den verschiedenen Klassen, die in I14Y basierend auf dem DCAT-Standard (Katalog, Datensammlung, Datenservice, Distribution) verwendet werden. Es bietet auch einen Überblick über alle Eigenschaften, die mit jeder dieser Klassen verbunden sind. Eigenschaften, die mit einem Sternchen (*) gekennzeichnet sind, wurden speziell für I14Y entwickelt. Weitere Informationen zu diesen Eigenschaften finden Sie [hier](https://i14y-ch.github.io/handbook/de/anhang/eingabefelder/).
+Das untenstehende Diagramm zeigt die Beziehungen zwischen den verschiedenen Klassen, die in I14Y basierend auf dem DCAT-Standard (Katalog, Datensatz, Datenservice, Distribution) verwendet werden. Es bietet auch einen Überblick über alle Eigenschaften, die mit jeder dieser Klassen verbunden sind. Eigenschaften, die mit einem Sternchen (*) gekennzeichnet sind, wurden speziell für I14Y entwickelt. Weitere Informationen zu diesen Eigenschaften finden Sie [hier](https://i14y-ch.github.io/handbook/de/anhang/eingabefelder/).
 
 ```mermaid
 classDiagram
