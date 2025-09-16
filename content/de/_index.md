@@ -8,7 +8,9 @@ weight: 0
 type: docs
 ---
 
-{{<alert title="I14Y ist von einem Serverausfall betroffen. Die Arbeiten zur Wiederherstellung des normalen Betriebs laufen auf Hochtouren." color="warning">}}
+{{<alert title="Serverausfall" color="warning">}}
+
+I14Y ist von einem Serverausfall betroffen. Die Arbeiten zur Wiederherstellung des normalen Betriebs laufen auf Hochtouren.
 
 {{</alert>}}
 

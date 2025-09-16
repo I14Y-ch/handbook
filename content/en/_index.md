@@ -8,6 +8,12 @@ weight: 0
 type: docs
 ---
 
+{{<alert title="Server Outage" color="warning">}}
+
+I14Y is experiencing a server outage. Efforts to restore normal operations are in full swing.
+
+{{</alert>}}
+
 {{% pageinfo color="primary" %}}
 Translation is in progress: Thank you for your interest in the English version of the I14Y manual. The first chapters have been translated. The other parts are still in translation. Please check back later. Alternatively, read the [manual in German](https://handbook.i14y.admin.ch), ask our [experimental text robot](https://www.i14y.admin.ch/de/labs/chatbot) in English or [contact the I14Y team](mailto:i14y@bfs.admin.ch).
 {{% /pageinfo %}}
