@@ -8,12 +8,6 @@ weight: 0
 type: docs
 ---
 
-{{<alert title="Panne de serveur" color="warning">}}
-
-I14Y est touché par une panne de serveur. Les travaux pour rétablir le fonctionnement normal sont en cours à plein régime.
-
-{{</alert>}}
-
 {{% pageinfo color="primary" %}}
 La traduction est en cours : Nous vous remercions de l'intérêt que vous portez à la version française du manuel I14Y. Les premiers chapitres ont été traduits. Les autres parties sont encore en cours de traduction. N'hésitez pas à revenir plus tard. En attendant, vous pouvez consulter le [manuel en allemand](https://handbook.i14y.admin.ch). L'[équipe I14Y](mailto:i14y@bfs.admin.ch) se tient à votre disposition pour répondre à vos questions. 
 {{% /pageinfo %}}
