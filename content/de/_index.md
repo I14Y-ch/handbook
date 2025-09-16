@@ -8,7 +8,7 @@ weight: 0
 type: docs
 ---
 
-{{<alert title="Serverausfall bei I14Y. Wir versuchen die Probleme so rasch wie möglich zu beheben." color="warning">}}
+{{<alert title="Serverausfall bei I14Y. Wir versuchen die Probleme so rasch wie möglich zu beheben." color="info">}}
 
 ![Szene aus dem Erklärvideo zur Interoperabilitätsplattform I14Y](/handbook/img/i14y-film_55.png)
 
