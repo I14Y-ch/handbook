@@ -8,7 +8,7 @@ weight: 0
 type: docs
 ---
 
-{{<alert title="Serverausfall bei I14Y. Wir versuchen die Probleme so rasch wie möglich zu beheben." color="info">}}
+{{<alert title="I14Y ist von einem Serverausfall betroffen. Die Arbeiten zur Wiederherstellung des normalen Betriebs laufen auf Hochtouren." color="warning">}}
 
 ![Szene aus dem Erklärvideo zur Interoperabilitätsplattform I14Y](/handbook/img/i14y-film_55.png)
 
@@ -60,3 +60,4 @@ flowchart TD
 Damit das _Once-Only-Prinzip_ Realität wird, müssen die verschiedenen Verwaltungseinheiten Daten direkt austauschen können. Voraussetzung dafür ist, dass eine rechtliche Grundlage besteht und dass ein Austausch insbesondere aus der Perspektive des Datenschutzes zulässig ist. Zudem muss geklärt werden, ob und wie lange Daten für eine mögliche Mehrfachnutzung auf Vorrat gespeichert werden dürfen. Einzelne Kantone haben die Mehrfachnutzung von Daten bereits gesetzlich festgeschrieben.  
 
 {{</alert>}}
+
