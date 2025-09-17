@@ -5,18 +5,17 @@ slug: next-release
 weight: 10
 type: docs
 keywords: [I14Y, Interoperability Platform I14Y, IOP, Changelog, Releases, Versions, Software Development]
-draft: true
+draft: false
 ---
+La prochaine version d’I14Y est prévue pour le début de soirée du 24 septembre 2025. Elle comprend les ajustements et améliorations listés ci‑dessous. Les organisations partenaires d’I14Y disposant des accès appropriés peuvent tester immédiatement le logiciel mis à jour sur l’[environnement de pré‑publication d’I14Y](https://input.i14y-a.admin.ch). Veuillez contacter le Service d’interopérabilité si vous n’avez pas encore accès à cet environnement utilisé pour les tests logiciels.
 
-{{<alert title="Language" color="warning">}}
-__FR:__ Ce site est en anglais.
-{{</alert>}}
+Veuillez noter que la date de publication peut être reportée à très court terme en cas de problèmes. Il est possible que certaines fonctions soient retirées de la version et activées seulement ultérieurement. Pour toute question ou tout problème concernant cette version, veuillez contacter le Service d’interopérabilité ([i14y@bfs.admin.ch](mailto:i14y@bfs.admin.ch)).
 
-The next release of I14Y is scheduled for the early evening of 23 July 2025. It includes the adjustments and enhancements listed below. I14Y partner organisations with the appropriate access can test the updated software immediately on the [I14Y pre-publication environment](https://input.i14y-a.admin.ch). Please contact the Interoperability Service if you do not yet have access to this environment used for software testing.
- 
-Please note that the release date may be postponed at short notice in the event of problems. It is possible that individual functions may be removed from the release and only activated at a later date. If you have any questions or problems regarding the release, please contact the Interoperability Service ([i14y@bfs.admin.ch](mailto:i14y@bfs.admin.ch)).
-
-- Which organisations use the I14Y interoperability platform? A new page lists all organisations that publish metadata on I14Y. It also shows the number of descriptions of datasets, APIs and public services published by each organisation, as well as the number of concepts published.
-- Since early summer, more complex data structures can be documented on I14Y. Previously, this information was only visible in the internal area. The latest release introduces a graphical representation of recorded data structures on the public website.
-- Public services can now be accessed individually via the electronic interface (API). Another endpoint also allows I14Y partner organisations to publish public services on I14Y in a fully or semi-automated manner.
-- Bug fixes
+- Une description technique détaillée de la structure des données peut être enregistrée pour chaque description de jeu de données sur I14Y. Les structures enregistrées peuvent désormais être téléchargées depuis le site public dans plusieurs formats (TTL, RDF, JSON-LD).
+- L’ensemble des métadonnées d’un jeu de données peut désormais être exporté depuis le site public via un nouveau bouton.
+- Les adresses web insérées dans les descriptions sont automatiquement affichées comme liens cliquables.
+- Lors de la récupération d’informations via l’API, l’intégralité des résultats est désormais renvoyée si aucun nombre d’éléments par page (pageSize) n’est spécifié.
+- Le pied de page du site contient désormais un lien direct vers la boîte à outils I14Y proposant des outils utiles pour l’import des métadonnées.
+- L’index de recherche est désormais construit indépendamment du démarrage de l’application. La plateforme devient ainsi disponible plus rapidement après un redémarrage et la recherche est plus stable.
+- De nouveaux points de terminaison internes de monitoring (health checks) permettent de détecter plus rapidement les problèmes techniques.
+- Divers bogues ont été corrigés.
