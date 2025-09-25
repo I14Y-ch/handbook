@@ -9,6 +9,16 @@ keywords: [I14Y, Interoperabilitätsplattform I14Y, IOP, Changelog, Releases, Ve
 
 The I14Y interoperability platform is under continuous development. New features are added with each release. Bugs are also fixed. The most important changes are briefly documented below. For detailed information on the development of the platform, please contact the [I14Y team](mailto:i14y@bfs.admin.ch). 
 
+## Release September 24 2025
+- A detailed technical description of the data structure can be stored for every dataset description on I14Y. The stored structures can now be downloaded from the public website in multiple formats (TTL, RDF, JSON-LD).
+- All metadata of a dataset can now be exported from the public website via a newly introduced button.
+- Web addresses inserted into descriptions are automatically displayed as clickable links.
+- When retrieving information via the API, all results are now returned if no number of desired items per page (pageSize) is specified.
+- There is now a direct link in the website footer to the I14Y toolbox with helpful tools for importing metadata.
+- The search index is now built independently of application startup. The platform therefore becomes available more quickly after a restart and search is more stable.
+- New internal monitoring endpoints (health checks) help detect technical issues more quickly.
+- Various bugs have been fixed.
+
 ## Release September 10 2025
 - Two new date fields have been introduced for electronic interfaces (APIs): the issue date and the date of last modification. This information makes it easier to track updates.
 - When creating descriptions of public services and electronic interfaces (APIs), it is now possible to specify the responsible person and their deputy. This improves contact options and clarifies responsibilities.

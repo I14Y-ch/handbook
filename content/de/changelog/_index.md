@@ -11,6 +11,16 @@ __DE:__ Diese Seite liegt teilweise in englischer Sprache vor.
 
 The I14Y interoperability platform is under continuous development. New features are added with each release. Bugs are also fixed. The most important changes are briefly documented below. For detailed information on the development of the platform, please contact the [I14Y team](mailto:i14y@bfs.admin.ch). 
 
+## Release vom 24. September 2025
+- Auf I14Y kann zu jeder Datensatz-Beschreibung eine detaillierte technische Beschreibung der Datenstruktur hinterlegt werden. Neu lassen sich die hinterlegten Strukturen in mehreren Formaten (TTL, RDF, JSON-LD) via die öffentliche Website herunterladen. 
+- Alle Metadaten eines Datensatzes lassen sich über einen neu eingeführten Knopf über die öffentliche Website exportieren.
+- In Beschreibungen eingefügte Internetadressen werden automatisch als anklickbare Links angezeigt.
+- Beim Abruf von Informationen über die elektronische Schnittstelle (API) werden jetzt alle Ergebnisse geliefert, sofern keine Anzahl der gewünschten Elemente pro Seite (pageSize) angegeben wird.
+- Im Fussbereich der Website gibt es neu einen direkten Link zur I14Y-Toolbox mit hilfreichen Werkzeugen für das Einspielen von Metadaten.
+- Der Suchindex wird nun unabhängig vom Start der Anwendung aufgebaut. Die Plattform steht dadurch bei einem Neustart schneller wieder zur Verfügung. Und die Suche ist stabiler.
+- Neue interne Überwachungsadressen (Health-Checks) helfen, technische Probleme schneller zu erkennen.
+- Verschiedene Fehler wurden behoben.
+
 ## Release vom 10. September 2025
 - Für Beschreibungen von elektronischen Schnittstellen (APIs) stehen zwei neue Datumsfelder zur Verfügung: das Ausgabedatum und das Datum der letzten Änderung. Dank den beiden Feldern kann der Lebenszyklus von Schnittstellen besser dokumentiert werden. 
 - Bei der Erfassung von Behördenleistungen und elektronischen Schnittstellen (APIs) können nun auch die verantwortliche Person sowie deren Stellvertretung angegeben werden. Damit stehen bei allen I14Y-Objekten (Datensätze, APIs, Behördenleistungen, Konzepte) dieselben Eingabemöglichkeiten zur Verfügung.
