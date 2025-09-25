@@ -13,6 +13,16 @@ __FR:__ Ce site est en anglais. Seules les descriptions des grandes releases son
 
 The I14Y interoperability platform is under continuous development. New features are added with each release. Bugs are also fixed. The most important changes are briefly documented below. For detailed information on the development of the platform, please contact the [I14Y team](mailto:i14y@bfs.admin.ch). 
 
+## Release September 24 2025
+- Une description technique détaillée de la structure des données peut être enregistrée pour chaque description de jeu de données sur I14Y. Les structures enregistrées peuvent désormais être téléchargées depuis le site public dans plusieurs formats (TTL, RDF, JSON-LD).
+- L’ensemble des métadonnées d’un jeu de données peut désormais être exporté depuis le site public via un nouveau bouton.
+- Les adresses web insérées dans les descriptions sont automatiquement affichées comme liens cliquables.
+- Lors de la récupération d’informations via l’API, l’intégralité des résultats est désormais renvoyée si aucun nombre d’éléments par page (pageSize) n’est spécifié.
+- Le pied de page du site contient désormais un lien direct vers la boîte à outils I14Y proposant des outils utiles pour l’import des métadonnées.
+- L’index de recherche est désormais construit indépendamment du démarrage de l’application. La plateforme devient ainsi disponible plus rapidement après un redémarrage et la recherche est plus stable.
+- De nouveaux points de terminaison internes de monitoring (health checks) permettent de détecter plus rapidement les problèmes techniques.
+- Divers bogues ont été corrigés.
+
 ## Release September 10 2025
 - Two new date fields have been introduced for electronic interfaces (APIs): the issue date and the date of last modification. This information makes it easier to track updates.
 - When creating descriptions of public services and electronic interfaces (APIs), it is now possible to specify the responsible person and their deputy. This improves contact options and clarifies responsibilities.
