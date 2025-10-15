@@ -19,6 +19,9 @@ Die Abnahmeumgebung (auch Abnahmetestumgebung oder User Acceptance Testing (UAT)
 ## Anwendung
 Softwareprogramm zur Ausführung von bestimmten Bearbeitungsfunktionen, das für einen speziellen Einsatz entwickelt wurde. [Zur Definition auf TERMDAT](https://register.ld.admin.ch/termdat/70368)
 
+## Behördenleistung
+Obligatorische oder freiwillige Abfolge von Tätigkeiten, die von einer Behörde oder in deren Auftrag durchgeführt werden bzw. durchgeführt werden können und sich aus der Verwaltungspolitik ergeben. [Zur Definition auf TERMDAT](https://register.ld.admin.ch/termdat/520805)
+
 ## Codeliste
 Eine Codeliste ist eine strukturierte Auflistung von Werten (Codes), die in einem bestimmten Kontext verwendet werden. Sie kann offen (erweiterbar) oder geschlossen (nicht erweiterbar) sein und kann standardisiert (z.B. ISO 3166 für Ländercodes) oder organisationsspezifisch definiert sein.
 
