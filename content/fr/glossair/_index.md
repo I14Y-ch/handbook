@@ -179,7 +179,7 @@ L’Organisation internationale de normalisation (ISO) est une association d’o
 ## Principe once-only
 Le but du principe «once-only» est que la population et les entreprises ne doivent communiquer certaines informations aux autorités qu’une seule fois et que ces informations puissent ensuite être échangées entre les offices, si cela est explicitement prévu. Le principe «once-only» doit permettre de réduire la charge de travail, aussi bien pour les citoyens et les entreprises que pour l’administration. La mise en œuvre du principe «once-only» est un objectif central du programme de gestion nationale des données (NaDB). [Vers la définition dans TERMDAT](https://register.ld.admin.ch/termdat/480493)
 
-## Prestation des autorités
+## Prestation des autorités (public service)
 Séquence d'activités obligatoires ou facultatives réalisées par une autorité publique ou pour son compte, et découlant de la politique administrative. [Vers la définition dans TERMDAT](https://register.ld.admin.ch/termdat/520805)
 
 ## Principes FAIR
