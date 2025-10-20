@@ -8,7 +8,7 @@ keywords: [I14Y, Plateforme d’interopérabilité I14Y, IOP, Journal des modifi
 draft: false
 ---
 
-La prochaine version d’I14Y est prévue en début de soirée du 15 octobre 2025. Elle comprend les adaptations et améliorations listés ci-dessous. Les organisations partenaires d’I14Y disposant des autorisations nécessaires peuvent tester immédiatement le logiciel sur l’[environnement de pré‑publication d’I14Y](https://input.i14y-a.admin.ch). Veuillez contacter le Service d’interopérabilité si vous n’avez pas encore accès à cet environnement utilisé pour les tests logiciels.
+La prochaine version d’I14Y est prévue en début de soirée du 22 octobre 2025. Elle comprend les adaptations et améliorations listés ci-dessous. Les organisations partenaires d’I14Y disposant des autorisations nécessaires peuvent tester immédiatement le logiciel sur l’[environnement de pré‑publication d’I14Y](https://input.i14y-a.admin.ch). Veuillez contacter le Service d’interopérabilité si vous n’avez pas encore accès à cet environnement utilisé pour les tests logiciels.
 
 Veuillez noter que la date de publication peut être reportée à très court terme en cas de problèmes. Il est possible que certaines fonctions soient retirées de la version et activées seulement ultérieurement. Pour toute question ou tout problème concernant cette version, veuillez contacter le Service d’interopérabilité ([i14y@bfs.admin.ch](mailto:i14y@bfs.admin.ch)).
 
