@@ -13,7 +13,7 @@ Die Interoperabilitätsplattform I14Y lässt sich vielfältig einsetzen: Im Kata
 
 ```mermaid
 flowchart LR
-    i14y(Interoperabilitätsplattform I14Y)
+    i14y(I14Y)
     catalog(Katalog)
     dataset(Datensatz)
     dataservice(Elektronische Schnittstelle)
@@ -44,8 +44,8 @@ style dataservice stroke:black
 style publicservice fill:#Fbb54e
 style publicservice stroke:black
 
-style concepts fill:#Bfe2ab
-style concepts stroke:black
+style concept fill:#Bfe2ab
+style concept stroke:black
 ```
 
 Abhängig davon, was beschrieben werden soll, müssen andere Aspekte berücksichtigt werden. In diesem Teil des Handbuchs wird gezeigt, wie die verschiedenen Metadaten auf der I14Y-Interperabilitätsplattform erfasst werden.
