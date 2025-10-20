@@ -18,15 +18,15 @@ flowchart LR
     dataset(Datensatz)
     dataservice(Elektronische Schnittstelle)
     publicservice(Behördenleistung)
-    concepts(Konzepte)
+    concept(Konzept)
 
 
     i14y-->catalog
-    i14y-->concepts
     
     catalog-->dataset
     catalog-->dataservice
     catalog-->publicservice
+    catalog-->concept
 
     
 style i14y fill:#6CC8FF
