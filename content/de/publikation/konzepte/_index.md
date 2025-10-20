@@ -194,8 +194,8 @@ Alternativ kann die Codeliste auch in der Form einer JSON-Datei hochgeladen werd
 
 Wenn der Import funktioniert hat, wird rechts eine entsprechende Meldung angezeigt. Die importierte Codeliste wird allenfalls erst nach dem erneuten Öffnen des Konzepts angezeigt. Klicken Sie also auf "Schliessen". Aktualisieren Sie nun die Ansicht via den Knopf in der Browserleiste oder mit der Taste F5.  
 
-{{<alert title="Konzept oder Datensammlung?" color="success">}}
+{{<alert title="Konzept oder Datensatz?" color="success">}}
 
-Die Anzahl der Annotationen ist technisch nicht limitiert. Die Interoperabilitätsstelle rät aber zur zurückhaltenden Nutzung dieser Möglichkeit. Wenn zahlreiche Annotationen nötig sind, prüfen Sie bitte: Sollte der betreffende Inhalt besser als Datensammlung mit Struktur und hinterlegten Datenelementen sowie einer verlinkten Distribution beschrieben werden? 
+Die Anzahl der Annotationen ist technisch nicht limitiert. Die Interoperabilitätsstelle rät aber zur zurückhaltenden Nutzung dieser Möglichkeit. Wenn zahlreiche Annotationen nötig sind, prüfen Sie bitte: Sollte der betreffende Inhalt besser als Datensatz mit Struktur und hinterlegten Datenelementen sowie einer verlinkten Distribution beschrieben werden? 
 
 {{</alert>}}

@@ -15,7 +15,7 @@ Die Interoperabilitätsplattform I14Y lässt sich vielfältig einsetzen: Im Kata
 flowchart LR
     i14y(Interoperabilitätsplattform I14Y)
     catalog(Katalog)
-    dataset(Datensammlung)
+    dataset(Datensatz)
     dataservice(Elektronische Schnittstelle)
     publicservice(Behördenleistung)
     concepts(Konzepte)
