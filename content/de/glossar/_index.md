@@ -19,6 +19,9 @@ Die Abnahmeumgebung (auch Abnahmetestumgebung oder User Acceptance Testing (UAT)
 ## Anwendung
 Softwareprogramm zur Ausführung von bestimmten Bearbeitungsfunktionen, das für einen speziellen Einsatz entwickelt wurde. [Zur Definition auf TERMDAT](https://register.ld.admin.ch/termdat/70368)
 
+## Behördenleistung
+Obligatorische oder freiwillige Abfolge von Tätigkeiten, die von einer Behörde oder in deren Auftrag durchgeführt werden bzw. durchgeführt werden können und sich aus der Verwaltungspolitik ergeben. [Zur Definition auf TERMDAT](https://register.ld.admin.ch/termdat/520805)
+
 ## Codeliste
 Eine Codeliste ist eine strukturierte Auflistung von Werten (Codes), die in einem bestimmten Kontext verwendet werden. Sie kann offen (erweiterbar) oder geschlossen (nicht erweiterbar) sein und kann standardisiert (z.B. ISO 3166 für Ländercodes) oder organisationsspezifisch definiert sein.
 
@@ -119,7 +122,7 @@ Eine Distribution ist die Bereitstellung von Daten für definierte Zielgruppen, 
 Der gemeinnützige Verein eCH fördert, entwickelt und verabschiedet Standards im Bereich E-Government. In den zahlreichen Arbeitsgruppen von eCH arbeiten sowohl Vertreterinnen und Vertreter des Bundes und der Kantone als auch der der Privatwirtschaft und der Wissenschaft mit. eCH ist das wichtigste Normierungsgremium im Bereich eGovernment in der Schweiz. Weitere Informationen wie auch die Dokumente zu den verabschiedeten Standards sind auf der Website [ech.ch](https://ech.ch) zu finden. 
 
 ## Elektronische Schnittstelle (API)
-Eine elektronische Schnittstelle ermöglicht es verschiedenen Systemen und Anwendungen miteinander zu kommunizieren. Und das selbst dann, wenn die Systeme nicht direkt miteinander verhängt sind. Über elektronische Schnittstellen können etwa Informationen aus einem Datensammlung abgefragt werden, ohne dass die gesamte Datensammlung heruntergeladen werden muss. In der Fachsprache werden elektronische Schnittstellen oft als _Application Programming Interface (API)_ bezeichnet, also als elektronische Schnittstellen für Anwendungen. Sie werden in der modernen Software-Entwicklung sehr oft eingesetzt, um einzelne Teilsysteme zu verbinden oder um Daten von einem anderen System zu beziehen. [Zur Definition auf TERMDAT](https://register.ld.admin.ch/termdat/500882)
+Eine elektronische Schnittstelle ermöglicht es verschiedenen Systemen und Anwendungen miteinander zu kommunizieren. Und das selbst dann, wenn die Systeme nicht direkt miteinander verhängt sind. Über elektronische Schnittstellen können etwa Informationen aus einem Datensatz abgefragt werden, ohne dass die gesamte Datensatz heruntergeladen werden muss. In der Fachsprache werden elektronische Schnittstellen oft als _Application Programming Interface (API)_ bezeichnet, also als elektronische Schnittstellen für Anwendungen. Sie werden in der modernen Software-Entwicklung sehr oft eingesetzt, um einzelne Teilsysteme zu verbinden oder um Daten von einem anderen System zu beziehen. [Zur Definition auf TERMDAT](https://register.ld.admin.ch/termdat/500882)
 
 ## Enterprise Identity Management (EIAM) 
 Systeme zum _Enterprise Identity Management (EIAM)_ werden verwendet, um Identitäten und Zugriffsrechte innerhalb eines Unternehmens oder einer Organisation zu verwalten und zu schützen. Sie stellen also sicher, dass einzig die vorgesehenen Personen eine bestimmte Internet-Plattform oder Anwendung nutzen können. Dabei regeln sie auch, wer Lese-, Schreib- und wer Administrationsrechte hat. Die I14Y nutzt das EIAM-System der Bundesverwaltung. Weitere Informationen sind unter [Kontenverwaltung](/handbook/de/plattform/kontenverwaltung) zusammengestellt.
