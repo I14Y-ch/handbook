@@ -7,7 +7,7 @@ type: docs
 keywords: [I14Y, Interoperabilitätsplattform I14Y, Arbeitsablauf, Workflow, Status, Publikationskanal]
 ---
 
-Ein klar definierter Arbeitsablauf regelt, wie Metadaten auf der Interoperabilitätsplattform I14Y publiziert werden. Abhängig davon, ob die Metadaten ausschliesslich innerhalb der Organisation oder öffentlich publiziert werden, vielleicht sogar als Standard, ist der Arbeitsablauf eins- , zwei- beziehungsweise dreistufig. Dieser _Workflow_ dient insbesondere der Qualitätssicherung.
+Ein klar definierter Arbeitsablauf regelt, wie Metadaten auf der Interoperabilitätsplattform I14Y publiziert werden. Abhängig davon, ob die Metadaten ausschliesslich innerhalb der Organisation oder öffentlich publiziert werden, vielleicht sogar als Standard, ist der Arbeitsablauf ein-, zwei- beziehungsweise dreistufig. Dieser _Workflow_ dient insbesondere der Qualitätssicherung.
 
 In einer ersten Stufe werden die Metadaten erfasst. In einer zweiten Stufe werden sie von _Local Data Stewards_ validiert, also geprüft und öffentlich freigegeben. In einer dritten Stufe werden sie, sofern gewünscht und sinnvoll, in Zusammenarbeit mit der Interoperabilitätsstelle geprüft, gegebenenfalls als standardkonform markiert.
 
@@ -51,7 +51,7 @@ flowchart LR
     style G stroke:black
 ```
 
-Neu erfasste Metadaten erhalten vorerst den Status _Initial_. Sobald die Erfassungsarbeiten abgeschlossen sind, wird der Status _Kandidat_ gesetzt. Diese Statusänderung muss von einer Person aus der eigenen Organisation, die über _Submitter_-Rechte verfügt, bestätigt werden. Sind alle Kontrollen erfolgreich, kann der Eintrag auf _Registriert_ umgestellt werden von der _Local Data Steward_. Der _Local Data Steward_ darf den Eintrag auch öffentlich publizieren. Um die Metadaten stabil und persistent zu halten, können _Submitter_ Einträge in diesem Status nicht mehr modifizieren. Soll ein registrierte/publizierte Konzept weiter verändert werden, soll normalerweise eine neue Version angelegt werden. 
+Neu erfasste Metadaten erhalten vorerst den Status _Initial_. Sobald die Erfassungsarbeiten abgeschlossen sind, wird der Status _Kandidat_ gesetzt. Diese Statusänderung muss von einer Person aus der eigenen Organisation, die mindestens über _Submitter_-Rechte verfügt, bestätigt werden. Sind alle Kontrollen erfolgreich, kann der Eintrag von einer Person in der Rolle _Local Data Steward_ auf _Registriert_ umgestellt werden. _Local Data Stewards_ dürfen den Eintrag auch öffentlich publizieren. Um die Metadaten stabil und persistent zu halten, können _Submitter_ Einträge in diesem Status nicht mehr modifizieren. Soll ein registriertes und/ oder publiziertes Konzept weiter verändert werden, soll normalerweise eine neue Version angelegt werden. 
 
 Bei einigen Datensätzen, -diensten und -konzepten, die nicht standardisiert sind, endet die Erfassung damit.
 
@@ -71,9 +71,9 @@ Weitere Informationen zur Statusverwaltung und zu den Zuständigkeiten sind in d
 | Zurückgezogen | _Retired_ | In Einzelfällen kommt es vor, dass die Normierungsorganisation einen Standard widerruft. In einem solchen Fall wird der Status des betreffenden Angebots auf _Zurückgezogen_ gesetzt. | _Submitter_, _Local Data Steward_ oder _InteroperabilityService_ |
 {.workflow}
 
-Wenn versucht wird, einen Status festzulegen, der für die Rolle nicht autorisiert ist, wird der vorgeschlagene Status als Statusvorschlag gespeichert, der von einer autorisierten Rolle verarbeitet werden kann.
+Beim Versuch einen Status festzulegen, der mit der eigenen Rolle nicht festgelegt werden kann, speichert das System einen Status-Vorschlag. Dieser muss von einer Person in einer Rolle mit weitergehenden Rechten bestätigt werden.
 
-__Beispiel:__ Als _Submitter_ bin ich der Meinung, dass mein „Kandidat”-Datensatz für den Status „Registriert” und für die Veröffentlichung bereit ist. Daher setze ich diese Status. Die Statusänderung und die Veröffentlichung erfolgen nicht automatisch. Ein _Local Data Steward_ meiner Organisation muss die Anfrage bearbeiten und genehmigen, damit die Statusänderung und die Veröffentlichung wirksam werden.
+__Beispiel:__ Als _Submitter_ bin ich der Meinung, dass mein Datensatz mit dem Status "Kandidat" für den Status "Registriert" und für die Veröffentlichung bereit ist. Daher setze ich diesen Status. Die Statusänderung und die Veröffentlichung erfolgen nicht automatisch. Ein _Local Data Steward_ meiner Organisation muss die Anfrage bearbeiten und genehmigen, damit die Statusänderung und die Veröffentlichung wirksam werden.
 
 ## Statusübergangsmatrix
 
