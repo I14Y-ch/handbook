@@ -4,7 +4,7 @@ slug: i14y-toolbox
 weight: 60
 type: docs
 keywords: [I14Y, Interoperabilitätsplattform I14Y, Interoperabilität, Toolbox, Hilfsprogramme, Miniapplikationen, Excel Upload, Keyword Generator, Concept Import, Swagger, SHACL, Schweiz]
-draft: 
+draft: true
 ---
 
 Die Interoperabilitätsstelle des BFS bietet in der [I14Y-Toolbox](https://toolbox.i14y.admin.ch) einfache Webanwendungen an, die das Dokumentieren von Daten in bestimmten Fällen erleichtern. Damit können beispielsweise Metadaten oder Konzepte aus Daten extrahiert, Textelemente automatisch übersetzt oder Inhalte mithilfe künstlicher Intelligenz generiert werden. So erhalten Submitter oder Local Data Stewards schnell eine erste Version eines Eintrags, den sie anschliessend prüfen, bearbeiten und auf die Plattform hochladen können.
