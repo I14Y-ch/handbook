@@ -11,6 +11,13 @@ __DE:__ Diese Seite liegt teilweise in englischer Sprache vor.
 
 The I14Y interoperability platform is under continuous development. New features are added with each release. Bugs are also fixed. The most important changes are briefly documented below. For detailed information on the development of the platform, please contact the [I14Y team](mailto:i14y@bfs.admin.ch). 
 
+## Release vom 22. Oktober 2025
+- **Bearbeitungsmasken verbessert**: Die Schaltfläche Speichern ist nun standardmässig aktiv. Bislang wurde sie erst aktivert, nachdem Änderungen an den Metadaten vorgenommen worden waren. Ein Klick auf die Schaltfläche hilft dabei, unvollständige Metadaten zu erkennen: Die entsprechenden Felder werden rot umrandet. 
+- **Übersichtlichere Organisationsseite**: Organisationen, die noch keine Metadaten öffentlich publiziert haben, werden nicht mehr auf der [Organisationsseite](https://www.i14y.admin.ch/de/organisations) angezeigt.
+- **Vereinfachte Erfassung von Behördenleistungen**: Beim Erfassen von Behördenleistungen waren bislang meist zwei Schritte nötig: Zuerst wurde Basisbeschreibung zur Behördenleistung erfasst. Anschliessend wurde über eine zweite Formularseite der Link bzw. der Kanal erfasst. Neu können die Basisbeschreibung und die Links über ein einziges Formular eingetragen werden. Dadurch lassen sich Behördenleistungen schneller und effizienter erfassen. 
+- **Neue Filtermöglichkeiten**: Dank des neuen Filters Konzepttyp kann nun gezielt nach Konzepten mit bestimmten Typen gefiltert werden. So lässt sich eine Suche beispielsweise auf alle Codelisten eingrenzen. 
+- **Interne Verbesserungen und Bugfixes**
+
 ## Release vom 24. September 2025
 - Auf I14Y kann zu jeder Datensatz-Beschreibung eine detaillierte technische Beschreibung der Datenstruktur hinterlegt werden. Neu lassen sich die hinterlegten Strukturen in mehreren Formaten (TTL, RDF, JSON-LD) via die öffentliche Website herunterladen. 
 - Alle Metadaten eines Datensatzes lassen sich über einen neu eingeführten Knopf über die öffentliche Website exportieren.

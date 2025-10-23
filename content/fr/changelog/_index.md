@@ -13,6 +13,13 @@ __FR:__ Ce site est en anglais. Seules les descriptions des grandes releases son
 
 The I14Y interoperability platform is under continuous development. New features are added with each release. Bugs are also fixed. The most important changes are briefly documented below. For detailed information on the development of the platform, please contact the [I14Y team](mailto:i14y@bfs.admin.ch). 
 
+## Release Octobre 22 2025
+- **Masques de saisie améliorés:** le bouton Enregistrer est désormais actif par défaut. Jusqu’à présent, il ne s’activait qu’après des modifications des métadonnées. Un clic sur le bouton permet d’identifier les métadonnées incomplètes: les champs concernés sont encadrés en rouge.
+- **Page des organisations plus claire:** les organisations qui n’ont pas encore publié de métadonnées ne sont plus affichées sur la page des organisations (https://www.i14y.admin.ch/fr/organisations).
+- **Saisie simplifiée des prestations des autorités:** jusqu’ici, deux étapes étaient généralement nécessaires. D’abord, la description de base de la prestation était saisie, puis le lien ou le canal sur une deuxième page du formulaire. Désormais, la description de base et les liens peuvent être saisis au moyen d’un seul formulaire, ce qui permet une saisie plus rapide et plus efficace.
+- **Nouvelles possibilités de filtrage:** grâce au nouveau filtre Type de concept, il est désormais possible de filtrer spécifiquement les concepts selon certains types. Il est par exemple possible de restreindre une recherche à toutes les listes de codes.
+- **Améliorations internes et corrections**
+
 ## Release September 24 2025
 - Une description technique détaillée de la structure des données peut être enregistrée pour chaque description de jeu de données sur I14Y. Les structures enregistrées peuvent désormais être téléchargées depuis le site public dans plusieurs formats (TTL, RDF, JSON-LD).
 - L’ensemble des métadonnées d’un jeu de données peut désormais être exporté depuis le site public via un nouveau bouton.

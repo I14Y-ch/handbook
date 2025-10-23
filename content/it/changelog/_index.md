@@ -13,6 +13,13 @@ __IT:__ Questa pagina è disponibile solo in inglese.
 
 The I14Y interoperability platform is under continuous development. New features are added with each release. Bugs are also fixed. The most important changes are briefly documented below. For detailed information on the development of the platform, please contact the [I14Y team](mailto:i14y@bfs.admin.ch). 
 
+## Release October 22 2025
+- **Improved editing masks**: The Save button is now active by default. Previously, it was only activated after changes were made to the metadata. Clicking the button helps identify incomplete metadata: the corresponding fields are outlined in red. 
+- **Clearer organisation page**: Organisations that have not yet published metadata publicly will no longer be displayed on the [organisation page](https://www.i14y.admin.ch/de/organisations).
+- **Simplified entry of public services**: Previously, entering government services usually required two steps: first, the basic description of the public service was recorded. Then, on a second form, the link or channel was added. Now, the basic description and links can be entered using a single form. This allows public services to be recorded more quickly and efficiently. 
+- **New filtering options**: Thanks to the new Concept Type filter, it is now possible to filter specifically for concepts with certain types. For example, a search can be limited to all code lists. 
+- **Internal improvements and bug fixes**
+
 ## Release September 24 2025
 - A detailed technical description of the data structure can be stored for every dataset description on I14Y. The stored structures can now be downloaded from the public website in multiple formats (TTL, RDF, JSON-LD).
 - All metadata of a dataset can now be exported from the public website via a newly introduced button.
