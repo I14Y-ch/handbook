@@ -29,6 +29,6 @@ Haben Sie Vorschläge für weitere nützliche Anwendungen? Schreiben Sie uns an 
 - **Excel Upload**: Importieren Sie Ihr Excel-basiertes Dateninventar einfach auf die I14Y Interoperabilitätsplattform.
 - **Keyword Generator**: Erstellen Sie Schlagwörter, um Ihre Datensatzbeschreibungen auf I14Y zu verbessern.
 - **Concept Import**: Importieren Sie Konzepte aus einer Tabelle auf I14Y.
--**Swagger to I14Y**: Generieren Sie aus Ihrer technischen API-Spezifikation (Swagger) eine API-Beschreibung auf I14Y.
--**Convert to SHACL**: Erstellen Sie eine SHACL-Beschreibung der Datenstruktur. Nutzen Sie dazu ihre Datensätze, z.B. in Form einer einer CSV-Datei.
--**SHACL-Editor**: Beschreiben oder bearbeiten Sie Datenstrukturen manuell mit dem SHACL-Struktureditor.
+- **Swagger to I14Y**: Generieren Sie aus Ihrer technischen API-Spezifikation (Swagger) eine API-Beschreibung auf I14Y.
+- **Convert to SHACL**: Erstellen Sie eine SHACL-Beschreibung der Datenstruktur. Nutzen Sie dazu ihre Datensätze, z.B. in Form einer einer CSV-Datei.
+- **SHACL-Editor**: Beschreiben oder bearbeiten Sie Datenstrukturen manuell mit dem SHACL-Struktureditor.
