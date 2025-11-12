@@ -64,7 +64,7 @@ Da un punto di vista tecnico, le precedenti strutture tabellari semplici vengono
  
 Nella fase successiva, le funzioni di elaborazione, importazione/esportazione e riutilizzo delle classi saranno continuamente ampliate.
 
-##Trovare rapidamente il codice giusto in nomenclature complesse
+## Trovare rapidamente il codice giusto in nomenclature complesse
 *26.08.2025*
 
 Nel nostro contesto, il proverbiale «trovare un ago in un pagliaio» (con facilità) significa che è possibile trovare rapidamente e con precisione un codice o una descrizione specifica in nomenclature estese come la CHOP o la NOGA.
