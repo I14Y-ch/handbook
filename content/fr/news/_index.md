@@ -49,8 +49,6 @@ Vous avez d’autres outils utiles en tête? Le service d’interopérabilité s
 ## L’OFEN publie son premier jeu de données sur la plateforme I14Y
 *26.08.2025*
 
-{{< figure src="/handbook/img/news/bfe-publiziert-datensaetze" alt="OFEN a décrit pour la première fois un jeu de données sur I14Y" width="125px" class="float-left img-news-thumb" >}}
-
 L’Office fédéral de l’énergie (OFEN) a décrit pour la première fois un jeu de données sur la plateforme. Il s’agit des [prix de marché de référence pour la prime de marché flottante]<8https://www.i14y.admin.ch/fr/catalog/datasets/BFE-DS-141/description) (selon l’art. 30aquinquies OEneR). Ces prix de référence sont d’une importance capitale pour le calcul de la prime de marché flottante, un instrument de promotion de l’État fédéral pour les installations photovoltaïques, biomasses, éoliennes et hydroélectriques.
 L’OFEN utilise la plateforme I14Y comme catalogue de métadonnées à l’interne, un élément central de sa stratégie numérique. En publiant ses jeux de données publiques, l’OFEN améliore la disponibilité et la réutilisation des données énergétiques et simplifie l’échange de données dans le secteur de l’énergie. Il prépare actuellement de nombreux autres jeux de données.
 
