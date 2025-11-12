@@ -8,9 +8,60 @@ keywords: [I14Y, Interoperabilitätsplattform I14Y, IOP, Nachrichten, News, Neui
 
 {{<alert title="Bleiben Sie stets auf dem Laufenden" color="success" >}}
 
-Möchten Sie über neue Funktionen und Angebote auf der Interoperabilitätsplattform I14Y informiert werden? Dann folgen Sie der I14Y auf dem sozialen Netzwerk [LinkedIn](https://www.linkedin.com/showcase/103890166/). Gerne können Sie auch das Newsmail abonnieren. Drei bis viermal pro Jahr erhalten Sie per E-Mail eine Zusammenstellung der neusten Entwicklungen bei I14Y. Um das Newsmail kostenlos zu abonnieren, besuchen Sie den [Abodienst des Bundesamts für Statistik](https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/kontakt/newsmail-abonnement.html) und wählen Sie "Interoperabilitätsplattform I14Y" aus. 
+Möchten Sie über neue Funktionen und Angebote auf der Interoperabilitätsplattform I14Y informiert werden? Dann folgen Sie uns auf dem sozialen Netzwerk [LinkedIn](https://www.linkedin.com/showcase/103890166/). Gerne können Sie auch das Newsmail abonnieren. Drei bis viermal pro Jahr erhalten Sie per E-Mail eine Zusammenstellung der neusten Entwicklungen bei I14Y. Um das Newsmail kostenlos zu abonnieren, besuchen Sie den [Abodienst des Bundesamts für Statistik](https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/kontakt/newsmail-abonnement.html) und wählen Sie "Interoperabilitätsplattform I14Y" aus. 
 
 {{</alert>}}
+
+## Aus zwei wird eins
+*26.08.2025*
+
+Aus zwei wird eins: Die beiden Metadatenplattformen I14Y und opendata.swiss werden zusammengeführt. Damit wird die Metadatenverwaltung in der Schweiz einfacher, klarer und zukunftsfähiger gestaltet. Den Startschuss dafür hat die Geschäftsleitung des Bundesamts für Statistik mit dem Projekt metadata.swiss gegeben. Seit dem 1. August arbeitet ein Projektteam, das sich aus Fachspezialistinnen und -spezialisten der Geschäftsstelle Open Government Data und der Interoperabilitätsstelle zusammensetzt, an konkreten Umsetzungsvarianten.
+ 
+Die künftige Plattform bringt viele Vorteile mit sich: Sie ermöglicht eine einheitliche Governance für Metadaten in der Schweiz, bündelt technische wie organisatorische Ressourcen und schafft eine bessere Anschlussfähigkeit an europäische Standards.
+ 
+Wir sind überzeugt: Diese Zusammenführung ist ein wichtiger Schritt für eine gut vernetzte Datenlandschaft in der Schweiz. Für die Roadmap von I14Y ändert sich aktuell nichts – wir entwickeln die Plattform zielstrebig weiter. Uns ist bewusst, dass die geplante Zusammenführung Fragen aufwerfen kann. Zögern Sie deshalb nicht, bei Bedarf direkt mit uns Kontakt aufzunehmen.
+
+## Automatisches Harvesting auf I14Y – eine Dienstleistung für unsere Partner
+*26.08.2025*
+
+{{< figure src="/handbook/img/news/automatisches-harvesting.png" alt="Grafik Toolbox" width="125px" class="float-left img-news-thumb" >}}
+
+Damit Daten mehrfach nachgenutzt werden können, müssen potenzielle Nutzerinnen und Nutzer überhaupt von der Existenz eines Datensatzes wissen. Zu diesem Zweck wurde die I14Y entwickelt. Die Verwaltung und behördennahe Institutionen beschreiben ihren Datenbestand auf dieser und machen ihn so der Allgemeinheit zugänglich. Um diesen Prozess zu vereinfachen, hat I14Y ein Harvesting-Modul entwickelt, das es ermöglicht, Metadaten automatisiert aus bestehenden Datenkatalogen zu übernehmen und zu aktualisieren.
+ 
+Das Harvesting basiert auf dem Schweizer DCAT-Anwendungsprofil und nutzt die I14Y-Partner-API, um Datensätze direkt in den privaten oder öffentlichen Katalog einer Organisation einzutragen. Für interessierte Organisationen stellt I14Y ein [konfigurierbares Template-Repository auf GitHub](https://github.com/I14Y-ch/harvester_template) zur Verfügung – von der Authentifizierung über das Mapping bis hin zur Automatisierung mit GitHub Actions.
+ 
+Der Harvester kann so konfiguriert werden, dass neue Datensätze importiert und bestehende in regelmässigen Abständen (z. B. jede Nacht) aktualisiert werden. Ein Beispiel ist der Harvester für das Datenrepository des Bundesamt für Lebensmittelsicherheit und Veterinärwesen, der seit Februar 2025 im Einsatz ist. Er publiziert täglich aktualisierte Metadaten direkt in den öffentlichen I14Y-Katalog und erfüllt aus Sicht der Plattform die Qualitätsanforderungen. Im Juli 2025 wurde er in die Produktivumgebung überführt.
+ 
+## Praktische Tools für Ihre Arbeit mit I14Y
+*26.08.2025*
+
+{{< figure src="/handbook/img/news/praktische-tools.png" alt="Grafik Toolbox" width="125px" class="float-left img-news-thumb" >}}
+
+Die I14Y-Toolbox bietet praxisnahe Unterstützung für verschiedene Aufgaben rund um das Metadatenmanagement. Ein passendes Hilfsprogramm erleichtert beispielsweise den Import eines bestehenden Dateninventars im Tabellenformat. Für die Dokumentation der Struktur von Datensätzen steht ein neues Konvertierungstool zur Verfügung, mit dem sich im Handumdrehen SHACL-konforme Datenstrukturen erstellen lassen. Auch für bestehende technische Schnittstellen-Dokumentationen ist gesorgt: Das Tool Swagger2I14Y hilft dabei, daraus einen I14Y-konformen Eintrag zu erstellen. Und wer aus einem Datensatz einzelne Datenelementkonzepte extrahieren möchte, findet mit dem Konzept-Import das passende Werkzeug.
+ 
+Diese und weitere nützliche Werkzeuge finden Sie in der neuen I14Y-Toolbox. Die Tools erleichtern viele Arbeitsschritte – etwa durch automatische Konvertierungen, Übersetzungen und, in einzelnen Fällen, den Einsatz von Künstlicher Intelligenz (z. B. im verlinkten ABC-Generator). Die Tools können direkt im Webbrowser genutzt oder alternativ heruntergeladen und lokal ausgeführt werden – beispielsweise, wenn Sie mit sensiblen oder nicht online verfügbaren Daten arbeiten.
+ 
+Haben Sie Ideen für weitere hilfreiche Tools? Die Interoperabilitätsstelle freut sich über Ihre Vorschläge und Skripte. [Link zur I14Y-Toolbox](https://toolbox.i14y.admin.ch).
+
+## Das BFE publiziert seinen ersten Datensatz auf I14Y
+*26.08.2025*
+
+{{< figure src="/handbook/img/news/bfe-publiziert-datensaetze" alt="Grafik Datenstrukturen graphisch darstellen" width="125px" class="float-left img-news-thumb" >}}
+
+Das Bundesamt für Energie (BFE) hat einen ersten Datensatz auf der Plattform beschrieben. Es handelt sich um die Referenz-Marktpreise für die gleitende Marktprämie gemäss Art. 30aquinquies EnFV. Diese Referenzpreise sind von zentraler Bedeutung für die Berechnung der gleitenden Marktprämie, einem Förderinstrument des Bundes für Photovoltaik-, Biomasse-, Windenergie- und Wasserkraftanlagen. Die Preise werden vierteljährlich vom BFE berechnet und veröffentlicht.
+ 
+Das BFE nutzt die I14Y-Plattform als internen Metadatenkatalog – ein wesentlicher Bestandteil seiner digitalen Strategie und ein zentrales Instrument seines aktiven Datenbewirtschaftung. Durch die Publikation seiner öffentlichen Datensätze verbessert das BFE die Verfügbarkeit und Wiederverwendbarkeit von Energiedaten und vereinfacht den Datenaustausch im Energiesektor. Dieser erste Datensatz ist das Ergebnis fundierter interner Governance-Prozesse. Zahlreiche weitere Datensätze sind in Vorbereitung und sollen veröffentlicht werden.
+
+## Datenstrukturen graphisch darstellen
+*26.08.2025*
+
+{{< figure src="/handbook/img/news/datenstruktur-graphisch-darstellen.png" alt="Grafik Datenstrukturen graphisch darstellen" width="125px" class="float-left img-news-thumb" >}}
+
+Mit dem letzten Releases ist es möglich, Datenstrukturen auf I14Y graphisch darzustellen – ein Meilenstein für alle, die Daten nicht nur bereitstellen, sondern auch nachhaltig nutzbar machen wollen. Der neu konzipierte Strukturbereich ermöglicht es, auch komplexe, verschachtelte Datenstrukturen präzise abzubilden. Jedes Attribut verweist dabei auf ein zugehöriges Datenelementkonzept – falls vorhanden. Das macht den Mehrfachnutzen der Daten direkt sichtbar.
+ 
+Technisch gesehen werden die bisherigen einfachen Tabellenstrukturen durch ausdrucksstärkere Modelle ersetzt: mit Klassen, Attributen und Relationen, gespeichert im Linked-Data-Format (TTL). Perspektivisch erfolgt die Speicherung in einem Triple-Store – das erlaubt es, Datenstrukturen als Graphen zu modellieren und zu visualisieren. So lassen sich künftig auch XML-, JSON- oder relationale Datenmodelle leicht nachbilden.
+ 
+Im nächsten Schritt werden die Funktionen zur Bearbeitung, zum Import/Export sowie zur Wiederverwendung von Klassen kontinuierlich erweitert.
 
 ## Schnell zum richtigen Code in komplexen Nomenklaturen
 *18.07.2025*
