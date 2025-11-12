@@ -24,7 +24,7 @@ Wir sind überzeugt: Diese Zusammenführung ist ein wichtiger Schritt für eine 
 ## Automatisches Harvesting auf I14Y – eine Dienstleistung für unsere Partner
 *26.08.2025*
 
-{{< figure src="/handbook/img/news/automatisches-harvesting.png" alt="Grafik Toolbox" width="125px" class="float-left img-news-thumb" >}}
+{{< figure src="/handbook/img/news/automatisches-harvesting.png" alt="Grafik Automatisches Harvesting – eine Dienstleistung für unsere Partner" width="125px" class="float-left img-news-thumb" >}}
 
 Damit Daten mehrfach nachgenutzt werden können, müssen potenzielle Nutzerinnen und Nutzer überhaupt von der Existenz eines Datensatzes wissen. Zu diesem Zweck wurde die I14Y entwickelt. Die Verwaltung und behördennahe Institutionen beschreiben ihren Datenbestand auf dieser und machen ihn so der Allgemeinheit zugänglich. Um diesen Prozess zu vereinfachen, hat I14Y ein Harvesting-Modul entwickelt, das es ermöglicht, Metadaten automatisiert aus bestehenden Datenkatalogen zu übernehmen und zu aktualisieren.
  
@@ -45,8 +45,6 @@ Haben Sie Ideen für weitere hilfreiche Tools? Die Interoperabilitätsstelle fre
 
 ## Das BFE publiziert seinen ersten Datensatz auf I14Y
 *26.08.2025*
-
-{{< figure src="/handbook/img/news/bfe-publiziert-datensaetze" alt="Grafik Datenstrukturen graphisch darstellen" width="125px" class="float-left img-news-thumb" >}}
 
 Das Bundesamt für Energie (BFE) hat einen ersten Datensatz auf der Plattform beschrieben. Es handelt sich um die Referenz-Marktpreise für die gleitende Marktprämie gemäss Art. 30aquinquies EnFV. Diese Referenzpreise sind von zentraler Bedeutung für die Berechnung der gleitenden Marktprämie, einem Förderinstrument des Bundes für Photovoltaik-, Biomasse-, Windenergie- und Wasserkraftanlagen. Die Preise werden vierteljährlich vom BFE berechnet und veröffentlicht.
  
