@@ -43,8 +43,8 @@ Viele praktische Tipps in nur 20 Minuten: Besuchen Sie das Kurzreferat von I14Y 
 ### 4. Dezember: Swiss CommUNITY Day on Data
 Am 4. Dezember 2025 trifft sich die Schweizer Daten-Community im Forum Fribourg zum [Swiss CommUNITY Day on Data](https://swissdatacommunity.ch/alle-events/swisscommunity-day-on-data-2025/) zu einem Tag des Austauschs, der Entdeckungen und der Innovationen. Bei dieser dritten Ausgabe wird das Thema Plattformen im Bezug zur Datenbewirtschaftung im Mittelpunkt stehen.
 
-### 15.Januar 2026: [Weiterbildung Data Management & Open Government Data](https://www.bfh.ch/de/aktuell/fachveranstaltungen/weiterbildung-data-management-open-government-data/)
-I14Y als Hilfsmittel zur Datenharmonisierung
+### 15. Januar 2026: [Weiterbildung Data Management & Open Government Data](https://www.bfh.ch/de/aktuell/fachveranstaltungen/weiterbildung-data-management-open-government-data/)
+Referat: I14Y als Hilfsmittel zur Datenharmonisierung
 
 ## Vergangene Veranstaltungen
 
