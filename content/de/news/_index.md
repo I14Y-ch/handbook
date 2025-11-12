@@ -46,7 +46,7 @@ Haben Sie Ideen für weitere hilfreiche Tools? Die Interoperabilitätsstelle fre
 ## Das BFE publiziert seinen ersten Datensatz auf I14Y
 *26.08.2025*
 
-Das Bundesamt für Energie (BFE) hat einen ersten Datensatz auf der Plattform beschrieben. Es handelt sich um die Referenz-Marktpreise für die gleitende Marktprämie gemäss Art. 30aquinquies EnFV. Diese Referenzpreise sind von zentraler Bedeutung für die Berechnung der gleitenden Marktprämie, einem Förderinstrument des Bundes für Photovoltaik-, Biomasse-, Windenergie- und Wasserkraftanlagen. Die Preise werden vierteljährlich vom BFE berechnet und veröffentlicht.
+Das Bundesamt für Energie (BFE) hat einen ersten Datensatz auf der Plattform beschrieben. Es handelt sich um die Referenz-Marktpreise für [die gleitende Marktprämie gemäss Art. 30aquinquies EnFV](https://www.i14y.admin.ch/de/catalog/datasets/BFE-DS-141/description). Diese Referenzpreise sind von zentraler Bedeutung für die Berechnung der gleitenden Marktprämie, einem Förderinstrument des Bundes für Photovoltaik-, Biomasse-, Windenergie- und Wasserkraftanlagen. Die Preise werden vierteljährlich vom BFE berechnet und veröffentlicht.
  
 Das BFE nutzt die I14Y-Plattform als internen Metadatenkatalog – ein wesentlicher Bestandteil seiner digitalen Strategie und ein zentrales Instrument seines aktiven Datenbewirtschaftung. Durch die Publikation seiner öffentlichen Datensätze verbessert das BFE die Verfügbarkeit und Wiederverwendbarkeit von Energiedaten und vereinfacht den Datenaustausch im Energiesektor. Dieser erste Datensatz ist das Ergebnis fundierter interner Governance-Prozesse. Zahlreiche weitere Datensätze sind in Vorbereitung und sollen veröffentlicht werden.
 
