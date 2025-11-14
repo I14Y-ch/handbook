@@ -35,20 +35,22 @@ timeline
 
 ## Eventi futuri
 
-### 21 ottobre 2025: giornata di formazione per i Local Data Stewards
-Quali possibilità offre I14Y per l'inventario e l'armonizzazione dei dati? Scopra la piattaforma in dettaglio durante la giornata di formazione per i Local Data Stewards a Neuchâtel. Seguiranno ulteriori informazioni. Iscrizione a [i14y@bfs.admin.ch](mailto:i14y@bfs.admin.ch).   
-
-### Dal 5 al 7 novembre 2025: Giornate svizzere della statistica
-Le Giornate svizzere della statistica si terranno dal 5 al 7 novembre 2025 a Ginevra.
-
 ### 18 novembre 2025: Dinacon
 Molti consigli pratici in soli 20 minuti: partecipi alla breve presentazione di I14Y alla [Dinacon](https://dinacon.ch) di quest'anno a Berna. 
+
+### 25 novembre 2025: Comitato direttivo
 
 ### 4 dicembre 2025: Swiss CommUNITY Day on Data
 Il 4 dicembre 2025, la comunità svizzera dei dati si riunirà al Forum Fribourg per il [Swiss CommUNITY Day on Data](https://swissdatacommunity.ch/alle-events/swisscommunity-day-on-data-2025/), una giornata di scambi, scoperte e innovazioni. Questa terza edizione sarà dedicata al tema delle piattaforme in relazione alla gestione dei dati.
 
+### 15 gennaio 2026: Formazione continua Gestione dei dati e dati pubblici aperti
+Presentazione: I14Y come strumento di armonizzazione dei dati (evento e presentazione in tedesco)
+
+
 ## Eventi passati
 
+- 05 al 07 novembre 2025: Giornate svizzere della statistica
+- 21 ottobre 2025: giornata di formazione per i Local Data Stewards
 - 02 settembre 2025: [Swiss Data Space Forum](https://forum.swissdataalliance.ch) presso il campus HSLU Rotkreuz.
 - 21 agosto 2025: Presentazione I14Y durante la formazione continua Data Management e Open Government Data dell'Università di Scienze Applicate di Berna
 - 09 luglio 2025: Incontro informale dei Local Data Stewards

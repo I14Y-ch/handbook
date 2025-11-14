@@ -13,6 +13,63 @@ Desiderate essere informati sulle nuove funzionalità e offerte della piattaform
 
 {{</alert>}}
 
+## Verso un ecosistema dei metadati più integrato
+*26.08.2025*
+
+Le due piattaforme di metadati I14Y e opendata.swiss si fondono per rendere la gestione dei metadati in Svizzera ancora più semplice, chiara e sostenibile. A dare il via libera al progetto metadata.swiss è il Comitato di direzione dell’Ufficio federale di statistica. Dal 1° agosto, un team di progetto composto da specialisti della Segreteria Open Government Data e del servizio di interoperabilità sta lavorando a possibili varianti di applicazione concreta.
+ 
+La futura piattaforma presenta molti vantaggi: consente di mettere in atto una governance uniforme per i metadati in Svizzera, mette a sistema risorse tecniche e organizzative e crea una migliore compatibilità con gli standard europei.
+ 
+Siamo convinti che questa fusione costituisca un passo strategico verso un ecosistema di dati interconnesso in Svizzera. Al momento la roadmap della piattaforma I14Y non subisce alcuna modifica: continuiamo a lavorare in modo risoluto al suo sviluppo. Siamo consapevoli del fatto che la fusione prevista potrebbe sollevare delle domande. In caso di dubbi non esitate a contattarci.
+
+## Harvesting automatico sulla piattaforma I14Y – Un servizio per i nostri partner
+*26.08.2025*
+
+{{< figure src="/handbook/img/news/automatisches-harvesting.png" alt="Grafik Harvesting automatico" width="125px" class="float-left img-news-thumb" >}}
+
+Affinché i dati possano essere riutilizzati più volte, i potenziali utenti devono innanzitutto essere a conoscenza dell’esistenza di un set di dati. Proprio per questo è stata sviluppata la piattaforma I14Y, su cui amministrazione e istituzioni ad essa associate descrivono il proprio set di dati e lo rendono accessibile al pubblico. Per semplificare questo processo, sulla piattaforma I14Y è stato sviluppato un modulo di data harvesting, che consente di trasferire e aggiornare automaticamente i metadati dai cataloghi di dati esistenti.
+ 
+L’harvesting si basa sul Profilo di applicazione svizzero DCAT e utilizza l’API partner di I14Y per inserire set di dati direttamente nel catalogo pubblico o privato di un’organizzazione. Per le organizzazioni che vi si interessano, la piattaforma I14Y mette a disposizione [un archivio di template configurabile su GitHub](https://github.com/I14Y-ch/harvester_template), dall’autenticazione e la mappatura all’automazione con GitHub Actions.
+ 
+Il modulo di harvesting può essere configurato in modo da importare nuovi set di dati e da aggiornare quelli esistenti a intervalli regolari (p. es., ogni notte). Un esempio è il modulo di harvesting per l’archivio dati dell’ Ufficio federale della sicurezza alimentare e di veterinaria, in uso dal febbraio 2025. Pubblica quotidianamente metadati aggiornati direttamente nel catalogo pubblico I14Y e soddisfa i requisiti di qualità dal punto di vista della piattaforma. È stato trasferito all’ambiente di produzione nel luglio 2025.
+ 
+## Pratici tool per lavorare con la piattaforma I14Y
+*26.08.2025*
+
+{{< figure src="/handbook/img/news/praktische-tools.png" alt="Grafik Toolbox" width="125px" class="float-left img-news-thumb" >}}
+
+La toolbox I14Y offre un supporto pratico per vari compiti relativi alla gestione dei metadati. Ad esempio, un programma ausiliario adeguato facilita l’importazione di un inventario di dati esistente in formato tabellare. È disponibile un nuovo strumento di conversione per documentare la struttura dei set di dati, con il quale in un batter d’occhio è possibile creare strutture di dati conformi a SHACL. Vengono inoltre fornite le documentazioni delle interfacce tecniche esistenti e con il tool Swagger2I14Y è possibile renderle conformi alla piattaforma I14Y. Chi invece volesse estrarre singoli concetti di elementi dati da un set di dati, troverà nel «Concept Import» il tool giusto.
+
+Questi e altri utili tool sono disponibili nel nuovo toolbox di I14Y. I tool semplificano molte fasi di lavoro, ad esempio attraverso conversioni automatiche, traduzioni e, in alcuni casi, l’utilizzo dell’intelligenza artificiale (p. es. nel generatore ABC nel link). I tool possono essere utilizzati direttamente nel browser web o in alternativa scaricati ed eseguiti localmente, ad esempio se si lavora con dati sensibili o non disponibili online.
+
+Avete altre idee per altri tool utili? Il servizio di interoperabilità è aperto a ricevere i vostri suggerimenti e i vostri script. [Link al toolbox I14Y](https://toolbox.i14y.admin.ch).
+
+## L’UFE pubblica per la prima volta un set di dati su I14Y
+*26.08.2025*
+
+L’Ufficio federale dell’energia (UFE) ha descritto un primo set di dati sulla piattaforma. Si tratta [dei prezzi di mercato di riferimento per il premio di mercato fluttuante ai sensi dell’art. 30aquinquies OPEn](https://www.i14y.admin.ch/it/catalog/datasets/BFE-DS-141/description). Questi prezzi di riferimento sono di fondamentale importanza per il calcolo del premio di mercato fluttuante, uno strumento di promozione della Confederazione per gli impianti fotovoltaici, a biomassa, eolici e idroelettrici.
+ 
+L’UFE utilizza la piattaforma I14Y come catalogo interno di metadati, una componente centrale della sua strategia digitale e uno strumento fondamentale della sua gestione attiva dei dati. Pubblicando i propri set di dati pubblici, l’UFE migliora l’accessibilità e la possibilità di riutilizzare i dati energetici, semplificando lo scambio di dati nel settore energetico.
+ 
+Questo primo set di dati è il risultato di solidi processi di governance interna; molti altri sono in preparazione e verranno pubblicati a breve.
+
+## Rappresentazione grafica di strutture di dati
+*26.08.2025*
+
+{{< figure src="/handbook/img/news/datenstruktur-graphisch-darstellen.png" alt="Grafik Rappresentazione grafica di strutture di dati" width="125px" class="float-left img-news-thumb" >}}
+
+Con l’ultima versione, sulla piattaforma I14Y è ora possibile rappresentare graficamente strutture di dati: si tratta di una pietra miliare per tutti coloro che non solo vogliono mettere a disposizione dati, ma anche renderli utilizzabili a lungo termine. La nuova configurazione consente di rappresentare con precisione anche strutture di dati complesse e articolate. Ogni attributo rimanda a un concetto di elemento dati associato, se disponibile. In questo modo la multifunzionalità dei dati è direttamente visibile.
+ 
+Da un punto di vista tecnico, le precedenti strutture tabellari semplici vengono sostituite da modelli di maggiore forza espressiva: con classi, attributi e relazioni, memorizzati in formato linked data (TTL). In prospettiva, la memorizzazione avviene in un triple store, che consente di modellare e visualizzare le strutture di dati come grafi. Ciò significa che in futuro potranno essere riprodotti facilmente anche i modelli di dati XML, JSON.
+ 
+Nella fase successiva, le funzioni di elaborazione, importazione/esportazione e riutilizzo delle classi saranno continuamente ampliate.
+
+## Trovare rapidamente il codice giusto in nomenclature complesse
+*26.08.2025*
+
+Nel nostro contesto, il proverbiale «trovare un ago in un pagliaio» (con facilità) significa che è possibile trovare rapidamente e con precisione un codice o una descrizione specifica in nomenclature estese come la CHOP o la NOGA.
+Proprio per questo sulla piattaforma di interoperabilità I14Y abbiamo sviluppato una nuova funzione di ricerca intelligente, veloce e contestualizzata, che, tramite la scheda «Contenuto», permette di trovare all’interno della struttura le informazioni che si stanno cercando. Tale funzione è rivolta a specialisti, analisti e a chiunque lavori regolarmente con classificazioni e collezioni di dati strutturati: accertatevene voi stessi [nel breve video](https://i14y-ch.github.io/handbook/img/news/strukturelle-suche.mp4).
+
 ## Nouvel accès M2M : synchronisation automatisée des métadonnées avec I14Y
 *12.05.2025*
 

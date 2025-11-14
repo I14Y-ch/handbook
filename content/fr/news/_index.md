@@ -13,6 +13,56 @@ Vous souhaitez être informés des nouvelles fonctions et des offres de la plate
 
 {{</alert>}}
 
+## Deux-en-un
+*26.08.2025*
+
+les plateformes de métadonnées I14Y et opendata.swiss vont fusionner dans le but de rendre la gestion des métadonnées en Suisse plus simple, plus claire et plus durable. Le conseil de direction de l’Office fédéral de la statistique a donné le coup d’envoi de cette opération au travers du projet metadata.swiss. Une équipe de projet composée de spécialistes de l’équipe Open Government Data et du service d’interopérabilité travaille depuis le 1er août à l’élaboration de variantes concrètes pour sa mise en œuvre. 
+
+La future plateforme présente de nombreux avantages: elle permet une gouvernance uniforme des métadonnées en Suisse, regroupe les ressources techniques et organisationnelles et améliore la compatibilité avec les normes européennes. 
+
+Nous en sommes convaincus: cette fusion est une étape importante vers un paysage suisse des données bien interconnecté. Actuellement, rien ne change concernant la feuille de route de l’I14Y – nous continuons résolument de développer la plateforme. Nous sommes conscients que cette fusion peut soulever des questions. N’hésitez donc pas à prendre contact avec nous!
+
+## Moissonnage automatique sur la plateforme I14Y: un service pour nos partenaires
+*26.08.2025*
+
+{{< figure src="/handbook/img/news/automatisches-harvesting.png" alt="Grafik Moissonnage automatique" width="125px" class="float-left img-news-thumb" >}}
+
+Pour que les utilisateurs et utilisatrices réutilisent les données, ils doivent être au courant de leur existence. C’est dans ce but que la plateforme I14Y a été développée. L’administration et les institutions proches des autorités décrivent leurs jeux de données sur cette plateforme, rendant ainsi ces informations accessibles au grand public. Afin de simplifier ce processus, I14Y a développé un module de moissonnage qui permet de transférer et de mettre à jour automatiquement les métadonnées à partir de catalogues de données existants. 
+
+Le moissonnage se base sur le profil d’application DCAT-AP CH et utilise l’API partenaire de la plateforme I14Y pour enregistrer les jeux de données directement dans le catalogue privé ou public d’une organisation. La plateforme I14Y met à la disposition des organisations intéressées des [modèles de référence configurable sur GitHub](https://github.com/I14Y-ch/harvester_template), allant de l’authentification à l’automatisation avec GitHub Actions, en passant par le mappage.
+ 
+Le moissonneur peut être configuré de manière à importer de nouveaux jeux de données et à mettre à jour ceux qui existent déjà à intervalles réguliers (toutes les nuits, p. ex.). Le moissonneur utilisé pour le référentiel de données de l’Office fédéral de la sécurité alimentaire et des affaires vétérinaires, en service depuis février 2025, en est un exemple. Il publie chaque jour des métadonnées mises à jour directement dans le catalogue public de la plateforme et répond aux exigences de qualité de la plateforme. Il a été transféré dans l’environnement de production en juillet 2025.
+ 
+Les organisations intéressées peuvent configurer elles-mêmes le moissonneur à l’aide du modèle GitHub. C’est avec plaisir que nous vous aidons dans cette démarche, que ce soit par des conseils techniques ou par la mise en place d’un utilisateur technique pour l’authentification automatisée. N’hésitez pas à nous contacter par e-mail.
+ 
+## Outils pratiques pour votre travail avec la plateforme I14Y
+*26.08.2025*
+
+{{< figure src="/handbook/img/news/praktische-tools.png" alt="Grafik Toolbox" width="125px" class="float-left img-news-thumb" >}}
+
+La boîte à outils I14Y offre une aide pratique pour différentes tâches liées à la gestion des métadonnées. Un programme d’aide adapté facilite par exemple l’importation d’un inventaire de données existant au format tableau. Un nouvel outil de conversion est disponible pour la documentation de la structure des jeux de données. Il permet de créer en un tour de main des structures de données conformes à SHACL. La documentation des interfaces techniques existantes est également prise en charge: l’outil Swagger2I14Y aide à créer une entrée conforme à la plateforme I14Y. Et si vous souhaitez extraire certaines informations relatives à des données individuelles d’un jeu de données, l’importation est la méthode qu’il vous faut utiliser.
+ 
+Vous trouverez ces outils et d’autres dans la nouvelle boîte à outils I14Y. Les outils facilitent de nombreuses étapes de travail – notamment grâce à des conversions automatiques, à des traductions et, dans certains cas, à l’utilisation de l’intelligence artificielle (dans le générateur ABC lié, par exemple). Il est possible d’utiliser ces outils directement dans le navigateur Web ou de les télécharger et de les exécuter localement, notamment si vous travaillez avec des données sensibles ou non disponibles en ligne.
+ 
+Vous avez d’autres outils utiles en tête? Le service d’interopérabilité se réjouit de recevoir vos propositions et scripts. [Lien vers la boîte à outils I14Y](https://toolbox.i14y.admin.ch).
+
+## L’OFEN publie son premier jeu de données sur la plateforme I14Y
+*26.08.2025*
+
+L’Office fédéral de l’énergie (OFEN) a décrit pour la première fois un jeu de données sur la plateforme. Il s’agit des [prix de marché de référence pour la prime de marché flottante]<8https://www.i14y.admin.ch/fr/catalog/datasets/BFE-DS-141/description) (selon l’art. 30aquinquies OEneR). Ces prix de référence sont d’une importance capitale pour le calcul de la prime de marché flottante, un instrument de promotion de l’État fédéral pour les installations photovoltaïques, biomasses, éoliennes et hydroélectriques.
+L’OFEN utilise la plateforme I14Y comme catalogue de métadonnées à l’interne, un élément central de sa stratégie numérique. En publiant ses jeux de données publiques, l’OFEN améliore la disponibilité et la réutilisation des données énergétiques et simplifie l’échange de données dans le secteur de l’énergie. Il prépare actuellement de nombreux autres jeux de données.
+
+## Représentation graphique des structures de données
+*26.08.2025*
+
+{{< figure src="/handbook/img/news/datenstruktur-graphisch-darstellen.png" alt="Grafik Représentation graphique des structures de données" width="125px" class="float-left img-news-thumb" >}}
+
+Grâce à la dernière version, il est maintenant possible de représenter graphiquement les structures de données sur I14Y – une étape importante pour tous ceux qui souhaitent non seulement fournir des données, mais aussi les rendre durables. La zone de structure nouvellement conçue permet de représenter avec précision des structures de données complexes et imbriquées. Chaque attribut renvoie à un concept d’élément de données correspondant, s’il existe. Cela rend la réutilisation des données directement visible.
+
+D’un point de vue technique, les tableaux simples utilisés jusqu’à présent sont remplacés par des structures plus claires: des classes, des attributs et des relations, stockés au format Linked Data (TTL). À l’avenir, le stockage s’effectuera dans un triplestore, ce qui permettra de modéliser et de visualiser les structures de données sous forme de graphiques. Il sera ainsi facile à l’avenir de reproduire des modèles XML, JSON ou relationnels de données.
+
+La prochaine étape consistera à étendre en continu les fonctions d’édition, d’importation et d’exportation ainsi que de réutilisation des classes.
+
 ## Trouver rapidement le bon code dans des nomenclatures complexes
 *18.07.2025*
 
