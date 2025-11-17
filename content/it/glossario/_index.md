@@ -189,6 +189,9 @@ Il[Quadro europeo di interoperabilità](https://joinup.ec.europa.eu/collection/n
 ## Resource Description Framework (RDF)
 Il RDF è il linguaggio di base del web semantico e consente di rappresentare i metadati sotto forma di triplette (soggetto-predicato-oggetto).
 
+## Servizio delle autorità
+Sequenza obbligatoria o volontaria di attività che vengono o possono essere svolte da un'autorità o per suo conto e che derivano dalla politica amministrativa. [Alla definizione in TERMDAT](https://register.ld.admin.ch/termdat/520805)
+
 ## Servizio di interoperabilità (IOS)
 Il servizio di interoperabilità (IOS) dell’Ufficio federale di statistica mette a disposizione gli strumenti per l’armonizzazione, la standardizzazione e l’utilizzo multiplo dei dati. Quale strumento tecnico, sviluppa e mantiene la piattaforma di interoperabilità I14Y. Il servizio di interoperabilità coordina la standardizzazione e l’armonizzazione dei dati all’interno dei singoli settori tematici (ad es. energia, salute, mobilità, agricoltura). In tale contesto, l’UST svolge i compiti di _amministratore svizzero dei dati_.
 
