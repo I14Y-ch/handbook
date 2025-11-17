@@ -44,7 +44,7 @@ Bestimmte Begriffe können Klasse oder Element sein. DCAT unterscheidet __Klasse
 
 DCAT sieht vier Hauptklassen vor: Die Klasse __Katalog__ (`dcat:Catalog`) beschreibt eine Sammlung, die Datensätze oder elektronische Schnittstellen (APIs) enthalten kann. __Dataset__ (`dcat:Dataset`) beinhaltet Informationen zum einzelnen Datensatz und die Klasse __Data Service__ (`dcat:Dataservice`) zur elektronischen Schnittstelle. Die __Distribution__ (`dcat:Distribution`) beschreibt eine spezifische Repräsentation des Datensatzes, etwa als Export in einer CSV-Datei. 
 
-Auf I14Y werden auch digitale Behördenleistungen beschrieben. Deshalb wurde DCAT um die Klasse __Public Service__ (`dcat:Publicservice`) erweitert. Für diese Einträge wird das [Core Public Service Vocabulary Application Profile](https://joinup.ec.europa.eu/collection/semic-support-centre/solution/core-public-service-vocabulary-application-profile) der Europäischen Union verwendet. 
+Auf I14Y werden auch digitale Behördenleistungen (public services) beschrieben. Deshalb wurde DCAT um die Klasse __Public Service__ (`dcat:Publicservice`) erweitert. Für diese Einträge wird das [Core Public Service Vocabulary Application Profile](https://joinup.ec.europa.eu/collection/semic-support-centre/solution/core-public-service-vocabulary-application-profile) der Europäischen Union verwendet. 
 
 ## Data Custodian (Datenhalter)
 Ein Data Custodian ist verantwortlich für die sichere Haltung und Übermittlung der Daten und stellt diese gemäss den gemeinsam definierten Anforderungen in geeigneter Art und Weise allen legitimierten Nutzern zur Verfügung. [Zur Definition auf TERMDAT](https://register.ld.admin.ch/termdat/502924)
