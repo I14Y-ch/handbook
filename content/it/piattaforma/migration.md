@@ -9,7 +9,19 @@ keywords: [I14Y, piattaforma di interoperabilità I14Y, account utente, account,
 
 I14Y si sposta nel Cloud Pubblico. L'utilizzo del Cloud Pubblico semplifica numerosi processi tecnici, rendendo possibile uno sviluppo più rapido e flessibile. Inoltre, i costi operativi possono essere ridotti. Questo consente a I14Y di rimanere attraente a lungo termine.
 
-In questa pagina web verranno fornite informazioni sullo stato dei lavori di migrazione. Procedura pianificata:
+In questa pagina web verranno fornite informazioni sullo stato dei lavori di migrazione.
+
+## Stato della migrazione
+
+| Fase | Stato | Nota |
+|------|-------|------|
+| Migrazione ABN | ✅ | L'ambiente di accettazione è ora operativo nel Cloud Pubblico. |
+| Read-only PROD | ✅ | L'ambiente di produzione è stato impostato in modalità di sola lettura. Attualmente non è possibile inserire o modificare metadati. |
+| Migrazione software PROD | ⏳ | Pianificato: 26.11.2025 |
+| Migrazione dati PROD | ⏳ | Pianificato: 26.11.2025 |
+| Attivazione diritti di scrittura PROD | ⏸️ | Pianificato: 26.11.2025 |
+
+## Procedura prevista
 
 __Lunedì, 17.11.2025:__ L'indirizzo Internet per l'ambiente di accettazione verrà aggiornato. Una volta aggiornate le directory Internet, l'ambiente di accettazione sarà erogato dal Cloud Pubblico.
 

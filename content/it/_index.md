@@ -14,6 +14,12 @@ La traduzione è in corso: Grazie per il vostro interesse nella versione italian
 
 ![Scena dal video esplicativo sulla piattaforma di interoperabilità I14Y](/handbook/img/i14y-film_55.png)
 
+{{<alert title="I14Y in modalità di sola lettura" color="warning">}}
+
+Attualmente non è possibile acquisire o modificare metadati su I14Y. Il motivo è la migrazione al cloud pubblico. Secondo la pianificazione, I14Y sarà nuovamente completamente disponibile domani giovedì. Informazioni sullo stato della migrazione sono disponibili in [Sviluppo e gestione di I14Y](/handbook/it/plattform/migration/).
+
+{{</alert>}}
+
 Quali dati sono disponibili? E come fare per reperirli? La piattaforma di interoperabilità I14Y (IOP I14Y) è il registro centrale di dati, interfacce elettroniche e servizi offerti dalle autorità delle amministrazioni pubbliche in Svizzera. La piattaforma rende i dati reperibili e mostra come si fa ad accedervi.  
 
 L'IOP I14Y riporta se i dati in questione sono accessibili liberamente o con restrizioni, se sono conformi a uno standard, chi è responsabile della collezione di dati, quanto spesso vengono aggiornati e come viene valutata la loro qualità. La piattaforma aiuta quindi a capire il contesto di una collezione di dati. L'IOP I14Y contiene esclusivamente metadati; i dati effettivi restano presso le autorità competenti. L'IOP I14Y promuove lo scambio efficiente dei dati all'interno delle amministrazioni pubbliche e tra le autorità, le imprese e la popolazione. 

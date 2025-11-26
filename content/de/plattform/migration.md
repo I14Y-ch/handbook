@@ -9,7 +9,19 @@ keywords: [I14Y, I14Y interoperability platform, user account, account, connecti
 
 I14Y geht in die Public Cloud. Die Nutzung der Public Cloud vereinfacht zahlreiche technische Prozesse, was eine schnellere und flexiblere Weiterentwicklung möglich macht. Zudem können die Betriebskosten gesenkt werden. Das erlaubt es I14Y längerfristig attraktiv zu bleiben. 
 
-Auf dieser Webseite wird über den Stand der Migrationsarbeiten informiert. Geplantes Vorgehen: 
+Auf dieser Webseite wird über den Stand der Migrationsarbeiten informiert.
+
+## Status der Migration
+
+| Schritt | Status | Hinweis |
+|---------|--------|---------|
+| Migration ABN | ✅ | Die Abnahme-Umgebung läuft nun in der Public Cloud. |
+| Read-only PROD | ✅ | Die produktive Umgebung wurde in den Nur-Lese-Modus versetzt. Aktuell können keine Metadaten erfasst oder bearbeitet werden. |
+| Migration Software PROD | ⏳ | Geplant: 26.11.2025 |
+| Migration Daten PROD | ⏳ | Geplant: 26.11.2025 |
+| Aktivieren der Schreibrechte PROD | ⏸️ | Geplant: 26.11.2025 |
+
+## Geplanter Ablauf
 
 __Montag, 17.11.2025:__ Die Internetadresse für die Abnahme-Umgebung wird angepasst. Sobald die Internetverzeichnisse aktualisiert sind, wird die Abnahme-Umgebung aus der Public Cloud ausgeliefert. 
 
@@ -17,4 +29,4 @@ __Ab Dienstag, 18.11.2025:__ Die [Abnahme-Umgebung](https://input.i14y-a.admin.c
 
 __Mittwoch, 26.11.2025:__ Für die produktive Umgebung wird der Nur-Lese-Modus aktiviert. Die Metadaten der bisherigen Plattform werden mit der neuen Installation synchronisiert. Die Internetadresse für die produktive Umgebung wird angepasst. Sobald die Internetverzeichnisse aktualisiert sind, wird die Abnahme-Umgebung aus der Public Cloud ausgeliefert.
 
-__Donnerstag, 27.11.2025:__ I14Y steht wieder mit den gewohnten Funktionalitäten zur Verfügung -- auch zum Publizieren von Metadaten. 
+__Donnerstag, 27.11.2025:__ I14Y steht wieder mit den gewohnten Funktionalitäten zur Verfügung -- auch zum Publizieren von Metadaten.

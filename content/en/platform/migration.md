@@ -9,11 +9,23 @@ keywords: [I14Y, I14Y interoperability platform, user account, account, connecti
 
 I14Y is moving to the Public Cloud. Using the Public Cloud simplifies numerous technical processes, enabling faster and more flexible development. Additionally, operating costs can be reduced, allowing I14Y to remain attractive in the long term.
 
-This webpage provides updates on the status of the migration work. Planned schedule:
+This webpage provides updates on the status of the migration work.
+
+## Migration Status
+
+| Step | Status | Note |
+|------|--------|------|
+| Migration STG | ✅ | The staging environment is now running in the Public Cloud. |
+| Read-only PROD | ✅ | The production environment has been set to read-only mode. Currently, no metadata can be entered or edited. |
+| Migration software PROD | ⏳ | Planned: 26.11.2025 |
+| Migration data PROD | ⏳ | Planned: 26.11.2025 |
+| Activate write permissions PROD | ⏸️ | Planned: 26.11.2025 |
+
+## Planned Schedule
 
 __Monday, 17.11.2025:__ The internet address for the staging environment will be updated. Once the internet directories are updated, the staging environment will be delivered from the Public Cloud.
 
-__From Tuesday, 18.11.2025:__ The staging environment will now run in the Public Cloud and can be tested. Issues should be reported to [i14y@bfs.admin.ch](mailto:i14y@bfs.admin.ch).
+__From Tuesday, 18.11.2025:__ The [staging environment](https://input.i14y-a.admin.ch) will now run in the Public Cloud and can be tested, provided the necessary access is available. Issues should be reported to [i14y@bfs.admin.ch](mailto:i14y@bfs.admin.ch).
 
 __Wednesday, 26.11.2025:__ The read-only mode will be activated for the production environment. The metadata from the previous platform will be synchronized with the new installation. The internet address for the production environment will be updated. Once the internet directories are updated, the staging environment will be delivered from the Public Cloud.
 

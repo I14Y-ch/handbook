@@ -15,6 +15,12 @@ Translation is in progress: Thank you for your interest in the English version o
 
 ![ Scene from the explanatory video for the I14Y interoperability platform](/handbook/img/i14y-film_55.png)
 
+{{<alert title="I14Y in read-only mode" color="warning">}}
+
+Currently, it is not possible to enter or edit metadata on I14Y. This is due to the migration to the public cloud. According to the schedule, I14Y will be fully available again tomorrow Thursday. Information on the status of the migration can be found at [Development and operation of I14Y](/handbook/en/plattform/migration/).
+
+{{</alert>}}
+
 What data is available? And how can they be retrieved? The I14Y interoperability platform is the central directory of data, electronic interfaces and government services of public administration offices in Switzerland. The platform makes it possible to find data and it shows how they can be obtained.
 
 I14Y documents whether the data in question are freely available or restricted, whether they conform to a standard or not, who is responsible, how often the data are updated and how their quality is to be assessed. The platform thus helps in understanding the context of a data set. Only metadata can be found on the I14Y; the actual data remain with the responsible agencies. I14Y promotes the efficient exchange of data within public administrations as well as between authorities, companies and citizens.
