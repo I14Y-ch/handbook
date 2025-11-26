@@ -8,13 +8,13 @@ weight: 0
 type: docs
 ---
 
-![Szene aus dem Erklärvideo zur Interoperabilitätsplattform I14Y](/handbook/img/i14y-film_55.png)
-
 {{<alert title="I14Y im Nur-Lese-Modus" color="warning">}}
 
 Aktuell können auf I14Y keine Metadaten erfasst oder bearbeitet werden. Grund dafür ist die Migration in die Public Cloud. Gemäss Planung steht I14Y morgen Donnerstag wieder vollumfänglich zur Verfügung. Informationen zum Stand der Migration sind unter [Entwicklung und Betrieb von I14Y](/handbook/de/plattform/migration/) zu finden.
 
 {{</alert>}}
+
+![Szene aus dem Erklärvideo zur Interoperabilitätsplattform I14Y](/handbook/img/i14y-film_55.png)
 
 Welche Daten sind verfügbar? Und wie lassen sie sich abrufen? Die Interoperabilitätsplattform I14Y ist das zentrale Verzeichnis der Daten, elektronischen Schnittstellen und elektronischen Behördenleistungen der öffentlichen Verwaltungen in der Schweiz. Die Plattform macht Daten auffindbar. Und sie zeigt auf, wie darauf zugegriffen werden kann.  
 

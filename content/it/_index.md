@@ -8,17 +8,17 @@ weight: 0
 type: docs
 ---
 
-{{% pageinfo color="primary" %}}
-La traduzione è in corso: Grazie per il vostro interesse nella versione italiana del manuale I14Y. Attualmente sono in corso di traduzione. Si prega di consultare il sito più tardi. In alternativa, leggere il [manuale in tedesco](https://handbook.i14y.admin.ch), potete chiedere al nostro [robot di testo sperimentale](https://www.i14y.admin.ch/de/labs/chatbot) in italiano. Oppure potete [contattare il team di I14Y](mailto:i14y@bfs.admin.ch). 
-{{% /pageinfo %}}
-
-![Scena dal video esplicativo sulla piattaforma di interoperabilità I14Y](/handbook/img/i14y-film_55.png)
-
 {{<alert title="I14Y in modalità di sola lettura" color="warning">}}
 
 Attualmente non è possibile acquisire o modificare metadati su I14Y. Il motivo è la migrazione al cloud pubblico. Secondo la pianificazione, I14Y sarà nuovamente completamente disponibile domani giovedì. Informazioni sullo stato della migrazione sono disponibili in [Sviluppo e gestione di I14Y](/handbook/it/plattform/migration/).
 
 {{</alert>}}
+
+{{% pageinfo color="primary" %}}
+La traduzione è in corso: Grazie per il vostro interesse nella versione italiana del manuale I14Y. Attualmente sono in corso di traduzione. Si prega di consultare il sito più tardi. In alternativa, leggere il [manuale in tedesco](https://handbook.i14y.admin.ch), potete chiedere al nostro [robot di testo sperimentale](https://www.i14y.admin.ch/de/labs/chatbot) in italiano. Oppure potete [contattare il team di I14Y](mailto:i14y@bfs.admin.ch). 
+{{% /pageinfo %}}
+
+![Scena dal video esplicativo sulla piattaforma di interoperabilità I14Y](/handbook/img/i14y-film_55.png)
 
 Quali dati sono disponibili? E come fare per reperirli? La piattaforma di interoperabilità I14Y (IOP I14Y) è il registro centrale di dati, interfacce elettroniche e servizi offerti dalle autorità delle amministrazioni pubbliche in Svizzera. La piattaforma rende i dati reperibili e mostra come si fa ad accedervi.  
 

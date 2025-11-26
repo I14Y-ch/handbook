@@ -8,6 +8,12 @@ weight: 0
 type: docs
 ---
 
+{{<alert title="I14Y in read-only mode" color="warning">}}
+
+Currently, it is not possible to enter or edit metadata on I14Y. This is due to the migration to the public cloud. According to the schedule, I14Y will be fully available again tomorrow Thursday. Information on the status of the migration can be found at [Development and operation of I14Y](/handbook/en/plattform/migration/).
+
+{{</alert>}}
+
 {{% pageinfo color="primary" %}}
 Translation is in progress: Thank you for your interest in the English version of the I14Y manual. The first chapters have been translated. The other parts are still in translation. Please check back later. Alternatively, read the [manual in German](https://handbook.i14y.admin.ch), ask our [experimental text robot](https://www.i14y.admin.ch/de/labs/chatbot) in English or [contact the I14Y team](mailto:i14y@bfs.admin.ch).
 {{% /pageinfo %}}
@@ -15,11 +21,6 @@ Translation is in progress: Thank you for your interest in the English version o
 
 ![ Scene from the explanatory video for the I14Y interoperability platform](/handbook/img/i14y-film_55.png)
 
-{{<alert title="I14Y in read-only mode" color="warning">}}
-
-Currently, it is not possible to enter or edit metadata on I14Y. This is due to the migration to the public cloud. According to the schedule, I14Y will be fully available again tomorrow Thursday. Information on the status of the migration can be found at [Development and operation of I14Y](/handbook/en/plattform/migration/).
-
-{{</alert>}}
 
 What data is available? And how can they be retrieved? The I14Y interoperability platform is the central directory of data, electronic interfaces and government services of public administration offices in Switzerland. The platform makes it possible to find data and it shows how they can be obtained.
 

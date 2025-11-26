@@ -8,17 +8,18 @@ weight: 0
 type: docs
 ---
 
+{{<alert title="I14Y en mode lecture seule" color="warning">}}
+
+Actuellement, il n'est pas possible de saisir ou de modifier des métadonnées sur I14Y. Cela est dû à la migration vers le cloud public. Selon la planification, I14Y sera à nouveau pleinement disponible demain jeudi. Des informations sur l'état de la migration sont disponibles sous [Développement et exploitation d'I14Y](/handbook/fr/plattform/migration/).
+
+{{</alert>}}
+
 {{% pageinfo color="primary" %}}
 La traduction est en cours : Nous vous remercions de l'intérêt que vous portez à la version française du manuel I14Y. Les premiers chapitres ont été traduits. Les autres parties sont encore en cours de traduction. N'hésitez pas à revenir plus tard. En attendant, vous pouvez consulter le [manuel en allemand](https://handbook.i14y.admin.ch). L'[équipe I14Y](mailto:i14y@bfs.admin.ch) se tient à votre disposition pour répondre à vos questions. 
 {{% /pageinfo %}}
 
 ![Scène de la vidéo explicative sur la plateforme d’interopérabilité I14Y](/handbook/img/i14y-film_55.png)
 
-{{<alert title="I14Y en mode lecture seule" color="warning">}}
-
-Actuellement, il n'est pas possible de saisir ou de modifier des métadonnées sur I14Y. Cela est dû à la migration vers le cloud public. Selon la planification, I14Y sera à nouveau pleinement disponible demain jeudi. Des informations sur l'état de la migration sont disponibles sous [Développement et exploitation d'I14Y](/handbook/fr/plattform/migration/).
-
-{{</alert>}}
 
 Quelles données sont mises à disposition? Comment les consulter? La plateforme d’interopérabilité I14Y (IOP I14Y) est le répertoire centralisé suisse des métadonnées, des interfaces électroniques et des prestations des autorités (services publics). Elle permet de rechercher des données et montre comment y accéder.  
 
