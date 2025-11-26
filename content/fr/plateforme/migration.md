@@ -17,9 +17,9 @@ Cette page informe sur l'état des travaux de migration.
 |-------|--------|----------|
 | Migration ABN | ✅ | L'environnement de validation fonctionne maintenant dans le Cloud Public. |
 | Read-only PROD | ✅ | L'environnement de production a été mis en mode lecture seule. Actuellement, aucune métadonnée ne peut être saisie ou modifiée. |
-| Migration logiciel PROD | ⏳ | Prévu : 26.11.2025 |
-| Migration données PROD | ⏳ | Prévu : 26.11.2025 |
-| Activation droits d'écriture PROD | ⏸️ | Prévu : 26.11.2025 |
+| Migration données PROD | ✅ | Les données ont été migrées. |
+| Migration logiciel PROD | ⏳ | La migration est en cours. Certains défis techniques doivent être résolus jeudi. |
+| Activation droits d'écriture PROD | ⏸️ | Prévu : nouveau 27.11.2025 |
 
 ## Procédure prévue
 

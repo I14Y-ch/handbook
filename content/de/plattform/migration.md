@@ -17,9 +17,9 @@ Auf dieser Webseite wird über den Stand der Migrationsarbeiten informiert.
 |---------|--------|---------|
 | Migration ABN | ✅ | Die Abnahme-Umgebung läuft nun in der Public Cloud. |
 | Read-only PROD | ✅ | Die produktive Umgebung wurde in den Nur-Lese-Modus versetzt. Aktuell können keine Metadaten erfasst oder bearbeitet werden. |
-| Migration Software PROD | ⏳ | Geplant: 26.11.2025 |
-| Migration Daten PROD | ⏳ | Geplant: 26.11.2025 |
-| Aktivieren der Schreibrechte PROD | ⏸️ | Geplant: 26.11.2025 |
+| Migration Daten PROD | ✅ | Die Daten wurden migriert. |
+| Migration Software PROD | ⏳ | Die Migration ist im Gang. Einige technische Herausforderungen müssen am Donnerstag gelöst werden. |
+| Aktivieren der Schreibrechte PROD | ⏸️ | Geplant: neu 27.11.2025 |
 
 ## Geplanter Ablauf
 

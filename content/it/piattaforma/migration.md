@@ -17,9 +17,9 @@ In questa pagina web verranno fornite informazioni sullo stato dei lavori di mig
 |------|-------|------|
 | Migrazione ABN | ✅ | L'ambiente di accettazione è ora operativo nel Cloud Pubblico. |
 | Read-only PROD | ✅ | L'ambiente di produzione è stato impostato in modalità di sola lettura. Attualmente non è possibile inserire o modificare metadati. |
-| Migrazione software PROD | ⏳ | Pianificato: 26.11.2025 |
-| Migrazione dati PROD | ⏳ | Pianificato: 26.11.2025 |
-| Attivazione diritti di scrittura PROD | ⏸️ | Pianificato: 26.11.2025 |
+| Migrazione dati PROD | ✅ | I dati sono stati migrati. |
+| Migrazione software PROD | ⏳ | La migrazione è in corso. Alcune sfide tecniche devono essere risolte giovedì. |
+| Attivazione diritti di scrittura PROD | ⏸️ | Pianificato: nuovo 27.11.2025 |
 
 ## Procedura prevista
 

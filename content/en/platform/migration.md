@@ -17,9 +17,9 @@ This webpage provides updates on the status of the migration work.
 |------|--------|------|
 | Migration STG | ✅ | The staging environment is now running in the Public Cloud. |
 | Read-only PROD | ✅ | The production environment has been set to read-only mode. Currently, no metadata can be entered or edited. |
-| Migration software PROD | ⏳ | Planned: 26.11.2025 |
-| Migration data PROD | ⏳ | Planned: 26.11.2025 |
-| Activate write permissions PROD | ⏸️ | Planned: 26.11.2025 |
+| Migration data PROD | ✅ | The data has been migrated. |
+| Migration software PROD | ⏳ | The migration is in progress. Some technical challenges need to be resolved on Thursday. |
+| Activate write permissions PROD | ⏸️ | Planned: new 27.11.2025 |
 
 ## Planned Schedule
 
