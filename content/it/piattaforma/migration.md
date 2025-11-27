@@ -13,13 +13,15 @@ In questa pagina web verranno fornite informazioni sullo stato dei lavori di mig
 
 ## Stato della migrazione
 
+__La migrazione nel Cloud Pubblico è stata completata giovedì 27 novembre alle ore 17:30.__
+
 | Fase | Stato | Nota |
 |------|-------|------|
 | Migrazione ABN | ✅ | L'ambiente di accettazione è ora operativo nel Cloud Pubblico. |
 | Read-only PROD | ✅ | L'ambiente di produzione è stato impostato in modalità di sola lettura. Attualmente non è possibile inserire o modificare metadati. |
 | Migrazione dati PROD | ✅ | I dati sono stati migrati. |
-| Migrazione software PROD | ⏳ | La migrazione è in corso. Alcune sfide tecniche devono essere risolte giovedì. |
-| Attivazione diritti di scrittura PROD | ⏸️ | Pianificato: nuovo 27.11.2025 |
+| Migrazione software PROD | ✅ | I14Y è ora nel Cloud Pubblico. |
+| Attivazione diritti di scrittura PROD | ✅ | La piattaforma può essere nuovamente utilizzata normalmente. |
 
 ## Procedura prevista
 

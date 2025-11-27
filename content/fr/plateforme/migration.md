@@ -13,13 +13,15 @@ Cette page informe sur l'état des travaux de migration.
 
 ## État de la migration
 
+__La migration vers le Cloud Public a été achevée le jeudi 27 novembre à 17h30.__
+
 | Étape | Statut | Remarque |
 |-------|--------|----------|
 | Migration ABN | ✅ | L'environnement de validation fonctionne maintenant dans le Cloud Public. |
 | Read-only PROD | ✅ | L'environnement de production a été mis en mode lecture seule. Actuellement, aucune métadonnée ne peut être saisie ou modifiée. |
 | Migration données PROD | ✅ | Les données ont été migrées. |
-| Migration logiciel PROD | ⏳ | La migration est en cours. Certains défis techniques doivent être résolus jeudi. |
-| Activation droits d'écriture PROD | ⏸️ | Prévu : nouveau 27.11.2025 |
+| Migration logiciel PROD | ✅ | I14Y est maintenant dans le Cloud Public. |
+| Activation droits d'écriture PROD | ✅ | La plateforme peut à nouveau être utilisée normalement. |
 
 ## Procédure prévue
 

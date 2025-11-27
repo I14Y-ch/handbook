@@ -13,6 +13,16 @@ __FR:__ Ce site est en anglais. Seules les descriptions des grandes releases son
 
 The I14Y interoperability platform is under continuous development. New features are added with each release. Bugs are also fixed. The most important changes are briefly documented below. For detailed information on the development of the platform, please contact the [I14Y team](mailto:i14y@bfs.admin.ch). 
 
+## Release 27 novembre 2025
+
+This release marks a significant infrastructure change: The I14Y interoperability platform is now operated in the public cloud (Azure, sourced via the Federal Office of Information Technology [BIT]). Additionally, the code is now managed on GitHub. Due to the new infrastructure, various technical details in the I14Y code had to be adapted.
+
+Additional features:
+- **Enhanced search functionality**: The Partner and Public API now offer an endpoint for searching code list entries.
+- **Catalog record management**: New endpoints in the Partner and Public API enable retrieval of entries from DCAT catalogs.
+- **Improved catalog export**: The GET endpoint for catalog export has been refactored. The desired format (RDF or TTL) can now be requested via a parameter.
+- **Bug fixes**: Various bugs have been fixed to improve stability and user-friendliness.
+
 ## Release Octobre 22 2025
 - **Masques de saisie améliorés:** le bouton Enregistrer est désormais actif par défaut. Jusqu’à présent, il ne s’activait qu’après des modifications des métadonnées. Un clic sur le bouton permet d’identifier les métadonnées incomplètes: les champs concernés sont encadrés en rouge.
 - **Page des organisations plus claire:** les organisations qui n’ont pas encore publié de métadonnées ne sont plus affichées sur la page des organisations (https://www.i14y.admin.ch/fr/organisations).

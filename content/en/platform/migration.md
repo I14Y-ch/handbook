@@ -13,13 +13,15 @@ This webpage provides updates on the status of the migration work.
 
 ## Migration Status
 
+__The migration to the Public Cloud was completed on Thursday, November 27, at 5:30 PM.__
+
 | Step | Status | Note |
 |------|--------|------|
 | Migration STG | ✅ | The staging environment is now running in the Public Cloud. |
 | Read-only PROD | ✅ | The production environment has been set to read-only mode. Currently, no metadata can be entered or edited. |
 | Migration data PROD | ✅ | The data has been migrated. |
-| Migration software PROD | ⏳ | The migration is in progress. Some technical challenges need to be resolved on Thursday. |
-| Activate write permissions PROD | ⏸️ | Planned: new 27.11.2025 |
+| Migration software PROD | ✅ | I14Y is now in the Public Cloud. |
+| Activate write permissions PROD | ✅ | The platform can be used normally again. |
 
 ## Planned Schedule
 
