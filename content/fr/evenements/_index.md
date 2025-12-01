@@ -35,20 +35,23 @@ timeline
 
 ## Événements à venir
 
-### 18 novembre 2025: Dinacon
-De nombreux conseils pratiques en 20 minutes : assistez à la brève présentation de l'I14Y lors de la [Dinacon](https://dinacon.ch) de cette année à Berne. 
-
-### 25 novembre 2025: Comité de pilotage
-
 ### 4 décembre 2025: Swiss CommUNITY Day on Data
 Le 4 décembre 2025, la communauté suisse des données se réunira au Forum Fribourg pour la [Swiss CommUNITY Day on Data](https://swissdatacommunity.ch/alle-events/swisscommunity-day-on-data-2025/), une journée d'échanges, de découvertes et d'innovations. Cette troisième édition sera consacrée au thème des plateformes en relation avec la gestion des données.
 
+### Janvier 2026 : réunion informelle des Local Data Stewards
+Échange avec les experts I14Y sur la saisie des métadonnées sur la plateforme et clarification des questions ouvertes
+
 ### 15 janvier 2026: Formation continue Gestion des données et données publiques ouvertes
 Présentation: I14Y comme outil d'harmonisation des données (événement et présentation en allemand)
+
+### 11 mars 2026 : [Swiss EGOVERNMENT Forum](https://e-governmentforum.ch/)
+Exposé sur le thème « Les plateformes de métadonnées aujourd'hui et demain »
  
+### 29 octobre 2026 : Meet-up des Local Data Stewards de l'administration publique
 
 ## Evénements passés
-
+- 25 novembre 2025: Comité de pilotage
+- 18 novembre 2025: [Dinacon](https://dinacon.ch/)
 - 21 octobre 2025: journée de formation pour les Local Data Stewards
 - 05 au 07 novembre 2025: Journées suisses de la statistique
 - 02 septembre 2025: [Swiss Data Space Forum](https://forum.swissdataalliance.ch) sur le campus HSLU Rotkreuz.
