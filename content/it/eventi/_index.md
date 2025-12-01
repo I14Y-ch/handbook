@@ -46,7 +46,7 @@ Presentazione: I14Y come strumento di armonizzazione dei dati (evento e presenta
 ### 11 marzo 2026: [Swiss EGOVERNMENT Forum](https://e-governmentforum.ch/)
 Presentazione sul tema «Piattaforme di metadati oggi e domani»
 
-### ottobre 2026 Meet-up dei Local Data Stewards della pubblica amministrazione
+### 29 ottobre 2026 Meet-up dei Local Data Stewards della pubblica amministrazione
 
 
 ## Eventi passati
