@@ -41,10 +41,10 @@ Il 4 dicembre 2025, la comunità svizzera dei dati si riunirà al Forum Fribourg
 ### 15 gennaio 2026: Formazione continua Gestione dei dati e dati pubblici aperti
 Presentazione: I14Y come strumento di armonizzazione dei dati (evento e presentazione in tedesco)
 
-### 20 gennaio 2026: Incontro informale dei Local Data Stewards
-
 ### 11 marzo 2026: [Swiss EGOVERNMENT Forum](https://e-governmentforum.ch/)
 Presentazione sul tema «Piattaforme di metadati oggi e domani»
+
+### 20 gennaio 2026: Incontro informale dei Local Data Stewards
 
 ### 29 ottobre 2026 Meet-up dei Local Data Stewards della pubblica amministrazione
 
