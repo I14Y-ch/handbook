@@ -38,15 +38,15 @@ timeline
 ### December 4, 2025: Swiss CommUNITY Day on Data
 On December 4, 2025, the Swiss data community will gather at Forum Fribourg for the [Swiss CommUNITY Day on Data](https://swissdatacommunity.ch/alle-events/swisscommunity-day-on-data-2025/), a day of exchanges, discoveries, and innovations. This third edition will be dedicated to the theme of platforms in relation to data management.
 
-### January 2026: Informal meeting of Local Data Stewards
+### January 20, 2026: Informal meeting of Local Data Stewards
 
 ### January 15, 2026: Continuing education Data management and open public data
 Presentation: I14Y as a data harmonisation tool (event and presentation in German)
 
-### 11 March 2026: [Swiss EGOVERNMENT Forum](https://e-governmentforum.ch/)
+### March 11, 2026: [Swiss EGOVERNMENT Forum](https://e-governmentforum.ch/)
 Presentation on the topic of ‘Metadata platforms today and tomorrow’
 
-### 29 October 2026: Meet-up of local data stewards within the public administration
+### October 29, 2026: Meet-up of local data stewards within the public administration
 
 ## Past Events
 - November 25, Steering Committee
