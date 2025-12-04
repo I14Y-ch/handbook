@@ -41,16 +41,36 @@ timeline
 
 ## Kommende Veranstaltungen
 
-### 15. Januar 2026: Weiterbildung Data Management & Open Government Data
-[Weiterbildung Data Management & Open Government Data](https://www.bfh.ch/de/aktuell/fachveranstaltungen/weiterbildung-data-management-open-government-data/) an der Berner Fachhochschule (BFH) in Bern. Referat: I14Y als Hilfsmittel zur Datenharmonisierung.
+{{< event-card 
+  title="Weiterbildung Data Management & Open Government Data"
+  date="15. Januar 2026"
+  location="Berner Fachhochschule (BFH), Bern"
+  link="https://www.bfh.ch/de/aktuell/fachveranstaltungen/weiterbildung-data-management-open-government-data/"
+>}}
+Referat: I14Y als Hilfsmittel zur Datenharmonisierung.
+{{< /event-card >}}
 
-### 20. Januar 2026: Informelles Treffen der Local Data Stewards
-Informelle Diskussionen zu Themen rund um die Metadatenerfassung unter Local Data Stewards der öffentlichen Verwaltung. Falls Sie Interesse an einer Teilnahme haben, melden sich sich [per E-Mail](mailto:i14y@bfs.admin.ch). 
+{{< event-card 
+  title="Informelles Treffen der Local Data Stewards"
+  date="20. Januar 2026"
+>}}
+Informelle Diskussionen zu Themen rund um die Metadatenerfassung unter Local Data Stewards der öffentlichen Verwaltung. Falls Sie Interesse an einer Teilnahme haben, melden sich sich [per E-Mail](mailto:i14y@bfs.admin.ch).
+{{< /event-card >}}
 
-### 11. März 2026: [Swiss EGOVERNMENT Forum](https://e-governmentforum.ch/)
-Referat zum Thema «Metadatenplattformen heute und morgen» am [Swiss EGOVERNMENT Forum](https://e-governmentforum.ch/).
+{{< event-card 
+  title="Swiss EGOVERNMENT Forum"
+  date="11. März 2026"
+  link="https://e-governmentforum.ch/"
+>}}
+Referat zum Thema «Metadatenplattformen heute und morgen» am Swiss EGOVERNMENT Forum.
+{{< /event-card >}}
 
-### 29. Oktober 2026 Meet-up der Local Data Stewards der öffentlichen Verwaltung
+{{< event-card 
+  title="Meet-up der Local Data Stewards"
+  date="29. Oktober 2026"
+>}}
+Austausch und Vernetzung der Local Data Stewards der öffentlichen Verwaltung.
+{{< /event-card >}}
 
 ## Vergangene Veranstaltungen
 - 04. Dezember 2025: [Swiss CommUNITY Day on Data](https://swissdatacommunity.ch/alle-events/swisscommunity-day-on-data-2025/)

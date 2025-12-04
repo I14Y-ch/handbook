@@ -35,16 +35,36 @@ timeline
 
 ## Événements à venir
 
-### 15 janvier 2026: Formation continue Gestion des données et données publiques ouvertes
-Présentation: I14Y comme outil d'harmonisation des données (événement et présentation en allemand)
+{{< event-card 
+  title="Formation continue Gestion des données et données publiques ouvertes"
+  date="15 janvier 2026"
+  location="Haute école spécialisée bernoise (BFH), Berne"
+  link="https://www.bfh.ch/de/aktuell/fachveranstaltungen/weiterbildung-data-management-open-government-data/"
+>}}
+Présentation: I14Y comme outil d'harmonisation des données (événement et présentation en allemand).
+{{< /event-card >}}
 
-### 20 janvier 2026: réunion informelle des Local Data Stewards
-Échange avec les experts I14Y sur la saisie des métadonnées sur la plateforme et clarification des questions ouvertes
+{{< event-card 
+  title="Réunion informelle des Local Data Stewards"
+  date="20 janvier 2026"
+>}}
+Échange avec les experts I14Y sur la saisie des métadonnées sur la plateforme et clarification des questions ouvertes. Si vous êtes intéressé(e) à participer, veuillez nous contacter [par e-mail](mailto:i14y@bfs.admin.ch).
+{{< /event-card >}}
 
-### 11 mars 2026: [Swiss EGOVERNMENT Forum](https://e-governmentforum.ch/)
-Exposé sur le thème « Les plateformes de métadonnées aujourd'hui et demain »
- 
-### 29 octobre 2026: Meet-up des Local Data Stewards de l'administration publique
+{{< event-card 
+  title="Swiss EGOVERNMENT Forum"
+  date="11 mars 2026"
+  link="https://e-governmentforum.ch/"
+>}}
+Exposé sur le thème « Les plateformes de métadonnées aujourd'hui et demain ».
+{{< /event-card >}}
+
+{{< event-card 
+  title="Meet-up des Local Data Stewards"
+  date="29 octobre 2026"
+>}}
+Échange et mise en réseau des Local Data Stewards de l'administration publique.
+{{< /event-card >}}
 
 ## Evénements passés
 - 25 novembre 2025: Comité de pilotage
