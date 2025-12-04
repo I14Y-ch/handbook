@@ -738,6 +738,10 @@ a {
       background-color: $ob-primary-700;
       color: $ob-white;
     }
+
+    &:visited {
+      color: $ob-white;
+    }
   }
 
   &__ics {

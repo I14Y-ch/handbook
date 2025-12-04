@@ -41,27 +41,30 @@ timeline
   location="Haute école spécialisée bernoise (BFH), Berne"
   link="https://www.bfh.ch/de/aktuell/fachveranstaltungen/weiterbildung-data-management-open-government-data/"
 >}}
-Présentation: I14Y comme outil d'harmonisation des données (événement et présentation en allemand).
+Présentation: I14Y comme outil d'harmonisation des données.
 {{< /event-card >}}
 
 {{< event-card 
   title="Réunion informelle des Local Data Stewards"
   date="20 janvier 2026"
+  location="Campus Liebefeld, Köniz"
 >}}
-Échange avec les experts I14Y sur la saisie des métadonnées sur la plateforme et clarification des questions ouvertes. Si vous êtes intéressé(e) à participer, veuillez nous contacter [par e-mail](mailto:i14y@bfs.admin.ch).
+Discussions informelles sur des thèmes liés à la collecte des métadonnées parmi les Local Data Stewards de l'administration publique. Si vous êtes intéressé(e) à participer, veuillez nous contacter [par e-mail](mailto:i14y@bfs.admin.ch).
 {{< /event-card >}}
 
 {{< event-card 
   title="Swiss EGOVERNMENT Forum"
   date="11 mars 2026"
+  location="Berne"
   link="https://e-governmentforum.ch/"
 >}}
-Exposé sur le thème « Les plateformes de métadonnées aujourd'hui et demain ».
+Exposé sur le thème « Les plateformes de métadonnées aujourd'hui et demain » au Swiss EGOVERNMENT Forum.
 {{< /event-card >}}
 
 {{< event-card 
   title="Meet-up des Local Data Stewards"
   date="29 octobre 2026"
+  location="Berne"
 >}}
 Échange et mise en réseau des Local Data Stewards de l'administration publique.
 {{< /event-card >}}

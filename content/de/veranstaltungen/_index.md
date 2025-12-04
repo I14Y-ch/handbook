@@ -32,6 +32,7 @@ timeline
          : Dinacon (18.11.2025)
          : Steuerungsausschuss (25.11.2025)
          : Swiss CommUNITY Day on Data (04.12.2025)
+
     section 2026
       Q1 : Weiterbildung Data Management und Open Data (15.01.2026)
          : Informelles Treffen der Local Data Stewards (20.01.2026)
@@ -52,6 +53,7 @@ Referat: I14Y als Hilfsmittel zur Datenharmonisierung.
 
 {{< event-card 
   title="Informelles Treffen der Local Data Stewards"
+  location="Campus Liebefeld, Köniz"
   date="20. Januar 2026"
 >}}
 Informelle Diskussionen zu Themen rund um die Metadatenerfassung unter Local Data Stewards der öffentlichen Verwaltung. Falls Sie Interesse an einer Teilnahme haben, melden sich sich [per E-Mail](mailto:i14y@bfs.admin.ch).
@@ -59,6 +61,7 @@ Informelle Diskussionen zu Themen rund um die Metadatenerfassung unter Local Dat
 
 {{< event-card 
   title="Swiss EGOVERNMENT Forum"
+  location="Bern"
   date="11. März 2026"
   link="https://e-governmentforum.ch/"
 >}}
@@ -67,6 +70,7 @@ Referat zum Thema «Metadatenplattformen heute und morgen» am Swiss EGOVERNMENT
 
 {{< event-card 
   title="Meet-up der Local Data Stewards"
+  location="Bern"
   date="29. Oktober 2026"
 >}}
 Austausch und Vernetzung der Local Data Stewards der öffentlichen Verwaltung.

@@ -36,34 +36,37 @@ timeline
 ## Upcoming Events
 
 {{< event-card 
-  title="Continuing Education Data Management and Open Public Data"
+  title="Continuing Education Data Management & Open Government Data"
   date="January 15, 2026"
   location="Bern University of Applied Sciences (BFH), Bern"
   link="https://www.bfh.ch/de/aktuell/fachveranstaltungen/weiterbildung-data-management-open-government-data/"
 >}}
-Presentation: I14Y as a data harmonisation tool (event and presentation in German).
+Presentation: I14Y as a tool for data harmonization.
 {{< /event-card >}}
 
 {{< event-card 
   title="Informal Meeting of Local Data Stewards"
   date="January 20, 2026"
+  location="Campus Liebefeld, Köniz"
 >}}
-Exchange with I14Y experts on entering metadata on the platform and clarification of open questions. If you are interested in participating, please contact us [via email](mailto:i14y@bfs.admin.ch).
+Informal discussions on topics related to metadata collection among Local Data Stewards of the public administration. If you are interested in participating, please contact us [by email](mailto:i14y@bfs.admin.ch).
 {{< /event-card >}}
 
 {{< event-card 
   title="Swiss EGOVERNMENT Forum"
   date="March 11, 2026"
+  location="Bern"
   link="https://e-governmentforum.ch/"
 >}}
-Presentation on the topic of 'Metadata platforms today and tomorrow'.
+Presentation on the topic "Metadata platforms today and tomorrow" at the Swiss EGOVERNMENT Forum.
 {{< /event-card >}}
 
 {{< event-card 
   title="Meet-up of Local Data Stewards"
   date="October 29, 2026"
+  location="Bern"
 >}}
-Exchange and networking of local data stewards within the public administration.
+Exchange and networking of Local Data Stewards of the public administration.
 {{< /event-card >}}
 
 ### December 4, 2025: Swiss CommUNITY Day on Data
