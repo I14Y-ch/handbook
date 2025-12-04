@@ -10,7 +10,6 @@ type: docs
 
 {{< mermaid width="650px" >}}
 timeline
-    title Événements
 
     section 2024
       Q1 : Module de formation continue Data Management et Open Government Data (18.01.2024)
@@ -36,7 +35,10 @@ timeline
       Q1 : Formation continue Data Management et Open Government Data (15.01.2026)
          : Rencontre informelle des Local Data Stewards (20.01.2026)
          : Swiss eGovernment Forum (11.03.2026)
-      {{< /mermaid >}}
+      Q2 : 
+      Q3 : 
+      Q4 : Meet-up des Local Data Stewards (29.10.2026)
+{{< /mermaid >}}
 
 
 ## Événements à venir
@@ -76,7 +78,7 @@ Exposé sur le thème « Les plateformes de métadonnées aujourd'hui et demain 
 {{< /event-card >}}
 
 ## Evénements passés
-- 4 décembre, 2025: Swiss [CommUNITY Day on Data](https://swissdatacommunity.ch/alle-events/swisscommunity-day-on-data-2025/
+- 4 décembre, 2025: Swiss [CommUNITY Day on Data](https://swissdatacommunity.ch/alle-events/swisscommunity-day-on-data-2025/)
 - 25 novembre 2025: Comité de pilotage
 - 18 novembre 2025: [Dinacon](https://dinacon.ch/)
 - 21 octobre 2025: journée de formation pour les Local Data Stewards

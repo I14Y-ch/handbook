@@ -10,7 +10,6 @@ type: docs
 
 {{< mermaid width="650px" >}}
 timeline
-    title Veranstaltungen im Überblick
 
     section 2024
       Q1 : Weiterbildung Data Management und Open Data (18.01.2024)
@@ -37,7 +36,9 @@ timeline
       Q1 : Weiterbildung Data Management und Open Data (15.01.2026)
          : Informelles Treffen der Local Data Stewards (20.01.2026)
          : Swiss eGovernment Forum (11.03.2026)
-      
+      Q2 : 
+      Q3 : 
+      Q4 : Meet-up der Local Data Stewards (29.10.2026)
 {{< /mermaid >}}
 
 ## Kommende Veranstaltungen
