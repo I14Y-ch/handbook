@@ -35,18 +35,39 @@ timeline
 
 ## Upcoming Events
 
+{{< event-card 
+  title="Continuing Education Data Management and Open Public Data"
+  date="January 15, 2026"
+  location="Bern University of Applied Sciences (BFH), Bern"
+  link="https://www.bfh.ch/de/aktuell/fachveranstaltungen/weiterbildung-data-management-open-government-data/"
+>}}
+Presentation: I14Y as a data harmonisation tool (event and presentation in German).
+{{< /event-card >}}
+
+{{< event-card 
+  title="Informal Meeting of Local Data Stewards"
+  date="January 20, 2026"
+>}}
+Exchange with I14Y experts on entering metadata on the platform and clarification of open questions. If you are interested in participating, please contact us [via email](mailto:i14y@bfs.admin.ch).
+{{< /event-card >}}
+
+{{< event-card 
+  title="Swiss EGOVERNMENT Forum"
+  date="March 11, 2026"
+  link="https://e-governmentforum.ch/"
+>}}
+Presentation on the topic of 'Metadata platforms today and tomorrow'.
+{{< /event-card >}}
+
+{{< event-card 
+  title="Meet-up of Local Data Stewards"
+  date="October 29, 2026"
+>}}
+Exchange and networking of local data stewards within the public administration.
+{{< /event-card >}}
+
 ### December 4, 2025: Swiss CommUNITY Day on Data
 On December 4, 2025, the Swiss data community will gather at Forum Fribourg for the [Swiss CommUNITY Day on Data](https://swissdatacommunity.ch/alle-events/swisscommunity-day-on-data-2025/), a day of exchanges, discoveries, and innovations. This third edition will be dedicated to the theme of platforms in relation to data management.
-
-### January 20, 2026: Informal meeting of Local Data Stewards
-
-### January 15, 2026: Continuing education Data management and open public data
-Presentation: I14Y as a data harmonisation tool (event and presentation in German)
-
-### March 11, 2026: [Swiss EGOVERNMENT Forum](https://e-governmentforum.ch/)
-Presentation on the topic of ‘Metadata platforms today and tomorrow’
-
-### October 29, 2026: Meet-up of local data stewards within the public administration
 
 ## Past Events
 - November 25, Steering Committee

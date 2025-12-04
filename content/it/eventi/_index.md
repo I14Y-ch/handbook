@@ -35,19 +35,39 @@ timeline
 
 ## Eventi futuri
 
+{{< event-card 
+  title="Formazione continua Gestione dei dati e dati pubblici aperti"
+  date="15 gennaio 2026"
+  location="Università di Scienze Applicate di Berna (BFH), Berna"
+  link="https://www.bfh.ch/de/aktuell/fachveranstaltungen/weiterbildung-data-management-open-government-data/"
+>}}
+Presentazione: I14Y come strumento di armonizzazione dei dati (evento e presentazione in tedesco).
+{{< /event-card >}}
+
+{{< event-card 
+  title="Incontro informale dei Local Data Stewards"
+  date="20 gennaio 2026"
+>}}
+Scambio con gli esperti I14Y sull'inserimento dei metadati sulla piattaforma e chiarimento delle questioni aperte. Se siete interessati a partecipare, contattateci [via e-mail](mailto:i14y@bfs.admin.ch).
+{{< /event-card >}}
+
+{{< event-card 
+  title="Swiss EGOVERNMENT Forum"
+  date="11 marzo 2026"
+  link="https://e-governmentforum.ch/"
+>}}
+Presentazione sul tema «Piattaforme di metadati oggi e domani».
+{{< /event-card >}}
+
+{{< event-card 
+  title="Meet-up dei Local Data Stewards"
+  date="29 ottobre 2026"
+>}}
+Scambio e networking dei Local Data Stewards della pubblica amministrazione.
+{{< /event-card >}}
+
 ### 4 dicembre 2025: Swiss CommUNITY Day on Data
 Il 4 dicembre 2025, la comunità svizzera dei dati si riunirà al Forum Fribourg per il [Swiss CommUNITY Day on Data](https://swissdatacommunity.ch/alle-events/swisscommunity-day-on-data-2025/), una giornata di scambi, scoperte e innovazioni. Questa terza edizione sarà dedicata al tema delle piattaforme in relazione alla gestione dei dati.
-
-### 15 gennaio 2026: Formazione continua Gestione dei dati e dati pubblici aperti
-Presentazione: I14Y come strumento di armonizzazione dei dati (evento e presentazione in tedesco)
-
-### 11 marzo 2026: [Swiss EGOVERNMENT Forum](https://e-governmentforum.ch/)
-Presentazione sul tema «Piattaforme di metadati oggi e domani»
-
-### 20 gennaio 2026: Incontro informale dei Local Data Stewards
-
-### 29 ottobre 2026 Meet-up dei Local Data Stewards della pubblica amministrazione
-
 
 ## Eventi passati
 - 25 novembre 2025: Comitato direttivo

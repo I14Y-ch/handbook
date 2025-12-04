@@ -598,3 +598,182 @@ a {
   margin-top: 5px;
   margin-bottom: -5px;
 }
+
+// Event Cards Styling
+.event-card {
+  display: flex;
+  gap: $ob-spacing-default;
+  padding: $ob-spacing-lg;
+  margin-bottom: $ob-spacing-lg;
+  background-color: $ob-white;
+  border: 1px solid $ob-gray-300;
+  border-radius: 8px;
+  transition: box-shadow 0.3s ease, border-color 0.3s ease;
+
+  &:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-color: $ob-primary-500;
+  }
+
+  &__icon {
+    flex-shrink: 0;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $ob-primary-500;
+    border-radius: 8px;
+    color: $ob-white;
+
+    svg {
+      width: 40px;
+      height: 40px;
+    }
+  }
+
+  &__content {
+    flex: 1;
+    min-width: 0;
+  }
+
+  &__title {
+    margin: 0 0 $ob-spacing-sm 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.3;
+    color: $ob-gray-800;
+  }
+
+  &__meta {
+    display: flex;
+    flex-direction: column;
+    gap: $ob-spacing-xs;
+    margin-bottom: $ob-spacing-default;
+    color: $ob-gray-700;
+    font-size: 0.95rem;
+  }
+
+  &__datetime {
+    display: flex;
+    align-items: center;
+    gap: $ob-spacing-sm;
+    font-weight: 500;
+  }
+
+  &__date {
+    color: $ob-primary-700;
+  }
+
+  &__time {
+    color: $ob-gray-700;
+    
+    &::before {
+      content: "•";
+      margin-right: $ob-spacing-sm;
+    }
+  }
+
+  &__location {
+    display: flex;
+    align-items: center;
+    gap: $ob-spacing-xs;
+    color: $ob-gray-700;
+
+    svg {
+      flex-shrink: 0;
+      color: $ob-gray-500;
+    }
+  }
+
+  &__description {
+    margin-bottom: $ob-spacing-default;
+    line-height: 1.6;
+    color: $ob-gray-800;
+
+    p {
+      margin: 0 0 $ob-spacing-sm 0;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    a {
+      color: $ob-primary-500;
+      text-decoration: underline;
+
+      &:hover {
+        color: $ob-primary-700;
+      }
+    }
+  }
+
+  &__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: $ob-spacing-default;
+    margin-top: $ob-spacing-default;
+  }
+
+  &__link,
+  &__ics {
+    display: inline-flex;
+    align-items: center;
+    gap: $ob-spacing-xs;
+    padding: $ob-spacing-sm $ob-spacing-default;
+    background-color: $ob-primary-500;
+    color: $ob-white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 0.9rem;
+    transition: background-color 0.2s ease;
+
+    svg {
+      flex-shrink: 0;
+    }
+
+    &:hover {
+      background-color: $ob-primary-700;
+      color: $ob-white;
+    }
+  }
+
+  &__ics {
+    background-color: $ob-gray-700;
+
+    &:hover {
+      background-color: $ob-gray-800;
+    }
+  }
+}
+
+// Responsive adjustments
+@media (max-width: 768px) {
+  .event-card {
+    flex-direction: column;
+
+    &__icon {
+      width: 56px;
+      height: 56px;
+
+      svg {
+        width: 32px;
+        height: 32px;
+      }
+    }
+
+    &__title {
+      font-size: 1.25rem;
+    }
+
+    &__actions {
+      flex-direction: column;
+
+      a {
+        justify-content: center;
+      }
+    }
+  }
+}

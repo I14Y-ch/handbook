@@ -1,0 +1,58 @@
+{{- $title := .Get "title" -}}
+{{- $date := .Get "date" -}}
+{{- $time := .Get "time" -}}
+{{- $location := .Get "location" -}}
+{{- $link := .Get "link" -}}
+{{- $ics := .Get "ics" -}}
+
+<div class="event-card">
+  <div class="event-card__icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V10h14v10zM9 14H7v-2h2v2zm4 0h-2v-2h2v2zm4 0h-2v-2h2v2zm-8 4H7v-2h2v2zm4 0h-2v-2h2v2zm4 0h-2v-2h2v2z"/>
+    </svg>
+  </div>
+  <div class="event-card__content">
+    <h3 class="event-card__title">{{ $title }}</h3>
+    <div class="event-card__meta">
+      <div class="event-card__datetime">
+        <span class="event-card__date">{{ $date }}</span>
+        {{- if $time -}}
+        <span class="event-card__time">{{ $time }}</span>
+        {{- end -}}
+      </div>
+      {{- if $location -}}
+      <div class="event-card__location">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="16" height="16">
+          <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+        </svg>
+        <span>{{ $location }}</span>
+      </div>
+      {{- end -}}
+    </div>
+    {{- with .Inner -}}
+    <div class="event-card__description">
+      {{ . | markdownify }}
+    </div>
+    {{- end -}}
+    {{- if or $link $ics -}}
+    <div class="event-card__actions">
+      {{- if $link -}}
+      <a href="{{ $link }}" class="event-card__link" target="_blank" rel="noopener">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="16" height="16">
+          <path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/>
+        </svg>
+        Mehr Informationen
+      </a>
+      {{- end -}}
+      {{- if $ics -}}
+      <a href="{{ $ics }}" class="event-card__ics" download>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="16" height="16">
+          <path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V10h14v10z"/>
+        </svg>
+        Zum Kalender hinzufügen
+      </a>
+      {{- end -}}
+    </div>
+    {{- end -}}
+  </div>
+</div>
