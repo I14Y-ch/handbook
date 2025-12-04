@@ -31,14 +31,13 @@ timeline
          : Dinacon (18.11.2025)
          : Steuerungsausschuss (25.11.2025)
          : Swiss CommUNITY Day on Data (04.12.2025)
-         : 
 
     section 2026
       Q1 : Weiterbildung Data Management und Open Data (15.01.2026)
          : Informelles Treffen der Local Data Stewards (20.01.2026)
          : Swiss eGovernment Forum (11.03.2026)
-      Q2 : 
-      Q3 : 
+      Q2 : -
+      Q3 : -
       Q4 : Meet-up der Local Data Stewards (29.10.2026)
 {{< /mermaid >}}
 

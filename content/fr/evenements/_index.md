@@ -30,14 +30,13 @@ timeline
       Q4 : Journées suisses de la statistique (05. – 07.11.2025)
          : Dinacon (18.11.2025)
          : Swiss CommUNITY Day on Data (04.12.2025)
-         : 
-         
+
     section 2026
       Q1 : Formation continue Data Management et Open Government Data (15.01.2026)
          : Rencontre informelle des Local Data Stewards (20.01.2026)
          : Swiss eGovernment Forum (11.03.2026)
-      Q2 : 
-      Q3 : 
+      Q2 : -
+      Q3 : -
       Q4 : Meet-up des Local Data Stewards (29.10.2026)
 {{< /mermaid >}}
 
