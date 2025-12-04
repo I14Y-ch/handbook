@@ -15,7 +15,7 @@ Möchten Sie über neue Funktionen und Angebote auf der Interoperabilitätsplatt
 ## Eine neue Phase für die Interoperabilitätsplattform I14Y
 *04.12.2025*
 
-{{< figure src="/handbook/img/news/cloud.png" alt="Grafik Eine neue Phase für die Interoperabilitätsplattform I14Y" width="125px" class="float-left img-news-thumb" >}}
+{{< figure src="/handbook/img/news/cloud.jpg" alt="Grafik Eine neue Phase für die Interoperabilitätsplattform I14Y" width="125px" class="float-left img-news-thumb" >}}
 
 Die bisher vom Bundesamt für Informatik und Telekommunikation gehostete Plattform I14Y wurde erfolgreich auf die öffentliche Cloud migriert – ein Meilenstein für die Interoperabilität in der Schweiz. Die Migration schafft die nötige Flexibilität für die nächsten Schritte, beispielsweise für die Integration eines Triplestore oder einer erweiterten Toolbox. 
 Darüber hinaus wurde der gesamte Quellcode auf GitHub migriert, womit die Weichen für unser verstärktes Engagement im Bereich Open Source gestellt werden. Diese Veränderungen stärken unsere Innovationskraft und die amtsinterne Zusammenarbeit.
