@@ -30,6 +30,7 @@ timeline
       Q4 : Giornate svizzere della statistica (05. – 07.11.2025)
          : Dinacon (18.11.2025)
          : Swiss CommUNITY Day on Data (04.12.2025)
+         : 
 
     section 2026
       Q1 : Formazione continua Data Management e Open Data (15.01.2026)

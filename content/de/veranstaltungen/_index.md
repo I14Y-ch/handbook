@@ -31,6 +31,7 @@ timeline
          : Dinacon (18.11.2025)
          : Steuerungsausschuss (25.11.2025)
          : Swiss CommUNITY Day on Data (04.12.2025)
+         : 
 
     section 2026
       Q1 : Weiterbildung Data Management und Open Data (15.01.2026)
