@@ -13,6 +13,46 @@ Desiderate essere informati sulle nuove funzionalità e offerte della piattaform
 
 {{</alert>}}
 
+## La piattaforma di interoperabilità I14Y entra in una nuova fase!
+*04.12.2025*
+
+{{< figure src="/handbook/img/news/cloud.jpg" alt="Grafik Eine neue Phase für die Interoperabilitätsplattform I14Y" width="125px" class="float-left img-news-thumb" >}}
+
+La piattaforma I14Y sul cloud pubblico, il cui precedente hosting era presso l’Ufficio federale dell’informatica, è stata migrata con successo sul cloud pubblico, segnando un’importante pietra miliare per l’interoperabilità in Svizzera. Questa versione avanzata ora offre una maggiore flessibilità, fondamentale per accelerare gli sviluppi futuri, come l’integrazione di un triple store o della toolbox. 
+Inoltre, l’intero codice sorgente è stato migrato su GitHub, fornendo la base concreta del nostro impegno verso l’open source. Questi cambiamenti rafforzano la nostra capacità di innovare e di collaborare con voi, per un’amministrazione sempre più connessa e trasparente.
+
+## metadata.swiss: stato attuale della fusione delle piattaforme
+*04.12.2025*
+
+Prosegue la fase di attuazione della fusione di I14Y e opendata.swiss in una piattaforma di metadati comune. L’obiettivo rimane una gestione dei metadati semplice, chiara e a prova di futuro, che aumenti la trasparenza e faciliti l’accesso ai dati da parte della collettività. 
+La gap analysis avviata a settembre nell’ambito del progetto metadata.swiss sta per essere completata. Questo segna l’inizio della vera e propria fase di regolazione e progettazione della nuova piattaforma comune. La tabella di marcia per lo sviluppo della piattaforma I14Y rimane complessivamente invariata, ma sarà adattata in base all’avanzamento dei lavori di metadata.swiss per evitare sviluppi o investimenti non sostenibili. E tutti gli oggetti di dati descritti sulla piattaforma I14Y verranno migrati nella nuova soluzione, presumibilmente nel 2028. Vi state chiedendo come si chiamerà la piattaforma che nascerà dalla fusione? Resta da vedere, ma probabilmente il nome I14Y sarà una cosa da nerd del passato.
+
+## Beta-ID: un set di dati da testare
+*04.12.2025*
+
+{{< figure src="/handbook/img/news/beta-id.png" alt="Grafik Die Beta-ID als Datensatz zum Testen" width="125px" class="float-left img-news-thumb" >}}
+
+Il 29 settembre 2025 la Svizzera ha approvato l’introduzione dell’Id-e nazionale. Nell’ambito della fase di test pubblico («Public Beta»), è stata introdotta la cosiddetta Beta-ID, un’identità test che non prevede una vera e propria verifica dell’identità, ma che contiene gli stessi campi di dati della futura Id-e. [Il relativo set di dati è disponibile sulla piattaforma I14Y](https://www.i14y.admin.ch/it/catalog/datasets/urn:vct:ch.admin.bcs.betaid/description) e mostra come sia possibile documentare e integrare nuove applicazioni in una fase iniziale. Questo principio può essere applicato anche ad altri progetti digitali: un buon esempio di trasparenza e di modo di agire collaborativo e proattivo all’interno dell’amministrazione pubblica.
+
+## Un dashboard visualizza i dati, la piattaforma I14Y li rende comprensibili e leggibili dalle macchine
+*04.12.2025*
+
+{{< figure src="/handbook/img/news/bfe-datensaetze-i14y.png" alt="Grafik Ein Dashboard visualisiert Daten, I14Y macht sie nachvollziehbar und maschinenlesbar" width="125px" class="float-left img-news-thumb" >}}
+
+Il dashboard sull’energia dell’Ufficio federale dell’energia permette di visualizzare in un colpo d’occhio i principali indicatori relativi alla produzione e al consumo di elettricità in Svizzera. Ora dieci set di dati di questo dashboard sono descritti sulla piattaforma I14Y. In questo modo si crea trasparenza in merito a quali siano i dati su cui si basano le visualizzazioni. Questi set di dati sono quindi reperibili per tutte le parti interessate provenienti dal mondo della ricerca, dell’industria e di altri settori, sono descritti con coerenza, sono accessibili in modo affidabile e a lungo termine e possono essere facilmente utilizzati. Il dashboard e la piattaforma si completano quindi alla perfezione. 
+[Dashboard sull'energia Svizzera](https://www.dashboardenergia.admin.ch/dashboard)
+
+[Catalogo di metadati della Svizzera](https://www.i14y.admin.ch/it/catalog/datasets?publisher=CH_BFE)
+
+## Incontro degli amministratori dei dati: una giornata dedicata alla pratica
+*04.12.2025*
+
+Sei presentazioni, tre workshop e tanto dialogo in un’atmosfera rilassata: il 21 ottobre circa cinquanta esperti delle amministrazioni pubbliche si sono incontrati a Neuchâtel per il primo meet-up degli amministratori dei dati a livello locale (local data steward, LDS). L’evento, organizzato dal team della piattaforma I14Y, ha costituito l’occasione per affinare il nuovo ruolo degli LDS nel contesto della LMeCA e dell’ODigi. L’incontro si è concentrato sul lavoro pratico con la piattaforma I14Y: come e con quali strumenti ausiliari è possibile descrivere i set di dati, le API e i servizi delle autorità sulla piattaforma? 
+  
+Nei workshop successivi, i partecipanti hanno discusso questioni di governance, aspetti tecnici e legati alla pubblicazione su opendata.swiss e I14Y. 
+  
+Il prossimo incontro è previsto per l’autunno del 2026, preceduto da regolari riunioni informali degli amministratori dei dati a livello locale. Contattateci [via e-mail](mailto:i14y@bfs.admin.ch) se siete interessati a partecipare.
+
 ## Verso un ecosistema dei metadati più integrato
 *26.08.2025*
 
