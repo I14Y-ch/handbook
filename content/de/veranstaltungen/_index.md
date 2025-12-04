@@ -71,7 +71,6 @@ Referat zum Thema «Metadatenplattformen heute und morgen» am Swiss EGOVERNMENT
 
 {{< event-card 
   title="Meet-up der Local Data Stewards"
-  location="Bern"
   date="29. Oktober 2026"
 >}}
 Austausch und Vernetzung der Local Data Stewards der öffentlichen Verwaltung.

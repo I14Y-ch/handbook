@@ -71,7 +71,6 @@ Presentazione sul tema «Piattaforme di metadati oggi e domani» al Swiss EGOVER
 {{< event-card 
   title="Meet-up dei Local Data Stewards"
   date="29 ottobre 2026"
-  location="Berna"
 >}}
 Scambio e networking dei Local Data Stewards della pubblica amministrazione.
 {{< /event-card >}}

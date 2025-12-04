@@ -72,7 +72,6 @@ Presentation on the topic "Metadata platforms today and tomorrow" at the Swiss E
 {{< event-card 
   title="Meet-up of Local Data Stewards"
   date="October 29, 2026"
-  location="Bern"
 >}}
 Exchange and networking of Local Data Stewards of the public administration.
 {{< /event-card >}}

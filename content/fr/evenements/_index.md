@@ -72,7 +72,6 @@ Exposé sur le thème « Les plateformes de métadonnées aujourd'hui et demain 
 {{< event-card 
   title="Meet-up des Local Data Stewards"
   date="29 octobre 2026"
-  location="Berne"
 >}}
 Échange et mise en réseau des Local Data Stewards de l'administration publique.
 {{< /event-card >}}
