@@ -4,6 +4,16 @@
 {{- $location := .Get "location" -}}
 {{- $link := .Get "link" -}}
 {{- $ics := .Get "ics" -}}
+{{- $lang := site.Language.Lang | default "de" -}}
+{{- $labelMap := dict
+  "de" (dict "more" "Mehr Informationen" "calendar" "Zum Kalender hinzufügen")
+  "fr" (dict "more" "Plus d'informations" "calendar" "Ajouter au calendrier")
+  "it" (dict "more" "Ulteriori informazioni" "calendar" "Aggiungi al calendario")
+  "en" (dict "more" "More information" "calendar" "Add to calendar")
+-}}
+{{- $langLabels := index $labelMap $lang | default (index $labelMap "de") -}}
+{{- $moreInfoLabel := index $langLabels "more" -}}
+{{- $addToCalendarLabel := index $langLabels "calendar" -}}
 
 <div class="event-card">
   <div class="event-card__icon">
@@ -41,7 +51,7 @@
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="16" height="16">
           <path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/>
         </svg>
-        Mehr Informationen
+        {{ $moreInfoLabel }}
       </a>
       {{- end -}}
       {{- if $ics -}}
@@ -49,7 +59,7 @@
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="16" height="16">
           <path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V10h14v10z"/>
         </svg>
-        Zum Kalender hinzufügen
+        {{ $addToCalendarLabel }}
       </a>
       {{- end -}}
     </div>

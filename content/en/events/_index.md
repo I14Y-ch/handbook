@@ -31,7 +31,13 @@ timeline
       Q4 : Swiss Statistics Days (05. – 07.11.2025)
          : Dinacon (18.11.2025)
          : Swiss CommUNITY Day on Data (04.12.2025)
-{{< /mermaid >}}
+           
+    section 2026
+      Q1 : Continuing Education Data Management and Open Data (15.01.2026)
+         : Informal Meeting of Local Data Stewards (20.01.2026)
+         : Swiss eGovernment Forum (11.03.2026)
+        {{< /mermaid >}}
+
 
 ## Upcoming Events
 
@@ -69,11 +75,8 @@ Presentation on the topic "Metadata platforms today and tomorrow" at the Swiss E
 Exchange and networking of Local Data Stewards of the public administration.
 {{< /event-card >}}
 
-### December 4, 2025: Swiss CommUNITY Day on Data
-On December 4, 2025, the Swiss data community will gather at Forum Fribourg for the [Swiss CommUNITY Day on Data](https://swissdatacommunity.ch/alle-events/swisscommunity-day-on-data-2025/), a day of exchanges, discoveries, and innovations. This third edition will be dedicated to the theme of platforms in relation to data management.
-
 ## Past Events
-- November 25, Steering Committee
+- December 4, 2025: Swiss [CommUNITY Day on Data]((https://swissdatacommunity.ch/alle-events/swisscommunity-day-on-data-2025/)
 - November 18, 2025: [Dinacon](https://dinacon.ch)
 - November 5-7, 2025: Swiss Statistics Days
 - October 21, 2025: Training Day for Local Data Stewards 

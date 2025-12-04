@@ -31,6 +31,11 @@ timeline
       Q4 : Giornate svizzere della statistica (05. – 07.11.2025)
          : Dinacon (18.11.2025)
          : Swiss CommUNITY Day on Data (04.12.2025)
+
+    section 2026
+      Q1 : Formazione continua Data Management e Open Data (15.01.2026)
+         : Incontro informale dei Local Data Stewards (20.01.2026)
+         : Swiss eGovernment Forum (11.03.2026)
 {{< /mermaid >}}
 
 ## Eventi futuri
@@ -41,35 +46,36 @@ timeline
   location="Università di Scienze Applicate di Berna (BFH), Berna"
   link="https://www.bfh.ch/de/aktuell/fachveranstaltungen/weiterbildung-data-management-open-government-data/"
 >}}
-Presentazione: I14Y come strumento di armonizzazione dei dati (evento e presentazione in tedesco).
+Presentazione: I14Y come strumento di armonizzazione dei dati.
 {{< /event-card >}}
 
 {{< event-card 
   title="Incontro informale dei Local Data Stewards"
   date="20 gennaio 2026"
+  location="Campus Liebefeld, Köniz"
 >}}
-Scambio con gli esperti I14Y sull'inserimento dei metadati sulla piattaforma e chiarimento delle questioni aperte. Se siete interessati a partecipare, contattateci [via e-mail](mailto:i14y@bfs.admin.ch).
+Discussioni informali su temi relativi alla raccolta dei metadati tra i Local Data Stewards della pubblica amministrazione. Se siete interessati a partecipare, contattateci [via e-mail](mailto:i14y@bfs.admin.ch).
 {{< /event-card >}}
 
 {{< event-card 
   title="Swiss EGOVERNMENT Forum"
   date="11 marzo 2026"
+  location="Berna"
   link="https://e-governmentforum.ch/"
 >}}
-Presentazione sul tema «Piattaforme di metadati oggi e domani».
+Presentazione sul tema «Piattaforme di metadati oggi e domani» al Swiss EGOVERNMENT Forum.
 {{< /event-card >}}
 
 {{< event-card 
   title="Meet-up dei Local Data Stewards"
   date="29 ottobre 2026"
+  location="Berna"
 >}}
 Scambio e networking dei Local Data Stewards della pubblica amministrazione.
 {{< /event-card >}}
 
-### 4 dicembre 2025: Swiss CommUNITY Day on Data
-Il 4 dicembre 2025, la comunità svizzera dei dati si riunirà al Forum Fribourg per il [Swiss CommUNITY Day on Data](https://swissdatacommunity.ch/alle-events/swisscommunity-day-on-data-2025/), una giornata di scambi, scoperte e innovazioni. Questa terza edizione sarà dedicata al tema delle piattaforme in relazione alla gestione dei dati.
-
 ## Eventi passati
+- 04 dicembre 2025: Swiss CommUNITY Day on Data
 - 25 novembre 2025: Comitato direttivo
 - 18 novembre 2025: [Dinacon](https://dinacon.ch)
 - 05 al 07 novembre 2025: Giornate svizzere della statistica

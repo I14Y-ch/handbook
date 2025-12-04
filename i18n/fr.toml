@@ -11,3 +11,7 @@ other = "Home"
 other = "I14Y"
 [i14y_link]
 other = "https://www.i14y.admin.ch/fr/home"
+[event_card_more_info]
+other = "Plus d'informations"
+[event_card_add_to_calendar]
+other = "Ajouter au calendrier"
