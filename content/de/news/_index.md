@@ -12,6 +12,46 @@ Möchten Sie über neue Funktionen und Angebote auf der Interoperabilitätsplatt
 
 {{</alert>}}
 
+## Eine neue Phase für die Interoperabilitätsplattform I14Y
+*04.12.2025*
+
+{{< figure src="/handbook/img/news/cloud.png" alt="Grafik Eine neue Phase für die Interoperabilitätsplattform I14Y" width="125px" class="float-left img-news-thumb" >}}
+
+Die bisher vom Bundesamt für Informatik und Telekommunikation gehostete Plattform I14Y wurde erfolgreich auf die öffentliche Cloud migriert – ein Meilenstein für die Interoperabilität in der Schweiz. Die Migration schafft die nötige Flexibilität für die nächsten Schritte, beispielsweise für die Integration eines Triplestore oder einer erweiterten Toolbox. 
+Darüber hinaus wurde der gesamte Quellcode auf GitHub migriert, womit die Weichen für unser verstärktes Engagement im Bereich Open Source gestellt werden. Diese Veränderungen stärken unsere Innovationskraft und die amtsinterne Zusammenarbeit.
+
+## metadata.swiss: aktueller Stand zur Plattformzusammenführung
+*04.12.2025*
+
+Die Zusammenführung von I14Y und opendata.swiss zu einer gemeinsamen Metadatenplattform ist auf Kurs. Ziel bleibt eine einfache, klare und zukunftsfähige Metadatenverwaltung, die Transparenz stärkt und den Zugang zu Daten für die Allgemeinheit erleichtert. 
+Die im September gestartete Gap-Analyse im Rahmen des Projekts metadata.swiss steht kurz vor dem Abschluss. Damit startet nun die eigentliche Abstimmungs- und Konzeptionsphase für die neue gemeinsame Plattform. Der Entwicklungsfahrplan für I14Y bleibt insgesamt unverändert, wird jedoch entsprechend dem Fortschritt der Arbeiten von metadata.swiss angepasst, um nicht nachhaltige Entwicklungen oder Investitionen zu vermeiden. Und: Alle beschriebenen Datenobjekte auf I14Y werden in die neue Lösung migriert. Geplant ist dies für 2028. Sie fragen sich, wie die zusammengeführte Plattform heissen wird? Das ist noch offen – aber I14Y dürfte dann wohl der nerdigen Vergangenheit angehören.
+
+## Die Beta-ID als Datensatz zum Testen
+*04.12.2025*
+
+{{< figure src="/handbook/img/news/beta-id.png" alt="Grafik Die Beta-ID als Datensatz zum Testen" width="125px" class="float-left img-news-thumb" >}}
+
+Am 29. September hat die Schweiz der Einführung der nationalen e-ID zugestimmt. Im Rahmen der öffentlichen Testphase («Public Beta») wurde die sogenannte Beta-ID eingeführt – eine Testidentität, die keine echte Identitätsprüfung beinhaltet, aber die gleichen Datenfelder wie die künftige e-ID enthält. [Der entsprechende Datensatz ist auf der I14Y-Plattform verfügbar](https://www.i14y.admin.ch/de/catalog/datasets/urn:vct:ch.admin.bcs.betaid/description) und zeigt, wie frühzeitig neue Anwendungen dokumentiert und integriert werden können. Dieses Prinzip lässt sich auch auf andere digitale Vorhaben übertragen – ein gutes Beispiel für Transparenz und kollaboratives, proaktives Handeln in der öffentlichen Verwaltung.
+
+## Ein Dashboard visualisiert Daten, I14Y macht sie nachvollziehbar und maschinenlesbar
+*04.12.2025*
+
+{{< figure src="/handbook/img/news/bfe-datensaetze-i14y.png" alt="Grafik Ein Dashboard visualisiert Daten, I14Y macht sie nachvollziehbar und maschinenlesbar" width="125px" class="float-left img-news-thumb" >}}
+
+Das Energiedashboard des Bundesamts für Energie macht die Kernindikatoren rund um die Stromproduktion und  den Stromverbrauch in der Schweiz auf einen Blick sichtbar. Auf I14Y sind nun zehn Datensätze des Dashboards beschrieben. So entsteht Transparenz darüber, welche Daten hinter den Visualisierungen stehen. Die zugrunde liegenden Datensätze sind so für alle Interessierten aus der Forschung, der Branchen und weiteren Bereichen auffindbar, konsistent beschrieben sowie langfristig verlässlich zugänglich und ohne Weiteres nutzbar. Energiedashboard und Interoperabilitätsplattform  ergänzen sich somit perfekt. 
+[Metadatenkatalog](https://www.i14y.admin.ch/de/catalog/datasets?publisher=CH_BFE)
+
+[Energie-Dashboard Bundesamt für Energie](https://www.energiedashboard.admin.ch/dashboard)
+
+
+## Meet-up der Data Stewards – ein Tag für die Praxis
+*04.12.2025*
+
+Sechs Referate, drei Ateliers und viel Austausch in entspannter Atmosphäre: Am 21. Oktober trafen sich in Neuchâtel rund fünfzig Fachpersonen aus der öffentlichen Verwaltung zum ersten Meet-up der Local Data Stewards (LDS). Der Anlass – organisiert vom I14Y-Team – bot Raum, um die neue Rolle der LDS im Kontext von EMBAG und DigiV zu schärfen. 
+Im Fokus des Treffens stand die praktische Arbeit mit I14Y: Auf welche Weise und mit welchen Hilfsmitteln können Datensätze, APIs und Behördenleistungen auf der Plattform beschrieben werden. In den anschliessenden Ateliers diskutierten die Teilnehmenden Governance-Fragen, technische Aspekte und das Publizieren auf opendata.swiss und I14Y. 
+  
+Das nächste Meet-up ist für  Herbst 2026 geplant – es wird durch regelmässige informelle Treffen der Local Data Stewards ergänzt. Kontaktieren Sie uns bitte [per Mail an I14Y](mailto:i14y@bfs.admin.ch), wenn Sie an einer Teilnahme interessiert sind.
+
 ## Aus zwei wird eins
 *26.08.2025*
 
