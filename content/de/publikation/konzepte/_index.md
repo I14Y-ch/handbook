@@ -78,7 +78,8 @@ Alternativ kann die Codeliste auch in der Form einer JSON-Datei hochgeladen werd
             "de": "Bilder und Grafiken auf Wikimedia Commons",
             "en": "Images and graphics on Wikimedia Commons",
             "fr": "Images et graphiques sur Wikimedia Commons",
-            "it": "Immagini e grafica su Wikimedia Commons",          },
+            "it": "Immagini e grafica su Wikimedia Commons"
+          },
           "title": "Wikimedia Commons",
           "type": "media",
           "uri": "https://commons.wikimedia.org/wiki/Category:Stone_Age,wikimedia_commons"
@@ -178,7 +179,7 @@ Alternativ kann die Codeliste auch in der Form einer JSON-Datei hochgeladen werd
         "de": "Die Antike erstreckt sich von ca. 500 v. Chr. bis 500 n. Chr.",
         "en": "Antiquity extends from around 500 BC to 500 AD.",
         "fr": "L'Antiquité s'étend d'environ 500 av. J.-C. à 500 ap. J.-C.",
-        "it": "L'Antichità va da circa 500 a.C. al 500 d.C.",
+        "it": "L'Antichità va da circa 500 a.C. al 500 d.C."
       },
       "name": {
         "de": "Antike",
