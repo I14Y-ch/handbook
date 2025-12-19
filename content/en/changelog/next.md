@@ -5,15 +5,14 @@ slug: next-release
 weight: 10
 type: docs
 keywords: [I14Y, Interoperability Platform I14Y, IOP, Changelog, Releases, Versions, Software Development]
-draft: true
+draft: false
 ---
 
-The next release of I14Y is scheduled for the early evening of 22 October. It includes the adjustments and enhancements listed below. I14Y partner organisations with the appropriate access can test the updated software immediately on the [I14Y pre-publication environment](https://input.i14y-a.admin.ch). Please contact the Interoperability Service if you do not yet have access to this environment used for software testing.
+The next release of I14Y is scheduled for the early evening of 7 January 2026. It includes the adjustments and enhancements listed below. I14Y partner organisations with the appropriate access can test the updated software immediately on the [I14Y pre-publication environment](https://input.i14y-a.admin.ch). Please contact the Interoperability Service if you do not yet have access to this environment used for software testing.
  
 Please note that the release date may be postponed at short notice in the event of problems. It is possible that individual functions may be removed from the release and only activated at a later date. If you have any questions or problems regarding the release, please contact the Interoperability Service ([i14y@bfs.admin.ch](mailto:i14y@bfs.admin.ch)).
 
-- **Improved editing masks**: The Save button is now active by default. Previously, it was only activated after changes were made to the metadata. Clicking the button helps identify incomplete metadata: the corresponding fields are outlined in red. 
-- **Clearer organisation page**: Organisations that have not yet published metadata publicly will no longer be displayed on the [organisation page](https://www.i14y.admin.ch/de/organisations).
-- **Simplified entry of public services**: Previously, entering government services usually required two steps: first, the basic description of the public service was recorded. Then, on a second form, the link or channel was added. Now, the basic description and links can be entered using a single form. This allows public services to be recorded more quickly and efficiently. 
-- **New filtering options**: Thanks to the new Concept Type filter, it is now possible to filter specifically for concepts with certain types. For example, a search can be limited to all code lists. 
+- **Keywords linked to predefined concepts**: Keywords can now be linked to unique designations from controlled vocabularies. Technically, this is done via an additional text field (`uri`). _Attention: This changes the structure of the data returned by the public and partner API._ This change has been approved by the Steering Committee.
+- **Improved display of allowed values**: In the data structures, the allowed values of a field can be defined. As soon as the corresponding field is clicked in the visualisation, the allowed values are now also displayed in the sidebar. This makes it easier to see which values are permitted per field.
+- **Improved catalogue search**: The search in the catalogue has been further expanded. It no longer distinguishes between upper and lower case. It also takes into account the additional fields contact person and deputy contact person, contact point as well as the identifiers of the objects.
 - **Internal improvements and bug fixes**
