@@ -13,6 +13,13 @@ __FR:__ Ce site est en anglais. Seules les descriptions des grandes releases son
 
 The I14Y interoperability platform is under continuous development. New features are added with each release. Bugs are also fixed. The most important changes are briefly documented below. For detailed information on the development of the platform, please contact the [I14Y team](mailto:i14y@bfs.admin.ch). 
 
+## Release 7 janvier 2026
+
+- **Mots-clés liés à des concepts prédéfinis**: les mots-clés peuvent désormais être reliés à des désignations univoques provenant de listes de termes contrôlées. Techniquement, cela se fait via un champ de texte supplémentaire (`uri`). _Attention: la structure des données renvoyées par l’API publique et l’API partenaire s’en trouve modifiée._ Cette modification a été approuvée par le comité de pilotage.
+- **Meilleure présentation des valeurs autorisées**: dans les structures SHACL de données, il est possible de définir les valeurs autorisées d’un champ. Dès que le champ correspondant est sélectionné dans la visualisation, les valeurs autorisées sont désormais aussi affichées dans la barre latérale. Il est ainsi plus facile de voir quelles valeurs sont admises pour chaque champ.
+- **Recherche de catalogue améliorée**: la recherche dans le catalogue a été encore étendue. Elle ne fait plus de distinction entre majuscules et minuscules. Elle prend également en compte les champs supplémentaires personne de contact et suppléance de la personne de contact, point de contact ainsi que les identifiants des objets.
+- **Améliorations internes et corrections de bugs**
+
 ## Release 27 novembre 2025
 
 This release marks a significant infrastructure change: The I14Y interoperability platform is now operated in the public cloud (Azure, sourced via the Federal Office of Information Technology [BIT]). Additionally, the code is now managed on GitHub. Due to the new infrastructure, various technical details in the I14Y code had to be adapted.

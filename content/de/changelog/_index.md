@@ -11,6 +11,27 @@ __DE:__ Diese Seite liegt teilweise in englischer Sprache vor.
 
 The I14Y interoperability platform is under continuous development. New features are added with each release. Bugs are also fixed. The most important changes are briefly documented below. For detailed information on the development of the platform, please contact the [I14Y team](mailto:i14y@bfs.admin.ch). 
 
+## Release vom 7. Januar 2026
+
+- **Schlüsselwörter mit Verbindung zu vordefinierten Begriffen**: Die Schlüsselwörter können neu mit eindeutigen Bezeichnungen aus kontrollierten Begriffsl­isten verknüpft werden. Technisch geschieht dies über ein zusätzliches Textfeld (`uri`). _Achtung: Dadurch ändert sich die Struktur der Daten, die von der Public- und Partner-API zurückgeliefert werden._ Diese Änderung wurde vom Steuerungsausschuss genehmigt. Die neue Struktur: 
+
+```"keywords": [
+  {
+    "label": {
+      "de": "string",
+      "en": "string",
+      "fr": "string",
+      "it": "string",
+      "rm": "string"
+    },
+    "uri": "string"
+  }
+]
+```
+- **Bessere Darstellung erlaubter Werte**: In den SHACL-Datenstrukturen können die erlaubten Werte eines Feldes definiert werden. Sobald das betreffende Feld in der Visualisierung angeklickt wird, werden die erlaubten Werte nun auch in der Seitenleiste angezeigt. Damit wird einfacher ersichtlich, welche Werte pro Feld zulässig sind.
+- **Verbesserte Katalogsuche**: Die Suche im Katalog wurde weiter ausgebaut. Sie unterscheidet nicht mehr zwischen Gross- und Kleinschreibung. Und sie berücksichtigt die zusätzlichen Felder  Ansprechperson und Stellvertretung der Ansprechperson, Kontaktstelle sowie die Identifikatoren der Objekte.
+- **Interne Verbesserungen und Bugfixes**
+
 ## Release vom 27. November 2025
 
 Mit diesem Release erfolgt ein Wechsel der grundlegenden Infrastruktur: Die Interoperabilitätsplattform I14Y wird nun in der Public Cloud betrieben (Azure, bezogen über das Bundesamt für Informatik [BIT]). Zudem wird der Code neu auf Github verwaltet. Aufgrund der neuen Infrastruktur mussten diverse technische Details im Code von I14Y angepasst werden.
