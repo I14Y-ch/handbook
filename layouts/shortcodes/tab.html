@@ -1,0 +1,19 @@
+{{ $tabName := .Get "tabName" | default "Tab" }}
+{{ $active := .Get "active" | default false }}
+{{ $tabID := replaceRE "[^a-zA-Z0-9-]" "" (lower $tabName) }}
+
+<div class="tab-pane fade{{ if $active }} show active{{ end }}" id="tabpanel-{{ $tabID }}" role="tabpanel" aria-labelledby="tab-{{ $tabID }}">
+  {{ .Inner | markdownify }}
+</div>
+
+<script>
+  // Auto-activate first tab if no active tab is set
+  document.addEventListener('DOMContentLoaded', function() {
+    const firstTab = document.querySelector('.nav-tabs .nav-link');
+    const firstPane = document.querySelector('.tab-pane');
+    if (firstTab && !document.querySelector('.nav-link.active')) {
+      firstTab.classList.add('active');
+      firstPane.classList.add('show', 'active');
+    }
+  });
+</script>

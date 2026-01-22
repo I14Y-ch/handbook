@@ -1,0 +1,15 @@
+{{ $tabTotal := .Get "tabTotal" | default 2 }}
+{{ $rightAlign := .Get "rightAlign" | default false }}
+
+<ul class="nav nav-tabs" role="tablist">
+  {{ range $index, $element := seq $tabTotal }}
+    <li class="nav-item">
+      <a class="nav-link{{ if eq $index 1 }} active{{ end }}" id="tab-{{ $index }}" data-toggle="tab" href="#tabpanel-{{ $index }}" role="tab" aria-controls="tabpanel-{{ $index }}" aria-selected="{{ if eq $index 1 }}true{{ else }}false{{ end }}">
+        Tab {{ $index }}
+      </a>
+    </li>
+  {{ end }}
+</ul>
+<div class="tab-content">
+  {{ .Inner }}
+</div>
