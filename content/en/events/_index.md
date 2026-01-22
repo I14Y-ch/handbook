@@ -66,8 +66,6 @@ Meeting of the I14Y Steering Committee in Neuchâtel. The steering committee inc
 ### Q1
 - **15.01.2026** – Continuing Education [Data Management & Open Government Data](https://www.bfh.ch/de/aktuell/fachveranstaltungen/weiterbildung-data-management-open-government-data/) at the Bern University of Applied Sciences (BFH)
 - **20.01.2026** – Informal Meeting of Local Data Stewards at Campus Liebefeld
-- **03.03.2026** – Steering Committee I14Y
-- **11.03.2026** – Swiss eGovernment Forum
 
 </details>
 

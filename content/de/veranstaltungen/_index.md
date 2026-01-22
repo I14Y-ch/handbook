@@ -66,8 +66,6 @@ Treffen des Steuerungsausschusses I14Y in Neuchâtel. Im Steuerungsausschuss sin
 ### Q1
 - **15.01.2026** – Weiterbildung [Data Management & Open Government Data](https://www.bfh.ch/de/aktuell/fachveranstaltungen/weiterbildung-data-management-open-government-data/) an der Berner Fachhochschule (BFH)
 - **20.01.2026** – Informelles Treffen der Local Data Stewards auf dem Campus Liebefeld
-- **03.03.2026** – Steuerungsausschuss I14Y
-- **11.03.2026** – Swiss eGovernment Forum
 
 </details>
 

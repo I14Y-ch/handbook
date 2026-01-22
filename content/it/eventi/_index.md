@@ -66,8 +66,6 @@ Riunione del comitato direttivo I14Y a Neuchâtel. Il comitato direttivo compren
 ### Q1
 - **15.01.2026** – Formazione continua [Gestione dei dati e dati pubblici aperti](https://www.bfh.ch/de/aktuell/fachveranstaltungen/weiterbildung-data-management-open-government-data/) presso l'Università di Scienze Applicate di Berna (BFH)
 - **20.01.2026** – Incontro informale dei Local Data Stewards al Campus Liebefeld
-- **03.03.2026** – Comitato direttivo I14Y
-- **11.03.2026** – Swiss eGovernment Forum
 
 </details>
 

@@ -66,8 +66,6 @@ Réunion du comité de pilotage I14Y à Neuchâtel. Le comité de pilotage compr
 ### Q1
 - **15.01.2026** – Formation continue [Gestion des données et données publiques ouvertes](https://www.bfh.ch/de/aktuell/fachveranstaltungen/weiterbildung-data-management-open-government-data/) à la Haute école spécialisée bernoise (BFH)
 - **20.01.2026** – Réunion informelle des Local Data Stewards sur le Campus Liebefeld
-- **03.03.2026** – Comité de pilotage I14Y
-- **11.03.2026** – Swiss eGovernment Forum
 
 </details>
 
