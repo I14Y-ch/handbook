@@ -8,18 +8,66 @@ weight: 100
 type: docs
 ---
 
-## Calendrier des événements
+## Événements à venir
+
+{{< event-card 
+  title="Comité de pilotage I14Y"
+  location="Berne"
+  date="3 mars 2026"
+>}}
+Réunion du comité de pilotage I14Y à Berne. Le comité de pilotage comprend les plus grandes organisations qui utilisent activement la plateforme d'interopérabilité. Contactez le [Service d'interopérabilité](mailto:i14y@bfs.admin.ch) pour plus d'informations.
+{{< /event-card >}}
+
+{{< event-card 
+  title="Swiss EGOVERNMENT Forum"
+  location="Berne"
+  date="11 mars 2026"
+  link="https://e-governmentforum.ch/"
+>}}
+Exposé sur le thème « Les plateformes de métadonnées aujourd'hui et demain » au Swiss EGOVERNMENT Forum.
+{{< /event-card >}}
+
+{{< event-card 
+  title="Comité de pilotage I14Y"
+  location="Neuchâtel"
+  date="23 juin 2026"
+>}}
+Réunion du comité de pilotage I14Y à Neuchâtel. Le comité de pilotage comprend les plus grandes organisations qui utilisent activement la plateforme d'interopérabilité. Contactez le [Service d'interopérabilité](mailto:i14y@bfs.admin.ch) pour plus d'informations.
+{{< /event-card >}}
+
+{{< event-card 
+  title="Comité de pilotage I14Y"
+  location="Berne"
+  date="15 septembre 2026"
+>}}
+Réunion du comité de pilotage I14Y à Berne. Le comité de pilotage comprend les plus grandes organisations qui utilisent activement la plateforme d'interopérabilité. Contactez le [Service d'interopérabilité](mailto:i14y@bfs.admin.ch) pour plus d'informations.
+{{< /event-card >}}
+
+{{< event-card 
+  title="Meet-up des Local Data Stewards"
+  date="29 octobre 2026"
+>}}
+Échange et mise en réseau des Local Data Stewards de l'administration publique.
+{{< /event-card >}}
+
+{{< event-card 
+  title="Comité de pilotage I14Y"
+  location="Neuchâtel"
+  date="24 novembre 2026"
+>}}
+Réunion du comité de pilotage I14Y à Neuchâtel. Le comité de pilotage comprend les plus grandes organisations qui utilisent activement la plateforme d'interopérabilité. Contactez le [Service d'interopérabilité](mailto:i14y@bfs.admin.ch) pour plus d'informations.
+{{< /event-card >}}
+
+## Événements passés
 
 <details open>
 <summary><strong>2026</strong></summary>
 
 ### Q1
-- **15.01.2026** – Formation continue Data Management et Open Government Data
-- **20.01.2026** – Rencontre informelle des Local Data Stewards
+- **15.01.2026** – Formation continue [Gestion des données et données publiques ouvertes](https://www.bfh.ch/de/aktuell/fachveranstaltungen/weiterbildung-data-management-open-government-data/) à la Haute école spécialisée bernoise (BFH)
+- **20.01.2026** – Réunion informelle des Local Data Stewards sur le Campus Liebefeld
+- **03.03.2026** – Comité de pilotage I14Y
 - **11.03.2026** – Swiss eGovernment Forum
-
-### Q4
-- **29.10.2026** – Meet-up des Local Data Stewards
 
 </details>
 
@@ -35,14 +83,15 @@ type: docs
 
 ### Q3
 - **09.07.2025** – Rencontre des Local Data Stewards
-- **21.08.2025** – Formation continue Data Management et Open Government Data
-- **02.09.2025** – Swiss Data Space Forum
+- **21.08.2025** – Présentation I14Y lors de la formation continue Data Management et Open Government Data de la Haute école spécialisée bernoise (BFH)
+- **02.09.2025** – [Swiss Data Space Forum](https://forum.swissdataalliance.ch) sur le campus HSLU Rotkreuz
 - **21.10.2025** – Journée de formation pour les Local Data Stewards
 
 ### Q4
 - **05. – 07.11.2025** – Journées suisses de la statistique
-- **18.11.2025** – Dinacon
-- **04.12.2025** – Swiss CommUNITY Day on Data
+- **18.11.2025** – [Dinacon](https://dinacon.ch/)
+- **25.11.2025** – Comité de pilotage
+- **04.12.2025** – [Swiss CommUNITY Day on Data](https://swissdatacommunity.ch/alle-events/swisscommunity-day-on-data-2025/)
 
 </details>
 
@@ -50,7 +99,7 @@ type: docs
 <summary><strong>2024</strong></summary>
 
 ### Q1
-- **18.01.2024** – Module de formation continue Data Management et Open Government Data
+- **18.01.2024** – Présentation I14Y lors de la formation continue Gestion des données et open data à la Haute école spécialisée bernoise (BFH)
 
 ### Q3
 - **22.08.2024** – Module de formation continue Data Management et Open Government Data
@@ -62,58 +111,4 @@ type: docs
 - **09.12.2024** – Comité de pilotage
 
 </details>
-
-## Événements à venir
-
-{{< event-card 
-  title="Formation continue Gestion des données et données publiques ouvertes"
-  date="15 janvier 2026"
-  location="Haute école spécialisée bernoise (BFH), Berne"
-  link="https://www.bfh.ch/de/aktuell/fachveranstaltungen/weiterbildung-data-management-open-government-data/"
->}}
-Présentation: I14Y comme outil d'harmonisation des données.
-{{< /event-card >}}
-
-{{< event-card 
-  title="Réunion informelle des Local Data Stewards"
-  date="20 janvier 2026"
-  location="Campus Liebefeld, Köniz"
->}}
-Discussions informelles sur des thèmes liés à la collecte des métadonnées parmi les Local Data Stewards de l'administration publique. Si vous êtes intéressé(e) à participer, veuillez nous contacter [par e-mail](mailto:i14y@bfs.admin.ch).
-{{< /event-card >}}
-
-{{< event-card 
-  title="Swiss EGOVERNMENT Forum"
-  date="11 mars 2026"
-  location="Berne"
-  link="https://e-governmentforum.ch/"
->}}
-Exposé sur le thème « Les plateformes de métadonnées aujourd'hui et demain » au Swiss EGOVERNMENT Forum.
-{{< /event-card >}}
-
-{{< event-card 
-  title="Meet-up des Local Data Stewards"
-  date="29 octobre 2026"
->}}
-Échange et mise en réseau des Local Data Stewards de l'administration publique.
-{{< /event-card >}}
-
-## Evénements passés
-- 4 décembre, 2025: Swiss [CommUNITY Day on Data](https://swissdatacommunity.ch/alle-events/swisscommunity-day-on-data-2025/)
-- 25 novembre 2025: Comité de pilotage
-- 18 novembre 2025: [Dinacon](https://dinacon.ch/)
-- 21 octobre 2025: journée de formation pour les Local Data Stewards
-- 05 au 07 novembre 2025: Journées suisses de la statistique
-- 02 septembre 2025: [Swiss Data Space Forum](https://forum.swissdataalliance.ch) sur le campus HSLU Rotkreuz.
-- 21 août 2025: Présentation I14Y lors de la formation continue Data Management et Open Government Data de la Haute école spécialisée bernoise
-- 09 juillet 2025: Rencontre informelle des Local Data Stewards
-- 27 mai 2025: Comité de pilotage
-- 18 février 2025: Comité de pilotage
-- 16 janvier 2025: Réunion informelle des Local Data Stewards
-- 09 décembre 2024: Comité de pilotage
-- 04 décembre 2024: Introduction pour les Local Data Stewards: Découvrez les possibilités offertes par I14Y
-- 24 septembre 2024: Réunion informelle des Local Data Stewards
-- 04 septembre 2024: Atelier lors des Journées suisses de la statistique
-- 22 août 2024: Module dans le cadre de la formation continue «Gestion des données et open data» à la Haute école spécialisée bernoise
-- 18 janvier 2024: Présentation I14Y lors de la formation continue «Gestion des données et open data» à la Haute école spécialisée bernoise
 

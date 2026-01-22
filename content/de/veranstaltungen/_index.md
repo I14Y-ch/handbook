@@ -69,16 +69,6 @@ Treffen des Steuerungsausschusses I14Y in Neuchâtel. Im Steuerungsausschuss sin
 - **03.03.2026** – Steuerungsausschuss I14Y
 - **11.03.2026** – Swiss eGovernment Forum
 
-### Q2
-- **23.06.2026** – Steuerungsausschuss I14Y
-
-### Q3
-- **15.09.2026** – Steuerungsausschuss I14Y
-
-### Q4
-- **29.10.2026** – Meet-up der Local Data Stewards
-- **24.11.2026** – Steuerungsausschuss I14Y
-
 </details>
 
 <details>
