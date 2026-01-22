@@ -13,7 +13,7 @@ Die Anwendungen basieren teilweise auf Skripten aus dem [I14Y-GitHub-Repository]
 
 Die Webanwendungen der I14Y-Toolbox sind experimentell. Sie sind nicht stabil und werden bei Bedarf weiterentwickelt. Teile des Codes sind automatisch generiert. Die Interoperabilitätsstelle übernimmt keine Verantwortung und bietet keinen Support. Das Hosting kann ausserhalb der Infrastruktur des Bundes erfolgen. Der Quellcode und die Anleitungen sind auf GitHub verfügbar und lassen sich über den Link in der jeweiligen Kachel aufrufen. Alle Anwendungen können bei Bedarf auch lokal ausgeführt werden.
 
-{{< alert color="warning" title="Nicht geeignet für sensible Daten" />}}
+{{< alert color="warning" title="Nicht geeignet für sensible Daten" >}}
 
 Einige Anwendungen ermöglichen das Hochladen von Daten, um daraus Metadaten zu generieren. Laden Sie keine nicht-öffentlichen oder geschützten Daten hoch.
 
