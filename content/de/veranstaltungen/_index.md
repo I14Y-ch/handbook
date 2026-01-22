@@ -13,17 +13,17 @@ type: docs
 {{< mermaid >}}
 timeline
     section Q1
-      : Weiterbildung Data Management und Open Data (15.01.2026)
-      : Informelles Treffen der Local Data Stewards (20.01.2026)
-      : Steuerungsausschuss I14Y (03.03.2026)
-      : Swiss eGovernment Forum (11.03.2026)
+      Weiterbildung Data Management und Open Data (15.01.2026)
+      Informelles Treffen der Local Data Stewards (20.01.2026)
+      Steuerungsausschuss I14Y (03.03.2026)
+      Swiss eGovernment Forum (11.03.2026)
     section Q2
-      : Steuerungsausschuss I14Y (23.06.2026)
+      Steuerungsausschuss I14Y (23.06.2026)
     section Q3
-      : Steuerungsausschuss I14Y (15.09.2026)
+      Steuerungsausschuss I14Y (15.09.2026)
     section Q4
-      : Meet-up der Local Data Stewards (29.10.2026)
-      : Steuerungsausschuss I14Y (24.11.2026)
+      Meet-up der Local Data Stewards (29.10.2026)
+      Steuerungsausschuss I14Y (24.11.2026)
 {{< /mermaid >}}
 {{% /tab %}}
 
@@ -31,20 +31,20 @@ timeline
 {{< mermaid >}}
 timeline
     section Q1
-      : Treffen Local Data Stewards (16.01.2025)
-      : Steuerungsausschuss (18.02.2025)
+      Treffen Local Data Stewards (16.01.2025)
+      Steuerungsausschuss (18.02.2025)
     section Q2
-      : Steuerungsausschuss (27.05.2025)
+      Steuerungsausschuss (27.05.2025)
     section Q3
-      : Treffen Local Data Stewards (09.07.2025)
-      : Weiterbildung BFH (21.08.2025)
-      : Swiss Data Space Forum (02.09.2025)
-      : Ausbildungstag für Local Data Stewards (21.10.2025)
+      Treffen Local Data Stewards (09.07.2025)
+      Weiterbildung BFH (21.08.2025)
+      Swiss Data Space Forum (02.09.2025)
+      Ausbildungstag für Local Data Stewards (21.10.2025)
     section Q4
-      : Schweizer Statistiktage (05. – 07.11.2025)
-      : Dinacon (18.11.2025)
-      : Steuerungsausschuss (25.11.2025)
-      : Swiss CommUNITY Day on Data (04.12.2025)
+      Schweizer Statistiktage (05. – 07.11.2025)
+      Dinacon (18.11.2025)
+      Steuerungsausschuss (25.11.2025)
+      Swiss CommUNITY Day on Data (04.12.2025)
 {{< /mermaid >}}
 {{% /tab %}}
 
@@ -52,14 +52,14 @@ timeline
 {{< mermaid >}}
 timeline
     section Q1
-      : Weiterbildung Data Management und Open Data (18.01.2024)
+      Weiterbildung Data Management und Open Data (18.01.2024)
     section Q3
-      : Weiterbildung Data Management und Open Data (22.08.2024)
-      : Atelier an den Schweizer Statistiktagen (04.09.2024)
-      : Treffen Local Data Stewards (24.09.2024)
+      Weiterbildung Data Management und Open Data (22.08.2024)
+      Atelier an den Schweizer Statistiktagen (04.09.2024)
+      Treffen Local Data Stewards (24.09.2024)
     section Q4
-      : I14Y-Einführung für Local Data Stewards (04.12.2024)
-      : Steuerungsausschuss (09.12.2024)
+      I14Y-Einführung für Local Data Stewards (04.12.2024)
+      Steuerungsausschuss (09.12.2024)
 {{< /mermaid >}}
 {{% /tab %}}
 {{< /tabs >}}
