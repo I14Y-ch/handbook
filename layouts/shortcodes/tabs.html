@@ -1,15 +1,11 @@
-{{ $tabTotal := .Get "tabTotal" | default 2 }}
-{{ $rightAlign := .Get "rightAlign" | default false }}
+{{ .Page.Scratch.Set "tabs" slice }}
+{{ .Page.Scratch.Set "tabIndex" 0 }}
+{{ $inner := .Inner }}{{ .Page.Scratch.Set "tabIndex" 0 }}
 
 <ul class="nav nav-tabs" role="tablist">
-  {{ range $index, $element := seq $tabTotal }}
-    <li class="nav-item">
-      <a class="nav-link{{ if eq $index 1 }} active{{ end }}" id="tab-{{ $index }}" data-toggle="tab" href="#tabpanel-{{ $index }}" role="tab" aria-controls="tabpanel-{{ $index }}" aria-selected="{{ if eq $index 1 }}true{{ else }}false{{ end }}">
-        Tab {{ $index }}
-      </a>
-    </li>
-  {{ end }}
+{{ .Inner }}
 </ul>
-<div class="tab-content">
-  {{ .Inner }}
-</div>
+<div class="tab-content">>
+{{ .Page.Scratch.Set "tabIndex" 0 }}r }}
+{{ .Page.Scratch.Set "isContent" true }}
+{{ .Inner }}</div>{{ .Page.Scratch.Delete "isContent" }}{{ .Page.Scratch.Delete "tabIndex" }}
