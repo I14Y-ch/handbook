@@ -11,27 +11,33 @@ defaultContentLanguageInSubdir = true
 [languages]
 [languages.de]
 title = "Handbuch Interoperabilitätsplattform I14Y"
-description = "Anleitungen und Informationen zur Interoperabilitätsplattform"
 languageName = "Deutsch"
 languageCode = "de"
 contentDir = "content/de"
 weight = 1
 
+[languages.de.params]
+description = "Anleitungen und Informationen zur Interoperabilitätsplattform"
+
 [languages.fr]
 title = "Manuel I14Y plateforme d’interopérabilité"
-description = "Instructions et informations sur la plate-forme d'interopérabilité"
 languageName = "Français"
 languageCode = "fr"
 contentDir = "content/fr"
 weight = 2
 
+[languages.fr.params]
+description = "Instructions et informations sur la plate-forme d'interopérabilité"
+
 [languages.it]
 title = "Manuale I14Y piattaforma di interoperabilità"
-description = "Guida e informazioni sulla piattaforma di interoperabilità"
 languageName = "Italian"
 languageCode = "it"
 contentDir = "content/it"
 weight = 3
+
+[languages.it.params]
+description = "Guida e informazioni sulla piattaforma di interoperabilità"
 
 # [languages.rm]
 # title = "Manual da plattafurma d'interoperabilitad I14Y"
@@ -43,11 +49,13 @@ weight = 3
 
 [languages.en]
 title = "Manual I14Y Interoperability Platform"
-description = "Manual and Information about the interoperability platform"
 languageName = "English"
 languageCode = "en"
 contentDir = "content/en"
 weight = 5
+
+[languages.en.params]
+description = "Manual and Information about the interoperability platform"
 
 [module]
   proxy = "direct"
