@@ -1,11 +1,13 @@
-{{ .Page.Scratch.Set "tabs" slice }}
 {{ .Page.Scratch.Set "tabIndex" 0 }}
-{{ $inner := .Inner }}{{ .Page.Scratch.Set "tabIndex" 0 }}
 
 <ul class="nav nav-tabs" role="tablist">
 {{ .Inner }}
 </ul>
-<div class="tab-content">>
-{{ .Page.Scratch.Set "tabIndex" 0 }}r }}
+
+{{ .Page.Scratch.Set "tabIndex" 0 }}
 {{ .Page.Scratch.Set "isContent" true }}
-{{ .Inner }}</div>{{ .Page.Scratch.Delete "isContent" }}{{ .Page.Scratch.Delete "tabIndex" }}
+<div class="tab-content">
+{{ .Inner }}
+</div>
+{{ .Page.Scratch.Delete "isContent" }}
+{{ .Page.Scratch.Delete "tabIndex" }}
