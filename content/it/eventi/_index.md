@@ -7,38 +7,60 @@ description: "Conoscere l'I14Y e discutere le possibilità di armonizzazione dei
 weight: 100
 type: docs
 ---
+## Calendario degli eventi
 
-{{< mermaid width="650px" >}}
-timeline
+<details open>
+<summary><strong>2026</strong></summary>
 
-    section 2024
-      Q1 : Modulo di formazione continua Data Management e Open Data (18.01.2024)
-      Q3 : Modulo di formazione continua Data Management e Open Data (22.08.2024)
-         : Workshop alle Giornate svizzere della statistica (04.09.2024)
-         : Incontro dei Local Data Stewards (24.09.2024)
-      Q4 : Introduzione a I14Y per i Local Data Stewards (04.12.2024)
-         : Comitato direttivo (09.12.2024)
+### Q1
+- **15.01.2026** – Formazione continua Data Management e Open Data
+- **20.01.2026** – Incontro informale dei Local Data Stewards
+- **11.03.2026** – Swiss eGovernment Forum
 
-    section 2025
-      Q1 : Incontro dei Local Data Stewards (16.01.2025)
-         : Comitato direttivo (18.02.2025)
-      Q2 : Comitato direttivo (27.05.2025)
-      Q3 : Incontro dei Local Data Stewards (09.07.2025)
-         : Formazione continua BFH (21.08.2025)
-         : Swiss Data Space Forum (02.09.2025)
-         : Giornata di formazione per i Local Data Stewards (21.10.2025)
-      Q4 : Giornate svizzere della statistica (05. – 07.11.2025)
-         : Dinacon (18.11.2025)
-         : Swiss CommUNITY Day on Data (04.12.2025)
+### Q4
+- **29.10.2026** – Meet-up dei Local Data Stewards
 
-    section 2026
-      Q1 : Formazione continua Data Management e Open Data (15.01.2026)
-         : Incontro informale dei Local Data Stewards (20.01.2026)
-         : Swiss eGovernment Forum (11.03.2026)
-      Q2 : -
-      Q3 : -
-      Q4 : Meet-up dei Local Data Stewards (29.10.2026)
-{{< /mermaid >}}
+</details>
+
+<details>
+<summary><strong>2025</strong></summary>
+
+### Q1
+- **16.01.2025** – Incontro dei Local Data Stewards
+- **18.02.2025** – Comitato direttivo
+
+### Q2
+- **27.05.2025** – Comitato direttivo
+
+### Q3
+- **09.07.2025** – Incontro dei Local Data Stewards
+- **21.08.2025** – Formazione continua BFH
+- **02.09.2025** – Swiss Data Space Forum
+- **21.10.2025** – Giornata di formazione per i Local Data Stewards
+
+### Q4
+- **05. – 07.11.2025** – Giornate svizzere della statistica
+- **18.11.2025** – Dinacon
+- **04.12.2025** – Swiss CommUNITY Day on Data
+
+</details>
+
+<details>
+<summary><strong>2024</strong></summary>
+
+### Q1
+- **18.01.2024** – Modulo di formazione continua Data Management e Open Data
+
+### Q3
+- **22.08.2024** – Modulo di formazione continua Data Management e Open Data
+- **04.09.2024** – Workshop alle Giornate svizzere della statistica
+- **24.09.2024** – Incontro dei Local Data Stewards
+
+### Q4
+- **04.12.2024** – Introduzione a I14Y per i Local Data Stewards
+- **09.12.2024** – Comitato direttivo
+
+</details>
 
 ## Eventi futuri
 
