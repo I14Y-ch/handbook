@@ -781,3 +781,77 @@ a {
     }
   }
 }
+
+// Timeline collapsible sections
+details {
+  margin-bottom: 1.5rem;
+  border: 1px solid $ob-gray-200;
+  border-radius: 4px;
+  background-color: $ob-white;
+  
+  summary {
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+    user-select: none;
+    background-color: $ob-gray-100;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+    
+    &:hover {
+      background-color: $ob-gray-200;
+    }
+    
+    strong {
+      font-size: 1.25rem;
+      color: $ob-primary-700;
+    }
+  }
+  
+  &[open] summary {
+    border-bottom: 1px solid $ob-gray-200;
+    border-radius: 4px 4px 0 0;
+  }
+  
+  > div,
+  > h3,
+  > ul,
+  > p {
+    padding: 0 1.5rem;
+  }
+  
+  h3 {
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+    color: $ob-primary-500;
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  
+  ul {
+    list-style: none;
+    padding-left: 1.5rem;
+    
+    li {
+      margin-bottom: 0.5rem;
+      position: relative;
+      padding-left: 1.5rem;
+      
+      &:before {
+        content: "•";
+        position: absolute;
+        left: 0;
+        color: $ob-primary-500;
+        font-weight: bold;
+      }
+      
+      strong {
+        color: $ob-gray-800;
+        font-weight: 600;
+      }
+    }
+  }
+  
+  > *:last-child {
+    padding-bottom: 1.5rem;
+  }
+}

@@ -1,38 +1,16 @@
 {{ $tabName := .Get "tabName" | default "Tab" }}
 {{ $active := .Get "active" | default false }}
 {{ $tabID := replaceRE "[^a-zA-Z0-9-]" "" (lower $tabName) }}
-{{ $isContent := .Page.Scratch.Get "isContent" }}{{ $tabIndex := .Page.Scratch.Get "tabIndex" }}
+{{ $isContent := .Page.Scratch.Get "isContent" }}
 
 {{ if $isContent }}
-<div class="tab-pane fade{{ if $active }} show active{{ end }}" id="tabpanel-{{ $tabID }}" role="tabpanel" aria-labelledby="tab-{{ $tabID }}">eq (.Parent.Scratch.Get "renderPhase") "tabs" }}
-{{ .Inner }}  <li class="nav-item">
-</div>lass="nav-link{{ if $active }} active{{ end }}" id="tab-{{ $tabID }}" data-toggle="tab" href="#tabpanel-{{ $tabID }}" role="tab" aria-controls="tabpanel-{{ $tabID }}" aria-selected="{{ if $active }}true{{ else }}false{{ end }}">
+<div class="tab-pane fade{{ if $active }} show active{{ end }}" id="tabpanel-{{ $tabID }}" role="tabpanel" aria-labelledby="tab-{{ $tabID }}">
+{{ .Inner }}
+</div>
 {{ else }}
 <li class="nav-item">
   <a class="nav-link{{ if $active }} active{{ end }}" id="tab-{{ $tabID }}" data-toggle="tab" href="#tabpanel-{{ $tabID }}" role="tab" aria-controls="tabpanel-{{ $tabID }}" aria-selected="{{ if $active }}true{{ else }}false{{ end }}">
     {{ $tabName }}
-  </a>id="tabpanel-{{ $tabID }}" role="tabpanel" aria-labelledby="tab-{{ $tabID }}">
+  </a>
 </li>
 {{ end }}
-d }}
-<script>
-  // Auto-activate first tab if no active tab is set
-  document.addEventListener('DOMContentLoaded', function() {  // Auto-activate first tab if no active tab is set
-
-
-
-
-
-
-
-
-
-</script>  });    }      firstPane.classList.add('show', 'active');      firstTab.classList.add('active');    if (firstTab && !document.querySelector('.nav-link.active')) {    const firstPane = document.querySelector('.tab-pane');    const firstTab = document.querySelector('.nav-tabs .nav-link');  document.addEventListener('DOMContentLoaded', function() {
-    const firstTab = document.querySelector('.nav-tabs .nav-link');
-    const firstPane = document.querySelector('.tab-pane');
-    if (firstTab && !document.querySelector('.nav-link.active')) {
-      firstTab.classList.add('active');
-      firstPane.classList.add('show', 'active');
-    }
-  });
-</script>
