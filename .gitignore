@@ -4,3 +4,6 @@
 
 /.vs/
 public/
+
+# Local working files (not published)
+reference/
