@@ -117,7 +117,7 @@ Avec la grande release du 13 novembre, l'interface utilisateur de I14Y devient p
 ### Changements sur le site web public
 - Le design est aligné sur la nouvelle version du système de design Oblique de l'administration fédérale. L'apparence est ainsi modernisée.
 - La séparation graphique entre le catalogue et les concepts est supprimée ; les concepts de données sont désormais associés au catalogue. Les tuiles sont supprimées. Le menu comprend uniquement les points Page d'accueil, Catalogue, News et Manuel.
-- Un champ de recherche bien en vue est désormais disponible, ce qui permet d'effectuer des recherches dans les métadonnées, quel que soit leur type. Les résultats sont présentés dans des onglets (par exemple, datasets, services publics, APIs, concepts). Les résultats des portails de métadonnées d'Opendata.swiss et de Geocat sont également affichés.Le pied de page est complété par un lien vers le dépôt [GitHub d'I14Y](https://github.com/I14Y-ch/) (avec des scripts et des tutoriels). Un lien vers le compte [LinkedIn d'I14Y](https://www.linkedin.com/showcase/i14y/) est également ajouté.
+- Un champ de recherche bien en vue est désormais disponible, ce qui permet d'effectuer des recherches dans les métadonnées, quel que soit leur type. Les résultats sont présentés dans des onglets (par exemple, datasets, services publics, APIs, concepts). Les résultats des portails de métadonnées d'opendata.swiss et de Geocat sont également affichés.Le pied de page est complété par un lien vers le dépôt [GitHub d'I14Y](https://github.com/I14Y-ch/) (avec des scripts et des tutoriels). Un lien vers le compte [LinkedIn d'I14Y](https://www.linkedin.com/showcase/i14y/) est également ajouté.
 
 ### Changements dans la section interne de l'organisation du site web
 - Les concepts d'éléments de données sont désormais pris en compte dans "Mes tâches", "Propositions en suspens" et "Données de mon organisation".
@@ -189,7 +189,7 @@ Avec la grande release du 13 novembre, l'interface utilisateur de I14Y devient p
 - Bugfixes
 
 ## Release 27 February 2024
-- The description of a dataset (fields according to DCAT-AP CH) can now be assigned to several catalogues. This allows it to use the description both in the I14Y catalogue and in the catalogue for Opendata.swiss. The interoperability service can open additional catalogues upon request. 
+- The description of a dataset (fields according to DCAT-AP CH) can now be assigned to several catalogues. This allows it to use the description both in the I14Y catalogue and in the catalogue for opendata.swiss. The interoperability service can open additional catalogues upon request. 
 - Bugfixes
 
 ## Release 5 February 2024

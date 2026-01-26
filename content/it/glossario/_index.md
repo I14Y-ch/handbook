@@ -136,7 +136,7 @@ Insieme di regole, poteri decisionali e obblighi di rendiconto per i processi re
 ## Harvesting
 Per harvesting si intende la raccolta automatica di dati, più precisamente di metadati nel caso di opendata.swiss. Il modulo di harvesting consente di importare automaticamente i cataloghi dei set di dati messi a disposizione da altri enti.
 
-Il fornitore di dati mette a disposizione un file RDF su un endpoint (URL), quindi registra questo endpoint su [OpenData.Swiss](https://opendata.swiss/it), che dovrà essere configurato in modo da poterlo raccogliere automaticamente.
+Il fornitore di dati mette a disposizione un file RDF su un endpoint (URL), quindi registra questo endpoint su [opendata.swiss](https://opendata.swiss/it), che dovrà essere configurato in modo da poterlo raccogliere automaticamente.
 
 ## Identificativo
 Un identificativo è un attributo definito o una combinazione di attributi, che permette di identificare singoli elementi nei dati. All’interno di un insieme di dati un identificatore deve essere univoco, ovvero deve permettere di risalire senza possibilità di equivoci all’elemento identificato, e può essere utilizzato una sola volta.

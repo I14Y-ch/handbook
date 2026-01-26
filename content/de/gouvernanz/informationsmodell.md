@@ -267,9 +267,13 @@ Zur Beschreibung der Konzepte wird bei der Interoperabilitätsplattform I14Y der
 
 ## Elektronische Schnittstelle (API)
 
-Eine elektronische Schnittstelle -- auf Englisch _Application Programm Interface (API)_ -- erlaubt es Maschinen unter anderem, gezielt einzelne Informationen aus einem Datensatz anzufordern. Dank APIs können isolierte Systeme Informationen in einer effizienten und standardisierten Weise austauschen. Damit die Entwicklerinnen und Entwickler ihre Software so programmieren können, dass sie Informationen von Fremdsystemen bezieht, müssen sie diese Schnittstellen kennen. I14Y bietet die Möglichkeit, die Schnittstellen an einem zentralen Ort zu beschreiben. 
+Eine elektronische Schnittstelle -- auf Englisch _Application Programming Interface (API)_ -- erlaubt es Maschinen unter anderem, gezielt einzelne Informationen aus einem Datensatz anzufordern. Dank APIs können isolierte Systeme Informationen in einer effizienten und standardisierten Weise austauschen. Damit die Entwicklerinnen und Entwickler ihre Software so programmieren können, dass sie Informationen von Fremdsystemen bezieht, müssen sie diese Schnittstellen kennen. I14Y bietet die Möglichkeit, die Schnittstellen an einem zentralen Ort zu beschreiben. 
 
-Auf I14Y muss zusätzlich etwa zum Titel und der Beschreibung ein sogenannter Endpunkt, von wo Daten bezogen werden können, oder ein Link zur Dokumentation angegeben werden. Wenn möglich wird auch auf den Datensatz verwiesen, der der API zu Grunde liegt.
+Auf I14Y muss zusätzlich zum Titel und der Beschreibung ein sogenannter Endpunkt, von wo Daten bezogen werden können, oder ein Link zur Dokumentation angegeben werden. Wenn möglich wird auch auf den Datensatz verwiesen, der der API zu Grunde liegt.
+
+Hinterlegt werden Informationen wie der Titel und die Beschreibung, Angaben zur Zugänglichkeit der Schnittstelle sowie ein Verweis auf die technische Dokumentation (z.B. eine OpenAPI/Swagger-Spezifikation). Erfasst wird die Schnittstelle als Ganzes; die detaillierte Dokumentation einzelner Endpunkte und Operationen wird durch die verantwortliche Organisation selbst bereitgestellt. Für eine gute Nutzbarkeit sind zudem Kontaktangaben für Support und Rückfragen sowie (falls die Schnittstelle nicht öffentlich zugänglich ist) Hinweise zu Nutzungsbedingungen hilfreich.
+
+Schnittstellen sollten spätestens zum Zeitpunkt der Inbetriebnahme dokumentiert sein und bei Änderungen (z.B. neue Versionen oder geänderte Zugangskanäle) zeitnah aktualisiert werden. Wie bei anderen Kataloginhalten empfiehlt sich mindestens eine jährliche Überprüfung.
 
 Auch APIs werden auf der Interoperabilitätsplattform I14Y weitgehend mittels des Datenkatalog-Vokabulars DCAT beschrieben. Einige Felder, die im Standard optional sind, müssen zwingend befüllt werden. So empfiehlt der DCAT-Standard lediglich, dass beim Katalogisieren einer API eine Beschreibung erfasst wird. Auf I14Y hingegen ist diese Angabe obligatorisch. Alle Felder, die der Standard vorgibt, sind auch auf der Plattform zwingend auszufüllen. 
 
@@ -416,8 +420,16 @@ direction TB
 
 ## Elektronische Behördenleistung
 
-Auf der Interoperabilitätsplattform I14Y können ausserdem elektronische Behördenleistungen beschrieben werden. So lässt sich dokumentieren, welche Web- oder Mobilapplikationen bestimmte Aufgaben vereinfachen. Erfasst werden zudem Angaben dazu, wie auf die betreffende App zugegriffen werden kann und welche Organisation sie verantwortet. Dank des zentralen Verzeichnisses sollen die elektronischen Behördenleistungen einfacher auffindbar werden. 
+Auf der Interoperabilitätsplattform I14Y können ausserdem elektronische Behördenleistungen beschrieben werden. So lässt sich dokumentieren, welche Web- oder Mobilapplikationen bestimmte Aufgaben vereinfachen. Erfasst werden zudem Angaben dazu, wie auf den betreffenden Service zugegriffen werden kann und welche Organisation ihn verantwortet. Dank des zentralen Verzeichnisses sollen die elektronischen Behördenleistungen einfacher auffindbar werden.
+
+Behördenleistungen sind eine Abfolge von Aktivitäten, die von öffentlichen Verwaltungseinheiten, Einrichtungen des öffentlichen Rechts oder von Privaten mit öffentlichem Auftrag erbracht werden. Sie ergeben sich aus einem öffentlichen Auftrag und richten sich an natürliche Personen, Unternehmen oder an andere öffentliche Verwaltungseinheiten. Eine Behördenleistung ist das Ergebnis von Prozessen. Zentral ist dabei die Interaktion zwischen einer Person oder einem Unternehmen und einer Behörde, die in der Regel mit einer Anmeldung oder Identifikation beginnt.
+
+Auf I14Y werden die eigentlichen Leistungen erfasst und nicht Portale als Ganzes. Wenn mehrere Leistungen auf einem Portal einen engen thematischen Zusammenhang aufweisen, können sie als eine Behördenleistung dokumentiert werden, sofern sie unter einem einheitlichen Kanal erreichbar sind.
+
+Nicht als Behördenleistung erfasst werden reine Informationsleistungen, die unentgeltlich und in der Regel ohne Identifikation bereitgestellt werden. Diese sind auf I14Y über Datensätze und Distributionen abgedeckt.
 
 Um Behördenleistungen zu beschreiben, wird das _Core Public Service Vocabulary_ verwendet, das die Europäische Union definiert hat. Der Aufbau und das gesamte Vokabular sind auf der Interoperabilitätsplattform [Joinup](https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/core-public-service-vocabulary/releases) der Europäischen Kommission dokumentiert. Das wiederverwendbare und ausbaufähige Vokabular gibt bestimmte Felder vor, die zwingend ausgefüllt werden müssen. Jeder Behördenleistung können Kanäle zugeordnet werden -- eine Internet-Adresse etwa oder eine Telefonnummer.
+
+Darüber hinaus bietet I14Y die Möglichkeit die Leistungen einer bestimmten Lebenslage (Life Event) oder einer bestimmten Geschäftssituation (Business Event) zuzuordnen. Dadurch wird sichergestellt, dass die Leistungen von den Interessentinnen und Interessenten einfach gefunden werden. 
 
 Wie bei der Erfassung einer Behördenleistung auf der Interoperabilitätsplattform I14Y vorzugehen ist, wird im Kapitel [Publikation](/handbook/de/publikation/katalog/publicservice/) detailliert beschrieben.

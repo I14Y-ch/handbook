@@ -211,7 +211,7 @@ Die Benutzungsoberfläche von I14Y wird mit dem Release vom 13 November einfache
 - Bugfixes
 
 ## Release 27 February 2024
-- The description of a dataset (fields according to DCAT-AP CH) can now be assigned to several catalogues. This allows it to use the description both in the I14Y catalogue and in the catalogue for Opendata.swiss. The interoperability service can open additional catalogues upon request. 
+- The description of a dataset (fields according to DCAT-AP CH) can now be assigned to several catalogues. This allows it to use the description both in the I14Y catalogue and in the catalogue for opendata.swiss. The interoperability service can open additional catalogues upon request. 
 - Bugfixes
 
 ## Release 5 February 2024

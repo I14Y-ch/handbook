@@ -156,8 +156,8 @@ In der Regel wird die öffentliche Publikation durch eine Person mit der Rolle _
 Abhängig vom Status im Registrations- und Publikations-Workflow sowie von der eigenen Rolle können die erfassten Metadaten nicht abgeändert werden. So können etwa als "Registriert" gekennzeichnete oder publizierte Einträge nicht mehr bearbeitet werden von der Rolle _Submitter_. In diesem Fall wird normalerweise eine neue Version angelegt.
 
 {{<alert title="Sind die Daten auf I14Y sicher?" color="info">}}
-Auf der Interoperabilitätsplattform I14Y werden ausschliesslich Metadaten gespeichert. Die eigentlichen Daten verbleiben bei jener Stelle, die die Datensätze verwaltet. Diese ist damit zuständig für die Sicherheit der Daten. 
+Auf der Interoperabilitätsplattform I14Y werden ausschliesslich Metadaten gespeichert. Die eigentlichen Daten verbleiben bei jener Stelle, die die Datensätze verwaltet. Diese ist damit zuständig für die Sicherheit der Daten.
 
-Die Interoperabilitätsplattform I14Y wird vom Bundesamt für Informatik im Auftrag der Interoperabilitätsstelle technisch betrieben. Die Bundesvorgaben zur Informatiksicherheit werden umgesetzt. Eine Schutzbedarfsanalyse wurde anfangs Februar 2021 abgeschlossen. Die Server, auf denen die Plattform läuft, werden vom Bundesamt für Informatik betrieben. Sie befinden sich in der Schweiz. Extern betrieben werden einzig dieses Handbuch sowie der Chatbot. 
+Die Interoperabilitätsplattform I14Y wird auf einer via das Bundesamt für Informatik beschafften Public-Cloud-Instanz betrieben. Die Bundesvorgaben zur Informatiksicherheit werden dabei eingehalten. Eine Schutzbedarfsanalyse liegt vor, und das Inforamtionssicherheits- und Datenschutzkonzept wird demnächst abgeschlossen. Auf externer Infrastruktur werden aktuell das Handbuch, das Dashboard sowie die Applikationen der Toolbox betrieben.
 
-{{</alert>}}
+{{</alert>}} 
