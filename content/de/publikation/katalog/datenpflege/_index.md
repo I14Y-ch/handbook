@@ -4,13 +4,16 @@ slug: pflegen
 weight: 60
 type: docs
 translationKey: metadata-maintenance
-keywords: [I14Y, Interoperabilitätsplattform I14Y, I14Y, Interoperabilität, Datenpflege, Daten pflegen, Local Data Steward, Schweiz]
+keywords: [I14Y, Interoperabilitätsplattform I14Y, Interoperabilität, Datenpflege, Daten pflegen, Local Data Steward, Schweiz]
 ---
 
-Metadaten stiften Verwirrung, wenn sie falsch oder überholt sind. Deshalb sollten die Beschreibungen der Datenangebote auf der Interoperabilitätsplattform I14Y stets auf dem aktuellen Stand gehalten werden. Dies ist eine wichtige Aufgabe der lokalen Datenverantwortlichen bei den einzelnen Organisationen. Als _Local Data Steward_ sollten Sie zumindest einmal jährlich alle die Einträge auf ihre Aktualität und Richtigkeit prüfen.
+Metadaten stiften Verwirrung, wenn sie falsch oder veraltet sind. Daher sollten die Beschreibungen der Datenangebote auf der Interoperabilitätsplattform I14Y stets aktuell sein. Dies ist eine zentrale Aufgabe der lokalen Datenverantwortlichen in den Organisationen. Als _Local Data Steward_ sollten Sie mindestens einmal jährlich alle Einträge auf Aktualität und Richtigkeit prüfen.
 
-Sobald ein periodisch erscheinender Datensatz publiziert wird, wird eine [neue Version](/handbook/de/publikation/katalog/datenpflege/versionierung) der Metadaten auf der Interoperabilitätsplattform I14Y angelegt. Bei kleinen Datenkorrekturen hingegen, die zudem keinen Einfluss auf die Struktur haben, muss der Eintrag auf I14Y nicht zwingend angepasst werden. Auch Änderungen in Codelisten sollten zeitnah in einer neuen Version abgebildet werden. 
+Sofern die Einträge nicht öffentlich publiziert sind und noch den Status _Initial_ haben, lassen sie sich einfach anpassen. Bei der Nutzung der Weboberfläche klicken Sie dazu auf die Kachel «Katalog pflegen», wählen Sie den Eintrag aus, klicken Sie auf das Symbol «Betrachten» und anschliessend auf «Bearbeiten».
 
-Sofern die entsprechenden Einträge nicht öffentlich auf der Interoperabilitätsplattform I14Y publiziert sind und noch im Status Initial stehen, lassen sie sich einfach über die Weboberfläche anpassen. Klicken Sie dazu auf die Kachel "Katalog pflegen", wählen Sie den betreffenden Eintrag aus, klicken Sie auf das "Betrachten"-Symbol und anschliessend auf "Bearbeiten". 
+{{< alert color="warning" title="Achtung" >}}
+Bei Einträgen, die bereits publiziert sind oder die intern als Referenz genutzt werden, sollten Sie bei Adaptionen grosse Vorsicht walten lassen. Dies gilt insbesondere für Konzepte des Typs Codeliste, die automatisiert in Fremdsystemen genutzt werden können (z. B. Fachapplikationen oder Schnittstellen zu Drittsystemen). Wird bei einer Codeliste ein Code entfernt oder umbenannt, kann dies Auswirkungen auf die vom Fremdsystem erfassten Daten haben (z. B. fehlerhafte Zuordnungen oder ungültige Werte). Geänderte Definitionen wiederum können zu Problemen mit der Datenqualität führen (z. B. inkonsistente Auswertungen oder widersprüchliche Kennzahlen).
+{{< /alert >}}
 
-Beschreibungen von Datensätzen, die zur Publikation auf I14Y vorgeschlagen sind, können nicht angepasst werden. Damit soll verhindert werden, dass  während der Validierungsarbeiten der Interoperabilitätsstelle Änderungen vorgenommen werden. Nach der Publikation ist es möglich, kleinere Änderungen etwa in der Beschreibung durchzuführen. Kontaktieren Sie das I14Y-Team, bevor Sie Anpassungen an bereits öffentlich publizierten Metadaten vornehmen.
+
+Beschreibungen von Datensätzen, die zur Publikation auf I14Y vorgeschlagen sind, können nicht angepasst werden. Damit soll verhindert werden, dass während der Validierungsarbeiten der Interoperabilitätsstelle Änderungen vorgenommen werden. Nach der Publikation sind kleinere Anpassungen, etwa in der Beschreibung, möglich. Für grössere Änderungen sollte das Objekt versioniert werden. Bei Codelisten ist besondere Vorsicht geboten: Bei bereits publizierten (und genutzten) Listen dürfen keine Codes entfernt werden. Im Zweifelsfall erstellen Sie eine neue Version. Kontaktieren Sie das I14Y-Team, wenn Sie unsicher sind, wie vorzugehen ist.

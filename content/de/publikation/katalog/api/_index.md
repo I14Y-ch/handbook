@@ -21,7 +21,7 @@ Alle Informationen zu den APIs sind unter [https://apiconsole.i14y.admin.ch](htt
 - [Public API - Swagger UI](https://apiconsole.i14y.admin.ch/public/v1/index.html)
 - [Partner API - Swagger UI](https://apiconsole.i14y.admin.ch/partner/v1/index.html)
 
-Weitere Informationen zu den einzelnen Feldern sind im Anhang unter [Eingabefelder](/de/anhang/eingabefelder) zu finden.
+Weitere Informationen zu den einzelnen Feldern sind im Anhang unter [Eingabefelder](/handbook/de/anhang/eingabefelder) zu finden.
 
 ## Authentifizierung
 

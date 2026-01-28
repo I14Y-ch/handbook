@@ -263,7 +263,7 @@ Das Datenelement ist die kleineste Beschreibungseinheit eines Datensatzes. Oft w
 
 Das Konzept beschreibt die im Datenelement enthaltenen Informationen eindeutig und vollständig. Bei einem Konzept kann es sich um eine Zahl, eine Zeichenkette, ein Datum oder um eine Codeliste mit vordefinierten Werten handeln. 
 
-Zur Beschreibung der Konzepte wird bei der Interoperabilitätsplattform I14Y der Standard [ISO 11179-1:2023](https://www.iso.org/standard/78914.html) verwendet. Erfasst wird der Typ des Konzepts. Abhängig davon sind weitere Angaben wie etwa die Länge oder die möglichen Minimal- und Maximalwerte nötig. Eine Schritt-für-Schritt-Anleitung zur Erfassung eines Konzepts ist im Kapitel [Publikation](/handbook/de/publikation/konzepte) zu finden. 
+Zur Beschreibung der Konzepte wird bei der Interoperabilitätsplattform I14Y der Standard [ISO 11179-1:2023](https://www.iso.org/standard/78914.html) verwendet. Erfasst wird der Typ des Konzepts. Abhängig davon sind weitere Angaben wie etwa die Länge oder die möglichen Minimal- und Maximalwerte nötig. Eine Schritt-für-Schritt-Anleitung zur Erfassung eines Konzepts ist im Kapitel [Publikation](/handbook/de/publikation/katalog/konzept) zu finden. 
 
 ## Elektronische Schnittstelle (API)
 
