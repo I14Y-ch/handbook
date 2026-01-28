@@ -3,6 +3,7 @@ title: Toolbox
 slug: i14y-toolbox
 weight: 60
 type: docs
+translationKey: toolbox
 keywords: [I14Y, Interoperabilitätsplattform I14Y, Interoperabilität, Toolbox, Hilfsprogramme, Miniapplikationen, Excel Upload, Keyword Generator, Concept Import, Swagger, SHACL, Schweiz]
 draft: false
 ---

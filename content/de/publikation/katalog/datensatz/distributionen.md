@@ -3,6 +3,7 @@ title: Distributionen hinzufügen
 slug: distributionen
 weight: 30
 type: docs
+translationKey: dataset-distributions
 keywords: [I14Y, Interoperabilitätsplattform I14Y, I14Y, Interoperabilität, Datensatz, Dataset, Erfassen, Erfassung, Inventar, Katalog, Distribution, File, Datei]
 ---
 

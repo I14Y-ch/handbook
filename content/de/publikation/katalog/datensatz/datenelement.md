@@ -3,6 +3,7 @@ title: Datenelemente hinzufügen
 slug: dataelement
 weight: 30
 type: docs
+translationKey: dataset-data-elements
 keywords: [I14Y, Interoperabilitätsplattform I14Y, I14Y, Interoperabilität, Dataset, Datensatz, Konzept, Datenelement]
 ---
 

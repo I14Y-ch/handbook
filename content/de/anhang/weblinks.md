@@ -3,6 +3,7 @@ title: Externe Ressourcen
 slug: weblinks
 weight: 60
 type: docs
+translationKey: external-resources
 ---
 
 ## Grundlagen NaDB und OGD

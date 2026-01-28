@@ -3,6 +3,7 @@ title: API-Dokumentation
 slug: api
 weight: 20
 type: docs
+translationKey: api-documentation
 draft: true
 ---
 

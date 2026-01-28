@@ -4,6 +4,7 @@ slug: versionierung
 weight: 10
 type: docs
 check: [this]
+translationKey: versioning
 keywords: [I14Y, Interoperabilitätsplattform I14Y, I14Y, Interoperabilität, Datenpflege, Daten pflegen, Local Data Steward, Version, Versionierung, Ausgabe, Schweiz]
 ---
 

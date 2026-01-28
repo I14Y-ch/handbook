@@ -1,7 +1,7 @@
 ---
 title: Migrazione nel Cloud Pubblico
 slug: migrazione
-translationKey: migrazione
+translationKey: migration
 weight: 40
 type: docs
 keywords: [I14Y, piattaforma di interoperabilità I14Y, account utente, account, connessione, EIAM, Login, Migrazione, Cloud Pubblico, Azure]

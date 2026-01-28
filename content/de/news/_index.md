@@ -1,6 +1,7 @@
 ---
 title: News
 slug: news
+translationKey: news
 weight: 90
 type: docs
 keywords: [I14Y, Interoperabilitätsplattform I14Y, IOP, Nachrichten, News, Neuigkeiten]

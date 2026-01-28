@@ -3,6 +3,7 @@ title: Beispiele für reguläre Ausdrücke
 slug: regex
 weight: 30
 type: docs
+translationKey: regex-examples
 keywords: [Interoperabilitätsplattform I14Y, I14Y, Glossar, Eingabefelder, Standard]
 ---
 

@@ -3,6 +3,7 @@ title: Datensatz erfassen
 slug: dataset
 weight: 10
 type: docs
+translationKey: dataset-create
 keywords: [I14Y, Interoperabilitätsplattform I14Y, I14Y, Interoperabilität, Datensatz, Dataset, Erfassen, Erfassung, Inventar, Katalog]
 ---
 

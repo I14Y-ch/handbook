@@ -3,7 +3,7 @@ title: Datenerfassung über die elektronische Schnittstelle (API)
 slug: i14y-api
 weight: 50
 type: docs
-translation_keys: i14y-api-partner
+translationKey: i14y-api-partner
 keywords: [I14Y, Interoperabilitätsplattform I14Y, I14Y, Interoperabilität, API, elektronische Schnittstelle, automatisiert, Endpunkte, Swagger, Schweiz]
 ---
 
@@ -81,6 +81,5 @@ Ausführliche Informationen zu den Request- und Response-Strukturen, Parametern 
 {{</alert>}}
 
 Möchten Sie die I14Y-API nutzen? Wie Sie dabei vorgehen können, wird in frei verfügbaren Tutorials dokumentiert. Im [Github-Repository](https://github.com/I14Y-ch/tutorials) stehen zwei Schritt-für-Schritt-Anleitungen in Jupyter-Notizbüchern zur Verfügung, die dokumentieren, wie die Partner- und öffentlichen APIs mit Python und der Requests-Bibliothek genutzt werden.
-{{</alert>}} 
 
 Genügen die aktuell zur Verfügung stehenden Schnittstellen nicht, damit Sie Ihre Arbeiten erledigen können? In diesem Fall kontaktieren Sie das [I14Y-Team](mailto:i14y@bfs.admin.ch). Dieses hat Zugang zu zahlreichen weiteren Endpunkten. Da sich diese jederzeit noch ändern können, werden sie noch nicht öffentlich publiziert. 

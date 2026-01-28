@@ -3,6 +3,7 @@ title: Open Government Data erfassen
 slug: ogd
 weight: 20
 type: docs
+translationKey: dataset-open-government-data
 keywords: [I14Y, Interoperabilitätsplattform I14Y, I14Y, Interoperabilität, Datensatz, Dataset, Erfassen, Erfassung, Inventar, Katalog, Open Data, OGD, opendata.swiss, DCAT]
 ---
 

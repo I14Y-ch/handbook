@@ -3,6 +3,7 @@ title: Elektronische Schnittstelle
 slug: api
 weight: 30
 type: docs
+translationKey: dataservice
 keywords: [I14Y, Interoperabilitätsplattform I14Y, I14Y, Interoperabilität, API, Erfassen, Erfassung, Inventar, Elektronische Schnittstellen, Application Programming Interface]
 ---
 

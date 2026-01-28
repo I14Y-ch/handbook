@@ -3,6 +3,7 @@ title: Voraussetzungen für eine Publikation
 slug: voraussetzungen
 weight: 10
 type: docs
+translationKey: publication-prerequisites
 keywords: [I14Y, I14Y-Interoperbilitätsplattform, I14Y, Publikation, Metadaten, Erfassen, Erfassung, Voraussetzungen, Prämisse]
 ---
 

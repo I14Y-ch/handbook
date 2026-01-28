@@ -3,6 +3,7 @@ title: EIAM
 slug: eiam
 weight: 40
 type: docs
+translationKey: eiam
 ---
 
 Die Interoperabilitätsplattform I14Y verwendet das _Enterprise Identity and Access Management (EIAM)_, das das Bundesamt für Informatik betreibt. Daran sind diverse bestehende Identifikationsanbieter angebunden.

@@ -3,6 +3,7 @@ title: Über die Weboberfläche
 slug: gui
 weight: 10
 type: docs
+translationKey: metadata-retrieval-gui
 keywords: [I14Y, Interoperabilitätsplattform I14Y, I14Y, GUI, Daten abrufen, Datenbezug, beziehen, abrufen]
 ---
 

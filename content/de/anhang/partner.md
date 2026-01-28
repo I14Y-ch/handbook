@@ -3,6 +3,7 @@ title: Partnerorganisationen
 slug: partner
 weight: 70
 type: docs
+translationKey: partner-organizations
 keywords: [I14Y, Interoperabilitätsplattform I14Y, I14Y, Interoperabilität, Departement, Amt, Partner, Partnerorganisation, Nutzer]
 draft: True
 ---

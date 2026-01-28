@@ -4,6 +4,7 @@ slug: metadaten-abrufen
 description: "Benötigen Sie eine bestimmte Codeliste? In diesem Kapitel wird gezeigt, wie sich die auf der Interoperabilitätsplattform I14Y publizierten Informationen abrufen lassen -- über die grafische Oberfläche wie auch über die elektronische Schnittstelle."
 weight: 40
 type: docs
+translationKey: metadata-retrieval
 keywords: [I14Y, Interoperabilitätsplattform I14Y, I14Y, Metadaten, Katalog, Datenbezug, Daten beziehen, Daten abrufen]
 ---
 

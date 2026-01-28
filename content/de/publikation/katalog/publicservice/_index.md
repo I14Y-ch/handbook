@@ -3,6 +3,7 @@ title: Behördenleistung
 slug: publicservice
 weight: 40
 type: docs
+translationKey: public-service
 keywords: [I14Y, Interoperabilitätsplattform I14Y, I14Y, Interoperabilität, Behördenleistung, öffentliche Dienstleistung, Website, Portal, Webapp, App, Mobile App, Applikation, Verzeichnis, Schweiz]
 ---
 

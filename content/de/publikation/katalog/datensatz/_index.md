@@ -3,6 +3,7 @@ title: Datensatz
 slug: datensatz
 weight: 20
 type: docs
+translationKey: dataset
 keywords: [I14Y, Interoperabilitätsplattform I14Y, I14Y, Interoperabilität, Datensatz, Datensatz, Dataset, Datensatz, Erfassen, Erfassung, Inventar, Katalog]
 ---
 

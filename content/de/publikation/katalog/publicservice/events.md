@@ -3,6 +3,7 @@ title: Geschäftssituationen und Lebenslagen
 slug: events
 weight: 10
 type: docs
+translationKey: public-service-events
 keywords: [I14Y, Interoperabilitätsplattform I14Y, I14Y, Interoperabilität, Behördenleistung, öffentliche Dienstleistung, One Stop Government, Geschäftssituation, Lebenslage, Business Event, Life Event, Customer Journey, Website, Portal, Webapp, App, Mobile App, Applikation, Verzeichnis, Schweiz]
 ---
 

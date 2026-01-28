@@ -3,6 +3,7 @@ title: Metadaten pflegen
 slug: pflegen
 weight: 60
 type: docs
+translationKey: metadata-maintenance
 keywords: [I14Y, Interoperabilitätsplattform I14Y, I14Y, Interoperabilität, Datenpflege, Daten pflegen, Local Data Steward, Schweiz]
 ---
 

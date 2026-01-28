@@ -3,6 +3,7 @@ title: Weitere Suchmöglichkeiten
 slug: weitere-suchen
 weight: 30
 type: docs
+translationKey: metadata-retrieval-additional-searches
 keywords: [I14Y, Interoperabilitätsplattform I14Y, I14-IOP, Geocat, opendata.swiss, Opendata, Metasuche, Suchfenster]
 ---
 

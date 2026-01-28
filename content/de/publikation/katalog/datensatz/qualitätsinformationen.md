@@ -3,6 +3,7 @@ title: Qualitätsinformationen
 slug: qualitaetsinformationen
 weight: 40
 type: docs
+translationKey: dataset-quality
 keywords: [I14Y, Interoperabilitätsplattform I14Y, Metadaten, Metadaten-Katalog, Qualität, Qualitätsinformationen]
 ---
 
