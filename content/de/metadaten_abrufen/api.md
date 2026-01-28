@@ -3,17 +3,48 @@ title: Elektronische Schnittstelle (API)
 slug: api
 weight: 20
 type: docs
+translationKey: i14y-api-public
 keywords: [I14Y, Interoperabilitätsplattform I14Y, I14Y-API, API, Application Programming Interface, elektronische Schnittstelle, Automatisierung]
 ---
 
-Die Interoperabilitätsplattform I14Y stellt öffentliche elektronische Schnittstellen zur Verfügung, so genannte _Application Programming Interfaces (APIs)_. Darüber können die Metadaten bezogen werden. Erhältlich sind zum einen die Informationen aus dem Katalogteil: die Metadaten zu Datensätzen, elektronischen Schnittstellen und Behördenleistungen. Zum anderen stehen die Konzepte zur Verfügung. Dies ermöglicht es unter anderem, Inhalte ab der Plattform direkt in eine Fachanwendung zu integrieren. So könnten etwa die Codelisten zur Berufsnomenklatur oder zu den Gemeindenummern an jene Webapp angebunden werden, über die in einer Befragung oder in einem Geschäftsprozess Daten erfasst werden.
+Die Interoperabilitätsplattform I14Y stellt zwei elektronische Schnittstellen zur Verfügung, so genannte _Application Programming Interfaces (APIs)_:
 
-Erste stabile Schnittstellen sind im [Swagger der API](https://input.i14y.admin.ch/console/partner/v1/index.html) für I14Y-Partner dokumentiert. Um diese Endpunkte zu nutzen, loggen Sie sich auf der I14Y ein, kopieren im Nutzungskonto das Zugangstoken und authentifizieren sich im Swagger damit. 
+- **Public API**: Ermöglicht den **Abruf** von öffentlich publizierten Metadaten (zu Datensätzen, Datendiensten, Behördenleistungen und Konzepten) ohne Authentifizierung. Diese API richtet sich an alle Interessierten, die auf öffentliche I14Y-Metadaten zugreifen möchten.
 
-Das Angebot an Endpunkten wird allmählich ausgebaut. Die Interoperabilitätsstelle steht Ihnen bei Fragen und Wünschen zu den Endpunkten gerne zur Verfügung. Sie kann auch Zugang zu weiteren Endpunkten verschaffen, die noch nicht stabil sind. 
+- **Partner API**: Ermöglicht autorisierten Personen, etwa _Local Data Stewards_, das **Erfassen, Bearbeiten und Löschen** von Metadaten mittels API-Zugriff. Erfordert Authentifizierung. Weitere Informationen zur Partner API finden Sie im Kapitel [Datenerfassung über die elektronische Schnittstelle](/de/publikation/katalog/api).
 
-Alternativ können Sie Codelisten als Download via einen stabilen Link beziehen (siehe Register [API](/handbook/de/metadaten_abrufen/gui#anzeigen-der-metadaten)). 
+Diese Seite fokussiert auf die Public API zum Abruf von Metadaten.
+
+## Verfügbare Metadaten
+
+Über die Public API sind folgende Informationen abrufbar:
+
+- **Katalogdaten**: Metadaten zu Datensätzen, elektronischen Schnittstellen (DataServices, APIs) und Behördenleistungen
+- **Konzepte**: Definitionen zu Datenelementen inklusive Codelisten
+
+Die API ermöglicht es unter anderem, Inhalte ab der Plattform direkt in eine Fachanwendung zu integrieren. So könnten etwa die Codelisten zur Berufsnomenklatur oder zu den Gemeindenummern an jene Webapp angebunden werden, über die in einer Befragung oder in einem Geschäftsprozess Daten erfasst werden.
+
+Das Angebot an Endpunkten wird allmählich ausgebaut. Die Interoperabilitätsstelle steht Ihnen bei Fragen und Wünschen zu den Endpunkten gerne zur Verfügung. Kontaktieren Sie uns unter [i14y@bfs.admin.ch](mailto:i14y@bfs.admin.ch).
+
+## API-Dokumentation
+
+Die Public API ist in der [Swagger UI](https://apiconsole.i14y.admin.ch/public/v1/index.html) vollständig dokumentiert. Für die Nutzung ist keine Authentifizierung erforderlich. Nachfolgend werden einzelne besonders oft genutzte Endpunkte kurz beschrieben.  
+
+| Ressource | Endpunkt | Beschreibung |
+|-----------|----------|--------------|
+| **Datensatz** | `GET /datasets/{id}` | Ruft die Metadaten eines bestimmten Datensatzes ab. |
+| **Behördenleistung** | `GET /publicservices/{id}` | Ruft die Metadaten einer bestimmten Behördenleistung ab. |
+| **Elektronische Schnittstelle** | `GET /dataservices/{id}` | Ruft die Metadaten einer bestimmten elektronischen Schnittstelle (API) ab. |
+| **Konzept** | `GET /concepts/{id}` | Ruft die Metadaten eines bestimmten Konzepts (z.B. Codeliste) ab. |
 
 
-<!-- Nutzungseinschränkungen ergänzen gemäss dem Vertrag. 
-Die Nutzung der APIs kann zum Zweck der Lastüberprüfung protokolliert werden. Die Anzahl der Transaktionen pro Nutzende oder Organisation kann jederzeit limitiert werden, um die Sys-temstabilität zu gewährleisten und um die Gleichbehandlung aller Nutzenden sicherzustellen. Die Anzahl der Zugriffe auf die elektronische Schnittstelle ist auf die im Handbuch definierte Zahl beschränken. Falls absehbar wird, dass Limiten überschritten werden, muss der I14Y-Partner vorgängig Kontakt mit der Interoperabilitätsstelle aufnehmen. Beim Anbinden einer API der Interoperabilitätsplattform an eine Fachapplikation wird die Nutzung eines Zwischenspei-chers (Cache) dringend empfohlen. Automatisierte, umfangreiche Importe sind mit der In-teroperabilitätsstelle abzusprechen. -->
+{{<alert title="Fair Use der Public API" color="warning" >}}
+
+Die Nutzung der Public API unterliegt untenstehenden _Fair Use_-Richtlinien. Diese dienen der Sicherstellung eines stabilen und gleichberechtigten Zugangs für alle Nutzenden.
+
+- Die Nutzung kann zum Zweck der Lastüberprüfung protokolliert werden.
+- Die Anzahl der Transaktionen pro Nutzende oder Organisation kann jederzeit limitiert werden.
+- Beim Anbinden an eine Fachapplikation wird die Nutzung eines Zwischenspeichers (Cache) empfohlen.
+- Eine besonders umfangreiche oder intensive Nutzung ist mit der [Interoperabilitätsstelle](mailto:i14y@bfs.admin.ch) vorgängig abzusprechen.
+
+{{</alert>}}
