@@ -28,7 +28,7 @@ keywords: [Interoperabilitätsplattform I14Y, I14Y, Weblink, URL, Verweise, Refe
 | Weblink | Beschreibung | Nation/ Union |
 | --- | --- | --- |
 | [Fedlex](https://www.fedlex.admin.ch) | Fedlex ist die neue Publikations­plattform für das Bundesrecht. Darauf sind insbesondere die Gesetze und Verordnungen zu finden. | Schweiz |
-| [GEMET](https://www.eionet.europa.eu/gemet) | GEMET (GEneral Multilingual Environmental Thesaurus) ist ein mehrsprachiger Thesaurus für Umweltbegriffe, der von der Europäischen Umweltagentur entwickelt wurde. Er wird auf I14Y zum Erfassen von Schlüsselwörtern genutzt. | Europäische Union |
+| [GEMET](https://www.eionet.europa.eu/gemet) | [GEMET](https://www.eionet.europa.eu/gemet/) (GEneral Multilingual Environmental Thesaurus) ist ein mehrsprachiger Thesaurus für Umweltbegriffe, der von der Europäischen Umweltagentur entwickelt wurde. Er wird auf I14Y zum Erfassen von Schlüsselwörtern genutzt. | Europäische Union |
 | [Termdat](https://www.termdat.bk.admin.ch) | TERMDAT ist die mehrsprachige Terminologiedatenbank des Bundes, die sich als vielseitige Kommunikations-, Redaktions- und Übersetzungshilfe anbietet. In TERMDAT finden Sie die schweizerische Rechts- und Verwaltungsterminologie sowie die Terminologie der öffentlichen Verwaltung und ihrer vielfältigen Tätigkeitsfelder. Sie enthält vorwiegend Einträge in den vier Landessprachen der Schweiz sowie in Englisch. | Schweiz |
 | [Wikidata](https://www.wikidata.org) | Wikidata ist eine freie und offene Wissensdatenbank, die von Menschen und Maschinen gelesen und bearbeitet werden kann. Sie wird auf I14Y zum Erfassen von Schlüsselwörtern genutzt. | International |
 {.weblink1}

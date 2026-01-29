@@ -9,7 +9,7 @@ keywords: [I14Y, Interoperabilitätsplattform I14Y, Arbeitsablauf, Workflow, Sta
 
 Ein klar definierter Arbeitsablauf regelt, wie Metadaten auf der Interoperabilitätsplattform I14Y publiziert werden. Abhängig davon, ob die Metadaten ausschliesslich innerhalb der Organisation oder öffentlich publiziert werden, vielleicht sogar als Standard, ist der Arbeitsablauf ein-, zwei- beziehungsweise dreistufig. Dieser _Workflow_ dient insbesondere der Qualitätssicherung.
 
-In einer ersten Stufe werden die Metadaten erfasst. In einer zweiten Stufe werden sie von _Local Data Stewards_ validiert, also geprüft und öffentlich freigegeben. In einer dritten Stufe werden sie, sofern gewünscht und sinnvoll, in Zusammenarbeit mit der Interoperabilitätsstelle geprüft, gegebenenfalls als standardkonform markiert.
+In einer ersten Stufe werden die Metadaten erfasst. In einer zweiten Stufe werden sie von _Local Data Stewards_ validiert, also geprüft und öffentlich freigegeben. In einer dritten Stufe werden sie, sofern gewünscht und sinnvoll, in Zusammenarbeit mit der Interoperabilitätsstelle geprüft und gegebenenfalls als standardkonform markiert.
 
 ```mermaid
 flowchart LR
@@ -65,8 +65,8 @@ Weitere Informationen zur Statusverwaltung und zu den Zuständigkeiten sind in d
 | Kandidat | _Candidate_ | Mit dem Status _Kandidat_ werden Einträge gekennzeichnet, die vollständig erfasst sind. Der Status wird von jenen Personen gesetzt, die die Daten erfassen. | _Submitter_, _Local Data Steward_ oder _InteroperabilityService_ |
 | Registriert | _Recorded_ | Metadaten mit dem Status _Registriert_ sind fertig erfasst und geprüft. Der Status wird von jenen Personen vorgeschlagen, die die Metadaten erfasst haben. Die Änderung wird von der _Local Data Steward_ bestätigt. Dies ist der letzte Status für nicht standardisierte Datenelemente. | _Local Data Steward_ oder _InteroperabilityService_ |
 | Qualifiziert | _Qualified_ | Angebote, die dereinst zu einem Standard werden könnten, werden als _Qualifiziert_ gekennzeichnet. | _Local Data Steward_ oder _InteroperabilityService_ |
-| Standard | _Standard_ | Dieser Status wird vergeben, wenn das Angebot einem von einem Fachgremium wie eCH oder ISO verabschiedeten Standard entspricht. | _InteroperabilityService_ |
-| Empfohlener Standard | _Preferred Standard_ | In Einzelfällen kann es zu einem Thema mehrere Standards geben. Als _empfohlener Standard_ werden jene Konzepte gekennzeichnet, welche in der öffentlichen Verwaltung genutzt werden müssen, sofern keine wichtigen Punkte dagegen sprechen. Die Definition eines empfohlenen Standards obliegt dem _Swiss Data Steward_. | _InteroperabilityService_ |
+| Standard | _Standard_ | Dieser Status wird vergeben, wenn das Angebot einem von einem Fachgremium wie eCH oder ISO verabschiedeten Standard entspricht. Dieser Status kann technisch nur durch das BFS vergeben werden. | _InteroperabilityService_ |
+| Empfohlener Standard | _Preferred Standard_ | In Einzelfällen kann es zu einem Thema mehrere Standards geben. Als _empfohlener Standard_ werden jene Konzepte gekennzeichnet, welche in der öffentlichen Verwaltung genutzt werden müssen, sofern keine wichtigen Punkte dagegen sprechen. In der Regel ist ein übergeordnetes Gremium wie das Data Board Bund (DBB) für die Auswahl des empfohlenen Standards verantwortlich. | _InteroperabilityService_ |
 | Abgelöst | _Superseded_ | Basiert das Angebot auf einem Standard, der mittlerweile durch einen anderen abgelöst worden ist, wird der Status auf _Abgelöst_ gesetzt. | _Submitter_, _Local Data Steward_ oder _InteroperabilityService_ |
 | Zurückgezogen | _Retired_ | In Einzelfällen kommt es vor, dass die Normierungsorganisation einen Standard widerruft. In einem solchen Fall wird der Status des betreffenden Angebots auf _Zurückgezogen_ gesetzt. | _Submitter_, _Local Data Steward_ oder _InteroperabilityService_ |
 {.workflow}
@@ -153,7 +153,7 @@ In der Regel wird die öffentliche Publikation durch eine Person mit der Rolle _
 
 ## Bearbeitungsrechte
 
-Abhängig vom Status im Registrations- und Publikations-Workflow sowie von der eigenen Rolle können die erfassten Metadaten nicht abgeändert werden. So können etwa als "Registriert" gekennzeichnete oder publizierte Einträge nicht mehr bearbeitet werden von der Rolle _Submitter_. In diesem Fall wird normalerweise eine neue Version angelegt.
+Abhängig vom Status im Registrations- und Publikations-Workflow sowie von der eigenen Rolle können die erfassten Metadaten nicht abgeändert werden. So können etwa als "Registriert" gekennzeichnete oder publizierte Einträge nicht mehr bearbeitet werden von der Rolle _Submitter_. In diesem Fall wird, wenn eine grundlegende Änderung nötig ist, normalerweise eine neue Version angelegt.
 
 {{<alert title="Sind die Daten auf I14Y sicher?" color="info">}}
 Auf der Interoperabilitätsplattform I14Y werden ausschliesslich Metadaten gespeichert. Die eigentlichen Daten verbleiben bei jener Stelle, die die Datensätze verwaltet. Diese ist damit zuständig für die Sicherheit der Daten.
