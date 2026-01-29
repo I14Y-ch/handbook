@@ -13,6 +13,14 @@ __FR:__ Ce site est en anglais. Seules les descriptions des grandes releases son
 
 The I14Y interoperability platform is under continuous development. New features are added with each release. Bugs are also fixed. The most important changes are briefly documented below. For detailed information on the development of the platform, please contact the [I14Y team](mailto:i14y@bfs.admin.ch). 
 
+## Release 28 janvier 2026
+
+- **Permaliens pour les concepts :** un identifiant international de ressource (IRI) s'affiche désormais sur les pages détaillées des concepts publiés. Cet identifiant stable et unique, également appelé permalien, utilise la section Linked Data de la Confédération. Le permalien se compose de l'identifiant interne et de la version du concept : `https://register.ld.admin.ch/i14y/concept/{concept-identifier}/version/{version}`. Un IRI n'est généré qu'une fois qu'un concept est publié ; les concepts internes ne disposent pas d'un tel permalien.
+- **Extension de l'exportation RDF :** les descriptions des ensembles de données sont également disponibles au format RDF via l'interface électronique (API). Cela permet la lecture automatisée du contenu d'un catalogue (ce que l'on appelle le _harvesting_). L'exportation RDF a désormais été complétée par une information supplémentaire sur le type de distribution.
+– **Information supplémentaire dans la vue graphique :** la structure d'un enregistrement est représentée graphiquement sur I14Y. Cette représentation affiche désormais également les unités de mesure des attributs, dans la mesure où les informations correspondantes ont été enregistrées.
+- **Filtre amélioré :** les options de sélection dans les filtres sont mieux organisées. Certaines sont classées selon des critères techniques (par exemple, le filtre de statut), d'autres par ordre alphabétique (par exemple, le filtre par situation de vie).
+- **Corrections d'erreurs :** plusieurs erreurs ont été corrigées. Entre autres, les grandes listes de codes peuvent à nouveau être téléchargées plus rapidement.
+
 ## Release 7 janvier 2026
 
 - **Mots-clés liés à des concepts prédéfinis**: les mots-clés peuvent désormais être reliés à des désignations univoques provenant de listes de termes contrôlées. Techniquement, cela se fait via un champ de texte supplémentaire (`uri`). _Attention: la structure des données renvoyées par l’API publique et l’API partenaire s’en trouve modifiée._ Cette modification a été approuvée par le comité de pilotage.

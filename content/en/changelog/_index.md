@@ -9,6 +9,14 @@ keywords: [I14Y, Interoperabilitätsplattform I14Y, IOP, Changelog, Releases, Ve
 
 The I14Y interoperability platform is under continuous development. New features are added with each release. Bugs are also fixed. The most important changes are briefly documented below. For detailed information on the development of the platform, please contact the [I14Y team](mailto:i14y@bfs.admin.ch). 
 
+## Release January 28 2026
+
+- **Permalinks for concepts:** A so-called _International Resource Identifier (IRI)_ is now displayed on the detail pages of published concepts. The _Linked Data_ area of the federal government is used for this stable and unique identifier, also known as a permalink. The permalink is composed of the system-internal identifier and the version of the concept: `https://register.ld.admin.ch/i14y/concept/{concept-identifier}/version/{version}`. An IRI is only generated once a concept is published; internal concepts do not have such a permalink.
+- **Extension of the RDF export:** Descriptions of data records are also available in RDF format via the electronic interface (API). This enables the automated reading of the contents of a catalogue (known as _harvesting_). The RDF export has now been supplemented with additional information on the distribution type.
+– **More information in the graph view:** The structure of a data record is displayed graphically on I14Y. This display now also shows the units of measurement for attributes, if the relevant information has been entered.
+- **Improved filters:** The options in filters are now better organised. Some are sorted according to business criteria (e.g. the status filter), while others are in alphabetical order (e.g. the filter for life situations).
+- **Bug fixes:** Several bugs have been fixed. Among other things, large code lists can now be uploaded more quickly again.
+
 ## Release January 7 2026
 
 - **Keywords linked to predefined concepts**: Keywords can now be linked to unique designations from controlled vocabularies. Technically, this is done via an additional text field (`uri`). _Attention: This changes the structure of the data returned by the public and partner API._ This change has been approved by the Steering Committee.
