@@ -188,7 +188,7 @@ Eine Ontologie ist eine formal definierte Darstellung von Wissen, in der die Kon
 Angaben, die sich auf eine bestimmte oder bestimmbare natürliche Person beziehen. [Zur Definition auf TERMDAT](https://register.ld.admin.ch/termdat/52451)
 
 ## Public Service Vocabulary Application Profile (CPSV-AP)
-Das _Core Public Service Vocabulary Application Profile_ (CPSV-AP) ist ein Datenmodell, das Behördenleistungen anhand einer standardisierten Semantik strukturiert und maschinenlesbar beschreibt
+Das _Core Public Service Vocabulary Application Profile_ (CPSV-AP) ist ein Datenmodell zur standardisierten und maschinenlesbaren Beschreibung von Behördenleistungen. CPSV-AP wird vom SEMIC Support Centre der Europäischen Kommission entwickelt und gepflegt. Es wird in zahlreichen europäischen Ländern verwendet, um öffentliche Dienstleistungen einheitlich zu dokumentieren und auffindbar zu machen. Auch auf I14Y wird CPSV-AP genutzt, um Behördenleistungen zu beschreiben. Weitere Informationen sind auf der [Joinup-Plattform der EU](https://joinup.ec.europa.eu/collection/semic-support-centre/solution/core-public-service-vocabulary-application-profile) verfügbar.
 
 ## Referenzdaten
 Daten, die nur bestimmte Werte annehmen können und in einer Organisation in Prozessen, Analysen oder Entscheidungen verwendet werden. [Zur Definition auf TERMDAT](https://register.ld.admin.ch/termdat/502771)
