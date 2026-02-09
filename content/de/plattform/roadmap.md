@@ -21,37 +21,27 @@ Die I14Y wird in einem so genannten Agile Release Train (ART) entwickelt. Die Fu
 {{< mermaid width="650px" >}}
 timeline
     title Roadmap Interoperabilitätsplattform I14Y
-    
-    section 2025
-    
-        Q4 2025 (12.09.2025 - 12.2025)
-        : Die Plattform wird in die öffentliche Cloud migriert. 1️⃣
-        : Komplexe Strukturen von Datensätzen lassen sich über die Weboberfläche editieren.1️⃣
-        : URIs/Permalinks werden für alle Objekte eingeführt.1️⃣
-        : Wiederverwendung von Konzepten 1️⃣
-        : Zusätzliche Arbeiten an den Strukturen – Anpassung an die EMBAG-Vorgaben 1️⃣
-        : ⭐ Einführen von Mapping-Tabellen zur Dokumentation von Unterschieden zwischen Konzepten.1️⃣
-        : Einführung von Log-Möglichkeiten (Audit Trail) 2️⃣
-        : ⭐ Ein Toolbox mit weiteren Import- und Exportmöglichkeiten wird zur Verfügung gestellt Phase II. 2️⃣
-        : Verbesserung der Benutzeroberfläche gemass Feedback der Nutzer 3️⃣ 
 
     section 2026
-        Q1-Q4 2026 (05.12.2025 - 31.12.2026 / tbd)
-        : Harmonisierungstools - EMBAG-Vorgaben 1️⃣
-        : Co-Entwicklung regeln 1️⃣
-        : Freigabe des Programmcodes (Open Source). 1️⃣
-        : Abschluss der Projektphase. 1️⃣
-        : Handbuch, Anleitung. Etc 1️⃣
-        : Änderungen an Objekten werden aufgezeichnet (Audit Trail) 2️⃣
-        : ⭐ Notifikationen bei Änderungen an Metadaten können abonniert werden. 2️⃣
-        : DCAT Quality Dashboard 2️⃣
-        : Anpassung an DCAT AP v3 2️⃣
-        : Zusätzliche Dashboard-Auswertungen 3️⃣       
-        : Automatisches Onboarding der Bundesverwaltung. 3️⃣
-        : Verbesserung des Benutzer-Dashboards 3️⃣ 
-        : Vorschau auf die Daten wird eingebaut. 3️⃣
-        : Erweiterung der Verbindungsmöglichkeiten zu Tools.3️⃣
-        : ⭐ Möglichkeit zur Dokumentation von Datenflüssen (Data Lineage) wird geschaffen 3️⃣ 
+
+        Q1 2026 (01.2026 - 03.2026)
+        : ⭐ Einführen von Mapping-Tabellen zur Dokumentation von Unterschieden zwischen Konzepten.
+        : URIs/Permalinks werden für alle Objekte eingeführt.
+        : Komplexe Strukturen von Datensätzen lassen sich über die Weboberfläche editieren (Teil 1/2).
+        : Zusätzliche Arbeiten an den Strukturen – Wiederverwendung von Konzepten (Teil 1/2).
+
+        Q2 2026 (03.2026 - 06.2026)
+        : Komplexe Strukturen von Datensätzen lassen sich über die Weboberfläche editieren (Teil 2/2).
+        : Wiederverwendung von Konzepten (Teil 2/2).
+        : Freigabe des Programmcodes (Open Source Publikation). 
+        : Einführung von Audit-Metadaten (minimaler Audit-Trail).
+        : Verbesserung der Benutzererfahrung.
+        : Gemeinsame Entwicklungen mit metadata.swiss.
+
+        Q3-Q4 2026 (06.2026 - 12.2026)
+        : Wartungsarbeiten (Fehlerbehebungen und kleine Verbesserungen).
+        : Abschluss der Projektphase. 
+        : Gemeinsame Entwicklungen mit metadata.swiss.
 
 {{< /mermaid >}}
 
