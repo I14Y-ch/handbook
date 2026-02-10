@@ -7,81 +7,54 @@ type: docs
 keywords: [I14Y, plateforme d'interopérabilité I14Y, architecture système, technique, base de données, banque de données]
 ---
 
-La plateforme d'interopérabilité I14Y a été développée sur mandat de la Confédération par le service d'interopérabilité, en collaboration avec l'Office fédéral de l'informatique et de la télécommunication. Ses fonctions font l'objet d'améliorations continues. 
+La plateforme d'interopérabilité I14Y est développée sur mandat de la Confédération par l’Office fédéral de la statistique (OFS), en collaboration avec l’Office fédéral de l’informatique (OFIT). La phase de projet court jusqu’à fin 2026. Ensuite, l’OFS reprendra l’exploitation d’I14Y.
 
-Au cours des mois à venir, le service d'interopérabilité se concentrera en priorité sur les fonctionnalités suivantes, l'ordre des priorités pouvant changer en fonction des besoins. Pour obtenir des informations détaillées sur le développement de la plateforme ou faire des suggestions concernant certaines fonctionnalités, nous vous invitons à vous mettre en relation avec le service d'interopérabilité.
+Pendant la phase de projet, le périmètre fonctionnel de la plateforme est continuellement étendu. Les demandes de nouvelles fonctionnalités peuvent être soumises au service d’interopérabilité. Celui-ci élabore ensuite la spécification détaillée, priorise les demandes en collaboration avec le comité de pilotage ainsi qu’avec le comité Gestion nationale des données (NaDB), et coordonne les travaux de développement et d’implémentation.
 
 {{<alert title="Votre avis nous intéresse!" color="success">}}
-Vous avez une proposition d'amélioration ou souhaitez signaler une erreur sur la plateforme d'interopérabilité I14Y? N'hésitez-pas à nous en faire part par [e-mail](mailto:i14y@bfs.admin.ch). D'autres canaux seront proposés prochainement pour ces retours. 
-
+Si vous découvrez une possibilité d’amélioration ou une erreur sur la plateforme d’interopérabilité I14Y, le service d’interopérabilité vous remercie de le signaler. Vous pouvez soumettre des propositions de nouvelles fonctionnalités dans le [dépôt « Feature Requests »](https://github.com/I14Y-ch/feature-requests/issues) sur GitHub ou par [e-mail](mailto:i14y@bfs.admin.ch). Merci de décrire la fonctionnalité souhaitée aussi précisément que possible. Sur GitHub, les propositions peuvent également être commentées.
 {{</alert>}}
+
+I14Y est développée selon une approche dite Agile Release Train (ART). Les fonctionnalités sont spécifiées, développées et implémentées en continu. Les fonctionnalités prévues pour les différentes étapes de développement sont documentées dans la roadmap ci‑dessous; pour des informations détaillées sur une fonctionnalité, veuillez contacter le service d’interopérabilité. Les priorités peuvent évoluer, par exemple si de nouvelles fonctionnalités sont fortement priorisées. La roadmap est mise à jour avant le début de chaque nouvelle période de développement (_Program Increment_, PI). Les prochaines étapes sont décrites plus en détail, tandis que les phases ultérieures sont présentées sous forme d’objectifs plus généraux.
 
 {{< mermaid width="650px" >}}
 timeline
-    title Roadmap Interoperabilitätsplattform I14Y
-    
-    section 2025
-    
-        Q4 2025 (12.09.2025 - 12.2025)
-        : La plateforme est migrée vers le cloud public. 1️⃣
-        : les structures complexes des ensembles de données peuvent être modifiées via l'interface web.1️⃣
-        : les URI/permalinks sont introduits pour tous les objets.1️⃣
-        : réutilisation des concepts 1️⃣
-        : travaux supplémentaires sur les structures – adaptation aux spécifications EMBAG 1️⃣
-        : ⭐ Introduction de tables de mapping pour documenter les différences entre les concepts.1️⃣
-        : Introduction de possibilités de journalisation (audit trail) 2️⃣
-        : ⭐ Une boîte à outils avec des possibilités d'importation et d'exportation supplémentaires est mise à disposition. Phase II. 2️⃣
-        : Amélioration de l'interface utilisateur en fonction des commentaires des utilisateurs 3️⃣
+    title Roadmap Plateforme d'interopérabilité I14Y
 
     section 2026
-        Q1-Q4 2026 (05.12.2025 - 31.12.2026 / tbd)
-        : Outils d'harmonisation - Spécifications EMBAG 1️⃣
-        : Réglementer le co-développement 1️⃣
-        : Publication du code du programme (open source). 1️⃣
-        : Achèvement de la phase de projet. 1️⃣
-        : Manuel, instructions. Etc. 1️⃣
-        : Les modifications apportées aux objets sont enregistrées et visibles (audit trail) 2️⃣
-        : ⭐ Il est possible de s'abonner aux notifications en cas de modifications des métadonnées. 2️⃣
-        : Tableau de bord de qualité DCAT 2️⃣
-        : Adaptation à DCAT AP v3 2️⃣
-        : Évaluations supplémentaires de la Dashboard 3️⃣
-        : Intégration automatique de l'administration fédérale (eIAM). 3️⃣
-        : amélioration du tableau de bord utilisateur 3️⃣
-        : intégration d'un aperçu des données. 3️⃣
-        : extension des possibilités de connexion aux outils.3️⃣
-        : ⭐ création d'une possibilité de documentation des flux de données (Data Lineage) 3️⃣
+
+        T1 2026 (01.2026 - 03.2026)
+        : ⭐ Introduction de tables de mapping pour documenter les différences entre les concepts.
+        : Des URI/permalinks sont introduits pour tous les objets.
+        : Les structures complexes des ensembles de données peuvent être éditées via l’interface web (partie 1/2).
+        : Travaux supplémentaires sur les structures – réutilisation des concepts (partie 1/2).
+
+        T2 2026 (03.2026 - 06.2026)
+        : Les structures complexes des ensembles de données peuvent être éditées via l’interface web (partie 2/2).
+        : Réutilisation des concepts (partie 2/2).
+        : Publication du code du programme (open source).
+        : Introduction de métadonnées d’audit (audit trail minimal).
+        : Amélioration de l’expérience utilisateur.
+        : Développements communs avec metadata.swiss.
+
+        T3–T4 2026 (06.2026 - 12.2026)
+        : Travaux de maintenance (corrections de bugs et petites améliorations).
+        : Achèvement de la phase de projet.
+        : Développements communs avec metadata.swiss.
+
+    section 2027
+        T1–T4 2027
+        : Phase d’exploitation
 
 {{< /mermaid >}}
 
-*⭐ Les entrées marquées d'un astérisque sont des propositions du projet DVS BS+.*
-
-*1️⃣2️⃣3️⃣ Les chiffres représentent la priorité des features dans le plan de développement.*
-
-## Interfaces électroniques (API)
-La plateforme d'interopérabilité I14Y propose d'ores et déjà des interfaces électroniques (API) permettant de rechercher, de saisir et de traiter les métadonnées sur la plateforme. Ces API n'étant pas encore totalement finalisées, il n'y a guère eu d'informations à leur sujet. Nombre d'entre elles sont par ailleurs accessibles uniquement depuis le réseau de la Confédération. Si vous devez déjà utiliser ces interfaces, veuillez contacter le [service d'interopérabilité](mailto:i14y@bfs.admin.ch).  
-
-Des API stables devraient être mises à disposition au cours des prochains mois. Elles seront accessibles sous [api.i14y.admin.ch](https://api.i14y.admin.ch), avec la documentation correspondante. L'offre sera étoffée au fur et à mesure. 
-
-Ces interfaces permettront d'accéder d'une part aux métadonnées publiques, d'autre part aux métadonnées internes des différentes organisations, le tout sans aucune intervention manuelle. Pour ce faire, une passerelle API sera intégrée au système. 
-
-### Nouveaux champs
-Il est prévu d'intégrer de nouveaux champs dans le catalogue pour décrire plus précisément les jeux de données et les API. Ils serviront notamment à garantir l'interopérabilité avec d'autres portails de données. Certains champs seront disponibles uniquement en interne, tandis que d'autres viendront compléter l'offre accessible publiquement. 
-
-Dans un deuxième temps, les organisations pourront créer leurs propres champs, et ainsi décrire encore plus précisément leurs jeux de données et leurs interfaces, pour leurs besoins internes, mais aussi en vue de la connexion avec des applications spécialisées.
-
-### Informations sur la qualité
-L'IOP I14Y collecte des appréciations sur la qualité des jeux de données. À l'avenir, ces informations devraient pouvoir être recueillies de façon automatisée via une interface électronique. 
-
-La qualité devrait également être analysée pour les éléments de données, ce qui permettra d'évaluer leur degré de remplissage. Ces informations seront consultables via la même API. 
+*⭐ Les entrées marquées d’une étoile sont des propositions du projet DVS BS+.*
 
 ### Code source ouvert
-Le code de programmation de la plateforme d'interopérabilité I14Y doit être publié sous une [licence libre](https://www.gnu.org/licenses), conformément aux dispositions de la loi fédérale
-sur l'utilisation de moyens électroniques pour l'exécution des tâches des autorités (LMETA). En vertu de l'article 9 de la loi, les autorités fédérales doivent dans la mesure du possible mettre leur code source gracieusement à disposition. 
+Le code de programme de la plateforme d’interopérabilité I14Y doit être publié sous une [licence libre](https://www.gnu.org/licenses). Le service d’interopérabilité publiera le code source au plus tard à la fin de la phase de projet, c’est‑à‑dire d’ici fin 2026. Cela se fait conformément à la loi fédérale sur l’utilisation de moyens électroniques pour l’exécution des tâches des autorités ([EMBAG](https://www.fedlex.admin.ch/eli/fga/2023/787/fr#art_9)). Selon l’art. 9, les autorités fédérales doivent — dans la mesure du possible — mettre les codes source à disposition librement.
 
-{{<card header="Base légale" title="__Art. 9 Logiciels à code source ouvert__" footer="Loi fédérale sur l'utilisation de moyens électroniques pour l'exécution des tâches des autorités [(LMETA)](https://www.fedlex.admin.ch/eli/fga/2023/787/fr#art_9)">}}
-
-Les autorités fédérales soumises à la présente loi publient le code source des logiciels qu'elles développent ou font développer pour l'exécution de leurs tâches, sous réserve que les droits de tiers ou des raisons importantes en matière de sécurité excluent ou limitent cette possibilité. Elles autorisent toute personne à utiliser, à développer et à partager ces logiciels sans avoir à payer de redevances de licence.
-
+{{<card header="Base légale" title="__Art. 9 Logiciels à code source ouvert__" footer="Loi fédérale sur l'utilisation de moyens électroniques pour l'exécution des tâches des autorités [(EMBAG)](https://www.fedlex.admin.ch/eli/fga/2023/787/fr#art_9)">}}
+Les autorités fédérales soumises à la présente loi publient, s’il est possible et raisonnable et si les droits de tiers sont respectés, le code source des logiciels qu’elles développent ou font développer pour l’exécution de leurs tâches. Elles permettent à toute personne d’utiliser, de développer et de partager ces logiciels et ne perçoivent pas de redevances de licence.
 {{</card>}}
 
-L'IOP I14Y publie ses codes source et ses scripts sous le nom i14y-ch sur la [plateforme Github](https://github.com/i14y-ch). Le présent manuel et le prototype d'une API développée lors du GovTech Hackathon 2023 y sont déjà accessibles. Des exemples de scripts pour la recherche de données y seront également publiés. Les premiers modules de l'IOP I14Ydevraient être disponibles au 4e trimestre 2023. Des informations sur les possibilités d'utilisation et les développements futurs seront intégrées en temps utile dans ce manuel.
+I14Y publie ses codes source et ses scripts sous le nom i14y-ch sur la [plateforme GitHub](https://github.com/i14y-ch).
