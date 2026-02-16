@@ -1,23 +1,23 @@
 ---
-title: Next release
+title: Prossimo rilascio
 translationKey: next-release
-slug: next-release
+slug: prossimo-rilascio
 weight: 10
 type: docs
-keywords: [I14Y, Interoperability Platform I14Y, IOP, Changelog, Releases, Versions, Software Development]
+keywords: [I14Y, Piattaforma di interoperabilità I14Y, IOP, Changelog, Releases, Versioni, Sviluppo software]
 draft: true
 ---
 
-{{<alert title="Language" color="warning">}}
-__IT:__ Questa pagina è disponibile solo in inglese.
-{{</alert>}}
+Il prossimo rilascio di I14Y è previsto per la sera del 25 febbraio 2026. Comprende le modifiche e le estensioni descritte di seguito. Le organizzazioni partner di I14Y con il relativo accesso possono testare sin da subito il software aggiornato nell’[ambiente di collaudo di I14Y](https://input.i14y-a.admin.ch). Se non avete ancora accesso a questo ambiente, utilizzato per i test del software, vi preghiamo di contattare il Servizio di interoperabilità.
 
-The next release of I14Y is scheduled for the early evening of 28 January 2026. It includes the adjustments and enhancements listed below. I14Y partner organisations with the appropriate access can test the updated software immediately on the [I14Y pre-publication environment](https://input.i14y-a.admin.ch). Please contact the Interoperability Service if you do not yet have access to this environment used for software testing.
- 
-Please note that the release date may be postponed at short notice in the event of problems. It is possible that individual functions may be removed from the release and only activated at a later date. If you have any questions or problems regarding the release, please contact the Interoperability Service ([i14y@bfs.admin.ch](mailto:i14y@bfs.admin.ch)).
+Si prega di notare che, in caso di problemi, la data di rilascio può essere posticipata a breve termine. È anche possibile che singole funzionalità vengano rimosse dal rilascio e attivate solo in un secondo momento. Per domande o problemi relativi a questo rilascio potete rivolgervi al Servizio di interoperabilità ([i14y@bfs.admin.ch](mailto:i14y@bfs.admin.ch)).
 
-- **Permalinks for concepts:** A so-called _International Resource Identifier (IRI)_ is now displayed on the detail pages of published concepts. The _Linked Data_ area of the federal government is used for this stable and unique identifier, also known as a permalink. The permalink is composed of the system-internal identifier and the version of the concept: `https://register.ld.admin.ch/i14y/concept/{concept-identifier}/version/{version}`. An IRI is only generated once a concept is published; internal concepts do not have such a permalink.
-- **Extension of the RDF export:** Descriptions of data records are also available in RDF format via the electronic interface (API). This enables the automated reading of the contents of a catalogue (known as _harvesting_). The RDF export has now been supplemented with additional information on the distribution type.
-– **More information in the graph view:** The structure of a data record is displayed graphically on I14Y. This display now also shows the units of measurement for attributes, if the relevant information has been entered.
-- **Improved filters:** The options in filters are now better organised. Some are sorted according to business criteria (e.g. the status filter), while others are in alphabetical order (e.g. the filter for life situations).
-- **Bug fixes:** Several bugs have been fixed. Among other things, large code lists can now be uploaded more quickly again.
+- **IRI per tutti gli oggetti:** Con il precedente rilascio sono stati introdotti per i concetti i cosiddetti _International Resource Identifier (IRI)_. Si tratta di indirizzi stabili e univoci che permettono di creare collegamenti affidabili ai contenuti. Con questo rilascio anche tutti gli altri oggetti su I14Y ricevono un proprio IRI. Ciò riguarda in particolare i codici delle liste di codici, i dataset, i servizi di dati (Data Services) e le prestazioni pubbliche (Public Services). Gli IRI vengono visualizzati sulle rispettive pagine di dettaglio nell’interfaccia utente. Per i codici pubblicati sulla piattaforma LINDAS, gli IRI rimandano alle informazioni disponibili su LINDAS. Per dataset, servizi di dati e prestazioni pubbliche non vi sono contenuti direttamente su LINDAS, ma dispongono comunque di un indirizzo stabile e leggibile dalle macchine. Nelle esportazioni RDF tecniche, ad esempio verso opendata.swiss, questi nuovi IRI sostituiscono gli URL utilizzati finora. Per le utenti e gli utenti, nell’uso quotidiano cambia poco, ma i riferimenti ai contenuti di I14Y diventano più affidabili.
+
+- **Primo passo verso le tabelle di mapping tra liste di codici:** Per rendere più visibili le somiglianze e le differenze tra due liste di codici, I14Y introduce tabelle di mapping (tabelle di corrispondenza). In una prima fase queste tabelle sono visibili come pagine di dettaglio nella vista di immissione di I14Y. Possono essere consultate ma non ancora modificate e non sono ancora ricercabili tramite la normale ricerca nel catalogo. In questo modo è possibile raccogliere le prime esperienze su come rappresentare queste relazioni tra liste di codici, prima di ampliare ulteriormente la funzione e integrarla meglio nell’interfaccia.
+
+- **Visualizzazione dell’utilizzo delle API nel dashboard:** I14Y mette a disposizione dati tramite un’API pubblica e un’API per i partner. Nel dashboard di I14Y vengono ora visualizzati semplici indicatori sull’utilizzo di queste interfacce, ad esempio il numero di chiamate al giorno per determinati user agent selezionati. Le organizzazioni ottengono così una migliore panoramica sull’utilizzo delle API e possono reagire più facilmente in caso di anomalie.
+
+- **Regole più restrittive per gli identificatori:** Tutti gli oggetti su I14Y, ad esempio dataset, liste di codici o servizi di dati, hanno un identificatore. Questo viene utilizzato, tra l’altro, negli IRI e nelle interfacce tecniche. Affinché questi identificatori funzionino in modo affidabile con il nuovo resolver per gli IRI, i caratteri ammessi sono stati limitati. Alcuni caratteri speciali non sono più permessi. Sono consentite solo lettere (A–Z, a–z), cifre (0–9) e i caratteri punto (.), underscore (_), tilde (~), chiocciola (@) e trattino (-). Tecnicamente ciò corrisponde al pattern `^[A-Za-z0-9._~@-]+$`. Per le utenti e gli utenti questo significa che, durante l’inserimento o la modifica di identificatori, possono comparire messaggi di errore se vengono utilizzati caratteri speciali non ammessi. In tali casi il sistema segnala il problema con un messaggio appropriato.
+
+- **Miglioramenti nei risultati di ricerca:** La funzione di ricerca di I14Y è stata ulteriormente affinata per rendere i contenuti importanti più facili da trovare. Le voci contrassegnate come standard o standard preferito vengono ora ponderate maggiormente nell’ordinamento dei risultati di ricerca e compaiono quindi in modo più evidente. Inoltre è ora possibile cercare esplicitamente per titolare dei dati (_data owner_). In questo modo dataset e servizi possono essere trovati più facilmente tramite l’organizzazione responsabile.
