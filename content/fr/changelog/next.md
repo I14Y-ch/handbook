@@ -5,7 +5,7 @@ slug: prochaine-version
 weight: 10
 type: docs
 keywords: [I14Y, Plateforme d’interopérabilité I14Y, IOP, Changelog, Releases, Versions, Développement logiciel]
-draft: true
+draft: false
 ---
 
 La prochaine version d’I14Y est prévue pour la soirée du 25 février 2026. Elle comprend les adaptations et les extensions décrites ci‑dessous. Les organisations partenaires d’I14Y disposant d’un accès correspondant peuvent tester immédiatement le logiciel mis à jour sur l’[environnement de recette d’I14Y](https://input.i14y-a.admin.ch). Veuillez contacter l’Unité d’interopérabilité si vous n’avez pas encore accès à cet environnement utilisé pour les tests logiciels.
@@ -13,6 +13,8 @@ La prochaine version d’I14Y est prévue pour la soirée du 25 février 2026. E
 Veuillez noter que la date de mise en production peut être repoussée à court terme en cas de problème. Il est également possible que certaines fonctionnalités soient retirées de cette version et activées ultérieurement. Pour toute question ou tout problème concernant cette version, veuillez vous adresser à l’Unité d’interopérabilité ([i14y@bfs.admin.ch](mailto:i14y@bfs.admin.ch)).
 
 - **IRIs pour tous les objets:** Lors de la dernière version, des _International Resource Identifier (IRIs)_ ont été introduits pour les concepts. Il s’agit d’adresses stables et uniques qui permettent de créer des liens fiables vers des contenus. Avec cette nouvelle version, tous les autres objets d’I14Y obtiennent également leur propre IRI. Cela concerne notamment les codes des listes de codes, les jeux de données, les services de données (Data Services) et les prestations publiques (Public Services). Les IRIs sont affichés sur les pages de détail correspondantes dans l’interface utilisateur. Pour les codes publiés sur la plate‑forme LINDAS, les IRIs renvoient aux informations disponibles sur LINDAS. Pour les jeux de données, les services de données et les prestations publiques, aucun contenu n’est disponible directement sur LINDAS, mais ils disposent tout de même d’une adresse stable et lisible par machine. Dans les exports RDF techniques, par exemple pour opendata.swiss, ces nouveaux IRIs remplacent les anciennes URL. Pour les utilisatrices et utilisateurs, peu de choses changent dans l’utilisation quotidienne, mais les références vers les contenus d’I14Y deviennent plus fiables.
+
+- **Filtrer les jeux de données disposant d’une structure :** La recherche dans le catalogue propose un nouveau filtre permettant de limiter les résultats aux jeux de données pour lesquels une structure est enregistrée. Il est ainsi plus facile d’identifier rapidement les jeux de données pouvant servir de base à des travaux d’harmonisation.
 
 - **Première étape vers les tables de correspondance entre listes de codes:** Pour mieux mettre en évidence les similitudes et les différences entre deux listes de codes, I14Y introduit des tables de correspondance (mappings). Dans un premier temps, ces tables sont visibles sous forme de pages de détail dans la vue de saisie d’I14Y. Elles peuvent y être consultées, mais ne sont pas encore modifiables. Elles ne sont pas non plus accessibles via la recherche habituelle du catalogue. Cela permet de recueillir des premiers retours sur la manière de représenter ces correspondances avant d’étendre la fonction et de l’intégrer davantage dans l’interface.
 

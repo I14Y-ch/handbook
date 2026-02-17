@@ -5,7 +5,7 @@ slug: prossimo-rilascio
 weight: 10
 type: docs
 keywords: [I14Y, Piattaforma di interoperabilità I14Y, IOP, Changelog, Releases, Versioni, Sviluppo software]
-draft: true
+draft: false
 ---
 
 Il prossimo rilascio di I14Y è previsto per la sera del 25 febbraio 2026. Comprende le modifiche e le estensioni descritte di seguito. Le organizzazioni partner di I14Y con il relativo accesso possono testare sin da subito il software aggiornato nell’[ambiente di collaudo di I14Y](https://input.i14y-a.admin.ch). Se non avete ancora accesso a questo ambiente, utilizzato per i test del software, vi preghiamo di contattare il Servizio di interoperabilità.
@@ -13,6 +13,8 @@ Il prossimo rilascio di I14Y è previsto per la sera del 25 febbraio 2026. Compr
 Si prega di notare che, in caso di problemi, la data di rilascio può essere posticipata a breve termine. È anche possibile che singole funzionalità vengano rimosse dal rilascio e attivate solo in un secondo momento. Per domande o problemi relativi a questo rilascio potete rivolgervi al Servizio di interoperabilità ([i14y@bfs.admin.ch](mailto:i14y@bfs.admin.ch)).
 
 - **IRI per tutti gli oggetti:** Con il precedente rilascio sono stati introdotti per i concetti i cosiddetti _International Resource Identifier (IRI)_. Si tratta di indirizzi stabili e univoci che permettono di creare collegamenti affidabili ai contenuti. Con questo rilascio anche tutti gli altri oggetti su I14Y ricevono un proprio IRI. Ciò riguarda in particolare i codici delle liste di codici, i dataset, i servizi di dati (Data Services) e le prestazioni pubbliche (Public Services). Gli IRI vengono visualizzati sulle rispettive pagine di dettaglio nell’interfaccia utente. Per i codici pubblicati sulla piattaforma LINDAS, gli IRI rimandano alle informazioni disponibili su LINDAS. Per dataset, servizi di dati e prestazioni pubbliche non vi sono contenuti direttamente su LINDAS, ma dispongono comunque di un indirizzo stabile e leggibile dalle macchine. Nelle esportazioni RDF tecniche, ad esempio verso opendata.swiss, questi nuovi IRI sostituiscono gli URL utilizzati finora. Per le utenti e gli utenti, nell’uso quotidiano cambia poco, ma i riferimenti ai contenuti di I14Y diventano più affidabili.
+
+- **Filtro per dataset con struttura:** Nella ricerca del catalogo è ora disponibile un nuovo filtro che consente di limitare i risultati ai dataset con una struttura allegata. In questo modo diventa più semplice individuare i dataset che possono fungere da base per lavori di armonizzazione.
 
 - **Primo passo verso le tabelle di mapping tra liste di codici:** Per rendere più visibili le somiglianze e le differenze tra due liste di codici, I14Y introduce tabelle di mapping (tabelle di corrispondenza). In una prima fase queste tabelle sono visibili come pagine di dettaglio nella vista di immissione di I14Y. Possono essere consultate ma non ancora modificate e non sono ancora ricercabili tramite la normale ricerca nel catalogo. In questo modo è possibile raccogliere le prime esperienze su come rappresentare queste relazioni tra liste di codici, prima di ampliare ulteriormente la funzione e integrarla meglio nell’interfaccia.
 
