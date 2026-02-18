@@ -8,7 +8,7 @@ translationKey: metadata-publication
 keywords: [Interoperabilitätsplattform I14Y, I14Y, Publikation, Veröffentlichung, Metadaten, Katalog, Konzepte]
 ---
 
-![Szene aus dem Erklärvideo zur Interoperabilitätsplattform I14Y](/handbook/img/i14y-film_erfassen.png)
+![Szene aus dem Erklärvideo zur Interoperabilitätsplattform I14Y](/img/i14y-film_erfassen.png)
 
 Die Interoperabilitätsplattform I14Y lässt sich vielfältig einsetzen: Im Katalog-Bereich werden Datensätze, elektronische Schnittstellen und Behördenleistungen verzeichnet. Und unter "Konzepte" lassen sich einzelne Datenelemente beschreiben. Werden Konzepte öffentlich freigegeben, können sie von anderen Nutzerinnen und Nutzern wiederverwendet werden. 
 

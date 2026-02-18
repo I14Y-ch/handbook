@@ -18,6 +18,11 @@ body {
 $table-col-min-width: 150px !default;
 $table-entry-col2-min: 300px !default;
 
+// Mermaid chart spacing
+.mermaid {
+  margin-bottom: 1.5rem;
+}
+
 .td-content {
   h1 {
     font-size: 3rem;
@@ -426,7 +431,7 @@ details {
   background-color: #e6e6e6;
   padding-right: 1rem;
   padding-left: 1rem;
-  max-width: 80%;
+  max-width: 100%;
   border-radius: 8px;
   margin-bottom: 0.75rem;
 }
@@ -454,13 +459,15 @@ a {
     font-weight: 400;
     line-height: 1.42857;
     letter-spacing: .25px;
+	max-width: 100%;
+	overflow-x: auto;
 
 	td th {
 		border-top: 1px solid #d5d5d5;
 		border-bottom: 1px solid $ob-gray-300;
 		padding: 8px 16px;
 		text-align: inherit;
-    hyphens: auto; 
+    hyphens: auto;
 
 	}
 
@@ -471,7 +478,7 @@ a {
 		word-break: break-word;
 		vertical-align: top;
     min-width: $table-col-min-width;
-		hyphens: auto; 
+		hyphens: auto;
 	}
 
 	td {
@@ -590,7 +597,7 @@ a {
 
 .toc {
 	column-count: 3;
-	max-width: 80%;
+	max-width: 100%;
 }
 
 .img-news-thumb {
@@ -853,5 +860,87 @@ details {
   
   > *:last-child {
     padding-bottom: 1.5rem;
+  }
+}
+
+// Status transition matrix tables
+.status-matrix {
+  display: table;
+  width: 100%;
+  max-width: 100%;
+  table-layout: fixed;
+  overflow-x: auto;
+
+  th, td {
+    text-align: center;
+    padding: 6px 3px;
+    font-size: 0.75rem;
+    vertical-align: middle;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+
+  // First column (status names) - left aligned
+  th:first-child,
+  td:first-child {
+    text-align: left;
+    font-weight: 500;
+    width: 15%;
+    background-color: $ob-gray-100;
+  }
+
+  thead th {
+    font-weight: 600;
+    font-size: 0.85rem;
+    background-color: $ob-gray-200;
+    color: $ob-gray-800;
+  }
+
+  // Color cells containing "x" with green background
+  tbody tr {
+    td {
+      &:not(:first-child):not(:empty) {
+        background-color: #00813a;
+        color: $ob-white;
+        font-weight: 600;
+      }
+    }
+
+    &:hover {
+      td:first-child {
+        background-color: $ob-gray-200;
+      }
+    }
+  }
+}
+
+// Publication level matrix - smaller version
+.publication-matrix {
+  width: auto;
+  max-width: 400px;
+
+  th, td {
+    text-align: center;
+    padding: 12px 16px;
+    min-width: 100px;
+  }
+
+  th:first-child,
+  td:first-child {
+    text-align: left;
+    font-weight: 500;
+    min-width: 120px;
+    background-color: $ob-gray-100;
+  }
+
+  thead th {
+    font-weight: 600;
+    background-color: $ob-gray-200;
+  }
+
+  tbody tr td:not(:first-child):not(:empty) {
+    background-color: #00813a;
+    color: $ob-white;
+    font-weight: 600;
   }
 }

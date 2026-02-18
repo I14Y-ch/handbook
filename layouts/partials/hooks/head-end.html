@@ -1,5 +1,8 @@
 <!-- Custom styles for Mermaid diagrams -->
-<link rel="stylesheet" href="{{ "css/custom-mermaid.css" | relURL }}">
+{{ $customMermaidCSS := resources.Get "css/custom-mermaid.css" }}
+{{ if $customMermaidCSS }}
+<link rel="stylesheet" href="{{ $customMermaidCSS.RelPermalink }}">
+{{ end }}
 
 <script>
   document.addEventListener('DOMContentLoaded', function() {

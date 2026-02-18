@@ -93,6 +93,7 @@ RegistrationStatus:
 | Preferred Standard           |            |           |          |           |          |                    |            |         |
 | Superseded                   |            |           |          |           |          |                    |            | x       |
 | Retired                      |            |           |          |           |          |                    | x          |         |
+{.status-matrix}
 
 PublicationLevel:
 
@@ -100,6 +101,7 @@ PublicationLevel:
 | -------------------------- | -------- | ------ |
 | Internal                   |          |        |
 | Public                     |          |        |
+{.publication-matrix}
 
 __Local Data Steward__
 
@@ -115,6 +117,7 @@ RegistrationStatus:
 | Preferred Standard           |            |           |          |           |          |                    |            |         |
 | Superseded                   |            |           |          |           |          |                    |            | x       |
 | Retired                      |            |           |          |           |          |                    | x          |         |
+{.status-matrix}
 
 PublicationLevel:
 
@@ -122,6 +125,7 @@ PublicationLevel:
 | -------------------------- | -------- | ------ |
 | Internal                   |          | x      |
 | Public                     | x        |        |
+{.publication-matrix}
 
 __InteroperabilityService__
 
@@ -137,6 +141,7 @@ RegistrationStatus:
 | Preferred Standard           | x          | x         | x        | x         | x        |                    | x          | x       |
 | Superseded                   | x          | x         | x        | x         | x        | x                  |            | x       |
 | Retired                      | x          | x         | x        | x         | x        | x                  | x          |         |
+{.status-matrix}
 
 PublicationLevel:
 
@@ -144,6 +149,7 @@ PublicationLevel:
 | -------------------------- | -------- | ------ |
 | Internal                   |          | x      |
 | Public                     | x        |        |
+{.publication-matrix}
 
 ## Publikationskanal
 

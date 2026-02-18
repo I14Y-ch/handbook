@@ -13,7 +13,7 @@ Translation is in progress: Thank you for your interest in the English version o
 {{% /pageinfo %}}
 
 
-![ Scene from the explanatory video for the I14Y interoperability platform](/handbook/img/i14y-film_55.png)
+![ Scene from the explanatory video for the I14Y interoperability platform](/img/i14y-film_55.png)
 
 
 What data is available? And how can they be retrieved? The I14Y interoperability platform is the central directory of data, electronic interfaces and government services of public administration offices in Switzerland. The platform makes it possible to find data and it shows how they can be obtained.
