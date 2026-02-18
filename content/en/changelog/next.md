@@ -1,19 +1,25 @@
 ---
-title: Next release
+title: Next releaseascio
 translationKey: next-release
-slug: next-release
+slug: next-releaseascio
 weight: 10
 type: docs
-keywords: [I14Y, Interoperability Platform I14Y, IOP, Changelog, Releases, Versions, Software Development]
-draft: true
+keywords: [I14Y, Interoperability platform I14Y, IOP, Changelog, Releases, Versions, Software development]
+draft: false
 ---
 
-The next release of I14Y is scheduled for the early evening of 28 January 2026. It includes the adjustments and enhancements listed below. I14Y partner organisations with the appropriate access can test the updated software immediately on the [I14Y pre-publication environment](https://input.i14y-a.admin.ch). Please contact the Interoperability Service if you do not yet have access to this environment used for software testing.
- 
-Please note that the release date may be postponed at short notice in the event of problems. It is possible that individual functions may be removed from the release and only activated at a later date. If you have any questions or problems regarding the release, please contact the Interoperability Service ([i14y@bfs.admin.ch](mailto:i14y@bfs.admin.ch)).
+The next release of I14Y is planned for the evening of 25 February 2026. It includes the changes and enhancements described below. I14Y partner organisations with the appropriate access can test the updated software immediately on the [I14Y acceptance environment](https://input.i14y-a.admin.ch). Please contact the Interoperability Unit if you do not yet have access to this environment, which is used for software testing.izio di interoperabilità.e early evening of 28 January 2026. It includes the adjustments and enhancements listed below. I14Y partner organisations with the appropriate access can test the updated software immediately on the [I14Y pre-publication environment](https://input.i14y-a.admin.ch). Please contact the Interoperability Service if you do not yet have access to this environment used for software testing.
 
-- **Permalinks for concepts:** A so-called _International Resource Identifier (IRI)_ is now displayed on the detail pages of published concepts. The _Linked Data_ area of the federal government is used for this stable and unique identifier, also known as a permalink. The permalink is composed of the system-internal identifier and the version of the concept: `https://register.ld.admin.ch/i14y/concept/{concept-identifier}/version/{version}`. An IRI is only generated once a concept is published; internal concepts do not have such a permalink.
-- **Extension of the RDF export:** Descriptions of data records are also available in RDF format via the electronic interface (API). This enables the automated reading of the contents of a catalogue (known as _harvesting_). The RDF export has now been supplemented with additional information on the distribution type.
-– **More information in the graph view:** The structure of a data record is displayed graphically on I14Y. This display now also shows the units of measurement for attributes, if the relevant information has been entered.
-- **Improved filters:** The options in filters are now better organised. Some are sorted according to business criteria (e.g. the status filter), while others are in alphabetical order (e.g. the filter for life situations).
-- **Bug fixes:** Several bugs have been fixed. Among other things, large code lists can now be uploaded more quickly again.
+Please note that the release date may be postponed at short notice if problems arise. Individual features may also be removed from the release and only activated at a later point in time. If you have any questions or issues related to this release, please contact the Interoperability Unit ([i14y@bfs.admin.ch](mailto:i14y@bfs.admin.ch)).that the release date may be postponed at short notice in the event of problems. It is possible that individual functions may be removed from the release and only activated at a later date. If you have any questions or problems regarding the release, please contact the Interoperability Service ([i14y@bfs.admin.ch](mailto:i14y@bfs.admin.ch)).
+
+- **IRIs for all objects:** In the previous release, _International Resource Identifiers (IRIs)_ were introduced for concepts. These are stable, unique addresses that allow content to be linked reliably. With this release, all remaining object types on I14Y also receive their own IRIs. This includes codelist entries (codes), datasets, data services and public services. The IRIs are shown on the respective detail pages in the user interface. For codelist entries that are published on the LINDAS platform, the IRIs point to the information available on LINDAS. For datasets, data services and public services there is no content directly on LINDAS, but they still have a stable, machine‑readable address. In the technical RDF exports, for example to opendata.swiss, these new IRIs replace the URLs that were used previously. For most users, day‑to‑day work does not change, but links to I14Y content become more robust and easier to process automatically.
+
+- **Filter datasets with structure:** The catalogue search now offers a new filter. It allows the result list to be restricted to dataset entries that have a structure attached. This makes it easier to quickly identify datasets that can serve as a basis for harmonisation work.
+
+- **First step towards mapping tables between codelists:** To make similarities and differences between two codelists easier to understand, I14Y is introducing mapping tables. In a first step, these tables are visible as dedicated detail pages in the I14Y input view. They can be viewed there but cannot yet be edited, and they are not yet available via the standard catalogue search. This allows initial experience to be gathered on how to represent relationships between codelists before the feature is further expanded and integrated into the rest of the user interface.
+
+- **API monitoring on the dashboard:** I14Y provides data via both a public API and a partner API. The I14Y dashboard now displays simple metrics on the use of these interfaces, for example how many requests per day are made by selected user agents. This gives organisations a better overview of how strongly the APIs are used and helps them react more easily if unusual patterns occur.I per i partner.
+
+- **Stricter rules for identifiers:** All objects on I14Y, such as datasets, codelists or data services, have an identifier. This identifier is used, among other things, in IRIs and technical interfaces. To make sure these identifiers work reliably with the new IRI resolver, the set of allowed characters has been restricted. Certain special characters are no longer permitted. Only letters (A–Z, a–z), digits (0–9) and the characters dot (.), underscore (_), tilde (~), at sign (@) and hyphen (-) are allowed. Technically, this corresponds to the pattern `^[A-Za-z0-9._~@-]+$`. For users, this means that error messages may appear when entering or editing identifiers if disallowed special characters are used. In such cases, the system will point out the problem with a validation message.
+
+- **Improvements to search results:** The I14Y search has been further refined so that important content is easier to find. Entries that are marked as a standard or preferred standard are now given a higher weight when sorting search results and therefore appear more prominently. In addition, it is now possible to search explicitly by data owner. This makes it easier to find datasets or services.
