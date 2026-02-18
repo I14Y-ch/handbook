@@ -9,7 +9,7 @@ keywords: [Interoperabilitätsplattform I14Y, I14Y, Labs, Lab, Labor, Experiment
 draft: True
 ---
 
-![Logo I14Y-Labs](/img/i14y-labs.png)
+![Logo I14Y-Labs](/handbook/img/i14y-labs.png)
 
 Metadaten sind Informationen über Informationen. Sie zeigen auf, welche Inhalte in einem Datensatz enthalten sind. Und sie liefern Angaben dazu, in welchem Kontext die betreffenden Daten erhoben wurden. Sie legen zudem dar, wie ein Datensatz genutzt werden darf. Und sie machen Datensätze einfacher auffindbar und besser durchsuchbar. Metadaten zu Datensätzen sind hilfreich, sobald die betreffenden Daten in einer Software genutzt werden sollen. Liegen klare Vorgaben dazu vor, wie die Inhalte eines Datenelements strukturiert sein sollten, können die eigentlichen Daten zudem automatisiert geprüft werden.  
 
