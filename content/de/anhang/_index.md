@@ -16,6 +16,4 @@ Die [API-Dokumentation](/handbook/de/anhang/api/) beschreibt die Programmierschn
 
 Unter [Beispiele für reguläre Ausdrücke](/handbook/de/anhang/regex/) finden sich praxisnahe Muster (_Regex_), die beim Erfassen von Konzepten als Validierungsregeln für Datenwerte eingesetzt werden können.
 
-Die Seite [EIAM](/handbook/de/anhang/eiam/) erläutert das zentrale Zugangs- und Berechtigungssystem des Bundes, über das der Zugang zur I14Y-Plattform verwaltet wird.
-
 Unter [Externe Ressourcen](/handbook/de/anhang/weblinks/) sind weiterführende Links zu verwandten Plattformen, Standards und Dokumentationen zusammengestellt.
