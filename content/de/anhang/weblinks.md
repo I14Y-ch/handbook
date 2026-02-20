@@ -48,6 +48,7 @@ keywords: [Interoperabilitätsplattform I14Y, I14Y, Weblink, URL, Verweise, Refe
 | [metaver.de](https://metaver.de) | Das Metadatenportal MetaVer (MetadatenVerbund) bietet Geoinformationen aus den Bundesländern Brandenburg, Bremen, Hamburg, Mecklenburg-Vorpommern und Sachsen-Anhalt an. | Deutschland |
 | [open.nrw](https://open.nrw/) | Metadatenportal des Bundeslands Nordrhein-Westfalen | Deutschland |
 | [opendata.swiss](https://opendata.swiss) | Auf dem Opendata-Portal der Schweiz werden Metainformationen zu frei verfügbaren Daten der Schweizer Behörden veröffentlicht. Betrieben wird das Portal vom Bundesamt für Statistik. | Schweiz |
+| [opentransportdata.swiss](https://opentransportdata.swiss) | opentransportdata.swiss ist der nationale Zugangspunkt (_National Access Point_) für offene Mobilitätsdaten der Schweiz. Die Plattform wird vom Bundesamt für Verkehr (BAV) über die SBB betrieben und stellt standardisierte Schnittstellen sowie Datensätze zu Fahrplänen, Echtzeit-Verkehrsdaten und weiteren Mobilitätsinformationen zur Verfügung. Sie bietet unter anderem den Open Journey Planner (OJP) für multimodale Routenplanung sowie die Verkehrsdatenplattform (VDP) mit Echtzeitdaten zu Verkehrszählern und Lichtsignalanlagen. Mittelfristig soll die Plattform in die nationale Mobilitätsdateninfrastruktur (MODI) überführt werden. | Schweiz |
 {.weblink1}
 
 ## Standards, die von I14Y genutzt werden
@@ -58,7 +59,16 @@ keywords: [Interoperabilitätsplattform I14Y, I14Y, Weblink, URL, Verweise, Refe
 | [DCAT-AP CH 2.0](https://www.dcat-ap.ch/releases/2.0/dcat-ap-ch.html) | Schweizer Anwendungsprofil des DCAT-Standards für Metadaten (Version 2.0) | Schweiz |
 | [DCAT-AP CH 3.0](https://www.dcat-ap.ch/releases/3.0_workingdraft/dcat-ap-ch_3.0_workingdraft.html) | Entwurf Schweizer Anwendungsprofil des DCAT-Standards für Metadaten (Version 3.0) | Schweiz |
 | [eCH-0200](https://www.ech.ch/de/ech/ech-0200) | Schweizer Standard für Behördenleistungen | Schweiz |
+
 {.weblink1}
+
+## Standardisierungsorganisationen
+| Weblink | Beschreibung | Nation/ Union |
+| [eCH](https://www.ech.ch) | eCH ist der Schweizer Verein für E-Government-Standards. Er entwickelt und pflegt Standards für die Digitalisierung der öffentlichen Verwaltung, darunter auch den auf I14Y verwendeten Standard eCH-0200 zur Beschreibung von Behördenleistungen. | Schweiz |
+| [ISO](https://www.iso.org) | Die Internationale Organisation für Normung (ISO) entwickelt internationale Standards in zahlreichen Bereichen. Für I14Y ist insbesondere der Standard ISO 11179 relevant, der die Grundlage für das Konzept der Metadatenregistrierung und das Statusmodell der Plattform bildet. | International |
+| [W3C](https://www.w3.org) | Das World Wide Web Consortium (W3C) ist die internationale Standardisierungsorganisation für das World Wide Web. Es entwickelt technische Standards wie DCAT und RDF, die auf I14Y zur strukturierten Beschreibung von Datensätzen und Konzepten eingesetzt werden. | International |
+{.weblink1}
+
 
 ## Weitere Weblinks
 | Weblink | Beschreibung | Nation/ Union |
@@ -67,6 +77,7 @@ keywords: [Interoperabilitätsplattform I14Y, I14Y, Weblink, URL, Verweise, Refe
 | [Creative Commons](https://creativecommons.org) | Internationale gemeinnützige Organisation für offene Lizenzen | International |
 | [digitale-verwaltung-schweiz.ch](https://www.digitale-verwaltung-schweiz.ch) | Informationen zur digitalen Transformation der Schweizer Verwaltung | Schweiz |
 | [egovernment-wettbewerb.de](https://www.egovernment-wettbewerb.de/) | eGovernment-Wettbewerb, an dem die Interoperabilitätsplattform I14Y teilgenommen hat | Deutschland |
+| [opendata.ch](https://opendata.ch) | opendata.ch ist der Schweizer Verein zur Förderung offener Daten. Er vernetzt Akteurinnen und Akteure aus Verwaltung, Wissenschaft, Wirtschaft und Zivilgesellschaft und setzt sich für die Öffnung von Daten ein. Der Verein organisiert Veranstaltungen sowie Hackathons und betreibt Fachaustausch zu Fragen der Datenpolitik. | Schweiz |
 | [opendatacommons.org](https://opendatacommons.org/) | Lizenzen für offene Daten | International |
 | [schema.org](https://schema.org) | Strukturierte Datenvokabulare für das Web | International |
 {.weblink1}

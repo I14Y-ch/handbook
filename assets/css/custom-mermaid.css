@@ -3,10 +3,6 @@
   font-weight: normal;
 }
 
-.mermaid text:has(> tspan:contains("[DVS BS+]")) {
-  font-weight: bold !important;
-}
-
 /* Style the DVS BS+ text itself */
 .mermaid .dvs-badge {
   fill: #FFB6C1 !important;
