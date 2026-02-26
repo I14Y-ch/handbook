@@ -5,6 +5,7 @@ weight: 30
 type: docs
 translationKey: dataset-data-elements
 keywords: [I14Y, Interoperabilitätsplattform I14Y, I14Y, Interoperabilität, Dataset, Datensatz, Konzept, Datenelement]
+draft: true
 ---
 
 Datenelemente sind die kleinsten Einheiten eines Datensatzes. Gelegentlich werden sie auch als Attribut bezeichnet, als (definierte) Variable oder im Fall einer Tabelle als Spalte. Das Datenelement enthält die einzelnen Werte, im Beispiel mit der Wohnbevölkerung also etwa die Anzahl der Personen, die in einer Gemeinde leben. Auf I14Y referenziert das Datenelement ein Konzept, ist also entweder eine Zeichenkette, eine Nummer, ein Datum oder eine Codeliste.

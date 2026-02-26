@@ -51,53 +51,6 @@ keywords: [Interoperabilitätsplattform I14Y, I14Y, Eingabefelder, Datensatz]
 | __Process ID__ | Wird ein Datensatz in einem Geschäftsprozess verwendet oder durch diesen generiert, kann in diesem Feld ein Identifikator für den betreffenden Prozess hinterlegt werden. | - | rdfs:Literal |  0..1 | optional | Spezifisch für I14Y |
 {.entry-fields-planned}
 
-### Struktur 
-Eine Struktur beschreibt, wie Datenobjekte organisiert sind und wie sie zusammenhängen. Auf der Interoperabilitätsplattform I14Y wird die Struktur mit der Shapes Constraint Language (SHACL) definiert. Dabei werden Klassen, Attribute und Beziehungen zwischen Objekten beschrieben. Nachfolgend wird der Aufbau einer Struktur kurz beschrieben; detaillierte Informationen sind auf der [SHACL-Website](https://www.w3.org/TR/shacl/) zu finden. 
-
-#### Klasse
-Eine Klasse beschreibt eine Gruppe von Objekten, die ähnliche Merkmale haben – zum Beispiel Einträge desselben Typs.
-
-| Feld | Beschreibung | URI | Wertebereich | Kardinalität | Anmerkung |
-| ---- | ---- | ---- |---- |---- |---- |
-| __Title__ | Lesbarer Name der Klasse, nützlich für Dokumentation und Benutzeroberflächen. | [rdfs\:label](https://www.w3.org/TR/rdf-schema/#ch_label) | `rdfs:Literal` | 0..n | erwünscht |
-| __Typ__ | Gibt den Typ des Objekts an. Klassen in SHACL sind vom Typ `sh:NodeShape`. | [rdf\:type](https://www.w3.org/TR/rdf12-schema/#ch_type) | `sh:NodeShape` (IRI) | 1..n | `sh:NodeShape` ist obligatorisch; weitere Typen sind möglich |
-| __Hat Eigenschaften__ | Liste der `PropertyShape`-Instanzen, die Attribute dieser Klasse beschreiben. | [sh\:property](https://www.w3.org/TR/shacl/#PropertyConstraintComponent) | Liste von `sh:PropertyShape` (IRIs) | 0..n | erwünscht; erforderlich, wenn die Klasse Eigenschaften hat. |
-| __Beschreibung__ | Beschreibung der Klasse. | [dcterms\:description](http://purl.org/dc/terms/description) | `rdfs:Literal` | 0..n | erwünscht |
-| __Modifiziert__ | Datum der letzten Änderung der Klasse. | [dcterms\:modified](http://purl.org/dc/terms/modified) | `xsd:dateTime` | 0..1 | erwünscht |
-| __Erstellt__ | Erstellungsdatum der Klasse. | [dcterms\:created](http://purl.org/dc/terms/created) | `xsd:dateTime` | 0..1 | erwünscht |
-
-#### Attribut
-Ein Attribut ist eine Eigenschaft oder ein Datenfeld, das einer Klasse zugeordnet ist (über sh:property). 
-
-| Feld | Beschreibung | URI | Wertebereich | Kardinalität | Anmerkung | 
-| ----| ---- | ---- | ---- | ----| ---- |
-| __Link zu den Daten__ | Legt fest, auf welche RDF-Daten die Einschränkung zutrifft. Dieses Attribut ist für eine gültige Struktur obligatorisch. Wenn die Daten nicht im RDF-Format vorliegen, Sie die Struktur jedoch in SHACL beschreiben möchten, können Sie einen Platzhalter-Link zur Ressource erstellen (z. B. mit einem Platzhalter-Präfix: http://example.com/). Dieser kann geändert werden, sobald die Daten im RDF-Format vorliegen. | [sh\:path](https://www.w3.org/TR/shacl/#property-shapes)| IRI | 1 | obligatorisch |
-| __Title__| Ein lesbarer Name für das Attribut, nützlich für Dokumentation und Benutzeroberflächen. | [sh\:name](https://www.w3.org/TR/shacl/#name)| `rdfs:Literal` | 0..n | erwünscht | 
-| __Typ__| Der Typ des Objekts. Ein Attribut in SHACL kann explizit (mit einem Objekt, das über die URI vom Typ sh:PropertyShape gefunden werden kann) oder implizit (ohne Erstellung eines separaten Objekts, durch direkte Angabe der Einschränkungen innerhalb der sh:property im Klassenobjekt) definiert werden. Es wird empfohlen, aber nicht vorgeschrieben, eine Eigenschaftsform als SHACL-Instanz von sh:PropertyShape zu deklarieren. | [rdf\:type](https://www.w3.org/TR/rdf12-schema/#ch_type) | `sh:PropertyShape` (IRI) | 1..n | obligatorisch (wird jedoch nicht verwendet, wenn das Attribut direkt in der Klasse über sh:property definiert ist) |
-| __Data Type__| Gibt den Datentyp der Eigenschaft an (z. B. "xsd:string", "xsd:dateTime" usw.). Diese Eigenschaft stellt sicher, dass die der Eigenschaft zugewiesenen Werte dem erwarteten Datentyp entsprechen.|[sh\:datatype](https://www.w3.org/TR/shacl/#DatatypeConstraintComponent) | IRIs (`xsd:integer`, `xsd:decimal`, `xsd:boolean`, `xsd:date`, ... Eine Liste der RDF-kompatiblen XSD-Typen finden Sie in der folgenden Dokumentation: [RDF 1.1 Concepts and Abstract Syntax](https://www.w3.org/TR/rdf11-concepts/#section-Datatypes)) |  0..1 | optional |
-| __Regex Pattern__ | In diesem Feld können Sie ein reguläres Ausdrücke definieren, die zum Abgleichen von Zeichenkombinationen in einer Zeichenfolge verwendet werden. Die Werte von sh:pattern sind gültige Musterargumente für die [SPARQL-Funktion REGEX](https://www.w3.org/TR/sparql11-query/#func-regex).|[sh\:pattern](https://www.w3.org/TR/shacl/#PatternConstraintComponent)| `rdfs:Literal` (with datatype `xsd:string`)| 0..1 | optional |
-| __Minimale Anzahl__| Kardinalitätsbeschränkung. Gibt die Mindestanzahl an, wie oft die Eigenschaft vorkommen darf.| [sh\:minCount](https://www.w3.org/TR/shacl/#MinCountConstraintComponent) | `rdfs:Literal` (typed as `xsd:integer`)| 0..1 |  optional |
-| __Maximale Anzahl__| Kardinalitätsbeschränkung. Gibt an, wie oft die Eigenschaft maximal vorkommen darf.| [sh\:maxCount](https://www.w3.org/TR/shacl/#MaxCountConstraintComponent) | `rdfs:Literal` (typed as `xsd:integer`) | 0..1 |  optional |
-| __Mindestlänge__| Mindestlänge eines String-Wertes. | [sh\:minLength](https://www.w3.org/TR/shacl/#MinLengthConstraintComponent) | rdfs:Literal (typed as xsd:integer)  | 0..1 |  optional |
-| __Maximale Länge__| Maximale Länge eines String-Werts. |[sh\:maxLength](https://www.w3.org/TR/shacl/#MaxLengthConstraintComponent) | `rdfs:Literal` (typed as `xsd:integer`) | 0..1 |  optional |
-| __Position__| Gibt die relative Reihenfolge des Elements an. | [sh\:order](https://www.w3.org/TR/shacl/#order) | `rdfs:Literal` (typed as `xsd:integer`)| 0..1 | optional |
-| __Beschreibung__| Eine Textbeschreibung, die weitere Details zur Eigenschaft liefert. | [sh\:description](https://www.w3.org/TR/shacl/#name) | `rdfs\:Literal` | 0..n | optional |
-| __Conforms To__| Ein Standard, dem die Ressource entspricht. In diesem Feld können die mit diesem Attribut verbundenen I14Y-Konzepte verlinkt werden. | [dcterms\:confromsTo](http://purl.org/dc/terms/conformsTo) | `dct:Standard` | 0..1 | optional |
-
-#### Assoziation
-Eine Assoziation ist eine bestimmte Beziehung zwischen verschiedenen Entitäten oder Klassen (über `sh:class`). 
-
-| Feld | Beschreibung | URI | Wertebereich | Kardinalität | Anmerkung | 
-| ----| ---- | ---- | ---- | ----| ---- |
-| __Link zu den Daten__ | Legt fest, auf welche RDF-Daten die Einschränkung zutrifft. Dieses Attribut ist für eine gültige Struktur obligatorisch. Wenn die Daten nicht im RDF-Format vorliegen, Sie die Struktur jedoch in SHACL beschreiben möchten, können Sie einen Platzhalter-Link zur Ressource erstellen (z. B. mit einem Platzhalter-Präfix: http://example.com/), der geändert werden kann, sobald die Daten im RDF-Format vorliegen. | [sh\:path](https://www.w3.org/TR/shacl/#property-shapes)| IRI | 1 | obligatorisch |
-| __Title__| Ein Name für die Attribut, den man lesen kann. Das ist wichtig, um die Klasse in der Dokumentation oder in Benutzeroberflächen zu erkennen. | [sh\:name](https://www.w3.org/TR/shacl/#name)| `rdfs:Literal` | 0..n | erwünscht | 
-| __Typ__| Der Typ des Objekts. Ein Attribut in SHACL kann explizit (mit einem Objekt, das über die URI vom Typ sh:PropertyShape gefunden werden kann) oder implizit (ohne Erstellung eines separaten Objekts, durch direkte Angabe der Einschränkungen innerhalb der sh:property im Klassenobjekt) definiert werden. Es wird empfohlen, aber nicht vorgeschrieben, eine Eigenschaftsform als SHACL-Instanz von sh:PropertyShapezu deklarieren.| [rdf\:type](https://www.w3.org/TR/rdf12-schema/#ch_type) | `sh:PropertyShape` (IRI) | 0..n | optional (die implizite Syntax kann verwendet werden) |
-| __Assoziation zur Klasse__| Dies ist die Eigenschaft, die eine Assoziation mit einer Klasse verknüpft (z. B. ist hasAddress mit der Klasse Address verknüpft). Sie können entweder sh:class oder sh:node verwenden. sh:class überprüft, ob ein Wert eine Instanz einer bestimmten RDF-Klasse ist, während sh:node überprüft, ob der Wert einer anderen Struktur (sh:NodeShape) entspricht. | [sh\:class](https://www.w3.org/TR/shacl/#ClassConstraintComponent)/[sh\:node](https://www.w3.org/TR/shacl/#NodeConstraintComponent)| IRIs | 0..1 |  erwünscht |
-| __Minimale Anzahl__| Kardinalitätsbeschränkung. Gibt die Mindestanzahl an, wie oft die Eigenschaft vorkommen darf.| [sh\:minCount](https://www.w3.org/TR/shacl/#MinCountConstraintComponent) |`rdfs:Literal` (typed as `xsd:integer`) | 0..1 |  optional |
-| __Maximale Anzahl__| Kardinalitätsbeschränkung. Gibt an, wie oft die Eigenschaft maximal vorkommen darf.| [sh\:maxCount](https://www.w3.org/TR/shacl/#MaxCountConstraintComponent)| `rdfs:Literal` (typed as `xsd:integer`) | 0..1 |  optional |
-| __Beschreibung__| Eine Textbeschreibung, die weitere Details zur Eigenschaft liefert. |[sh\:description](https://www.w3.org/TR/shacl/#name) | `rdfs:Literal` | 0..n | optional |
-| __Conforms To__| Ein Standard, dem die Ressource entspricht. In diesem Feld können die mit diesem Attribut verbundenen I14Y-Konzepte verlinkt werden. | [dcterms\:confromsTo](http://purl.org/dc/terms/conformsTo) | `dct:Standard` | 0..1 | optional |
-
 ### Distribution 
 [dcat:Distribution](https://www.dcat-ap.ch/releases/2.0/dcat-ap-ch.html#Class:Distribution)
 
@@ -130,3 +83,7 @@ Eine Assoziation ist eine bestimmte Beziehung zwischen verschiedenen Entitäten 
 | __Dokumente__ | Tragen Sie hier weitere Dokumente ein, die einen direkten Zusammenhang mit Ihrem Angebot haben, etwa eine Anleitung oder einen Hintergrundtext. | [foaf:page](https://www.dcat-ap.ch/releases/2.0/dcat-ap-ch.html#distribution-documentation) | foaf:Document | 0..n | optional | [DCAT-AP CH 2.0](https://www.dcat-ap.ch/releases/2.0/dcat-ap-ch.html) |
 | __Bild__ | Links zu kleinen Bildern, die den Inhalt der Distribution illustrieren. Dieses Feld ist von DCAT-AP-CH vorgesehen, nicht aber von DCAT-AP. Pro Datensatz sollen laut DCAT Links zu höchstens drei Bildern hinzugefügt werden. | [schema:image](https://www.dcat-ap.ch/releases/2.0/dcat-ap-ch.html#distribution-image) | schema:url | 0..3 | optional | [DCAT-AP CH 2.0](https://www.dcat-ap.ch/releases/2.0/dcat-ap-ch.html) |
 {.entry-fields-planned}
+
+### Struktur
+
+Eine Struktur beschreibt, wie Datenobjekte aufgebaut sind und zueinander in Beziehung stehen. Auf I14Y wird die Struktur mit SHACL (Shapes Constraint Language) definiert und besteht aus drei Hauptobjekten: **Klassen** (`sh:NodeShape`), **Attributen** (`sh:PropertyShape`) und **Assoziationen** (ebenfalls `sh:PropertyShape`, aber mit Verweis auf eine andere Klasse). Die vollständige Felddokumentation für alle drei Objekte findet sich unter [Felder zur Beschreibung einer Struktur](/handbook/de/anhang/eingabefelder/struktur/).
