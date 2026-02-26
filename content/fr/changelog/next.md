@@ -5,7 +5,7 @@ slug: prochaine-version
 weight: 10
 type: docs
 keywords: [I14Y, Plateforme d’interopérabilité I14Y, IOP, Changelog, Releases, Versions, Développement logiciel]
-draft: false
+draft: true
 ---
 
 La prochaine version d’I14Y est prévue pour la soirée du 25 février 2026. Elle comprend les adaptations et les extensions décrites ci‑dessous. Les organisations partenaires d’I14Y disposant d’un accès correspondant peuvent tester immédiatement le logiciel mis à jour sur l’[environnement de recette d’I14Y](https://input.i14y-a.admin.ch). Veuillez contacter l’Unité d’interopérabilité si vous n’avez pas encore accès à cet environnement utilisé pour les tests logiciels.

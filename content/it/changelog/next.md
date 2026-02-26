@@ -5,7 +5,7 @@ slug: prossimo-rilascio
 weight: 10
 type: docs
 keywords: [I14Y, Piattaforma di interoperabilità I14Y, IOP, Changelog, Releases, Versioni, Sviluppo software]
-draft: false
+draft: true
 ---
 
 Il prossimo rilascio di I14Y è previsto per la sera del 25 febbraio 2026. Comprende le modifiche e le estensioni descritte di seguito. Le organizzazioni partner di I14Y con il relativo accesso possono testare sin da subito il software aggiornato nell’[ambiente di collaudo di I14Y](https://input.i14y-a.admin.ch). Se non avete ancora accesso a questo ambiente, utilizzato per i test del software, vi preghiamo di contattare il Servizio di interoperabilità.
