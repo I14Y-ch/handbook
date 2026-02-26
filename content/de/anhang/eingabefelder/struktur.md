@@ -5,7 +5,6 @@ weight: 15
 type: docs
 translationKey: fields_structure
 keywords: [Interoperabilitätsplattform I14Y, I14Y, Eingabefelder, Struktur, SHACL, Klasse, Attribut, Assoziation]
-draft: true
 ---
 
 Eine Struktur beschreibt, wie ein Datenangebot aufgebaut ist: Welche Klassen (Tabellen/ Entitätstypen), Attribute (Felder/ Spalten) und Assoziationen (Beziehungen zwischen Klassen) enthält es? Auf I14Y werden Strukturen mit der [Shapes Constraint Language (SHACL)](https://www.w3.org/TR/shacl/) definiert und als Turtle (TTL)-, RDF- oder JSON-LD-Datei hinterlegt.
