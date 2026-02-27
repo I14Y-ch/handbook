@@ -1,7 +1,7 @@
 ---
-title: Datensatz
+title: Datensatz erfassen
 slug: datensatz
-weight: 20
+weight: 30
 type: docs
 translationKey: dataset
 keywords: [I14Y, Interoperabilitätsplattform I14Y, I14Y, Interoperabilität, Datensatz, Datensatz, Dataset, Datensatz, Erfassen, Erfassung, Inventar, Katalog]
@@ -20,7 +20,7 @@ keywords: [I14Y, Interoperabilitätsplattform I14Y, I14Y, Interoperabilität, Da
 
         dataset1---|hat eine|structure1
         structure1---|beinhaltet ein|dataelement1
-        dataelement1---|hat ein|concept1
+        dataelement1---|referenziert ein|concept1
         concept1---|ist eine|codelist
         concept1---|ist eine|numeric
         concept1---|ist eine|string

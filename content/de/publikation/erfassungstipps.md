@@ -1,5 +1,5 @@
 ---
-title: Grundlegende Tipps zur Erfassung
+title: Grundlegende Tipps
 slug: tipps
 weight: 20
 type: docs
@@ -7,18 +7,18 @@ translationKey: hints
 keywords: [I14Y, I14Y, Interoperabilitätsplattform I14Y, Katalog, Metadaten, erfassen, Tipps]
 ---
 
-Die sorgfältige Erfassung von Metadaten ist entscheidend für die Auffindbarkeit, Verständlichkeit und Nutzbarkeit von Daten. Gut strukturierte und vollständige Metadaten ermöglichen es Nutzerinnen und Nutzern, relevante Informationen schnell zu finden und deren Kontext richtig einzuordnen. Sie bilden die Grundlage für eine effektive Datennutzung und fördern die Interoperabilität zwischen verschiedenen Systemen und Organisationen.
+Die Nutzerinnen und Nutzer sollen die gewünschten Einträge rasch und zuverlässig finden. Sie sollen die Einträge richtig einordnen können. Damit dies gelingt, müssen die Metadaten verständlich, gut strukturiert und vollständig sein.
 
-Die folgenden Hinweise sollen Sie dabei unterstützen, qualitativ hochwertige Metadaten zu erfassen, die sowohl fachlichen Anforderungen genügen als auch für ein breites Publikum zugänglich sind.
+In diesem Kapitel finden Sie grundlegende Tipps zur Erfassung von Metadaten, die für alle Objektarten auf I14Y gleichermassen wichtig sind. Sie erfahren, wie Sie Metadaten so formulieren und pflegen, dass Ihre Einträge aus Sicht der Nutzerinnen und Nutzer klar, konsistent und vertrauenswürdig sind.
 
 
 ## Texte richtig formulieren
 
-Titel sollen kurz und aussagekräftig sein, während Beschreibungen detaillierter sind und den Kontext, den Zweck sowie die wesentlichen Inhalte eines Objekts erklären.
+Alle Einträge auf I14Y beinhalten einen Titel und eine Beschreibung. Die Titel sollen kurz und aussagekräftig sein, während Beschreibungen detaillierter sind und den Kontext, den Zweck sowie die wesentlichen Inhalte eines Objekts erklären.
 
-Bei der Erfassung von Titeln und Beschreibungen ist darauf zu achten, dass diese sowohl für ein Fachpublikum als auch für ein breiteres Publikum verständlich sind. Die Beschreibungen sollen präzise und inhaltlich vollständig sein, sodass Fachpersonen alle relevanten Informationen erhalten. Gleichzeitig sollen sie so formuliert werden, dass auch Personen ohne Fachkenntnisse den Inhalt und Zweck zumindest im Grundsatz nachvollziehen können. Fachbegriffe können verwendet werden, sollten aber nach Möglichkeit kurz erläutert oder durch allgemein verständliche Formulierungen ergänzt werden. Abkürzungen werden in Beschreibungen einleitend ausgeschrieben bzw. erklärt. 
+Bei der Erfassung von Titeln und Beschreibungen ist darauf zu achten, dass diese sowohl für ein Fachpublikum als auch für ein breiteres Publikum verständlich sind. Die Beschreibungen sollen präzise und inhaltlich vollständig sein, sodass Fachpersonen alle relevanten Informationen erhalten. Gleichzeitig sollen sie so formuliert werden, dass auch Personen ohne Fachkenntnisse den Inhalt und Zweck grob nachvollziehen können. Fachbegriffe können verwendet werden, sollten aber nach Möglichkeit bei ihrer ersten Nennung kurz erläutert oder durch allgemein verständliche Formulierungen ergänzt werden. Abkürzungen werden in Beschreibungen einleitend ausgeschrieben beziehungsweise erklärt. 
 
-Auf Formatierungen der Texte ist zu verzichten; auch Markdown wird aktuell nicht unterstützt.
+Damit die Texte überll gleich dargestellt werden, ist auf I14Y auf Formatierungen zu verzichten; auch Markdown wird aktuell nicht unterstützt.
 
 ## Mehrsprachigkeit 
 
@@ -38,7 +38,7 @@ Durch die Verwendung kontrollierter Terminologien wird eine einheitliche Begriff
 Schlüsselwörter helfen, Datensätze besser auffindbar zu machen und ihren Kontext präziser abzustecken. Sie werden für die Suchfunktion indexiert. Einträge mit relevanten Schlüsselwörtern werden deshalb leichter gefunden werden. Zudem ermöglichen Schlüsselwörter eine bessere Kategorisierung und Vergleichbarkeit von Datensätzen. Durch die Anbindung an kontrollierte Vokabulare wie Termdat, GEMET oder Wikidata werden mittelfristig weitergehende Abfragen über _Linked Data_ möglich.
 {{</alert>}}
 
-Die Funktionalität zum Hinterlegen von URIs bei Schlüsselwörtern wurde mit dem [Software-Release vom 7. Januar 2026](https://handbook.i14y.admin.ch/de/changelog/releases/) auf I14Y eingeführt. Damit hat I14Y die Änderung bereits integriert, die die kommende [Version 3 von DCAT-AP CH](https://www.dcat-ap.ch/releases/3.0_workingdraft/dcat-ap-ch_3.0_workingdraft.html#resource-keyword) verlangt. Die _Local Data Stewards_ sind gebeten, die Schlüsselwörter ihrer Einträge im Rahmen des normalen Kontroll- und Überarbeitungszyklus zu aktualisieren und zu ergänzen. Je nach Arbeitsweise stehen unterschiedliche Möglichkeiten zur Verfügung:
+Die Funktionalität zum Hinterlegen von URIs bei Schlüsselwörtern wurde [anfangs 2026](https://handbook.i14y.admin.ch/de/changelog/releases/) eingeführt. Damit hat I14Y die Änderung bereits integriert, die die kommende [Version 3 von DCAT-AP CH](https://www.dcat-ap.ch/releases/3.0_workingdraft/dcat-ap-ch_3.0_workingdraft.html#resource-keyword) verlangt. Die _Local Data Stewards_ sind gebeten, die Schlüsselwörter ihrer Einträge im Rahmen des normalen Kontroll- und Überarbeitungszyklus zu aktualisieren und zu ergänzen. Je nach Arbeitsweise stehen unterschiedliche Möglichkeiten zur Verfügung:
 
 ### Erfassung über die Weboberfläche
 

@@ -12,7 +12,7 @@ type: docs
 
 {{< event-card 
   title="Steuerungsausschuss I14Y"
-  location="Bern"
+  location="BK-DTI, Bern"
   date="03. März 2026"
 >}}
 Treffen des Steuerungsausschusses I14Y in Bern. Im Steuerungsausschuss sind die grössten Organisationen vertreten, die die Interoperabilitätsplattform aktiv nutzen. Kontaktieren Sie die [Interoperabilitätsstelle](mailto:i14y@bfs.admin.ch) für weitere Informationen.
@@ -20,7 +20,7 @@ Treffen des Steuerungsausschusses I14Y in Bern. Im Steuerungsausschuss sind die 
 
 {{< event-card 
   title="Swiss EGOVERNMENT Forum"
-  location="Bern"
+  location="Festhalle Bern, Bern"
   date="11. März 2026"
   link="https://e-governmentforum.ch/"
 >}}
@@ -37,6 +37,7 @@ Treffen des Steuerungsausschusses I14Y in Neuchâtel. Im Steuerungsausschuss sin
 
 {{< event-card 
   title="Meet-up der Local Data Stewards"
+  location=""
   date="29. Oktober 2026"
 >}}
 Austausch und Vernetzung der Local Data Stewards der öffentlichen Verwaltung.

@@ -13,6 +13,55 @@ Möchten Sie über neue Funktionen und Angebote auf der Interoperabilitätsplatt
 
 {{</alert>}}
 
+## Eine gemeinsame Sprache macht alles einfacher
+*20.02.2026*
+
+Manchmal wird die Bedeutung einer gemeinsamen Sprache besonders klar, wenn sie fehlt: Gleiche Themen, unterschiedliche Begriffe – Systeme sprechen aneinander vorbei. I14Y setzt genau hier an und unterstützt den effizienten Austausch mit Hilfsmitteln und Werkzeugen für gemeinsame, maschinenlesbare Beschreibungen.
+
+Neu stärkt auch die Schlüsselwort-Erfassung dieses gemeinsame Verständnis: Sie können Schlüsselwörter mit kontrollierten Terminologien (z. B. [TERMDAT](https://termdat.bk.admin.ch), [GEMET](https://www.eionet.europa.eu/gemet) oder [Wikidata](https://wikidata.org)) verknüpfen und so die Auffindbarkeit über Systemgrenzen hinweg verbessern. Als Referenzpunkt für ein gemeinsames Begriffsverständnis empfehlen wir zudem die TERMDAT-Terminologiesammlung «Daten- und Informationsmanagement» (DIM25). Sie finden die Sammlung in TERMDAT über «Erweiterte Suche» und dort im Feld «Terminologiesammlungen» mit der Auswahl «DIM25».
+
+## Automatische Erstellung von RDF-Strukturen für OGD-Datensätze
+*20.02.2026*
+
+{{< figure src="/handbook/img/news/newsmail-2026-1-rdf-strukturen.png" alt="Grafik Automatische Erstellung von RDF-Strukturen für OGD-Datensätze" width="125px" class="float-left img-news-thumb" >}}
+
+Für die Veröffentlichung der Strukturen von Open-Data-Datensätzen wurde ein Prozess entwickelt, der aus den in den Distributionen verfügbaren CSV- und PXWeb-Dateien automatisch RDF/SHACL-Strukturen erzeugt. Durch diese Automatisierung konnten mehr als 900 Datensätze des BFS nach den Standards des Semantic Web dokumentiert werden. Das verbessert die Kohärenz und die Qualität der Validierung.
+
+Welche Vorteile hat dieser Prozess für die Dokumentation von Datensätzen?
+
+- Zeitgewinn: RDF/SHACL-Strukturen müssen nicht mehr manuell erstellt werden.
+- Einfachere Integration: Die maschinenlesbare Beschreibung der Datensätze erleichtert die Einrichtung von Diensten, die auf offenen Daten beruhen.
+- Bessere Vernetzung: Einheitliche Strukturen bilden die Grundlage für die spätere Verknüpfung von Datensätzen und erleichtern das Erkennen von Datensätzen, die auf ähnlichen Konzepten beruhen.
+
+Der neue Prozess verringert den Dokumentationsaufwand, fördert die Interoperabilität zwischen Datensätzen und schafft bessere Voraussetzungen für eine konsistente technische Mehrfachverwendung.
+
+## Kontrollierte Terminologie: I14Y verbessert die Schlüsselwort-Erfassung
+*20.02.2026*
+
+{{< figure src="/handbook/img/news/newsmail-2026-1-terminologie.png" alt="Grafik Kontrollierte Terminologie: I14Y verbessert die Schlüsselwort-Erfassung" width="125px" class="float-left img-news-thumb" >}}
+
+Schlüsselwörter spielen eine zentrale Rolle für die Auffindbarkeit von Datensätzen. Auf I14Y wurde die Schlüsselwort-Erfassung deshalb erweitert: Neu können Schlüsselwörter aus Terminologie-Datenbanken übernommen und mit den entsprechenden Referenzen gespeichert werden. Unterstützt werden unter anderem TERMDAT, der mehrsprachige europäische Umwelt-Thesaurus GEMET sowie Wikidata. Das verbessert die Qualität der Metadaten, stärkt die Auffindbarkeit über verschiedene Systeme hinweg und entspricht den Anforderungen des Austauschstandards DCAT-AP CH.
+
+Je nach Arbeitsweise stehen unterschiedliche Möglichkeiten zur Verfügung: Sie übernehmen Schlüsselwörter direkt bei der Erfassung aus einer ausgewählten Terminologie-Datenbank, speisen Terminologie-Referenzen automatisiert über die [I14Y-API](https://apiconsole.i14y.admin.ch) ein oder bereiten konsistente Schlüsselwortlisten mit dem «Keyword Generator» in der [I14Y-Toolbox](https://toolbox.i14y.admin.ch) vor. Weiterführende Hinweise finden Sie im Kapitel [Grundlegende Tipps](https://handbook.i14y.admin.ch/handbook/de/publikation/tipps/).
+
+## Roadmap 2026: Wichtige Weiterentwicklungen für I14Y
+*20.02.2026*
+
+{{< figure src="/handbook/img/news/newsmail-2026-1-roadmap-2026.png" alt="Grafik Roadmap 2026: Wichtige Weiterentwicklungen für I14Y" width="125px" class="float-left img-news-thumb" >}}
+
+2026 bringt zahlreiche Neuerungen, die die Nutzung von I14Y vereinfachen und die Interoperabilität stärken. Mapping-Tabellen ermöglichen es, Entsprechungen zwischen Codes verschiedener Nomenklaturen effizient zu verwalten – ein Vorteil für harmonisierte Workflows und präzisere Datenvergleiche. Jedes Datenobjekt erhält künftig eine eindeutige, standardisierte URI. Das verbessert die Referenzierbarkeit und erhöht die Zuverlässigkeit.
+
+Zudem können Strukturen direkt in der Benutzeroberfläche bearbeitet und ihre Attribute mit Konzepten verknüpft werden – ein wichtiger Schritt zu messbarer Harmonisierung und sichtbarer Wiederverwendung. Der geplante Wechsel zu Open Source – wie es das EMBAG verlangt – schafft mehr Flexibilität und Sicherheit und erleichtert sowohl eigene Integrationen als auch eine mögliche lokale Installation von I14Y. Details finden Sie auf der [Roadmap](https://handbook.i14y.admin.ch/handbook/de/plattform/roadmap/).
+
+## Die Gap-Analyse für metadata.swiss ist abgeschlossen
+*20.02.2026*
+
+{{< figure src="/handbook/img/news/newsmail-2026-1-gap-analyse.png" alt="Grafik Die Gap-Analyse für metadata.swiss ist abgeschlossen" width="125px" class="float-left img-news-thumb" >}}
+
+Die Gap-Analyse für metadata.swiss wurde erfolgreich abgeschlossen und den zuständigen Stellen zur Vernehmlassung übergeben. Sie zeigt auf, wie die Funktionen von opendata.swiss und I14Y – und damit Open Data und Interoperabilität – optimal zu einer gemeinsamen Plattform für Meta- und Referenzdaten zusammengeführt werden können.
+
+Empfohlen wird, die beschreibenden Katalogfunktionen mit Piveau (Open Source) umzusetzen und die Interoperabilitätsfunktionen aus I14Y inklusive des bestehenden Toolsets zu übernehmen. Ein zentrales Ziel der Weiterentwicklung besteht darin, manuelle Erfassungsarbeiten durch höhere Automatisierung zu reduzieren und eine gemeinsame, effiziente Plattform für Meta- und Referenzdaten zu schaffen.
+
 ## Eine neue Phase für die Interoperabilitätsplattform I14Y
 *04.12.2025*
 

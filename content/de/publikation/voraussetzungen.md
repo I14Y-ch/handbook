@@ -1,5 +1,5 @@
 ---
-title: Voraussetzungen für eine Publikation
+title: Voraussetzungen
 slug: voraussetzungen
 weight: 10
 type: docs

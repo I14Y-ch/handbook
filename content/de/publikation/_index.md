@@ -8,45 +8,10 @@ translationKey: metadata-publication
 keywords: [Interoperabilitätsplattform I14Y, I14Y, Publikation, Veröffentlichung, Metadaten, Katalog, Konzepte]
 ---
 
-![Szene aus dem Erklärvideo zur Interoperabilitätsplattform I14Y](/handbook/img/i14y-film_erfassen.png)
+![Symbolbild Katalog pflegen](/handbook/img/i14y-film_erfassen.png)
 
-Die Interoperabilitätsplattform I14Y lässt sich vielfältig einsetzen: Im Katalog-Bereich werden Datensätze, elektronische Schnittstellen und Behördenleistungen verzeichnet. Und unter "Konzepte" lassen sich einzelne Datenelemente beschreiben. Werden Konzepte öffentlich freigegeben, können sie von anderen Nutzerinnen und Nutzern wiederverwendet werden. 
+Sie möchten ein internes Inventar Ihrer Datenangebote erstellen? Sie möchten Ihre Daten öffentlich beschreiben? Oder Sie möchten eine Behördenleistung bekannt machen? In allen drei Fällen sind Sie auf der Interoperabilitätsplattform I14Y am richtigen Ort.
 
-```mermaid
-flowchart LR
-    i14y(I14Y)
-    catalog(Katalog)
-    dataset(Datensatz)
-    dataservice(Elektronische Schnittstelle)
-    publicservice(Behördenleistung)
-    concept(Konzept)
+Abhängig davon, was beschrieben werden soll, müssen andere Aspekte berücksichtigt werden. In diesem Teil des Handbuchs wird gezeigt, wie die verschiedenen Metadaten auf der Interoperabilitätsplattform I14Y erfasst werden. Zunächst werden die [Voraussetzungen](voraussetzungen) für eine Publikation erläutert – etwa welche Berechtigungen benötigt werden. Dann folgen detaillierte Anleitungen zur Erfassung von [Datensätzen](datensatz), [elektronischen Schnittstellen](elektronsiche-schnittstelle), [Behördenleistungen](publicservice) und [Konzepten](konzept). 
 
-
-    i14y-->catalog
-    
-    catalog-->dataset
-    catalog-->dataservice
-    catalog-->publicservice
-    catalog-->concept
-
-    
-style i14y fill:#6CC8FF
-style i14y stroke:black
-
-style catalog fill:#Bfe2ab
-style catalog stroke:black
-
-style dataset fill:#Fbb54e
-style dataset stroke:black
-
-style dataservice fill:#Fbb54e
-style dataservice stroke:black
-
-style publicservice fill:#Fbb54e
-style publicservice stroke:black
-
-style concept fill:#Bfe2ab
-style concept stroke:black
-```
-
-Abhängig davon, was beschrieben werden soll, müssen andere Aspekte berücksichtigt werden. In diesem Teil des Handbuchs wird gezeigt, wie die verschiedenen Metadaten auf der I14Y-Interperabilitätsplattform erfasst werden.
+Wer Metadaten nicht manuell eingeben möchte, findet im Abschnitt zur [API](api) Hinweise zur maschinellen Datenerfassung. Ergänzend gibt es [Erfassungstipps](erfassungstipps) sowie einen Überblick über die Werkzeuge in der [Toolbox](toolbox).

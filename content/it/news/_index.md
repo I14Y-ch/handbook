@@ -13,6 +13,59 @@ Desiderate essere informati sulle nuove funzionalità e offerte della piattaform
 
 {{</alert>}}
 
+## Un linguaggio comune rende tutto più facile
+*20.02.2026*
+
+A volte, è quando manca un linguaggio comune, che l’importanza di un tale linguaggio diventa particolarmente evidente. Chiunque abbia provato a unire set di dati provenienti da fonti diverse sa di cosa stiamo parlando: stessi concetti, ma termini diversi – i sistemi parlano lingue diverse. È proprio in questi casi che entra in gioco la piattaforma I14Y e risolve il problema con ausili e strumenti che permettono uno scambio più efficiente.
+
+A supporto di questo linguaggio comune è stata introdotta anche una nuova funzionalità: ora banche dati terminologiche verificate come [TERMDAT](https://www.termdat.bk.admin.ch/search), [GEMET](https://www.eionet.europa.eu/gemet/it/about/) o [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page) possono essere utilizzate direttamente per la registrazione delle parole chiave. I rimandi agli oggetti corrispondenti presenti in queste tre basi terminologiche possono essere salvati per tutte le parole chiave – che si tratti di set di dati, API, concetti o prestazioni delle autorità. La raccolta terminologica di TERMDAT «Gestione dei dati e delle informazioni» (DIM25) funge da punto di riferimento comune: in TERMDAT, selezionate «Ricerca avanzata» e scegliete «DIM25» nel campo «Raccolte terminologiche».
+
+## Generazione automatica di strutture RDF per i set di dati OGD
+*20.02.2026*
+
+{{< figure src="/handbook/img/news/newsmail-2026-1-thumb-rdf.png" alt="Grafica Generazione automatica di strutture RDF per i set di dati OGD" width="125px" class="float-left img-news-thumb" >}}
+
+Per la pubblicazione delle strutture dei set di dati aperti, è stato messo a punto un processo che consente di generare automaticamente strutture RDF e SHACL a partire dai file CSV e PXWeb disponibili nelle distribuzioni. Questa automazione, che ha permesso di documentare più di 900 set di dati dell’UST nel rispetto degli standard del web semantico, migliora la coerenza delle descrizioni e aumenta la qualità dei dati da convalidare.
+
+Quali sono i vantaggi per la documentazione dei set di dati?
+
+- Risparmio di tempo: le strutture RDF e SHACL non devono più essere create manualmente.
+- Integrazione semplificata: i set di dati sono descritti in un formato leggibile elettronicamente, il che semplifica lo sviluppo di servizi basati su dati aperti.
+- Migliore interconnessione: le strutture uniformi costituiscono la base per collegare meglio diversi set di dati e per identificare quelli relativi a concetti simili.
+
+Questo nuovo processo riduce l’onere necessario per la documentazione, aumenta l’interoperabilità tra i set di dati e migliora le condizioni per un utilizzo multiplo coerente dal punto di vista tecnico.
+
+## Terminologia verificata: così la piattaforma I14Y migliora l’inserimento delle parole chiave
+*20.02.2026*
+
+{{< figure src="/handbook/img/news/newsmail-2026-1-thumb-terminologie.png" alt="Grafica Terminologia verificata: così la piattaforma I14Y migliora l’inserimento delle parole chiave" width="125px" class="float-left img-news-thumb" >}}
+
+Le parole chiave svolgono un ruolo centrale nella reperibilità dei set di dati. Ecco perché l’inserimento delle parole chiave su I14Y è stato ampliato: queste possono ora essere riprese direttamente da banche dati terminologiche. I14Y supporta, tra l’altro, TERMDAT, GEMET e Wikidata. Il ricorso a banche terminologiche verificate promuove l’utilizzo di una terminologia univoca: aumenta la qualità dei metadati e li rende più facili da reperire in diversi sistemi. Inoltre, la nuova funzione soddisfa i requisiti dello standard DCAT-AP CH per lo scambio dei dati.
+
+A seconda delle modalità di lavoro sono possibili diverse varianti: durante l’inserimento, le parole chiave possono essere riprese direttamente dalla banca dati terminologica selezionata. Per i processi automatizzati, è anche possibile implementare i riferimenti terminologici tramite l’[API I14Y](https://apiconsole.i14y.admin.ch). La [toolbox I14Y](https://toolbox.i14y.admin.ch) mette inoltre a disposizione un generatore di parole chiave che aiuta a preparare e aggiornare elenchi coerenti e riutilizzabili.
+
+Il manuale I14Y (attualmente disponibile solo in tedesco) fornisce istruzioni dettagliate sull’utilizzo di questa nuova funzione: https://handbook.i14y.admin.ch/handbook/de/publikation/tipps/#schl%C3%BCsselw%C3%B6rter-und-kontrollierte-terminologie.
+
+Nei casi in cui non esiste o non è disponibile una banca dati terminologica pertinente, rimane comunque la possibilità di inserire parole chiave sotto forma di testo libero.
+
+## Roadmap 2026: importanti sviluppi per I14Y
+*20.02.2026*
+
+{{< figure src="/handbook/img/news/newsmail-2026-1-thumb-roadmap.png" alt="Grafica Roadmap 2026: importanti sviluppi per I14Y" width="125px" class="float-left img-news-thumb" >}}
+
+Il 2026 porta con sé molte novità che semplificano l’utilizzo di I14Y e rafforzano l’interoperabilità. Le tabelle di mappatura consentono di gestire in modo efficiente le corrispondenze tra codici di nomenclature diverse, un vantaggio sia per armonizzare i flussi di lavoro che per confrontare i dati in modo più preciso.
+
+Da ora in poi, ogni oggetto di dati riceverà un URI unico e standardizzato finalizzato a migliorarne sia il referenziamento che l’affidabilità. Inoltre, le strutture possono essere modificate direttamente nell’interfaccia utente e i loro attributi collegati ai concetti: un passo importante verso un’armonizzazione misurabile e un riutilizzo visibile. Il passaggio programmato all’open source – come richiesto dalla LMETA – offre maggiore flessibilità e sicurezza e facilita sia le integrazioni proprie sia una possibile installazione locale della piattaforma I14Y. Dettagli sulla [roadmap](https://handbook.i14y.admin.ch/handbook/it/piattaforma/roadmap/).
+
+## Completata l’analisi delle lacune di metadata.swiss
+*20.02.2026*
+
+{{< figure src="/handbook/img/news/newsmail-2026-1-thumb-gap.png" alt="Grafica Completata l’analisi delle lacune di metadata.swiss" width="125px" class="float-left img-news-thumb" >}}
+
+L’analisi delle lacune di metadata.swiss è stata completata con successo e sottoposta per consultazione alle istanze competenti. Mostra come le funzioni delle piattaforme opendata.swiss e I14Y, ovvero gli open data e l’interoperabilità, possano essere combinate in modo ottimale su un’unica piattaforma che contenga sia i metadati che i dati di riferimento.
+
+Si raccomanda di implementare le funzioni descrittive del catalogo servendosi di Piveau (software open source) e di adottare le funzioni di interoperabilità di I14Y, compreso il set di strumenti esistenti. Due dei principali obiettivi dell’ulteriore sviluppo sono quello di ridurre l’onere rappresentato dall’inserimento manuale dei dati attraverso una maggiore automazione e quello di creare una piattaforma unica ed efficiente per i metadati e i dati di riferimento.
+
 ## La piattaforma di interoperabilità I14Y entra in una nuova fase!
 *04.12.2025*
 

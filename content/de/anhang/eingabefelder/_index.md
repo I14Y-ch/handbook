@@ -1,7 +1,7 @@
 ---
 title: Übersicht über die Eingabefelder
 slug: eingabefelder
-weight: 0
+weight: 10
 type: docs
 translationKey: input-fields-overview
 keywords: [Interoperabilitätsplattform I14Y, I14Y, Glossar, Eingabefelder, Standard]

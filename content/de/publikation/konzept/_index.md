@@ -1,7 +1,7 @@
 ---
-title: Konzepte erfassen
+title: Konzept erfassen
 slug: konzepte
-weight: 0
+weight: 60
 type: docs
 translationKey: concept
 keywords: [I14Y, I14Y, Interoperabilitätsplattform I14Y, Konzepte, Codeliste, Codelisten, Datenelemente, Mehrfachnutzung, Publikation, publizieren, veröffentlichen]

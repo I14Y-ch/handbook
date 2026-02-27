@@ -1,5 +1,5 @@
 ---
-title: Elektronische Schnittstelle
+title: Elektronische Schnittstelle erfassen
 slug: api
 weight: 30
 type: docs

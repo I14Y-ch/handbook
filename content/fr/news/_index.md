@@ -13,6 +13,59 @@ Vous souhaitez être informés des nouvelles fonctions et des offres de la plate
 
 {{</alert>}}
 
+## Utiliser un langage commun, c’est simplifier les processus
+*20.02.2026*
+
+L’importance d’avoir un langage commun se sent d’autant plus lorsque celui-ci fait défaut. Fusionner des jeux de données provenant de différentes sources, c’est inévitablement se confronter au problème suivant: bien que ces jeux abordent les mêmes sujets, ils n’utilisent pas la même terminologie. Résultat: les systèmes n’arrivent pas à communiquer. La plateforme I14Y résout ce problème en proposant des outils et des moyens auxiliaires pour rendre les échanges plus efficaces.
+
+Une nouvelle fonctionnalité vient encore renforcer ce langage commun: il est désormais possible d’utiliser directement des bases de données terminologiques contrôlées telles que [TERMDAT](https://www.termdat.bk.admin.ch/search), [GEMET](https://www.eionet.europa.eu/gemet/fr/about/) ou [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page) pour saisir des mots-clés. Les renvois vers les objets correspondants peuvent être enregistrés pour tous les mots-clés – qu’il s’agisse de jeux de données, d’API, de concepts ou de prestations des autorités. Enfin, la collection terminologique TERMDAT en matière de gestion des données et des informations (DIM25) sert de référence commune: dans TERMDAT, sélectionnez «Recherche avancée» puis choisissez la collection «DIM25» dans le champ «Collections terminologiques».
+
+## Génération automatique des structures RDF pour les jeux de données OGD
+*20.02.2026*
+
+{{< figure src="/handbook/img/news/newsmail-2026-1-thumb-rdf.png" alt="Graphique Génération automatique des structures RDF pour les jeux de données OGD" width="125px" class="float-left img-news-thumb" >}}
+
+Dans le cadre de la publication des structures des jeux de données open data, nous avons mis en place un processus innovant permettant de générer automatiquement des structures RDF (SHACL) à partir des fichiers CSV et PXWeb disponibles dans les distributions accessibles. Cette automatisation nous permet de documenter ces jeux de données en conformité avec les standards du Web sémantique, garantissant ainsi une meilleure cohérence et une validation fiable. Plus de 900 jeux de données sont concernés.
+
+Quels avantages pour nos partenaires?
+
+- Gain de temps: plus besoin de créer manuellement des structures RDF/SHACL.
+- Facilité d’intégration: simplifie la mise en place de services basés sur des données ouvertes; les jeux de données sont décrits d’une manière compréhensible par les machines.
+- Favorise l’interconnexion: cette base nous permettra prochainement de relier les structures des différents jeux de données entre eux et de mettre en évidence ceux qui réutilisent des concepts similaires.
+
+Cette étape importante ouvre la voie à des services plus fiables et interconnectés, tout en réduisant les efforts pour nos partenaires. Elle renforce considérablement les possibilités d’interopérabilité entre les jeux de données.
+
+## Saisie des mots-clés améliorée sur I14Y grâce à des terminologies contrôlées
+*20.02.2026*
+
+{{< figure src="/handbook/img/news/newsmail-2026-1-thumb-terminologie.png" alt="Graphique Saisie des mots-clés améliorée sur I14Y grâce à des terminologies contrôlées" width="125px" class="float-left img-news-thumb" >}}
+
+Les mots-clés jouent un rôle central pour trouver des jeux de données. Leur saisie a donc été étendue sur la plateforme I14Y: il est désormais possible de reprendre des mots-clés provenant de bases de données terminologiques. Sont notamment pris en charge TERMDAT, le thésaurus environnemental européen multilingue GEMET ainsi que la plateforme de données collaborative Wikidata. Le recours à des terminologies contrôlées favorise l’uniformité des termes. On améliore ainsi la qualité des métadonnées tout en facilitant la recherche dans différents systèmes. En outre, la nouvelle fonction répond aux exigences de la norme d’échange DCAT-AP CH.
+
+Plusieurs variantes sont possibles, en fonction du mode de travail de chacun: lors de la saisie, on peut directement reprendre des mots-clés depuis la base de données terminologique choisie. Pour les processus automatisés, il est aussi possible d’implémenter les références terminologiques via l’[API I14Y](https://apiconsole.i14y.admin.ch). La [toolbox I14Y](https://toolbox.i14y.admin.ch) fournit en outre un générateur de mots-clés pour préparer et gérer des listes cohérentes et réutilisables.
+
+Le manuel I14Y (actuellement disponible uniquement en allemand) fournit des instructions détaillées sur l’utilisation de cette nouvelle fonction: https://handbook.i14y.admin.ch/handbook/de/publikation/tipps/#schl%C3%BCsselw%C3%B6rter-und-kontrollierte-terminologie.
+
+La saisie de mots-clés en texte libre reste possible s’il n’existe aucune terminologie appropriée.
+
+## Feuille de route 2026: d’importants développements pour I14Y
+*20.02.2026*
+
+{{< figure src="/handbook/img/news/newsmail-2026-1-thumb-roadmap.png" alt="Graphique Feuille de route 2026: d’importants développements pour I14Y" width="125px" class="float-left img-news-thumb" >}}
+
+De nombreuses nouveautés sont attendues pour 2026. Elles simplifieront l’utilisation de la plateforme I14Y tout en renforçant l’interopérabilité. Des tables de correspondance (mapping) permettront de gérer efficacement les correspondances entre les codes de différentes nomenclatures. Cela améliorera l’harmonisation des flux de travail et la comparabilité des données.
+
+Un URI unique et standardisé sera attribué à chaque objet de données, ce qui améliorera la référenciation et la fiabilité. Il sera aussi possible d’éditer les structures dans l’interface utilisateur et d’associer leurs attributs à des concepts. Le passage prévu à l’open source – comme l’exige la LMETA – apportera davantage de flexibilité et de sécurité et facilitera aussi bien les intégrations propres qu’une éventuelle installation locale de la plateforme I14Y. Détails sur la [roadmap](https://handbook.i14y.admin.ch/handbook/fr/plateforme/roadmap/).
+
+## Analyse des lacunes menée à bien pour metadata.swiss
+*20.02.2026*
+
+{{< figure src="/handbook/img/news/newsmail-2026-1-thumb-gap.png" alt="Graphique Analyse des lacunes menée à bien pour metadata.swiss" width="125px" class="float-left img-news-thumb" >}}
+
+L’analyse des lacunes pour metadata.swiss a été menée à bien et transmise aux instances compétentes pour consultation. Elle montre comment les fonctions des plateformes opendata.swiss et I14Y – à savoir les données en libre accès et l’interopérabilité – peuvent être réunies de manière optimale sur une seule et même plateforme tant pour les métadonnées que pour les données de référence.
+
+Nous recommandons le logiciel open source Piveau pour mettre en œuvre les fonctions descriptives du catalogue et reprendre les fonctions d’interopérabilité de la plateforme I14Y, y compris tous les outils existants. Un des principaux objectifs de développement est d’améliorer l’automatisation afin de réduire les travaux de saisie manuelle et de créer une plateforme commune et efficace pour les métadonnées et les données de référence.
+
 ## La plateforme d’interopérabilité I14Y entre dans une nouvelle phase!
 *04.12.2025*
 

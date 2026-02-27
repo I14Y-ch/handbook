@@ -1,7 +1,7 @@
 ---
-title: Datenerfassung über die elektronische Schnittstelle (API)
+title: Datenerfassung per API
 slug: i14y-api
-weight: 50
+weight: 70
 type: docs
 translationKey: i14y-api-partner
 keywords: [I14Y, Interoperabilitätsplattform I14Y, I14Y, Interoperabilität, API, elektronische Schnittstelle, automatisiert, Endpunkte, Swagger, Schweiz]
