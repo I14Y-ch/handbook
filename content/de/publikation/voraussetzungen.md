@@ -14,10 +14,10 @@ Am Anfang steht eine gute Vorbereitung: Bevor Sie die Metadaten zu Ihrem Datensa
 - Ihre Organisation stellt sicher, dass die Metadaten langfristig gepflegt werden. Sie ist Anlaufstelle bei Rückfragen von Nutzerinnen und Nutzern.
 - Sie kennen die genaue Struktur des Datensatzes bzw. die Details zur Behördenleistung. 
 
-Um auf der Interoperabilitätsplattform I14Y Informationen zu Datenangeboten oder Behördenleistungen erfassen zu können, benötigen Sie ein Konto mit den entsprechenden Rechten. Detaillierte Informationen zur Kontenverwaltung finden Sie im [Kapitel zu den Rollen und Prozessen](/handbook/de/plattform/kontenverwaltung). 
+Um auf der Interoperabilitätsplattform I14Y Informationen zu Datenangeboten oder Behördenleistungen erfassen zu können, benötigen Sie ein Konto mit den entsprechenden Rechten. Detaillierte Informationen zur Kontenverwaltung finden Sie im Kapitel zu den [Rollen und Prozessen](/handbook/de/plattform/kontenverwaltung). 
 
 {{<alert title="Seperate Plattform für Tests" color="success">}}
 
-Falls Sie sich mit der Plattform vertraut machen wollen, bevor Sie mit der Erfassungsarbeit beginnen, können Sie die [Abnahme-Umgebung](https://input.i14y-a.admin.ch/) benutzen. Kontaktieren Sie in diesem Fall das I14Y-Team, damit die entsprechenden Nutzungsberechtigungen erstellt werden können. Diese Umgebung ist ausschliesslich für Tests geeignet. Die darauf erfassten Metadaten können ohne Vorankündigung gelöscht werden. Und sie werden nicht auf die öffentliche Plattform migriert.
+Falls Sie sich mit der Plattform vertraut machen wollen, bevor Sie mit der Erfassungsarbeit beginnen, können Sie die [Abnahme-Umgebung](https://input.i14y-a.admin.ch/) benutzen. Kontaktieren Sie das I14Y-Team, damit die entsprechenden Nutzungsberechtigungen erstellt werden können. Diese Umgebung ist ausschliesslich für Tests geeignet. Die darauf erfassten Metadaten können ohne Vorankündigung gelöscht werden. Und sie werden nicht auf die öffentliche Plattform migriert.
 
 {{</alert>}}

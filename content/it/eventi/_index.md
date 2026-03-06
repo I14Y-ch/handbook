@@ -11,14 +11,6 @@ type: docs
 ## Eventi futuri
 
 {{< event-card 
-  title="Comitato direttivo I14Y"
-  location="Berna"
-  date="3 marzo 2026"
->}}
-Riunione del comitato direttivo I14Y a Berna. Il comitato direttivo comprende le organizzazioni più grandi che utilizzano attivamente la piattaforma di interoperabilità. Contattare l'[Unità Interoperabilità](mailto:i14y@bfs.admin.ch) per ulteriori informazioni.
-{{< /event-card >}}
-
-{{< event-card 
   title="Swiss EGOVERNMENT Forum"
   location="Berna"
   date="11 marzo 2026"
@@ -66,6 +58,7 @@ Riunione del comitato direttivo I14Y a Neuchâtel. Il comitato direttivo compren
 ### Q1
 - **15.01.2026** – Formazione continua [Gestione dei dati e dati pubblici aperti](https://www.bfh.ch/de/aktuell/fachveranstaltungen/weiterbildung-data-management-open-government-data/) presso l'Università di Scienze Applicate di Berna (BFH)
 - **20.01.2026** – Incontro informale dei Local Data Stewards al Campus Liebefeld
+- **03.03.2026** – Comitato direttivo (Berna)
 
 </details>
 

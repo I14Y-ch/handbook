@@ -11,14 +11,6 @@ type: docs
 ## Upcoming Events
 
 {{< event-card 
-  title="Steering Committee I14Y"
-  location="Bern"
-  date="March 3, 2026"
->}}
-Meeting of the I14Y Steering Committee in Bern. The steering committee includes the largest organizations actively using the interoperability platform. Contact the [Interoperability Unit](mailto:i14y@bfs.admin.ch) for more information.
-{{< /event-card >}}
-
-{{< event-card 
   title="Swiss EGOVERNMENT Forum"
   location="Bern"
   date="March 11, 2026"
@@ -66,6 +58,7 @@ Meeting of the I14Y Steering Committee in Neuchâtel. The steering committee inc
 ### Q1
 - **15.01.2026** – Continuing Education [Data Management & Open Government Data](https://www.bfh.ch/de/aktuell/fachveranstaltungen/weiterbildung-data-management-open-government-data/) at the Bern University of Applied Sciences (BFH)
 - **20.01.2026** – Informal Meeting of Local Data Stewards at Campus Liebefeld
+- **03.03.2026** – Steering Commitee (Berne)
 
 </details>
 

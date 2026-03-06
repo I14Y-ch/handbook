@@ -11,14 +11,6 @@ type: docs
 ## Événements à venir
 
 {{< event-card 
-  title="Comité de pilotage I14Y"
-  location="Berne"
-  date="3 mars 2026"
->}}
-Réunion du comité de pilotage I14Y à Berne. Le comité de pilotage comprend les plus grandes organisations qui utilisent activement la plateforme d'interopérabilité. Contactez le [Service d'interopérabilité](mailto:i14y@bfs.admin.ch) pour plus d'informations.
-{{< /event-card >}}
-
-{{< event-card 
   title="Swiss EGOVERNMENT Forum"
   location="Berne"
   date="11 mars 2026"
@@ -66,6 +58,7 @@ Réunion du comité de pilotage I14Y à Neuchâtel. Le comité de pilotage compr
 ### Q1
 - **15.01.2026** – Formation continue [Gestion des données et données publiques ouvertes](https://www.bfh.ch/de/aktuell/fachveranstaltungen/weiterbildung-data-management-open-government-data/) à la Haute école spécialisée bernoise (BFH)
 - **20.01.2026** – Réunion informelle des Local Data Stewards sur le Campus Liebefeld
+- **03.03.2026** – Comitée de pilotage (Berne)
 
 </details>
 

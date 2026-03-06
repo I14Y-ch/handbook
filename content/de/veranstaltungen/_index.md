@@ -11,14 +11,6 @@ type: docs
 ## Kommende Veranstaltungen
 
 {{< event-card 
-  title="Steuerungsausschuss I14Y"
-  location="BK-DTI, Bern"
-  date="03. März 2026"
->}}
-Treffen des Steuerungsausschusses I14Y in Bern. Im Steuerungsausschuss sind die grössten Organisationen vertreten, die die Interoperabilitätsplattform aktiv nutzen. Kontaktieren Sie die [Interoperabilitätsstelle](mailto:i14y@bfs.admin.ch) für weitere Informationen.
-{{< /event-card >}}
-
-{{< event-card 
   title="Swiss EGOVERNMENT Forum"
   location="Festhalle Bern, Bern"
   date="11. März 2026"
@@ -67,6 +59,7 @@ Treffen des Steuerungsausschusses I14Y in Neuchâtel. Im Steuerungsausschuss sin
 ### Q1
 - **15.01.2026** – Weiterbildung [Data Management & Open Government Data](https://www.bfh.ch/de/aktuell/fachveranstaltungen/weiterbildung-data-management-open-government-data/) an der Berner Fachhochschule (BFH)
 - **20.01.2026** – Informelles Treffen der Local Data Stewards auf dem Campus Liebefeld
+- **03.03.2026** – Steuerungsausschuss (Bern)
 
 </details>
 
