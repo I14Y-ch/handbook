@@ -7,12 +7,12 @@ translationKey: i14y-api-partner
 keywords: [I14Y, Interoperabilitätsplattform I14Y, I14Y, Interoperabilität, API, elektronische Schnittstelle, automatisiert, Endpunkte, Swagger, Schweiz]
 ---
 
-Die Interoperabilitätsplattform I14Y bietet zwei elektronische Schnittstellen (APIs) an:
+Die Interoperabilitätsplattform I14Y bietet zwei elektronische Schnittstellen (APIs) an. Über diese lassen sich sämtliche Funktionen, die auch im Web-Interface verfügbar sind, programmatisch ausführen -- bei Bedarf vollständig automatisiert. Eine API ist insbesondere dann sinnvoll, wenn Metadaten regelmässig in grösseren Mengen abgerufen oder publiziert, Prozesse in bestehende Systeme integriert oder wiederkehrende Aufgaben ohne manuelle Schritte umgesetzt werden sollen.
 
-- **Public API**: Ermöglicht das Abrufen von öffentlich publizierten Metadaten auf I14Y, ohne dass ein Authentifizierungstoken erforderlich ist.
-- **Partner API**: Für die Verwendung durch _Local Data Stewards_ konzipiert. Ermöglicht das Abrufen und Publizieren von Metadaten. Erfordert ein Authentifizierungstoken.
+I14Y bietet zwei APIs an: 
 
-Über diese APIs lassen sich Metadaten abrufen und publizieren. Dank den APIs können grössere In- und Exporte einfach durchgeführt werden. Die Verwaltung der Metadaten lässt sich automatisieren. Zudem können Webseiten und Anwendungen direkt an I14Y angebunden werden.
+- **Public API**: Mit der öffentlichen API rufen Sie öffentlich publizierte Metadaten auf I14Y ab, ohne dass ein Authentifizierungstoken erforderlich ist.
+- **Partner API**: Die Partner-Schnittstelle kann von Organisationen genutzt werden, die I14Y aktiv zur Publikation von Metadaten nutzen. Via diese Schnittstelle können -- zusätzlich zu den öffentlichen -- auch organisationsinterne Metadaten abgerufen, bearbeitet und publiziert werden. Dazu ist ein Authentifizierungstoken erforderlich (siehe unten).
 
 ## API-Dokumentation
 
@@ -21,32 +21,24 @@ Alle Informationen zu den APIs sind unter [https://apiconsole.i14y.admin.ch](htt
 - [Public API - Swagger UI](https://apiconsole.i14y.admin.ch/public/v1/index.html)
 - [Partner API - Swagger UI](https://apiconsole.i14y.admin.ch/partner/v1/index.html)
 
-Weitere Informationen zu den einzelnen Feldern sind im Anhang unter [Eingabefelder](/handbook/de/anhang/eingabefelder) zu finden.
+Weitere Informationen zu den einzelnen Feldern sind im Anhang unter [Eingabefelder](/handbook/de/anhang/eingabefelder) zu finden. Wie die Endpunkte praktisch genutzt werden können, wird in den Tutorials im [I14Y-Github-Repository](https://github.com/I14Y-ch/tutorials) gezeigt.
 
 ## Authentifizierung
 
+Um die Partner-API nutzen zu können, benötigen Sie ein Authentifizierungstoken. Dieser kann der Anfrage entweder manuell mitgegeben werden. Alternativ steht auch ein Maschine-zu-Maschine-Token für vollautomatisierte Prozesse zur Verfügung. 
+
 ### User-Token
 
-Um die Partner-API nutzen zu können, benötigen Sie ein Authentifizierungstoken. Gehen Sie wie folgt vor:
-
-1. Loggen Sie sich im [internen Bereich](https://input.i14y.admin.ch) der Plattform ein
-2. Klicken Sie oben rechts auf das Personensymbol
-3. Kopieren Sie das technische Token
-4. Geben Sie dieses Token bei Ihren Anfragen an die API mit
+Bei einer manuellen API-Abfrage müssen Sie das eigene Token mitgeben, das nach dem Einloggen auf I14Y erstellt wird. Gehen Sie wie folgt vor: Loggen Sie sich im [internen Bereich](https://input.i14y.admin.ch) der Plattform ein. Klicken Sie oben rechts auf das Personensymbol. Kopieren Sie das technische Token. Geben Sie dieses Token bei Ihren Anfragen an die API mit.
 
 ### Maschine-zu-Maschine-Token (M2M-Token)
 
-{{<alert title="Wann benötigen Sie einen M2M-Token?" color="info" >}}
-
-Ein Maschine-zu-Maschine-Token ist nötig, wenn Sie:
-- Den Bezug oder die Publikation von Metadaten vollständig automatisieren möchten.
-- Skripte oder Anwendungen betreiben, die regelmässig und automatisiert auf die API zugreifen.
-- Keine manuelle Eingabe des User-Tokens bei jedem API-Aufruf durchführen möchten.
+Ein Maschine-zu-Maschine-Token ist nötig, wenn Sie den Bezug oder die Publikation von Metadaten vollständig automatisieren möchten, Skripte oder Anwendungen betreiben, die regelmässig und automatisiert auf die API zugreifen, oder keine manuelle Eingabe des User-Tokens bei jedem API-Aufruf durchführen möchten.
 
 **Vorgehen zur Beantragung eines M2M-Tokens:**
 
 1. Senden Sie eine E-Mail an die [Interoperabilitätsstelle](mailto:i14y@bfs.admin.ch) mit folgenden Informationen:
-   - kurze Erklärung zum Usecase
+   - kurze Erklärung zu Ihrem Vorhaben
    - Name der Organisation
    - erwartetes Zugriffsvolumen (ungefähre Anzahl API-Aufrufe)
 
@@ -57,29 +49,39 @@ Ein Maschine-zu-Maschine-Token ist nötig, wenn Sie:
 
 3. Mit diesen Informationen kann Ihr Skript automatisiert ein gültiges Token beziehen.
 
-{{</alert>}}  
+### Identifikation von automatisierten Clients (User-Agent)
 
-## Partner-API: Endpunkte zur Publikation von Metadaten
+Bei der Nutzung der API mit automatisierten Clients, insbesondere bei der Verwendung von _Machine to Machine Tokens_, sollte ein aussagekräftiger _User Agent Header_ übermittelt werden. Diese Angabe ermöglicht es der Interoperabilitätsstelle, die Nutzung der API besser zu verstehen und technische Probleme effizienter zu analysieren. Zudem erleichtert sie die Kontaktaufnahme mit der betreibenden Organisation einer Anwendung, falls ungewöhnliche Nutzungsmuster, Fehlkonfigurationen oder technische Probleme festgestellt werden.
 
-Die Partner-API stellt verschiedene Endpunkte zur Verfügung, um Metadaten zu erstellen und zu aktualisieren. Nachfolgend eine Übersicht über die wichtigsten Endpunkte:
+Der _User Agent_ sollte Informationen enthalten, die den verwendeten Client oder die Anwendung  identifizieren. Bewährt hat sich ein Format, das den Namen der Anwendung oder des Dienstes sowie den Namen der nutzenden Organisation enthält. Die Angabe einer Kontaktadresse ist freiwillig, wird jedoch empfohlen, damit bei technischen Problemen oder auffälligem Verhalten eine rasche Rückmeldung möglich ist. Die Kontaktinformation wird ausschliesslich zu diesem Zweck verwendet. 
 
-| Ressource | Methode | Endpunkt | Beschreibung | Erforderliche Felder |
-|-----------|---------|----------|--------------|---------------------|
-| **Datensätze** | POST | `/datasets` | Erstellt einen neuen DCAT-Datensatz | `accessRights`, `description`, `publisher`, `title` |
-| | PUT | `/datasets/{datasetId}` | Aktualisiert einen bestehenden DCAT-Datensatz | - |
-| **Datenservices** | POST | `/dataservices` | Erstellt einen neuen Datenservice | `accessRights`, `description`, `publisher`, `title` |
-| | PUT | `/dataservices/{dataServiceId}` | Aktualisiert einen bestehenden Datenservice | - |
-| **Behördenleistungen** | POST | `/publicservices` | Erstellt eine neue Behördenleistung | `description`, `identifier`, `name`, `publisher` |
-| | PUT | `/publicservices/{publicServiceId}` | Aktualisiert eine bestehende Behördenleistung | - |
-| **Konzepte** | POST | `/concepts` | Erstellt ein neues Konzept (CodeList, Date, Numeric, String) | Je nach Konzepttyp |
-| | PUT | `/concepts/{conceptId}` | Aktualisiert ein bestehendes Konzept | - |
-| **Katalogeinträge** | POST | `/catalogs/{catalogId}/records` | Erstellt einen neuen Katalogeintrag | - |
-| | PUT | `/catalogs/{catalogId}/records/{recordId}` | Aktualisiert einen bestehenden Katalogeintrag | - |
+```
+User-Agent: <ApplicationName>/<Version> (<Organisation>; contact: <E-Mail>)
+```
 
-{{<alert title="Detaillierte API-Beschreibung" color="success" >}}
-Ausführliche Informationen zu den Request- und Response-Strukturen, Parametern und Beispielen finden Sie in der [Partner API - Swagger UI](https://apiconsole.i14y.admin.ch/partner/v1/index.html).
-{{</alert>}}
+Das folgende Beispiel zeigt einen API-Aufruf mit einem User-Agent als CURL-Befehl sowie in Python. Einzufügen ist das Token, zu ersetzen sind die Angaben in _User-Agent_.  
 
-Möchten Sie die I14Y-API nutzen? Wie Sie dabei vorgehen können, wird in frei verfügbaren Tutorials dokumentiert. Im [Github-Repository](https://github.com/I14Y-ch/tutorials) stehen zwei Schritt-für-Schritt-Anleitungen in Jupyter-Notizbüchern zur Verfügung, die dokumentieren, wie die Partner- und öffentlichen APIs mit Python und der Requests-Bibliothek genutzt werden.
+**CURL:**
 
-Genügen die aktuell zur Verfügung stehenden Schnittstellen nicht, damit Sie Ihre Arbeiten erledigen können? In diesem Fall kontaktieren Sie das [I14Y-Team](mailto:i14y@bfs.admin.ch). Dieses hat Zugang zu zahlreichen weiteren Endpunkten. Da sich diese jederzeit noch ändern können, werden sie noch nicht öffentlich publiziert. 
+```
+curl -X GET "https://api.i14y.admin.ch/partner/v1/datasets/BUILDING_DWELLING_MASTER_DATA" \
+  -H "Authorization: Bearer <ACCESS_TOKEN>" \
+  -H "User-Agent: DataPortalSync/1.2 (i14y; contact: i14y@bfs.admin.ch)" \
+  -H "Accept: application/json"
+```
+
+**Python:** 
+
+```
+import requests
+
+url = "https://api.i14y.admin.ch/partner/v1/datasets/BUILDING_DWELLING_MASTER_DATA"
+
+headers = {
+    "Authorization": "Bearer <ACCESS_TOKEN>",
+    "User-Agent": "DataPortalSync/1.2 (i14y; contact: i14y@bfs.admin.ch)",
+    "Accept": "application/json"
+}
+
+response = requests.get(url, headers=headers)
+```
