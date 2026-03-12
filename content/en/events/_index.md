@@ -11,12 +11,11 @@ type: docs
 ## Upcoming Events
 
 {{< event-card 
-  title="Swiss EGOVERNMENT Forum"
-  location="Bern"
-  date="March 11, 2026"
-  link="https://e-governmentforum.ch/"
+  title="Continuing Education Data Management and Open Data (in French)"
+  location="Lausanne"
+  date="June 2 and 3, 2026"
+  link="https://execed.unil.ch/formation-continue/gestion-des-donnees-publiques"
 >}}
-Presentation on the topic "Metadata platforms today and tomorrow" at the Swiss EGOVERNMENT Forum.
 {{< /event-card >}}
 
 {{< event-card 
@@ -25,6 +24,22 @@ Presentation on the topic "Metadata platforms today and tomorrow" at the Swiss E
   date="June 23, 2026"
 >}}
 Meeting of the I14Y Steering Committee in Neuchâtel. The steering committee includes the largest organizations actively using the interoperability platform. Contact the [Interoperability Unit](mailto:i14y@bfs.admin.ch) for more information.
+{{< /event-card >}}
+
+{{< event-card 
+  title="Continuing Education Data Management and Open Data"
+  location="Bern University of Applied Sciences (BFH)"
+  date="August 20–22, 2026"
+  link="https://www.bfh.ch/de/aktuell/fachveranstaltungen/weiterbildung-data-management-open-government-data/"
+>}}
+{{< /event-card >}}
+
+{{< event-card 
+  title="Swiss Statistics Days"
+  location="Rorschach (St. Gallen)"
+  date="August 25–27, 2026"
+  link="https://stat.ch/en/swiss_statistics_meeting"
+>}}
 {{< /event-card >}}
 
 {{< event-card 
@@ -58,7 +73,8 @@ Meeting of the I14Y Steering Committee in Neuchâtel. The steering committee inc
 ### Q1
 - **15.01.2026** – Continuing Education [Data Management & Open Government Data](https://www.bfh.ch/de/aktuell/fachveranstaltungen/weiterbildung-data-management-open-government-data/) at the Bern University of Applied Sciences (BFH)
 - **20.01.2026** – Informal Meeting of Local Data Stewards at Campus Liebefeld
-- **03.03.2026** – Steering Commitee (Berne)
+- **03.03.2026** – Steering Committee (Bern)
+- **11.03.2026** – [Swiss EGOVERNMENT Forum](https://e-governmentforum.ch) (Bern)
 
 </details>
 

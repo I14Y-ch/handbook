@@ -11,12 +11,11 @@ type: docs
 ## Eventi futuri
 
 {{< event-card 
-  title="Swiss EGOVERNMENT Forum"
-  location="Berna"
-  date="11 marzo 2026"
-  link="https://e-governmentforum.ch/"
+  title="Formazione continua Gestione dei dati e Open Data (in francese)"
+  location="Losanna"
+  date="2 e 3 giugno 2026"
+  link="https://execed.unil.ch/formation-continue/gestion-des-donnees-publiques"
 >}}
-Presentazione sul tema «Piattaforme di metadati oggi e domani» al Swiss EGOVERNMENT Forum.
 {{< /event-card >}}
 
 {{< event-card 
@@ -25,6 +24,22 @@ Presentazione sul tema «Piattaforme di metadati oggi e domani» al Swiss EGOVER
   date="23 giugno 2026"
 >}}
 Riunione del comitato direttivo I14Y a Neuchâtel. Il comitato direttivo comprende le organizzazioni più grandi che utilizzano attivamente la piattaforma di interoperabilità. Contattare l'[Unità Interoperabilità](mailto:i14y@bfs.admin.ch) per ulteriori informazioni.
+{{< /event-card >}}
+
+{{< event-card 
+  title="Formazione continua Gestione dei dati e Open Data"
+  location="Università di Scienze Applicate di Berna (BFH)"
+  date="20–22 agosto 2026"
+  link="https://www.bfh.ch/de/aktuell/fachveranstaltungen/weiterbildung-data-management-open-government-data/"
+>}}
+{{< /event-card >}}
+
+{{< event-card 
+  title="Giornate svizzere della statistica"
+  location="Rorschach (San Gallo)"
+  date="25–27 agosto 2026"
+  link="https://stat.ch/it/swiss_statistics_meeting"
+>}}
 {{< /event-card >}}
 
 {{< event-card 
@@ -59,6 +74,7 @@ Riunione del comitato direttivo I14Y a Neuchâtel. Il comitato direttivo compren
 - **15.01.2026** – Formazione continua [Gestione dei dati e dati pubblici aperti](https://www.bfh.ch/de/aktuell/fachveranstaltungen/weiterbildung-data-management-open-government-data/) presso l'Università di Scienze Applicate di Berna (BFH)
 - **20.01.2026** – Incontro informale dei Local Data Stewards al Campus Liebefeld
 - **03.03.2026** – Comitato direttivo (Berna)
+- **11.03.2026** – [Swiss EGOVERNMENT Forum](https://e-governmentforum.ch) (Berna)
 
 </details>
 

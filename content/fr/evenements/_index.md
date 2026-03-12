@@ -11,12 +11,11 @@ type: docs
 ## Événements à venir
 
 {{< event-card 
-  title="Swiss EGOVERNMENT Forum"
-  location="Berne"
-  date="11 mars 2026"
-  link="https://e-governmentforum.ch/"
+  title="Formation continue Gestion des données et Open Data"
+  location="Lausanne"
+  date="2 et 3 juin 2026"
+  link="https://execed.unil.ch/formation-continue/gestion-des-donnees-publiques"
 >}}
-Exposé sur le thème « Les plateformes de métadonnées aujourd'hui et demain » au Swiss EGOVERNMENT Forum.
 {{< /event-card >}}
 
 {{< event-card 
@@ -25,6 +24,22 @@ Exposé sur le thème « Les plateformes de métadonnées aujourd'hui et demain 
   date="23 juin 2026"
 >}}
 Réunion du comité de pilotage I14Y à Neuchâtel. Le comité de pilotage comprend les plus grandes organisations qui utilisent activement la plateforme d'interopérabilité. Contactez le [Service d'interopérabilité](mailto:i14y@bfs.admin.ch) pour plus d'informations.
+{{< /event-card >}}
+
+{{< event-card 
+  title="Formation continue Gestion des données et Open Data (en Allemand)"
+  location="Haute école spécialisée bernoise (BFH)"
+  date="20 au 22 août 2026"
+  link="https://www.bfh.ch/de/aktuell/fachveranstaltungen/weiterbildung-data-management-open-government-data/"
+>}}
+{{< /event-card >}}
+
+{{< event-card 
+  title="Journées suisses de la statistique"
+  location="Rorschach (Saint-Gall)"
+  date="25 au 27 août 2026"
+  link="https://stat.ch/fr/swiss_statistics_meeting"
+>}}
 {{< /event-card >}}
 
 {{< event-card 
@@ -59,6 +74,7 @@ Réunion du comité de pilotage I14Y à Neuchâtel. Le comité de pilotage compr
 - **15.01.2026** – Formation continue [Gestion des données et données publiques ouvertes](https://www.bfh.ch/de/aktuell/fachveranstaltungen/weiterbildung-data-management-open-government-data/) à la Haute école spécialisée bernoise (BFH)
 - **20.01.2026** – Réunion informelle des Local Data Stewards sur le Campus Liebefeld
 - **03.03.2026** – Comitée de pilotage (Berne)
+- **11.03.2026** – [Swiss EGOVERNMENT Forum](https://e-governmentforum.ch) (Berne)
 
 </details>
 

@@ -11,12 +11,11 @@ type: docs
 ## Kommende Veranstaltungen
 
 {{< event-card 
-  title="Swiss EGOVERNMENT Forum"
-  location="Festhalle Bern, Bern"
-  date="11. März 2026"
-  link="https://e-governmentforum.ch/"
+  title="Weiterbildung Datenmanagement und Open Data (auf Französisch)"
+  location="Lausanne"
+  date="2. und 3. Juni 2026"
+  link="https://execed.unil.ch/formation-continue/gestion-des-donnees-publiques"
 >}}
-Referat zum Thema «Metadatenplattformen heute und morgen» am Swiss EGOVERNMENT Forum.
 {{< /event-card >}}
 
 {{< event-card 
@@ -27,12 +26,14 @@ Referat zum Thema «Metadatenplattformen heute und morgen» am Swiss EGOVERNMENT
 Treffen des Steuerungsausschusses I14Y in Neuchâtel. Im Steuerungsausschuss sind die grössten Organisationen vertreten, die die Interoperabilitätsplattform aktiv nutzen. Kontaktieren Sie die [Interoperabilitätsstelle](mailto:i14y@bfs.admin.ch) für weitere Informationen.
 {{< /event-card >}}
 
+w
+
 {{< event-card 
-  title="Meet-up der Local Data Stewards"
-  location=""
-  date="29. Oktober 2026"
+  title="Schweizer Statistiktage"
+  location="Rorschach (St. Gallen)"
+  date="25. bis 27. August 2026"
+  link="https://stat.ch/de/swiss_statistics_meeting"
 >}}
-Austausch und Vernetzung der Local Data Stewards der öffentlichen Verwaltung.
 {{< /event-card >}}
 
 {{< event-card 
@@ -41,6 +42,14 @@ Austausch und Vernetzung der Local Data Stewards der öffentlichen Verwaltung.
   date="15. September 2026"
 >}}
 Treffen des Steuerungsausschusses I14Y in Bern. Im Steuerungsausschuss sind die grössten Organisationen vertreten, die die Interoperabilitätsplattform aktiv nutzen. Kontaktieren Sie die [Interoperabilitätsstelle](mailto:i14y@bfs.admin.ch) für weitere Informationen.
+{{< /event-card >}}
+
+{{< event-card 
+  title="Meet-up der Local Data Stewards"
+  location=""
+  date="29. Oktober 2026"
+>}}
+Austausch und Vernetzung der Local Data Stewards der öffentlichen Verwaltung.
 {{< /event-card >}}
 
 {{< event-card 
@@ -60,6 +69,7 @@ Treffen des Steuerungsausschusses I14Y in Neuchâtel. Im Steuerungsausschuss sin
 - **15.01.2026** – Weiterbildung [Data Management & Open Government Data](https://www.bfh.ch/de/aktuell/fachveranstaltungen/weiterbildung-data-management-open-government-data/) an der Berner Fachhochschule (BFH)
 - **20.01.2026** – Informelles Treffen der Local Data Stewards auf dem Campus Liebefeld
 - **03.03.2026** – Steuerungsausschuss (Bern)
+- **11.03.2026** – [Swiss EGOVERNMENT Forum](https://e-governmentforum.ch) (Bern)
 
 </details>
 
