@@ -1,5 +1,5 @@
 ---
-title: Eingabefelder zum Beschreiben von Konzepten
+title: Eingabefelder Konzept
 slug: eingabefelder_konzepte
 weight: 40
 type: docs

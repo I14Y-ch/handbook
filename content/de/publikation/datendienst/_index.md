@@ -27,4 +27,4 @@ Auf der Interoperabilitätsplattform I14Y werden vorab APIs dokumentiert, über 
 
 Sobald alle gewünschten Informationen erfasst sind, klicken Sie auf "Speichern und schliessen". Der neue Eintrag ist nun an Ende der Liste zu finden. Zudem ist er über die Suchfunktion auffindbar. Er hat nun den Status "Inital" und ist innerhalb der Organisation sichtbar, nicht aber öffentlich. Der Einträg lässt sich für die weitere Bearbeitung wieder öffnen. 
 
-Um den Eintrag den lokalen Datenverantwortlichen zur Prüfung vorzulegen, klicken Sie auf "Registrierungsstatus vorschlagen" und wählen Sie "Kandidat" aus. Weitere Informationen zum Arbeitsablauf sind im Kapitel [Rollen und Prozesse](/handbook/de/gouvernanz/workflow/) zu finden.  
+Um den Eintrag den lokalen Datenverantwortlichen zur Prüfung vorzulegen, klicken Sie auf "Registrierungsstatus vorschlagen" und wählen Sie "Kandidat" aus. Weitere Informationen zum Arbeitsablauf sind im Kapitel [Rollen und Prozesse](/handbook/de/gouvernanz/arbeitsablauf/) zu finden.

@@ -1,7 +1,7 @@
 ---
-title: Felder übrige Objekte
+title: Eingabefelder übrige Objekte
 slug: eingabefelder_uebrige
-weight: 50
+weight: 60
 type: docs
 translationKey: fields_other
 keywords: [Interoperabilitätsplattform I14Y, I14Y, Glossar, Eingabefelder, Standard]
