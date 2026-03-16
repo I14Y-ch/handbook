@@ -7,7 +7,7 @@ type: docs
 keywords: [I14Y, Interoperabilitätsplattform I14Y, Interoperabilitätsplattform I14Y, Datenmodell, Informationsmodell, Katalog, DCAT, Struktur, Konzept]
 ---
  
-Auf der Interoperabilitätsplattform I14Y können sowohl Datensätze, elektronische Schnittstellen (APIs) und Datenelemente als auch Behördenleistungen beschrieben werden. Dabei gibt es zwei Einstiegspunkte: Im Katalog-Teil werden Datensätze, elektronische Schnittstellen (APIs) und Behördenleistungen verwaltet. Unter "Konzepte" sind die Beschreibungen einzelner Konzepte zu finden. 
+Auf der Interoperabilitätsplattform I14Y können sowohl Datensätze, elektronische Schnittstellen (APIs) und Datenkonzepte als auch Behördenleistungen beschrieben werden. Dabei gibt es zwei Einstiegspunkte: Im Katalog-Teil werden Datensätze, elektronische Schnittstellen (APIs) und Behördenleistungen verwaltet. Unter "Konzepte" sind die Beschreibungen einzelner Konzepte zu finden. 
 
 ```mermaid 
     flowchart TD
@@ -18,8 +18,10 @@ Auf der Interoperabilitätsplattform I14Y können sowohl Datensätze, elektronis
 
         distribution(Distribution)
         concept(Konzept)
+        %% mapping(Mapping-Tabelle)
         
 
+        %% catalog---|enthält|mapping
         catalog---|enthält|publicservice
         catalog---|enthält|dataservice
         catalog---|enthält|dataset
@@ -417,6 +419,90 @@ direction TB
         dcat:downloadURL: rdfs:Resource[0..*]
         }
 ```
+
+## Mapping-Tabelle
+
+{{<alert title="Funktionalität in Entwicklung" color="warning" >}}
+
+Die Funktionalität zur Dokumentation von Zuordnungen zwischen zwei Codelisten befindet sich noch in Entwicklung. Sie wird im Frühling 2026 auf I14Y verfügbar sein.
+
+{{</alert>}}
+
+Viele Codelisten sind ähnlich, aber nicht gleich. Manchmal wurden lediglich die Codierungswerte anders gewählt, manchmal unterscheiden sich die Labels. Teilweise bestehen aber auch kleinere oder grössere Unterschiede bei der Kategorisierung. Solche Unterschiede entstehen durch historische Entwicklungen, verschiedene Anforderungen oder auch durch den Einsatz von Standards, die untereinander nicht harmonisiert sind. Ohne eine dokumentierte Zuordnung zwischen ähnlichen, aber nicht identischen Codelisten bleibt es den Datenbezügerinnen und Datenbezügern überlassen, die Zusammenhänge selbst herzustellen. Dies ist aufwändig und fehleranfällig, da oftmals sehr spezifisches Fachwissen nötig ist.
+
+Die Interoperabilitätsplattform I14Y bietet deshalb die Möglichkeit, Mapping-Tabellen zu erstellen. Mit solchen Zuordnungstabellen lassen sich die Gemeinsamkeiten und Unterschiede zwischen zwei Codelisten nachvollziehbar und maschinenlesbar dokumentieren.
+
+Eine Mapping-Tabelle verbindet zwei Codelisten miteinander. Für jeden relevanten Wert der Quell-Codeliste wird festgehalten, welchem Wert oder welchen Werten der Ziel-Codeliste er entspricht. Die Beziehung zwischen zwei Codes muss dabei nicht immer eine exakte Übereinstimmung sein. 
+
+```mermaid
+flowchart LR
+    subgraph source["Quell-Codeliste"]
+        s1(Code A)
+        s2(Code B)
+        s3(Code C)
+    end
+
+    subgraph mapping["Mapping-Tabelle"]
+        m1["skos:exactMatch"]
+        m2["skos:narrowMatch"]
+        m3["skos:broadMatch"]
+        m4["skos:narrowMatch"]
+    end
+
+    subgraph target["Ziel-Codeliste"]
+        t1(Code X)
+        t2(Code Y)
+        t3(Code Z)
+    end
+
+    s1-->m1-->t1
+    s2-->m2-->t2
+    s2-->m4-->t3
+    s3-->m3-->t1
+
+    style source fill:#6CC8FF,stroke:black
+    style target fill:#6CC8FF,stroke:black
+    style mapping fill:#Bfe2ab,stroke:black
+    style s1 fill:#6CC8FF,stroke:black
+    style s2 fill:#6CC8FF,stroke:black
+    style s3 fill:#6CC8FF,stroke:black
+    style t1 fill:#6CC8FF,stroke:black
+    style t2 fill:#6CC8FF,stroke:black
+    style t3 fill:#6CC8FF,stroke:black
+    style m1 fill:#Bfe2ab,stroke:black
+    style m2 fill:#Bfe2ab,stroke:black
+    style m3 fill:#Bfe2ab,stroke:black
+    style m4 fill:#Bfe2ab,stroke:black
+```
+
+In der Praxis gibt es unterschiedliche Grade der Übereinstimmung. Um diese zu dokumentieren nutzt I14Y das _Simple Knowledge Organization System_ (SKOS) aus dem _Simple Standard for Sharing Ontology Mappings_ (SSSOM). 
+
+<details>
+<summary><strong>Was ist SSSOM?</strong></summary>
+
+Der _Simple Standard for Sharing Ontology Mappings_ (SSSOM) ist ein offener, gemeinschaftlich entwickelter Standard. Er ermöglicht es die Beziehung zwischen zwei Inhalten zu dokumentieren -- einheitlich, maschinenlesbar und austauschbar. 
+
+Hinter SSSOM steht eine internationale Fachgemeinschaft aus dem Bereichen Ontologien, Wissensorganisation und Dateninteroperabilität. Der Standard wird insbesondere dort eingesetzt, wo unterschiedliche kontrollierte Vokabulare, Taxonomien oder Codesysteme zusammengeführt werden müssen -- ursprünglich vor allem in der Biomedizin, zunehmend aber auch in anderen Domänen.
+
+Weitere Informationen zu SSSOM sind auf der [Projekt-Website](https://mapping-commons.github.io/sssom) zu finden.
+
+</details>
+
+Ein einzelner Quell-Code kann dabei mehreren Ziel-Codes zugeordnet werden, und umgekehrt. Damit sind auch komplexe m:n-Beziehungen abbildbar. SSSOM bietet hohe Flexibilität, weil unterschiedliche Beziehungstypen unterstützt werden. Durch das standardisierte, maschinenlesbare Format lassen sich Zuordnungen zudem leicht austauschen, validieren und in andere Systeme integrieren.
+
+Die Mapping-Tabelle ist auf I14Y ein eingeständiges Katalogobjekt. Sie verfügt über eigene beschreibende Metadaten. Dazu gehören unter anderem der mehrsprachig erfassbare Name und die Beschreibung, die URI der ersten und jene der zweiten Codeliste, der Gültigkeitszeitraum, die Version sowie Angaben zum Herausgeber und zur verantwortlichen Person sowie weitere Möglichkeiten zur detaillierten Beschreibung.
+
+Für die eigentlichen Zuordnungen zwischen den Codes wird pro Codelistenwert die URI des Quell-Codes und jene des Ziel-Codes erfasst. Zudem wird der Beziehungstyp anhand der Auswahlmöglichkeiten des Vokabulars aus SSSOM/ SKOS definiert.
+
+{{<alert color="info">}}
+Der Herausgeber der Zuordnungstabelle trägt die Verantwortung für die inhaltliche Korrektheit der Zuordnungen -- nicht aber für die zugrundeliegenden Codelisten. Dadurch können auch Zuordnungen zwischen Codelisten verschiedener Organisationen erstellt werden.
+{{</alert>}}
+
+
+
+Ein einzelner Quell-Code kann dabei mehreren Ziel-Codes zugeordnet werden und umgekehrt -- komplexe m:n-Beziehungen sind damit abbildbar. Der Herausgeber der Mapping-Tabelle trägt die Verantwortung für die Korrektheit der Zuordnungen. Dadurch können auch Zuordnungen zwischen Codelisten verschiedener Organisationen erstellt werden. Die Tabellen können jederzeit im CSV- oder JSON-Format exportiert werden.
+
+Eine Schritt-für-Schritt-Anleitung zur Erfassung einer Mapping-Tabelle ist im Kapitel [Publikation](/handbook/de/publikation/mapping) zu finden.
 
 ## Elektronische Behördenleistung
 
