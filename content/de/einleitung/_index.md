@@ -14,7 +14,7 @@ Genau dies ist mit der Interoperabilitätsplattform I14Y möglich: Zusätzlich z
 
 Die einzelnen Behörden profitieren somit von der Arbeit der jeweils anderen. Möglich wird auch etwa, dass ein privates Umfrageinstitut dieselben Kategorien oder Ausprägungen verwendet, die eine staatliche Stelle einsetzt. Dadurch werden nachträgliche Harmonisierungsarbeiten überflüssig. Und in vielen Fällen wird die Datenqualität besser. 
 
-Auf diese Weise hilft die Interoperabilitätsplattform I14Y dabei, das Schweizerische Datenökosystem semantisch zu harmonisieren. Die Metadaten -- insbesondere die Codelisten -- lassen sich automatisiert über elektronische Schnittstellen (APIs) abrufen. Dies ermöglicht es, die Plattform an beliebige Systeme und Applikationen anzubinden. 
+Auf diese Weise hilft die Interoperabilitätsplattform I14Y dabei, das Schweizerische Datenökosystem semantisch zu harmonisieren. Die Metadaten -- insbesondere die Codelisten -- lassen sich automatisiert über elektronische Schnittstellen (APIs) abrufen. Dies ermöglicht es, die Plattform an beliebige Systeme und Applikationen anzubinden. Für Fälle, in denen zwei sehr ähnliche Codelisten bestehen, die (noch) nicht zusammengeführt werden können, lassen sich die Zuordnungen mit den so genannten _Mapping Tables_ auf I14Y dokumentieren. 
 
 {{<alert title="Was bedeutet I14Y?" color="info">}}
 

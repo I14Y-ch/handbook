@@ -422,12 +422,6 @@ direction TB
 
 ## Mapping-Tabelle
 
-{{<alert title="Funktionalität in Entwicklung" color="warning" >}}
-
-Die Funktionalität zur Dokumentation von Zuordnungen zwischen zwei Codelisten befindet sich noch in Entwicklung. Sie wird im Frühling 2026 auf I14Y verfügbar sein.
-
-{{</alert>}}
-
 Viele Codelisten sind ähnlich, aber nicht gleich. Manchmal wurden lediglich die Codierungswerte anders gewählt, manchmal unterscheiden sich die Labels. Teilweise bestehen aber auch kleinere oder grössere Unterschiede bei der Kategorisierung. Solche Unterschiede entstehen durch historische Entwicklungen, verschiedene Anforderungen oder auch durch den Einsatz von Standards, die untereinander nicht harmonisiert sind. Ohne eine dokumentierte Zuordnung zwischen ähnlichen, aber nicht identischen Codelisten bleibt es den Datenbezügerinnen und Datenbezügern überlassen, die Zusammenhänge selbst herzustellen. Dies ist aufwändig und fehleranfällig, da oftmals sehr spezifisches Fachwissen nötig ist.
 
 Die Interoperabilitätsplattform I14Y bietet deshalb die Möglichkeit, Mapping-Tabellen zu erstellen. Mit solchen Zuordnungstabellen lassen sich die Gemeinsamkeiten und Unterschiede zwischen zwei Codelisten nachvollziehbar und maschinenlesbar dokumentieren.
@@ -480,7 +474,7 @@ In der Praxis gibt es unterschiedliche Grade der Übereinstimmung. Um diese zu d
 <details>
 <summary><strong>Was ist SSSOM?</strong></summary>
 
-Der _Simple Standard for Sharing Ontology Mappings_ (SSSOM) ist ein offener, gemeinschaftlich entwickelter Standard. Er ermöglicht es die Beziehung zwischen zwei Inhalten zu dokumentieren -- einheitlich, maschinenlesbar und austauschbar. 
+Der _Simple Standard for Sharing Ontology Mappings_ (SSSOM) ist ein offener, gemeinschaftlich entwickelter Standard. Er ermöglicht es die Beziehung zwischen zwei Inhalten zu dokumentieren -- einheitlich, interoperabel und maschinenlesbar. 
 
 Hinter SSSOM steht eine internationale Fachgemeinschaft aus dem Bereichen Ontologien, Wissensorganisation und Dateninteroperabilität. Der Standard wird insbesondere dort eingesetzt, wo unterschiedliche kontrollierte Vokabulare, Taxonomien oder Codesysteme zusammengeführt werden müssen -- ursprünglich vor allem in der Biomedizin, zunehmend aber auch in anderen Domänen.
 
@@ -497,10 +491,6 @@ Für die eigentlichen Zuordnungen zwischen den Codes wird pro Codelistenwert die
 {{<alert color="info">}}
 Der Herausgeber der Zuordnungstabelle trägt die Verantwortung für die inhaltliche Korrektheit der Zuordnungen -- nicht aber für die zugrundeliegenden Codelisten. Dadurch können auch Zuordnungen zwischen Codelisten verschiedener Organisationen erstellt werden.
 {{</alert>}}
-
-
-
-Ein einzelner Quell-Code kann dabei mehreren Ziel-Codes zugeordnet werden und umgekehrt -- komplexe m:n-Beziehungen sind damit abbildbar. Der Herausgeber der Mapping-Tabelle trägt die Verantwortung für die Korrektheit der Zuordnungen. Dadurch können auch Zuordnungen zwischen Codelisten verschiedener Organisationen erstellt werden. Die Tabellen können jederzeit im CSV- oder JSON-Format exportiert werden.
 
 Eine Schritt-für-Schritt-Anleitung zur Erfassung einer Mapping-Tabelle ist im Kapitel [Publikation](/handbook/de/publikation/mapping) zu finden.
 

@@ -26,7 +26,7 @@ Im nun eingeblendeten Formular füllen Sie die Pflichtfelder **Name**, **Beschre
 
 Sobald die Zuordnungstabelle vollständig erfasst und gespeichert ist, kann sie als stabil markiert und auf Wunsch auch öffentlich publiziert werden. Öffnen Sie dazu die Mapping-Tabelle. Wählen Sie den richtigen Status gemäss dem [Workflow](/handbook/de/gouvernanz/arbeitsablauf) aus. Falls Sie die Mapping-Tabelle öffentlich publizieren möchten, schalten Sie unter Publikationskanal auf "Öffentlich" um. Hinweis: Welche Statuswechsel und welcher Publikationskanal Ihnen zur Verfügung stehen, hängt von Ihrer Rolle ab. Falls ein Status oder ein Kanal nicht direkt gewählt werden kann, muss eine Person in der Rolle _Local Data Steward_ den Vorschlag bestätigen.
 
-Die erfassten Mapping-Tabellen können jederzeit exportiert werden. Verfügbar sind sie in zwei Formaten: als Tabelle im CSV-Format oder als JSON-Download. Die folgenden Minimalbeispiele zeigen die Struktur in den beiden Formaten.
+Die erfassten Mapping-Tabellen können jederzeit exportiert werden. Verfügbar sind sie in zwei Formaten: als Tabelle im CSV-Format oder als JSON-Download. Die untenstehenden Minimalbeispiele zeigen die Struktur in den beiden Formaten. Daten in dieser Form können via den Import-Knopf auch eingelesen werden. Dies erlaubt es grössere Mapping-Tabellen effizient zu erfassen und zu verwalten. Für automatisierte oder halbautomatisierte Workflows können die entsprechenden Endpunkte in der [Partner-API](https://apiconsole.i14y.admin.ch/partner/v1/index.html) genutzt werden.
 
 **CSV:**
 
@@ -78,7 +78,3 @@ Source_code_uri,Target_code_uri,Relation_type
   ]
 }
 ```
-
-Zu einem späteren Zeitpunkt wird es möglich sein, Mapping-Tabellen in diesen beiden Formaten auch über die Weboberfläche zu importieren. Aktuell muss dazu der entsprechende Endpunkt der [Partner-API](https://apiconsole.i14y.admin.ch/partner/v1/index.html) genutzt werden. 
-
-<!-- Für grössere Zuordnungstabellen steht eine **Import-Funktion** zur Verfügung. Das unterstützte Format orientiert sich am SSSOM-Standard. Entsprechende Dateien können auch exportiert und in anderen Systemen weiterverwendet werden. Der Export steht sowohl im Administrationsbereich als auch über die I14Y-APIs zur Verfügung. -->

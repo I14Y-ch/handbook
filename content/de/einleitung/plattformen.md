@@ -21,7 +21,7 @@ Der Katalog von opendata.swiss lässt sich via die Metasuche direkt von der Inte
 
 {{<alert title="Hinweis zur Zusammenlegung" color="info">}}
 
-Die Plattformen opendata.swiss und I14Y werden mittelfristig zusammengelegt. Dazu hat das Bundesamt für Statistik das Projekt metadata.swiss gestartet. In einem ersten Schritt wurde eine so genannte GAP-Analyse durchgeführt. Nun laufen die konkreten Planungsarbeiten für die gemeinsame Plattform. Und die beiden Teams werden zusammengelegt. Beide Plattformen bleiben vollständig nutzbar. In der Übergangsphase erfasste Metadaten werden nach der Zusammenlegung der Plattformen migriert.
+Die Plattformen opendata.swiss und I14Y werden mittelfristig zusammengelegt. Dazu hat das Bundesamt für Statistik das Projekt metadata.swiss gestartet. In einem ersten Schritt wurde eine so genannte GAP-Analyse durchgeführt. Nun laufen die konkreten Planungsarbeiten für die gemeinsame Plattform. Und die beiden Teams werden zusammengelegt. Beide Plattformen bleiben vollständig nutzbar. In der Übergangsphase erfasste Metadaten werden nach der Zusammenlegung der Plattformen migriert. Die gemeinsame Plattform wird voraussichtlich im Jahr 2028 in Betrieb genommen. 
 
 {{</alert>}}
 
