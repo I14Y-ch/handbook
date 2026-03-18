@@ -161,6 +161,34 @@ In der Regel wird die öffentliche Publikation durch eine Person mit der Rolle _
 
 Abhängig vom Status im Registrations- und Publikations-Workflow sowie von der eigenen Rolle können die erfassten Metadaten nicht abgeändert werden. So können etwa als "Registriert" gekennzeichnete oder publizierte Einträge nicht mehr bearbeitet werden von der Rolle _Submitter_. In diesem Fall wird, wenn eine grundlegende Änderung nötig ist, normalerweise eine neue Version angelegt.
 
+Bei Konzepten ist eine Bearbeitung nicht mehr möglich, wenn die Option „Gesperrt“ aktiviert ist. Sollte dies dennoch erforderlich sein, wenden Sie sich bitte an einen Administrator.
+
+Hier ist die nach Rollen gegliederte Liste mit den Statussen, bei denen eine Bearbeitung der Metadaten möglich ist.
+
+__Submitter__
+
+| Current status \\ New status | Incomplete | Candidate | Recorded | Qualified | Standard | Preferred Standard | Superseded | Retired |
+| ---------------------------- | ---------- | --------- | -------- | --------- | -------- | ------------------ | ---------- | ------- |
+| Internal                     | x          | x         |          |           |          |                    |            |         |
+| Public                       |            |           |          |           |          |                    |            |         |
+{.publication-matrix}
+
+__Local Data Steward__
+
+| Current status \\ New status | Incomplete | Candidate | Recorded | Qualified | Standard | Preferred Standard | Superseded | Retired |
+| ---------------------------- | ---------- | --------- | -------- | --------- | -------- | ------------------ | ---------- | ------- |
+| Internal                     | x          | x         | x        | x         | x        | x                  | x          | x       |
+| Public                       | x          | x         | x        | x         | x        | x                  | x          | x       |
+{.publication-matrix}
+
+__InteroperabilityService__
+
+| Current status \\ New status | Incomplete | Candidate | Recorded | Qualified | Standard | Preferred Standard | Superseded | Retired |
+| ---------------------------- | ---------- | --------- | -------- | --------- | -------- | ------------------ | ---------- | ------- |
+| Internal                     | x          | x         | x        | x         | x        | x                  | x          | x       |
+| Public                       | x          | x         | x        | x         | x        | x                  | x          | x       |
+{.publication-matrix}
+
 {{<alert title="Sind die Daten auf I14Y sicher?" color="info">}}
 Auf der Interoperabilitätsplattform I14Y werden ausschliesslich Metadaten gespeichert. Die eigentlichen Daten verbleiben bei jener Stelle, die die Datensätze verwaltet. Diese ist damit zuständig für die Sicherheit der Daten.
 
