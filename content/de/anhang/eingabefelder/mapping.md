@@ -10,7 +10,7 @@ draft: True
 
 Eine Mapping-Tabelle beschreibt die Beziehungen zwischen den Codes zweier Codesysteme. Sie legt fest, welcher Code im Quellcodesystem welchem Code im Zielcodesystem entspricht oder wie die beiden Codes zueinander in Beziehung stehen. 
 
-Für die Beschreibung der Mapping-Beziehungen werden zwei Standards genutzt: [SKOS (Simple Knowledge Organization System)](https://www.w3.org/TR/skos-reference/) des W3C sowie [SSSOM (Simple Standard for Sharing Ontological Mappings)](https://mapping-commons.github.io/sssom/), ein offener Community-Standard für die maschinenlesbare Dokumentation von Konzeptabbildungen.
+Zur Beschreibung von Zuordnungsbeziehungen wurde die allgemeine Struktur des [SSSOM (Simple Standard for Sharing Ontological Mappings)](https://mapping-commons.github.io/sssom/), eines offenen Community-Standards für die maschinenlesbare Dokumentation von Begriffszuordnungen, mit einem Block für beschreibende Metadaten und einem Beziehungsblock verwendet, sowie die Beziehungstypen aus dem [SKOS (Simple Knowledge Organization System)](https://www.w3.org/TR/skos-reference/) des W3C.
 
 | Feld | Beschreibung | URI | Wertebereich | Kardinalität | Anmerkung | Bezug Standard |
 | ----| ---- | ---- | ---- | ---- | ---- | ---- |
