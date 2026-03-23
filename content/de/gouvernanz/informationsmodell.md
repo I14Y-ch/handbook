@@ -469,7 +469,7 @@ flowchart LR
     style m4 fill:#Bfe2ab,stroke:black
 ```
 
-In der Praxis gibt es unterschiedliche Grade der Übereinstimmung. Um diese zu dokumentieren nutzt I14Y das _Simple Knowledge Organization System_ (SKOS) aus dem _Simple Standard for Sharing Ontology Mappings_ (SSSOM). 
+In der Praxis gibt es unterschiedliche Grade der Übereinstimmung. Um diese zu dokumentieren basiert I14Y auf dem _Simple Standard for Sharing Ontology Mappings_ (SSSOM) und nutzt die Mapping-Eigenschaften des _Simple Knowledge Organization System_ (SKOS). 
 
 <details>
 <summary><strong>Was ist SSSOM?</strong></summary>
