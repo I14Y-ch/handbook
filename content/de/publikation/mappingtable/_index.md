@@ -8,7 +8,7 @@ keywords: [I14Y, Interoperabilitätsplattform I14Y, Konzepte, Codeliste, Codelis
 draft: True
 ---
 
-Mapping-Tabellen ermöglichen es, die Beziehungen zwischen zwei Codelisten nachvollziehbar und maschinenlesbar zu dokumentieren. Für jeden relevanten Wert der Quell-Codeliste wird festgehalten, welchem Wert oder welchen Werten der Ziel-Codeliste er entspricht. Zur Beschreibung der Beziehungstypen nutzt I14Y das Vokabular aus SKOS bzw. SSSOM. Die Mapping-Tabelle ist auf I14Y ein eigenständiges Katalogobjekt mit eigenen beschreibenden Metadaten.
+Mapping-Tabellen ermöglichen es, die Beziehungen zwischen zwei Codelisten nachvollziehbar und maschinenlesbar zu dokumentieren. Für jeden relevanten Wert der Quell-Codeliste wird festgehalten, welchem Wert oder welchen Werten der Ziel-Codeliste er entspricht. Zur Beschreibung der Beziehungstypen nutzt I14Y das Mapping-Vokabular aus SKOS. Die Mapping-Tabelle ist auf I14Y ein eigenständiges Katalogobjekt mit eigenen beschreibenden Metadaten.
 
 Um eine Zuordnungstabelle zu erfassen, wählen Sie sich im [Input-Bereich](https://input.i14y.admin.ch) ein. Klicken Sie auf die Kachel **Katalog pflegen**. Wählen Sie nun oben rechts **Erstellen** aus und klicken Sie auf "Neue Mapping-Tabelle". 
 
