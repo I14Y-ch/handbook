@@ -59,6 +59,7 @@ keywords: [Interoperabilitätsplattform I14Y, I14Y, Weblink, URL, Verweise, Refe
 | [DCAT-AP CH 2.0](https://www.dcat-ap.ch/releases/2.0/dcat-ap-ch.html) | Schweizer Anwendungsprofil des DCAT-Standards für Metadaten (Version 2.0) | Schweiz |
 | [DCAT-AP CH 3.0](https://www.dcat-ap.ch/releases/3.0_workingdraft/dcat-ap-ch_3.0_workingdraft.html) | Entwurf Schweizer Anwendungsprofil des DCAT-Standards für Metadaten (Version 3.0) | Schweiz |
 | [eCH-0200](https://www.ech.ch/de/ech/ech-0200) | Schweizer Standard für Behördenleistungen | Schweiz |
+| [SSSOM](https://mapping-commons.github.io/sssom) | Der _Simple Standard for Sharing Ontology Mappings_ (SSSOM) ist ein gemeinschaftlicher Standard, um Beziehungen zwischen Objekten zu beschreiben. I14Y nutzt ihn mit den Mapping-Tabellen. | International |
 
 {.weblink1}
 
