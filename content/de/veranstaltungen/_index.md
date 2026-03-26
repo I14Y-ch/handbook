@@ -19,6 +19,14 @@ type: docs
 {{< /event-card >}}
 
 {{< event-card 
+  title="Informelles Treffen der Local Data Stewards"
+  location="BAG, Campus Liebefeld, Köniz"
+  date="7. Juli 2026, 13 bis 15 Uhr"
+>}}
+Möchten Sie eines Ihrer Projekte demonstrieren? Würden Sie gerne eine Frage diskutieren, die Sie bei der praktischen Arbeit zur Inventarisierung und Harmonisierung von Daten beschäftigt? Möchten Sie Kontakte zu Leuten mit ähnlichen Aufgaben knüpfen? Das informelle Treffen der Local Data Stewards bietet die Gelegenheit dazu. Kontaktieren Sie die [Interoperabilitätsstelle](mailto:i14y@bfs.admin.ch), falls Sie gerne am Treffen teilnehmen möchten. 
+{{< /event-card >}}
+
+{{< event-card 
   title="Steuerungsausschuss I14Y"
   location="Neuchâtel"
   date="23. Juni 2026"
