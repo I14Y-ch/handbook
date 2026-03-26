@@ -1,5 +1,5 @@
 ---
-title: Felder zum Beschreiben einer Behördenleistung
+title: Eingabefelder Behördenleistung
 slug: eingabefelder_behoerdenleistung
 weight: 30
 type: docs

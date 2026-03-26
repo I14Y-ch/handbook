@@ -26,7 +26,13 @@ type: docs
 Treffen des Steuerungsausschusses I14Y in Neuchâtel. Im Steuerungsausschuss sind die grössten Organisationen vertreten, die die Interoperabilitätsplattform aktiv nutzen. Kontaktieren Sie die [Interoperabilitätsstelle](mailto:i14y@bfs.admin.ch) für weitere Informationen.
 {{< /event-card >}}
 
-w
+{{< event-card 
+  title="Weiterbildung Datenmanagement und Open Data"
+  location="Berner Fachhochschule"
+  date="20. bis 22. August 2026"
+  link="https://www.bfh.ch/de/aktuell/fachveranstaltungen/weiterbildung-data-management-open-government-data/"
+>}}
+{{< /event-card >}}
 
 {{< event-card 
   title="Schweizer Statistiktage"

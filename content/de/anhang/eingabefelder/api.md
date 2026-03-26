@@ -1,5 +1,5 @@
 ---
-title: Felder zum Beschreiben einer API
+title: Eingabefelder API
 slug: eingabefelder_api
 weight: 20
 type: docs
