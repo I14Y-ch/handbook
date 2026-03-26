@@ -5,7 +5,6 @@ weight: 60
 type: docs
 translationKey: mapping
 keywords: [I14Y, Interoperabilitätsplattform I14Y, Konzepte, Codeliste, Codelisten, Mapping, Zuordnung, Zuordnungstabelle, SSSOM]
-draft: True
 ---
 
 Mapping-Tabellen ermöglichen es, die Beziehungen zwischen zwei Codelisten nachvollziehbar und maschinenlesbar zu dokumentieren. Für jeden relevanten Wert der Quell-Codeliste wird festgehalten, welchem Wert oder welchen Werten der Ziel-Codeliste er entspricht. Zur Beschreibung der Beziehungstypen nutzt I14Y das Mapping-Vokabular aus SKOS. Die Mapping-Tabelle ist auf I14Y ein eigenständiges Katalogobjekt mit eigenen beschreibenden Metadaten.

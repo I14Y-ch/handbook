@@ -5,7 +5,6 @@ weight: 50
 type: docs
 translationKey: fields_mapping
 keywords: [Interoperabilitätsplattform I14Y, I14Y, Glossar, Eingabefelder, Mapping, Codesystem]
-draft: True
 ---
 
 Eine Mapping-Tabelle beschreibt die Beziehungen zwischen den Codes zweier Codesysteme. Sie legt fest, welcher Code im Quellcodesystem welchem Code im Zielcodesystem entspricht oder wie die beiden Codes zueinander in Beziehung stehen. 
