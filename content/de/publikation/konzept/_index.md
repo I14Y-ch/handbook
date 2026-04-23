@@ -28,7 +28,7 @@ Klicken Sie schliesslich im Feld __Eigenschaftstyp__ an, ob es sich beim betreff
 
 Bei Bedarf können abgespeicherte Konzepte wieder geladen und editiert werden -- allerdings nur so lange, bis sie den Status "Registriert" erreicht haben. Falls später Änderungen vorgenommen oder etwa eine Codeliste aktualisiert wird, ist es zwingend nötig, über den entsprechenden Knopf oberhalb des Eintrags eine neue Version anzulegen. Mehr Informationen zum Status sind im Kapitel [Rollen und Prozesse](/handbook/de/gouvernanz/workflow) zusammengestellt.
 
-Nach dem erstmaligen Abspeichern haben Sie nicht nur die Möglichkeit den Status und den Kanal für den betreffenden Eintrag zu setzen. Sie können auch bestimmen, ob der Eintrag offen gelassen oder gesperrt werden soll. Diese Funktion ist insbesondere für Codelisten wichtig: In einzelnen Fällen macht es Sinn, wenn sich Codelisten ergänzen oder abändern lassen, auch wenn sie publiziert sind. In solchen Fällen wird oft in den Annotationen vermerkt, von wann bis wann ein Wert gültig ist. Normalerweise sollten Codelisten nach der Publikation aber nicht abgeändert werden. Stellen Sie den Regler in diesem Fall auf __Gesperrt__, direkt bevor Sie die Codeliste publizieren. Änderungen an der Codeliste sind anschliessend nur noch möglich, wenn eine neue Version erstellt wird. Die Sperre lässt sich über die Weboberfläche nicht mehr aufheben. Kontaktieren Sie die Interoperabilitätsstelle, wenn eine Sperre wieder aufgehoben werden muss.  
+Nach dem erstmaligen Abspeichern haben Sie nicht nur die Möglichkeit den Status und den Kanal für den betreffenden Eintrag zu setzen. Sie können auch bestimmen, ob der Eintrag offen gelassen oder gesperrt werden soll. Diese Funktion ist insbesondere für Codelisten wichtig: In einzelnen Fällen macht es Sinn, wenn sich Codelisten ergänzen oder abändern lassen, auch wenn sie publiziert sind. In solchen Fällen wird oft in den Annotationen vermerkt, von wann bis wann ein Wert gültig ist. Normalerweise sollten Codelisten nach der Publikation aber nicht abgeändert werden. Stellen Sie den Regler in diesem Fall auf __Gesperrt__, direkt bevor Sie die Codeliste publizieren. Änderungen an der Codeliste sind anschliessend nur noch möglich, wenn eine neue Version erstellt wird. Die Sperre lässt sich über die Weboberfläche nicht mehr aufheben. Kontaktieren Sie das Kompetenzzentrum Datenbewirtschaftung, wenn eine Sperre wieder aufgehoben werden muss.  
 
 ### Ergänzen einer Codeliste
 
@@ -198,6 +198,6 @@ Wenn der Import funktioniert hat, wird rechts eine entsprechende Meldung angezei
 
 {{<alert title="Konzept oder Datensatz?" color="success">}}
 
-Die Anzahl der Annotationen ist technisch nicht limitiert. Die Interoperabilitätsstelle rät aber zur zurückhaltenden Nutzung dieser Möglichkeit. Wenn zahlreiche Annotationen nötig sind, prüfen Sie bitte: Sollte der betreffende Inhalt besser als Datensatz mit Struktur und hinterlegten Datenelementen sowie einer verlinkten Distribution beschrieben werden? 
+Die Anzahl der Annotationen ist technisch nicht limitiert. Das Kompetenzzentrum Datenbewirtschaftung rät aber zur zurückhaltenden Nutzung dieser Möglichkeit. Wenn zahlreiche Annotationen nötig sind, prüfen Sie bitte: Sollte der betreffende Inhalt besser als Datensatz mit Struktur und hinterlegten Datenelementen sowie einer verlinkten Distribution beschrieben werden? 
 
 {{</alert>}}

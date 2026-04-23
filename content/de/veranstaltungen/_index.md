@@ -2,7 +2,7 @@
 title: Veranstaltungen
 slug: veranstaltungen
 translationKey: events
-description: "Lernen Sie I14Y kennen und diskutieren Sie Möglichkeiten zur Datenharmonisierung: Die Interoperabilitätsstelle organisiert regelmässig Veranstaltungen zur Plattform und zur Datenharmonisierung. Wir freuen uns auf Ihre Teilnahme."
+description: "Lernen Sie I14Y kennen und diskutieren Sie Möglichkeiten zur Datenharmonisierung: Das Kompetenzzentrum Datenbewirtschaftung (KDB) organisiert regelmässig Veranstaltungen zur Plattform und zur Datenharmonisierung. Wir freuen uns auf Ihre Teilnahme."
 keywords: [I14Y, Interoperabilitätsplattform I14Y, IOP, Event, Veranstaltung, Information, Ausbildung, Austausch]
 weight: 100
 type: docs
@@ -23,7 +23,7 @@ type: docs
   location="BAG, Campus Liebefeld, Köniz"
   date="7. Juli 2026, 13 bis 15 Uhr"
 >}}
-Möchten Sie eines Ihrer Projekte demonstrieren? Würden Sie gerne eine Frage diskutieren, die Sie bei der praktischen Arbeit zur Inventarisierung und Harmonisierung von Daten beschäftigt? Möchten Sie Kontakte zu Leuten mit ähnlichen Aufgaben knüpfen? Das informelle Treffen der Local Data Stewards bietet die Gelegenheit dazu. Kontaktieren Sie die [Interoperabilitätsstelle](mailto:i14y@bfs.admin.ch), falls Sie gerne am Treffen teilnehmen möchten. 
+Möchten Sie eines Ihrer Projekte demonstrieren? Würden Sie gerne eine Frage diskutieren, die Sie bei der praktischen Arbeit zur Inventarisierung und Harmonisierung von Daten beschäftigt? Möchten Sie Kontakte zu Leuten mit ähnlichen Aufgaben knüpfen? Das informelle Treffen der Local Data Stewards bietet die Gelegenheit dazu. Kontaktieren Sie das [Kompetenzzentrum Datenbewirtschaftung](mailto:i14y@bfs.admin.ch), falls Sie gerne am Treffen teilnehmen möchten. 
 {{< /event-card >}}
 
 {{< event-card 
@@ -31,7 +31,7 @@ Möchten Sie eines Ihrer Projekte demonstrieren? Würden Sie gerne eine Frage di
   location="Neuchâtel"
   date="23. Juni 2026"
 >}}
-Treffen des Steuerungsausschusses I14Y in Neuchâtel. Im Steuerungsausschuss sind die grössten Organisationen vertreten, die die Interoperabilitätsplattform aktiv nutzen. Kontaktieren Sie die [Interoperabilitätsstelle](mailto:i14y@bfs.admin.ch) für weitere Informationen.
+Treffen des Steuerungsausschusses I14Y in Neuchâtel. Im Steuerungsausschuss sind die grössten Organisationen vertreten, die die Interoperabilitätsplattform aktiv nutzen. Kontaktieren Sie das [Kompetenzzentrum Datenbewirtschaftung](mailto:i14y@bfs.admin.ch) für weitere Informationen.
 {{< /event-card >}}
 
 {{< event-card 
@@ -55,7 +55,7 @@ Treffen des Steuerungsausschusses I14Y in Neuchâtel. Im Steuerungsausschuss sin
   location="Bern"
   date="15. September 2026"
 >}}
-Treffen des Steuerungsausschusses I14Y in Bern. Im Steuerungsausschuss sind die grössten Organisationen vertreten, die die Interoperabilitätsplattform aktiv nutzen. Kontaktieren Sie die [Interoperabilitätsstelle](mailto:i14y@bfs.admin.ch) für weitere Informationen.
+Treffen des Steuerungsausschusses I14Y in Bern. Im Steuerungsausschuss sind die grössten Organisationen vertreten, die die Interoperabilitätsplattform aktiv nutzen. Kontaktieren Sie das [Kompetenzzentrum Datenbewirtschaftung](mailto:i14y@bfs.admin.ch) für weitere Informationen.
 {{< /event-card >}}
 
 {{< event-card 
@@ -71,7 +71,7 @@ Austausch und Vernetzung der Local Data Stewards der öffentlichen Verwaltung.
   location="Neuchâtel"
   date="24. November 2026"
 >}}
-Treffen des Steuerungsausschusses I14Y in Neuchâtel. Im Steuerungsausschuss sind die grössten Organisationen vertreten, die die Interoperabilitätsplattform aktiv nutzen. Kontaktieren Sie die [Interoperabilitätsstelle](mailto:i14y@bfs.admin.ch) für weitere Informationen.
+Treffen des Steuerungsausschusses I14Y in Neuchâtel. Im Steuerungsausschuss sind die grössten Organisationen vertreten, die die Interoperabilitätsplattform aktiv nutzen. Kontaktieren Sie das [Kompetenzzentrum Datenbewirtschaftung](mailto:i14y@bfs.admin.ch) für weitere Informationen.
 {{< /event-card >}}
 
 ## Vergangene Veranstaltungen

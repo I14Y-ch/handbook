@@ -5,14 +5,13 @@ weight: 60
 type: docs
 translationKey: toolbox
 keywords: [I14Y, Interoperabilitätsplattform I14Y, Interoperabilität, Toolbox, Hilfsprogramme, Miniapplikationen, Excel Upload, Keyword Generator, Concept Import, Swagger, SHACL, Schweiz]
-draft: false
 ---
 
-Die Interoperabilitätsstelle des BFS bietet in der [I14Y-Toolbox](https://toolbox.i14y.admin.ch) einfache Webanwendungen an, die das Dokumentieren von Daten in bestimmten Fällen erleichtern. Damit können beispielsweise Metadaten oder Konzepte aus Daten extrahiert, Textelemente automatisch übersetzt oder Inhalte mithilfe künstlicher Intelligenz generiert werden. So erhalten _Submitter_ oder _Local Data Stewards_ schnell eine erste Version eines Eintrags, den sie anschliessend prüfen, bearbeiten publizieren können.
+Das Kompetenzzentrum Datenbewirtschaftung (KDB) des BFS bietet in der [I14Y-Toolbox](https://toolbox.i14y.admin.ch) einfache Webanwendungen an, die das Dokumentieren von Daten in bestimmten Fällen erleichtern. Damit können beispielsweise Metadaten oder Konzepte aus Daten extrahiert, Textelemente automatisch übersetzt oder Inhalte mithilfe künstlicher Intelligenz generiert werden. So erhalten _Submitter_ oder _Local Data Stewards_ schnell eine erste Version eines Eintrags, den sie anschliessend prüfen, bearbeiten publizieren können.
 
 Die Anwendungen basieren teilweise auf Skripten aus dem [I14Y-GitHub-Repository](https://github.com/i14y-ch). Der Vorteil der Toolbox: Es ist keine lokale Python-Umgebung erforderlich. Die  Skripte können direkt über das Web-Frontend genutzt werden.
 
-Die Webanwendungen der I14Y-Toolbox sind experimentell. Sie sind nicht stabil und werden bei Bedarf weiterentwickelt. Teile des Codes sind automatisch generiert. Die Interoperabilitätsstelle übernimmt keine Verantwortung und bietet keinen Support. Das Hosting kann ausserhalb der Infrastruktur des Bundes erfolgen. Der Quellcode und die Anleitungen sind auf GitHub verfügbar und lassen sich über den Link in der jeweiligen Kachel aufrufen. Alle Anwendungen können bei Bedarf auch lokal ausgeführt werden.
+Die Webanwendungen der I14Y-Toolbox sind experimentell. Sie sind nicht stabil und werden bei Bedarf weiterentwickelt. Teile des Codes sind automatisch generiert. Das Kompetenzzentrum Datenbewirtschaftung übernimmt keine Verantwortung und bietet keinen Support. Das Hosting kann ausserhalb der Infrastruktur des Bundes erfolgen. Der Quellcode und die Anleitungen sind auf GitHub verfügbar und lassen sich über den Link in der jeweiligen Kachel aufrufen. Alle Anwendungen können bei Bedarf auch lokal ausgeführt werden.
 
 {{< alert color="warning" title="Nicht geeignet für sensible Daten" >}}
 
@@ -34,3 +33,4 @@ Haben Sie Vorschläge für weitere nützliche Anwendungen? Schreiben Sie  an [i1
 - **Swagger to I14Y**: Generieren Sie aus Ihrer technischen API-Spezifikation (Swagger) eine API-Beschreibung auf I14Y.
 - **Convert to SHACL**: Erstellen Sie eine SHACL-Beschreibung der Datenstruktur. Nutzen Sie dazu ihre Datensätze, z.B. in Form einer einer CSV-Datei.
 - **SHACL-Editor**: Beschreiben oder bearbeiten Sie Datenstrukturen manuell mit dem SHACL-Struktureditor.
+- **Harmonization Graph**: In welcher Datenstruktur werden welche eigenen oder fremden Konzepte verwendet? Mit der Visualisierung lassen sich die Beziehungen zwischen Datensätzen, Datenelementen und Konzepten grafisch darstellen.

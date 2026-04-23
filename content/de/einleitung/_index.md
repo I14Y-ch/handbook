@@ -2,19 +2,23 @@
 title: Einleitung
 slug: einleitung
 translationKey: introduction
-description:
+description: Die Interoperabilitätsplattform I14Y listet auf, welche Daten in der öffentlichen Verwaltung vorhanden sind. Und sie zeigt, auf welchen Definitionen Daten beruhen. Damit schafft sie eine Grundlage dafür, dass Verwaltungseinheiten Daten austauschen und mehrfach nutzen können. 
 keywords: [I14Y, Interoperabilitätsplattform I14Y, IOP, Einleitung, Vorwort, Zusammenfassung, Interoperabilität, Mehrfachnutzung, Schweiz, Datensatz, elektronische Schnittstelle, elektronische Schnittstelle, API, Once-Only-Prinzip, Sekundärnutzung von Daten, Harmonisierung, Standardisierung]
 weight: 10
 type: docs
 ---
 
-Eine Mehrfachnutzung von Verwaltungsdaten ist dann möglich, wenn bekannt ist, wer über welche Datensätze verfügt. Zudem müssen die Daten harmonisiert sein: Alle Ämter sollten mit denselben Kategorien und Codelisten arbeiten -- also etwa dieselben Listen mit Gemeindenamen oder Berufsbezeichnungen verwenden. Eine gute Zusammenarbeit ist unabdingbar für eine erfolgreiche Harmonisierung: Es muss definiert werden, welche Organisation etwa eine Codeliste verantwortet. Alle anderen pflegen die entsprechende Liste nicht selber, sondern übernehmen sie von der zuständigen Stelle. 
+Eine Mehrfachnutzung von Verwaltungsdaten ist dann möglich, wenn bekannt ist, wer über welche Datensätze verfügt. Zudem müssen die Daten harmonisiert sein: Alle Ämter sollten mit denselben Kategorien und Codelisten arbeiten -- also etwa dieselben Listen mit Gemeindenamen oder Berufsbezeichnungen verwenden. Für eine erfolgreiche Harmonisierung ist eine gute Zusammenarbeit unabdingbar. Es muss definiert werden, welche Organisation etwa eine Codeliste verantwortet. Alle anderen pflegen die entsprechende Liste nicht selbst, sondern übernehmen sie von der zuständigen Stelle. 
 
-Genau dies ist mit der Interoperabilitätsplattform I14Y möglich: Zusätzlich zu den beschreibenden Metadaten beinhaltet die Plattform strukturelle Metadaten. Diese beschreiben die einzelnen Elemente eines Datensatzes. Jedes Element basiert auf einem eindeutig definierten Konzept, zum Beispiel einer Codeliste. Die Konzepte brauchen nur einmalig von der zuständigen Stelle erfasst zu werden. Andere Organisationen verwenden sie zur Beschreibung ihrer strukturellen Metadaten wieder. 
+Genau das ermöglicht die Interoperabilitätsplattform I14Y: Neben beschreibenden Metadaten -- dem Inventar der Datensätze -- enthält sie strukturelle Metadaten. Letztere dokumentieren, wie der Datensatz strukturiert ist und auf welchen Definitionen -- so genannten Konzepten -- die einzelnen Datenelemente beruhen. 
 
-Die einzelnen Behörden profitieren somit von der Arbeit der jeweils anderen. Möglich wird auch etwa, dass ein privates Umfrageinstitut dieselben Kategorien oder Ausprägungen verwendet, die eine staatliche Stelle einsetzt. Dadurch werden nachträgliche Harmonisierungsarbeiten überflüssig. Und in vielen Fällen wird die Datenqualität besser. 
+Die zuständige Stelle erfasst ein Konzept einmalig; andere Organisationen nutzen es anschliessend für ihre eigenen strukturellen Metadaten. So profitieren Behörden direkt von der Arbeit anderer Stellen. Auch private Umfrageinstitute können dieselben Kategorien oder Ausprägungen wie staatliche Stellen verwenden. Das reduziert nachträgliche Harmonisierungsarbeiten und verbessert in vielen Fällen die Datenqualität. Auf diese Weise trägt I14Y zur semantischen Harmonisierung des Datenökosystems der öffentlichen Verwaltungen bei.
 
-Auf diese Weise hilft die Interoperabilitätsplattform I14Y dabei, das Schweizerische Datenökosystem semantisch zu harmonisieren. Die Metadaten -- insbesondere die Codelisten -- lassen sich automatisiert über elektronische Schnittstellen (APIs) abrufen. Dies ermöglicht es, die Plattform an beliebige Systeme und Applikationen anzubinden. Für Fälle, in denen zwei sehr ähnliche Codelisten bestehen, die (noch) nicht zusammengeführt werden können, lassen sich die Zuordnungen mit den so genannten _Mapping Tables_ auf I14Y dokumentieren. 
+I14Y bietet zudem ein Verzeichnis der elektronischen Schnittstellen an. Damit werden elektronische Schnittstellen, die von der Verwaltung betrieben werden, besser auffindbar. Durch die Nutzung derselben elektronischen Schnittstellen in verschiedenen Systemen wird die semantische Harmonisierung gefördert. 
+
+Auf der Interoperabilitätsplattform I14Y wird ausserdem zudem ein Verzeichnis von elektronischen Behördenleistungen wie Online-Behördenschaltern aufgebaut. Dieses gibt einen Überblick über das Angebot der öffentlichen Verwaltung.
+
+Alle Metadaten lassen sich automatisiert über die elektronische Schnittstellen (APIs) von I14Y abrufen. Dadurch kann die Plattform an beliebige Systeme und Applikationen angebunden werden. Besonders interessant ist dies bei Konzepten mit Codelisten: So lassen sich harmonisierte Codelisten dynamisch an Fachapplikationen anbinden.
 
 {{<alert title="Was bedeutet I14Y?" color="info">}}
 
@@ -22,30 +26,14 @@ Unnötig viel tippen -- das läuft vielen Informatikern zuwider. Deshalb lieben 
 
 {{</alert>}}
 
-Auf der Interoperabilitätsplattform I14Y wird zudem ein Verzeichnis von elektronischen Behördenleistungen wie Webapplikationen und Apps aufgebaut. Dieses gibt einen Überblick über das Angebot der öffentlichen Verwaltung. Und es erleichtert den Dialog zwischen den Betreiberinnen und Betreibern der jeweiligen Dienstleistung sowie den Nutzerinnen und Nutzern.
+Betrieben und entwickelt wird die Plattform vom Kompetenzzentrum Datenbewirtschaftung (KDB) gemeinsam mit der Gruppe Metadatenplattform (MDP) in der Sektion Kompetenzzentrum Datenbewirtschaftung und Basisdienste (DBD) des [Bundesamts für Statistik (BFS)](https://www.bfs.admin.ch).
 
-Entwickelt und betrieben wird die Plattform von der Interoperabilitätsstelle (IOS) in der Abteilung Interoperabilität und Register (IOR) des [Bundesamts für Statistik](https://www.bfs.admin.ch). Gesetzlich geregelt wird der Betrieb der Plattform im Bundesgesetz über den Einsatz elektronischer Mittel zur Erfüllung von Behördenaufgaben (EMBAG).
-
-{{<card header="Gesetzesgrundlage" title="__Art. 14 Interoperabilitätsplattform__" footer="Bundesgesetz über den Einsatz elektronischer Mittel zur Erfüllung von Behördenaufgaben [(EMBAG)](https://www.fedlex.admin.ch/eli/fga/2023/787/de)">}}
-
-1. Das Bundesamt für Statistik betreibt im Internet eine öffentliche Plattform, auf der insbesondere folgende Informationen direkt oder über Referenzierung in elektronischer Form leicht zugänglich sind:
-
-    a. die Metadaten von strukturierten elektronischen Datenbeständen der Bundesverwaltung einschliesslich der Metadaten von Open Government Data nach Artikel 10;
-
-    b. ein Verzeichnis der Schnittstellen nach Artikel 13 sowie der zu deren Nutzung notwendigen Informationen, sofern die Informationssicherheit nicht gefährdet ist;
-
-    c. eine Übersicht über die elektronisch verfügbaren Leistungen der Behörden.
-
-2. Der Bundesrat regelt, welche Metadaten zu veröffentlichen sind. Er kann das Bundesamt für Statistik ermächtigen, im Einvernehmen mit der Bundeskanzlei die Form der Metadaten zu regeln.
-
- 3. Die Kantone können ihre Metadaten, Schnittstellen und Anwendungen unter den Voraussetzungen von Artikel 11 Absätze 3 und 4 auf der Plattform zugänglich machen.
-
-{{</card>}}
+Die rechtliche Grundlage bildet das Bundesgesetz über den Einsatz elektronischer Mittel zur Erfüllung von Behördenaufgaben ([EMBAG](https://www.fedlex.admin.ch/eli/cc/2023/682/de)), insbesondere Art. 14 zur Interoperabilitätsplattform. Präzisiert wird das Gesetz in der [Digitalisierungsverordnung (DigiV)](https://fedlex.data.admin.ch/eli/cc/2025/235). Der [erläuternde Bericht](https://www.fedlex.admin.ch/filestore/fedlex.data.admin.ch/eli/oe/2025/38/de/pdf/fedlex-data-admin-ch-eli-oe-2025-38-de-pdf-1.pdf) gibt weitere Hinweise zur Umsetzung. Mehr Informationen zu den rechtlichen Grundlagen sind in diesem Handbuch im Abschnitt [Rechtliche Grundlagen](/handbook/de/gouvernanz/rechtliche-grundlagen/) zu finden.
 
 Die Interoperabilitätsplattform I14Y steht seit Sommer 2021 zur Verfügung und wird kontinuierlich weiterentwickelt. Sie richtet sich in erster Linie an Bund, Kantone und Gemeinden sowie an die Forschung. Da Verwaltung und Unternehmen eng zusammenarbeiten, steht sie auch Unternehmen offen. Öffentlich publizierte Inhalte können auch von Unternehmen und den Bürgerinnen und Bürgern eingesehen und genutzt werden.
 
 {{<alert title="Flugblatt mit den wichtigsten Fakten" color="success" >}}
 
-Die wichtigsten Fakten zur I14Y sind auf einem doppelseitigen Flugblatt zusammengefasst ([DE](/handbook/files/Factsheet_I14Y_de.pdf), [FR](/handbook/files/Factsheet_I14Y_fr.pdf), [IT](/handbook/files/Factsheet_I14Y_it.pdf), [EN](/handbook/files/Factsheet_I14Y_en.pdf)). Falls Sie das Flugblatt in gedruckter Form benötigen -- etwa um es an einem Stand an einer Konferenz zu verteilen --, nehmen Sie mit der Interoperabilitätsstelle Kontakt auf.  
+Die wichtigsten Fakten zur I14Y sind auf einem doppelseitigen Flugblatt zusammengefasst ([DE](/handbook/files/Factsheet_I14Y_de.pdf), [FR](/handbook/files/Factsheet_I14Y_fr.pdf), [IT](/handbook/files/Factsheet_I14Y_it.pdf), [EN](/handbook/files/Factsheet_I14Y_en.pdf)). Falls Sie das Flugblatt in gedruckter Form benötigen -- etwa um es an einem Stand an einer Konferenz zu verteilen --, nehmen Sie mit dem Kompetenzzentrum Datenbewirtschaftung Kontakt auf.  
 
 {{</alert>}}

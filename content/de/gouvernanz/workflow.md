@@ -9,7 +9,7 @@ keywords: [I14Y, Interoperabilitätsplattform I14Y, Arbeitsablauf, Workflow, Sta
 
 Ein klar definierter Arbeitsablauf regelt, wie Metadaten auf der Interoperabilitätsplattform I14Y publiziert werden. Abhängig davon, ob die Metadaten ausschliesslich innerhalb der Organisation oder öffentlich publiziert werden, vielleicht sogar als Standard, ist der Arbeitsablauf ein-, zwei- beziehungsweise dreistufig. Dieser _Workflow_ dient insbesondere der Qualitätssicherung.
 
-In einer ersten Stufe werden die Metadaten erfasst. In einer zweiten Stufe werden sie von _Local Data Stewards_ validiert, also geprüft und öffentlich freigegeben. In einer dritten Stufe werden sie, sofern gewünscht und sinnvoll, in Zusammenarbeit mit der Interoperabilitätsstelle geprüft und gegebenenfalls als standardkonform markiert.
+In einer ersten Stufe werden die Metadaten erfasst. In einer zweiten Stufe werden sie von _Local Data Stewards_ validiert, also geprüft und öffentlich freigegeben. In einer dritten Stufe werden sie, sofern gewünscht und sinnvoll, in Zusammenarbeit mit dem Kompetenzzentrum Datenbewirtschaftung geprüft und gegebenenfalls als standardkonform markiert.
 
 ```mermaid
 flowchart LR
@@ -55,7 +55,7 @@ Neu erfasste Metadaten erhalten vorerst den Status _Initial_. Sobald die Erfassu
 
 Bei einigen Datensätzen, -diensten und -konzepten, die nicht standardisiert sind, endet die Erfassung damit.
 
-In einem dritten Schritt können die _Local Data Stewards_ prüfen, ob das Datenangebot standardkonform ist. Angebote, die einem von einem Gremium wie [eCH](/handbook/de/glossar/#ech) oder [ISO](/handbook/de/glossar/#internationale-organisation-für-normung-iso) verabschiedeten Standard entsprechen, erhalten den Status _Standard_. Solche, die dereinst zum Standard werden könnten, werden als _Qualifiziert_ gekennzeichnet; im direkten Austausch mit der Interoperabilitätsstelle sowie in Fachgruppen wird daraufhin das weitere Vorgehen festgelegt. Datenangebote, die auf einem überholten oder abgeschafften Standard aufbauen, werden mit dem Status _Abgelöst_ beziehungsweise _Zurückgezogen_ gekennzeichnet. Solange die Daten nicht als "Standard" oder "Empfohlener Standard" markiert sind, können diese Einstufungen von den _Local Data Stewards_ ohne Rücksprache mit der Interoperabilitätsstelle gemacht werden. Soll ein Eintrag als "Standard" markiert sein, muss die Interoperabilitätsstelle beigezogen werden. 
+In einem dritten Schritt können die _Local Data Stewards_ prüfen, ob das Datenangebot standardkonform ist. Angebote, die einem von einem Gremium wie [eCH](/handbook/de/glossar/#ech) oder [ISO](/handbook/de/glossar/#internationale-organisation-für-normung-iso) verabschiedeten Standard entsprechen, erhalten den Status _Standard_. Solche, die dereinst zum Standard werden könnten, werden als _Qualifiziert_ gekennzeichnet; im direkten Austausch mit dem Kompetenzzentrum Datenbewirtschaftung sowie in Fachgruppen wird daraufhin das weitere Vorgehen festgelegt. Datenangebote, die auf einem überholten oder abgeschafften Standard aufbauen, werden mit dem Status _Abgelöst_ beziehungsweise _Zurückgezogen_ gekennzeichnet. Solange die Daten nicht als "Standard" oder "Empfohlener Standard" markiert sind, können diese Einstufungen von den _Local Data Stewards_ ohne Rücksprache mit dem Kompetenzzentrum Datenbewirtschaftung gemacht werden. Soll ein Eintrag als "Standard" markiert sein, muss das Kompetenzzentrum Datenbewirtschaftung beigezogen werden. 
 
 Weitere Informationen zur Statusverwaltung und zu den Zuständigkeiten sind in der folgenden Tabelle zusammengestellt. Das bei der Interoperabilitätsplattform I14Y verwendete Statuskonzept ist inspirirt von dem [ISO-Standard 11179](https://www.iso.org/standard/78914.html).  
 
@@ -155,7 +155,7 @@ PublicationLevel:
 
 Auf der Interoperabilitätsplattform I14Y existieren zwei Publikationskanäle: Metadaten können innerhalb der eigenen Organisation zugänglich gemacht werden -- etwa, um die eigenen Datenbestände zu inventarisieren. Oder sie können öffentlich publiziert werden. Zu Beginn sind die erfassten Metadaten stets ausschliesslich innerhalb der Organisation verfügbar. Sollen sie für die Allgemeinheit sichbar gemacht werden, wird der Publikationskanal auf _Public_ umgestellt. Dies ist anzustreben bei harmonisierten und standardisierten Datenstrukturen und -konzepten. Denn diese eignen sich für die Weiterverwendung.
 
-In der Regel wird die öffentliche Publikation durch eine Person mit der Rolle _Local Data Steward_ kontrolliert und durchgeführt. Die Interoperabilitätsstelle, das I14Y-Team, prüft daraufhin die Metadaten, wenn der Registrierungsstatus auf „Standard“ oder höher gesetzt wird.
+In der Regel wird die öffentliche Publikation durch eine Person mit der Rolle _Local Data Steward_ kontrolliert und durchgeführt. Das Kompetenzzentrum Datenbewirtschaftung (KDB), das I14Y-Team, prüft daraufhin die Metadaten, wenn der Registrierungsstatus auf „Standard“ oder höher gesetzt wird.
 
 ## Bearbeitungsrechte
 

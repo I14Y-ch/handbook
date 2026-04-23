@@ -37,12 +37,12 @@ Ein Maschine-zu-Maschine-Token ist nötig, wenn Sie den Bezug oder die Publikati
 
 **Vorgehen zur Beantragung eines M2M-Tokens:**
 
-1. Senden Sie eine E-Mail an die [Interoperabilitätsstelle](mailto:i14y@bfs.admin.ch) mit folgenden Informationen:
+1. Senden Sie eine E-Mail an das [Kompetenzzentrum Datenbewirtschaftung](mailto:i14y@bfs.admin.ch) mit folgenden Informationen:
    - kurze Erklärung zu Ihrem Vorhaben
    - Name der Organisation
    - erwartetes Zugriffsvolumen (ungefähre Anzahl API-Aufrufe)
 
-2. Die Interoperabilitätsstelle liefert Ihnen anschliessend:
+2. Das Kompetenzzentrum Datenbewirtschaftung liefert Ihnen anschliessend:
    - den Namen eines technischen Nutzers
    - ein Passwort
    - einige Zeilen Code
@@ -51,7 +51,7 @@ Ein Maschine-zu-Maschine-Token ist nötig, wenn Sie den Bezug oder die Publikati
 
 ### Identifikation von automatisierten Clients (User-Agent)
 
-Bei der Nutzung der API mit automatisierten Clients, insbesondere bei der Verwendung von _Machine to Machine Tokens_, sollte ein aussagekräftiger _User Agent Header_ übermittelt werden. Diese Angabe ermöglicht es der Interoperabilitätsstelle, die Nutzung der API besser zu verstehen und technische Probleme effizienter zu analysieren. Zudem erleichtert sie die Kontaktaufnahme mit der betreibenden Organisation einer Anwendung, falls ungewöhnliche Nutzungsmuster, Fehlkonfigurationen oder technische Probleme festgestellt werden.
+Bei der Nutzung der API mit automatisierten Clients, insbesondere bei der Verwendung von _Machine to Machine Tokens_, sollte ein aussagekräftiger _User Agent Header_ übermittelt werden. Diese Angabe ermöglicht es dem Kompetenzzentrum Datenbewirtschaftung und der Gruppe Metadatenplattform, die Nutzung der API besser zu verstehen und technische Probleme effizienter zu analysieren. Zudem erleichtert sie die Kontaktaufnahme mit der betreibenden Organisation einer Anwendung, falls ungewöhnliche Nutzungsmuster, Fehlkonfigurationen oder technische Probleme festgestellt werden.
 
 Der _User Agent_ sollte Informationen enthalten, die den verwendeten Client oder die Anwendung  identifizieren. Bewährt hat sich ein Format, das den Namen der Anwendung oder des Dienstes sowie den Namen der nutzenden Organisation enthält. Die Angabe einer Kontaktadresse ist freiwillig, wird jedoch empfohlen, damit bei technischen Problemen oder auffälligem Verhalten eine rasche Rückmeldung möglich ist. Die Kontaktinformation wird ausschliesslich zu diesem Zweck verwendet. 
 

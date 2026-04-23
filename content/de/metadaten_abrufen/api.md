@@ -46,7 +46,7 @@ Die Public API ist in der [Swagger UI](https://apiconsole.i14y.admin.ch/public/v
 | **Elektronische Schnittstelle** | `GET /dataservices/{id}` | Ruft die Metadaten einer bestimmten elektronischen Schnittstelle (API) ab. |
 | **Konzept** | `GET /concepts/{id}` | Ruft die Metadaten eines bestimmten Konzepts (z.B. Codeliste) ab. |
 
-Das Angebot an Endpunkten wird weiter ausgebaut. Die Interoperabilitätsstelle steht Ihnen bei Fragen und Wünschen zu den Endpunkten gerne zur Verfügung. Kontaktieren Sie uns unter [i14y@bfs.admin.ch](mailto:i14y@bfs.admin.ch).
+Das Angebot an Endpunkten wird weiter ausgebaut. Das Kompetenzzentrum Datenbewirtschaftung steht Ihnen bei Fragen und Wünschen zu den Endpunkten gerne zur Verfügung. Kontaktieren Sie uns unter [i14y@bfs.admin.ch](mailto:i14y@bfs.admin.ch).
 
 {{<alert title="Fair Use der Public API" color="warning" >}}
 
@@ -55,6 +55,6 @@ Die Nutzung der Public API unterliegt untenstehenden _Fair Use_-Richtlinien. Die
 - Die Nutzung kann zum Zweck der Lastüberprüfung protokolliert werden.
 - Die Anzahl der Transaktionen pro Nutzende oder Organisation kann jederzeit limitiert werden.
 - Beim Anbinden an eine Fachapplikation wird die Nutzung eines Zwischenspeichers (Cache) empfohlen.
-- Eine besonders umfangreiche oder intensive Nutzung ist mit der [Interoperabilitätsstelle](mailto:i14y@bfs.admin.ch) vorgängig abzusprechen.
+- Eine besonders umfangreiche oder intensive Nutzung ist mit dem [Kompetenzzentrum Datenbewirtschaftung](mailto:i14y@bfs.admin.ch) vorgängig abzusprechen.
 
 {{</alert>}}
