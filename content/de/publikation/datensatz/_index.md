@@ -13,6 +13,16 @@ Zusätzlich zu den Kataloginformationen lassen sich auf der Interoperabilitätsp
 
 Soll ein Datensatz erfasst werden, sind mindestens die Kataloginformationen zu hinterlegen. Dazu werden die Felder genutzt, wie sie der Austauschstandard DCAT-AP CH vorgibt. Anschliessend besteht die Möglichkeit, die Struktur des Datensatzes zu beschreiben. Unter "Distributionen" lassen sich Links zu den eigentlichen Daten hinterlegen. Zudem können Angaben zur Datenqualität erfasst werden. 
 
+## Welche Datensätze sollen auf I14Y beschrieben werden?
+Gemäss EMBAG und DigiV sind auf I14Y insbesondere Metadaten von strukturierten Datenbeständen zu erfassen. Prioritär sind:
+
+- Datensätze mit Relevanz für die verwaltungsinterne oder verwaltungsübergreifende Mehrfachnutzung
+- Datensätze mit Bezug zu Open Government Data
+- Datensätze, die für elektronische Behördenleistungen oder elektronische Schnittstellen relevant sind
+- Datensätze mit standardisierungsrelevanten Nomenklaturen und Konzepten
+
+Nicht im Fokus der Inventarisierung auf I14Y sind unstrukturierte Datenbestände sowie Metadaten, deren Publikation rechtlich unzulässig wäre. Bei Unsicherheiten sind die zuständigen Fach- und Rechtsstellen beizuziehen.
+
 ```mermaid
     flowchart LR
         dataset(Datensatz)
