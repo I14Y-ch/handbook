@@ -12,6 +12,16 @@ __DE:__ Diese Seite liegt teilweise in englischer Sprache vor.
 
 Die Interoperabilitätsplattform I14Y wird kontinuierlich weiterentwickelt. Mit jedem Release werden neue Funktionen hinzugefügt und Fehler behoben. Die wichtigsten Änderungen sind unten kurz dokumentiert. Für detaillierte Informationen zur Weiterentwicklung der Plattform wenden Sie sich bitte an das [I14Y-Team](mailto:i14y@bfs.admin.ch).
 
+## Release vom 25. März 2026
+
+**Mapping-Tabellen:** Mit diesem Release werden auf der Interoperabilitätsplattform Mapping-Tabellen eingeführt. Sie dienen dazu, Gemeinsamkeiten und Unterschiede zwischen den Werten aus zwei Codelisten zu dokumentieren. Mapping-Tabellen sind ein vollwertiges Objekt auf I14Y: Sie sind über die Suchfunktion und über Filter auffindbar. Sie sind sowohl auf der öffentlichen Plattform als auch in der Administrationsoberfläche einsehbar. Über die Administrationsoberfläche oder die API können Mapping-Tabellen auch erstellt und bearbeitet werden; zudem steht eine Importfunktion zur Verfügung.
+
+**Anklickbare «Konform zu»-Links:** Für jedes Datenelement kann dokumentiert werden, ob es sich auf ein grundlegendes Konzept stützt. Dazu wird in der SHACL-Struktur im Feld «Konform zu» ein Link hinterlegt. Bislang wurden diese IRIs in der Seitenliste lediglich angezeigt; neu sind sie anklickbar.
+
+**Sortierte Versionen:** Bei versionierten Konzepten wird eine Tabelle angezeigt, die die verfügbaren Versionen des Konzepts auflistet. Die Einträge werden neu in absteigender Reihenfolge dargestellt, was die Navigation durch die Konzept-Historie vereinfacht.
+
+**Diverse Fehlerkorrekturen**
+
 ## Release vom 25. Februar 2026
 
 - **IRIs für alle Objekte:** Im letzten Release wurden für Konzepte sogenannte _International Resource Identifier (IRIs)_ eingeführt: stabile, eindeutige Adressen, mit denen Inhalte verlässlich verlinkt werden können. Mit diesem Release erhalten nun auch alle übrigen Objekte auf I14Y eigene IRIs, also auch die Codelisteneinträge (Codes), Datensätze, elektronischen Schnittstellen und Behördenleistungen. Die IRIs werden auf den jeweiligen Detailseiten in der Benutzeroberfläche angezeigt. Für Codelisten, die auf der Plattform LINDAS veröffentlicht wurden, verweisen diese IRIs auf die dort verfügbaren Informationen. Für Datensätze, Datendienste und Verwaltungsleistungen stehen keine Inhalte auf LINDAS selbst, aber sie verfügen trotzdem über eine stabile, maschinenlesbare Adresse. In den RDF-Exporten, zum Beispiel für opendata.swiss, ersetzen die neuen IRIs die bisher verwendeten URLs. Für normale Nutzer ändert sich dadurch wenig, die Verweise auf I14Y-Inhalte werden aber stabiler.

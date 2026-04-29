@@ -13,6 +13,16 @@ __IT:__ Questa pagina è disponibile solo in inglese.
 
 The I14Y interoperability platform is under continuous development. New features are added with each release. Bugs are also fixed. The most important changes are briefly documented below. For detailed information on the development of the platform, please contact the [I14Y team](mailto:i14y@bfs.admin.ch). 
 
+## Release March 25 2026
+
+**Mapping tables:** With this release, mapping tables are introduced on the interoperability platform. They serve to document similarities and differences between the values of two codelists. Mapping tables are normal objects on I14Y: they are discoverable via search and filters, and can be viewed both on the public platform and in the administration interface. Via the administration interface or the API, mapping tables can also be created and edited; an import function is also available.
+
+**Clickable «Conforms to» links:** For each data element it can be documented whether it is based on a foundational concept. To do so, a link is stored in the SHACL structure in the «Conforms to» field. Previously, these IRIs were only displayed in the attribute sidebar; they are now clickable.
+
+**Sorted versions:** For versioned concepts, a table listing the available versions of the concept is displayed. Entries are now shown in descending order, which simplifies navigation through the concept history.
+
+**Various bug fixes**
+
 ## Release February 25 2026
 
 - **IRIs for all objects:** In the previous release, _International Resource Identifiers (IRIs)_ were introduced for concepts. These are stable, unique addresses that allow content to be linked reliably. With this release, all remaining object types on I14Y also receive their own IRIs. This includes codelist entries (codes), datasets, data services and public services. The IRIs are shown on the respective detail pages in the user interface. For codelist entries that are published on the LINDAS platform, the IRIs point to the information available on LINDAS. For datasets, data services and public services there is no content directly on LINDAS, but they still have a stable, machine‑readable address. In the technical RDF exports, for example to opendata.swiss, these new IRIs replace the URLs that were used previously. For most users, day‑to‑day work does not change, but links to I14Y content become more robust and easier to process automatically.

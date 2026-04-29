@@ -7,13 +7,19 @@ type: docs
 keywords: [I14Y, Interoperabilitätsplattform I14Y, IOP, Changelog, Releases, Versionen, Software-Entwicklung]
 ---
 
-{{<alert title="Language" color="warning">}}
-__FR:__ Ce site est en anglais. Seules les descriptions des grandes releases sont publiées en français.
-{{</alert>}}
+La plateforme d'interopérabilité I14Y est en développement continu. De nouvelles fonctionnalités sont ajoutées à chaque version, et des erreurs sont également corrigées. Les changements les plus importants sont brièvement documentés ci-dessous. Pour des informations détaillées sur l'évolution de la plateforme, veuillez contacter l'[équipe I14Y](mailto:i14y@bfs.admin.ch).
 
-The I14Y interoperability platform is under continuous development. New features are added with each release. Bugs are also fixed. The most important changes are briefly documented below. For detailed information on the development of the platform, please contact the [I14Y team](mailto:i14y@bfs.admin.ch). 
+## Version du 25 mars 2026
 
-## Release 25 février 2026
+**Tables de correspondance (Mapping):** Avec cette version, des tables de correspondance sont introduites sur la plateforme d'interopérabilité. Elles permettent de documenter les similitudes et les différences entre les valeurs de deux listes de codes. Les tables de correspondance sont des objets à part entière sur I14Y : elles sont trouvables via la recherche et les filtres, consultables aussi bien sur la plateforme publique que dans l'interface d'administration. Via l'interface d'administration ou l'API, elles peuvent également être créées et éditées ; une fonction d'import est également disponible.
+
+**Liens «Conforme à» cliquables:** Pour chaque élément de données, il est possible de documenter s'il se base sur un concept fondamental. À cet effet, un lien est enregistré dans la structure SHACL dans le champ «Conforme à». Jusqu'à présent, ces IRIs n'étaient qu'affichés dans le panneau latéral ; ils sont désormais cliquables.
+
+**Versions triées:** Pour les concepts versionnés, un tableau listant les versions disponibles du concept est affiché. Les entrées sont désormais présentées en ordre décroissant, ce qui simplifie la navigation dans l'historique du concept.
+
+**Diverses corrections de bugs**
+
+## Version du 25 février 2026
 
 - **IRIs pour tous les objets:** Lors de la dernière version, des _International Resource Identifier (IRIs)_ ont été introduits pour les concepts. Il s’agit d’adresses stables et uniques qui permettent de créer des liens fiables vers des contenus. Avec cette nouvelle version, tous les autres objets d’I14Y obtiennent également leur propre IRI. Cela concerne notamment les codes des listes de codes, les jeux de données, les services de données (Data Services) et les prestations publiques (Public Services). Les IRIs sont affichés sur les pages de détail correspondantes dans l’interface utilisateur. Pour les codes publiés sur la plate‑forme LINDAS, les IRIs renvoient aux informations disponibles sur LINDAS. Pour les jeux de données, les services de données et les prestations publiques, aucun contenu n’est disponible directement sur LINDAS, mais ils disposent tout de même d’une adresse stable et lisible par machine. Dans les exports RDF techniques, par exemple pour opendata.swiss, ces nouveaux IRIs remplacent les anciennes URL. Pour les utilisatrices et utilisateurs, peu de choses changent dans l’utilisation quotidienne, mais les références vers les contenus d’I14Y deviennent plus fiables.
 
@@ -27,7 +33,7 @@ The I14Y interoperability platform is under continuous development. New features
 
 - **Améliorations des résultats de recherche:** La fonction de recherche d’I14Y a été encore affinée afin que les contenus importants soient plus faciles à trouver. Les entrées marquées comme standard ou standard préféré sont désormais mieux pondérées dans le tri des résultats et apparaissent donc plus en évidence. Il est en outre possible de rechercher explicitement par détenteur de données (_data owner_). Les jeux de données et services peuvent ainsi être retrouvés plus facilement.
 
-## Release 28 janvier 2026
+## Version du 28 janvier 2026
 
 - **Permaliens pour les concepts :** un identifiant international de ressource (IRI) s'affiche désormais sur les pages détaillées des concepts publiés. Cet identifiant stable et unique, également appelé permalien, utilise la section Linked Data de la Confédération. Le permalien se compose de l'identifiant interne et de la version du concept : `https://register.ld.admin.ch/i14y/concept/{concept-identifier}/version/{version}`. Un IRI n'est généré qu'une fois qu'un concept est publié ; les concepts internes ne disposent pas d'un tel permalien.
 - **Extension de l'exportation RDF :** les descriptions des ensembles de données sont également disponibles au format RDF via l'interface électronique (API). Cela permet la lecture automatisée du contenu d'un catalogue (ce que l'on appelle le _harvesting_). L'exportation RDF a désormais été complétée par une information supplémentaire sur le type de distribution.
@@ -35,31 +41,31 @@ The I14Y interoperability platform is under continuous development. New features
 - **Filtre amélioré :** les options de sélection dans les filtres sont mieux organisées. Certaines sont classées selon des critères techniques (par exemple, le filtre de statut), d'autres par ordre alphabétique (par exemple, le filtre par situation de vie).
 - **Corrections d'erreurs :** plusieurs erreurs ont été corrigées. Entre autres, les grandes listes de codes peuvent à nouveau être téléchargées plus rapidement.
 
-## Release 7 janvier 2026
+## Version du 7 janvier 2026
 
 - **Mots-clés liés à des concepts prédéfinis**: les mots-clés peuvent désormais être reliés à des désignations univoques provenant de listes de termes contrôlées. Techniquement, cela se fait via un champ de texte supplémentaire (`uri`). _Attention: la structure des données renvoyées par l’API publique et l’API partenaire s’en trouve modifiée._ Cette modification a été approuvée par le comité de pilotage.
 - **Meilleure présentation des valeurs autorisées**: dans les structures SHACL de données, il est possible de définir les valeurs autorisées d’un champ. Dès que le champ correspondant est sélectionné dans la visualisation, les valeurs autorisées sont désormais aussi affichées dans la barre latérale. Il est ainsi plus facile de voir quelles valeurs sont admises pour chaque champ.
 - **Recherche de catalogue améliorée**: la recherche dans le catalogue a été encore étendue. Elle ne fait plus de distinction entre majuscules et minuscules. Elle prend également en compte les champs supplémentaires personne de contact et suppléance de la personne de contact, point de contact ainsi que les identifiants des objets.
 - **Améliorations internes et corrections de bugs**
 
-## Release 27 novembre 2025
+## Version du 27 novembre 2025
 
-This release marks a significant infrastructure change: The I14Y interoperability platform is now operated in the public cloud (Azure, sourced via the Federal Office of Information Technology [BIT]). Additionally, the code is now managed on GitHub. Due to the new infrastructure, various technical details in the I14Y code had to be adapted.
+Cette version marque un changement d'infrastructure important : la plateforme d'interopérabilité I14Y est désormais exploitée dans le cloud public (Azure, obtenu via l'Office fédéral de l'informatique et de la télécommunication [OFIT]). En outre, le code est désormais géré sur GitHub. En raison de cette nouvelle infrastructure, divers détails techniques du code d'I14Y ont dû être adaptés.
 
-Additional features:
-- **Enhanced search functionality**: The Partner and Public API now offer an endpoint for searching code list entries.
-- **Catalog record management**: New endpoints in the Partner and Public API enable retrieval of entries from DCAT catalogs.
-- **Improved catalog export**: The GET endpoint for catalog export has been refactored. The desired format (RDF or TTL) can now be requested via a parameter.
-- **Bug fixes**: Various bugs have been fixed to improve stability and user-friendliness.
+Fonctionnalités supplémentaires :
+- **Fonction de recherche étendue :** la Partner API et l'API publique proposent désormais un point de terminaison permettant de rechercher des entrées de listes de codes.
+- **Gestion des entrées de catalogue :** de nouveaux points de terminaison dans la Partner API et l'API publique permettent de récupérer des entrées provenant de catalogues DCAT.
+- **Exportation de catalogue améliorée :** le point de terminaison GET pour l'exportation du catalogue a été remanié. Le format souhaité (RDF ou TTL) peut désormais être demandé via un paramètre.
+- **Corrections de bugs :** diverses erreurs ont été corrigées afin d'améliorer la stabilité et la convivialité.
 
-## Release Octobre 22 2025
+## Version du 22 octobre 2025
 - **Masques de saisie améliorés:** le bouton Enregistrer est désormais actif par défaut. Jusqu’à présent, il ne s’activait qu’après des modifications des métadonnées. Un clic sur le bouton permet d’identifier les métadonnées incomplètes: les champs concernés sont encadrés en rouge.
 - **Page des organisations plus claire:** les organisations qui n’ont pas encore publié de métadonnées ne sont plus affichées sur la page des organisations (https://www.i14y.admin.ch/fr/organisations).
 - **Saisie simplifiée des prestations des autorités:** jusqu’ici, deux étapes étaient généralement nécessaires. D’abord, la description de base de la prestation était saisie, puis le lien ou le canal sur une deuxième page du formulaire. Désormais, la description de base et les liens peuvent être saisis au moyen d’un seul formulaire, ce qui permet une saisie plus rapide et plus efficace.
 - **Nouvelles possibilités de filtrage:** grâce au nouveau filtre Type de concept, il est désormais possible de filtrer spécifiquement les concepts selon certains types. Il est par exemple possible de restreindre une recherche à toutes les listes de codes.
 - **Améliorations internes et corrections**
 
-## Release September 24 2025
+## Version du 24 septembre 2025
 - Une description technique détaillée de la structure des données peut être enregistrée pour chaque description de jeu de données sur I14Y. Les structures enregistrées peuvent désormais être téléchargées depuis le site public dans plusieurs formats (TTL, RDF, JSON-LD).
 - L’ensemble des métadonnées d’un jeu de données peut désormais être exporté depuis le site public via un nouveau bouton.
 - Les adresses web insérées dans les descriptions sont automatiquement affichées comme liens cliquables.
@@ -69,72 +75,72 @@ Additional features:
 - De nouveaux points de terminaison internes de monitoring (health checks) permettent de détecter plus rapidement les problèmes techniques.
 - Divers bogues ont été corrigés.
 
-## Release September 10 2025
-- Two new date fields have been introduced for electronic interfaces (APIs): the issue date and the date of last modification. This information makes it easier to track updates.
-- When creating descriptions of public services and electronic interfaces (APIs), it is now possible to specify the responsible person and their deputy. This improves contact options and clarifies responsibilities.
-- Code list entries now have "Valid from" and "Valid to" fields. This allows the temporal validity of entries to be clearly defined, which is particularly helpful for classifications that change over time.
-- Similar to datasets, specifying an identifier for electronic interfaces (APIs) is now optional. If no identifier is entered, one is automatically generated.
-- Electronic interfaces (APIs) can now be deleted directly via the user interface. This simplifies the management of API descriptions that are no longer needed.
-- Various bug fixes to improve stability and user-friendliness.
+## Version du 10 septembre 2025
+- Deux nouveaux champs de date ont été introduits pour les interfaces électroniques (API) : la date de publication et la date de dernière modification. Ces informations facilitent le suivi des mises à jour.
+- Lors de la création de descriptions de prestations publiques et d'interfaces électroniques (API), il est désormais possible d'indiquer la personne responsable et sa suppléante ou son suppléant. Cela améliore les possibilités de contact et clarifie les responsabilités.
+- Les entrées des listes de codes disposent désormais des champs « Valide à partir de » et « Valide jusqu'à ». Cela permet de définir clairement la validité temporelle des entrées, ce qui est particulièrement utile pour les classifications qui évoluent dans le temps.
+- Comme pour les jeux de données, l'indication d'un identifiant pour les interfaces électroniques (API) est désormais facultative. Si aucun identifiant n'est saisi, il est généré automatiquement.
+- Les interfaces électroniques (API) peuvent désormais être supprimées directement via l'interface utilisateur. Cela simplifie la gestion des descriptions d'API qui ne sont plus nécessaires.
+- Diverses corrections de bugs ont été apportées afin d'améliorer la stabilité et la convivialité.
 
-## Release July 30 2025
-- Specifying an identifier for datasets is now optional. If no identifier is entered, one is generated automatically, regardless of whether the metadata is entered via the user interface or the electronic interface.
-- The display and functionality of the organisation page have been improved.
-- Bug fix: In the last version, public services whose channel contained an ownedBy field triggered an error message. This issue has been resolved.
-- Bug fix: Public services with an assigned channel could not be edited in the last version. This bug has been fixed.
-- Bug fix: An error occurred when searching within code list entries in the last version. The search function has been corrected and now works as expected.
+## Version du 30 juillet 2025
+- L'indication d'un identifiant pour les jeux de données est désormais facultative. Si aucun identifiant n'est saisi, il est généré automatiquement, que les métadonnées soient saisies via l'interface utilisateur ou via l'interface électronique.
+- L'affichage et le fonctionnement de la page des organisations ont été améliorés.
+- Correction de bug : dans la version précédente, les prestations publiques dont le canal contenait un champ `ownedBy` provoquaient un message d'erreur. Ce problème a été résolu.
+- Correction de bug : dans la version précédente, les prestations publiques auxquelles un canal était attribué ne pouvaient pas être modifiées. Cette erreur a été corrigée.
+- Correction de bug : dans la version précédente, une erreur survenait lors de la recherche dans les entrées des listes de codes. La fonction de recherche a été corrigée et fonctionne désormais comme prévu.
 
-## Release July 23 2025
-- Which organisations use the I14Y interoperability platform? A new page lists all organisations that publish metadata on I14Y. It also shows the number of descriptions of datasets, APIs and public services published by each organisation, as well as the number of concepts published.
-- Since early summer, more complex data structures can be documented on I14Y. Previously, this information was only visible in the internal area. The latest release introduces a graphical representation of recorded data structures on the public website.
-- Public services can now be accessed individually via the electronic interface (API). Another endpoint also allows I14Y partner organisations to publish public services on I14Y in a fully or semi-automated manner.
-- Bug fixes
+## Version du 23 juillet 2025
+- Quelles organisations utilisent la plateforme d'interopérabilité I14Y ? Une nouvelle page répertorie toutes les organisations qui publient des métadonnées sur I14Y. Elle indique également le nombre de descriptions de jeux de données, d'API et de prestations publiques publiées par chaque organisation, ainsi que le nombre de concepts publiés.
+- Depuis le début de l'été, des structures de données plus complexes peuvent être documentées sur I14Y. Jusqu'à présent, ces informations n'étaient visibles que dans la zone interne. La nouvelle version introduit une représentation graphique des structures de données enregistrées sur le site public.
+- Les prestations publiques peuvent désormais être consultées individuellement via l'interface électronique (API). Un autre point de terminaison permet également aux organisations partenaires d'I14Y de publier des prestations publiques sur I14Y de manière entièrement ou partiellement automatisée.
+- Corrections de bugs.
 
-## Release July 2 2025
-- I14Y uses [Oblique](https://oblique.bit.admin.ch/), a collection of standardised graphic components from the federal administration, for its graphical user interface. With this release, we are switching to Oblique 13. This will slightly modernise the graphics of the I14Y website. 
-- With the latest releases, I14Y has introduced a new technology for describing data structures (see Structure Beta). The uploaded structures can now be displayed graphically in the internal area of the platform.
-- Published code lists can now be searched on the public website.
-- Thanks to new endpoints, descriptions of APIs can be obtained and written automatically. 
-- The contact point's email address field must now be filled in. This complies with the requirements of the next version of the DCAT-AP CH standard ([Version 3](https://www.dcat-ap.ch/releases/3.0_workingdraft/dcat-ap-ch_3.0_workingdraft.html)). Existing entries on I14Y cannot be saved again until the email field has been filled in. 
-- Bug fixes
+## Version du 2 juillet 2025
+- I14Y utilise [Oblique](https://oblique.bit.admin.ch/), une collection de composants graphiques standardisés de l'administration fédérale, pour son interface utilisateur graphique. Avec cette version, nous passons à Oblique 13. Cela modernise légèrement l'apparence graphique du site I14Y.
+- Avec les dernières versions, I14Y a introduit une nouvelle technologie pour décrire les structures de données (voir Structure Beta). Les structures téléversées peuvent désormais être affichées graphiquement dans la zone interne de la plateforme.
+- Les listes de codes publiées peuvent désormais être recherchées sur le site public.
+- Grâce à de nouveaux points de terminaison, les descriptions d'API peuvent être obtenues et écrites automatiquement.
+- Le champ de l'adresse e-mail du point de contact doit désormais être renseigné. Cela répond aux exigences de la prochaine version de la norme DCAT-AP CH ([version 3](https://www.dcat-ap.ch/releases/3.0_workingdraft/dcat-ap-ch_3.0_workingdraft.html)). Les entrées existantes sur I14Y ne peuvent plus être enregistrées tant que ce champ n'a pas été rempli.
+- Corrections de bugs.
 
-## Release May 28 2025
-- A new download button allows descriptions of data sets from the internal area to be downloaded in JSON format. This simplifies the export of metadata.
-- Descriptions of data sets can now be imported from a file. The import option is available when you click on the "Import" button. 
-- Since the last release, it has been possible to upload data structures in RDF, TTL or JSON-LD format. These structures can now be displayed graphically.
-- The [I14Y-API](https://apiconsole.i14y.admin.ch/) provides new endpoints for importing and exporting a structure in RDF, TTL, and JSON-LD formats.
-- New information fields have been introduced for organisations. These enable a more detailed description of the organisations recorded in I14Y.
-- Some translations have been updated.
-- The search indexing system has been improved. Search queries now deliver more accurate results.
+## Version du 28 mai 2025
+- Un nouveau bouton de téléchargement permet désormais de télécharger les descriptions de jeux de données depuis la zone interne au format JSON. Cela simplifie l'exportation des métadonnées.
+- Les descriptions de jeux de données peuvent désormais être importées à partir d'un fichier. L'option d'importation est disponible en cliquant sur le bouton « Import ».
+- Depuis la dernière version, il est possible de téléverser des structures de données aux formats RDF, TTL ou JSON-LD. Ces structures peuvent désormais être affichées graphiquement.
+- L'[API I14Y](https://apiconsole.i14y.admin.ch/) propose de nouveaux points de terminaison pour l'importation et l'exportation d'une structure aux formats RDF, TTL et JSON-LD.
+- De nouveaux champs d'information ont été introduits pour les organisations. Ils permettent une description plus détaillée des organisations enregistrées dans I14Y.
+- Certaines traductions ont été mises à jour.
+- Le système d'indexation de la recherche a été amélioré. Les requêtes fournissent désormais des résultats plus précis.
 
-## Release May 7 2025
-- The I14Y interoperability platform has previously stored some objects in a BFS database. With the current version, the systems are separated. All metadata is now stored in the I14Y database. The previous functions have been adapted and the data from the old system has been migrated. The decision not to use a microservice architecture in this area makes the system faster, especially when searching across multiple object categories.
-- The appearance of the pages displaying descriptions of a data record, an electronic interface, a government service or a concept has been improved: a directory is now available on the left-hand side, allowing users to navigate quickly through the descriptions.
-- Which data is publicly available, which can be viewed under certain conditions, and which is confidential? The new icons on the overview pages indicate the status of each entry.
-- Thanks to a new endpoint in the public API and in the API for I14Y partners, filtered concept lists can be requested. Filtering can be done by publisher or status, for example. 
-- A new endpoint in the API for I14Y partners allows existing concepts to be updated automatically.
-- In the description of an electronic interface, a link can now be set to the data set that the interface accesses.
-- The recording of data structures is currently being completely revised. A new tab is being introduced with this release. This can be used to upload and download information about the data structure in RDF and TTL formats. The new functions are still in the test phase. The previous tab is still available. However, structures can no longer be created in the conventional way. The next release will further improve the recording and visualisation of structures.
-- Numerous bug fixes
+## Version du 7 mai 2025
+- La plateforme d'interopérabilité I14Y stockait jusqu'à présent certains objets dans une base de données de l'OFS. Avec la version actuelle, les systèmes sont séparés. Toutes les métadonnées sont désormais stockées dans la base de données I14Y. Les fonctions existantes ont été adaptées et les données de l'ancien système ont été migrées. Le choix de ne pas utiliser une architecture microservices dans ce domaine rend le système plus rapide, notamment lors des recherches sur plusieurs catégories d'objets.
+- L'apparence des pages affichant les descriptions d'un jeu de données, d'une interface électronique, d'une prestation publique ou d'un concept a été améliorée : un sommaire est désormais disponible sur le côté gauche pour permettre une navigation rapide dans les descriptions.
+- Quelles données sont publiques, lesquelles sont consultables sous certaines conditions et lesquelles sont confidentielles ? Les nouvelles icônes sur les pages d'aperçu indiquent désormais le statut de chaque entrée.
+- Grâce à un nouveau point de terminaison dans l'API publique et dans l'API destinée aux partenaires d'I14Y, des listes de concepts filtrées peuvent être demandées. Le filtrage peut par exemple se faire selon l'éditeur ou le statut.
+- Un nouveau point de terminaison dans l'API destinée aux partenaires d'I14Y permet de mettre à jour automatiquement des concepts existants.
+- Dans la description d'une interface électronique, un lien peut désormais être établi vers le jeu de données auquel l'interface accède.
+- La saisie des structures de données est actuellement en cours de refonte complète. Un nouvel onglet est introduit avec cette version. Il permet de téléverser et de télécharger des informations sur la structure de données aux formats RDF et TTL. Les nouvelles fonctions sont encore en phase de test. L'onglet précédent reste disponible. En revanche, il n'est plus possible de créer des structures de manière conventionnelle. La prochaine version améliorera encore la saisie et la visualisation des structures.
+- Nombreuses corrections de bugs.
 
-## Release March 5 2025
-- The [I14Y-API](https://apiconsole.i14y.admin.ch/) offers new endpoints in the area of dataset descriptions. The metadata for datasets can be read (GET). New descriptions can be entered (POST). Existing ones can be edited and published (PUT) or deleted if necessary (DELETE).
-- When registering a public service, it is now possible to select the area for which the service is offered. In addition to the whole of Switzerland, all cantons, districts and municipalities are available in the selection field. This information is also supplied when exporting via the API. The basis for this is the code list [cantons, districts and municipalities](https://www.i14y.admin.ch/de/catalog/concepts/08dc23f0-d04d-2d2f-a9f5-9cea80695acf/description).
-- When creating an internal work area for an office or other organisation, the interoperability service can now store the organisation number from the business register, information on the [legal form](https://www.i14y.admin. ch/en/catalog/concepts/08dad8ff-f18a-560b-bfa6-20767f2afb17/description) and information on the federal level of the organisation. The information on the area in which an organisation operates is provided when a public  service description is obtained via the API.
-- The home page and the overview page in the internal area have been slightly revised in terms of content: the introductory texts have been adapted. And a link to the I14Y API console has been added in the footer area. The video on data harmonisation, which was previously placed on the home page, has been removed; it can still be found in the [news section](https://i14y-ch.github.io/handbook/fr/news/) and on [Youtube](https://youtu.be/mqpaAeJVkME?si=1RSv0xYFTudEDjSx).
-- An error in the publisher field has been corrected: Until now, the publisher's organisation name often had to be reselected as soon as an entry had been edited. This is no longer necessary. 
-- An error in the data owner field has been corrected: Previously, it was not possible to delete a name when editing an entry. This is now possible again.
-- Numerous bug fixes
+## Version du 5 mars 2025
+- L'[API I14Y](https://apiconsole.i14y.admin.ch/) propose de nouveaux points de terminaison dans le domaine des descriptions de jeux de données. Les métadonnées des jeux de données peuvent être lues (GET). De nouvelles descriptions peuvent être créées (POST). Les descriptions existantes peuvent être modifiées et publiées (PUT) ou supprimées si nécessaire (DELETE).
+- Lors de l'enregistrement d'une prestation publique, il est désormais possible de sélectionner le périmètre pour lequel la prestation est proposée. Outre l'ensemble de la Suisse, tous les cantons, districts et communes sont disponibles dans le champ de sélection. Ces informations sont également fournies lors de l'exportation via l'API. La base utilisée est la liste de codes [cantons, districts et communes](https://www.i14y.admin.ch/de/catalog/concepts/08dc23f0-d04d-2d2f-a9f5-9cea80695acf/description).
+- Lors de la création d'un espace de travail interne pour un office ou une autre organisation, le service d'interopérabilité peut désormais enregistrer le numéro de l'organisation issu du registre des entreprises, des informations sur la [forme juridique](https://www.i14y.admin.ch/en/catalog/concepts/08dad8ff-f18a-560b-bfa6-20767f2afb17/description) ainsi que sur le niveau fédéral de l'organisation. Les informations sur le périmètre dans lequel une organisation opère sont fournies lors de l'obtention d'une description de prestation publique via l'API.
+- La page d'accueil et la page d'aperçu de la zone interne ont été légèrement révisées sur le fond : les textes d'introduction ont été adaptés. En outre, un lien vers la console API d'I14Y a été ajouté dans le pied de page. La vidéo sur l'harmonisation des données, auparavant placée sur la page d'accueil, a été retirée ; elle reste disponible dans la [rubrique actualités](https://i14y-ch.github.io/handbook/fr/news/) et sur [YouTube](https://youtu.be/mqpaAeJVkME?si=1RSv0xYFTudEDjSx).
+- Une erreur dans le champ de l'éditeur a été corrigée : jusqu'à présent, le nom de l'organisation éditrice devait souvent être resélectionné dès qu'une entrée avait été modifiée. Ce n'est plus nécessaire.
+- Une erreur dans le champ du détenteur des données a été corrigée : auparavant, il n'était pas possible de supprimer un nom lors de la modification d'une entrée. C'est désormais à nouveau possible.
+- Nombreuses corrections de bugs.
 
-## Release January 15 2025
-- The [Partner API](https://apiconsole.i14y.admin.ch/partner/v1/index.html) can now be used to retrieve and publish dataset descriptions (GET and POST). 
-- The [Partner API](https://apiconsole.i14y.admin.ch/partner/v1/index.html) can now be used to set status and publication level (PUT).
-- Minor search improvements
-- Numerous bug fixes
+## Version du 15 janvier 2025
+- La [Partner API](https://apiconsole.i14y.admin.ch/partner/v1/index.html) permet désormais de récupérer et de publier des descriptions de jeux de données (GET et POST).
+- La [Partner API](https://apiconsole.i14y.admin.ch/partner/v1/index.html) permet désormais de définir le statut et le niveau de publication (PUT).
+- Améliorations mineures de la recherche.
+- Nombreuses corrections de bugs.
 
-## Grande Release du 13 novembre
+## Grande version du 13 novembre
 
-Avec la grande release du 13 novembre, l'interface utilisateur de I14Y devient plus simple et son utilisation plus intuitive: la séparation actuelle entre le catalogue et les concepts au niveau de l'interface graphique est supprimée. Il y a désormais une recherche globale. En outre, les éléments graphiques sont modernisés. Les nouveautés en détail:
+Avec la grande version du 13 novembre, l'interface utilisateur de I14Y devient plus simple et son utilisation plus intuitive: la séparation actuelle entre le catalogue et les concepts au niveau de l'interface graphique est supprimée. Il y a désormais une recherche globale. En outre, les éléments graphiques sont modernisés. Les nouveautés en détail:
 
 ### Changements sur le site web public
 - Le design est aligné sur la nouvelle version du système de design Oblique de l'administration fédérale. L'apparence est ainsi modernisée.
@@ -149,126 +155,126 @@ Avec la grande release du 13 novembre, l'interface utilisateur de I14Y devient p
 ### Interfaces électroniques (API)
 - Avec la nouvelle version, un endpoint est disponible sur la [API-Gateway](https://input.i14y.admin.ch/console/partner/v1/index.html) pour les organisations partenaires, permettant de publier des descriptions de datasets.
 
-## Release August 14 2024
-- Data concepts (input area): Until now, entries for a code list were inserted directly on the page. The new release introduces a pop-up. This provides a clearer display and makes it easier to add entries to a code list.  
-- Data concepts (input area): The "Versions" section in the input area for data concepts is now positioned above the "Connections" section. In this way, the order corresponds to that on the public side of the I14Y. 
-- Data concepts (input area): The entries in a code list can now be filtered. This makes it easier to check and adapt longer code lists.
-- Data concepts: Previously, data concepts that were integrated into a data collection via a structure could be edited directly from the display screen in the catalogue section. The corresponding "Edit" button has now been removed. Concepts are consistently edited in the concept section of the platform.  
-- Public services (input area): The input screen for public services has been slightly adapted: The fields for the identifier and the publisher are now on one row. Previously, they were arranged one below the other. The input screen is now harmonised with the screen for entering datasets.   
-- Input area: The new "View publication" button allows you to check an entry you have just entered directly on the publicly accessible website. 
-- Input area: The "My data" mini-dashboard has been improved. It gives users an overview of their tasks and of their metadata.  
-- Bug fixes
+## Version du 14 août 2024
+- Concepts de données (zone de saisie) : jusqu'à présent, les entrées d'une liste de codes étaient insérées directement sur la page. La nouvelle version introduit une fenêtre pop-up. Cela rend l'affichage plus clair et facilite l'ajout d'entrées à une liste de codes.
+- Concepts de données (zone de saisie) : la section « Versions » dans la zone de saisie des concepts de données est désormais positionnée au-dessus de la section « Connexions ». L'ordre correspond ainsi à celui de la partie publique d'I14Y.
+- Concepts de données (zone de saisie) : les entrées d'une liste de codes peuvent désormais être filtrées. Cela facilite la vérification et l'adaptation des listes de codes plus longues.
+- Concepts de données : auparavant, les concepts de données intégrés à une collecte de données via une structure pouvaient être modifiés directement depuis l'écran d'affichage dans la section catalogue. Le bouton « Modifier » correspondant a désormais été supprimé. Les concepts sont désormais modifiés de manière cohérente dans la section des concepts de la plateforme.
+- Prestations publiques (zone de saisie) : l'écran de saisie des prestations publiques a été légèrement adapté. Les champs pour l'identifiant et l'éditeur se trouvent désormais sur une même ligne. Auparavant, ils étaient disposés l'un en dessous de l'autre. L'écran de saisie est maintenant harmonisé avec celui des jeux de données.
+- Zone de saisie : le nouveau bouton « Voir la publication » permet de vérifier directement sur le site public une entrée qui vient d'être créée.
+- Zone de saisie : le mini-tableau de bord « Mes données » a été amélioré. Il donne aux utilisatrices et utilisateurs une vue d'ensemble de leurs tâches et de leurs métadonnées.
+- Corrections de bugs.
 
-## Release July 17 2024
-- Since the last release, public services can be better categorised using Life and Business events. It is now also possible to filter the search results according to specific life or business events. 
-- The display of codelists has been improved. 
-- The download link for concept content has been adapted to ensure consistency across the system.
-- Bug fixes
+## Version du 17 juillet 2024
+- Depuis la dernière version, les prestations publiques peuvent être mieux catégorisées à l'aide d'événements de vie et d'affaires. Il est désormais également possible de filtrer les résultats de recherche selon des événements de vie ou d'affaires spécifiques.
+- L'affichage des listes de codes a été amélioré.
+- Le lien de téléchargement du contenu des concepts a été adapté afin d'assurer une cohérence dans l'ensemble du système.
+- Corrections de bugs.
 
-## Release July 10 2024
-- The I14Y improves the categorisation of public services: When entering the description of a public service, it is now possible to select the life or business situation in which a particular e-government service can be useful. This makes it easier for both citizens and entrepreneurs to find the right public service. 
-- Improved and enhanced filtering for description of datasets, data services and public services.
-- The Labs tile has been removed to make the GUI clearer. Experimental work can be found in the [I14Y Github](https://github.com/I14Y-ch/) area. 
-- Bug fixes
+## Version du 10 juillet 2024
+- I14Y améliore la catégorisation des prestations publiques : lors de la saisie de la description d'une prestation publique, il est désormais possible de sélectionner la situation de vie ou d'affaires dans laquelle un service d'e-government particulier peut être utile. Cela aide aussi bien les citoyennes et citoyens que les entreprises à trouver la prestation adéquate.
+- Le filtrage des descriptions de jeux de données, de services de données et de prestations publiques a été amélioré et étendu.
+- La tuile Labs a été supprimée afin de rendre l'interface plus claire. Les travaux expérimentaux peuvent être consultés dans l'espace [GitHub d'I14Y](https://github.com/I14Y-ch/).
+- Corrections de bugs.
 
-## Release July 3 2024
-- The catalogue search functionality in the input section of the platform has been visually improved.
-- The buttons to create or edit an object are now disabled if the action is not allowed. 
-- Several minor improvements
-- Bug fixes
+## Version du 3 juillet 2024
+- La fonction de recherche dans le catalogue, dans la section de saisie de la plateforme, a été améliorée sur le plan visuel.
+- Les boutons permettant de créer ou de modifier un objet sont désormais désactivés lorsque l'action n'est pas autorisée.
+- Plusieurs améliorations mineures.
+- Corrections de bugs.
 
-## Release 19 June 2024
-- Hierarchical code lists are now displayed in a tree view. This improves the visibility of the hierarchy. 
-- The code lists can be downloaded in JSON and CSV format from the public front-end.
-- When describing a distribution, usage rights information can now be entered. 
-- It is no longer necessary to specify the format for distributions. This information can still be entered as an option. 
-- Descriptions of dataservices also list which datasets are linked. 
-- Descriptions of distributions refer to the appropriate dataservice. 
-- The versions of a data element concept are now displayed on the overview page. 
-- Several improvements have been made to the graphical interface. 
-- Bugfixes
+## Version du 19 juin 2024
+- Les listes de codes hiérarchiques sont désormais affichées sous forme d'arborescence. Cela améliore la lisibilité de la hiérarchie.
+- Les listes de codes peuvent désormais être téléchargées au format JSON et CSV depuis le front-end public.
+- Lors de la description d'une distribution, il est désormais possible de saisir des informations sur les droits d'utilisation.
+- Il n'est plus nécessaire d'indiquer le format des distributions. Cette information peut toujours être saisie de manière facultative.
+- Les descriptions des services de données indiquent désormais également quels jeux de données sont liés.
+- Les descriptions des distributions renvoient au service de données approprié.
+- Les versions d'un concept d'élément de données sont désormais affichées sur la page d'aperçu.
+- Plusieurs améliorations ont été apportées à l'interface graphique.
+- Corrections de bugs.
 
-## Release 26 Mai 2024
-- The system now automatically checks for correct URL syntax when entering metadata. If the entry is incorrect, an error message is displayed.
-- Spaces are not allowed in identifiers to ensure compatibility with different systems. When entering metadata, the system now automatically checks for spaces in the identifier. If spaces are detected, an error message is displayed. 
-- Improved display speed for frequently used concepts, such as the AHV number.
-- Bugfixes
+## Version du 26 mai 2024
+- Le système vérifie désormais automatiquement la syntaxe correcte des URL lors de la saisie des métadonnées. Si l'entrée est incorrecte, un message d'erreur s'affiche.
+- Les espaces ne sont pas autorisés dans les identifiants afin d'assurer la compatibilité avec différents systèmes. Lors de la saisie des métadonnées, le système vérifie désormais automatiquement la présence d'espaces dans l'identifiant. Si des espaces sont détectés, un message d'erreur s'affiche.
+- La vitesse d'affichage a été améliorée pour les concepts fréquemment utilisés, comme le numéro AVS.
+- Corrections de bugs.
 
-## Release 22 April 2024
-- With the new release, it will be possible to delete distributions with just a few clicks via the web interface. Previously, this had to be done via the electronic interface. 
-- The news page has been revised: it can now be updated more quickly. 
-- Bugfixes
+## Version du 22 avril 2024
+- Avec cette version, il est désormais possible de supprimer des distributions en quelques clics via l'interface web. Auparavant, cela devait se faire via l'interface électronique.
+- La page d'actualités a été remaniée : elle peut désormais être mise à jour plus rapidement.
+- Corrections de bugs.
 
-## Release 8 April 2024
-- The interoperability service introduces new entry fields. They allow for more detailed description of records on the I14Y interoperability platform. The fields in detail: The name of the data owner can now be entered. It is also possible to add the name of the person who is operationally responsible for the data and the name of the deputy. For data collections that are official geodata under federal law according to the [Geoinformation Ordinance](https://www.fedlex.admin.ch/eli/cc/2008/389/de), the corresponding number can now be selected.    
-- Bugfixes
+## Version du 8 avril 2024
+- Le service d'interopérabilité introduit de nouveaux champs de saisie. Ils permettent de décrire plus en détail les enregistrements sur la plateforme d'interopérabilité I14Y. En détail : il est désormais possible d'indiquer le nom du détenteur des données. Il est également possible d'ajouter le nom de la personne responsable opérationnelle des données ainsi que celui de sa suppléante ou de son suppléant. Pour les collections de données qui constituent des géodonnées de base relevant du droit fédéral au sens de l'[ordonnance sur la géoinformation](https://www.fedlex.admin.ch/eli/cc/2008/389/de), le numéro correspondant peut désormais être sélectionné.
+- Corrections de bugs.
 
-## Release 27 March 2024
-- Bugfixes
+## Version du 27 mars 2024
+- Corrections de bugs.
 
-## Release 12 March 2024
-- Concepts can be reused in various datasets. This ensures that the same definitions, the same characteristics and the same coding methods are used. The description of the individual concepts now shows which datasets use this particular concept. An indication of the number of reuses is also displayed. Only data collections that have been publicly described on the platform are counted. 
-- Bugfixes
+## Version du 12 mars 2024
+- Les concepts peuvent désormais être réutilisés dans différents jeux de données. Cela garantit l'utilisation des mêmes définitions, des mêmes caractéristiques et des mêmes méthodes de codage. La description de chaque concept indique désormais quels jeux de données utilisent ce concept précis. Une indication du nombre de réutilisations est également affichée. Seules les collections de données décrites publiquement sur la plateforme sont prises en compte.
+- Corrections de bugs.
 
-## Release 27 February 2024
-- The description of a dataset (fields according to DCAT-AP CH) can now be assigned to several catalogues. This allows it to use the description both in the I14Y catalogue and in the catalogue for opendata.swiss. The interoperability service can open additional catalogues upon request. 
-- Bugfixes
+## Version du 27 février 2024
+- La description d'un jeu de données (champs selon DCAT-AP CH) peut désormais être attribuée à plusieurs catalogues. Cela permet d'utiliser la description à la fois dans le catalogue I14Y et dans le catalogue d'opendata.swiss. Le service d'interopérabilité peut ouvrir des catalogues supplémentaires sur demande.
+- Corrections de bugs.
 
-## Release 5 February 2024
-- The channels of a public service are now displayed directly on the overview page. Previously, they could be found in a separate tab. This change allows users to access the public service with fewer clicks. 
-- Records can now be assigned to multiple catalogues. For example, a record can be part of both the I14Y and Opendata catalogues. The keywords, which may differ from catalogue to catalogue, can be set for each catalogue. 
+## Version du 5 février 2024
+- Les canaux d'une prestation publique sont désormais affichés directement sur la page d'aperçu. Auparavant, ils se trouvaient dans un onglet séparé. Cette modification permet d'accéder à la prestation publique en moins de clics.
+- Les enregistrements peuvent désormais être attribués à plusieurs catalogues. Par exemple, un enregistrement peut faire partie à la fois du catalogue I14Y et du catalogue Opendata. Les mots-clés, qui peuvent varier d'un catalogue à l'autre, peuvent être définis séparément pour chaque catalogue.
 
-## Release 25 January 2024
-- Introduction of new fields to document the protection status of the da dataset: Thanks to the news fields, it is possible to enter information about whether a record contains personal data or even particularly sensitive personal data. Information about the retention period of the data can also be recorded.
-- First implementation of the Catalog class. In the future, several catalogues can be managed on the I14Y. Records can be assigned to one or more catalogues. 
-- Provision of a machine-readable security information file (security.txt) according to the National Cyber Security Centre (NCSC) specification.
-- Bug fixes
+## Version du 25 janvier 2024
+- Introduction de nouveaux champs pour documenter le statut de protection d'un jeu de données : grâce à ces nouveaux champs, il est possible d'indiquer si un enregistrement contient des données personnelles, voire des données personnelles particulièrement sensibles. Des informations sur la durée de conservation des données peuvent également être enregistrées.
+- Première mise en œuvre de la classe « Catalogue ». À l'avenir, plusieurs catalogues pourront être gérés sur I14Y. Les enregistrements pourront être attribués à un ou plusieurs catalogues.
+- Mise à disposition d'un fichier d'information de sécurité lisible par machine (`security.txt`) conformément à la spécification du National Cyber Security Centre (NCSC).
+- Corrections de bugs.
 
-## Release 04 December 2023
-- Change in user management: Only people who have logged in to the I14Y input can be found and entered as responsible person and responsible deputy for concepts and structures.
-- The filters "Publisher" and "Topics" are now available on the concept search page.
-- The "Delete" action is now available on the concept view page.
-- Bug fixes
+## Version du 4 décembre 2023
+- Changement dans la gestion des utilisateurs : seules les personnes qui se sont connectées à la saisie I14Y peuvent désormais être trouvées et enregistrées comme personne responsable et personne suppléante pour les concepts et les structures.
+- Les filtres « Éditeur » et « Thèmes » sont désormais disponibles sur la page de recherche des concepts.
+- L'action « Supprimer » est désormais disponible sur la page de vue d'un concept.
+- Corrections de bugs.
 
-## Release 20 November 2023
-- Filters for publication level, publisher and themes are now available on the concept page.
-- Bug fixes
+## Version du 20 novembre 2023
+- Des filtres pour le niveau de publication, l'éditeur et les thèmes sont désormais disponibles sur la page des concepts.
+- Corrections de bugs.
 
-## Relase 3 November 2023
-- Demo endpoint: Retrieve catalogue as RDF-XML and RDF-Turtle
-- Bug fixes
+## Version du 3 novembre 2023
+- Point de terminaison de démonstration : récupération du catalogue en RDF-XML et RDF-Turtle.
+- Corrections de bugs.
 
-## Relase 24 October 2023
-- Concept search fix: Terms are now found regardless of capitalisation and default language. 
-- The Qualified Attribution and Qualified Relation properties can now be edited from the user interface.
-- The submitter role is now displayed in the user info box. 
-- Bug fixes
+## Version du 24 octobre 2023
+- Correction de la recherche de concepts : les termes sont désormais trouvés indépendamment des majuscules/minuscules et de la langue par défaut.
+- Les propriétés Qualified Attribution et Qualified Relation peuvent désormais être modifiées depuis l'interface utilisateur.
+- Le rôle de submitter est désormais affiché dans la boîte d'information utilisateur.
+- Corrections de bugs.
 
-## Release 10 October 2023
-- Concept search now works with hyphens and underscores. This makes it possible to find concepts with titles such as "EXAMPLE_CONCEPT-2023-10-04". 
-- The concept detail page now displays the additional properties Themes, Keywords, and ConformsTo.
-- The concept JSON endpoint now returns the additional themes, keywords and conformsTo fields.
-- Optimised the user information popup. An issue with the login status display has been fixed. And the organisation name is now displayed in the default language. 
-- Bug fixes
+## Version du 10 octobre 2023
+- La recherche de concepts fonctionne désormais avec les traits d'union et les traits de soulignement. Cela permet de trouver des concepts portant des titres tels que « EXAMPLE_CONCEPT-2023-10-04 ».
+- La page de détail d'un concept affiche désormais aussi les propriétés supplémentaires « Thèmes », « Mots-clés » et « Conforme à ».
+- Le point de terminaison JSON des concepts renvoie désormais également les champs supplémentaires `themes`, `keywords` et `conformsTo`.
+- La fenêtre d'information utilisateur a été optimisée. Un problème concernant l'affichage du statut de connexion a été corrigé. Le nom de l'organisation est désormais affiché dans la langue par défaut.
+- Corrections de bugs.
 
-## Release 29 September 2023
-- Additional fields for describing data collections have been introduced. These correspond to the DCAT-AP-CH standard in version 2. The following fields are now available: frequency, image, is referenced by, qualified attribution, qualified relation, related resource, licence, availability, checksum, coverage, identifier, image, media type, packaging format, temporal resolution.
-- Revision of the I14Y Homepage: Adjusted structure with headings and revised texts, contact information added.
-- IdP Kanton Bern can be used for the I14Y input area.
-- Various bugfixes and UX improvements
+## Version du 29 septembre 2023
+- Des champs supplémentaires ont été introduits pour décrire les collections de données. Ils correspondent à la norme DCAT-AP-CH en version 2. Les champs suivants sont désormais disponibles : frequency, image, is referenced by, qualified attribution, qualified relation, related resource, licence, availability, checksum, coverage, identifier, image, media type, packaging format, temporal resolution.
+- Révision de la page d'accueil d'I14Y : structure ajustée avec des titres et des textes révisés, ainsi que l'ajout d'informations de contact.
+- L'IdP du canton de Berne peut désormais être utilisé pour la zone de saisie I14Y.
+- Diverses corrections de bugs et améliorations UX.
 
-## Release 30 Juin 2023
-- I14Y Handbook: The comprehensive documentation of the I14Y functionality can now be accessed via the tile on the homepage and the main navigation.
-- I14Y Chatbot: A chatbot is now available in the lab section that can answer questions about the I14Y interoperability platform and data harmonisation in Switzerland.
-- A problem concerning the import of code list entries via the API has been fixed.
-- First public endpoint to retrieve concepts is available.
+## Version du 30 juin 2023
+- Manuel I14Y : la documentation complète des fonctionnalités d'I14Y est désormais accessible via la tuile sur la page d'accueil et via la navigation principale.
+- Chatbot I14Y : un chatbot est désormais disponible dans la section laboratoire et peut répondre aux questions sur la plateforme d'interopérabilité I14Y et sur l'harmonisation des données en Suisse.
+- Un problème concernant l'importation d'entrées de listes de codes via l'API a été corrigé.
+- Un premier point de terminaison public permettant de récupérer des concepts est désormais disponible.
 
-## Release 15 June 2023
-- Concepts can now be displayed and searched on the public page 
-- The registration status and publication level can be set via the graphical user interface
-- Versioning for concepts 
-- Bugfixes
+## Version du 15 juin 2023
+- Les concepts peuvent désormais être affichés et recherchés sur la page publique.
+- Le statut d'enregistrement et le niveau de publication peuvent désormais être définis via l'interface utilisateur graphique.
+- Gestion des versions pour les concepts.
+- Corrections de bugs.
 
-## Release 15 January 2023
-- Conversion of authentication to eIAM. The accounts of existing users must be migrated. 
-- Bugfixes
+## Version du 15 janvier 2023
+- La procédure d'authentification a été convertie vers eIAM. Les comptes des utilisatrices et utilisateurs existants doivent être migrés.
+- Corrections de bugs.
