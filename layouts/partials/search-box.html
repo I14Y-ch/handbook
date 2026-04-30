@@ -1,11 +1,11 @@
 <div id="search-box" class="search-box">
-  <input 
-    id="search-input" 
-    type="text" 
+  <input
+    id="search-input"
+    type="text"
     placeholder="{{ T "search_placeholder" | default "Search..." }}"
     class="search-input"
     aria-label="Search"
-    data-search-url="{{ (printf "/%s/index.json" .Lang) | relURL }}"
+    data-search-url="{{ "index.json" | relLangURL }}"
   >
   <div id="search-results" class="search-results" style="display:none;"></div>
 </div>
