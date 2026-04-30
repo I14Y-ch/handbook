@@ -1,0 +1,15 @@
+{{- $entries := slice -}}
+{{- range .Site.RegularPages -}}
+  {{- if .Title -}}
+    {{- $crumbs := slice -}}
+    {{- range .Ancestors.Reverse -}}
+      {{- if and (not .IsHome) .Title -}}
+        {{- $crumbs = $crumbs | append .Title -}}
+      {{- end -}}
+    {{- end -}}
+    {{- $crumbs = $crumbs | append .Title -}}
+    {{- $entry := dict "url" .RelPermalink "title" .Title "description" (.Params.description | default "") "content" .Plain "keywords" (delimit .Keywords ", ") "breadcrumbs" (delimit $crumbs " › ") -}}
+    {{- $entries = $entries | append $entry -}}
+  {{- end -}}
+{{- end -}}
+{{ $entries | jsonify }}

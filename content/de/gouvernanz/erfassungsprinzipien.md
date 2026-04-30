@@ -6,7 +6,6 @@ weight: 30
 description: Allgemeine Grundsätze zur Erfassung von Metadaten auf I14Y
 keywords: [I14Y, Interoperabilitätsplattform I14Y, Interoperabilität, Datenerfassung, Erfassung, Prinzipien, Grundsätze, Tipps, Vorgaben]
 type: docs
-draft: true
 ---
 
 Die Erfassung von Metadaten auf I14Y folgt bestimmten Grundregeln. Diese wurden formuliert, um eine konsistente und sinnvolle Erfassung von Metadaten zu gewährleisten. Die hier aufgeführten Prinzipien kommen bei der Erfassung von mehreren Arten von Einträgen zum Tragen, also etwa sowohl für Datensätze, elektronische Schnittstellen, Behördenleistungen wie auch für Konzepte. In diesem Abschnitt werden die wichtigsten allgemeinen Prinzipien erklärt. 
@@ -30,4 +29,24 @@ Die Versionierung der Konzepte auf I14Y folgt den Grundsätzen der semantischen 
 - **PATCH-Änderung:** Lediglich Fehlerkorrekturen, Rückwärtskompatibilität ist gewährleistet. Beispiel: Bei einem Konzept des Typs Codeliste werden Rechtschreibefehler in Labels bestehender Codes korrigiert.
 
 In der Regel ist die erste Version eines Objekts 1.0.0. Wenn die Metadaten jedoch auf einem Standard beruhen, kann die effektive Version des Standards übernommen werden.
+
+## Reifegrad der Datenobjekte
+Der Reifegrad eines Datenobjekts wird auf I14Y über den Registrierungsstatus abgebildet. Für die operative Arbeit sind insbesondere folgende Status relevant:
+
+- **Initial:** Eintrag ist in Erarbeitung oder Überarbeitung; die Qualität ist noch nicht abschliessend geprüft.
+- **Kandidat:** Eintrag ist fachlich weitgehend vollständig und bereit für die Validierung.
+- **Registriert:** Eintrag ist geprüft und kann öffentlich zugänglich gemacht werden.
+- **Qualifiziert:** Eintrag kann mittelfristig zu einem Standard werden.
+- **Standard / Empfohlener Standard:** Eintrag entspricht einem anerkannten Standard oder wird als bevorzugte Referenz geführt.
+
+Beschreibungen sollten in der Regel mindestens den Status _Registriert_ erreicht haben, bevor sie öffentlich publiziert werden.
+
+## Mehrsprachigkeit
+Mehrsprachigkeit ist ein zentrales Prinzip der öffentlichen Verwaltung. Für Bundesstellen sollen Metadaten grundsätzlich in Deutsch, Französisch und Italienisch vorliegen. Rätoromanisch und Englisch können ergänzend erfasst werden.
+
+Für die Qualität der Übersetzungen gilt:
+
+- Rechtlich oder fachlich kritische Inhalte sollten durch die zuständigen Sprachdienste geprüft werden.
+- Bei Unsicherheiten zu juristischen Begriffen ist der Rechtsdienst beizuziehen.
+- Bei der Nutzung von Übersetzungstools ist zwingend eine Qualitätskontrolle erforderlich.
 

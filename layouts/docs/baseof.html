@@ -13,6 +13,9 @@
           <div class="content-wrapper">
             <div class="row flex-xl-nowrap">
               <aside class="col-12 col-md-3 col-xl-2 td-sidebar d-print-none layout-sidebar">
+                <div class="layout-sidebar-search">
+                  {{ partial "search-box.html" . }}
+                </div>
                 {{ partial "sidebar.html" . }}
               </aside>
               <main class="col-12 col-md-9 col-xl-10 pl-md-5 layout-main" role="main">

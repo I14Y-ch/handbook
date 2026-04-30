@@ -249,7 +249,7 @@ Am Beispiel: Im Datensatz einer Tierklinik sind Informationen zu Hunden enthalte
 
 Datensätze werden bei der Interoperabilitätsplattform I14Y mit dem [Datenkatalog-Vokabular (DCAT)](/handbook/de/glossar) beschrieben. DCAT ist ein standardisiertes Modell zur Beschreibung von Datenkatalogen, das vom Internet-Standardisierungsgremium [W3C](https://www.w3.org/) gepflegt wird. Auf der Plattform wird weitgehend das Applikationsprofil für die Schweiz verwendet ([DCAT-AP CH 2](https://www.dcat-ap.ch/)). DCAT gibt vor, welche Informationen zwingend erfasst werden müssen. Zudem schlägt das Vokabular weitere Möglichkeiten zur Beschreibung des Datensatzes vor.     
 
-Um Informationen zu einem Datensatz auf der Interoperabilitätsplattform I14Y speichern zu können, müssen die Minimalanforderungen erfüllt sein, die der DCAT-Standard vorgibt. I14Y bietet einige zusätzliche Felder an, die über den aktuellen DCAT-Standard hinausgehen. Welche Felder beim Erfassen von Datensätzen mit welchen Informationen befüllt werden, wird im Kapitel [Publikation](/handbook/de/publikation/katalog/datensatz) aufgeführt.
+Um Informationen zu einem Datensatz auf der Interoperabilitätsplattform I14Y speichern zu können, müssen die Minimalanforderungen erfüllt sein, die der DCAT-Standard mit dem Applikationsprofil für die Schweiz vorgibt. I14Y bietet einige zusätzliche Felder an, die über den aktuellen Standard hinausgehen. Welche Felder beim Erfassen von Datensätzen mit welchen Informationen befüllt werden, wird im Kapitel [Publikation](/handbook/de/publikation/datensatz/) aufgeführt.
 
 ### Struktur
 
@@ -280,7 +280,7 @@ Schnittstellen sollten spätestens zum Zeitpunkt der Inbetriebnahme dokumentiert
 Auch APIs werden auf der Interoperabilitätsplattform I14Y weitgehend mittels des Datenkatalog-Vokabulars DCAT beschrieben. Einige Felder, die im Standard optional sind, müssen zwingend befüllt werden. So empfiehlt der DCAT-Standard lediglich, dass beim Katalogisieren einer API eine Beschreibung erfasst wird. Auf I14Y hingegen ist diese Angabe obligatorisch. Alle Felder, die der Standard vorgibt, sind auch auf der Plattform zwingend auszufüllen. 
 
 Eine Schritt-für-Schritt-Anleitung dazu, wie elektronische Schnittstellen erfasst werden, ist im Kapitel 
-[Publikation](/handbook/de/publikation/katalog/api) zu finden. 
+[Publikation](/handbook/de/publikation/api/) zu finden. 
 
 Das untenstehende Diagramm zeigt die Beziehungen zwischen den verschiedenen Klassen, die in I14Y basierend auf dem DCAT-Standard (Katalog, Datensatz, Datenservice, Distribution) verwendet werden. Es bietet auch einen Überblick über alle Eigenschaften, die mit jeder dieser Klassen verbunden sind. Eigenschaften, die mit einem Sternchen (*) gekennzeichnet sind, wurden speziell für I14Y entwickelt. Weitere Informationen zu diesen Eigenschaften finden Sie [hier](https://i14y-ch.github.io/handbook/de/anhang/eingabefelder/).
 

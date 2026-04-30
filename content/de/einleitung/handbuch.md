@@ -8,18 +8,17 @@ weight: 20
 type: docs
 ---
 
-Dieses Handbuch erläutert die wichtigsten Funktionen der Interoperabilitätsplattform I14Y (I14Y). Es beinhaltet zahlreiche Schritt-für-Schritt-Anleitungen. Zusätzlich bietet es Angaben zu technischen Details sowie Hintergrundinformationen zur Harmonisierung und Standardisierung von Daten.
+Dieses Handbuch erläutert die wichtigsten Funktionen der Interoperabilitätsplattform I14Y. Es dient neuen Nutzerinnen und Nutzern als Einführung in die Plattform und ihre Funktionsweise. Erfahrene Personen können es als Referenz nutzen, um gezielt Informationen zu einzelnen Funktionen, Prozessen und Begriffen nachzuschlagen. Das Handbuch dokumentiert möglichst vollständig, wie die verschiedenen Funktionalitäten von I14Y genutzt werden können und welche Überlegungen dahinterstehen. Es beschreibt die Prinzipien der Harmonisierung und Standardisierung von Daten, die Rollen und Zuständigkeiten in der Datenbewirtschaftung sowie die Logik hinter den einzelnen Erfassungs- und Publikationsprozessen.
 
-In einem ersten Kapitel werden die [Rollen und Prozesse](/handbook/de/gouvernanz) in der Datenbewirtschaftung beleuchtet. Unter [Metadaten abrufen](/handbook/de/metadaten_abrufen) werden Wege zum Bezug von Informationen von I14Y. Im darauf folgenden Kapitel [Metadaten publizieren](/handbook/de/publikation) wird erläutert, wie Beschreibungen von Datensätzen, elektronischen Schnittstellen und Datenelementen auf der Plattform veröffentlicht werden. Zudem wird gezeigt, wie das Verzeichnis der Behördenleistungen befüllt wird. 
+Das Umfeld in der Datenbewirtschaftung ist dynamisch. Anforderungen, Standards, technische Möglichkeiten und organisatorische Abläufe entwickeln sich laufend weiter. Umso wichtiger ist eine gemeinsame Wissensbasis, die Orientierung schafft, häufige Fragen beantwortet und bewährte Vorgehensweisen festhält. Dieses Handbuch soll dazu beitragen, dass Wissen nicht nur punktuell vorhanden ist, sondern für alle Beteiligten nachvollziehbar, zugänglich und weiterentwickelbar bleibt.
 
-<!--Später ergänzen: Nebst den schriftlichen Anleitungen enthält dieses Handbuch auch einige Videotutorials.--> 
-Das Handbuch enthält zudem ein [Glossar](/handbook/de/glossar) mit Fachbegriffen, eine [Liste mit Weblinks](/handbook/de/anhang/weblinks) sowie ein [Log](/handbook/de/changelog) mit den wichtigsten Änderungen, die an der Plattform vorgenommen wurden.
+{{<alert title="Mitmachen erwünscht" color="success" >}}
 
-Die Funktionalitäten von I14Y werden laufend ausgebaut. Auch dieses Handbuch wird regelmässig überarbeitet. Haben Sie Anregungen, wie es verbessert werden könnte? Oder möchten Sie die Erfahrungen, die Sie mit dem Handbuch oder der Plattform gemacht haben, mit uns teilen? [Schreiben Sie uns](mailto:i14y@bfs.admin.ch). Dieses Handbuch wird auf der [Codeverwaltungsplattform Github](https://github.com/I14Y-ch/handbook/) gepflegt. Gerne können Sie dort einen Pull-Request mit Ihren Änderungswünschen einreichen.
+Lassen Sie Ihr eigenes Know-how und Ihre eigenen Erfahrungen einfliessen. Das Handbuch soll ein lebendiger Text sein, der mit den Erfahrungen der Nutzerinnen und Nutzer mitwächst. Ergänzen Sie, wenn im Handbuch etwas fehlt. Präzisieren Sie, wenn etwas unklar ist. Und schildern Sie Vorgehensweisen, die sich in der Praxis bewährt haben. Wir freuen uns auf Ihre Beiträge.
 
-{{<alert title="So reichen Sie Änderungen ein" color="success">}}
+{{</alert>}}
 
-Das I14Y-Handbuch ist in einer Auszeichnungssprache -- englisch: _Markup Language_ -- verfasst. Die Software [Hugo](https://gohugo.io) wandelt die Textdaten in eine Website um. Die Inhalte dieses Handbuchs werden auf der Codeverwaltungsplattform GitHub gepflegt. Dort lassen sich Änderungsvorschläge erfassen und einreichen. Das funktioniert entweder direkt im Webbrowser oder mit dem normalen Git-Workflow.
+Die Beteiligung an diesem Handbuch ist einfach: Beiträge können per [E-Mail](mailto:i14y@bfs.admin.ch) eingereicht oder direkt im Text vorgeschlagen werden. Die Inhalte werden auf [GitHub](https://github.com/I14Y-ch/handbook/) gepflegt und mit [Hugo](https://gohugo.io) in die Website umgewandelt. Änderungen lassen sich entweder direkt im Webbrowser oder mit dem normalen Git-Workflow einreichen.
 
 <details>
 <summary><strong>Manueller Prozess über die Website</strong></summary>
@@ -36,14 +35,11 @@ Das I14Y-Handbuch ist in einer Auszeichnungssprache -- englisch: _Markup Languag
 
 1. Installieren Sie Git und klonen Sie das Repository: `git clone https://github.com/I14Y-ch/handbook.git`.
 2. Erstellen Sie einen Branch für Ihre Änderung: `git checkout -b mein-änderungsvorschlag`.
-3. Passen Sie die gewünschte Datei im Verzeichnis _content_ an. Nutzen Sie bei Bedarf die [Markup-Syntax-Regeln](https://www.markdownguide.org/basic-syntax/).
-4. Prüfen Sie Ihre Änderungen, speichern Sie sie und erstellen Sie einen Commit:
-	- `git status`
+3. Passen Sie die Dateien im Verzeichnis _content_ an. Beachten Sie dabei die [Markup-Syntax-Regeln](https://www.markdownguide.org/basic-syntax/).
+4. Prüfen Sie Ihre Änderungen, speichern Sie sie und schicken Sie sie zu Github:
 	- `git add <datei>`
 	- `git commit -m "Änderung: kurzer Titel"`
-5. Pushen Sie den Branch auf GitHub: `git push -u origin mein-änderungsvorschlag`.
-6. Erstellen Sie auf der GitHub-Website einen Pull Request. Beschreiben Sie kurz, was geändert wurde und warum. Ihr Vorschlag wird zeitnah vom I14Y-Team geprüft und allenfalls ins Handbuch integriert.
+	- `git push -u origin mein-änderungsvorschlag`.
+6. Erstellen Sie auf der [GitHub-Website](https://github.com/I14Y-ch/handbook) einen Pull Request. Beschreiben Sie kurz, was geändert wurde und warum. Ihr Vorschlag wird zeitnah vom I14Y-Team geprüft und allenfalls ins Handbuch integriert.
 
 </details>
-
-{{</alert>}}

@@ -15,3 +15,7 @@ other = "https://www.i14y.admin.ch/en/home"
 other = "More information"
 [event_card_add_to_calendar]
 other = "Add to calendar"
+[search_placeholder]
+other = "Search..."
+[search_no_results]
+other = "No results found"

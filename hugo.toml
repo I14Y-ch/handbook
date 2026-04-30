@@ -69,6 +69,14 @@ description = "Manual and Information about the interoperability platform"
     path = "github.com/google/docsy/dependencies"
     disable = false
 
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[outputFormats]
+  [outputFormats.JSON]
+    mediaType = "application/json"
+    baseName = "index"
+
 [params.ui]
 # Enable to show the side bar menu in its compact state.
 sidebar_menu_compact = true

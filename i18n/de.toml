@@ -17,3 +17,7 @@ other = "I14Y-Labs"
 other = "Mehr Informationen"
 [event_card_add_to_calendar]
 other = "Zum Kalender hinzufügen"
+[search_placeholder]
+other = "Suchen..."
+[search_no_results]
+other = "Keine Ergebnisse gefunden"
