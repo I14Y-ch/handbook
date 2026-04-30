@@ -62,3 +62,16 @@
     }, 500);
   });
 </script>
+
+<!-- Search -->
+<script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"
+  integrity="sha384-203J0SNzyqHby3iU6hzvzltrWi/M41wOP5Gu+BiJMz5nwKykbkUx8Kp7iti0Lpli"
+  crossorigin="anonymous"></script>
+{{ $searchJS := resources.Get "js/search.js" }}
+{{ if $searchJS }}
+  <script defer src="{{ ($searchJS | minify).RelPermalink }}"></script>
+{{ end }}
+{{ $searchCSS := resources.Get "css/search.css" }}
+{{ if $searchCSS }}
+  <link rel="stylesheet" href="{{ ($searchCSS | minify).RelPermalink }}">
+{{ end }}
