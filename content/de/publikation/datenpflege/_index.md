@@ -17,8 +17,10 @@ Bei Einträgen, die bereits publiziert sind oder die intern als Referenz genutzt
 
 Beschreibungen von Datensätzen, die zur Publikation auf I14Y vorgeschlagen sind, können nicht angepasst werden. Damit soll verhindert werden, dass während der Validierungsarbeiten der Interoperabilitätsstelle Änderungen vorgenommen werden. Nach der Publikation sind kleinere Anpassungen, etwa in der Beschreibung, möglich. Für grössere Änderungen sollte das Objekt versioniert werden. Bei Codelisten ist besondere Vorsicht geboten: Bei bereits publizierten (und genutzten) Listen dürfen keine Codes entfernt werden. Im Zweifelsfall erstellen Sie eine neue Version. Kontaktieren Sie das I14Y-Team, wenn Sie unsicher sind, wie vorzugehen ist.
 
-{{< alert color="warning" title="Identifikator nicht abändern" >}}
-Bei bereits publizierten Einträgen darf der Hauptidentifikator nachträglich nicht geändert werden, da sich dadurch auch die URI (Permalink) des Eintrags ändert. Diese enthält den Identifikator. Ein Permalink muss aber stabil bleiben. Die Beschreibungen zu Datensätzen lassen sich aber problemlos durch zusätzliche Identifikatoren ergänzen. 
+{{< alert color="warning" title="Hauptidentifikator ist nach Publikation stabil" >}}
+Bei bereits publizierten Einträgen darf der erste Identifikator (Hauptidentifikator) nachträglich nicht geändert werden. Der Grund: Dieser Identifikator wird in der URL (Permalink) verwendet. Ein stabiler Permalink ist essentiell, damit externe Links und Referenzen langfristig gültig bleiben. 
+
+Das System speichert Identifikatoren als geordnete Liste (Array). Zusätzliche Identifikatoren können nach der Publikation noch ergänzt werden -- nur der erste Identifikator bleibt für alle Objekte (Datensätze, APIs, Behördenleistungen, Konzepte, Mapping-Tabellen) unwandelbar.
 
 Bei Problemen mit bestehenden Identifikatoren nehmen Sie [Kontakt mit der Interoperabilitätsstelle](mailto:i14y@bfs.admin.ch) auf.
 {{< /alert >}}

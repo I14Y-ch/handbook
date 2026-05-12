@@ -7,9 +7,13 @@ type: docs
 keywords: [I14Y, Interoperabilitätsplattform I14Y, Arbeitsablauf, Workflow, Status, Publikationskanal]
 ---
 
-Ein klar definierter Arbeitsablauf regelt, wie Metadaten auf der Interoperabilitätsplattform I14Y publiziert werden. Abhängig davon, ob die Metadaten ausschliesslich innerhalb der Organisation oder öffentlich publiziert werden, vielleicht sogar als Standard, ist der Arbeitsablauf ein-, zwei- beziehungsweise dreistufig. Dieser _Workflow_ dient insbesondere der Qualitätssicherung.
+In diesem Abschnitt wird der Arbeitsablauf für die Erfassung und Publikation von Metadaten auf der Interoperabilitätsplattform I14Y erklärt. Im Zentrum steht der Status eines Eintrags. Der Status ist wichtig für die internen Arbeiten (_Initial_, _Kandidat_, _Registriert_) und für die öffentliche Einordnung publizierter Einträge (_Registriert_, _Qualifiziert_, _Standard_, _Abgelöst_, _Zurückgezogen_). Er zeigt, wie weit ein Eintrag fachlich gereift ist und welche Bedeutung er hat.
 
-In einer ersten Stufe werden die Metadaten erfasst. In einer zweiten Stufe werden sie von _Local Data Stewards_ validiert, also geprüft und öffentlich freigegeben. In einer dritten Stufe werden sie, sofern gewünscht und sinnvoll, in Zusammenarbeit mit dem Kompetenzzentrum Datenbewirtschaftung geprüft und gegebenenfalls als standardkonform markiert.
+Der Arbeitsablauf ist je nach Fall ein-, zwei- oder dreistufig. Zuerst werden Metadaten erfasst. Danach prüfen _Local Data Stewards_ den Eintrag und geben ihn frei. In einem dritten Schritt kann zusätzlich geprüft werden, ob ein Eintrag standardkonform ist.
+
+Beispiel: Wird ein Konzept von einem Fachgremium wie eCH standardisiert und auf I14Y als _Standard_ gekennzeichnet, dient es Verwaltungsstellen als verbindliche Orientierung. Wenn eine Stelle den betreffenden Sachverhalt in einem Datensatz abbildet, soll sie diesen Standard in der Regel verwenden.
+
+Der Status setzt zudem Gouvernanz-Regeln durch: Ab dem Status _Registriert_ können Personen mit der Rolle _Submitter_ den Eintrag nicht mehr direkt ändern. Sie können nur noch einen Vorschlag für eine Statusänderung machen, der von einer Person mit der Rolle _Local Data Steward_ bestätigt werden muss.
 
 ```mermaid
 flowchart LR
@@ -28,6 +32,7 @@ flowchart LR
     D-.->E
     E-.->F
     E-.->G
+    C-.->F
 
     style A fill:#6CC8FF
     style A stroke:black
@@ -51,13 +56,13 @@ flowchart LR
     style G stroke:black
 ```
 
-Neu erfasste Metadaten erhalten vorerst den Status _Initial_. Sobald die Erfassungsarbeiten abgeschlossen sind, wird der Status _Kandidat_ gesetzt. Diese Statusänderung muss von einer Person aus der eigenen Organisation, die mindestens über _Submitter_-Rechte verfügt, bestätigt werden. Sind alle Kontrollen erfolgreich, kann der Eintrag von einer Person in der Rolle _Local Data Steward_ auf _Registriert_ umgestellt werden. _Local Data Stewards_ dürfen den Eintrag auch öffentlich publizieren. Um die Metadaten stabil und persistent zu halten, können _Submitter_ Einträge in diesem Status nicht mehr modifizieren. Soll ein registriertes und/ oder publiziertes Konzept weiter verändert werden, soll normalerweise eine neue Version angelegt werden. 
+Neu erfasste Metadaten erhalten zuerst den Status _Initial_. Ist die Erfassung abgeschlossen, folgt der Status _Kandidat_. Diese Änderung muss von einer Person aus der eigenen Organisation mit mindestens _Submitter_-Rechten bestätigt werden. Sind alle Kontrollen erfolgreich, kann eine Person mit der Rolle _Local Data Steward_ den Eintrag auf _Registriert_ setzen. _Local Data Stewards_ dürfen den Eintrag auch öffentlich publizieren. Ab _Registriert_ können _Submitter_ den Eintrag nicht mehr direkt bearbeiten. Für grössere Änderungen wird in der Regel eine neue Version erstellt.
 
-Bei einigen Datensätzen, -diensten und -konzepten, die nicht standardisiert sind, endet die Erfassung damit.
+Für nicht standardisierte Datensätze, -dienste und -konzepte endet der Prozess häufig bei _Registriert_. Manchmal wird im Laufe der Zeit eine neue Version erstellt. In diesem Fall kann der Status der ursprünglichen Version auf _Abgelöst_ gestellt wird.  
 
-In einem dritten Schritt können die _Local Data Stewards_ prüfen, ob das Datenangebot standardkonform ist. Angebote, die einem von einem Gremium wie [eCH](/handbook/de/glossar/#ech) oder [ISO](/handbook/de/glossar/#internationale-organisation-für-normung-iso) verabschiedeten Standard entsprechen, erhalten den Status _Standard_. Solche, die dereinst zum Standard werden könnten, werden als _Qualifiziert_ gekennzeichnet; im direkten Austausch mit dem Kompetenzzentrum Datenbewirtschaftung sowie in Fachgruppen wird daraufhin das weitere Vorgehen festgelegt. Datenangebote, die auf einem überholten oder abgeschafften Standard aufbauen, werden mit dem Status _Abgelöst_ beziehungsweise _Zurückgezogen_ gekennzeichnet. Solange die Daten nicht als "Standard" oder "Empfohlener Standard" markiert sind, können diese Einstufungen von den _Local Data Stewards_ ohne Rücksprache mit dem Kompetenzzentrum Datenbewirtschaftung gemacht werden. Soll ein Eintrag als "Standard" markiert sein, muss das Kompetenzzentrum Datenbewirtschaftung beigezogen werden. 
+In einem dritten Schritt prüfen _Local Data Stewards_, ob ein Angebot standardkonform ist. Entspricht es einem Standard eines Gremiums wie [eCH](/handbook/de/glossar/#ech) oder [ISO](/handbook/de/glossar/#internationale-organisation-für-normung-iso), erhält es den Status _Standard_. Angebote mit Potenzial zum Standard werden als _Qualifiziert_ markiert. Das weitere Vorgehen wird dann mit dem Kompetenzzentrum Datenbewirtschaftung und in Fachgruppen festgelegt. Angebote auf Basis überholter oder aufgehobener Standards erhalten den Status _Abgelöst_ oder _Zurückgezogen_. Solange ein Eintrag nicht als "Standard" oder "Empfohlener Standard" markiert ist, können _Local Data Stewards_ diese Einstufungen ohne Rücksprache vornehmen. Für die Markierung als "Standard" ist der Einbezug des Kompetenzzentrums Datenbewirtschaftung erforderlich.
 
-Weitere Informationen zur Statusverwaltung und zu den Zuständigkeiten sind in der folgenden Tabelle zusammengestellt. Das bei der Interoperabilitätsplattform I14Y verwendete Statuskonzept ist inspirirt von dem [ISO-Standard 11179](https://www.iso.org/standard/78914.html).  
+Weitere Informationen zur Statusverwaltung und zu den Zuständigkeiten stehen in der folgenden Tabelle. Das auf der Interoperabilitätsplattform I14Y verwendete Statuskonzept ist vom [ISO-Standard 11179](https://www.iso.org/standard/78914.html) inspiriert.
 
 | Status DE | Status EN | Beschreibung | Wer vergibt den Status? |
 | --- | ---- | ---- | ---- |
@@ -67,17 +72,17 @@ Weitere Informationen zur Statusverwaltung und zu den Zuständigkeiten sind in d
 | Qualifiziert | _Qualified_ | Angebote, die dereinst zu einem Standard werden könnten, werden als _Qualifiziert_ gekennzeichnet. | _Local Data Steward_ oder _InteroperabilityService_ |
 | Standard | _Standard_ | Dieser Status wird vergeben, wenn das Angebot einem von einem Fachgremium wie eCH oder ISO verabschiedeten Standard entspricht. Dieser Status kann technisch nur durch das BFS vergeben werden. | _InteroperabilityService_ |
 | Empfohlener Standard | _Preferred Standard_ | In Einzelfällen kann es zu einem Thema mehrere Standards geben. Als _empfohlener Standard_ werden jene Konzepte gekennzeichnet, welche in der öffentlichen Verwaltung genutzt werden müssen, sofern keine wichtigen Punkte dagegen sprechen. In der Regel ist ein übergeordnetes Gremium wie das Data Board Bund (DBB) für die Auswahl des empfohlenen Standards verantwortlich. | _InteroperabilityService_ |
-| Abgelöst | _Superseded_ | Basiert das Angebot auf einem Standard, der mittlerweile durch einen anderen abgelöst worden ist, wird der Status auf _Abgelöst_ gesetzt. | _Submitter_, _Local Data Steward_ oder _InteroperabilityService_ |
+| Abgelöst | _Superseded_ | Basiert das Angebot auf einem Standard, der mittlerweile durch einen anderen abgelöst worden ist, wird der Status auf _Abgelöst_ gesetzt. Der Status kann zudem nach einer Versionierung verwendet werden, um die ursprüngliche Version als überholt zu kennzeichnen – auch wenn der Eintrag nie den Status _Standard_ erhalten hat. Damit wird vermieden, dass Anwender:innen versehentlich eine veraltete Version verwenden, und es bleibt klar erkennbar, welche Version gültig ist. | _Submitter_, _Local Data Steward_ oder _InteroperabilityService_ |
 | Zurückgezogen | _Retired_ | In Einzelfällen kommt es vor, dass die Normierungsorganisation einen Standard widerruft. In einem solchen Fall wird der Status des betreffenden Angebots auf _Zurückgezogen_ gesetzt. | _Submitter_, _Local Data Steward_ oder _InteroperabilityService_ |
 {.workflow}
 
-Beim Versuch einen Status festzulegen, der mit der eigenen Rolle nicht festgelegt werden kann, speichert das System einen Status-Vorschlag. Dieser muss von einer Person in einer Rolle mit weitergehenden Rechten bestätigt werden.
+Wenn jemand einen Status setzt, der mit der eigenen Rolle nicht direkt gesetzt werden darf, speichert das System einen Statusvorschlag. Dieser muss von einer Person mit weitergehenden Rechten bestätigt werden.
 
-__Beispiel:__ Als _Submitter_ bin ich der Meinung, dass mein Datensatz mit dem Status "Kandidat" für den Status "Registriert" und für die Veröffentlichung bereit ist. Daher setze ich diesen Status. Die Statusänderung und die Veröffentlichung erfolgen nicht automatisch. Ein _Local Data Steward_ meiner Organisation muss die Anfrage bearbeiten und genehmigen, damit die Statusänderung und die Veröffentlichung wirksam werden.
+__Beispiel:__ Eine Person mit der Rolle _Submitter_ hält einen Datensatz im Status "Kandidat" für bereit zur Registrierung und Veröffentlichung. Sie beantragt deshalb den Status "Registriert". Die Änderung und die Veröffentlichung erfolgen nicht automatisch. Eine Person mit der Rolle _Local Data Steward_ muss den Antrag prüfen und freigeben.
 
 ## Statusübergangsmatrix
 
-Die detaillierte Statusübergangsmatrix für alle technischen Rollen ist unten aufgeführt.
+Die folgende Statusübergangsmatrix zeigt die erlaubten Wechsel für alle technischen Rollen.
 
 __Submitter__
 
@@ -153,17 +158,17 @@ PublicationLevel:
 
 ## Publikationskanal
 
-Auf der Interoperabilitätsplattform I14Y existieren zwei Publikationskanäle: Metadaten können innerhalb der eigenen Organisation zugänglich gemacht werden -- etwa, um die eigenen Datenbestände zu inventarisieren. Oder sie können öffentlich publiziert werden. Zu Beginn sind die erfassten Metadaten stets ausschliesslich innerhalb der Organisation verfügbar. Sollen sie für die Allgemeinheit sichbar gemacht werden, wird der Publikationskanal auf _Public_ umgestellt. Dies ist anzustreben bei harmonisierten und standardisierten Datenstrukturen und -konzepten. Denn diese eignen sich für die Weiterverwendung.
+Auf der Interoperabilitätsplattform I14Y gibt es zwei Publikationskanäle: Metadaten sind entweder nur innerhalb der eigenen Organisation sichtbar oder öffentlich. Zu Beginn sind neu erfasste Metadaten immer nur intern verfügbar. Sollen sie für die Allgemeinheit sichtbar werden, wird der Publikationskanal auf _Public_ gestellt. Das ist insbesondere bei harmonisierten und standardisierten Datenstrukturen und -konzepten sinnvoll, weil diese gut weiterverwendet werden können.
 
-In der Regel wird die öffentliche Publikation durch eine Person mit der Rolle _Local Data Steward_ kontrolliert und durchgeführt. Das Kompetenzzentrum Datenbewirtschaftung (KDB), das I14Y-Team, prüft daraufhin die Metadaten, wenn der Registrierungsstatus auf „Standard“ oder höher gesetzt wird.
+In der Regel wird die öffentliche Publikation von einer Person mit der Rolle _Local Data Steward_ geprüft und freigegeben. Setzt diese Person den Registrierungsstatus auf „Standard“ oder höher, prüft das Kompetenzzentrum Datenbewirtschaftung (KDB, I14Y-Team) die Metadaten zusätzlich.
 
 ## Bearbeitungsrechte
 
-Abhängig vom Status im Registrations- und Publikations-Workflow sowie von der eigenen Rolle können die erfassten Metadaten nicht abgeändert werden. So können etwa als "Registriert" gekennzeichnete oder publizierte Einträge nicht mehr bearbeitet werden von der Rolle _Submitter_. In diesem Fall wird, wenn eine grundlegende Änderung nötig ist, normalerweise eine neue Version angelegt.
+Ob Metadaten bearbeitet werden können, hängt vom Registrierungsstatus, vom Publikationskanal und von der eigenen Rolle ab. Einträge mit dem Status "Registriert" oder öffentliche Einträge können von Personen mit der Rolle _Submitter_ nicht mehr direkt bearbeitet werden. Ist eine grundlegende Änderung nötig, wird normalerweise eine neue Version erstellt.
 
-Bei Konzepten ist eine Bearbeitung nicht mehr möglich, wenn die Option „Gesperrt“ aktiviert ist. Sollte dies dennoch erforderlich sein, wenden Sie sich bitte an einen Administrator.
+Bei Konzepten ist keine Bearbeitung mehr möglich, wenn die Option „Gesperrt“ aktiv ist. Falls trotzdem eine Anpassung nötig ist, wenden Sie sich bitte an eine Administratorin oder einen Administrator.
 
-Hier ist die nach Rollen gegliederte Liste mit den Statussen, bei denen eine Bearbeitung der Metadaten möglich ist.
+Die folgende Liste zeigt nach Rollen, bei welchen Status eine Bearbeitung der Metadaten möglich ist.
 
 __Submitter__
 
@@ -190,8 +195,8 @@ __InteroperabilityService__
 {.publication-matrix}
 
 {{<alert title="Sind die Daten auf I14Y sicher?" color="info">}}
-Auf der Interoperabilitätsplattform I14Y werden ausschliesslich Metadaten gespeichert. Die eigentlichen Daten verbleiben bei jener Stelle, die die Datensätze verwaltet. Diese ist damit zuständig für die Sicherheit der Daten.
+Auf der Interoperabilitätsplattform I14Y werden ausschliesslich Metadaten gespeichert. Die eigentlichen Daten bleiben bei der Stelle, die die Datensätze verwaltet. Diese Stelle ist für die Datensicherheit verantwortlich.
 
-Die Interoperabilitätsplattform I14Y wird auf einer via das Bundesamt für Informatik beschafften Public-Cloud-Instanz betrieben. Die Bundesvorgaben zur Informatiksicherheit werden dabei eingehalten. Eine Schutzbedarfsanalyse liegt vor, und das Inforamtionssicherheits- und Datenschutzkonzept wird demnächst abgeschlossen. Auf externer Infrastruktur werden aktuell das Handbuch, das Dashboard sowie die Applikationen der Toolbox betrieben.
+Die Interoperabilitätsplattform I14Y läuft auf einer Public-Cloud-Instanz, die über das Bundesamt für Informatik beschafft wurde. Die Bundesvorgaben zur Informatiksicherheit werden eingehalten. Eine Schutzbedarfsanalyse liegt vor, und das Informationssicherheits- und Datenschutzkonzept wird demnächst abgeschlossen. Auf externer Infrastruktur werden derzeit das Handbuch, das Dashboard und die Applikationen der Toolbox betrieben.
 
 {{</alert>}} 
