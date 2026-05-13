@@ -33,11 +33,11 @@ Strukturen auf I14Y bestehen aus drei Hauptobjekten: Klassen, Attributen und Ass
 <details>
 <summary><strong>Klassen, Attribute und Assoziationen im Detail</strong></summary>
 
-**Klasse:** Eine Klasse beschreibt einen Entitätstyp. In vielen Fällen entspricht sie einer Tabelle. In SHACL wird sie als `sh:NodeShape` definiert. Für den Namen einer Klasse wird `rdfs:label` verwendet; Beschreibungen werden mit `dcterms:description` oder `rdfs:comment` hinterlegt.
+**Klasse:** Eine Klasse beschreibt einen Entitätstyp. In vielen Fällen entspricht sie einer Tabelle. In SHACL wird sie als `sh:NodeShape` definiert. Für den Namen einer Klasse wird `rdfs:label` verwendet; Beschreibungen werden mit `dcterms:description` oder `rdfs:comment` hinterlegt. Zusätzlich können folgende Eigenschaften definiert werden: `sh:property` (Liste der Attribute und Assoziationen), `sh:targetClass` (optionale Validierungszielklasse) und `sh:closed` (definiert, ob nur die angegebenen Eigenschaften erlaubt sind).
 
-**Attribut:** Ein Attribut ist ein einfaches Datenelement (ein Feld oder eine Spalte) ohne Verweis auf eine andere Klasse. Es wird in SHACL als `sh:PropertyShape` modelliert. Wichtige Felder sind: `sh:path` (Pflicht), `sh:datatype`, `sh:name` (menschenlesbarer Name), Kardinalitäten (`sh:minCount`, `sh:maxCount`), Validierungsregeln (`sh:pattern`, `sh:minLength`, `sh:maxLength`) sowie `dcterms:conformsTo` (Verweis auf ein I14Y-Konzept).
+**Attribut:** Ein Attribut ist ein einfaches Datenelement (ein Feld oder eine Spalte) ohne Verweis auf eine andere Klasse. Es wird in SHACL als `sh:PropertyShape` modelliert. Wichtige Felder sind: `sh:path` (Pflicht), `sh:datatype`, `sh:name` (menschenlesbarer Name), `sh:description` (ausführliche Beschreibung), Kardinalitäten (`sh:minCount`, `sh:maxCount`), `sh:order` (Reihenfolge der Eigenschaften), Validierungsregeln (`sh:pattern`, `sh:minLength`, `sh:maxLength`, `sh:in` für Enumerationen) sowie `dcterms:conformsTo` (Verweis auf ein I14Y-Konzept). Mit `sh:in` lassen sich Enumerationen definieren, um die zulässigen Werte auf eine vordefinierte Liste zu beschränken.
 
-**Assoziation:** Eine Assoziation ist eine Beziehung zwischen zwei Klassen. Sie wird ebenfalls als `sh:PropertyShape` modelliert, jedoch mit `sh:class` oder `sh:node` als Ziel-Klasse. In I14Y wird `sh:node` gegenüber `sh:class` bevorzugt, da `sh:node` gegen die Struktur (d.h. gegen eine andere `sh:NodeShape`) validiert, während `sh:class` lediglich den RDF-Typ prüft. Beide Varianten werden unterstützt.
+**Assoziation:** Eine Assoziation ist eine Beziehung zwischen zwei Klassen. Sie wird ebenfalls als `sh:PropertyShape` modelliert, jedoch mit `sh:class` oder `sh:node` als Ziel-Klasse. In I14Y wird `sh:node` gegenüber `sh:class` bevorzugt, da `sh:node` gegen die Struktur (d.h. gegen eine andere `sh:NodeShape`) validiert, während `sh:class` lediglich den RDF-Typ prüft. Beide Varianten werden unterstützt. Wichtige Felder sind: `sh:path` (Pflicht), `sh:node` oder `sh:class`, `sh:name`, `sh:description`, Kardinalitäten (`sh:minCount`, `sh:maxCount`), `sh:order` sowie `dcterms:conformsTo`.
 
 Für Attribute und Assoziationen kann mit `dcterms:conformsTo` angegeben werden, dass sich das Element auf ein I14Y-Konzept abstützt. Daten, die sich auf dieselben grundlegenden Definitionen beziehen, sind (teilweise) harmonisiert.
 
@@ -67,7 +67,7 @@ Allenfalls können auch externe Werkzeuge hilfreich sein, wenn SHACL-Strukturen 
 
 ### Turtle-Beispiel
 
-Das folgende Beispiel zeigt eine einfache SHACL-Struktur in Turtle-Notation mit einer Klasse, zwei Attributen und einer Assoziation:
+Das folgende Beispiel zeigt eine einfache SHACL-Struktur in Turtle-Notation mit einer Klasse, drei Attributen und einer Assoziation:
 
 ```turtle
 @prefix sh: <http://www.w3.org/ns/shacl#> .
@@ -75,15 +75,17 @@ Das folgende Beispiel zeigt eine einfache SHACL-Struktur in Turtle-Notation mit 
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix i14y: <https://www.i14y.admin.ch/resources/datasets/MY_DATASET/structure/> .
+@prefix i14y: <https://register.ld.admin.ch/i14y/dataset/MY_DATASET/structure/> .
 
 # Klasse
 i14y:localUnitMasterDataType
     rdf:type sh:NodeShape ;
     rdfs:label "localUnitMasterDataType"@en,
                "Lokale Einheit Stammdaten"@de ;
+    dcterms:description "Stammdaten einer lokalen Organisationseinheit"@de ;
     sh:closed true ;
-    sh:property i14y:localId, i14y:statusDate, i14y:additionalAddress .
+    sh:property i14y:localId, i14y:statusDate, i14y:additionalAddress ;
+    sh:targetClass i14y:localUnitMasterDataType .
 
 # Einfaches Attribut
 i14y:localId
@@ -95,20 +97,39 @@ i14y:localId
     sh:minLength 9 ;
     sh:maxLength 9 ;
     sh:minCount 1 ;
-    sh:maxCount 1 .
+    sh:maxCount 1 ;
+    sh:order 0 .
 
 i14y:statusDate
     rdf:type sh:PropertyShape ;
-    sh:name "statusDate"@en ;
+    sh:name "statusDate"@en, "Statusdatum"@de ;
     sh:path i14y:statusDate ;
-    sh:datatype xsd:date .
+    sh:datatype xsd:date ;
+    sh:minCount 0 ;
+    sh:order 1 ;
+    dcterms:conformsTo <https://register.ld.admin.ch/i14y/concept/DV_DATE/version/1.0.0> .
+
+# Attribut mit vordefinierter Werteliste
+i14y:legalForm
+    rdf:type sh:PropertyShape ;
+    sh:name "legalForm"@en, "Rechtsform"@de ;
+    sh:path i14y:legalForm ;
+    sh:description "Rechtsform der lokalen Organisationseinheit"@de ;
+    sh:datatype xsd:string ;
+    sh:in ( "0220" "0221" "0222" ) ;
+    sh:minCount 0 ;
+    sh:maxCount 1 ;
+    sh:order 2 ;
+    dcterms:conformsTo <https://register.ld.admin.ch/i14y/concept/legalForm/version/1.2.0> .
 
 # Assoziation (Verweis auf eine andere Klasse)
 i14y:additionalAddress
     rdf:type sh:PropertyShape ;
-    sh:name "additionalAddress"@en ;
+    sh:name "additionalAddress"@en, "Zusätzliche Adresse"@de ;
     sh:path i14y:additionalAddress ;
-    sh:node i14y:addressType .
+    sh:node i14y:addressType ;
+    sh:maxCount 1 ;
+    sh:order 2 .
 ```
 
 Die Struktur kann u.a. mit dem Tool [SHACL Play!](https://shacl-play.sparna.fr/play/draw) als UML-Diagramm visualisiert werden.
