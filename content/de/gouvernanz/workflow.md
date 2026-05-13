@@ -175,7 +175,7 @@ __Submitter__
 | Current status \\ New status | Incomplete | Candidate | Recorded | Qualified | Standard | Preferred Standard | Superseded | Retired |
 | ---------------------------- | ---------- | --------- | -------- | --------- | -------- | ------------------ | ---------- | ------- |
 | Internal                     | x          | x         |          |           |          |                    |            |         |
-| Public                       |            |           |          |           |          |                    |            |         |
+| Public                       |  x          |   x        |          |           |          |                    |            |         |
 {.publication-matrix}
 
 __Local Data Steward__
