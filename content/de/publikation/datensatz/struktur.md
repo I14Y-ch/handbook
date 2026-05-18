@@ -131,6 +131,14 @@ i14y:additionalAddress
     sh:maxCount 1 ;
     sh:order 2 .
 ```
+Das Präfix `i14y` verweist auf den Basis-URI des eigenen Datensatzes auf I14Y. `MY_DATASET` muss durch den tatsächlichen Identifikator des Datensatzes ersetzt werden. Alle Klassen und Attribute des Datensatzes erhalten damit eine stabile, eindeutige URI (Uniform Resource Identifier) nach folgendem Schema:
+
+| Objekt | URI-Schema | Beispiel |
+|---|---|---|
+| Klasse | `.../dataset/{id}/structure/{KlassenName}` | `.../dataset/MY_DATASET/structure/localUnitMasterDataType` |
+| Attribut | `.../dataset/{id}/structure/{KlassenName}/{AttributName}` | `.../dataset/MY_DATASET/structure/localUnitMasterDataType/localId` |
+
+Diese IRIs sind auf der I14Y-Plattform für alle Objekttypen eingeführt worden, neben Datensätzen auch für Konzepte, Codelist-Einträge, Datenservices und Public Services. Sie dienen als stabile, maschinenlesbare Adressen und werden z.B. in RDF-Exporten verwendet. Weitere Informationen zu I14Y-IRIs finden Sie unter [I14Y-URIs und Identifikatoren](/handbook/de/anhang/i14y-uris/).
 
 Die Struktur kann u.a. mit dem Tool [SHACL Play!](https://shacl-play.sparna.fr/play/draw) als UML-Diagramm visualisiert werden.
 
