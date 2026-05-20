@@ -5,27 +5,21 @@ slug: naechster-release
 weight: 10
 type: docs
 keywords: [I14Y, Interoperabilitätsplattform I14Y, IOP, Changelog, Releases, Versionen, Software-Entwicklung]
-draft: true
+draft: false
 ---
 
-Der nächste Release von I14Y ist für den frühen Abend des 6. Mai 2026 geplant. Er beinhaltet die untenstehenden Anpassungen und Erweiterungen. I14Y-Partnerorganisationen mit entsprechendem Zugang können die aktualisierte Software per sofort auf der [Abnahme-Umgebung von I14Y](https://input.i14y-a.admin.ch) testen. Bitte kontaktieren Sie die Interoperabilitätsstelle, falls Sie noch keinen Zugang zu dieser für Software-Tests genutzten Umgebung haben.
+Der nächste Release von I14Y ist für den frühen Abend des 27. Mai 2026 geplant. Er beinhaltet die untenstehenden Anpassungen und Erweiterungen. I14Y-Partnerorganisationen mit entsprechendem Zugang können die aktualisierte Software per sofort auf der [Abnahme-Umgebung von I14Y](https://input.i14y-a.admin.ch) testen. Bitte kontaktieren Sie die Interoperabilitätsstelle, falls Sie noch keinen Zugang zu dieser für Software-Tests genutzten Umgebung haben.
 
 Bitte beachten Sie, dass das Releasedatum bei Problemen kurzfristig verschoben werden kann. Es ist möglich, dass einzelne Funktionen aus dem Release entfernt und erst zu einem späteren Zeitpunkt freigeschaltet werden. Bei Fragen oder Problemen bezüglich des Releases wenden Sie sich bitte an die Interoperabilitätsstelle ([i14y@bfs.admin.ch](mailto:i14y@bfs.admin.ch)).
 
-**Strukturen in der Benutzeroberfläche bearbeiten:** Klassen, Attribute und Assoziationen einer Datenstruktur lassen sich neu direkt in der Benutzeroberfläche bearbeiten. Alle Eigenschaften, die in der Seitenleiste angezeigt werden, sind editierbar. Beim Bearbeiten eines Attributs kann ausserdem nach einem Konzept gesucht und eine Verknüpfung zu einer bestimmten Version hergestellt werden.
+**Erfassungsart wird öffentlich angezeigt:** Auf der öffentlich zugänglichen Benutzeroberfläche werden neu das Erstellungs- und Änderungsdatum sowie die Erfassungsart angezeigt. Dies ermöglicht es, automatisiert erstellte Einträge von manuell gepflegten zu unterscheiden. Das entsprechende Feld wurde mit dem letzten Release eingeführt. 
 
-**Systemmetadaten in der Partner-API:** Alle Objekte enthalten neu einen Abschnitt «system» in den JSON-Antworten der Partner-API. Darin sind das Erstellungsdatum (`createdAt`), das Datum der letzten Änderung (`modifiedAt`) sowie die Erstellungsart (`creationType`) vermerkt. Letztere gibt an, ob ein Objekt manuell über einen Browser-Token (_Manual_) oder automatisiert über ein M2M-Token (_Automated_) angelegt wurde.
+**Erfassungsart im Admin-Bereich:** Im Admin-Bereich wird neu eine Warnung angezeigt, falls ein Eintrag automatisiert erstellt worden ist. Dies verhindert, dass automatisiert erstellte Einträge versehentlich manuell angepasst werden. 
 
-**Mehrere Identifikatoren pro Konzept und Verwaltungsleistung:** Konzepte und Verwaltungsleistungen können neu mehrere Identifikatoren tragen. Dazu wurde die Eigenschaft `identifiers` als Array eingeführt. Um bestehende Integrationen nicht zu unterbrechen, wird das bisherige Feld `identifier` vorerst weiterhin ausgespielt – beide Felder erscheinen gleichzeitig in den API-Antworten. Hinweis: Das Feld `identifier` (Singular) wird in einem künftigen Release entfernt. Skripte, die dieses Feld beim Erstellen von Objekten verwenden, müssen rechtzeitig angepasst werden.
+**Wiederverwendung von Konzepten:** Auf der Konzeptdetailseite wird die Häufigkeit der Verwendung eines Konzepts in Datenstrukturen angezeigt, mit Links zu den betreffenden Datensätzen. Auf der Katalogseite erscheint diese Anzahl zusätzlich in einem Chip. 
 
-**Neue Version einer Mapping-Tabelle erstellen:** Es ist nun möglich, von einer bestehenden Mapping-Tabelle eine neue Version zu erstellen.
+**Offizielle I14Y-URIs:** I14Y bietet nun auch für Klassen, Attribute und Assoziationen stabile Links an, sogenannte URIs. Bei maschinellen Zugriffen auf eine solche URI wird auf das Linked-Data-Objekt umgeleitet, bei Zugriffen per Webbrowser auf die entsprechende Seite in I14Y.
 
-**Katalogsuche über die Partner-API:** Der Endpunkt für die Katalogsuche ist neu auch über die Partner-API verfügbar. Die Suche unterstützt verschiedene Parameter wie Suchbegriff und Sprache.
+**Kleine UX-Verbesserungen**
 
-**Erweiterte Bearbeitungsrechte für Submitter:** Submitter können Objekte mit dem Registrierungsstatus "Initial" oder "Kandidat" bearbeiten, auch wenn diese bereits öffentlich publiziert sind. Bedingung ist aber, dass diese zuvor nicht gesperrt worden sind.
-
-**Distributionen auf der Datensatz-Detailseite:** Zu einem Datensatz gehörende Distributionen werden neu direkt auf der Beschreibungsseite des Datensatzes angezeigt.
-
-**Export von Codelisten ohne Annotationen:** Codelisten können neu auf Wunsch auch ohne Annotationen exportiert werden; unterstützt werden die Formate JSON und CSV.
-
-**Technische Aktualisierungen sowie kleinere Verbesserungen und Fehlerkorrekturen**
+**Fehlerkorrektionen**

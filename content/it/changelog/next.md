@@ -5,27 +5,21 @@ slug: prossimo-rilascio
 weight: 10
 type: docs
 keywords: [I14Y, Piattaforma di interoperabilità I14Y, IOP, Changelog, Releases, Versioni, Sviluppo software]
-draft: true
+draft: false
 ---
 
-Il prossimo rilascio di I14Y è previsto per la sera del 6 maggio 2026. Comprende le modifiche e le estensioni descritte di seguito. Le organizzazioni partner di I14Y con il relativo accesso possono testare sin da subito il software aggiornato nell'[ambiente di collaudo di I14Y](https://input.i14y-a.admin.ch). Se non avete ancora accesso a questo ambiente, utilizzato per i test del software, vi preghiamo di contattare il Servizio di interoperabilità.
+The next release of I14Y is planned for the evening of 27 May 2026. It includes the changes and enhancements described below. I14Y partner organisations with the appropriate access can test the updated software immediately on the [I14Y acceptance environment](https://input.i14y-a.admin.ch). Please contact the Interoperability Unit if you do not yet have access to this environment, which is used for software testing.
 
-Si prega di notare che, in caso di problemi, la data di rilascio può essere posticipata a breve termine. È anche possibile che singole funzionalità vengano rimosse dal rilascio e attivate solo in un secondo momento. Per domande o problemi relativi a questo rilascio potete rivolgervi al Servizio di interoperabilità ([i14y@bfs.admin.ch](mailto:i14y@bfs.admin.ch)).
+Please note that the release date may be postponed at short notice if problems arise. Individual features may also be removed from the release and only activated at a later point in time. If you have any questions or issues related to this release, please contact the Interoperability Unit ([i14y@bfs.admin.ch](mailto:i14y@bfs.admin.ch)).
 
-**Modifica delle strutture nell'interfaccia utente:** classi, attributi e associazioni di una struttura dati possono ora essere modificati direttamente nell'interfaccia utente. Tutte le proprietà visualizzate nella barra laterale sono modificabili. Durante la modifica di un attributo, è inoltre possibile cercare un concetto e collegarlo a una versione specifica.
+**Creation type is now visible publicly:** The public user interface now shows when an entry was created and last modified, as well as whether it was created manually or automatically. This field was introduced in the last release.
 
-**Metadati di sistema nella Partner API:** tutti gli oggetti contengono ora una sezione "system" nelle risposte JSON della Partner API. Essa contiene la data di creazione (`createdAt`), la data dell'ultima modifica (`modifiedAt`) e il tipo di creazione (`creationType`). Quest'ultimo indica se un oggetto è stato creato manualmente tramite un token del browser (_Manual_) oppure automaticamente tramite un token M2M (_Automated_).
+**Creation type in the admin area:** The admin area now shows a warning when an entry was created automatically. This helps prevent accidental manual edits of entries that are regularly overwritten by automated processes.
 
-**Più identificatori per concetti e prestazioni amministrative:** concetti e prestazioni amministrative possono ora avere più identificatori. A tale scopo è stata introdotta la proprietà `identifiers` come array. Per non interrompere le integrazioni esistenti, il precedente campo `identifier` continuerà per il momento a essere restituito; entrambi i campi compaiono contemporaneamente nelle risposte dell'API. Nota: il campo `identifier` (singolare) sarà rimosso in una versione futura. Gli script che utilizzano questo campo durante la creazione degli oggetti dovranno essere adeguati per tempo.
+**Reuse of concepts:** The concept detail page now shows how often a concept is used in data structures, including links to the relevant datasets. The catalog page also shows this number in a chip.
 
-**Creare una nuova versione di una tabella di mapping:** è ora possibile creare una nuova versione a partire da una tabella di mapping esistente.
+**Official I14Y URIs:** I14Y now provides stable URIs for classes, attributes and associations. Machine access to these URIs redirects to the linked data object, while browser access redirects to the corresponding page in I14Y.
 
-**Ricerca nel catalogo tramite la Partner API:** il punto di accesso per la ricerca nel catalogo è ora disponibile anche tramite la Partner API. La ricerca supporta diversi parametri, come il termine di ricerca e la lingua.
+**Small UX improvements**
 
-**Diritti di modifica estesi per i submitter:** i submitter possono ora modificare oggetti con stato di registrazione "Initial" o "Kandidat", anche se sono già pubblicati. La condizione è che non siano stati precedentemente bloccati.
-
-**Distribuzioni nella pagina di dettaglio del dataset:** le distribuzioni associate a un dataset vengono ora visualizzate direttamente nella pagina descrittiva del dataset.
-
-**Esportazione di codelist senza annotazioni:** le codelist possono ora essere esportate, se desiderato, anche senza annotazioni; i formati supportati sono JSON e CSV.
-
-**Aggiornamenti tecnici nonché piccoli miglioramenti e correzioni di bug**
+**Bug fixes**
