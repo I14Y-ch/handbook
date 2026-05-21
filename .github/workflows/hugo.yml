@@ -111,7 +111,7 @@ jobs:
           secure: true
           from: ${{ secrets.RELEASE_EMAIL_FROM }}
           to: ${{ secrets.RELEASE_EMAIL_TO }}
-          subject: "I14Y: Informationen zum nächsten Release im Handbook publiziert"
+          subject: "Nächster Release von I14Y"
           body: |
             Guten Tag,
 
