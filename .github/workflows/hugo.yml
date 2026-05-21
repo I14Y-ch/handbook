@@ -107,6 +107,7 @@ jobs:
           server_port: ${{ secrets.SMTP_PORT }}
           username: ${{ secrets.SMTP_USERNAME }}
           password: ${{ secrets.SMTP_PASSWORD }}
+          ignore_cert: true
           secure: true
           from: ${{ secrets.RELEASE_EMAIL_FROM }}
           to: ${{ secrets.RELEASE_EMAIL_TO }}
