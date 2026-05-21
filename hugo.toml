@@ -2,6 +2,7 @@
 languageCode = 'de-CH'
 title = 'Handbuch Interoperabilitätsplattform I14Y'
 
+
 # Language settings
 contentDir = "content/"
 defaultContentLanguage = "de"
@@ -9,9 +10,10 @@ defaultContentLanguageInSubdir = true
 
 # Language configuration
 [languages]
+
 [languages.de]
 title = "Handbuch Interoperabilitätsplattform I14Y"
-languageName = "Deutsch"
+label = "Deutsch"
 languageCode = "de"
 contentDir = "content/de"
 weight = 1
@@ -19,9 +21,10 @@ weight = 1
 [languages.de.params]
 description = "Anleitungen und Informationen zur Interoperabilitätsplattform"
 
+
 [languages.fr]
 title = "Manuel I14Y plateforme d’interopérabilité"
-languageName = "Français"
+label = "Français"
 languageCode = "fr"
 contentDir = "content/fr"
 weight = 2
@@ -29,9 +32,10 @@ weight = 2
 [languages.fr.params]
 description = "Instructions et informations sur la plate-forme d'interopérabilité"
 
+
 [languages.it]
 title = "Manuale I14Y piattaforma di interoperabilità"
-languageName = "Italian"
+label = "Italian"
 languageCode = "it"
 contentDir = "content/it"
 weight = 3
@@ -42,14 +46,15 @@ description = "Guida e informazioni sulla piattaforma di interoperabilità"
 # [languages.rm]
 # title = "Manual da plattafurma d'interoperabilitad I14Y"
 # description = ""
-# languageName = "Rumantsch"
+# label = "Rumantsch"
 # languageCode = "rm"
 # contentDir = "content/rm"
 # weight = 4
 
+
 [languages.en]
 title = "Manual I14Y Interoperability Platform"
-languageName = "English"
+label = "English"
 languageCode = "en"
 contentDir = "content/en"
 weight = 5
@@ -86,6 +91,10 @@ sidebar_menu_compact = true
 enable = true
 theme = "default"
 version = "11.4.1"
+
+[params.author]
+name = "Kompetenzzentrum Datenbewirtschaftung KDB"
+email = "i14y@bfs.admin.ch"
 
 [markup.goldmark.parser.attribute]
 block = true

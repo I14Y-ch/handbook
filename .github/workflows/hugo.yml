@@ -77,3 +77,58 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  notify-release-email:
+    runs-on: ubuntu-latest
+    needs:
+      - build
+      - deploy
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Check notification flag in DE next.md
+        id: next_notification
+        run: |
+          if grep -Eq '^notification:\s*true\s*$' content/de/changelog/next.md; then
+            echo "send=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "send=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Send release note email
+        if: steps.next_notification.outputs.send == 'true'
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: ${{ secrets.SMTP_SERVER }}
+          server_port: ${{ secrets.SMTP_PORT }}
+          username: ${{ secrets.SMTP_USERNAME }}
+          password: ${{ secrets.SMTP_PASSWORD }}
+          secure: true
+          from: ${{ secrets.RELEASE_EMAIL_FROM }}
+          to: ${{ secrets.RELEASE_EMAIL_TO }}
+          subject: "I14Y: Informationen zum nächsten Release im Handbook publiziert"
+          body: |
+            Guten Tag,
+
+            am Mittwochabend der nächsten Woche soll eine neue Version der I14Y-Software 
+            aufgespielt werden. Die geplanten Neuerungen sind im Handbuch dokumentiert. 
+            I14Y-Partnerorganisationen können die aktualisierte Software ab sofort 
+            auf der Abnahme-Umgebung von I14Y testen. Bei Rückfragen steht 
+            das I14Y-Team gerne zur Verfügung.
+
+            Link zur Seite:
+            https://i14y-ch.github.io/handbook/de/changelog/naechster-release/
+
+            Link zur Abnahme-Umgebung:
+            https://input.i14y-a.admin.ch
+
+            Kontakt zum I14Y-Team:
+            i14y@bfs.admin.ch
+
+            Dies ist eine automatisch generierte E-Mail. Bitte antworten Sie nicht direkt 
+            auf diese Nachricht.
+
