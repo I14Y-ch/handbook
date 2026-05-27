@@ -15,7 +15,7 @@ Typische Inhalte einer Struktur umfassen Namen und Beschreibungen der Dateneleme
 
 Die Struktur kann auf I14Y nicht direkt erfasst werden. Stattdessen muss sie ausserhalb der Plattform beschrieben werden. Wie Sie dabei vorgehen können, wird unter [Strukturdatei erstellen](#strukturdatei-erstellen) erläutert. Akzeptiert werden Dateien in drei Formaten: TTL (Turtle/SHACL), RDF und JSON-LD. 
 
-Sobald die Strukturdatei bereit liegt, kann sie in I14Y einem Datensatz zuwiesen werden: Öffnen Sie dazu den betreffenden Eintrag im internen Bereich von I14Y. Wechseln Sie ins Register Struktur. Laden Sie anschliessend die Strukturdatei über die Weboberfläche hoch. Strukturen lassen sich auf I14Y noch nicht direkt im Browser editieren. Falls eine Struktur angepasst werden muss, wird sie heruntergeladen, lokal angepasst und dann wieder hochgeladen.  
+Sobald die Strukturdatei bereit liegt, kann sie in I14Y einem Datensatz zuwiesen werden: Öffnen Sie dazu den betreffenden Eintrag im internen Bereich von I14Y. Wechseln Sie ins Register Struktur. Laden Sie anschliessend die Strukturdatei über die Weboberfläche hoch. Strukturen lassen sich auf I14Y teilweise direkt im Browser editieren. Bei kleinen Änderungen (Titel oder Typ eines Attributs) erfolgt die Änderung direkt in der Benutzeroberfläche. Bei größeren Änderungen (Hinzufügen einer Klasse oder eines Attributs) wird die Struktur heruntergeladen, lokal angepasst und dann wieder hochgeladen.  
 
 <details>
 <summary><strong>Formate zur Beschreibung von Strukturen</strong></summary>
