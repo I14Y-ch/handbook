@@ -9,6 +9,20 @@ keywords: [I14Y, Interoperabilitätsplattform I14Y, IOP, Changelog, Releases, Ve
 
 La plateforme d'interopérabilité I14Y est en développement continu. De nouvelles fonctionnalités sont ajoutées à chaque version, et des erreurs sont également corrigées. Les changements les plus importants sont brièvement documentés ci-dessous. Pour des informations détaillées sur l'évolution de la plateforme, veuillez contacter l'[équipe I14Y](mailto:i14y@bfs.admin.ch).
 
+## Version du 27 mai 2026
+
+**Le type de création est désormais visible publiquement :** L'interface utilisateur publique affiche désormais la date de création, la date de dernière modification et le type de création d'une entrée (manuelle ou automatisée). Ce champ a été introduit lors de la dernière version.
+
+**Type de création dans l'espace admin :** L'espace admin affiche désormais un avertissement lorsqu'une entrée a été créée automatiquement. Cela permet d'éviter des modifications manuelles accidentelles d'entrées régulièrement écrasées par des processus automatisés.
+
+**Réutilisation des concepts :** La page de détail d'un concept indique désormais combien de fois ce concept est utilisé dans des structures de données, avec des liens vers les jeux de données concernés. Cette valeur apparaît aussi dans un chip sur la page du catalogue.
+
+**URI officielles I14Y :** I14Y fournit désormais des URI stables pour les classes, attributs et associations. Un accès machine à ces URI redirige vers l'objet de données liées, tandis qu'un accès via navigateur redirige vers la page correspondante dans I14Y.
+
+**Petites améliorations UX**
+
+**Corrections de bugs**
+
 ## Version du 6 mai 2026
 
 **Modifier les structures dans l'interface utilisateur :** Les classes, attributs et associations d'une structure de données peuvent désormais être modifiés directement dans l'interface utilisateur. Toutes les propriétés affichées dans la barre latérale sont modifiables. Lors de la modification d'un attribut, il est également possible de rechercher un concept et d'établir un lien vers une version spécifique.

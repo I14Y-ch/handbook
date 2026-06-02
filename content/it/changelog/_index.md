@@ -13,6 +13,20 @@ __IT:__ Questa pagina è disponibile solo in inglese.
 
 The I14Y interoperability platform is under continuous development. New features are added with each release. Bugs are also fixed. The most important changes are briefly documented below. For detailed information on the development of the platform, please contact the [I14Y team](mailto:i14y@bfs.admin.ch). 
 
+## Release May 27 2026
+
+**Creation type is now visible publicly:** The public user interface now shows when an entry was created and last modified, as well as whether it was created manually or automatically. This field was introduced in the last release.
+
+**Creation type in the admin area:** The admin area now shows a warning when an entry was created automatically. This helps prevent accidental manual edits of entries that are regularly overwritten by automated processes.
+
+**Reuse of concepts:** The concept detail page now shows how often a concept is used in data structures, including links to the relevant datasets. The catalog page also shows this number in a chip.
+
+**Official I14Y URIs:** I14Y now provides stable URIs for classes, attributes and associations. Machine access to these URIs redirects to the linked data object, while browser access redirects to the corresponding page in I14Y.
+
+**Small UX improvements**
+
+**Bug fixes**
+
 ## Release May 6 2026
 
 **Editing structures in the user interface:** Classes, attributes and associations of a data structure can now be edited directly in the user interface. All properties displayed in the sidebar are editable. When editing an attribute, it is also possible to search for a concept and link to a specific version.
