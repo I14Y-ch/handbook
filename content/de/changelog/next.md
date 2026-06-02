@@ -5,7 +5,7 @@ slug: naechster-release
 weight: 10
 type: docs
 keywords: [I14Y, Interoperabilitätsplattform I14Y, IOP, Changelog, Releases, Versionen, Software-Entwicklung]
-draft: false
+draft: true
 notification: false
 ---
 
