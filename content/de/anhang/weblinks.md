@@ -11,7 +11,6 @@ keywords: [Interoperabilitätsplattform I14Y, I14Y, Weblink, URL, Verweise, Refe
 | Weblink | Beschreibung | Nation/ Union |
 | --- | --- | --- |
 | [Bundesgesetz über den Einsatz elektronischer Mittel zur Erfüllung von Behördenaufgaben](https://www.fedlex.admin.ch/eli/fga/2023/787) | Bundesgesetz über den Einsatz elektronischer Mittel zur Erfüllung von Behördenaufgaben (EMBAG) auf der Publikationsplattform des Bundesrechts (Fedlex) | Schweiz |
-| [OGD-Strategie](https://fedlex.data.admin.ch/eli/fga/2019/125) | Strategie für offene Verwaltungsdaten in der Schweiz (OGD) auf der Publikationsplattform des Bundesrechts (Fedlex).  | Schweiz |
 | [Programm Nationale Datenbewirtschaftung](https://www.bfs.admin.ch/bfs/de/home/nadb/nadb.html) | Beschreibung des Programms Nationale Datenbewirtschaftung der Eidgenossenschaft | Schweiz |
 | [Verordnung über die digitale Transformation und die Informatik](https://www.fedlex.admin.ch/eli/cc/2023/682) | Die Verordnung über die digitale Transformation und die Informatik (DigiV) auf der Publikationsplattform des Bundesrechts (Fedlex) | Schweiz |
 {.weblink1}
@@ -36,19 +35,22 @@ keywords: [Interoperabilitätsplattform I14Y, I14Y, Weblink, URL, Verweise, Refe
 ## Daten- und Metadatenportale
 | Weblink | Beschreibung | Nation/ Union |
 | ----- | ----- | ----- | 
-| [data.bs.ch](https://data.bs.ch/) | Datenportal des Kantons Basel-Stadt | Kanton Basel-Stadt |
+| [data.bs.ch](https://data.bs.ch/) | Datenportal des Kantons Basel-Stadt. | Kanton Basel-Stadt |
 | [data.europa.eu](https://data.europa.eu) | Auf dem Datenportal der Europäischen Union werden Metadaten von den nationalen, regionalen, lokalen und bereichsspezifischen Datenanbietern gesammelt. Zudem bietet das Portal Zugang zu mehr als einer Million offenen Datensätzen aus 36 Ländern. | Europäische Union |
-| [data.norge.no](https://data.norge.no/) | Metadatenportal von Norwegen | Norwegen |
-| [geolion.zh.ch](https://geolion.zh.ch/) | Katalog (Metadaten) für Geodaten im Kanton Zürich | Kanton Zürich |
-| [geobasisdaten.ch](https://geobasisdaten.ch) | Geodatenportal Konferenz der kantonalen Geoinformations­- und Katasterstellen und von Swisstopo. | Schweiz |
-| [geodienste.ch](https://www.geodienste.ch/) | Der Webdienst Geodienste.ch prüft Geodaten. Entsprechen diese den vordefinierten Kriterien, werden sie im Verzeichnis aufgelistet. Betrieben wir die Plattform von der Geschäftsstelle der Konferenz der kantonalen Geoinformations­- und Katasterstellen. | Schweiz |
-| [geocat.ch](https://geocat.ch) | Auf dem Geocat-Portal werden Metainformationen zu GeoDatensätze aus der Schweiz veröffentlicht. Betrieben wird das Portal vom Bundesamt für Landestopografie swisstopo. | Schweiz |
+| [data.gr.ch](https://data.gr.ch) | Datenportal des Kantons Graubünden. | Kanton Graubünden |
+| [data.norge.no](https://data.norge.no/) | Metadatenportal von Norwegen. | Norwegen |
+| [data.tg.ch](https://data.tg.ch) | Open-Data-Portal des Kantons Thurgau. | Kanton Thurgau |
+| [daten.sg.ch](https://daten.sg.ch) | Open-Data-Portal des Kantons St. Gallen und seiner Gemeinden. | Kanton St. Gallen |
+| [geobasisdaten.ch](https://geobasisdaten.ch) | Geodatenportal der Konferenz der kantonalen Geoinformations- und Katasterstellen sowie von swisstopo. | Schweiz |
+| [geocat.ch](https://geocat.ch) | Auf dem Portal geocat.ch werden Metainformationen zu Geodatensätzen aus der Schweiz veröffentlicht. Betrieben wird das Portal vom Bundesamt für Landestopografie swisstopo. | Schweiz |
+| [geodienste.ch](https://www.geodienste.ch/) | Der Webdienst geodienste.ch prüft Geodaten. Entsprechen diese den vordefinierten Kriterien, werden sie im Verzeichnis aufgelistet. Betrieben wird die Plattform von der Geschäftsstelle der Konferenz der kantonalen Geoinformations- und Katasterstellen. | Schweiz |
+| [geolion.zh.ch](https://geolion.zh.ch/) | Katalog (Metadaten) für Geodaten im Kanton Zürich. | Kanton Zürich |
 | [govdata.de](https://www.govdata.de) | Datenportal für Deutschland. | Deutschland |
 | [lindas.admin.ch](https://lindas.admin.ch) | Der Linked Data Service (Lindas) wird vom Bundesarchiv zur Verfügung gestellt. | Schweiz |
 | [metaver.de](https://metaver.de) | Das Metadatenportal MetaVer (MetadatenVerbund) bietet Geoinformationen aus den Bundesländern Brandenburg, Bremen, Hamburg, Mecklenburg-Vorpommern und Sachsen-Anhalt an. | Deutschland |
-| [open.nrw](https://open.nrw/) | Metadatenportal des Bundeslands Nordrhein-Westfalen | Deutschland |
+| [open.nrw](https://open.nrw/) | Metadatenportal des Bundeslands Nordrhein-Westfalen. | Deutschland |
 | [opendata.swiss](https://opendata.swiss) | Auf dem Opendata-Portal der Schweiz werden Metainformationen zu frei verfügbaren Daten der Schweizer Behörden veröffentlicht. Betrieben wird das Portal vom Bundesamt für Statistik. | Schweiz |
-| [opentransportdata.swiss](https://opentransportdata.swiss) | opentransportdata.swiss ist der nationale Zugangspunkt (_National Access Point_) für offene Mobilitätsdaten der Schweiz. Die Plattform wird vom Bundesamt für Verkehr (BAV) über die SBB betrieben und stellt standardisierte Schnittstellen sowie Datensätze zu Fahrplänen, Echtzeit-Verkehrsdaten und weiteren Mobilitätsinformationen zur Verfügung. Sie bietet unter anderem den Open Journey Planner (OJP) für multimodale Routenplanung sowie die Verkehrsdatenplattform (VDP) mit Echtzeitdaten zu Verkehrszählern und Lichtsignalanlagen. Mittelfristig soll die Plattform in die nationale Mobilitätsdateninfrastruktur (MODI) überführt werden. | Schweiz |
+| [opentransportdata.swiss](https://opentransportdata.swiss) | opentransportdata.swiss ist der Zugangspunkt für offene Mobilitätsdaten der Schweiz. Die Plattform wird vom Bundesamt für Verkehr (BAV) über die SBB betrieben und stellt standardisierte Schnittstellen sowie Datensätze zu Fahrplänen, Echtzeit-Verkehrsdaten und weiteren Mobilitätsinformationen zur Verfügung. Sie bietet unter anderem den Open Journey Planner (OJP) für multimodale Routenplanung sowie die Verkehrsdatenplattform mit Echtzeitdaten. | Schweiz |
 {.weblink1}
 
 ## Standards, die von I14Y genutzt werden
@@ -56,8 +58,7 @@ keywords: [Interoperabilitätsplattform I14Y, I14Y, Weblink, URL, Verweise, Refe
 | --- | --- | --- |
 | [CPSV-AP](https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/core-public-service-vocabulary-application-profile) | Das _Core Public Service Vocabulary Application Profile_ ist der europäische Standard zur Beschreibung öffentlicher Dienstleistungen | Europäische Union |
 | [DCAT](https://www.w3.org/TR/vocab-dcat/) | Data Catalog Vocabulary - W3C-Standard zur Beschreibung von Datenkatalogen | International |
-| [DCAT-AP CH 2.0](https://www.dcat-ap.ch/releases/2.0/dcat-ap-ch.html) | Schweizer Anwendungsprofil des DCAT-Standards für Metadaten (Version 2.0) | Schweiz |
-| [DCAT-AP CH 3.0](https://www.dcat-ap.ch/releases/3.0_workingdraft/dcat-ap-ch_3.0_workingdraft.html) | Entwurf Schweizer Anwendungsprofil des DCAT-Standards für Metadaten (Version 3.0) | Schweiz |
+| [DCAT-AP CH](https://www.dcat-ap.ch/releases/2.0/dcat-ap-ch.html) | Schweizer Anwendungsprofil des DCAT-Standards für Metadaten | Schweiz |
 | [eCH-0200](https://www.ech.ch/de/ech/ech-0200) | Schweizer Standard für Behördenleistungen | Schweiz |
 | [SSSOM](https://mapping-commons.github.io/sssom) | Der _Simple Standard for Sharing Ontology Mappings_ (SSSOM) ist ein gemeinschaftlicher Standard, um Beziehungen zwischen Objekten zu beschreiben. I14Y nutzt ihn mit den Mapping-Tabellen. | International |
 
@@ -74,11 +75,10 @@ keywords: [Interoperabilitätsplattform I14Y, I14Y, Weblink, URL, Verweise, Refe
 ## Weitere Weblinks
 | Weblink | Beschreibung | Nation/ Union |
 | ----- | ----- | ----- |
-| [Bundesamt für Statistik](https://www.bfs.admin.ch) | Webseite des Bundesamts für Statistik BFS | Schweiz |
-| [Creative Commons](https://creativecommons.org) | Internationale gemeinnützige Organisation für offene Lizenzen | International |
-| [digitale-verwaltung-schweiz.ch](https://www.digitale-verwaltung-schweiz.ch) | Informationen zur digitalen Transformation der Schweizer Verwaltung | Schweiz |
-| [egovernment-wettbewerb.de](https://www.egovernment-wettbewerb.de/) | eGovernment-Wettbewerb, an dem die Interoperabilitätsplattform I14Y teilgenommen hat | Deutschland |
+| [Bundesamt für Statistik](https://www.bfs.admin.ch) | Webseite des Bundesamts für Statistik (BFS). | Schweiz |
+| [CH Open](https://www.ch-open.ch) | Verein zur Förderung von Open-Source-Software und offenen Standards in der Schweiz. | Schweiz |
+| [digitale-verwaltung-schweiz.ch](https://www.digitale-verwaltung-schweiz.ch) | Informationen zur digitalen Transformation der Schweizer Verwaltung. | Schweiz |
+| [egovernment-wettbewerb.de](https://www.egovernment-wettbewerb.de/) | eGovernment-Wettbewerb, an dem die Interoperabilitätsplattform I14Y teilgenommen hat. | Deutschland |
 | [opendata.ch](https://opendata.ch) | opendata.ch ist der Schweizer Verein zur Förderung offener Daten. Er vernetzt Akteurinnen und Akteure aus Verwaltung, Wissenschaft, Wirtschaft und Zivilgesellschaft und setzt sich für die Öffnung von Daten ein. Der Verein organisiert Veranstaltungen sowie Hackathons und betreibt Fachaustausch zu Fragen der Datenpolitik. | Schweiz |
-| [opendatacommons.org](https://opendatacommons.org/) | Lizenzen für offene Daten | International |
-| [schema.org](https://schema.org) | Strukturierte Datenvokabulare für das Web | International |
+| [schema.org](https://schema.org) | Strukturierte Datenvokabulare für das Web. | International |
 {.weblink1}

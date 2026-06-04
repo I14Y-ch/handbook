@@ -7,9 +7,9 @@ translationKey: regex-examples
 keywords: [Interoperabilitätsplattform I14Y, I14Y, Glossar, Eingabefelder, Standard, Reguläre Ausdrücke, Regex, Regular Expressions, PCRE]
 ---
 
-Dank regulären Ausdrücken (_Regular expression_, kurz _Regex_) können Zeichenketten beschrieben werden. Werden reguläre Ausdrücke auf der Interoperabilitätsplattform I14Y hinterlegt, können später die Daten anhand dieser Angaben überprüft werden. So lassen sich fehlerhafte Eingaben rasch korrigieren. Dank den regulären Ausdrücken kann zudem die Datenqualität automatisiert überprüft werden. 
+Mit regulären Ausdrücken (_Regular expression_, kurz _Regex_) lassen sich Zeichenketten präzise beschreiben. Wenn solche Ausdrücke auf der Interoperabilitätsplattform I14Y hinterlegt sind, können Daten später anhand dieser Vorgaben geprüft werden. Fehlerhafte Eingaben lassen sich so rasch erkennen und korrigieren. Zudem kann die Datenqualität automatisiert überprüft werden. 
 
-Im Laufe der Jahre wurden verschiedene Regex-Implementierungen entwickelt, die sich teilweise in wichtigen Details unterscheiden. Auf der Interoperabilitätsplattform I14Y wird die moderne, weit verbreitete Syntax _PCRE (Perl-Compatible Regular Expressions)_ verwendet, die auch in den meisten Programmiersprachen und Tools zum Einsatz kommt.
+Im Laufe der Jahre wurden verschiedene Regex-Implementierungen entwickelt, die sich teilweise in wichtigen Details unterscheiden. Auf I14Y wird die weit verbreitete Syntax _PCRE (Perl-Compatible Regular Expressions)_ verwendet, die auch in den meisten Programmiersprachen und Tools zum Einsatz kommt.
 
 ## Grundlagen der PCRE-Syntax
 
@@ -18,7 +18,7 @@ Die PCRE-Syntax bietet eine Vielzahl von Metazeichen und Operatoren, um Muster p
 | Element | Beschreibung | Beispiel |
 | --- | --- | --- |
 | `\d` | Eine Ziffer (0-9) | `\d` beinhaltet "2" |
-| `\w` | Ein Wortzeichen (Buchstabe, Ziffer oder Unterstrich) | `\w+` entspricht "Hallo123" |
+| `\w` | Ein Wortzeichen (typischerweise Buchstabe, Ziffer oder Unterstrich) | `\w+` entspricht "Hallo123" |
 | `\s` | Ein Leerzeichen (Space, Tab, Zeilenumbruch) | `\s+` entspricht einem oder mehreren Leerzeichen |
 | `.` | Ein beliebiges Zeichen (ausser Zeilenumbruch) | `a.b` entspricht "a3b" oder "axb" |
 | `^` | Anfang der Zeichenkette | `^Hallo` entspricht "Hallo" nur am Anfang |
@@ -26,6 +26,7 @@ Die PCRE-Syntax bietet eine Vielzahl von Metazeichen und Operatoren, um Muster p
 | `*` | Null oder mehr Wiederholungen | `a*` entspricht "", "a", "aa", "aaa" |
 | `+` | Eine oder mehr Wiederholungen | `a+` entspricht "a", "aa", "aaa" (aber nicht "") |
 | `?` | Null oder eine Wiederholung (optional) | `colou?r` entspricht "color" und "colour" |
+| `(...)?` | Optionale Gruppe (definierte Zeichenfolge) | `(CHF\s)?\d+` entspricht "CHF 20" und "20" |
 | `{n}` | Genau n Wiederholungen | `\d{3}` entspricht genau drei Ziffern |
 | `{n,m}` | Zwischen n und m Wiederholungen | `\d{2,4}` entspricht zwei bis vier Ziffern |
 | `[...]` | Zeichenklasse (eines der Zeichen) | `[abc]` entspricht "a", "b" oder "c" |
