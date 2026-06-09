@@ -13,6 +13,79 @@ Möchten Sie über neue Funktionen und Angebote auf der Interoperabilitätsplatt
 
 {{</alert>}}
 
+## Metadaten auf I14Y erfassen – aber wie? Der neue Leitfaden hilft weiter
+*21.05.2026*
+
+Wie beschreibt man Datenobjekte auf I14Y so, dass andere sie verstehen und sie weiterverwenden können?  Der neue Leitfaden zur Veröffentlichung von Metadaten auf der Interoperabilitätsplattform zeigt, wie das gelingt. Er verfolgt einen praxisorientierten Ansatz: Welche Informationen müssen zwingend erfasst werden? Wie entsteht eine konsistente, wiederverwendbare Dokumentation? Und wie bleiben Metadaten aktuell – in der Verwaltung wie auch darüber hinaus?
+
+Für die Bundesverwaltung ist die Erfassung und Pflege von Metadaten ihrer Datensätze, Schnittstellen und Behördenleistungen gesetzlich vorgegeben. Der Leitfaden unterstützt Data Owner, Data Stewards und Verantwortliche im Datenmanagement dabei, diese Vorgaben effizient und konsistent umzusetzen. Er bietet aber auch kantonalen und kommunalen Stellen sowie weiteren interessierten Organisationen einen Mehrwert. Viele der beschriebenen Schritte – etwa die Dokumentation von Datenstrukturen, Konzepten oder Nomenklaturen – sind unabhängig vom gesetzlichen Rahmen hilfreich, um Daten verständlich, interoperabel und langfristig nutzbar zu machen.
+Zur Publikation: [Leitfaden zur Veröffentlichung von Metadaten auf der Interoperabilitätsplattform - Umsetzung des Artikels 14 EMBAG | Publikation](https://www.bfs.admin.ch/bfs/de/home/nadb/nadb.assetdetail.36598858.html)
+
+## Neue Gesundheitsdatensätze für die Forschung auf I14Y
+*21.05.2026*
+
+{{< figure src="/handbook/img/news/zusammenarbeit-sphn.png" alt="Das Swiss Personalized Health Network und I14Y arbeiten zusammen" width="125px" class="float-left img-news-thumb" >}}
+
+Das Swiss Personalized Health Network (SPHN) und I14Y arbeiten zusammen, um die Auffindbarkeit und Interoperabilität von Gesundheitsdatensätzen in der Schweiz zu verbessern. Die Einträge aus dem SPHN‑Metadatenkatalog sind neu in I14Y integriert: Die Datensätze werden aus dem SPHN‑Katalog (FAIR Data Point*, RDF nach HealthDCAT‑AP) geharvestet und anschliessend nach DCAT‑AP CH abgebildet. Damit wird die Auffindbarkeit und Interoperabilität von Gesundheitsdaten gestärkt – ganz im Sinne der FAIR‑Prinzipien. Die Metadaten lassen sich als JSON‑Dateien exportieren und in andere Systeme integrieren.
+
+Für die Umsetzung haben die Teams von SPHN und I14Y eng über GitHub zusammengearbeitet. Das Ergebnis dieser Zusammenarbeit ist eine produktive, automatisierte Anbindung.
+[Mehr Informationen zur Zusammenarbeit](https://sphn.ch/2026/04/23/sphn-and-federal-statistical-office-strengthen-discoverability-and-interoperability-of-health-research-data/)
+[Zu den SPHN-Datensätze auf I14Y](https://www.i14y.admin.ch/de/catalog/all?publisher=CH_SPHN)
+[Zum SPHN-Katalog](https://fdp.dcc.sib.swiss/)
+*[Mehr zu den FAIR-Prinzipien](https://i14y-ch.github.io/handbook/de/glossar/#fair-prinzipien)
+
+## Merkmale der natürlichen Personen als Schlüssel für effizientes E-Government
+*21.05.2026*
+
+{{< figure src="/handbook/img/news/merkmalsauspraegung.png" alt="Einheitliche Merkmale der natürlichen Personen als Schlüssel für effizientes E-Governmen" width="125px" class="float-left img-news-thumb" >}}
+
+Einheitliche Merkmale der natürlichen Personen sind eine Grundlage für das, was viele Dateninitiativen anstreben: Kompatibilität, Wiederverwendbarkeit und Effizienz. Und sie sind ein wichtiger Baustein in der Umsetzung des Once-Only-Prinzips.
+
+Mit dem Registerharmonisierungsgesetz (RHG) für die Einwohnerregister und anderer amtlicher Personenregister wurde bereits 2006 die Basis für einheitliche Definitionen und Beschreibungen der Merkmale von Personendaten geschaffen. Diese sind im [Amtlichen Katalog der Merkmale](https://www.bfs.admin.ch/bfs/de/home/register/personenregister/registerharmonisierung/nomenklaturen.assetdetail.24565576.html) publiziert.
+
+Neu sind alle Personenmerkmale auch als Konzepte auf I14Y beschrieben und öffentlich abrufbar. Dadurch wird transparent, wie zentrale demografische Attribute wie Name, Geburtsdatum oder Wohnsitzgemeinde in der Verwaltung definiert sind. Diese Definitionen können direkt für eigene Erhebungen und Fachanwendungen übernommen werden.
+
+Im Laufe des Jahres wird die Datenstruktur der Personenstammdaten visualisiert und damit auch die in I14Y verwendeten Variablen («used variables») sichtbar gemacht. So entsteht beispielsweise eine Gesamtübersicht über den Standard eCH 0099: Lieferung Einwohnerdaten an die Statistik.
+[Zur Sammlung der Merkmalsbeschreibungen auf I14Y](https://www.i14y.admin.ch/de/catalog/concepts?query=merkmale)
+
+## Neu auf I14Y: Mapping-Tabellen erfassen
+*21.05.2026*
+
+Mapping-Tabellen machen Beziehungen zwischen zwei ähnlichen Codelisten transparent und maschinenlesbar. Das ist beispielsweise nützlich, wenn Daten aus unterschiedlichen Systemen zusammengeführt, verglichen oder harmonisiert werden müssen – etwa in Verwaltungsprozessen, beim Datenaustausch oder bei der Pflege von Referenzdaten.
+
+Wir laden Sie ein, diese neue Funktion auszuprobieren, um Ihre Zuordnungen zwischen Codelisten künftig strukturierter und besser dokumentiert zu halten. Mapping-Tabellen können neu direkt auf I14Y erstellt, bearbeitet und verwaltet werden – sowohl über die Benutzeroberfläche als auch via API; die ausführliche Beschreibung mit allen Schritten finden Sie im [I14Y-Handbuch](https://i14y-ch.github.io/handbook/de/publikation/mappingtable/).
+
+## Automatisierte Metadatenintegration: Basel‑Stadt entwickelt technischen Connector
+*21.05.2026*
+
+{{< figure src="/handbook/img/news/connector.png" alt="Der Kanton Basel‑Stadt entwickelt technischen Connector" width="125px" class="float-left img-news-thumb" >}}
+
+Wie können Metadaten künftig effizienter und mit weniger manuellem Aufwand auf I14Y publiziert werden? Das DCC Data Competence Center am Statistischen Amt Basel-Stadt arbeitet derzeit an einem generischen Connector, der die automatisierte Übertragung und Synchronisation von Metadaten aus bestehenden Datenkatalogen in die Interoperabilitätsplattform ermöglicht.
+
+Der Ansatz befindet sich noch im Aufbau, zeigt aber bereits, wohin die Reise geht: Durch standardisierte Schnittstellen, konfigurierbare Mapping‑Regeln und eine DCAT‑AP‑CH‑konforme Transformation sollen Metadaten künftig automatisiert erstellt, aktualisiert oder gelöscht werden können. Das reduziert manuellen Aufwand, verbessert die Datenqualität und stärkt eine nachhaltige Datenarchitektur.
+
+Wir bleiben mit Basel‑Stadt im Austausch und berichten zu einem späteren Zeitpunkt über konkrete Erfahrungen aus dem produktiven Einsatz.
+
+## Unsere Challenge am GovTech Hackathon 2026
+*21.05.2026*
+
+Zwei Tage, viele Ideen – und vielleicht sogar ein Prototyp: Am 28. und 29. Mai findet der diesjährige GovTech-Hackathon statt. Organisiert von der Bundeskanzlei, wird er in den Räumlichkeiten des Bundesamts für Informatik und Telekommunikation in Zollikofen durchgeführt.
+
+Das I14Y-Team bringt auch eine Challenge ein; darin gilt es folgendes Problem zu lösen: Oft beschreiben verschiedene Datensätze dasselbe – aber mit unterschiedlichen Begriffen. Zum Beispiel steht in einem Datensatz «active», im anderen «laufend». Gemeint ist das Gleiche, technisch passt es aber nicht zusammen. Gesucht sind clevere Lösungen, die solche Unterschiede automatisch erkennen und vielleicht sogar auflösen – etwa indem eine Mapping-Tabelle erstellt wird.
+
+Wir freuen uns auf innovative Ansätze, spannende Experimente und inspirierende Begegnungen.
+
+## Wiederverwendung von externen Konzepten
+
+{{< figure src="/handbook/img/news/wiederverwendung-externe-konzepte.png" alt="Wiederverwendung von externen Konzepten
+" width="125px" class="float-left img-news-thumb" >}}
+
+Der Kanton Basel-Landschaft veröffentlicht auf der Interoperabilitätsplattform I14Y die [Beschreibungen zu seinen offenen Daten](https://www.i14y.admin.ch/de/catalog/all?publisher=CH_KT_BL&types=Dataset). Statt sich auf einfache Katalogeinträge zu beschränken, hat das Team aus Liestal die Beschreibungen mit den jeweiligen Datenstrukturen ergänzt. Und mehr noch: Die darin enthaltenen Datenelemente wurden – wo immer möglich – direkt mit den zugrunde liegenden Konzepten verknüpft, wie sie auf I14Y zu finden sind.
+
+So dokumentiert Basel-Landschaft beispielsweise, dass zur Identifikation einer Gemeinde in einem Datensatz die vom Bundesamt für Statistik vergebene Gemeindenummer verwendet wird. Oder dass im Bereich der Gemeindefinanzen auf Konzepte der Eidgenössischen Finanzverwaltung abgestützt wird.
+
+Basel-Landschaft setzt damit konsequent auf die Wiederverwendung bestehender Standardkonzepte und leistet einen konkreten Beitrag zur Harmonisierung von Verwaltungsdaten zwischen Behörden. Wie der automatisierte Prozess zur Publikation der Beschreibungen funktioniert, ist aus dem Code des [Harvesting-Skripts auf GitHub](https://github.com/I14Y-ch/harvester_BL) ersichtlich.
+
 ## Eine gemeinsame Sprache macht alles einfacher
 *20.02.2026*
 
