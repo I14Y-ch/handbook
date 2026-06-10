@@ -37,7 +37,7 @@ Für die Umsetzung haben die Teams von SPHN und I14Y eng über GitHub zusammenge
 ## Merkmale der natürlichen Personen als Schlüssel für effizientes E-Government
 *21.05.2026*
 
-{{< figure src="/handbook/img/news/merkmalsauspraegung.png" alt="Einheitliche Merkmale der natürlichen Personen als Schlüssel für effizientes E-Governmen" width="125px" class="float-left img-news-thumb" >}}
+{{< figure src="/handbook/img/news/merkmalsauspraegung.jpg" alt="Einheitliche Merkmale der natürlichen Personen als Schlüssel für effizientes E-Governmen" width="125px" class="float-left img-news-thumb" >}}
 
 Einheitliche Merkmale der natürlichen Personen sind eine Grundlage für das, was viele Dateninitiativen anstreben: Kompatibilität, Wiederverwendbarkeit und Effizienz. Und sie sind ein wichtiger Baustein in der Umsetzung des Once-Only-Prinzips.
 
