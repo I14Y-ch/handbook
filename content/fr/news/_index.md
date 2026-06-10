@@ -13,6 +13,77 @@ Vous souhaitez être informés des nouvelles fonctions et des offres de la plate
 
 {{</alert>}}
 
+## Comment saisir des métadonnées? Toutes les infos utiles dans le nouveau guide I14Y
+*21.05.2026*
+
+Comment décrire un objet de données sur la plateforme I14Y de sorte que chacun comprenne la description et puisse réutiliser l’objet en question? Le nouveau guide en matière de publication de métadonnées sur la plateforme d’interopérabilité vous dit tout. Axé sur la pratique, il montre clairement quelles informations doivent impérativement être saisies, la manière de créer une documentation cohérente et réutilisable, et comment faire pour que les métadonnées restent à jour, au sein de l’administration comme à l’extérieur.
+
+En ce qui concerne l’administration fédérale, la loi prescrit la saisie et la mise à jour des métadonnées relatives à ses jeux de données, interfaces et prestations administratives. Ce guide aide les propriétaires de données (data owners), les administrateurs des données (data stewards) et les responsables de la gestion des données à mettre en œuvre ces prescriptions de manière efficace et cohérente. Il sera aussi profitable aux services cantonaux et communaux ainsi qu’à toute autre organisation intéressée. Les étapes décrites – la documentation des structures de données, des concepts ou des nomenclatures, par exemple – seront utiles, indépendamment du cadre juridique, pour que les données soient davantage compréhensibles, interopérables et exploitables à long terme.
+Lien vers la publication (la version française sera disponible dans le courant du mois d'août): [Guide pour la publication des métadonnées sur la plateforme d’interopérabilité – Mise en œuvre de l’art. 14 LMETA | Publication](https://www.bfs.admin.ch/bfs/fr/home/nadb/nadb.assetdetail.36598859.html))
+
+## Nouveaux jeux de données de santé pour la recherche sur la plateforme I14Y
+*21.05.2026*
+
+{{< figure src="/handbook/img/news/zusammenarbeit-sphn.png" alt="Das Swiss Personalized Health Network und I14Y arbeiten zusammen" width="125px" class="float-left img-news-thumb" >}}
+
+Le Swiss Personalized Health Network (SPHN) et la plateforme I14Y collaborent dans le but d’améliorer la visibilité et l’interopérabilité des jeux de données de santé en Suisse. Les entrées issues du catalogue de métadonnées SPHN sont désormais intégrées dans la plateforme I14Y: les jeux de données ont été moissonnés depuis le catalogue SPHN (FAIR Data Point*, RDF selon HealthDCAT-AP), puis affichés selon la norme DCAT-AP CH. Cette approche améliore la visibilité et l’interopérabilité des données de santé, conformément aux principes FAIR. Il est possible d’exporter les métadonnées sous forme de fichiers JSON et de les intégrer dans d’autres systèmes. 
+
+Pour la mise en œuvre, la collaboration des équipes SPHN et I14Y est passée via GitHub, aboutissant à une interface productive et automatisée.
+[Plus d’informations à ce sujet](https://sphn.ch/2026/04/23/sphn-and-federal-statistical-office-strengthen-discoverability-and-interoperability-of-health-research-data/)
+[Vers les jeux de données SPHN sur la plateforme I14Y](https://www.i14y.admin.ch/fr/catalog/all?publisher=CH_SPHN)
+[Vers le catalogue SPHN](https://fdp.dcc.sib.swiss/)
+*[Plus d’infos sur les principes FAIR](https://i14y-ch.github.io/handbook/fr/glossair/#principes-fair)
+
+## Les caractères des personnes physiques, un élément central pour une cyberadministration efficace
+*21.05.2026*
+
+{{< figure src="/handbook/img/news/merkmalsauspraegung.jpg" alt="Einheitliche Merkmale der natürlichen Personen als Schlüssel für effizientes E-Governmen" width="125px" class="float-left img-news-thumb" >}}
+
+Les caractères uniques des personnes physiques constituent la base de ce à quoi aspirent de nombreuses initiatives en matière de données: la compatibilité, la réutilisabilité et l’efficacité. Ils constituent en outre un élément essentiel pour la mise en œuvre du principe once-only.
+
+Dès 2006, la loi sur l’harmonisation des registres (LHR) relative aux registres des habitants et à d’autres registres officiels de personnes a jeté les bases d’une définition et d’une description uniformes des caractères des données personnelles. Elles figurent dans le [catalogue officiel des caractères](https://www.bfs.admin.ch/bfs/fr/home/registres/registre-personnes/harmonisation-registres/nomenclatures.assetdetail.24565577.html).
+
+Désormais, les caractères des personnes sont aussi décrits sous forme de concepts sur la plateforme I14Y où ils sont librement accessibles. On voit ainsi comment l’administration définit les attributs démographiques centraux comme le nom, la date de naissance et la commune de domicile. Il est possible de directement reprendre ces définitions pour vos propres enquêtes et applications métier.
+
+En cours d’année, nous publierons la structure des données personnelles de référence, ce qui permettra en parallèle de rendre visibles les variables utilisées dans la plateforme I14Y (used variables). On obtiendra ainsi, par exemple, une vue d’ensemble de la norme eCH 0099: livraison des données des contrôles des habitants à la statistique.
+[Vers le catalogue des métadonnées sur la plateforme I14Y](https://www.i14y.admin.ch/fr/catalog/concepts?query=merkmale)
+
+## Nouveau sur la plateforme I14Y: saisie de tables de correspondance (mapping)
+*21.05.2026*
+
+Pour rendre transparentes et lisibles par machine les relations entre deux listes de codes similaires, on recourt à des tables de correspondance. Ce qui est utile, par exemple, lorsqu’il s’agit de regrouper, de comparer ou d’harmoniser des données provenant de différents systèmes, notamment dans le cadre de processus administratifs, d’échanges de données ou de la gestion des données de référence.
+Testez cette nouvelle fonction afin de mieux structurer et documenter vos correspondances entre les listes de codes. Il est désormais possible de créer, de modifier et de gérer les tables de correspondance directement sur la plateforme I14Y, que ce soit depuis l’interface utilisateur ou depuis l’API. Vous trouverez la description, avec le détail de toutes les étapes, dans [le manuel I14Y sur le site](https://i14y-ch.github.io/handbook/de/publikation/mappingtable/).
+
+## Intégration automatisée des métadonnées: Bâle‑Ville a développé un connecteur technique
+*21.05.2026*
+
+{{< figure src="/handbook/img/news/connector.png" alt="Der Kanton Basel‑Stadt entwickelt technischen Connector" width="125px" class="float-left img-news-thumb" >}}
+
+Comment publier les métadonnées sur la plateforme I14Y de manière plus efficace tout en réduisant les étapes manuelles? Le Data Competence Center (DCC) de l’Office statistique du canton de Bâle-Ville travaille à la mise au point d’un connecteur générique permettant le transfert et la synchronisation automatisés de métadonnées issues de jeux de données existants vers la plateforme d’interopérabilité.
+
+L’élaboration du connecteur est en cours, mais on voit déjà vers quoi il tend: des interfaces standardisées, des règles de mapping configurables et une transformation conforme à la norme DCAT-AP-CH permettront de créer, de mettre à jour et de supprimer automatiquement des métadonnées. Cette approche réduit non seulement les étapes manuelles, elle améliore aussi la qualité des données et renforce la durabilité de l’architecture des données.
+
+En contact permanent avec le canton de Bâle-Ville, nous vous informerons prochainement sur les premières expériences concrètes issues de la mise en production.
+
+## Hackathon GovTech 2026: relevez notre défi
+*21.05.2026*
+
+Deux jours à fond, des idées à foison – et peut-être même un prototype: le hackathon GovTech aura lieu les 28 et 29 mai 2026. Organisé par la Chancellerie fédérale, il se déroulera dans les locaux de l’Office fédéral de l’informatique et de la télécommunication à Zollikofen.
+
+Le défi posé par l’équipe I14Y consistera à résoudre le problème suivant: différents jeux de données décrivent parfois la même chose, mais sans utiliser les mêmes termes. Par exemple, un jeu de données indique «actif», tandis qu’un autre utilise le terme «en cours». On a beau exprimer une seule et même information, cela ne colle pas sur le plan technique. Nous recherchons des solutions pragmatiques capables de détecter automatiquement de telles différences, voire de les résoudre, par exemple en créant un tableau de correspondance.
+
+Venez chercher l’inspiration et partager des idées novatrices et des expériences passionnantes.
+
+## Réutilisation de concepts externes
+
+{{< figure src="/handbook/img/news/wiederverwendung-externe-konzepte.png" alt="Wiederverwendung von externen Konzepten" width="125px" class="float-left img-news-thumb" >}}
+
+Le canton de Bâle-Campagne publie sur la plateforme d’interopérabilité [ les descriptifs de ses données ouvertes](https://www.i14y.admin.ch/fr/catalog/all?publisher=CH_KT_BL&types=Dataset). Plutôt que de se limiter à de simples entrées de catalogue, l’équipe de Liestal a complété les descriptifs avec les structures de données correspondantes. En outre, elle a directement associé, autant que possible, les éléments de données qu’elles contiennent avec les concepts sous-jacents, tels qu’ils apparaissent sur la plateforme I14Y.
+
+Ainsi, le canton de Bâle-Campagne définit par exemple que, pour identifier une commune dans un jeu de données, on recourt au numéro de commune attribué par l’Office fédéral de la statistique. Ou encore que, dans le domaine des finances communales, on s’appuie sur les concepts utilisés par l’Administration fédérale des finances.
+
+Le canton de Bâle-Campagne mise ainsi résolument sur la réutilisation des concepts standard existants, contribuant de manière concrète à l’harmonisation des données administratives entre les autorités. [Le code du script de moissonnage de données sur GitHub](https://github.com/I14Y-ch/harvester_BL) montre le fonctionnement du processus automatisé de publication des descriptifs.
+
 ## Utiliser un langage commun, c’est simplifier les processus
 *20.02.2026*
 
