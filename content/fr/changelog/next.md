@@ -9,18 +9,24 @@ draft: true
 notification: false
 ---
 
-La prochaine version d'I14Y est prévue pour la soirée du 27 mai 2026. Elle comprend les adaptations et les extensions décrites ci-dessous. Les organisations partenaires d'I14Y disposant d'un accès correspondant peuvent tester immédiatement le logiciel mis à jour sur l'[environnement de recette d'I14Y](https://input.i14y-a.admin.ch). Veuillez contacter l'Unité d'interopérabilité si vous n'avez pas encore accès à cet environnement utilisé pour les tests logiciels.
+La prochaine version d'I14Y est prévue en début de soirée le 17 juin 2026. Elle comprend les adaptations et extensions décrites ci-dessous. Les organisations partenaires d'I14Y disposant de l'accès approprié peuvent tester immédiatement la version mise à jour sur l'[environnement de recette d'I14Y](https://input.i14y-a.admin.ch). Veuillez contacter l'Unité d'interopérabilité si vous n'avez pas encore accès à cet environnement utilisé pour les tests logiciels.
 
-Veuillez noter que la date de mise en production peut être repoussée à court terme en cas de problème. Il est également possible que certaines fonctionnalités soient retirées de cette version et activées ultérieurement. Pour toute question ou tout problème concernant cette version, veuillez vous adresser à l'Unité d'interopérabilité ([i14y@bfs.admin.ch](mailto:i14y@bfs.admin.ch)).
+Veuillez noter que la date de mise en production peut être repoussée à court terme en cas de problème. Certaines fonctionnalités peuvent également être retirées de cette version et activées ultérieurement. Pour toute question ou tout problème lié à cette version, veuillez contacter le Centre de compétences Gestion des données ([i14y@bfs.admin.ch](mailto:i14y@bfs.admin.ch)).
 
-**Le type de création est désormais visible publiquement :** L'interface utilisateur publique affiche désormais la date de création, la date de dernière modification et le type de création d'une entrée (manuelle ou automatisée). Ce champ a été introduit lors de la dernière version.
+**Open source :** Le code source d'I14Y est désormais publié dans un dépôt public sur GitHub. Ce nouveau dépôt contient l'état actuel du logiciel I14Y et est accessible au public.
 
-**Type de création dans l'espace admin :** L'espace admin affiche désormais un avertissement lorsqu'une entrée a été créée automatiquement. Cela permet d'éviter des modifications manuelles accidentelles d'entrées régulièrement écrasées par des processus automatisés.
+**Logo d'organisation :** L'équipe I14Y peut désormais enregistrer un logo ou une autre image (par exemple la photo d'un bâtiment) pour chaque organisation et l'associer à cette organisation. Cette amélioration a été développée dans le cadre des travaux sur la nouvelle version d'opendata.swiss et sera également utilisée pour la future plateforme metadata.swiss. Veuillez [contacter l'équipe I14Y](mailto:i14y@bfs.admin.ch) si vous souhaitez fournir une image ou remplacer une image existante.
 
-**Réutilisation des concepts :** La page de détail d'un concept indique désormais combien de fois ce concept est utilisé dans des structures de données, avec des liens vers les jeux de données concernés. Cette valeur apparaît aussi dans un chip sur la page du catalogue.
+**API pour les organisations :** Les informations de base sur les organisations enregistrées peuvent désormais être récupérées via l'API Partner et l'API Public. Les liens vers les logos des organisations sont également disponibles via ces interfaces.
 
-**URI officielles I14Y :** I14Y fournit désormais des URI stables pour les classes, attributs et associations. Un accès machine à ces URI redirige vers l'objet de données liées, tandis qu'un accès via navigateur redirige vers la page correspondante dans I14Y.
+**Meilleure vue d'ensemble pour les fournisseurs de données :** La page d'accueil de la zone interne d'I14Y a été améliorée. Dans la colonne Mes données, les entrées sont désormais affichées lorsque la personne connectée est renseignée comme personne de contact (suppléante) ou comme propriétaire des données. Les utilisatrices et utilisateurs peuvent ainsi accéder plus rapidement aux entrées qui les concernent.
 
-**Petites améliorations UX**
+**Premier identifiant stable :** I14Y permet d'enregistrer plusieurs identifiants. Le premier identifiant d'une entrée relative à un jeu de données, un concept, une table de mapping, une API ou une prestation administrative ne peut désormais plus être modifié une fois l'entrée publiée publiquement pour la première fois. Cela garantit la validité durable des permaliens publics.
+
+**Export des codelists filtrées :** Les entrées filtrées d'une codelist peuvent désormais être exportées directement depuis l'interface utilisateur.
+
+**Champs de date optionnels pour les concepts :** Les champs Valide à partir du et Valide jusqu'au sont désormais optionnels pour les concepts et les tables de mapping.
+
+**Personne de contact suppléante :** Le champ de la personne de contact suppléante est désormais optionnel. Il n'est plus possible d'y saisir la même personne que dans le champ de la personne de contact.
 
 **Corrections de bugs**
