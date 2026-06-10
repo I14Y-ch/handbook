@@ -77,8 +77,7 @@ Wir freuen uns auf innovative Ansätze, spannende Experimente und inspirierende 
 
 ## Wiederverwendung von externen Konzepten
 
-{{< figure src="/handbook/img/news/wiederverwendung-externe-konzepte.png" alt="Wiederverwendung von externen Konzepten
-" width="125px" class="float-left img-news-thumb" >}}
+{{< figure src="/handbook/img/news/wiederverwendung-externe-konzepte.png" alt="Wiederverwendung von externen Konzepten" width="125px" class="float-left img-news-thumb" >}}
 
 Der Kanton Basel-Landschaft veröffentlicht auf der Interoperabilitätsplattform I14Y die [Beschreibungen zu seinen offenen Daten](https://www.i14y.admin.ch/de/catalog/all?publisher=CH_KT_BL&types=Dataset). Statt sich auf einfache Katalogeinträge zu beschränken, hat das Team aus Liestal die Beschreibungen mit den jeweiligen Datenstrukturen ergänzt. Und mehr noch: Die darin enthaltenen Datenelemente wurden – wo immer möglich – direkt mit den zugrunde liegenden Konzepten verknüpft, wie sie auf I14Y zu finden sind.
 
