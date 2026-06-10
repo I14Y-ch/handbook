@@ -5,7 +5,7 @@ slug: prochaine-version
 weight: 10
 type: docs
 keywords: [I14Y, Plateforme d'interopérabilité I14Y, IOP, Changelog, Releases, Versions, Développement logiciel]
-draft: true
+draft: false
 notification: false
 ---
 
