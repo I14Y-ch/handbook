@@ -11,19 +11,19 @@ type: docs
 ## Événements à venir
 
 {{< event-card 
-  title="Formation continue Gestion des données et Open Data"
-  location="Lausanne"
-  date="2 et 3 juin 2026"
-  link="https://execed.unil.ch/formation-continue/gestion-des-donnees-publiques"
->}}
-{{< /event-card >}}
-
-{{< event-card 
   title="Comité de pilotage I14Y"
   location="Neuchâtel"
   date="23 juin 2026"
 >}}
 Réunion du comité de pilotage I14Y à Neuchâtel. Le comité de pilotage comprend les plus grandes organisations qui utilisent activement la plateforme d'interopérabilité. Contactez le [Service d'interopérabilité](mailto:i14y@bfs.admin.ch) pour plus d'informations.
+{{< /event-card >}}
+
+{{< event-card 
+  title="Rencontre informelle des Local Data Stewards"
+  location="OFSP, Campus Liebefeld, Köniz"
+  date="7 juillet 2026, de 13 h à 15 h"
+>}}
+Vous souhaitez présenter l'un de vos projets? Vous souhaitez discuter d'une question qui vous occupe dans votre travail pratique d'inventaire et d'harmonisation des données? Vous souhaitez nouer des contacts avec des personnes ayant des tâches similaires? La rencontre informelle des Local Data Stewards offre cette opportunité. Contactez le [Service d'interopérabilité](mailto:i14y@bfs.admin.ch) si vous souhaitez y participer.
 {{< /event-card >}}
 
 {{< event-card 
@@ -75,6 +75,9 @@ Réunion du comité de pilotage I14Y à Neuchâtel. Le comité de pilotage compr
 - **20.01.2026** – Réunion informelle des Local Data Stewards sur le Campus Liebefeld
 - **03.03.2026** – Comitée de pilotage (Berne)
 - **11.03.2026** – [Swiss EGOVERNMENT Forum](https://e-governmentforum.ch) (Berne)
+
+### Q2
+- **02. – 03.06.2026** – [Formation continue Gestion des données et Open Data](https://execed.unil.ch/formation-continue/gestion-des-donnees-publiques) (Lausanne)
 
 </details>
 

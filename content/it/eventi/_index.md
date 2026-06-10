@@ -11,19 +11,19 @@ type: docs
 ## Eventi futuri
 
 {{< event-card 
-  title="Formazione continua Gestione dei dati e Open Data (in francese)"
-  location="Losanna"
-  date="2 e 3 giugno 2026"
-  link="https://execed.unil.ch/formation-continue/gestion-des-donnees-publiques"
->}}
-{{< /event-card >}}
-
-{{< event-card 
   title="Comitato direttivo I14Y"
   location="Neuchâtel"
   date="23 giugno 2026"
 >}}
 Riunione del comitato direttivo I14Y a Neuchâtel. Il comitato direttivo comprende le organizzazioni più grandi che utilizzano attivamente la piattaforma di interoperabilità. Contattare l'[Unità Interoperabilità](mailto:i14y@bfs.admin.ch) per ulteriori informazioni.
+{{< /event-card >}}
+
+{{< event-card 
+  title="Incontro informale dei Local Data Stewards"
+  location="UFSP, Campus Liebefeld, Köniz"
+  date="7 luglio 2026, dalle 13 alle 15"
+>}}
+Desiderate presentare uno dei vostri progetti? Volete discutere una questione che vi sta a cuore nel vostro lavoro pratico di inventariazione e armonizzazione dei dati? Volete entrare in contatto con persone che hanno compiti simili? L'incontro informale dei Local Data Stewards offre questa opportunità. Contattare l'[Unità Interoperabilità](mailto:i14y@bfs.admin.ch) se desiderate partecipare.
 {{< /event-card >}}
 
 {{< event-card 
@@ -75,6 +75,9 @@ Riunione del comitato direttivo I14Y a Neuchâtel. Il comitato direttivo compren
 - **20.01.2026** – Incontro informale dei Local Data Stewards al Campus Liebefeld
 - **03.03.2026** – Comitato direttivo (Berna)
 - **11.03.2026** – [Swiss EGOVERNMENT Forum](https://e-governmentforum.ch) (Berna)
+
+### Q2
+- **02. – 03.06.2026** – [Formazione continua Gestione dei dati e Open Data](https://execed.unil.ch/formation-continue/gestion-des-donnees-publiques) (Losanna)
 
 </details>
 

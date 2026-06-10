@@ -11,11 +11,11 @@ type: docs
 ## Kommende Veranstaltungen
 
 {{< event-card 
-  title="Weiterbildung Datenmanagement und Open Data (auf Französisch)"
-  location="Lausanne"
-  date="2. und 3. Juni 2026"
-  link="https://execed.unil.ch/formation-continue/gestion-des-donnees-publiques"
+  title="Steuerungsausschuss I14Y"
+  location="Neuchâtel"
+  date="23. Juni 2026"
 >}}
+Treffen des Steuerungsausschusses I14Y in Neuchâtel. Im Steuerungsausschuss sind die grössten Organisationen vertreten, die die Interoperabilitätsplattform aktiv nutzen. Kontaktieren Sie das [Kompetenzzentrum Datenbewirtschaftung](mailto:i14y@bfs.admin.ch) für weitere Informationen.
 {{< /event-card >}}
 
 {{< event-card 
@@ -24,14 +24,6 @@ type: docs
   date="7. Juli 2026, 13 bis 15 Uhr"
 >}}
 Möchten Sie eines Ihrer Projekte demonstrieren? Würden Sie gerne eine Frage diskutieren, die Sie bei der praktischen Arbeit zur Inventarisierung und Harmonisierung von Daten beschäftigt? Möchten Sie Kontakte zu Leuten mit ähnlichen Aufgaben knüpfen? Das informelle Treffen der Local Data Stewards bietet die Gelegenheit dazu. Kontaktieren Sie das [Kompetenzzentrum Datenbewirtschaftung](mailto:i14y@bfs.admin.ch), falls Sie gerne am Treffen teilnehmen möchten. 
-{{< /event-card >}}
-
-{{< event-card 
-  title="Steuerungsausschuss I14Y"
-  location="Neuchâtel"
-  date="23. Juni 2026"
->}}
-Treffen des Steuerungsausschusses I14Y in Neuchâtel. Im Steuerungsausschuss sind die grössten Organisationen vertreten, die die Interoperabilitätsplattform aktiv nutzen. Kontaktieren Sie das [Kompetenzzentrum Datenbewirtschaftung](mailto:i14y@bfs.admin.ch) für weitere Informationen.
 {{< /event-card >}}
 
 {{< event-card 
@@ -84,6 +76,9 @@ Treffen des Steuerungsausschusses I14Y in Neuchâtel. Im Steuerungsausschuss sin
 - **20.01.2026** – Informelles Treffen der Local Data Stewards auf dem Campus Liebefeld
 - **03.03.2026** – Steuerungsausschuss (Bern)
 - **11.03.2026** – [Swiss EGOVERNMENT Forum](https://e-governmentforum.ch) (Bern)
+
+### Q2
+- **02. – 03.06.2026** – [Weiterbildung Datenmanagement und Open Data](https://execed.unil.ch/formation-continue/gestion-des-donnees-publiques) (Lausanne)
 
 </details>
 
