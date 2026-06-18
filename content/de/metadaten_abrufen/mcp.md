@@ -5,7 +5,6 @@ weight: 30
 type: docs
 translationKey: mcp
 keywords: [I14Y, Interoperabilitätsplattform I14Y, MCP, MCP-Server, Model Context Protocol, KI, Chatbot, Chatbots, Interface]
-draft: true
 ---
 
 I14Y bietet einen öffentlichen Zugang über das _Model Context Protocol (MCP)_ an. Dadurch können KI-Assistenten und Anwendungen strukturiert auf die Metadaten der Interoperabilitätsplattform zugreifen. Informationen werden damit direkt aus einer verlässlichen Quelle bezogen, was die Qualität der Antworten erhöht und das Risiko von Fehlinterpretationen reduziert. Oder anders gesagt: Dank dem MCP-Server "halluziniert" der Chatbot weniger oft.
