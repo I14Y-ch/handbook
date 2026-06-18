@@ -13,6 +13,24 @@ __IT:__ Questa pagina è disponibile solo in inglese.
 
 The I14Y interoperability platform is under continuous development. New features are added with each release. Bugs are also fixed. The most important changes are briefly documented below. For detailed information on the development of the platform, please contact the [I14Y team](mailto:i14y@bfs.admin.ch). 
 
+## Release June 17 2026
+
+**Organisation logo:** The I14Y team can now store a logo or another image (for example, a photo of a building) for each organisation and link it to that organisation. This enhancement was developed as part of the work on the new version of opendata.swiss and will also be used for the future metadata.swiss platform. Please [contact the I14Y team](mailto:i14y@bfs.admin.ch) if you would like to provide an image or replace an existing one.
+
+**API for organisations:** Basic information on recorded organisations can now be retrieved through both the Partner API and the Public API. Links to organisation logos are also available through these interfaces.
+
+**Better overview for data providers:** The start page of the internal I14Y area has been improved. In the My Data column, entries are now shown if the signed-in person is listed as (deputy) contact person or as data owner. This allows users to access the entries relevant to them more quickly.
+
+**Stable first identifier:** I14Y allows multiple identifiers to be stored. The first identifier of an entry for a dataset, concept, mapping table, API, or public service can no longer be changed once the entry has been published publicly for the first time. This ensures that public permalinks remain permanently valid.
+
+**Export of filtered codelists:** Filtered entries of a codelist can now be exported directly from the user interface.
+
+**Optional date fields for concepts:** The Valid from and Valid to fields are now optional for concepts and mapping tables.
+
+**Deputy contact person:** The deputy contact person field is now optional. It is no longer possible to enter the same person as in the contact person field.
+
+**Bug fixes**
+
 ## Release May 27 2026
 
 **Creation type is now visible publicly:** The public user interface now shows when an entry was created and last modified, as well as whether it was created manually or automatically. This field was introduced in the last release.

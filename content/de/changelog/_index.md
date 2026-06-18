@@ -12,6 +12,23 @@ __DE:__ Diese Seite liegt teilweise in englischer Sprache vor.
 
 Die Interoperabilitätsplattform I14Y wird kontinuierlich weiterentwickelt. Mit jedem Release werden neue Funktionen hinzugefügt und Fehler behoben. Die wichtigsten Änderungen sind unten kurz dokumentiert. Für detaillierte Informationen zur Weiterentwicklung der Plattform wenden Sie sich bitte an das [I14Y-Team](mailto:i14y@bfs.admin.ch).
 
+## Release vom 17. Juni 2026
+
+**Organisationslogo:** Das I14Y-Team kann für jede Organisation neu ein Logo oder ein anderes Bild (z.B. ein Foto des Gebäudes) hinterlegen und dieses der Organisation zuordnen. Diese Erweiterung entstand im Rahmen der Arbeiten an der neuen Version von opendata.swiss, und sie wird auch für die zukünftige Plattform metadata.swiss genutzt. Bitte [kontaktieren Sie das I14Y-Team](mailto:i14y@bfs.admin.ch), falls Sie ein Bild zur Verfügung stellen oder ein bestehendes Bild ersetzen möchten.
+
+**API für Organisationen:** Die grundlegenden Informationen zu den erfassten Organisationen lassen sich neu über die Partner- und die öffentliche API abrufen. Auch die Links zu den Organisationslogos sind über diese Schnittstellen zugänglich.
+
+**Besserer Überblick für Datenanbietende:** Die Startseite des internen Bereichs von I14Y wurde überarbeitet. In der Spalte «Meine Daten» werden nun Einträge angezeigt, bei denen die angemeldete Person als (stellvertretende) Kontaktperson oder als Dateneigentümerin bzw. Dateneigentümer eingetragen ist. Damit können die Nutzerinnen und Nutzer sehr schnell auf die für sie relevanten Einträge zugreifen. 
+
+**Stabiler erster Identifikator:** I14Y erlaubt es mehrere Identifikatoren zu hinterlegen. Der erste Identifikator des Eintrags zu einem Datensatz, einem Konzept, einer Mapping-Tabelle, einer API oder einer Behördenleistung kann neu nicht mehr abgeändert werden, sobald der Eintrag erstmals öffentlich publiziert wurde. Damit wird sichergestellt, dass öffentliche Permalinks dauerhaft gültig bleiben.
+
+**Export gefilterter Codelisten:** Gefilterte Einträge einer Codeliste können neu direkt aus der Benutzeroberfläche exportiert werden.
+
+**Optionale Datumsfelder bei Konzepten:** Die Felder «Gültig ab» und «Gültig bis» sind bei Konzepten und Mapping-Tabellen neu optional.
+
+**Stellvertretende Kontaktperson:** Das Feld für die stellvertretende Kontaktperson ist neu optional. Es ist nicht mehr möglich darin dieselbe Person einzutragen wie im im Feld Kontaktperson.
+
+**Korrektur von Fehlern**
 ## Release vom 27. Mai 2026
 
 **Erfassungsart wird öffentlich angezeigt:** Auf der öffentlich zugänglichen Benutzeroberfläche werden neu das Erstellungs- und Änderungsdatum sowie die Erfassungsart angezeigt. Dies ermöglicht es, automatisiert erstellte Einträge von manuell gepflegten zu unterscheiden. Das entsprechende Feld wurde mit dem letzten Release eingeführt.
