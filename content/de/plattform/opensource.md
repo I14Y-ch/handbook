@@ -5,7 +5,7 @@ translationKey: opensource
 weight: 40
 type: docs
 keywords: [I14Y, Interoperabilitätsplattform I14Y, Open Source Software, OSS]
-draft: false
+draft: true
 ---
 
 Der Quellcode der Interoperabilitätsplattform I14Y steht als _Open Source Software_ zur Verfügung. Interessierte können den Programmcode somit prüfen. Sie können ihn auch ausführen und  eine eigene Instanz der Plattform betreiben. Sie können den Code an ihre Anforderungen anpassen oder einzelne Teile davon in ihrer eigenen Software verwenden. 
