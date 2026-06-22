@@ -62,6 +62,9 @@ jobs:
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
       
+      - name: Install Node.js dependencies for URL Mappings
+        run: npm install
+      
       - name: Generate URL Mappings
         env:
           HUGO_BASEURL: ${{ steps.pages.outputs.base_url }}
