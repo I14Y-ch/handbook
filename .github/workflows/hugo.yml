@@ -63,7 +63,7 @@ jobs:
             --baseURL "${{ steps.pages.outputs.base_url }}/"
       
       - name: Install Node.js dependencies for URL Mappings
-        run: npm install
+        run: npm install --legacy-peer-deps
       
       - name: Generate URL Mappings
         env:
