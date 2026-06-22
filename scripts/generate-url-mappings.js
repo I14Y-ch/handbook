@@ -37,6 +37,50 @@ function extractFrontmatter(filePath) {
 }
 
 /**
+ * Extrahiert alle Überschriften aus Markdown-Inhalt
+ * Generiert Hugo-konforme Anker
+ */
+function extractHeadings(filePath) {
+  try {
+    const content = fs.readFileSync(filePath, 'utf-8');
+    
+    // Nur Content nach Frontmatter verarbeiten
+    const contentMatch = content.match(/^---\n[\s\S]*?\n---\n([\s\S]*)/);
+    if (!contentMatch) return [];
+    
+    const bodyContent = contentMatch[1];
+    const headings = [];
+    
+    // Regex für Markdown-Überschriften (## H2, ### H3, etc.)
+    const headingRegex = /^(#{2,6})\s+(.+?)(?:\s*{[^}]*})?$/gm;
+    let match;
+    
+    while ((match = headingRegex.exec(bodyContent)) !== null) {
+      const level = match[1].length;
+      const text = match[2].trim();
+      
+      // Anker generieren: Kleinbuchstaben, Bindestriche, keine Sonderzeichen
+      const anchor = text
+        .toLowerCase()
+        .replace(/[^\w\s-äöüß]/g, '') // Entfernt Sonderzeichen, behält Umlaute
+        .replace(/\s+/g, '-') // Leerzeichen durch Bindestriche
+        .replace(/-+/g, '-'); // Mehrfache Bindestriche entfernen
+      
+      headings.push({
+        level,
+        text,
+        anchor
+      });
+    }
+    
+    return headings;
+  } catch (error) {
+    console.error(`Fehler beim Extrahieren von Überschriften aus ${filePath}:`, error.message);
+    return [];
+  }
+}
+
+/**
  * Rekursiv alle Markdown-Dateien durchsuchen
  */
 function findMarkdownFiles(dir, language) {
@@ -119,7 +163,8 @@ function generateMappings() {
         mappings[translationKey] = {
           title: {},
           slug: {},
-          urls: {}
+          urls: {},
+          sections: {}
         };
       }
 
@@ -127,6 +172,26 @@ function generateMappings() {
       mappings[translationKey].title[language] = frontmatter.title || '';
       mappings[translationKey].slug[language] = frontmatter.slug || '';
       mappings[translationKey].urls[language] = url;
+
+      // Überschriften/Abschnitte extrahieren
+      const headings = extractHeadings(filePath);
+      if (headings.length > 0) {
+        if (!mappings[translationKey].sections[language]) {
+          mappings[translationKey].sections[language] = {};
+        }
+        
+        for (const heading of headings) {
+          // Nur H2 und H3 als Abschnitte
+          if (heading.level <= 3) {
+            const sectionUrl = `${url}#${heading.anchor}`;
+            mappings[translationKey].sections[language][heading.anchor] = {
+              title: heading.text,
+              level: heading.level,
+              url: sectionUrl
+            };
+          }
+        }
+      }
 
       console.log(`  ✓ ${translationKey} (${language})`);
     }
