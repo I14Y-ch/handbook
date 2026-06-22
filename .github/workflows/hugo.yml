@@ -60,7 +60,14 @@ jobs:
           hugo \
             --gc \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"          
+            --baseURL "${{ steps.pages.outputs.base_url }}/"
+      
+      - name: Generate URL Mappings
+        env:
+          HUGO_BASEURL: ${{ steps.pages.outputs.base_url }}
+        run: |
+          npm run generate:url-mappings
+          
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
