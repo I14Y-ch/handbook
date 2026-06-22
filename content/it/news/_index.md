@@ -13,6 +13,82 @@ Desiderate essere informati sulle nuove funzionalità e offerte della piattaform
 
 {{</alert>}}
 
+## Raccogliere i metadati: ma come? La nuova guida I14Y contiene valide istruzioni
+*21.05.2026*
+
+Come devono essere descritti gli oggetti di dati sulla piattaforma I14Y affinché siano comprensibili e riutilizzabili da altri?  La nuova guida alla pubblicazione di metadati sulla piattaforma di interoperabilità spiega come procedere, adottando un approccio orientato alla pratica: quali informazioni devono imperativamente essere registrate? Come si crea una documentazione coerente e riutilizzabile? E come si fa a mantenere i metadati aggiornati, sia in ambito amministrativo che al di fuori?
+
+L’inserimento e la gestione dei metadati relativi a dataset, interfacce e servizi delle autorità nell’ambito dell’Amministrazione federale sono previsti dalla legge. La guida aiuta i detentori e gli amministratori dei dati nonché i responsabili della gestione dei dati sul piano federale ad attuare tali linee guida con efficienza e coerenza, ma rappresenta un valore aggiunto anche per i servizi cantonali e comunali, come pure per altre organizzazioni interessate. Molte delle fasi descritte – come la documentazione su strutture di dati, concetti o nomenclature – sono utili, indipendentemente dal quadro normativo, per rendere i dati comprensibili, interoperabili e utilizzabili nel lungo periodo.
+
+Link alla pubblicazione [Guida alla pubblicazione dei metadati sulla piattaforma di interoperabilità – Attuazione dell’articolo 14 dell’LMeCA | Pubblicazione](https://www.bfs.admin.ch/bfs/de/home/nadb/nadb.assetdetail.36598858.html) (disponibile in tedesco) 
+
+## Nuovi dataset sanitari per la ricerca sulla piattaforma I14Y
+*21.05.2026*
+
+{{< figure src="/handbook/img/news/zusammenarbeit-sphn.png" alt="Das Swiss Personalized Health Network und I14Y arbeiten zusammen" width="125px" class="float-left img-news-thumb" >}}
+
+Lo Swiss Personalized Health Network (SPHN) e la piattaforma I14Y collaborano per migliorare la reperibilità e l’interoperabilità dei dataset sanitari in Svizzera. Le voci del catalogo dei metadati SPHN sono ora state integrate nella piattaforma I14Y: i dataset vengono raccolti nel catalogo SPHN (FAIR Data Point*, RDF secondo HealthDCAT-AP) e successivamente mappati secondo DCAT-AP CH. Ciò migliora la reperibilità e l’interoperabilità dei dati sanitari, in piena conformità con i principi FAIR. I metadati possono essere esportati come file JSON e integrati in altri sistemi.
+Per la realizzazione, i team di SPHN e I14Y hanno collaborato strettamente tramite GitHub. Il risultato di questa collaborazione è un’integrazione produttiva e automatizzata.
+[Maggiori informazioni sulla collaborazione (in inglese)](https://sphn.ch/2026/04/23/sphn-and-federal-statistical-office-strengthen-discoverability-and-interoperability-of-health-research-data/)
+
+[Link ai dataset SPHN sulla piattaforma I14Y](https://www.i14y.admin.ch/it/catalog/all?publisher=CH_SPHN)
+
+[Link al catalogo SPHN](https://fdp.dcc.sib.swiss/)
+
+*[Maggiori informazioni sui principi FAIR](https://i14y-ch.github.io/handbook/de/glossar/#fair-prinzipien)
+
+## Caratteristiche delle persone fisiche come chiave per un e-government efficiente
+*21.05.2026*
+
+{{< figure src="/handbook/img/news/merkmalsauspraegung.jpg" alt="Einheitliche Merkmale der natürlichen Personen als Schlüssel für effizientes E-Governmen" width="125px" class="float-left img-news-thumb" >}}
+
+Disporre di caratteristiche standardizzate per le persone fisiche costituisce la base di ciò che si prefiggono di ottenere molte iniziative in materia di dati, ovvero compatibilità, riutilizzabilità ed efficienza. E rappresenta un elemento fondamentale nell’attuazione del principio «once-only».
+
+Già nel 2006, con la legge sull’armonizzazione dei registri (LArRa) relativa ai registri degli abitanti e ad altri registri ufficiali delle persone, sono state gettate le basi per uniformare definizioni e descrizioni delle caratteristiche dei dati personali. Queste sono riportate nel [Catalogo ufficiale delle caratteristiche](https://www.bfs.admin.ch/bfs/it/home/registri/registro-persone/armonizzazione-registri/nomenclature.assetdetail.24565578.html).
+
+Ora tutte le caratteristiche personali sono descritte anche come concetti sulla piattaforma I14Y e sono accessibili al pubblico. Ciò permette di sapere in modo trasparente come sono definiti gli attributi demografici principali, quali il nome, la data di nascita o il Comune di domicilio presso le amministrazioni pubbliche. Queste definizioni possono essere utilizzate direttamente per le proprie rilevazioni e applicazioni specialistiche.
+
+Nel corso dell’anno verrà visualizzata la struttura dei dati di base, rendendo così visibili anche le variabili utilizzate sulla piattaforma I14Y («used variables»), rivelando così, ad esempio, una panoramica dello standard eCH 0099: fornitura dei dati degli abitanti alla statistica.
+
+[Raccolta delle descrizioni delle caratteristiche su I14Y](https://www.i14y.admin.ch/it/catalog/concepts?query=merkmale)
+
+## Novità su I14Y: creare tabelle di mappatura
+*21.05.2026*
+
+Le tabelle di mappatura rendono le relazioni tra due elenchi di codici analoghi trasparenti e leggibili elettronicamente. Ciò risulta utile, ad esempio, quando è necessario riunire, confrontare o armonizzare dati provenienti da sistemi diversi, ad esempio nei processi amministrativi, nello scambio di dati o nella gestione dei dati di riferimento.
+
+Vi invitiamo a provare questa nuova funzione in modo che in futuro possiate mantenere le vostre attribuzioni tra elenchi di codici più strutturate e meglio documentate. Le tabelle di mappatura possono ora essere create, elaborate e gestite direttamente sulla piattaforma I14Y, sia tramite l’interfaccia utente grafica che tramite API; la descrizione dettagliata con tutte le fasi è disponibile nel [manuale I14Y](https://i14y-ch.github.io/handbook/de/publikation/mappingtable/) (disponibile in tedesco)..
+
+## Integrazione automatizzata di metadati: Basilea–la città sviluppa un connettore tecnico
+*21.05.2026*
+
+{{< figure src="/handbook/img/news/connector.png" alt="Der Kanton Basel‑Stadt entwickelt technischen Connector" width="125px" class="float-left img-news-thumb" >}}
+
+Come sarà possibile in futuro pubblicare i metadati su I14Y in modo più efficiente e con un minore dispendio di lavoro manuale? Il DCC Data Competence Center dell’Ufficio di statistica di Basilea Città sta attualmente lavorando a un connettore generico che consenta il trasferimento e la sincronizzazione automatizzati dei metadati dai cataloghi di dati esistenti alla piattaforma di interoperabilità.
+
+L’approccio è ancora in fase di sviluppo, ma mostra già in quale direzione ci si sta dirigendo: grazie a interfacce standardizzate, regole di mappatura configurabili e una trasformazione conforme allo standard DCAT-AP-CH, in futuro sarà possibile creare, aggiornare o cancellare i metadati in modo automatizzato. Ciò ridurrà il lavoro manuale, migliorerà la qualità dei dati e rafforzerà la durabilità dell’architettura dei dati.
+
+Rimarremo in contatto con Basilea Città e riferiremo in un secondo momento sulle esperienze concrete raccolte durante la fase produttiva.
+
+## La nostra sfida in occasione dell’Hackathon GovTech 2026
+*21.05.2026*
+
+Due giorni, tante idee – e forse anche un prototipo: il 28 e 29 maggio si terrà l’Hackathon GovTech del 2026. Organizzato dalla Cancelleria federale, si svolgerà presso la sede dell’Ufficio federale dell’informatica e della telecomunicazione a Zollikofen.
+
+Vi parteciperà anche il team I14Y, lanciando una sfida che prevede di risolvere il seguente problema: spesso diversi dataset descrivono la stessa cosa, ma utilizzando termini diversi. Ad esempio, in un dataset è indicato «attivo», nell'altro «in corso». Il significato è uguale, ma dal punto di vista tecnico non è la stessa cosa. Si cercano soluzioni intelligenti in grado di individuare automaticamente tali differenze e magari anche di risolverle, ad esempio creando una tabella di mappatura.
+
+Non vediamo l’ora di scoprire approcci innovativi ed esperimenti e incontri stimolanti.
+
+## Riutilizzo di concetti esterni
+
+{{< figure src="/handbook/img/news/wiederverwendung-externe-konzepte.png" alt="Wiederverwendung von externen Konzepten" width="125px" class="float-left img-news-thumb" >}}
+
+Il Cantone di Basilea Campagna pubblica sulla piattaforma di interoperabilità I14Y le descrizion [relative ai propri dati aperti](https://www.i14y.admin.ch/it/catalog/all?publisher=CH_KT_BL&types=Dataset). Anziché limitarsi a semplici voci di catalogo, il team di Liestal ha integrato le descrizioni con le relative strutture di dati. Ma non solo: gli elementi di dati in esse contenuti sono stati, ove possibile, collegati direttamente ai concetti di base presenti su I14Y.
+
+Il Cantone di Basilea Campagna documenta poi che per identificare un Comune in un dataset viene utilizzato il numero di Comune assegnato dall’Ufficio federale di statistica. Oppure che, in materia di finanze comunali, ci si basi sui concetti dell’Amministrazione federale delle finanze.
+
+Il Cantone di Basilea Campagna punta così sul riutilizzo coerente dei modelli standard esistenti, offrendo un contributo concreto all'armonizzazione dei dati pubblici tra le autorità. Il funzionamento del processo automatizzato di pubblicazione delle descrizioni è illustrato nel codice dello [script di harvesting su GitHub](https://github.com/I14Y-ch/harvester_BL), all’indirizzo.
+
 ## Un linguaggio comune rende tutto più facile
 *20.02.2026*
 
