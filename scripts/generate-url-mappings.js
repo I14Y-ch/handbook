@@ -2,11 +2,12 @@
 
 const fs = require('fs');
 const path = require('path');
-const yaml = require('js-yaml');
 
 /**
  * Generiert eine Mapping-Datei mit translationKey -> URLs für alle Sprachversionen
  * Output: public/url-mappings.json und exports/url-mappings.json
+ * 
+ * HINWEIS: Keine externen Dependencies - alles mit Node.js Built-ins
  */
 
 const CONTENT_DIR = path.join(__dirname, '../content');
@@ -22,14 +23,42 @@ const LANG_PATHS = {
 };
 
 /**
- * Extrahiert Frontmatter aus Markdown-Datei
+ * Einfacher YAML Frontmatter Parser (ohne externe Dependencies)
+ * Parst nur die benötigten Felder: title, slug, translationKey
  */
-function extractFrontmatter(filePath) {
+function parseFrontmatter(filePath) {
   try {
     const content = fs.readFileSync(filePath, 'utf-8');
     const match = content.match(/^---\n([\s\S]*?)\n---/);
     if (!match) return null;
-    return yaml.load(match[1]);
+    
+    const frontmatter = {};
+    const lines = match[1].split('\n');
+    
+    for (const line of lines) {
+      // title: "..." oder title: ...
+      const titleMatch = line.match(/^title:\s*["']?(.+?)["']?\s*$/);
+      if (titleMatch) {
+        frontmatter.title = titleMatch[1].trim().replace(/^["']|["']$/g, '');
+        continue;
+      }
+      
+      // slug: ...
+      const slugMatch = line.match(/^slug:\s*["']?(.+?)["']?\s*$/);
+      if (slugMatch) {
+        frontmatter.slug = slugMatch[1].trim().replace(/^["']|["']$/g, '');
+        continue;
+      }
+      
+      // translationKey: ...
+      const keyMatch = line.match(/^translationKey:\s*["']?(.+?)["']?\s*$/);
+      if (keyMatch) {
+        frontmatter.translationKey = keyMatch[1].trim().replace(/^["']|["']$/g, '');
+        continue;
+      }
+    }
+    
+    return Object.keys(frontmatter).length > 0 ? frontmatter : null;
   } catch (error) {
     console.error(`Fehler beim Lesen von ${filePath}:`, error.message);
     return null;
@@ -147,7 +176,7 @@ function generateMappings() {
     const mdFiles = findMarkdownFiles(langDir, language);
 
     for (const filePath of mdFiles) {
-      const frontmatter = extractFrontmatter(filePath);
+      const frontmatter = parseFrontmatter(filePath);
       if (!frontmatter) continue;
 
       const translationKey = frontmatter.translationKey;

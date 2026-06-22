@@ -62,14 +62,11 @@ jobs:
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
       
-      - name: Install Node.js dependencies for URL Mappings
-        run: npm install --legacy-peer-deps
-      
       - name: Generate URL Mappings
         env:
           HUGO_BASEURL: ${{ steps.pages.outputs.base_url }}
         run: |
-          npm run generate:url-mappings
+          node scripts/generate-url-mappings.js
           
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
