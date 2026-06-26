@@ -13,6 +13,45 @@ Möchten Sie über neue Funktionen und Angebote auf der Interoperabilitätsplatt
 
 {{</alert>}}
 
+## Breaking Change auf der I14Y-API
+*26.06.2026*
+
+Am Abend des 8. Juli spielen wir eine neue Version der Interoperabilitätsplattform I14Y auf die Produktionsumgebung auf. Der Release enthält einen _Breaking Change_ der API. Die vorgesehene Änderung wurde im I14Y-Steuerungsausschuss vom 23. Juni 2026 bestätigt.
+
+Nutzen Sie die APIs von I14Y zum Lesen oder Schreiben von Konzepten oder Behördenleistungen? Dann sollten Sie jetzt aktiv werden: Prüfen Sie anhand der untenstehenden Informationen, ob Ihre Skripte auch in Zukunft noch funktionieren.
+
+Wichtigste Änderung im Überblick:
+
+- Das Feld `identifier` (String) wird bei Konzepten und Behördenleistungen entfernt.
+- Das Ersatzfeld `identifiers` (Array von Strings) wurde bereits eingeführt und kann schon heute verwendet werden.
+- Bis zum Release stehen beide Felder zur Verfügung; nach dem Release wird nur noch `identifiers` unterstützt.
+- Keinen Breaking Change gibt es bei Metadaten zu Datensätzen und elektronischen Schnittstellen (APIs) sowie bei den Mapping-Tabellen.
+
+### Aktuelles Übergangsmodell
+
+```json
+{
+  "identifier": "string",
+  "identifiers": [
+    "string"
+  ]
+}
+```
+
+### Modell ab dem 8. Juli
+
+```json
+{
+  "identifiers": [
+    "string"
+  ]
+}
+```
+
+Alle Skripte oder Integrationen, die Konzepte oder Behördenleistungen über das Feld `identifier` abrufen oder senden, müssen bis zu diesem Datum angepasst werden. Bitte stellen Sie sicher, dass alle betroffenen Integrationen möglichst rasch, aber zwingend vor dem Produktiv-Release angepasst werden. Bei Fragen oder Problemen steht das I14Y-Team gerne zur Verfügung. 
+
+**Hinweis:** Auf Ihrer Seite ist keine Datenmigration erforderlich. Unser Team hat die bestehenden Daten bereits migriert, indem der bisherige Wert aus `identifier` in den ersten Eintrag des Arrays `identifiers` übernommen wurde.
+
 ## Metadaten auf I14Y erfassen – aber wie? Der neue Leitfaden hilft weiter
 *21.05.2026*
 

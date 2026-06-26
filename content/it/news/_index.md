@@ -13,6 +13,45 @@ Desiderate essere informati sulle nuove funzionalità e offerte della piattaform
 
 {{</alert>}}
 
+## Breaking change dell’API I14Y
+*26.06.2026*
+
+La sera dell’8 luglio rilasceremo una nuova versione della piattaforma di interoperabilità I14Y nell’ambiente di produzione. La release contiene un _breaking change_ dell’API. La modifica prevista è stata approvata dal comitato direttivo I14Y il 23 giugno 2026.
+
+Utilizzate le API di I14Y per leggere o scrivere concetti o prestazioni delle autorità? In tal caso dovete agire subito: verificate, sulla base delle informazioni riportate qui sotto, se i vostri script continueranno a funzionare anche in futuro.
+
+Panoramica della modifica principale:
+
+- Il campo `identifier` (stringa) verrà rimosso per i concetti e le prestazioni delle autorità.
+- Il campo sostitutivo `identifiers` (array di stringhe) è già stato introdotto e può essere utilizzato fin da ora.
+- Fino al rilascio saranno disponibili entrambi i campi; dopo il rilascio sarà supportato solo `identifiers`.
+- Non vi è alcun breaking change per i metadati relativi ai set di dati e alle interfacce elettroniche (API), né per le tabelle di mapping.
+
+### Modello transitorio attuale
+
+```json
+{
+	"identifier": "string",
+	"identifiers": [
+		"string"
+	]
+}
+```
+
+### Modello dal 8 luglio
+
+```json
+{
+	"identifiers": [
+		"string"
+	]
+}
+```
+
+Tutti gli script o le integrazioni che recuperano o inviano concetti o prestazioni delle autorità tramite il campo `identifier` devono essere adeguati entro questa data. Vi preghiamo di assicurarvi che tutte le integrazioni interessate vengano adattate il prima possibile, ma obbligatoriamente prima del rilascio in produzione. In caso di domande o problemi, il team I14Y è a vostra disposizione.
+
+**Nota:** dal vostro lato non è necessaria alcuna migrazione dei dati. Il nostro team ha già migrato i dati esistenti trasferendo il precedente valore di `identifier` nella prima voce dell’array `identifiers`.
+
 ## Raccogliere i metadati: ma come? La nuova guida I14Y contiene valide istruzioni
 *21.05.2026*
 

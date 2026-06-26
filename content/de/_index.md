@@ -10,6 +10,12 @@ type: docs
 
 ![Szene aus dem Erklärvideo zur Interoperabilitätsplattform I14Y](/handbook/img/i14y-film_55.png)
 
+{{<alert title="Wichtiger Hinweis zur I14Y-API" color="warning">}}
+
+Am 8. Juli 2026 wird ein _Breaking Change_ für Konzepte und Behördenleistungen auf der I14Y-API produktiv geschaltet: Das Feld `identifier` wird entfernt und durch `identifiers` ersetzt. Bitte prüfen Sie betroffene Integrationen rechtzeitig. Details finden Sie direkt im Beitrag [Breaking Change auf der I14Y-API](/handbook/de/news/#breaking-change-auf-der-i14y-api).
+
+{{</alert>}}
+
 Welche Daten sind verfügbar? Und wie lassen sie sich abrufen? Die Interoperabilitätsplattform I14Y ist das zentrale Verzeichnis der Daten, elektronischen Schnittstellen und elektronischen Behördenleistungen der öffentlichen Verwaltungen in der Schweiz. Die Plattform macht Daten auffindbar. Und sie zeigt auf, wie darauf zugegriffen werden kann.  
 
 I14Y dokumentiert, ob die betreffenden Daten frei oder eingeschränkt verfügbar sind, ob sie einem Standard entsprechen, wer den Datensatz verantwortet, wie regelmässig die Daten aktualisiert werden und wie ihre Qualität einzuschätzen ist. Die Plattform hilft den Kontext eines Datensatzes zu verstehen. 

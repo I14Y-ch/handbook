@@ -15,6 +15,12 @@ Translation is in progress: Thank you for your interest in the English version o
 
 ![ Scene from the explanatory video for the I14Y interoperability platform](/handbook/img/i14y-film_55.png)
 
+{{<alert title="Important notice about the I14Y API" color="warning">}}
+
+On 8 July 2026, a _breaking change_ for concepts and government services will go live on the I14Y API: the `identifier` field will be removed and replaced by `identifiers`. Please review affected integrations in time. Details are available directly in the German post [Breaking Change auf der I14Y-API](/handbook/de/news/#breaking-change-auf-der-i14y-api).
+
+{{</alert>}}
+
 
 What data is available? And how can they be retrieved? The I14Y interoperability platform is the central directory of data, electronic interfaces and government services of public administration offices in Switzerland. The platform makes it possible to find data and it shows how they can be obtained.
 

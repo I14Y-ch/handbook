@@ -14,6 +14,12 @@ La traduction est en cours : Nous vous remercions de l'intérêt que vous portez
 
 ![Scène de la vidéo explicative sur la plateforme d’interopérabilité I14Y](/handbook/img/i14y-film_55.png)
 
+{{<alert title="Avis important concernant l’API I14Y" color="warning">}}
+
+Le 8 juillet 2026, un _breaking change_ concernant les concepts et les services publics sera mis en production sur l’API I14Y: le champ `identifier` sera supprimé et remplacé par `identifiers`. Veuillez vérifier à temps les intégrations concernées. Les détails figurent directement dans l’article [Breaking Change sur l’API I14Y](/handbook/fr/news/#breaking-change-sur-lapi-i14y).
+
+{{</alert>}}
+
 
 Quelles données sont mises à disposition? Comment les consulter? La plateforme d’interopérabilité I14Y (IOP I14Y) est le répertoire centralisé suisse des métadonnées, des interfaces électroniques et des prestations des autorités (services publics). Elle permet de rechercher des données et montre comment y accéder.  
 

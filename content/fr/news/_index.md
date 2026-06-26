@@ -13,6 +13,45 @@ Vous souhaitez être informés des nouvelles fonctions et des offres de la plate
 
 {{</alert>}}
 
+## Breaking Change sur l’API I14Y
+*26.06.2026*
+
+Le 8 juillet au soir, nous déploierons une nouvelle version de la plateforme d’interopérabilité I14Y sur l’environnement de production. Cette version contient un _breaking change_ de l’API. La modification prévue a été validée par le comité de pilotage I14Y le 23 juin 2026.
+
+Utilisez-vous les API d’I14Y pour lire ou écrire des concepts ou des services publics? Dans ce cas, vous devez agir dès maintenant: vérifiez, à l’aide des informations ci-dessous, si vos scripts continueront de fonctionner à l’avenir.
+
+Principale modification en bref:
+
+- Le champ `identifier` (chaîne de caractères) sera supprimé pour les concepts et les services publics.
+- Le champ de remplacement `identifiers` (tableau de chaînes de caractères) a déjà été introduit et peut être utilisé dès maintenant.
+- Jusqu’à la mise en production, les deux champs seront disponibles; après la mise en production, seul `identifiers` sera pris en charge.
+- Il n’y a pas de breaking change concernant les métadonnées des jeux de données et des interfaces électroniques (API), ni concernant les tables de correspondance.
+
+### Modèle transitoire actuel
+
+```json
+{
+	"identifier": "string",
+	"identifiers": [
+		"string"
+	]
+}
+```
+
+### Modèle à partir du 8 juillet
+
+```json
+{
+	"identifiers": [
+		"string"
+	]
+}
+```
+
+Tous les scripts ou intégrations qui récupèrent ou envoient des concepts ou des services publics via le champ `identifier` doivent être adaptés avant cette date. Veuillez vous assurer que toutes les intégrations concernées soient adaptées dès que possible, mais impérativement avant la mise en production. En cas de question ou de problème, l’équipe I14Y se tient volontiers à votre disposition.
+
+**Remarque:** aucune migration de données n’est nécessaire de votre côté. Notre équipe a déjà migré les données existantes en transférant l’ancienne valeur de `identifier` vers la première entrée du tableau `identifiers`.
+
 ## Comment saisir des métadonnées? Toutes les infos utiles dans le nouveau guide I14Y
 *21.05.2026*
 
