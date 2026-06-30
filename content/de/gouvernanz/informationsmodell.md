@@ -255,7 +255,7 @@ Um Informationen zu einem Datensatz auf der Interoperabilitätsplattform I14Y sp
 
 Die Struktur beschreibt, wie die Inhalte eines Datensatzes organisiert sind. Jede Struktur besteht aus mindestens einem Datenelement ([siehe unten](#datenelement)). Die einzelnen Strukturen können in mehreren Datensätzen verwendet werden. Beispielsweise wird bei einer wiederkehrenden Publikation eines Registers (Versionierung) in der Regel die identische Struktur verwendet. 
 
-Zur Beschreibung der Struktur wird bei I14Y weitgehend der DCAT-Standard mit dem Schweizer Applikationsprofil eingesetzt. 
+Zur Beschreibung der Struktur wird bei I14Y die _Shapes Constraint Language (SHACL)_ eingesetzt, ein W3C-Standard zur Beschreibung und Validierung von RDF-Datenstrukturen. Damit lassen sich Klassen, Datenelemente und Regeln wie Datentypen, Kardinalitäten oder Pflichtfelder maschinenlesbar definieren.
 
 ### Datenelement
 
