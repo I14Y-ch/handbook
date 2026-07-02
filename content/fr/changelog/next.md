@@ -5,27 +5,25 @@ slug: prochaine-version
 weight: 10
 type: docs
 keywords: [I14Y, Plateforme d'interopérabilité I14Y, IOP, Changelog, Releases, Versions, Développement logiciel]
-draft: true
+draft: false
 ---
 
-La prochaine version d'I14Y est prévue en début de soirée le 17 juin 2026. Elle comprend les adaptations et extensions décrites ci-dessous. Les organisations partenaires d'I14Y disposant de l'accès approprié peuvent tester immédiatement la version mise à jour sur l'[environnement de recette d'I14Y](https://input.i14y-a.admin.ch). Veuillez contacter l'Unité d'interopérabilité si vous n'avez pas encore accès à cet environnement utilisé pour les tests logiciels.
+La prochaine version d'I14Y est prévue pour le début de soirée du 9 juillet 2026. Elle comprend les adaptations et extensions décrites ci-dessous. Les organisations partenaires d'I14Y disposant de l'accès approprié peuvent tester immédiatement la version mise à jour sur l'[environnement de recette d'I14Y](https://input.i14y-a.admin.ch). Veuillez contacter l'Unité d'interopérabilité si vous n'avez pas encore accès à cet environnement utilisé pour les tests logiciels.
 
-Veuillez noter que la date de mise en production peut être repoussée à court terme en cas de problème. Certaines fonctionnalités peuvent également être retirées de cette version et activées ultérieurement. Pour toute question ou tout problème lié à cette version, veuillez contacter le Centre de compétences Gestion des données ([i14y@bfs.admin.ch](mailto:i14y@bfs.admin.ch)).
+Veuillez noter que la date de mise en production peut être repoussée à court terme en cas de problème. Il est possible que certaines fonctionnalités soient retirées de cette version et activées ultérieurement. Pour toute question ou tout problème lié à cette version, veuillez contacter le Centre de compétences Gestion des données ([i14y@bfs.admin.ch](mailto:i14y@bfs.admin.ch)).
 
-**Open source :** Le code source d'I14Y est désormais publié dans un dépôt public sur GitHub. Ce nouveau dépôt contient l'état actuel du logiciel I14Y et est accessible au public.
+**Logo d'organisation :** Depuis la version précédente, il est possible d'enregistrer un logo ou une photo pour chaque organisation. Ces images sont désormais affichées sur la page « Organisations ».
 
-**Logo d'organisation :** L'équipe I14Y peut désormais enregistrer un logo ou une autre image (par exemple la photo d'un bâtiment) pour chaque organisation et l'associer à cette organisation. Cette amélioration a été développée dans le cadre des travaux sur la nouvelle version d'opendata.swiss et sera également utilisée pour la future plateforme metadata.swiss. Veuillez [contacter l'équipe I14Y](mailto:i14y@bfs.admin.ch) si vous souhaitez fournir une image ou remplacer une image existante.
+**Vue tabulaire des structures de données :** Les structures de données peuvent désormais aussi être affichées sous forme de tableau, en alternative au diagramme UML. Dans certains cas, la vue tabulaire est plus appropriée pour obtenir rapidement un aperçu de la structure d'un jeu de données.
 
-**API pour les organisations :** Les informations de base sur les organisations enregistrées peuvent désormais être récupérées via l'API Partner et l'API Public. Les liens vers les logos des organisations sont également disponibles via ces interfaces.
+**Navigation améliorée :** Un nouveau bouton « Retour » est désormais disponible au-dessus de la vue détaillée d'une entrée. Il permet de revenir directement à la liste des résultats de recherche filtrés. Jusqu'à présent, il fallait utiliser le bouton « Retour » du navigateur.
 
-**Meilleure vue d'ensemble pour les fournisseurs de données :** La page d'accueil de la zone interne d'I14Y a été améliorée. Dans la colonne Mes données, les entrées sont désormais affichées lorsque la personne connectée est renseignée comme personne de contact (suppléante) ou comme propriétaire des données. Les utilisatrices et utilisateurs peuvent ainsi accéder plus rapidement aux entrées qui les concernent.
+**Davantage d'informations dans les listes récapitulatives :** La liste des entrées contient désormais des puces indiquant les thèmes ainsi que les formats des distributions associées.
 
-**Premier identifiant stable :** I14Y permet d'enregistrer plusieurs identifiants. Le premier identifiant d'une entrée relative à un jeu de données, un concept, une table de mapping, une API ou une prestation administrative ne peut désormais plus être modifié une fois l'entrée publiée publiquement pour la première fois. Cela garantit la validité durable des permaliens publics.
+**Extension de l'export RDF :** L'export RDF, qui est notamment utilisé pour le moissonnage d'un catalogue de données, inclut désormais l'attribut `coverage` dans la partie relative aux distributions.
 
-**Export des codelists filtrées :** Les entrées filtrées d'une codelist peuvent désormais être exportées directement depuis l'interface utilisateur.
+**Adaptation de l'API :** Dans l'interface électronique (API), le champ `identifier` était jusqu'ici utilisé dans le domaine des concepts et des prestations administratives et contenait une chaîne de caractères. Ce champ a maintenant été entièrement remplacé dans cette version par `identifiers`, qui contient une liste de chaînes de caractères. Les intégrations existantes pour lire ou écrire des concepts ou des prestations administratives doivent impérativement être adaptées. Veuillez lire à ce sujet le [billet d'actualité](/handbook/de/news/#breaking-change-auf-der-i14y-api) correspondant.
 
-**Champs de date optionnels pour les concepts :** Les champs Valide à partir du et Valide jusqu'au sont désormais optionnels pour les concepts et les tables de mapping.
+**Corrections de bugs :** Des résultats erronés dans la zone « Mes données » de l'espace interne de la plateforme ont été corrigés. Un problème de mise en page sur la page des entrées de codelist a été corrigé, et plusieurs fautes de frappe dans l'interface utilisateur ont été corrigées.
 
-**Personne de contact suppléante :** Le champ de la personne de contact suppléante est désormais optionnel. Il n'est plus possible d'y saisir la même personne que dans le champ de la personne de contact.
-
-**Corrections de bugs**
+**Remarque :** La publication open source du code de la plateforme I14Y a, contrairement à l'annonce précédente, été reportée à une date ultérieure, car une dépendance restante n'est pas compatible avec la licence MIT.
