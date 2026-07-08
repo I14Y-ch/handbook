@@ -52,7 +52,7 @@ Dieses Beispiel enthält eine Annotation. Für jede zusätzliche Annotation füg
 
 Alternativ kann die Codeliste auch in der Form einer JSON-Datei hochgeladen werden. Die Inhalte sind analog zu diesem Beispiel zu strukturieren. 
 
-```
+```json
 {
   "data": [
     {

@@ -37,7 +37,7 @@ Source_code_uri,Target_code_uri,Relation_type
 
 **JSON:**
 
-```
+```json
 {
   "data": [
     {
