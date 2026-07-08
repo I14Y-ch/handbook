@@ -63,7 +63,7 @@ Das folgende Beispiel zeigt einen API-Aufruf mit einem User-Agent als CURL-Befeh
 
 **CURL:**
 
-```
+```bash
 curl -X GET "https://api.i14y.admin.ch/partner/v1/datasets/BUILDING_DWELLING_MASTER_DATA" \
   -H "Authorization: Bearer <ACCESS_TOKEN>" \
   -H "User-Agent: DataPortalSync/1.2 (i14y; contact: i14y@bfs.admin.ch)" \
@@ -72,7 +72,7 @@ curl -X GET "https://api.i14y.admin.ch/partner/v1/datasets/BUILDING_DWELLING_MAS
 
 **Python:** 
 
-```
+```python
 import requests
 
 url = "https://api.i14y.admin.ch/partner/v1/datasets/BUILDING_DWELLING_MASTER_DATA"
