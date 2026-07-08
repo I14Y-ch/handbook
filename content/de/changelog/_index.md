@@ -12,6 +12,24 @@ __DE:__ Diese Seite liegt teilweise in englischer Sprache vor.
 
 Die Interoperabilitätsplattform I14Y wird kontinuierlich weiterentwickelt. Mit jedem Release werden neue Funktionen hinzugefügt und Fehler behoben. Die wichtigsten Änderungen sind unten kurz dokumentiert. Für detaillierte Informationen zur Weiterentwicklung der Plattform wenden Sie sich bitte an das [I14Y-Team](mailto:i14y@bfs.admin.ch).
 
+## Release vom 8. Juli 2026
+
+**Organisationslogo:** Seit dem letzten Release kann für jede Organisation ein Logo oder ein Foto hinterlegt werden. Diese Bilder werden neu auf der Seite «Organisationen» angezeigt.
+
+**Tabellarische Ansicht von Datenstrukturen:** Datenstrukturen können alternativ zum UML-Diagramm auch als Tabelle dargestellt werden. Diese Ansicht ist in bestimmten Fällen übersichtlicher und erleichtert einen schnellen Überblick über die Struktur eines Datensatzes.
+
+**Verbesserte Navigation:** Oberhalb der Detailansicht eines Eintrags steht neu ein «Zurück»-Knopf zur Verfügung. Damit gelangen Sie direkt zurück zur Liste mit den gefilterten Suchresultaten. Bislang war dazu der Zurück-Knopf des Webbrowsers nötig.
+
+**Mehr Informationen in Übersichtslisten:** Die Liste der Einträge enthält neu Chips zu den Themen sowie zu den Formaten der zugehörigen Distributionen.
+
+**Erweiterung des RDF-Exports:** Der RDF-Export, der insbesondere für das Harvesting eines Datenkatalogs durch opendata.swiss genutzt wird, enthält im Bereich der Distributionen neu das Attribut `coverage`.
+
+**Anpassung bei der API:** In der elektronischen Schnittstelle (API) wurde im Bereich der Konzepte und der Behördenleistungen bisher das Feld `identifier` verwendet, das eine Zeichenkette enthielt. Dieses Feld wird in diesem Release vollständig durch `identifiers` ersetzt, das eine Liste von Zeichenketten enthält. Bestehende Integrationen zum Lesen oder Schreiben von Konzepten oder Behördenleistungen müssen zwingend angepasst werden. Lesen Sie dazu den entsprechenden [News-Beitrag](/handbook/de/news/#breaking-change-auf-der-i14y-api).
+
+**Bugfixes:** Fehlerhafte Resultate im Bereich «My Data» im internen Bereich der Plattform wurden korrigiert. Ausserdem wurden ein Layoutproblem auf der Seite der Codelisten-Einträge sowie mehrere Tippfehler in der Benutzeroberfläche behoben.
+
+**Hinweis:** Die Open-Source-Veröffentlichung des I14Y-Programmcodes wurde entgegen der früheren Ankündigung auf einen späteren Zeitpunkt verschoben, da eine verbleibende Abhängigkeit nicht mit der MIT-Lizenz kompatibel ist.
+
 ## Release vom 17. Juni 2026
 
 **Organisationslogo:** Das I14Y-Team kann für jede Organisation neu ein Logo oder ein anderes Bild (z.B. ein Foto des Gebäudes) hinterlegen und dieses der Organisation zuordnen. Diese Erweiterung entstand im Rahmen der Arbeiten an der neuen Version von opendata.swiss, und sie wird auch für die zukünftige Plattform metadata.swiss genutzt. Bitte [kontaktieren Sie das I14Y-Team](mailto:i14y@bfs.admin.ch), falls Sie ein Bild zur Verfügung stellen oder ein bestehendes Bild ersetzen möchten.

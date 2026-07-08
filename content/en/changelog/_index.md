@@ -9,7 +9,25 @@ keywords: [I14Y, Interoperabilitätsplattform I14Y, IOP, Changelog, Releases, Ve
 
 The I14Y interoperability platform is under continuous development. New features are added with each release. Bugs are also fixed. The most important changes are briefly documented below. For detailed information on the development of the platform, please contact the [I14Y team](mailto:i14y@bfs.admin.ch). 
 
-## Release May 17 2026
+## Release July 8
+
+**Organisation logo:** Since the last release, a logo or photo can be stored for each organisation. These images are now displayed on the Organisations page.
+
+**Tabular view of data structures:** Data structures can now also be displayed as a table instead of a UML diagram. In some cases, the table view is more suitable for getting a quick overview of the structure of a dataset.
+
+**Improved navigation:** A new Back button is now available above the detail view of an entry. It allows users to jump back to the list of filtered search results. Until now, users had to use the browser's Back button.
+
+**More information in overview lists:** The list of entries now includes chips for the themes and the formats of the attached distributions.
+
+**RDF export enhancement:** The RDF export, which is used in particular for harvesting a data catalogue, now includes the `coverage` attribute in the area of distributions.
+
+**API adjustment:** In the electronic interface (API), the field `identifier` was previously used for concepts and public services. It contained a string. This field has now been fully replaced in this release by `identifiers`, which contains a list of strings. Existing integrations for reading or writing concepts or public services must be adapted without exception. Please read the corresponding [News article](/handbook/de/news/#breaking-change-auf-der-i14y-api).
+
+**Bug fixes:** Incorrect results in the My Data area in the platform's internal section have been corrected. A layout issue on the codelist entries page has been fixed, and several typos in the user interface have been corrected.
+
+**Note:** The open source publication of the I14Y codebase has, contrary to the earlier announcement, been postponed to a later date because one remaining dependency is not compatible with the MIT licence.
+
+## Release June 17 2026
 
 **Organisation logo:** The I14Y team can now store a logo or another image (for example, a photo of a building) for each organisation and link it to that organisation. This enhancement was developed as part of the work on the new version of opendata.swiss and will also be used for the future metadata.swiss platform. Please [contact the I14Y team](mailto:i14y@bfs.admin.ch) if you would like to provide an image or replace an existing one.
 
