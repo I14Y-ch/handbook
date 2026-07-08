@@ -20,18 +20,28 @@ Der MCP-Server macht die öffentlichen I14Y-Metadaten direkt für KI-Anwendungen
 Der I14Y-MCP-Server ist unter der folgenden URL verfügbar: `https://mcp.i14y.d.c.bfs.admin.ch/mcp`. Eine detaillierte Dokumentation der Funktionalität ist im [Repository auf Github](https://github.com/I14Y-ch/mcp-i14y) zu finden. 
 
 <details>
-<summary><strong>So wird MCP mit einem Chatbot genutzt</strong></summary>
+<summary><strong>So wird MCP mit Mistral genutzt</strong></summary>
 
-Die folgende Anleitung beschreibt das Vorgehen am Beispiel von ChatGPT. Andere KI-Chatbots (z. B. Claude, Gemini) bieten die MCP-Integration ähnlich an, die Bezeichnungen der Menüpunkte können jedoch abweichen. Für die MCP-Unterstützung ist je nach Plattform ein kostenpflichtiges Abonnement erforderlich.
+Die folgende Anleitung beschreibt das Vorgehen am Beispiel des Chats Vibes von Mistral. Andere KI-Chatbots (z. B. ChatGPT oder Claude) bieten die MCP-Integration ähnlich an. Für die MCP-Unterstützung ist je nach Plattform ein kostenpflichtiges Abonnement erforderlich.
 
-1. Melden Sie sich auf [chat.openai.com](https://chat.openai.com) an.
-2. Klicken Sie oben links auf das Modell-Auswahlmenü und wechslen Sie auf ein Modell, das Tools unterstützt (z. B. GPT-4o).
-3. Klicken Sie im Eingabefeld auf das **+**-Symbol (Werkzeug/Tools) oder öffnen Sie die **Einstellungen** und navigieren Sie zu **Verbundene Apps** oder **Integrationen**.
-4. Wählen Sie **MCP-Server hinzufügen** oder **Custom connector**.
-5. Tragen Sie als Server-URL ein: `https://mcp.i14y.d.c.bfs.admin.ch/mcp`
-6. Bestätigen Sie und speichern Sie die Verbindung.
-7. Aktivieren Sie den I14Y-Server im Chat, indem Sie ihn in der Tool-Auswahl einschalten.
-8. Stellen Sie anschliessend eine konkrete Frage, zum Beispiel: *«Welche Datensätze zum Thema Bevölkerung sind auf I14Y verfügbar?»*
+1. Erstellen Sie ein Konto bei [chat.mistral.ai](https://chat.mistral.ai) oder melden Sie sich an.
+2. Fügen Sie unter [chat.mistral.ai/connections](https://chat.mistral.ai/connections) einen neuen MCP-Server hinzu, indem Sie folgende Adresse eintragen: `https://mcp.i14y.d.c.bfs.admin.ch/mcp`.
+3. Starten Sie einen neuen Chat. Stellen Sie mit einem Klick auf das Pluszeichen sicher, dass der neu konfigurierte Server unter "Konnektoren" aktiviert ist. Stellen Sie Ihre Frage normal im Chat.
+
+</details>
+
+<details>
+<summary><strong>So wird MCP mit Mistral genutzt</strong></summary>
+
+Mistral ist ein KI-Chatbot von Mistral AI, der ebenfalls MCP-Connectoren unterstützt. Damit kann der Chat direkt auf den I14Y-MCP-Server zugreifen und aktuelle Metadaten strukturiert abfragen.
+
+1. Öffnen Sie [chat.mistral.ai/connections](https://chat.mistral.ai/connections) und erstellen Sie ein Konto oder melden Sie sich an.
+2. Wählen Sie **Benutzerdefinierter MCP-Connector** aus.
+3. Tragen Sie als Server-Adresse ein: `https://mcp.i14y.d.c.bfs.admin.ch/mcp`
+4. Ergänzen Sie optional eine Beschreibung, zum Beispiel **I14Y MCP-Server**.
+5. Bestätigen Sie die Verbindung und wechseln Sie anschliessend in den Chat-Modus.
+6. Klicken Sie im Chat auf das **+**-Symbol und aktivieren Sie die neue Quelle **I14Y**.
+7. Stellen Sie eine konkrete Frage, zum Beispiel: *«Welche Datensätze zum Thema Bevölkerung sind auf I14Y verfügbar?»*
 
 </details>
 
