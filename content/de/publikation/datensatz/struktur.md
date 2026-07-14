@@ -41,7 +41,7 @@ Strukturen auf I14Y bestehen aus drei Hauptobjekten: Klassen, Attributen und Ass
 
 Für Attribute und Assoziationen kann mit `dcterms:conformsTo` angegeben werden, dass sich das Element auf ein I14Y-Konzept abstützt. Daten, die sich auf dieselben grundlegenden Definitionen beziehen, sind (teilweise) harmonisiert.
 
-Eine ausführliche Beschreibung aller Felder für Klassen, Attribute und Assoziationen findet sich im [Anhang](/handbook/de/anhang/eingabefelder/struktur/).
+Eine ausführliche Beschreibung aller Felder für Klassen, Attribute und Assoziationen findet sich im [Anhang](/handbook/de/anhang/eingabefelder/eingabefelder_struktur/).
 
 </details>
 
