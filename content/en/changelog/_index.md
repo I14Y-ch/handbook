@@ -17,6 +17,8 @@ The I14Y interoperability platform is under continuous development. New features
 
 **Filtering by other involved organisations:** Until now, I14Y only allowed filtering by the organisation that publishes a dataset. It is now also possible to filter by organisations that have a different role in relation to the dataset.
 
+**Parent organisation:** Many organisations are part of a larger parent organisation. For example, an office is part of a department. To represent such hierarchies, the field `subAgendOf` has been introduced in the organisation management. It specifies which organisation is the parent. In most cases, a single organisation is entered. To accommodate special cases -- organisations with multiple parent organisations -- a list format has been implemented. The management of information about organisations is handled by the Competence Center Data Management.
+
 **Bug fixes and optimisations**
 
 ## Release September 2 2026

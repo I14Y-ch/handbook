@@ -20,6 +20,8 @@ Die Interoperabilitätsplattform I14Y wird kontinuierlich weiterentwickelt. Mit 
 
 **Filter nach weiteren beteiligten Organisationen:** Bisher konnte man auf I14Y nur nach der publizierenden Organisation eines Datensatzes filtern. Neu lässt sich zusätzlich nach Organisationen filtern, die eine andere Rolle im Zusammenhang mit dem Datensatz haben.
 
+**Mutterorganisation:** Viele Organisationen sind Teil einer übergeordneten Organisation. Ein Amt etwa ist Teil eines Departements. Um solche Hierarchien abzubilden, wurde in der Organisationsverwaltung das Feld `subAgendOf` eingeführt. Darin wird hinterlegt, welche die Mutterorganisation ist. In der Regel wird dort eine einzelne Organisation eingetragen. Um Spezialfälle abzudecken -- Organisationen mit mehreren übergeordneten Organisationen -- wurde eine Liste eingeführt. Die Verwaltung der Informationen zu den Organisationen erfolgt über das Kompetenzzentrum Datenbewirtschaftung ([i14y@bfs.admin.ch](mailto:i14y@bfs.admin.ch)).
+
 **Fehlerkorrektionen und Optimierungen**
 
 ## Release vom 2. September 2026

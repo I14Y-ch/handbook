@@ -17,6 +17,8 @@ La plateforme d'interopérabilité I14Y est en développement continu. De nouvel
 
 **Filtre par autres organisations concernées :** Jusqu'à présent, il n'était possible de filtrer sur I14Y que par l'organisation qui publie un jeu de données. Il est désormais également possible de filtrer par les organisations ayant un autre rôle en lien avec le jeu de données.
 
+**Organisation mère :** Nombreuses organisations font partie d'une organisation mère plus grande. Par exemple, un office fait partie d'un département. Afin de représenter de telles hiérarchies, le champ `subAgendOf` a été introduit dans la gestion des organisations. Il spécifie quelle organisation est l'organisation mère. Dans la plupart des cas, une seule organisation y est indiquée. Pour tenir compte de cas particuliers -- les organisations ayant plusieurs organisations mères -- un format de liste a été implémenté. La gestion des informations sur les organisations est assurée par le Centre de compétences Gestion des données.
+
 **Corrections de bugs et optimisations**
 
 ## Version du 2 September 2026
