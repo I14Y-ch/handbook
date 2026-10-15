@@ -9,6 +9,16 @@ keywords: [I14Y, Interoperabilitätsplattform I14Y, IOP, Changelog, Releases, Ve
 
 La plateforme d'interopérabilité I14Y est en développement continu. De nouvelles fonctionnalités sont ajoutées à chaque version, et des erreurs sont également corrigées. Les changements les plus importants sont brièvement documentés ci-dessous. Pour des informations détaillées sur l'évolution de la plateforme, veuillez contacter l'[équipe I14Y](mailto:i14y@bfs.admin.ch).
 
+## Version du 14 octobre 2026
+
+**Traçabilité des modifications :** Jusqu'à présent, il n'était pas possible de savoir qui avait effectué quelles modifications sur les métadonnées, ni quand. Désormais, la création, la modification et la suppression d'entrées par les utilisateurs sont consignées automatiquement. Le journal enregistre les informations sur la personne concernée, le moment, la ressource touchée et le type de modification. Pour l'instant, les journaux ne peuvent être consultés que par l'équipe qui exploite la plateforme. L'affichage des journaux détaillés dans l'interface de gestion est prévu pour le futur système metadata.swiss.
+
+**Performance de l'API partenaire :** La performance de l'API partenaire a été mesurée. Afin de réduire les temps de réponse en cas de très nombreuses requêtes parallèles, les requêtes portant sur une ressource individuelle sont désormais mises en cache pour une courte durée. L'API peut ainsi fournir des données de manière fiable et rapide, même en cas de nombre exceptionnellement élevé de requêtes simultanées.
+
+**Filtre par autres organisations concernées :** Jusqu'à présent, il n'était possible de filtrer sur I14Y que par l'organisation qui publie un jeu de données. Il est désormais également possible de filtrer par les organisations ayant un autre rôle en lien avec le jeu de données.
+
+**Corrections de bugs et optimisations**
+
 ## Version du 2 September 2026
 
 **Interaction avec LINDAS :** Lors de leur publication sur I14Y, les concepts et les jeux de données sont publiés dans le Linked Data Service (LINDAS) de la Confédération, généralement dans le graphe I14Y. Certaines métadonnées et listes de codes peuvent être copiées dans les graphes LINDAS centraux en tant que dimensions partagées. Les liens correspondants sont désormais affichés sur le site web public d'I14Y.

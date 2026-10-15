@@ -12,6 +12,16 @@ __DE:__ Diese Seite liegt teilweise in englischer Sprache vor.
 
 Die Interoperabilitätsplattform I14Y wird kontinuierlich weiterentwickelt. Mit jedem Release werden neue Funktionen hinzugefügt und Fehler behoben. Die wichtigsten Änderungen sind unten kurz dokumentiert. Für detaillierte Informationen zur Weiterentwicklung der Plattform wenden Sie sich bitte an das [I14Y-Team](mailto:i14y@bfs.admin.ch).
 
+## Release vom 14. Oktober 2026
+
+**Nachvollziehbarkeit von Änderungen:** Bisher liess sich nicht zurückverfolgen, wer wann welche Änderungen an den Metadaten vorgenommen hat. Neu wird automatisch protokolliert, wenn Nutzende Einträge erstellen, abändern oder löschen. Gespeichert werden Angaben zur Person, zum Zeitpunkt, zur betroffenen Ressource und zur Art der Änderung. Die Protokolle sind vorerst nur für das Team einsehbar, das die Plattform betreibt. Eine Anzeige der detaillierten Protokolle in der Verwaltungsoberfläche ist fürs zukünftige System metadata.swiss vorgesehen.
+
+**Leistung der Partner-API:** Die Leistungsfähigkeit der Partner-API wurde gemessen. Um die Antwortzeiten bei sehr vielen parallelen Anfragen zu verkürzen, werden Abfragen einzelner Ressourcen neu für kurze Zeit zwischengespeichert. Dadurch kann die API auch bei ausserordentlich vielen gleichzeitigen Anfragen zuverlässig und schnell Daten liefern.
+
+**Filter nach weiteren beteiligten Organisationen:** Bisher konnte man auf I14Y nur nach der publizierenden Organisation eines Datensatzes filtern. Neu lässt sich zusätzlich nach Organisationen filtern, die eine andere Rolle im Zusammenhang mit dem Datensatz haben.
+
+**Fehlerkorrektionen und Optimierungen**
+
 ## Release vom 2. September 2026
 
 **Zusammenspiel mit LINDAS:** Konzepte und Datensätze werden bei der Publikation auf I14Y im Linked Data Service (LINDAS) des Bundes veröffentlicht, normalerweise im I14Y-Graphen. Ausgewählte Metadaten und Codelisten können in den zentralen LINDAS-Graphen kopiert werden, als gemeinsam genutzte Dimensionen. Auf der öffentlich zugänglichen Website von I14Y werden die entsprechenden Links neu angezeigt.
