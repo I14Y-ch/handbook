@@ -39,7 +39,7 @@ Ein Attribut ist eine Eigenschaft oder ein Datenfeld, das einer Klasse zugeordne
 | __Maximale Länge__| Maximale Länge eines String-Werts. |[sh\:maxLength](https://www.w3.org/TR/shacl/#MaxLengthConstraintComponent) | `rdfs:Literal` (typed as `xsd:integer`) | 0..1 |  optional |
 | __Position__| Gibt die relative Reihenfolge des Elements an. | [sh\:order](https://www.w3.org/TR/shacl/#order) | `rdfs:Literal` (typed as `xsd:integer`)| 0..1 | optional |
 | __Beschreibung__| Eine Textbeschreibung, die weitere Details zur Eigenschaft liefert. | [sh\:description](https://www.w3.org/TR/shacl/#name) | `rdfs\:Literal` | 0..n | optional |
-| __Conforms To__| Ein Standard, dem die Ressource entspricht. In diesem Feld können die mit diesem Attribut verbundenen I14Y-Konzepte verlinkt werden. | [dcterms\:confromsTo](http://purl.org/dc/terms/conformsTo) | `dct:Standard` | 0..1 | optional |
+| __Conforms To__| Ein Standard, dem die Ressource entspricht. In diesem Feld können die mit diesem Attribut verbundenen I14Y-Konzepte verlinkt werden. | [dcterms\:conformsTo](http://purl.org/dc/terms/conformsTo) | `dct:Standard` | 0..1 | optional |
 
 ## Assoziation
 Eine Assoziation ist eine bestimmte Beziehung zwischen verschiedenen Entitäten oder Klassen (über `sh:class`). 
@@ -53,7 +53,7 @@ Eine Assoziation ist eine bestimmte Beziehung zwischen verschiedenen Entitäten 
 | __Minimale Anzahl__| Kardinalitätsbeschränkung. Gibt die Mindestanzahl an, wie oft die Eigenschaft vorkommen darf.| [sh\:minCount](https://www.w3.org/TR/shacl/#MinCountConstraintComponent) |`rdfs:Literal` (typed as `xsd:integer`) | 0..1 |  optional |
 | __Maximale Anzahl__| Kardinalitätsbeschränkung. Gibt an, wie oft die Eigenschaft maximal vorkommen darf.| [sh\:maxCount](https://www.w3.org/TR/shacl/#MaxCountConstraintComponent)| `rdfs:Literal` (typed as `xsd:integer`) | 0..1 |  optional |
 | __Beschreibung__| Eine Textbeschreibung, die weitere Details zur Eigenschaft liefert. |[sh\:description](https://www.w3.org/TR/shacl/#name) | `rdfs:Literal` | 0..n | optional |
-| __Conforms To__| Ein Standard, dem die Ressource entspricht. In diesem Feld können die mit diesem Attribut verbundenen I14Y-Konzepte verlinkt werden. | [dcterms\:confromsTo](http://purl.org/dc/terms/conformsTo) | `dct:Standard` | 0..1 | optional |
+| __Conforms To__| Ein Standard, dem die Ressource entspricht. In diesem Feld können die mit diesem Attribut verbundenen I14Y-Konzepte verlinkt werden. | [dcterms\:conformsTo](http://purl.org/dc/terms/conformsTo) | `dct:Standard` | 0..1 | optional |
 
 ## Weiterführende Spezifikationen
 

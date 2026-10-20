@@ -2,7 +2,7 @@
 title: Gouvernanz und Rollen
 slug: gouvernanz
 translationKey: gouvernance
-description: "Welche Schritte sind nötig, um die Beschreibung eines Datensatzes zu veröffentlichen? Und wer sieht welche Metadaten? Dieses Kapitel gibt einen Überblick über die Rollen auf der Interoperabilitätsplattform I14Y, die Arbeitsabläufe und das Informationsmodell."
+description: "Welche Schritte sind nötig, um die Beschreibung eines Datensatzes zu veröffentlichen? Und wer sieht welche Metadaten? Dieses Kapitel gibt einen Überblick über die Rollen auf der Interoperabilitätsplattform I14Y, die Arbeitsabläufe, die Erfassungsprinzipien und das Informationsmodell."
 weight: 20
 type: docs
 keywords: [I14Y, I14Y-Interoperablitätsplattform, I14-IOP, Rollen, Rollenmodell, Zugriffsrechte, Workflow, Prozesse, Datenmodell, Informationsmodell]
@@ -10,6 +10,8 @@ keywords: [I14Y, I14Y-Interoperablitätsplattform, I14-IOP, Rollen, Rollenmodell
 
 ![Szene aus dem Erklärvideo zur Interoperabilitätsplattform I14Y](/img/i14y-film_rollen.png)
 
-Daten sollen zuverlässig erhoben und regelmässig nachgeführt werden. Und die Zuständigkeiten für die Angebote und die Kompetenzen zur Datenbearbeitung müssen klar geregelt sein. Um dies sicherzustellen, wurde ein Rollenmodell ausgearbeitet. Dieses unterscheidet unter anderem zwischen den Stellen, die Datensätze in Auftrag geben, solchen, die Daten bearbeiten, und jenen, die Daten verwenden. Zudem wurden Erfassungsrichtlinien und ein Workflow definiert. 
+Die Interoperabilitätsplattform I14Y soll relevante Beschreibungen anbieten, die formal möglichst einheitlich sind und auf dem aktuellen Stand gehalten werden. Dadurch sind die Einträge -- wie es die FAIR-Prinzipien vorsehen -- gut auffindbar (_findable_), zugänglich (_accessible_), interoperabel (_interoperable_) und wiederverwendbar (_reusable_). Eine Beschreibung, die veraltet oder unvollständig ist oder stark von anderen Beschreibungen abweicht, wird weniger rasch gefunden, ist schwerer verständlich und wird seltener genutzt.
 
-In einem ersten Kapitel wird das [Rollenmodell](/de/gouvernanz/rollen) beschrieben. In einem zweiten wird auf die [Arbeitsabläufe](/de/gouvernanz/arbeitsablauf) eingegangen. Darauf folgen Detailinformationen zu den verwendeten [Informationsmodellen](/de/gouvernanz/informationsmodell). Die rechtlichen Rahmenbedingungen sind im Abschnitt [Rechtliche Grundlagen](/de/gouvernanz/rechtliche-grundlagen/) zusammengefasst.
+Wie wird das sichergestellt? Eine zentrale Rolle kommt den Mitarbeitenden zu, die verantworltich sind für die Metadaten. Sie sorgen dafür, dass die Einträge einheitlich erfasst, geprüft, veröffentlicht und regelmässig aktualisiert werden. Damit die Verantwortlichkeiten klar geregelt ist, wurde ein [Rollenmodell](/de/gouvernanz/rollen) entwickelt. Die Mitarbeitenden gehen nach einem klar strukturierten [Arbeitsablauf](/de/gouvernanz/arbeitsablauf) vor. Zudem halten sie sich möglichst an die vom I14Y-Team erarbeiteten [Prinzipien der Datenerfassung](/de/gouvernanz/prinzipien).
+
+Ergänzend enthält dieses Kapitel Hintergrundinformationen zu den [Informationsmodellen](/de/gouvernanz/informationsmodell) sowie zu den [rechtlichen Grundlagen](/de/gouvernanz/rechtliche-grundlagen/).
