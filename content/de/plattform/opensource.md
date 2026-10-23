@@ -1,20 +1,20 @@
 ---
-title: Open Source Software
+title: Open-Source-Software
 slug: opensource
 translationKey: opensource
 weight: 40
 type: docs
-keywords: [I14Y, Interoperabilitätsplattform I14Y, Open Source Software, OSS]
+keywords: [I14Y, Interoperabilitätsplattform I14Y, Open-Source-Software, OSS]
 ---
 
-Der Quellcode der Interoperabilitätsplattform I14Y steht als _Open Source Software_ zur Verfügung. Das erlaubt es Interessierten, den Programmcode genau zu prüfen. Sie können die Software auch ausführen, etwa um ihre eigene I14Y-Instanz zu betreiben. Darüber hinaus können sie den Code anpassen sowie integral oder auszugsweise in ihren eigenen Projekten verwenden. 
+Der Quellcode der Interoperabilitätsplattform I14Y steht als Open-Source-Software (OSS) zur Verfügung. Das erlaubt es Interessierten, den Programmcode genau zu prüfen. Sie können die Software auch ausführen, etwa um ihre eigene I14Y-Instanz zu betreiben. Darüber hinaus können sie den Code anpassen sowie integral oder auszugsweise in ihren eigenen Projekten verwenden. 
 
-{{< alert color="success" title="Was ist Open Source Software?" >}}
-Bei _Open Source Software (OSS)_ kann der Programmcode von allen eingesehen, angepasst und weiterverwendet werden. Beispiele für weit verbreitete _Open Source Software_ sind das Betriebssystem Linux, der Webbrowser Firefox, die Datenbank PostgreSQL und die Programmiersprache Python.
+{{< alert color="success" title="Was ist Open-Source-Software?" >}}
+Bei Open-Source-Software kann der Programmcode von allen eingesehen, angepasst und weiterverwendet werden. So lassen sich beispielsweise Sicherheitsaudits durchführen. Es können neue Funktionen entwickelt werden, die gegebenenfalls ins Hauptprojekt zurückfliessen. Zudem ist es möglich, eine unabhängige Kopie, einen sogenannten _Fork_, zu erstellen. Dadurch sinkt die Abhängigkeit von einem einzelnen Softwareanbieter. Weit verbreitete Beispiele für Open-Source-Software sind das Betriebssystem Linux, der Webbrowser Firefox, die Datenbank PostgreSQL und die Programmiersprache Python.
 
 {{< /alert >}}
 
-Die Veröffentlichung von I14Y als _Open Source Software_ erfolgt im Einklang mit dem Bundesgesetz über den Einsatz elektronischer Mittel zur Erfüllung von Behördenaufgaben ([EMBAG, Art. 9](https://www.fedlex.admin.ch/eli/cc/2023/682/de#art_9)). Der Open-Source-Artikel verlangt, dass von Bundesbehörden entwickelter Code zugänglich gemacht wird, soweit keine überwiegenden rechtlichen oder sicherheitsrelevanten Gründe gegen eine Veröffentlichung sprechen. Für die praktischen Arbeiten der Publikation wurde auf die [Leitfäden Open-Source-Software](https://www.bk.admin.ch/de/open-source-software-oss) abgestellt, die die Bundeskanzlei publiziert hat. 
+Die Veröffentlichung von I14Y als Open-Source-Software erfolgt im Einklang mit dem Bundesgesetz über den Einsatz elektronischer Mittel zur Erfüllung von Behördenaufgaben ([EMBAG, Art. 9](https://www.fedlex.admin.ch/eli/cc/2023/682/de#art_9)). Der Open-Source-Artikel verlangt, dass von Bundesbehörden entwickelter Code zugänglich gemacht wird, soweit keine überwiegenden rechtlichen oder sicherheitsrelevanten Gründe gegen eine Veröffentlichung sprechen. Für die praktischen Arbeiten der Publikation wurde auf die [Leitfäden Open-Source-Software](https://www.bk.admin.ch/de/open-source-software-oss) abgestellt, die die Bundeskanzlei publiziert hat. 
 
 ## Nutzung des Angebots
 

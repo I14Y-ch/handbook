@@ -5,53 +5,27 @@ translationKey: organisations
 weight: 20
 type: docs
 keywords: [I14Y, Interoperabilitätsplattform, Organisation, Publikationsrecht, Datenveröffentlichung]
+draft: true
 ---
 
-Eine Organisation ist die Verwaltungseinheit oder Institution, die auf der Interoperabilitätsplattform I14Y Metadaten erfasst und publiziert. Dies können Behörden (Bund, Kantone, Gemeinden), öffentliche Institutionen, Hochschulen oder andere Organisationen sein, die Daten oder Konzepte von öffentlichem Interesse zur Verfügung stellen möchten.
+Auf der Interoperabilitätsplattform I14Y stellen unterschiedliche Akteure Metadaten zu ihren Daten, elektronischen Schnittstellen und Behördenleistungen sowie zu ihren Konzepten bereit. Dazu gehören Behörden aller föderalen Ebenen, öffentliche Institutionen, Hochschulen, Unternehmen etc. Im Folgenden werden diese Akteure als Organisationen bezeichnet.
 
-Jede Organisation auf I14Y verfügt über einen organisationsinternen Bereich. Dieser Bereich enthält alle Metadaten -- auch jene, die nicht publiziert werden sollen oder die noch in Bearbeitung sind. Der organisationsinterne Bereich ist nicht öffentlich einsehbar und dient der Zusammenarbeit innerhalb der Organisation bei der Erstellung und Verwaltung von Einträgen. Nur Personen, die auf der betreffenden Organisation berechtigt sind, können den organisationsinternen Bereich einsehen. Dies ermöglicht es, dass  Informationen geschützt bleiben, bis sie zur Publikation bereit sind. Grössere Organisationen sind selber dafür verantwortlich, die Lese- und Schreibrechte für ihre Mitarbeiter zu vergeben. Detaillierte Informationen zur Verwaltung der Zugangsrechte sind unter [Kontenverwaltung](/de/plattform/kontenverwaltung/) zu finden.
+Für jede Organisation wird auf I14Y ein eigener Bereich eingerichtet. Dieser enthält alle Metadaten der betreffenden Organisation – auch solche, die nicht öffentlich publiziert werden sollen oder noch in Bearbeitung sind. Der organisationsinterne Bereich ist nicht öffentlich einsehbar. Zugriff haben nur Personen, denen entsprechende Rechte zugewiesen wurden. Er dient der Zusammenarbeit innerhalb der Organisation bei der Erstellung und Verwaltung von Einträgen. Erst mit der Publikation werden die Einträge öffentlich sichtbar.
 
 ## Welche Organisationen dürfen auf I14Y publizieren?
 
-I14Y ist das zentrale Werkzeug für die Inventarisierung und Harmonisierung von Daten der öffentlichen Verwaltung in der Schweiz. Entsprechend richtet sich die Plattform als Publikationsinstrument primär an staatliche Organisationen. Für weite Teile der Bundesverwaltung ist die Nutzung zwingend (siehe [Rechtliche Grundlagen](/de/gouvernanz/rechtliche-grundlagen/)). Kantone und Gemeinden dürfen die Plattform nutzen; gegebenenfalls ist eine Kostenbeteiligung nötig.
+I14Y ist das zentrale Werkzeug zur Inventarisierung und Harmonisierung von Daten der öffentlichen Verwaltung in der Schweiz. Als Publikationsplattform richtet sie sich primär an staatliche Organisationen. Für weite Teile der Bundesverwaltung ist die Nutzung verpflichtend (siehe [Rechtliche Grundlagen](/de/gouvernanz/rechtliche-grundlagen/)). Kantone und Gemeinden können die Plattform ebenfalls nutzen; gegebenenfalls müssen sie sich an den Kosten beteiligen.
 
-Die Plattform steht aber auch anderen Organisationen offen, die im Auftrag der Behörden Daten produzieren oder verarbeiten. So stellen etwa Organisationen aus den Bereichen Bildung, Gesundheitsversorgung und Mobilität auf I14Y Metadaten zur Verfügung. Auch privatwirtschaftliche Einheiten können als Organisationen aufgenommen werden.  
+Die Plattform steht aber auch anderen Organisationen offen, die im Auftrag oder mit Finanzierung der Behörden Daten produzieren oder verarbeiten. So stellen etwa Organisationen aus den Bereichen Bildung, Gesundheitsversorgung und Mobilität Metadaten auf der Plattform zur Verfügung. Um Zugriff zu I14Y erhalten, müssen aber einige Bedingungen erfüllt sein. So muss die Organisation über eine anerkannte Rechtsform verfügen. Es muss sich dabei also etwa um eine Verwaltungseinheit handeln, um eine Einrichtung des öffentlichen Rechts, ein Unternehmen, einen Verein, eine Stiftung etc. (vgl. dazu die [Codeliste mit den Rechtsformen](https://www.i14y.admin.ch/de/catalog/concepts/89bc55cc-3858-4c13-a5c8-7dc935dff29b/description)). Firmen sollen auf I14Y ausschliesslich Daten beschreiben, für deren Generierung sie einen Auftrag der öffentlichen Hand haben. 
 
+Als Organisation ist auch zugelassen, wer Daten von grossem öffentlichen Interesse publiziert. Ein grosses öffentliches Interesse besteht, wenn die Daten direkt oder indirekt zur Erfüllung einer öffentlichen Aufgabe oder einer Aufgabe im Allgemeininteresse beitragen (z.B. Mobilität, Umwelt, Energie, Gesundheitswesen), wenn sie von mehreren Kategorien von Akteuren genutzt werden können, wenn sie das Verständnis eines Phänomens oder einer Aktivität mit Auswirkungen auf die Gesellschaft verbessern. Zwingend nötig ist, dass sie ein Thema betreffen, das über die eigenen Interessen der Organisation hinausgeht.
 
+{{< alert title="Sollen Dienstleister als eigene Organisationen erfasst werden?" color="warning" >}}
+In einigen Fällen vergibt die öffentliche Verwaltung Arbeiten wie Datenerhebungen und Datenaufbereitungen an externe Partner, etwa spezialisierte Unternehmen. Ist eine private Organisation ausschliesslich als Dienstleisterin für eine öffentliche Verwaltung tätig, sollte sie nicht als eigenständige Organisation auf I14Y registriert werden. Die Inhalte sollten in diesem Fall unter der verantwortlichen öffentlichen Organisation publiziert werden, die den Auftrag erteilt hat.
+{{< /alert >}}
 
-### Kriterium des öffentlichen Interesses
+## Eröffnung eines organisationsinternern Bereichs
 
-Für private Organisationen und bei der Bewertung von Publikationen allgemein gilt das Kriterium des **öffentlichen Interesses**: Die Inhalte müssen einen tangiblen Nutzen für die Allgemeinheit haben. Inhalte haben öffentliches Interesse, wenn sie:
+Falls Ihre Organisation noch nicht auf I14Y existiert, beantragen Sie beim [Kompetenzzentrum Datenbewirtschaftung](mailto:i14y@bfs.admin.ch) die Einrichtung eines Bereichs. Teilen Sie dabei auch mit, wer als _Local Data Steward_ Ansprechperson für das Kompetenzzentrum ist. Grössere Organisationen vergeben die Lese- und Schreibrechte für ihre Mitarbeitenden selbst (Rollen _Viewer_ und _Submitter_). Weitere Informationen zur Verwaltung der Zugangsrechte finden Sie unter [Kontenverwaltung](/de/plattform/kontenverwaltung/). Das Team wird Ihre Anfrage prüfen und alle nötigen Arbeiten einleiten.
 
-- Direkt oder indirekt zur Erfüllung einer öffentlichen Aufgabe oder einer Aufgabe im Allgemeininteresse beitragen (z.B. Mobilität, Umwelt, Energie, Gesundheitswesen)
-- Von mehreren Kategorien von Akteuren genutzt werden können
-- Das Verständnis eines Phänomens oder einer Aktivität mit Auswirkungen auf die Gesellschaft verbessern
-- Zur Erstellung weiterer Services, Analysen oder Produkte genutzt werden können
-- Ein Thema betreffen, das über die Interessen der Publikationsorganisation hinausgeht
-
-### Ausnahme für private Auftragnehmer
-
-Wenn eine private Organisation nur als Dienstleisterin für eine öffentliche Verwaltung tätig ist, sollte sie nicht als eigenständiger Produzent registriert werden. In diesem Fall sollten die Inhalte unter der verantwortlichen öffentlichen Organisation publiziert werden.
-
----
-
-## Verwaltung und Kontakt für Organisationen
-
-### Eröffnung organisationsinterner Bereiche
-
-Der organisationsinterne Bereich muss vom **Kompetenzzentrum Datenbewirtschaftung** eröffnet werden. Dies ist notwendig, damit die Organisation ihre Metadaten in einem geschützten Bereich erfassen und bearbeiten kann, bevor sie diese publiziert.
-
-### Pflege von Organisationsinformationen
-
-Das Kompetenzzentrum Datenbewirtschaftung pflegt die **Zusatzangaben** auf der Organisationsseite, wie:
-
-- Organisationsbeschreibung
-- Logo
-- Adresse und Kontaktinformationen
-- Weitere institutionelle Informationen
-
-Diese Angaben sind auf der öffentlichen Übersichtsseite der Organisationen (z.B. [https://www.i14y.admin.ch/de/organisations](https://www.i14y.admin.ch/de/organisations)) sichtbar und helfen Nutzern, die Organisation und ihre Verantwortung zu verstehen.
-
-### Neue Organisationen und Änderungswünsche
-
-Soll eine neue Organisation auf I14Y erstellt werden oder möchten Sie Angaben zu Ihrer Organisation ändern (z.B. Beschreibung, Logo, Adresse aktualisieren), kontaktieren Sie das **[Kompetenzzentrum Datenbewirtschaftung](mailto:i14y@bfs.admin.ch)**. Das Team wird Ihre Anfrage prüfen und alle notwendigen Massnahmen einleiten.
+Das Kompetenzzentrum Datenbewirtschaftung pflegt die Zusatzangaben auf der Organisationsseite, wie die Beschreibung der Organisation, die Kontaktadresse, das Logo etc. Diese Angaben sind auf der öffentlichen Übersichtsseite der Organisationen (z.B. [https://www.i14y.admin.ch/de/organisations](https://www.i14y.admin.ch/de/organisations)) sichtbar und helfen den Nutzeenden, die Organisation und ihre Verantwortung zu verstehen.
